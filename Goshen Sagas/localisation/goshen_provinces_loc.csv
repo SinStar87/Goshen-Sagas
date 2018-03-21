@@ -1,0 +1,546 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Province Names
+PROV1;West Kauni Forest;;;;;;;;;;;;;x
+PROV2;South Kauni;;;;;;;;;;;;;x
+PROV3;South Kauni Forest;;;;;;;;;;;;;x
+PROV4;Central Kauni;;;;;;;;;;;;;x
+PROV5;North Kauni;;;;;;;;;;;;;x
+PROV6;East Kauni Forest;;;;;;;;;;;;;x
+PROV7;South Insol;;;;;;;;;;;;;x
+PROV8;East Insol;;;;;;;;;;;;;x
+PROV9;West Insol;;;;;;;;;;;;;x
+PROV10;North Trovo;;;;;;;;;;;;;x
+PROV11;Central Trovo;;;;;;;;;;;;;x
+PROV12;South Trovo;;;;;;;;;;;;;x
+PROV13;Southwest Ko;;;;;;;;;;;;;x
+PROV14;Southeast Ko;;;;;;;;;;;;;x
+PROV15;North Ko;;;;;;;;;;;;;x
+PROV16;Anin Ko Coast;;;;;;;;;;;;;x
+PROV17;West S.W. Anin Plains;;;;;;;;;;;;;x
+PROV18;South S.W. Anin Plains;;;;;;;;;;;;;x
+PROV19;West S. Anin Plains;;;;;;;;;;;;;x
+PROV20;North W. Daly Mountains;;;;;;;;;;;;;x
+PROV21;South Anin Plains;;;;;;;;;;;;;x
+PROV22;East S. Anin Plains;;;;;;;;;;;;;x
+PROV23;West S.E. Anin Plains;;;;;;;;;;;;;x
+PROV24;South S.E. Anin Plains;;;;;;;;;;;;;x
+PROV25;West Daly Mountains;;;;;;;;;;;;;x
+PROV26;Southwest Anin Plains;;;;;;;;;;;;;x
+PROV27;Southwest S.W. Anin Plains;;;;;;;;;;;;;x
+PROV28;North C. Anin Ko Coast;;;;;;;;;;;;;x
+PROV29;South C. Anin Ko Coast;;;;;;;;;;;;;x
+PROV30;North S.W. Anin Plains;;;;;;;;;;;;;x
+PROV31;South C. Anin Plains;;;;;;;;;;;;;x
+PROV32;Southwest C. Anin Plains;;;;;;;;;;;;;x
+PROV33;Southeast C. Anin Plains;;;;;;;;;;;;;x
+PROV34;Southeast Anin Plains;;;;;;;;;;;;;x
+PROV35;Central Vitat Canyon;;;;;;;;;;;;;x
+PROV36;Northwest S.W. Anin Plains;;;;;;;;;;;;;x
+PROV37;Central Anin Plains;;;;;;;;;;;;;x
+PROV38;North S.E. Anin Plains;;;;;;;;;;;;;x
+PROV39;Northeast S.E. Anin Plains;;;;;;;;;;;;;x
+PROV40;Northwest S.E. Anin Plains;;;;;;;;;;;;;x
+PROV41;South Anin Ko Coast;;;;;;;;;;;;;x
+PROV42;North Anin Ko Coast;;;;;;;;;;;;;x
+PROV43;Northwest C. Anin Plains;;;;;;;;;;;;;x
+PROV44;South N.E. Anin Plains;;;;;;;;;;;;;x
+PROV45;North C. Anin Plains;;;;;;;;;;;;;x
+PROV46;East S. Majat Mountains;;;;;;;;;;;;;x
+PROV47;Blav;;;;;;;;;;;;;x
+PROV48;Blav Approach;;;;;;;;;;;;;x
+PROV49;North Ades Coast;;;;;;;;;;;;;x
+PROV50;East Zalv Forest;;;;;;;;;;;;;x
+PROV51;West Zalv Forest;;;;;;;;;;;;;x
+PROV52;Southeast Zalv Forest;;;;;;;;;;;;;x
+PROV53;Southwest N. Anin Plains;;;;;;;;;;;;;x
+PROV54;Southwest N.E. Anin Plains;;;;;;;;;;;;;x
+PROV55;South N. Vitat Canyon;;;;;;;;;;;;;x
+PROV56;Southwest Zalv Forest;;;;;;;;;;;;;x
+PROV57;West Ades Plains;;;;;;;;;;;;;x
+PROV58;East Ades Plains;;;;;;;;;;;;;x
+PROV59;West E. Ades Plains;;;;;;;;;;;;;x
+PROV60;West N.E. Anin Plains;;;;;;;;;;;;;x
+PROV61;Northeast Anin Plains;;;;;;;;;;;;;x
+PROV62;Southeast N. Anin Plains;;;;;;;;;;;;;x
+PROV63;Central Ades Plains;;;;;;;;;;;;;x
+PROV64;South W. Ades Plains;;;;;;;;;;;;;x
+PROV65;South Ades Coast;;;;;;;;;;;;;x
+PROV66;Mount Koryfi;;;;;;;;;;;;;x
+PROV67;East C. Ades Plains;;;;;;;;;;;;;x
+PROV68;North Anin Plains;;;;;;;;;;;;;x
+PROV69;Northwest N.E. Anin Plains;;;;;;;;;;;;;x
+PROV70;South E. Ades Plains;;;;;;;;;;;;;x
+PROV71;West C. Ades Plains;;;;;;;;;;;;;x
+PROV72;North N.E. Anin Plains;;;;;;;;;;;;;x
+PROV73;Northeast N. Anin Plains;;;;;;;;;;;;;x
+PROV74;West N. Anin Plains;;;;;;;;;;;;;x
+PROV75;East N. Anin Coast;;;;;;;;;;;;;x
+PROV76;Central N. Anin Coast;;;;;;;;;;;;;x
+PROV77;North Anin Coast;;;;;;;;;;;;;x
+PROV78;West N. Anin Coast;;;;;;;;;;;;;x
+PROV79;East Pan Cliffs;;;;;;;;;;;;;x
+PROV80;West Navo Coast;;;;;;;;;;;;;x
+PROV81;Navo's Mouth;;;;;;;;;;;;;x
+PROV82;North E. Navo Desert;;;;;;;;;;;;;x
+PROV83;East E. Navo Desert;;;;;;;;;;;;;x
+PROV84;West E. Daly Mountains;;;;;;;;;;;;;x
+PROV85;West Rannu River;;;;;;;;;;;;;x
+PROV86;North Rannu Plains;;;;;;;;;;;;;x
+PROV87;Qess Fort;;;;;;;;;;;;;x
+PROV88;Lower Navo River;;;;;;;;;;;;;x
+PROV89;North E. Daly Mountains;;;;;;;;;;;;;x
+PROV90;East Rannu River;;;;;;;;;;;;;x
+PROV91;North Upper Navo River;;;;;;;;;;;;;x
+PROV92;East Navo Coast;;;;;;;;;;;;;x
+PROV93;North W. Navo Desert;;;;;;;;;;;;;x
+PROV94;North Rannu Coast;;;;;;;;;;;;;x
+PROV95;South Rannu Plains;;;;;;;;;;;;;x
+PROV96;Northeast Rannu Coast;;;;;;;;;;;;;x
+PROV97;Central E. Daly Mountains;;;;;;;;;;;;;x
+PROV98;North Vitat Canyon;;;;;;;;;;;;;x
+PROV99;East Navo Desert;;;;;;;;;;;;;x
+PROV100;South Upper Navo River;;;;;;;;;;;;;x
+PROV101;South Rannu Coast;;;;;;;;;;;;;x
+PROV102;South E. Navo Desert;;;;;;;;;;;;;x
+PROV103;West Navo Desert;;;;;;;;;;;;;x
+PROV104;East W. Navo Desert;;;;;;;;;;;;;x
+PROV105;South E. Daly Mountains;;;;;;;;;;;;;x
+PROV106;Silt Castle;;;;;;;;;;;;;x
+PROV107;Byajvo's Approach;;;;;;;;;;;;;x
+PROV108;South W. Navo Desert;;;;;;;;;;;;;x
+PROV109;North C.E. Daly Mountains;;;;;;;;;;;;;x
+PROV110;Northeast C. Vitat Canyon;;;;;;;;;;;;;x
+PROV111;East Dying Lands Barrier;;;;;;;;;;;;;x
+PROV112;East C.E. Daly Mountains;;;;;;;;;;;;;x
+PROV113;Northeast Yava Forest;;;;;;;;;;;;;x
+PROV114;West N.E. Yava Forest;;;;;;;;;;;;;x
+PROV115;North Upper Dying Lands Coast;;;;;;;;;;;;;x
+PROV116;Northwest Dying Lands;;;;;;;;;;;;;x
+PROV117;Northeast Dying Lands;;;;;;;;;;;;;x
+PROV118;South N.E. Yava Forest;;;;;;;;;;;;;x
+PROV119;Bottomless Hole;;;;;;;;;;;;;x
+PROV120;South N.W. Yava Forest;;;;;;;;;;;;;x
+PROV121;East C. Vitat Canyon;;;;;;;;;;;;;x
+PROV122;East Yava Forest;;;;;;;;;;;;;x
+PROV123;East Dying Lands;;;;;;;;;;;;;x
+PROV124;East C. Yava Forest;;;;;;;;;;;;;x
+PROV125;South Upper Dying Lands Coast;;;;;;;;;;;;;x
+PROV126;Central Yava Forest;;;;;;;;;;;;;x
+PROV127;Central Dying Lands;;;;;;;;;;;;;x
+PROV128;North W. Dying Lands;;;;;;;;;;;;;x
+PROV129;Northwest S. Yava Forest;;;;;;;;;;;;;x
+PROV130;West E. Yava Forest;;;;;;;;;;;;;x
+PROV131;Northeast S. Yava Forest;;;;;;;;;;;;;x
+PROV132;West Dying Lands;;;;;;;;;;;;;x
+PROV133;North Lower Dying Lands Coast;;;;;;;;;;;;;x
+PROV134;North Door to Yava;;;;;;;;;;;;;x
+PROV135;South C. Dying Lands;;;;;;;;;;;;;x
+PROV136;Southeast C. Dying Lands;;;;;;;;;;;;;x
+PROV137;South Yava Forest;;;;;;;;;;;;;x
+PROV138;South Door to Yava;;;;;;;;;;;;;x
+PROV139;North S. Dying Lands;;;;;;;;;;;;;x
+PROV140;South W. Dying Lands;;;;;;;;;;;;;x
+PROV141;Southeast Dying Lands;;;;;;;;;;;;;x
+PROV142;South Lower Dying Lands Coast;;;;;;;;;;;;;x
+PROV143;East S. Yava Forest;;;;;;;;;;;;;x
+PROV144;Southwest Dying Lands;;;;;;;;;;;;;x
+PROV145;South Dying Lands;;;;;;;;;;;;;x
+PROV146;Northeast Zane Desert;;;;;;;;;;;;;x
+PROV147;Southwest S.E. Anin Plains;;;;;;;;;;;;;x
+PROV148;Gap in the Mountain;;;;;;;;;;;;;x
+PROV149;West C. Vitat Canyon;;;;;;;;;;;;;x
+PROV150;East W. Daly Mountains;;;;;;;;;;;;;x
+PROV151;North W. Ades Plains;;;;;;;;;;;;;x
+PROV152;Northwest C. Vitat Canyon;;;;;;;;;;;;;x
+PROV153;South Majat Mountains;;;;;;;;;;;;;x
+PROV154;Zalv Forest;;;;;;;;;;;;;x
+PROV155;North E. Ades Plains;;;;;;;;;;;;;x
+PROV156;Home of the Vitat;;;;;;;;;;;;;x
+PROV157;Southwest W. Daly Mountains;;;;;;;;;;;;;x
+PROV158;West S. Majat Mountains;;;;;;;;;;;;;x
+PROV159;East N.E. Anin Plains;;;;;;;;;;;;;x
+PROV160;Northeast E. Ades Plains;;;;;;;;;;;;;x
+PROV161;Central Majat Mountains;;;;;;;;;;;;;x
+PROV162;Northwest N. Anin Plains;;;;;;;;;;;;;x
+PROV163;West Pan Cliffs;;;;;;;;;;;;;x
+PROV164;Southeast Rannu Coast;;;;;;;;;;;;;x
+PROV165;Northwest N. Vitat Canyon;;;;;;;;;;;;;x
+PROV166;Southeast E. Navo Desert;;;;;;;;;;;;;x
+PROV167;Niya Falls;;;;;;;;;;;;;x
+PROV168;North C. Vitat Canyon;;;;;;;;;;;;;x
+PROV169;Byajvo's Keep;;;;;;;;;;;;;x
+PROV170;West Dying Lands Barrier;;;;;;;;;;;;;x
+PROV171;Byajvo's Cradle;;;;;;;;;;;;;x
+PROV172;Central E. Daly Mountains;;;;;;;;;;;;;x
+PROV173;West C.E. Daly Mountains;;;;;;;;;;;;;x
+PROV174;East N.W. Yava Forest;;;;;;;;;;;;;x
+PROV175;Northwest Yava Forest;;;;;;;;;;;;;x
+PROV176;West C. Yava Forest;;;;;;;;;;;;;x
+PROV177;Confusion Valley;;;;;;;;;;;;;x
+PROV178;Saar;;;;;;;;;;;;;x
+PROV179;Norrain's Mouth;;;;;;;;;;;;;x
+PROV180;Norrain's West Bend;;;;;;;;;;;;;x
+PROV181;Norrain's Southwest W. Bend;;;;;;;;;;;;;x
+PROV182;Norrain River;;;;;;;;;;;;;x
+PROV183;South Norrain Forest;;;;;;;;;;;;;x
+PROV184;South Frozen Plains;;;;;;;;;;;;;x
+PROV185;North Ice Sheets;;;;;;;;;;;;;x
+PROV186;Northwest W. Abimelechs;;;;;;;;;;;;;x
+PROV187;North Frozen Floods;;;;;;;;;;;;;x
+PROV188;South Frozen Floods;;;;;;;;;;;;;x
+PROV189;Lesser Etzu River;;;;;;;;;;;;;x
+PROV190;Lower Mighty Etzu River;;;;;;;;;;;;;x
+PROV191;Upper Mighty Etzu River;;;;;;;;;;;;;x
+PROV192;South C. Abimelechs;;;;;;;;;;;;;x
+PROV193;West S.W. Black Wastes;;;;;;;;;;;;;x
+PROV194;North Hunute Forest;;;;;;;;;;;;;x
+PROV195;Southwest Black Wastes;;;;;;;;;;;;;x
+PROV196;East S.W. Black Wastes;;;;;;;;;;;;;x
+PROV197;North Black Fog Mountains;;;;;;;;;;;;;x
+PROV198;Southeast E. Norrain Forest;;;;;;;;;;;;;x
+PROV199;Southeast C. Abimelechs;;;;;;;;;;;;;x
+PROV200;South Black Wastes Coast;;;;;;;;;;;;;x
+PROV201;South W. Norrain Forest;;;;;;;;;;;;;x
+PROV202;South E. Norrain Forest;;;;;;;;;;;;;x
+PROV203;North Kalani Coast;;;;;;;;;;;;;x
+PROV204;Central Abimelechs;;;;;;;;;;;;;x
+PROV205;West C. Abimelechs;;;;;;;;;;;;;x
+PROV206;South Ice Sheets;;;;;;;;;;;;;x
+PROV207;East Norrain River;;;;;;;;;;;;;x
+PROV208;Central Black Wastes Coast;;;;;;;;;;;;;x
+PROV209;East N. Kalani Coast;;;;;;;;;;;;;x
+PROV210;Frozen Spring;;;;;;;;;;;;;x
+PROV211;Central Frozen Plains;;;;;;;;;;;;;x
+PROV212;Black Fog Falls;;;;;;;;;;;;;x
+PROV213;North W. Kalan Fields;;;;;;;;;;;;;x
+PROV214;Norrain's Source;;;;;;;;;;;;;x
+PROV215;Etzu Falls;;;;;;;;;;;;;x
+PROV216;East W. Norrain Forest;;;;;;;;;;;;;x
+PROV217;Abimelech Falls;;;;;;;;;;;;;x
+PROV218;East C. Abimelechs;;;;;;;;;;;;;x
+PROV219;Kalan Village;;;;;;;;;;;;;x
+PROV220;Southwest W. Norrain Forest;;;;;;;;;;;;;x
+PROV221;South Black Wastes;;;;;;;;;;;;;x
+PROV222;Northwest Hunute Forest;;;;;;;;;;;;;x
+PROV223;East S. Black Wastes;;;;;;;;;;;;;x
+PROV224;West S. Black Wastes;;;;;;;;;;;;;x
+PROV225;East E. Norrain Forest;;;;;;;;;;;;;x
+PROV226;Central E. Norrain Forest;;;;;;;;;;;;;x
+PROV227;Southeast N. Abimelechs;;;;;;;;;;;;;x
+PROV228;South Etzu Lake;;;;;;;;;;;;;x
+PROV229;Southwest W. Black Wastes;;;;;;;;;;;;;x
+PROV230;Northeast E. Kalan Fields;;;;;;;;;;;;;x
+PROV231;North C. Kalan Fields;;;;;;;;;;;;;x
+PROV232;Northeast Hunute Forest;;;;;;;;;;;;;x
+PROV233;Northwest E. Kalan Fields;;;;;;;;;;;;;x
+PROV234;South Kalani Coast;;;;;;;;;;;;;x
+PROV235;Southeast Etzu Lake;;;;;;;;;;;;;x
+PROV236;Frozen Plains;;;;;;;;;;;;;x
+PROV237;War Hall's Approach;;;;;;;;;;;;;x
+PROV238;South N. Abimelechs;;;;;;;;;;;;;x
+PROV239;West Abimelechs;;;;;;;;;;;;;x
+PROV240;West Black Wastes;;;;;;;;;;;;;x
+PROV241;South Black Fog Mountains;;;;;;;;;;;;;x
+PROV242;West Etzu Lake;;;;;;;;;;;;;x
+PROV243;West E. Kalan Fields;;;;;;;;;;;;;x
+PROV244;East Kalan Fields;;;;;;;;;;;;;x
+PROV245;Central W. Norrain Forest;;;;;;;;;;;;;x
+PROV246;West W. Norrain Forest;;;;;;;;;;;;;x
+PROV247;Etzu Lake;;;;;;;;;;;;;x
+PROV248;East Frozen Marshes;;;;;;;;;;;;;x
+PROV249;West Frozen Marshes;;;;;;;;;;;;;x
+PROV250;Hunute Forest;;;;;;;;;;;;;x
+PROV251;Levyt River Source;;;;;;;;;;;;;x
+PROV252;Black Fog Mountains;;;;;;;;;;;;;x
+PROV253;Northeast Etzu Lake;;;;;;;;;;;;;x
+PROV254;North C. Black Wastes Coast;;;;;;;;;;;;;x
+PROV255;Southwest Hunute Forest;;;;;;;;;;;;;x
+PROV256;West Kalan Fields;;;;;;;;;;;;;x
+PROV257;Frozen Marshes;;;;;;;;;;;;;x
+PROV258;South N.E. Black Wastes;;;;;;;;;;;;;x
+PROV259;East N. Abimelechs;;;;;;;;;;;;;x
+PROV260;East W. Kalan Fields;;;;;;;;;;;;;x
+PROV261;West N. Abimelechs;;;;;;;;;;;;;x
+PROV262;West Hunute Approach;;;;;;;;;;;;;x
+PROV263;North Upper Levyt River;;;;;;;;;;;;;x
+PROV264;North E. Levyt Plains;;;;;;;;;;;;;x
+PROV265;Southeast Hunute Forest;;;;;;;;;;;;;x
+PROV266;East S. Kalani Coast;;;;;;;;;;;;;x
+PROV267;Northwest E. Norrain Forest;;;;;;;;;;;;;x
+PROV268;Northeast E. Norrain Forest;;;;;;;;;;;;;x
+PROV269;Central Kalan Fields;;;;;;;;;;;;;x
+PROV270;North Frozen Plains;;;;;;;;;;;;;x
+PROV271;North E. Norrain Forest;;;;;;;;;;;;;x
+PROV272;Zuvaki Palace;;;;;;;;;;;;;x
+PROV273;Northeast Black Wastes;;;;;;;;;;;;;x
+PROV274;Etzu's Mouth;;;;;;;;;;;;;x
+PROV275;South Upper Levyt River;;;;;;;;;;;;;x
+PROV276;North Frozen Marshes;;;;;;;;;;;;;x
+PROV277;East Tainted Greys;;;;;;;;;;;;;x
+PROV278;Etzu Berth;;;;;;;;;;;;;x
+PROV279;South C. Kalan Fields;;;;;;;;;;;;;x
+PROV280;North N.E. Black Wastes;;;;;;;;;;;;;x
+PROV281;South Hunute Forest;;;;;;;;;;;;;x
+PROV282;North Black Wastes Coast;;;;;;;;;;;;;x
+PROV283;Southwest N. Black Wastes;;;;;;;;;;;;;x
+PROV284;Southeast N. Black Wastes;;;;;;;;;;;;;x
+PROV285;West Hunute Forest;;;;;;;;;;;;;x
+PROV286;Dead Coast;;;;;;;;;;;;;x
+PROV287;East Levyt Coast;;;;;;;;;;;;;x
+PROV288;West N. Black Wastes;;;;;;;;;;;;;x
+PROV289;North Basli Plains;;;;;;;;;;;;;x
+PROV290;East Levyt Plains;;;;;;;;;;;;;x
+PROV291;Kalani Border;;;;;;;;;;;;;x
+PROV292;North Basli Forest;;;;;;;;;;;;;x
+PROV293;North Lower Levyt River;;;;;;;;;;;;;x
+PROV294;North Black Wastes;;;;;;;;;;;;;x
+PROV295;Northeast E. Earthfort Mountains;;;;;;;;;;;;;x
+PROV296;Southeast W. Earthfort Mountains;;;;;;;;;;;;;x
+PROV297;North N. Grey Plains;;;;;;;;;;;;;x
+PROV298;South Lower Levyt River;;;;;;;;;;;;;x
+PROV299;Levyt East Bank;;;;;;;;;;;;;x
+PROV300;East Basli Forest;;;;;;;;;;;;;x
+PROV301;West Levyt Plains;;;;;;;;;;;;;x
+PROV302;North E. Earthfort Mountains;;;;;;;;;;;;;x
+PROV303;Basli Forest;;;;;;;;;;;;;x
+PROV304;West W. Levyt Plains;;;;;;;;;;;;;x
+PROV305;South N. Grey Plains;;;;;;;;;;;;;x
+PROV306;East E. Earthfort Mountains;;;;;;;;;;;;;x
+PROV307;East Grey Plains;;;;;;;;;;;;;x
+PROV308;South Basli Plains;;;;;;;;;;;;;x
+PROV309;North Grey Plains;;;;;;;;;;;;;x
+PROV310;East C. Grey Plains;;;;;;;;;;;;;x
+PROV311;North Levyt;;;;;;;;;;;;;x
+PROV312;Southeast E. Earthfort Mountains;;;;;;;;;;;;;x
+PROV313;Levyt West Bank;;;;;;;;;;;;;x
+PROV314;Central Grey Plains;;;;;;;;;;;;;x
+PROV315;East Grey Coast;;;;;;;;;;;;;x
+PROV316;East Earthfort Mountains;;;;;;;;;;;;;x
+PROV317;Hideaway;;;;;;;;;;;;;x
+PROV318;Levyt City;;;;;;;;;;;;;x
+PROV319;South Basli Forest;;;;;;;;;;;;;x
+PROV320;Grey Mountains;;;;;;;;;;;;;x
+PROV321;Southeast Basli Forest;;;;;;;;;;;;;x
+PROV322;Earthfort Coasts;;;;;;;;;;;;;x
+PROV323;West E. Grey Coast;;;;;;;;;;;;;x
+PROV324;West Grey Coast;;;;;;;;;;;;;x
+PROV325;South E. Earthfort Mountains;;;;;;;;;;;;;x
+PROV326;Southwest Grey Mountains;;;;;;;;;;;;;x
+PROV327;South Grey Mountains;;;;;;;;;;;;;x
+PROV328;West Black Fog Mountains;;;;;;;;;;;;;x
+PROV329;North W. Abimelechs;;;;;;;;;;;;;x
+PROV330;Northwest Black Fog Mountains;;;;;;;;;;;;;x
+PROV331;Great War Hall;;;;;;;;;;;;;x
+PROV332;South W. Abimelechs;;;;;;;;;;;;;x
+PROV333;North Tainted Greys;;;;;;;;;;;;;x
+PROV334;Varo's Heart;;;;;;;;;;;;;x
+PROV335;North W. Earthfort Mountains;;;;;;;;;;;;;x
+PROV336;North Abimelechs;;;;;;;;;;;;;x
+PROV337;W. Earthfort Drugar Nests;;;;;;;;;;;;;x
+PROV338;Collsi Capital;;;;;;;;;;;;;x
+PROV339;Tainted Greys Drugar Nests;;;;;;;;;;;;;x
+PROV340;South W. Earthfort Mountains;;;;;;;;;;;;;x
+PROV341;South Tainted Greys;;;;;;;;;;;;;x
+PROV342;Gayl Hunting Grounds;;;;;;;;;;;;;x
+PROV343;E. Earthfort Drugar Nests;;;;;;;;;;;;;x
+PROV344;Huargen;;;;;;;;;;;;;x
+PROV345;Stro;;;;;;;;;;;;;x
+PROV346;Creche of the Gods;;;;;;;;;;;;;x
+PROV347;Elfall Volcano;;;;;;;;;;;;;x
+PROV348;Elfall;;;;;;;;;;;;;x
+PROV349;Laaki's Womb;;;;;;;;;;;;;x
+PROV350;Vane Desert;;;;;;;;;;;;;x
+PROV351;Stra;;;;;;;;;;;;;x
+PROV352;North Kzi;;;;;;;;;;;;;x
+PROV353;South Kzi;;;;;;;;;;;;;x
+PROV354;Central Kzi;;;;;;;;;;;;;x
+PROV355;355;;;;;;;;;;;;;x
+PROV356;Oto;;;;;;;;;;;;;x
+PROV357;357;;;;;;;;;;;;;x
+PROV358;Right Twin;;;;;;;;;;;;;x
+PROV359;Umi;;;;;;;;;;;;;x
+PROV360;West Hese Forest;;;;;;;;;;;;;x
+PROV361;Central Hese Forest;;;;;;;;;;;;;x
+PROV362;North Hese Forest;;;;;;;;;;;;;x
+PROV363;East Jese Coast;;;;;;;;;;;;;x
+PROV364;West Jese Coast;;;;;;;;;;;;;x
+PROV365;Jese Castle;;;;;;;;;;;;;x
+PROV366;East S. Hese Coast;;;;;;;;;;;;;x
+PROV367;Southwest Hese Forest;;;;;;;;;;;;;x
+PROV368;South Hese Forest;;;;;;;;;;;;;x
+PROV369;West S. Hese Coast;;;;;;;;;;;;;x
+PROV370;East N. Hese Coast;;;;;;;;;;;;;x
+PROV371;West N. Hese Coast;;;;;;;;;;;;;x
+PROV372;Topa;;;;;;;;;;;;;x
+PROV373;Cenno;;;;;;;;;;;;;x
+PROV374;Left Twin;;;;;;;;;;;;;x
+PROV375;Belar;;;;;;;;;;;;;x
+PROV376;West Gawei Coast;;;;;;;;;;;;;x
+PROV377;South Solwood;;;;;;;;;;;;;x
+PROV378;Anlas;;;;;;;;;;;;;x
+PROV379;North Sun River;;;;;;;;;;;;;x
+PROV380;West N. Hal Mountains;;;;;;;;;;;;;x
+PROV381;East N. Hal Mountains;;;;;;;;;;;;;x
+PROV382;Southeast N. Hal Mountains;;;;;;;;;;;;;x
+PROV383;Southwest N. Hal Mountains;;;;;;;;;;;;;x
+PROV384;North Solwood;;;;;;;;;;;;;x
+PROV385;Sun River;;;;;;;;;;;;;x
+PROV386;Northeast N. Hal Mountains;;;;;;;;;;;;;x
+PROV387;North Hal Mountains;;;;;;;;;;;;;x
+PROV388;Southwest S. Hal Mountains;;;;;;;;;;;;;x
+PROV389;South Hal Mountains;;;;;;;;;;;;;x
+PROV390;West S. Gawei Coast;;;;;;;;;;;;;x
+PROV391;East S. Gawei Coast;;;;;;;;;;;;;x
+PROV392;Gawei Village;;;;;;;;;;;;;x
+PROV393;South Gawei Coast;;;;;;;;;;;;;x
+PROV394;Gawei Castle;;;;;;;;;;;;;x
+PROV395;Kami;;;;;;;;;;;;;x
+PROV396;Khes;;;;;;;;;;;;;x
+PROV397;Maku;;;;;;;;;;;;;x
+PROV398;North Dusk Sea;;;;;;;;;;;;;x
+PROV399;North Dusk Sea;;;;;;;;;;;;;x
+PROV400;North Dusk Sea;;;;;;;;;;;;;x
+PROV401;North Dusk Sea;;;;;;;;;;;;;x
+PROV402;North Dusk Sea;;;;;;;;;;;;;x
+PROV403;North Dusk Sea;;;;;;;;;;;;;x
+PROV404;North Dusk Sea;;;;;;;;;;;;;x
+PROV405;North Dusk Sea;;;;;;;;;;;;;x
+PROV406;North Dusk Sea;;;;;;;;;;;;;x
+PROV407;North Dusk Sea;;;;;;;;;;;;;x
+PROV408;North Dusk Sea;;;;;;;;;;;;;x
+PROV409;North Dusk Sea;;;;;;;;;;;;;x
+PROV410;North Dusk Sea;;;;;;;;;;;;;x
+PROV411;North Dusk Sea;;;;;;;;;;;;;x
+PROV412;North Dusk Sea;;;;;;;;;;;;;x
+PROV413;North Dusk Sea;;;;;;;;;;;;;x
+PROV414;North Dusk Sea;;;;;;;;;;;;;x
+PROV415;North Dusk Sea;;;;;;;;;;;;;x
+PROV416;North Dusk Sea;;;;;;;;;;;;;x
+PROV417;North Dusk Sea;;;;;;;;;;;;;x
+PROV418;North Dusk Sea;;;;;;;;;;;;;x
+PROV419;North Dusk Sea;;;;;;;;;;;;;x
+PROV420;North Dusk Sea;;;;;;;;;;;;;x
+PROV421;South Dusk Sea;;;;;;;;;;;;;x
+PROV422;South Dusk Sea;;;;;;;;;;;;;x
+PROV423;Midday Channel;;;;;;;;;;;;;x
+PROV424;Midday Channel;;;;;;;;;;;;;x
+PROV425;South Dusk Sea;;;;;;;;;;;;;x
+PROV426;South Dusk Sea;;;;;;;;;;;;;x
+PROV427;South Dusk Sea;;;;;;;;;;;;;x
+PROV428;Midday Channel;;;;;;;;;;;;;x
+PROV429;Midday Channel;;;;;;;;;;;;;x
+PROV430;Midday Channel;;;;;;;;;;;;;x
+PROV431;Midday Channel;;;;;;;;;;;;;x
+PROV432;Midday Channel;;;;;;;;;;;;;x
+PROV433;Elfall Bay;;;;;;;;;;;;;x
+PROV434;Elfall Bay;;;;;;;;;;;;;x
+PROV435;Midday Channel;;;;;;;;;;;;;x
+PROV436;Levyt Strait;;;;;;;;;;;;;x
+PROV437;Midday Channel;;;;;;;;;;;;;x
+PROV438;Elfall's Flow;;;;;;;;;;;;;x
+PROV439;Midday Channel;;;;;;;;;;;;;x
+PROV440;Elfall Bay;;;;;;;;;;;;;x
+PROV441;Midday Channel;;;;;;;;;;;;;x
+PROV442;Midday Channel;;;;;;;;;;;;;x
+PROV443;Midday Channel;;;;;;;;;;;;;x
+PROV444;Dawn Sea;;;;;;;;;;;;;x
+PROV445;Midday Channel;;;;;;;;;;;;;x
+PROV446;Midday Channel;;;;;;;;;;;;;x
+PROV447;Dawn Sea;;;;;;;;;;;;;x
+PROV448;Dawn Sea;;;;;;;;;;;;;x
+PROV449;South Dusk Sea;;;;;;;;;;;;;x
+PROV450;South Dusk Sea;;;;;;;;;;;;;x
+PROV451;Umi Straits;;;;;;;;;;;;;x
+PROV452;Dawn Sea;;;;;;;;;;;;;x
+PROV453;Midday Channel;;;;;;;;;;;;;x
+PROV454;Dawn Sea;;;;;;;;;;;;;x
+PROV455;Midday Channel;;;;;;;;;;;;;x
+PROV456;Midday Channel;;;;;;;;;;;;;x
+PROV457;Dawn Sea;;;;;;;;;;;;;x
+PROV458;Dawn Sea;;;;;;;;;;;;;x
+PROV459;Dawn Sea;;;;;;;;;;;;;x
+PROV460;Dawn Sea;;;;;;;;;;;;;x
+PROV461;Dawn Sea;;;;;;;;;;;;;x
+PROV462;Dawn Sea;;;;;;;;;;;;;x
+PROV463;Dawn Sea;;;;;;;;;;;;;x
+PROV464;Dawn Sea;;;;;;;;;;;;;x
+PROV465;Dawn Sea;;;;;;;;;;;;;x
+PROV466;Dawn Sea;;;;;;;;;;;;;x
+PROV467;Dawn Sea;;;;;;;;;;;;;x
+PROV468;Dawn Sea;;;;;;;;;;;;;x
+PROV469;Dawn Sea;;;;;;;;;;;;;x
+PROV470;Dawn Sea;;;;;;;;;;;;;x
+PROV471;Dawn Sea;;;;;;;;;;;;;x
+PROV472;Dawn Sea;;;;;;;;;;;;;x
+PROV473;Dawn Sea;;;;;;;;;;;;;x
+PROV474;Dawn Sea;;;;;;;;;;;;;x
+PROV475;Dawn Sea;;;;;;;;;;;;;x
+PROV476;Dawn Sea;;;;;;;;;;;;;x
+PROV477;Dawn Sea;;;;;;;;;;;;;x
+PROV478;Giji Bay;;;;;;;;;;;;;x
+PROV479;Dawn Sea;;;;;;;;;;;;;x
+PROV480;Dawn Sea;;;;;;;;;;;;;x
+PROV481;Dawn Sea;;;;;;;;;;;;;x
+PROV482;Dawn Sea;;;;;;;;;;;;;x
+PROV483;Dawn Sea;;;;;;;;;;;;;x
+PROV484;Dawn Sea;;;;;;;;;;;;;x
+PROV485;Dawn Sea;;;;;;;;;;;;;x
+PROV486;Dawn Sea;;;;;;;;;;;;;x
+PROV487;Dawn Sea;;;;;;;;;;;;;x
+PROV488;South Dusk Sea;;;;;;;;;;;;;x
+PROV489;South Dusk Sea;;;;;;;;;;;;;x
+PROV490;South Dusk Sea;;;;;;;;;;;;;x
+PROV491;South Dusk Sea;;;;;;;;;;;;;x
+PROV492;South Dusk Sea;;;;;;;;;;;;;x
+PROV493;South Dusk Sea;;;;;;;;;;;;;x
+PROV494;South Dusk Sea;;;;;;;;;;;;;x
+PROV495;South Dusk Sea;;;;;;;;;;;;;x
+PROV496;South Dusk Sea;;;;;;;;;;;;;x
+PROV497;South Dusk Sea;;;;;;;;;;;;;x
+PROV498;South Dusk Sea;;;;;;;;;;;;;x
+PROV499;South Dusk Sea;;;;;;;;;;;;;x
+PROV500;South Dusk Sea;;;;;;;;;;;;;x
+PROV501;Dawn Sea;;;;;;;;;;;;;x
+PROV502;Dawn Sea;;;;;;;;;;;;;x
+PROV503;Dawn Sea;;;;;;;;;;;;;x
+PROV504;Dawn Sea;;;;;;;;;;;;;x
+PROV505;Dawn Sea;;;;;;;;;;;;;x
+PROV506;Dawn Sea;;;;;;;;;;;;;x
+PROV507;Twin Waters;;;;;;;;;;;;;x
+PROV508;Dawn Sea;;;;;;;;;;;;;x
+PROV509;Giji Bay;;;;;;;;;;;;;x
+PROV510;Twin Waters;;;;;;;;;;;;;x
+PROV511;Dawn Sea;;;;;;;;;;;;;x
+PROV512;Giji Bay;;;;;;;;;;;;;x
+PROV513;Dawn Sea;;;;;;;;;;;;;x
+PROV514;Giji Bay;;;;;;;;;;;;;x
+PROV515;Dawn Sea;;;;;;;;;;;;;x
+PROV516;Dawn Sea;;;;;;;;;;;;;x
+PROV517;Dawn Sea;;;;;;;;;;;;;x
+PROV518;Dawn Sea;;;;;;;;;;;;;x
+PROV519;Frozen Lake;;;;;;;;;;;;;x
+PROV520;NA;;;;;;;;;;;;;x
+PROV521;NA;;;;;;;;;;;;;x
+PROV522;NA;;;;;;;;;;;;;x
+PROV523;NA;;;;;;;;;;;;;x
+
+#Region Names
+world_goshen;Goshen;;;;;;;;;;;;;x
+world_rogas;Rogas Continent;;;;;;;;;;;;;x
+world_pan;Pan Continent;;;;;;;;;;;;;x
+world_zuvak;Zuvaki Waters;;;;;;;;;;;;;x
+world_yava;Yava Forest;;;;;;;;;;;;;x
+world_vitat;Vitat Canyon;;;;;;;;;;;;;x
+world_rannu;Ran-nu Peninsula;;;;;;;;;;;;;x
+world_navo;Navo Desert;;;;;;;;;;;;;x
+world_levyt;Levytan Plains;;;;;;;;;;;;;x
+world_kalan;Kalan Valley;;;;;;;;;;;;;x
+world_hunute;Hunute Forest;;;;;;;;;;;;;x
+world_hesen;Hese Islands;;;;;;;;;;;;;x
+world_grey_lands;Grey Plains;;;;;;;;;;;;;x
+world_gawei;Gawei Isles;;;;;;;;;;;;;x
+world_basli;Basli Forest;;;;;;;;;;;;;x
+world_anin;Anin Plains;;;;;;;;;;;;;x
+world_ades;Ades Plains;;;;;;;;;;;;;x
+world_abimelech;Abimelech Mountains;;;;;;;;;;;;;x

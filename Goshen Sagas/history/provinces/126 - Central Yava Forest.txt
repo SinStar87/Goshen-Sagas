@@ -1,0 +1,18 @@
+########################
+# Central Yava Forest
+########################
+
+#County Title
+title = c_c_yava_forest
+
+#Settlements
+max_settlements = 3
+b_c_yava_forest = castle
+b_c_yava_forest_city = city
+b_c_yava_forest_temple = temple
+
+#Settings
+culture = yava
+religion = yava_rel
+
+#History

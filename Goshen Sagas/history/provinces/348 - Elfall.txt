@@ -1,0 +1,20 @@
+#########################
+# Elfall
+#########################
+
+#County Title
+title = c_elfall
+
+#Settlements
+max_settlements = 3
+b_elfall = castle
+b_elfall_city = city
+b_elfall_temple = temple
+
+#Settings
+culture = merro
+religion = merro_rel
+
+#History
+#867.1.1 = {
+#}

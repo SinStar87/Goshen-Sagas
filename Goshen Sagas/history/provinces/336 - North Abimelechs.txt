@@ -1,0 +1,20 @@
+#####################
+# North Abimelechs
+#####################
+
+#County Title
+title = c_n_abimelechs
+
+#Settlements
+max_settlements = 3
+b_n_abimelechs = castle
+b_n_abimelechs_city = city
+b_n_abimelechs_temple = temple
+
+#Settings
+culture = abimelech
+religion = abimelech_rel
+
+#History
+#867.1.1 = {
+#}

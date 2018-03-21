@@ -1,0 +1,20 @@
+#####################
+# East Insol
+#####################
+
+#County Title
+title = c_e_insol
+
+#Settlements
+max_settlements = 3
+b_e_insol = castle
+b_e_insol_city = city
+b_e_insol_temple = temple
+
+#Settings
+culture = poghess
+religion = poghess_rel
+
+#History
+#867.1.1 = {
+#}

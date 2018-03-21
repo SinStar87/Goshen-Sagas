@@ -1,0 +1,20 @@
+#####################
+# Kalani Border
+#####################
+
+#County Title
+title = c_kalani_border
+
+#Settlements
+max_settlements = 3
+b_kalani_border = castle
+b_kalani_border_city = city
+b_kalani_border_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,20 @@
+#####################
+# South Insol
+#####################
+
+#County Title
+title = c_s_insol
+
+#Settlements
+max_settlements = 3
+b_s_insol = castle
+b_s_insol_city = city
+b_s_insol_temple = temple
+
+#Settings
+culture = poghess
+religion = poghess_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,20 @@
+#####################
+# North W. Navo Desert
+#####################
+
+#County Title
+title = c_n_w_navo_desert
+
+#Settlements
+max_settlements = 3
+b_n_w_navo_desert = castle
+b_n_w_navo_desert_city = city
+b_n_w_navo_desert_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History
+#867.1.1 = {
+#}

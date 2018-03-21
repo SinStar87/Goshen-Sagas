@@ -1,0 +1,72 @@
+1000.1.1 = {
+	effect = {
+		b_silt_castle = {
+			add_building = ca_special_niya_falls
+			add_building = ca_castle_silt
+		}
+		b_jese_castle = {
+			add_building = ca_castle_jese
+		}
+		b_gawei_village = {
+			add_building = ca_special_gawei_village
+		}
+		b_gap_in_the_mountain = {
+			add_building = ca_castle_gap
+		}
+		b_blav = {
+			add_building = ca_castle_blav
+		}
+		b_c_yava_forest = {
+			add_building = ca_special_yava_village
+		}
+		b_s_kauni_forest = {
+			add_building = ca_special_kauni_forest
+		}
+		b_bottomless_hole = {
+			add_building = ca_special_hole
+		}
+		b_elfall_volcano = {
+			add_building = ca_special_elfall
+		}
+		b_basli_forest = {
+			add_building = ca_special_jaali_tree
+		}
+		b_great_war_hall = {
+			add_building = ca_castle_warhall
+		}
+		b_zuvaki_palace = {
+			add_building = ca_special_coral_castle
+		}
+		b_kalan_village = {
+			add_building = ca_special_kalan_village
+		}
+		b_hunute_forest = {
+			add_building = ca_special_hunute_village
+		}
+	}
+}
+1800.1.1 = {
+	effect = {
+		b_levyt_city = {
+			add_building = ca_castle_levyt
+			add_building = ca_special_levytan_tradepost
+		}
+		b_gawei_castle = { add_building = ca_castle_gawei }
+	}
+}
+1850.1.1 = {
+	effect = {
+		b_cenno_port = { add_building = ct_special_cenno_port }
+		b_n_kalani_coast = { add_building = ca_special_levytan_tradepost }
+		b_w_grey_coast = { add_building = ca_special_levytan_tradepost }
+		b_etzu_berth = { add_building = ca_special_levytan_tradepost }
+		b_levyt_city = { add_building = ca_special_levytan_tradepost }
+	}
+}
+1976.1.1 = {
+	effect = {
+		b_qess_fort = {
+			add_building = ca_special_qess_fort
+		}
+	}
+}

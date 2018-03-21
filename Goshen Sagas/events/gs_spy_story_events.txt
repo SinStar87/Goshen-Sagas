@@ -1,0 +1,377 @@
+namespace = gs_spy_story_events
+character_event = {
+	id = gs_spy_story_events.0
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		ai = no
+		NOR = {
+			has_global_flag = no_gs_spy_story
+			has_character_flag = gs_spy_story
+		}
+	}
+
+	immediate = {
+		character_event = { id = gs_spy_story_events.1 days = 3 }
+	}
+}
+character_event = {
+	id = gs_spy_story_events.1
+	picture = GFX_evt_council
+	desc = {
+		text = EVTDESCAgs_spy_story_events.1
+		trigger = {
+			has_global_flag = gs_spy_story
+		}
+	}
+	desc = {
+		text = EVTDESCBgs_spy_story_events.1
+		trigger = {
+			NOT = { has_global_flag = gs_spy_story }
+		}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.1
+		trigger = {
+			NOT = { has_global_flag = gs_spy_story }
+		}
+		set_character_flag = gs_spy_story
+		set_global_flag = gs_spy_story
+	}
+
+	option = {
+		name = EVTOPTBgs_spy_story_events.1
+		trigger = {
+			NOT = { has_global_flag = gs_spy_story }
+		}
+		set_global_flag = no_gs_spy_story
+	}
+
+	option = {
+		name = EVTOPTCgs_spy_story_events.1
+		trigger = {
+			has_global_flag = gs_spy_story
+		}
+		set_character_flag = gs_spy_story
+	}
+}
+character_event = {
+	id = gs_spy_story_events.2
+	picture = GFX_evt_council
+	desc = EVTDESCgs_spy_story_events.2
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = gs_spy_story
+		NOT = {
+			location = { has_province_modifier = opened_gates }
+		}
+		in_command = yes
+		in_siege = yes
+		siege = {
+			is_attacker = yes
+		}
+
+	}
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.2
+		random_list = {
+			1 = {
+				clr_character_flag = gs_spy_story
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					intrigue = 10
+				}
+				modifier = {
+					factor = 1.5
+					intrigue = 12
+				}
+				modifier = {
+					factor = 1.5
+					has_focus = focus_intrigue
+				}
+			}
+		}
+		character_event = { id = gs_spy_story_events.21 }
+	}
+
+	option = {
+		name = EVTOPTBgs_spy_story_events.2
+	}
+}
+character_event = {
+	id = gs_spy_story_events.21
+	picture = GFX_evt_council
+	desc = {
+		text = EVTDESCAgs_spy_story_events.21
+		trigger = {
+			has_character_flag = gs_spy_story
+		}
+	}
+	desc = {
+		text = EVTDESCBgs_spy_story_events.21
+		trigger = {
+			NOT = { has_character_flag = gs_spy_story }
+		}
+	}
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.21
+		trigger = {
+			has_character_flag = gs_spy_story
+		}
+		location = {
+			add_province_modifier = {
+				name = opened_gates
+				duration = 180
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgs_spy_story_events.21
+		trigger = {
+			NOT = { has_character_flag = gs_spy_story }
+		}
+	}
+}
+character_event = {
+	id = gs_spy_story_events.3
+	picture = GFX_evt_council
+	desc = EVTDESCgs_spy_story_events.3
+
+	mean_time_to_happen = {
+		years = 5
+	}
+
+	trigger = {
+		has_character_flag = gs_spy_story
+		OR = {
+			num_of_rivals = 1
+			independent = no
+			any_claim = {
+				higher_real_tier_than = BARON
+				has_holder = yes
+			}
+		}
+		NOT = {
+			liege = {
+				any_friend = {
+					character = ROOT
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.3
+		trigger = {
+			any_liege = {
+				always = yes
+				NOT = {
+					any_friend = {
+						character = ROOT
+					}
+				}
+			}
+		}
+
+		hidden_tooltip = {
+			ROOT = {
+				save_event_target_as = TOI_spymaster
+			}
+			liege = {
+				save_event_target_as = TOI_target
+			}
+			top_liege = {
+				any_realm_character = {
+					limit = {
+						NOR = {
+							character = event_target:TOI_spymaster
+							character = event_target:TOI_target
+						}
+					}
+					character_event = { id = gs_spy_story_events.31 }
+				}
+			}
+			liege = {
+				character_event = { id = gs_spy_story_events.32 }
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgs_spy_story_events.3
+		trigger = {
+			any_rival = {
+				always = yes
+			}
+		}
+		hidden_tooltip = {
+			ROOT = {
+				save_event_target_as = TOI_spymaster
+			}
+			random_rival = {
+				save_event_target_as = TOI_target
+				top_liege = {
+					any_realm_character = {
+						limit = {
+							NOR = {
+								character = event_target:TOI_spymaster
+								character = event_target:TOI_target
+							}
+						}
+						character_event = { id = gs_spy_story_events.31 }
+					}
+				}
+				character_event = { id = gs_spy_story_events.32 }
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgs_spy_story_events.3
+		trigger = {
+			any_claim = {
+				higher_real_tier_than = BARON
+				has_holder = yes
+			}
+		}
+		hidden_tooltip = {
+			ROOT = {
+				save_event_target_as = TOI_spymaster
+			}
+			random_claim = {
+				limit = {
+					higher_real_tier_than = BARON
+					has_holder = yes
+				}
+				holder_scope = {
+					save_event_target_as = TOI_target
+					top_liege = {
+						any_realm_character = {
+							limit = {
+								NOR = {
+									character = event_target:TOI_spymaster
+									character = event_target:TOI_target
+								}
+							}
+							character_event = { id = gs_spy_story_events.31 }
+						}
+					}
+					character_event = { id = gs_spy_story_events.32 }
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTDgs_spy_story_events.3
+	}
+}
+character_event = {
+	id = gs_spy_story_events.31
+	picture = GFX_evt_council
+	desc = EVTDESCgs_spy_story_events.31
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.31
+		trigger = {
+			OR = {
+				trait = content
+				any_friend = {
+					character = event_target:TOI_target
+				}
+				AND = {
+					any_dynasty_member = {
+						character = event_target:TOI_target
+					}
+					NOT = {
+						any_claim = {
+							holder_scope = {
+								character = event_target:TOI_target
+							}
+						}
+					}
+				}
+				opinion = { who = event_target:TOI_target value = 80 }
+			}
+		}
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 10
+				opinion = { who = event_target:TOI_target value = 80 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = event_target:TOI_target value = 80 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = event_target:TOI_target value = 90 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = event_target:TOI_target value = 100 }
+			}
+		}
+		opinion = {
+			modifier = opinion_rumormonger
+			who = event_target:TOI_spymaster
+		}
+	}
+
+	option = {
+		name = EVTOPTBgs_spy_story_events.31
+		trigger = {
+			NOT = {
+				opinion = { who = event_target:TOI_target value = -10 }
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = EVTOPTCgs_spy_story_events.31
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 10
+				NOT = {
+					opinion = { who = event_target:TOI_target value = 0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					opinion = { who = event_target:TOI_target value = 80 }
+				}
+			}
+		}
+		opinion = {
+			modifier = opinion_damaged_rep
+			who = event_target:TOI_target
+		}
+	}
+}
+character_event = {
+	id = gs_spy_story_events.32
+	picture = GFX_evt_council
+	desc = EVTDESCgs_spy_story_events.32
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgs_spy_story_events.32
+	}
+}

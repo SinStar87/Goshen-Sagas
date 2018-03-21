@@ -1,0 +1,20 @@
+####################
+# Southwest Ko
+####################
+
+#County Title
+title = c_sw_ko
+
+#Settlements
+max_settlements = 3
+b_sw_ko = castle
+b_sw_ko_city = city
+b_sw_ko_temple = temple
+
+#Settings
+culture = ades
+religion = ades_rel
+
+#History
+#1.1.1 = {
+#}

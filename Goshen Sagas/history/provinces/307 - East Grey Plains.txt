@@ -1,0 +1,20 @@
+#####################
+# East C. Grey Plains
+#####################
+
+#County Title
+title = c_e_grey_plains
+
+#Settlements
+max_settlements = 3
+b_e_grey_plains = castle
+b_e_grey_plains_city = city
+b_e_grey_plains_temple = temple
+
+#Settings
+culture = grey_tribes
+religion = grey_tribes_rel
+
+#History
+#867.1.1 = {
+#}

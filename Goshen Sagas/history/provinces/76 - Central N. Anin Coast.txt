@@ -1,0 +1,20 @@
+#######################
+# Central N. Anin Coast
+#######################
+
+#County Title
+title = c_c_n_anin_coast
+
+#Settlements
+max_settlements = 3
+b_c_n_anin_coast = castle
+b_c_n_anin_coast_city = city
+b_c_n_anin_coast_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History
+#867.1.1 = {
+#}

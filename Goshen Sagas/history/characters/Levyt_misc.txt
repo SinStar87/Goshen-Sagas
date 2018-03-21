@@ -1,0 +1,147 @@
+########################
+# Levyt Misc 48001-50000
+########################
+48001 = {
+	name = Mel
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1965.1.1 = {
+		birth = yes
+	}
+	1971.1.1 = {
+		add_trait = receptive
+	}
+	1973.1.1 = {
+		add_trait = willful
+	}
+	1977.1.1 = {
+		add_trait = extrovert
+	}
+	1979.1.1 = {
+		add_trait = responsive
+	}
+	1979.1.1 = {
+		add_trait = pragmatic
+	}
+	1981.1.1 = {
+		add_trait = strategist
+		add_trait = champion
+		
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+48021 = {
+	name = Elyot
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1965.1.1 = {
+		birth = yes
+	}
+	1971.1.1 = {
+		add_trait = receptive
+	}
+	1973.1.1 = {
+		add_trait = calculating
+	}
+	1977.1.1 = {
+		add_trait = cold
+	}
+	1979.1.1 = {
+		add_trait = overeager
+	}
+	1979.1.1 = {
+		add_trait = cynic
+	}
+	1981.1.1 = {
+		add_trait = financier
+		add_trait = scrapper
+		
+	}
+	2000.1.1 = {
+		employer = 48001
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+48031 = {
+	name = Alaniz
+	female = yes
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1965.1.1 = {
+		birth = yes
+	}
+	1971.1.1 = {
+		add_trait = receptive
+	}
+	1973.1.1 = {
+		add_trait = calculating
+	}
+	1977.1.1 = {
+		add_trait = friendly
+	}
+	1979.1.1 = {
+		add_trait = overeager
+		add_trait = cynic
+	}
+	1981.1.1 = {
+		add_trait = minister
+		add_trait = fighter
+		
+	}
+	2000.1.1 = {
+		employer = 48001
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

@@ -1,0 +1,19 @@
+########################
+# Cenno
+########################
+
+#County Title
+title = c_cenno
+
+#Settlements
+max_settlements = 4
+b_cenno_fort = castle
+b_cenno_port = city
+b_cenno_city = city
+b_cenno_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History

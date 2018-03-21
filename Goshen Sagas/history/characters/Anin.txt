@@ -1,0 +1,1565 @@
+####################
+# Anin 2001-3000
+####################
+#Line of Zhel'd Clan
+2001 = {
+	name = Zhel'd
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2002 = {
+	name = Kal'l
+	father = 2001
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2003 = {
+	name = Jor'l
+	father = 2002
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2004 = {
+	name = Boren
+	father = 2003
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2005 = {
+	name = Malik
+	father = 2004
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2006 = {
+	name = Maas
+	father = 2005
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2007 = {
+	name = Obi'on
+	father = 2006
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2008 = {
+	name = Anks
+	father = 2007
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2009 = {
+	name = Aksn
+	father = 2008
+	dynasty = 201
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Chen'h Clan
+2051 = {
+	name = Chen'h
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2052 = {
+	name = Yoh'da
+	father = 2051
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2053 = {
+	name = Zaal
+	father = 2052
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2054 = {
+	name = Saash
+	father = 2053
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2055 = {
+	name = La'nan
+	father = 2054
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2056 = {
+	name = Job'ba
+	father = 2055
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2057 = {
+	name = Sau'rn
+	father = 2056
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2058 = {
+	name = Melkor
+	father = 2057
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			k_anin = { add_claim = ROOT }
+			d_blav = { add_claim = ROOT }
+			c_blav = { add_claim = ROOT }
+			c_blav_approach = { add_claim = ROOT }
+		}
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2059 = {
+	name = Malor
+	father = 2058
+	dynasty = 202
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Rael'n Clan
+2101 = {
+	name = Rael'n
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2102 = {
+	name = Gaal
+	father = 2101
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2103 = {
+	name = Raneel
+	father = 2102
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2104 = {
+	name = Jeenal
+	father = 2103
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2105 = {
+	name = Apr'l
+	father = 2104
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2106 = {
+	name = Meyk
+	father = 2105
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2107 = {
+	name = Su'mer
+	father = 2106
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2108 = {
+	name = Saap
+	father = 2107
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			k_anin = { add_claim = ROOT }
+			d_blav = { add_claim = ROOT }
+			c_blav = { add_claim = ROOT }
+			c_blav_approach = { add_claim = ROOT }
+		}
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2109 = {
+	name = Aseen
+	father = 2108
+	dynasty = 203
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of K'ar Clan
+2151 = {
+	name = K'ar
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2152 = {
+	name = K'on
+	father = 2151
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2153 = {
+	name = M'al
+	father = 2152
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2154 = {
+	name = S'in
+	father = 2153
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2155 = {
+	name = Z'ak
+	father = 2154
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1870.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2156 = {
+	name = L'uk
+	father = 2155
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2157 = {
+	name = B'en
+	father = 2156
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2158 = {
+	name = R'om
+	father = 2157
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			k_anin = { add_claim = ROOT }
+			d_blav = { add_claim = ROOT }
+			c_blav = { add_claim = ROOT }
+			c_blav_approach = { add_claim = ROOT }
+		}
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2159 = {
+	name = Tusce
+	father = 2158
+	dynasty = 204
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Vaoyn Clan
+2201 = {
+	name = Vaoyn
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2202 = {
+	name = Myaan
+	father = 2201
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2203 = {
+	name = Myaal
+	father = 2202
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2204 = {
+	name = Ryaal
+	father = 2203
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2205 = {
+	name = Tynaal
+	father = 2204
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2206 = {
+	name = Craal
+	father = 2205
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2207 = {
+	name = Quaanak
+	father = 2206
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2208 = {
+	name = Tryaal
+	father = 2207
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			k_anin = { add_claim = ROOT }
+			d_blav = { add_claim = ROOT }
+			c_blav = { add_claim = ROOT }
+			c_blav_approach = { add_claim = ROOT }
+		}
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2209 = {
+	name = Tyyre
+	father = 2208
+	dynasty = 205
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Honaal Clan
+2251 = {
+	name = Honaal
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+2252 = {
+	name = Jonnel
+	father = 2251
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+2253 = {
+	name = Coonal
+	father = 2252
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+2254 = {
+	name = Shaan
+	father = 2253
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+2255 = {
+	name = Taalon
+	father = 2254
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+2256 = {
+	name = Morral
+	father = 2255
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+2257 = {
+	name = Jamaal
+	father = 2256
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+2258 = {
+	name = Hanool
+	father = 2257
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		effect = {
+			set_defacto_liege = ROOT
+			k_anin = { add_claim = ROOT }
+			d_blav = { add_claim = ROOT }
+			c_blav = { add_claim = ROOT }
+			c_blav_approach = { add_claim = ROOT }
+		}
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+2259 = {
+	name = Hoones
+	father = 2258
+	dynasty = 206
+
+	culture = anin
+	religion = anin_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

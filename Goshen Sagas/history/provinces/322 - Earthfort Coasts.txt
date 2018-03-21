@@ -1,0 +1,20 @@
+#####################
+# Earthfort Coasts
+#####################
+
+#County Title
+title = c_earthfort_coasts
+
+#Settlements
+max_settlements = 3
+b_earthfort_coasts = castle
+b_earthfort_coasts_city = city
+b_earthfort_coasts_temple = temple
+
+#Settings
+culture = collsi
+religion = grey_tribes_rel
+
+#History
+#867.1.1 = {
+#}

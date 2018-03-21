@@ -1,0 +1,511 @@
+####################
+# Zuvak 23001-24000
+####################
+
+#Line of Foojhaa
+23001 = {
+	name = Foojhaa
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+23002 = {
+	name = Toovaak
+	mother = 23001
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+23003 = {
+	name = Coodee
+	mother = 23002
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+23004= {
+	name = Daagaa
+	mother = 23003
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+23005 = {
+	name = Looci
+	mother = 23004
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+23006 = {
+	name = Deegaa
+	mother = 23005
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+23007 = {
+	name = Roojhaa
+	mother = 23006
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+23008 = {
+	name = Foojhaa
+	mother = 23007
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+23009 = {
+	name = Heegao
+	mother = 23008
+	dynasty = 2301
+	female = yes
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Saahae
+23021 = {
+	name = Saahae
+	dynasty = 2302
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+23022 = {
+	name = Saahae
+	father = 23021
+	dynasty = 2302
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+23023 = {
+	name = Seenah
+	father = 23022
+	dynasty = 2302
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Hoonaa
+23041 = {
+	name = Hoonaa
+	dynasty = 2303
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+23042 = {
+	name = Hoonaa
+	father = 23041
+	dynasty = 2303
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+23043 = {
+	name = Soanaa
+	father = 23042
+	dynasty = 2303
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Hoonaa
+23061 = {
+	name = Pheesh
+	dynasty = 2304
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+23062 = {
+	name = Pheesh
+	father = 23061
+	dynasty = 2304
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+23063 = {
+	name = Fisch
+	father = 23062
+	dynasty = 2304
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

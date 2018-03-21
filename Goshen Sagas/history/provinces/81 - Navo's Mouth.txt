@@ -1,0 +1,20 @@
+############################
+# Navo's Mouth
+############################
+
+#County Title
+title = c_navos_mouth
+
+#Settlements
+max_settlements = 3
+b_navos_mouth = castle
+b_navos_mouth_city = city
+b_navos_mouth_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History
+#867.1.1 = {
+#}

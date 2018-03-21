@@ -1,0 +1,7 @@
+1000.1.1 = {
+	liege = d_great_war_hall
+	holder = 0
+}
+1990.1.1 = {
+	holder = 37
+}

@@ -1,0 +1,20 @@
+#####################
+# West Pan Cliffs
+#####################
+
+#County Title
+title = c_w_pan_cliffs
+
+#Settlements
+max_settlements = 3
+b_w_pan_cliffs = castle
+b_w_pan_cliffs_city = city
+b_w_pan_cliffs_temple = temple
+
+#Settings
+culture = vitat
+religion = vitat_rel
+
+#History
+#867.1.1 = {
+#}

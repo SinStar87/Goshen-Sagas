@@ -1,0 +1,20 @@
+###########################
+# War Hall's Approach
+###########################
+
+#County Title
+title = c_war_halls_approach
+
+#Settlements
+max_settlements = 3
+b_war_halls_approach = castle
+b_war_halls_approach_city = city
+b_war_halls_approach_temple = temple
+
+#Settings
+culture = abimelech
+religion = abimelech_rel
+
+#History
+#867.1.1 = {
+#}

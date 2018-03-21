@@ -1,0 +1,20 @@
+####################
+# Central Grey Plains
+####################
+
+#County Title
+title = c_c_grey_plains
+
+#Settlements
+max_settlements = 3
+b_c_grey_plains = castle
+b_c_grey_plains_city = city
+b_c_grey_plains_temple = temple
+
+#Settings
+culture = grey_tribes
+religion = grey_tribes_rel
+
+#History
+#1.1.1 = {
+#}

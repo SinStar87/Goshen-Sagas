@@ -1,0 +1,58 @@
+namespace = goshen_medicus_events
+character_event = {#Inform about Illness
+	id = goshen_medicus_events.1
+	desc = {
+		text = EVTDESCAgoshen_medicus_events.1
+		trigger = {
+			trait = has_malaise
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_medicus_events.1
+		trigger = {
+			trait = has_red_fever
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_medicus_events.1
+		trigger = {
+			trait = has_red_plague
+		}
+	}
+	desc = {
+		text = EVTDESCDgoshen_medicus_events.1
+		trigger = {
+			trait = has_shigella
+		}
+	}
+	desc = {
+		text = EVTDESCEgoshen_medicus_events.1
+		trigger = {
+			trait = has_hansen
+		}
+	}
+	desc = {
+		text = EVTDESCFgoshen_medicus_events.1
+		trigger = {
+			trait = has_delusia
+		}
+	}
+	desc = {
+		text = EVTDESCGgoshen_medicus_events.1
+		trigger = {
+			trait = has_sickness
+		}
+	}
+	desc = {
+		text = EVTDESCHgoshen_medicus_events.1
+		trigger = {
+			trait = has_plaga
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_medicus_events.1
+	}
+}

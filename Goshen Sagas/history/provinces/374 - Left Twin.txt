@@ -1,0 +1,20 @@
+#######################
+# Left Twin
+#######################
+
+#County Title
+title = c_left_twin
+
+#Settlements
+max_settlements = 3
+b_left_twin = castle
+b_left_twin_city = city
+b_left_twin_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History
+#867.1.1 = {
+#}

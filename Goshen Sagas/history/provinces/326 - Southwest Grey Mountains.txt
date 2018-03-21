@@ -1,0 +1,20 @@
+########################
+# Southwest Grey Mountains
+########################
+
+#County Title
+title = c_sw_grey_mountains
+
+#Settlements
+max_settlements = 3
+b_sw_grey_mountains = castle
+b_sw_grey_mountains_city = city
+b_sw_grey_mountains_temple = temple
+
+#Settings
+culture = basli
+religion = basli_rel
+
+#History
+#867.1.1 = {
+#}

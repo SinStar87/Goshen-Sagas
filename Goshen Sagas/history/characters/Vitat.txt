@@ -1,0 +1,1268 @@
+####################
+# Vitat 20001-21000
+####################
+
+#Line of Cognim
+20001 = {
+	name = Vitan
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+20002 = {
+	name = Coogul
+	father = 20001
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+20003 = {
+	name = Flavin
+	father = 20002
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+20004 = {
+	name = Marcul
+	father = 20003
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+20005 = {
+	name = Cuugen
+	father = 20004
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+20006 = {
+	name = Sapnal
+	father = 20005
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+20007 = {
+	name = Simmon
+	father = 20006
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+20008 = {
+	name = Sapien
+	father = 20007
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+20009 = {
+	name = Hanen
+	father = 20008
+	dynasty = 2001
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Spokal
+20051 = {
+	name = Vallas
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+20052 = {
+	name = Cunun
+	father = 20051
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+20053 = {
+	name = Dulmus
+	father = 20052
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+20054 = {
+	name = Saplus
+	father = 20053
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+20055 = {
+	name = Spikis
+	father = 20054
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+20056 = {
+	name = Mikis
+	father = 20055
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+20057 = {
+	name = Sukus
+	father = 20056
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+20058 = {
+	name = Skal
+	father = 20057
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+20059 = {
+	name = Kalls
+	father = 20058
+	dynasty = 2002
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Weelan
+20101 = {
+	name = Oalees
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+20102 = {
+	name = Paanen
+	father = 20101
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+20103 = {
+	name = Vaaul
+	father = 20102
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+20104 = {
+	name = Sappan
+	father = 20103
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+20105 = {
+	name = Imalan
+	father = 20104
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+20106 = {
+	name = Imical
+	father = 20105
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+20107 = {
+	name = Voolel
+	father = 20106
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+20108 = {
+	name = Walen
+	father = 20107
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+20109 = {
+	name = Alles
+	father = 20108
+	dynasty = 2003
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Seemat
+20151 = {
+	name = Plutan
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+20152 = {
+	name = Vanus
+	father = 20151
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+20153 = {
+	name = Turian
+	father = 20152
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+20154 = {
+	name = Simus
+	father = 20153
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+20155 = {
+	name = Mucius
+	father = 20154
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+20156 = {
+	name = Ouvian
+	father = 20155
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+20157 = {
+	name = Piron
+	father = 20156
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+20158 = {
+	name = Scius
+	father = 20157
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+20159 = {
+	name = Sceon
+	father = 20158
+	dynasty = 2004
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Hammal
+20201 = {
+	name = Remis
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+20202 = {
+	name = Yevoah
+	father = 20201
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+20203 = {
+	name = Piculus
+	father = 20202
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+20204 = {
+	name = Navian
+	father = 20203
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+20205 = {
+	name = Cullus
+	father = 20204
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+20206 = {
+	name = Amius
+	father = 20205
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+20207 = {
+	name = Ammal
+	father = 20206
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+20208 = {
+	name = Malus
+	father = 20207
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+20209 = {
+	name = Peeles
+	father = 20208
+	dynasty = 2005
+
+	culture = vitat
+	religion = vitat_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

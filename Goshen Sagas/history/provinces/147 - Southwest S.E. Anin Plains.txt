@@ -1,0 +1,20 @@
+#########################
+# Southwest S.E. Anin Plains
+#########################
+
+#County Title
+title = c_sw_se_anin_plains
+
+#Settlements
+max_settlements = 3
+b_sw_se_anin_plains = castle
+b_sw_se_anin_plains_city = city
+b_sw_se_anin_plains_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History
+#867.1.1 = {
+#}

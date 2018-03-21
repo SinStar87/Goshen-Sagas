@@ -1,0 +1,21 @@
+#####################
+# West W. Levyt Plains
+#####################
+
+#County Title
+title = c_w_w_levyt_plains
+
+#Settlements
+max_settlements = 4
+b_w_w_levyt_plains = castle
+b_w_w_levyt_plains_city = city
+b_w_w_levyt_plains_temple = temple
+b_loa = castle
+
+#Settings
+culture = levyt
+religion = levyt_rel
+
+#History
+#867.1.1 = {
+#}

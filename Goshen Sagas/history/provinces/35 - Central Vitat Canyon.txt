@@ -1,0 +1,20 @@
+#####################
+# Central Vitat Canyon
+#####################
+
+#County Title
+title = c_c_vitat_canyon
+
+#Settlements
+max_settlements = 3
+b_c_vitat_canyon = castle
+b_c_vitat_canyon = city
+b_c_vitat_canyon = temple
+
+#Settings
+culture = vitat
+religion = vitat_rel
+
+#History
+#867.1.1 = {
+#}

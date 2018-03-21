@@ -1,0 +1,18 @@
+#########################
+# Kalan Village
+#########################
+
+#County Title
+title = c_kalan_village
+
+#Settlements
+max_settlements = 3
+b_kalan_village = castle
+b_kalan_village_city = city
+b_kalan_village_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History

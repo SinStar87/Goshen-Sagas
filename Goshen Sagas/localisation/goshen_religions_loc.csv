@@ -1,0 +1,143 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Religion Groups
+goshen_rel_group;Goshenite Gods;;;;;;;;;;;;;x
+goshen_nh_rel_group;Non Human Gods;;;;;;;;;;;;;x
+goshen_r_rel_group;Raider Gods;;;;;;;;;;;;;x
+hesen_rel_group;Hesen God;;;;;;;;;;;;;x
+hunute_rel_group;Hunute God;;;;;;;;;;;;;x
+unoccupied_rel_group;Unccupied Provinces;;;;;;;;;;;;;x
+
+#Religions
+abimelech_rel;Jual;;;;;;;;;;;;;x
+ades_rel;Founder Gods;;;;;;;;;;;;;x
+anin_rel;Gods of the Blav;;;;;;;;;;;;;x
+basli_rel;Jaali;;;;;;;;;;;;;x
+dulmal_rel;Bwoyy;;;;;;;;;;;;;x
+gawei_rel;Pusla;;;;;;;;;;;;;x
+grey_tribes_rel;Ancients;;;;;;;;;;;;;x
+hesen_rel;Silent God;;;;;;;;;;;;;x
+huargens_rel;Shayaen;;;;;;;;;;;;;x
+hunute_rel;Venute;;;;;;;;;;;;;x
+kalan_rel;Bumlan;;;;;;;;;;;;;x
+levyt_rel;Boadon;;;;;;;;;;;;;x
+merro_rel;Nebiro;;;;;;;;;;;;;x
+navo_rel;Byajvo;;;;;;;;;;;;;x
+poghess_rel;Moghes;;;;;;;;;;;;;x
+qwari_rel;Vawri the Savior;;;;;;;;;;;;;x
+rannu_rel;Ngjin;;;;;;;;;;;;;x
+timut_rel;Ilnut;;;;;;;;;;;;;x
+vitat_rel;Zinat;;;;;;;;;;;;;x
+yava_rel;Kahala;;;;;;;;;;;;;x
+zet_rel;Karet;;;;;;;;;;;;;x
+zuvak_rel;Samak;;;;;;;;;;;;;x
+dyinglands_rel;Dying Lands;;;;;;;;;;;;;x
+
+#Religion Descriptions
+abimelech_rel_DESC;The Abimelech worship The Gods of the Mountains, Varo and his wife Laaki Goddess of the Valley.;;;;;;;;;;;;;x
+ades_rel_DESC;Ades revere the three founder gods, Garyn the Sun, Khiies the Red Moon, and Tmes the Green Moon.;;;;;;;;;;;;;x
+anin_rel_DESC;The Anin worship the Gods of the Blav, The Sky God Tayin and his Sister-wife Goddess of the Plains Yulin, and the Jealous Brother Dulain God of the Mountains.;;;;;;;;;;;;;x
+basli_rel_DESC;Basli worship Jaali, the tree at the center of their holy forest and embodiment of Jaali's sacrifice that granted the Basli life.;;;;;;;;;;;;;x
+dulmal_rel_DESC;God of the Black Fog that dominates the northern reaches of Rogas.;;;;;;;;;;;;;x
+gawei_rel_DESC;Worship was formalized shortly after the first Supreme united the Gawei lands, he created the Pantheon including Inn-z, Kami, Cenno, and Maku.;;;;;;;;;;;;;x
+grey_tribes_rel_DESC;The grand stories of the Ancients have lead to their deification for many of the Goshenites.;;;;;;;;;;;;;x
+hesen_rel_DESC;The Hesen are driven by their worship of the Silent God, who communes with the people through the Hesen Leader, the Asante.;;;;;;;;;;;;;x
+huargens_rel_DESC;Huargens follow Shayaen, who taught them to herd the Vochnr of their island.;;;;;;;;;;;;;x
+hunute_rel_DESC;Hunute follow a Blind god, Venute, who, unbiased by sight, provides the World with perfect justice.;;;;;;;;;;;;;x
+kalan_rel_DESC;Kalani worship the Earth Goddess, Bumlan, who grants them the food in exchange for the toils in tilling and sowing her flesh.;;;;;;;;;;;;;x
+levyt_rel_DESC;Temperamental God, provides for Goshenites with the bounty of the Waters with one hand, Uses storms to mercilessly destroy with the other.;;;;;;;;;;;;;x
+merro_rel_DESC;Merro worship Nebiro, a mighty Leviathan God, which makes it's home in a deep trench near the Elfall, the trench is a  sacred and aweful place for the Merro.;;;;;;;;;;;;;x
+navo_rel_DESC;Navo Worship Byajvo the Builder, who taught the Navo stoneworks and even crafted the keep their mighty castle.;;;;;;;;;;;;;x
+poghess_rel_DESC;Poghess worship the Moghes, 3 Lizard gods, who created the Poghess, since their exile, a prophecy states the Moghes will return and lead the Poghess home.;;;;;;;;;;;;;x
+qwari_rel_DESC;Qwari were once savage and on the verge of destroying themselves, but that changed when Vawri appeared and lead them back from the brink. The Qwari now worship him as the Savior;;;;;;;;;;;;;x
+rannu_rel_DESC;Worship of the Herder has been about since the earliest days of the Ran-nu.;;;;;;;;;;;;;x
+timut_rel_DESC;Timut worship Ilnut that takes the form of a White Whale, to whom they pray for blessings and safe return before setting sail. Irreverent crews are said to be smashed to peices and never return.;;;;;;;;;;;;;x
+vitat_rel_DESC;Vitat don't worship any God, they respect the natural laws and science of Goshen, or Zinat, kept by the Zineks.;;;;;;;;;;;;;x
+yava_rel_DESC;The Yava have long worshiped the Hole in the deadlands to the east of their forest, throwing enemies and prisoners into it, feeding Kahala.;;;;;;;;;;;;;x
+zet_rel_DESC;Zets worship Karet, the Wasp god of the forest and tamer of the Kauni.;;;;;;;;;;;;;x
+zuvak_rel_DESC;Zuvak worship Samak, the Fish god, taking the form of a giant Catfish, sailors visiting the North claim to have seen it.;;;;;;;;;;;;;x
+dyinglands_rel_DESC;The sands of the Dying lands, every step in is draining, none who have entered have returned.;;;;;;;;;;;;;x
+
+#Holy Books
+ABIMELECH_BOOK;Book of Jual;;;;;;;;;;;;;x
+ADES_BOOK;The Sun and Moons;;;;;;;;;;;;;x
+ANIN_BOOK;Gods of the Blav;;;;;;;;;;;;;x
+BASLI_BOOK;Jaali's Sacrifice;;;;;;;;;;;;;x
+DULMAL_BOOK;Bwoyy of the Black Fog;;;;;;;;;;;;;x
+GAWEI_BOOK;The Scriptures of Inn-z;;;;;;;;;;;;;x
+GREY_TRIBES_BOOK;The Stories of the Ancients;;;;;;;;;;;;;x
+HESEN_BOOK;The Teachings of Silence;;;;;;;;;;;;;x
+HUARGENS_BOOK;The Way of Shayaen;;;;;;;;;;;;;x
+HUNUTE_BOOK;Venute's Justice;;;;;;;;;;;;;x
+KALAN_BOOK;Toils of Bumlan;;;;;;;;;;;;;x
+LEVYTAN_BOOK;Boadon's Lessons;;;;;;;;;;;;;x
+MERRO_BOOK;Nebiro's Depths;;;;;;;;;;;;;x
+NAVO_BOOK;Byajvo's Works;;;;;;;;;;;;;x
+POGHESS_BOOK;The Prophecy of the Moghes;;;;;;;;;;;;;x
+QWARI_BOOK;Vawri the Savior;;;;;;;;;;;;;x
+RANNU_BOOK;The Herder;;;;;;;;;;;;;x
+TIMUT_BOOK;Proper rites for worship of Ilnut;;;;;;;;;;;;;x
+VITAT_BOOK;Granoz Zinat;;;;;;;;;;;;;x
+YAVA_BOOK;Feeding Kahala;;;;;;;;;;;;;x
+ZET_BOOK;Karet - Tamer of the Kauni;;;;;;;;;;;;;x
+ZUVAK_BOOK;The gifts of Samak;;;;;;;;;;;;;x
+
+#Priests
+ABIMELECH_PRIEST;Parae;;;;;;;;;;;;;x
+ADES_PRIEST;Nuues;;;;;;;;;;;;;x
+ANIN_PRIEST;Mhrin;;;;;;;;;;;;;x
+BASLI_PRIEST;Hali;;;;;;;;;;;;;x
+DULMAL_PRIEST;Tymae;;;;;;;;;;;;;x
+GAWEI_PRIEST;Aish;;;;;;;;;;;;;x
+GREY_TRIBES_PRIEST;Ankey;;;;;;;;;;;;;x
+HESEN_PRIEST;Antea;;;;;;;;;;;;;x
+HUARGENS_PRIEST;Brud;;;;;;;;;;;;;x
+HUNUTE_PRIEST;Verte;;;;;;;;;;;;;x
+KALAN_PRIEST;Pruan;;;;;;;;;;;;;x
+LEVYTAN_PRIEST;Alim;;;;;;;;;;;;;x
+MERRO_PRIEST;Jatao;;;;;;;;;;;;;x
+NAVO_PRIEST;Strcto;;;;;;;;;;;;;x
+POGHESS_PRIEST;Langhes;;;;;;;;;;;;;x
+QWARI_PRIEST;Wari;;;;;;;;;;;;;x
+RANNU_PRIEST;Ngjo;;;;;;;;;;;;;x
+TIMUT_PRIEST;Muut;;;;;;;;;;;;;x
+VITAT_PRIEST;Zineks;;;;;;;;;;;;;x
+YAVA_PRIEST;Harfa;;;;;;;;;;;;;x
+ZET_PRIEST;Vaet;;;;;;;;;;;;;x
+ZUVAK_PRIEST;Baiak;;;;;;;;;;;;;x
+
+#Gods
+ABIMELECH_GOD_MALE;Varo;;;;;;;;;;;;;x
+ABIMELECH_GOD_FEMALE;Laaki;;;;;;;;;;;;;x
+ADES_GOD_GARYN;Garyn;;;;;;;;;;;;;x
+ADES_GOD_KHIIES;Khiies;;;;;;;;;;;;;x
+ADES_GOD_TMES;Tmes;;;;;;;;;;;;;x
+ANIN_GOD_TAYIN;Tayin;;;;;;;;;;;;;x
+ANIN_GOD_YULIN;Yulin;;;;;;;;;;;;;x
+BASLI_GOD;Jaali;;;;;;;;;;;;;x
+DULMAL_GOD;Bwoyy;;;;;;;;;;;;;x
+GAWEI_GOD_INNZ;Inn-z;;;;;;;;;;;;;x
+GAWEI_GOD_KAMI;Kami;;;;;;;;;;;;;x
+GAWEI_GOD_CENNO;Cenno;;;;;;;;;;;;;x
+GAWEI_GOD_MAKU;Maku;;;;;;;;;;;;;x
+GREY_TRIBE_GOD;Ancient One;;;;;;;;;;;;;x
+HESEN_GOD;Silent God;;;;;;;;;;;;;x
+HUARGENS_GOD;Shayaen;;;;;;;;;;;;;x
+HUNUTE_GOD;Venute;;;;;;;;;;;;;x
+KALAN_GOD;Bumlan;;;;;;;;;;;;;x
+LEVYTAN_GOD;Boadon;;;;;;;;;;;;;x
+MERRO_GOD;Nebiro;;;;;;;;;;;;;x
+NAVO_GOD;Byajvo;;;;;;;;;;;;;x
+POGHESS_GOD_DJAHES;Djahes;;;;;;;;;;;;;x
+POGHESS_GOD_HARHES;Harhes;;;;;;;;;;;;;x
+POGHESS_GOD_ZAVHES;Zavhes;;;;;;;;;;;;;x
+QWARI_GOD;Vawri the Savior;;;;;;;;;;;;;x
+RANNU_GOD;Ngjin;;;;;;;;;;;;;x
+TIMUT_GOD;Ilnut;;;;;;;;;;;;;x
+VITAT_GOD;Zinat;;;;;;;;;;;;;x
+YAVA_GOD;Kahala;;;;;;;;;;;;;x
+ZET_GOD;Karet;;;;;;;;;;;;;x
+ZUVAK_GOD;Samak;;;;;;;;;;;;;x
+
+#Evil Gods
+DEATH;Death God;;;;;;;;;;;;;x
+ANIN_GOD_DULAIN;Dulain;;;;;;;;;;;;;x

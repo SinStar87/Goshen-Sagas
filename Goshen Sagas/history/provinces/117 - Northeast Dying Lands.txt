@@ -1,0 +1,17 @@
+#########################
+# Northeast Dying Lands
+#########################
+
+#County Title
+title = c_ne_dying_lands
+
+#Settlements
+max_settlements = 0
+
+#Settings
+culture = dyinglands
+religion = dyinglands_rel
+
+#History
+#867.1.1 = {
+#}

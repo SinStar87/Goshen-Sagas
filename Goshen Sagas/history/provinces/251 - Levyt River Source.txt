@@ -1,0 +1,20 @@
+###########################
+# Levyt River Source
+###########################
+
+#County Title
+title = c_levyt_river_source
+
+#Settlements
+max_settlements = 3
+b_levyt_river_source = castle
+b_levyt_river_source_city = city
+b_levyt_river_source_temple = temple
+
+#Settings
+culture = dulmal
+religion = dulmal_rel
+
+#History
+#867.1.1 = {
+#}

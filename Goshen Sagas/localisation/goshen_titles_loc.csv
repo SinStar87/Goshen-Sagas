@@ -1,0 +1,2350 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+##########
+#Empires
+##########
+e_rogas;Rogas;;;;;;;;;;;;;x
+e_rogas_adj;Rogasi;;;;;;;;;;;;;x
+e_pan;Pan;;;;;;;;;;;;;x
+e_pan_adj;Pani;;;;;;;;;;;;;x
+e_goshen;Goshen;;;;;;;;;;;;;x
+e_goshen_adj;Goshenite;;;;;;;;;;;;;x
+e_AGOT;AGOT Team;;;;;;;;;;;;;x
+e_AGOT_adj;AGOT Team;;;;;;;;;;;;;x
+
+##########
+#Kingdoms
+##########
+k_abimelech;Abimelech;;;;;;;;;;;;;x
+k_abimelech_adj;Abimelechi;;;;;;;;;;;;;x
+k_ades;Ades;;;;;;;;;;;;;x
+k_ades_adj;Ades;;;;;;;;;;;;;x
+k_anin;Anin;;;;;;;;;;;;;x
+k_anin_adj;Anin;;;;;;;;;;;;;x
+k_basli;Basli;;;;;;;;;;;;;x
+k_basli_adj;Basli;;;;;;;;;;;;;x
+k_gawei;Gawei;;;;;;;;;;;;;x
+k_gawei_adj;Gawei;;;;;;;;;;;;;x
+k_grey_lands;Grey-lands;;;;;;;;;;;;;x
+k_grey_lands_adj;Grey-Tribesman;;;;;;;;;;;;;x
+k_hesen;Hesen;;;;;;;;;;;;;x
+k_hesen_adj;Hesen;;;;;;;;;;;;;x
+k_hunute;Hunute;;;;;;;;;;;;;x
+k_hunute_adj;Hunutan;;;;;;;;;;;;;x
+k_kalan;Kalan;;;;;;;;;;;;;x
+k_kalan_adj;Kalani;;;;;;;;;;;;;x
+k_levyt;Levyt;;;;;;;;;;;;;x
+k_levyt_adj;Levytan;;;;;;;;;;;;;x
+k_navo;Navo;;;;;;;;;;;;;x
+k_navo_adj;Navo;;;;;;;;;;;;;x
+k_rannu;Rannu;;;;;;;;;;;;;x
+k_rannu_adj;Rannu;;;;;;;;;;;;;x
+k_vitat;Vitat;;;;;;;;;;;;;x
+k_vitat_adj;Vitat;;;;;;;;;;;;;x
+k_yava;Yava;;;;;;;;;;;;;x
+k_yava_adj;Yavan;;;;;;;;;;;;;x
+k_zuvak;Zuvak;;;;;;;;;;;;;x
+k_zuvak_adj;Zuvaki;;;;;;;;;;;;;x
+
+########
+#Duchies
+########
+d_abimelech_falls;Abimelech Falls;;;;;;;;;;;;;x
+d_abimelech_falls_adj;Abimelechi;;;;;;;;;;;;;x
+d_ades_coast;Ades Coast;;;;;;;;;;;;;x
+d_ades_coast_adj;Ades;;;;;;;;;;;;;x
+d_anin_ko_coast;Anin Ko Coast;;;;;;;;;;;;;x
+d_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+d_basli_forest;Basli Forest;;;;;;;;;;;;;x
+d_basli_forest_adj;Basli;;;;;;;;;;;;;x
+d_basli_plains;Basli Plains;;;;;;;;;;;;;x
+d_basli_plains_adj;Basli;;;;;;;;;;;;;x
+d_blav;Blav;;;;;;;;;;;;;x
+d_blav_adj;Anin;;;;;;;;;;;;;x
+d_c_abimelechs;C. Abimelechs;;;;;;;;;;;;;x
+d_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+d_c_ades_plains;C. Ades Plains;;;;;;;;;;;;;x
+d_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+d_c_anin_plains;C. Anin Plains;;;;;;;;;;;;;x
+d_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_c_grey_plains;C. Grey Plains;;;;;;;;;;;;;x
+d_c_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+d_c_vitat_canyon;C. Vitat Canyon;;;;;;;;;;;;;x
+d_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+d_c_yava_forest;C. Yava Forest;;;;;;;;;;;;;x
+d_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+d_cenno;Cenno;;;;;;;;;;;;;x
+d_cenno_adj;Gawei;;;;;;;;;;;;;x
+d_collsi;Collsi;;;;;;;;;;;;;x
+d_collsi_adj;Collsi;;;;;;;;;;;;;x
+d_door_to_yava;Door to Yava;;;;;;;;;;;;;x
+d_door_to_yava_adj;Yavan;;;;;;;;;;;;;x
+d_dulmal;Dulmal;;;;;;;;;;;;;x
+d_dulmal_adj;Dulmal;;;;;;;;;;;;;x
+d_e_ades_plains;E. Ades Plains;;;;;;;;;;;;;x
+d_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+d_e_daly_mountains;E. Daly Mtns.;;;;;;;;;;;;;x
+d_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+d_e_grey_plains;E. Grey Plains;;;;;;;;;;;;;x
+d_e_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+d_e_kalan_fields;E. Kalan Fields;;;;;;;;;;;;;x
+d_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+d_e_navo_desert;E. Navo Desert;;;;;;;;;;;;;x
+d_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+d_e_yava_forest;E. Yava Forest;;;;;;;;;;;;;x
+d_e_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+d_etzu_lake;Etzu Lake;;;;;;;;;;;;;x
+d_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+d_etzu_river;Etzu River;;;;;;;;;;;;;x
+d_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+d_etzus_mouth;Etzu's Mouth;;;;;;;;;;;;;x
+d_etzus_mouth_adj;Zuvaki;;;;;;;;;;;;;x
+d_gap_in_the_mountain;Mountain Gap;;;;;;;;;;;;;x
+d_gap_in_the_mountain_adj;Anin;;;;;;;;;;;;;x
+d_gawei_castle;Gawei Castle;;;;;;;;;;;;;x
+d_gawei_castle_adj;Gawei;;;;;;;;;;;;;x
+d_gawei_channel_isles;Gawei Channel Isles;;;;;;;;;;;;;x
+d_gawei_channel_isles_adj;Gawei;;;;;;;;;;;;;x
+d_gawei_isles;Gawei Isles;;;;;;;;;;;;;x
+d_gawei_isles_adj;Gawei;;;;;;;;;;;;;x
+d_gawei_village;Gawei Village;;;;;;;;;;;;;x
+d_gawei_village_adj;Gawei;;;;;;;;;;;;;x
+d_great_war_hall;Great War Hall;;;;;;;;;;;;;x
+d_great_war_hall_adj;Abimelechi;;;;;;;;;;;;;x
+d_grey_coast;Grey Coast;;;;;;;;;;;;;x
+d_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+d_grey_mountains;Grey Mtns;;;;;;;;;;;;;x
+d_grey_mountains_adj;Basli;;;;;;;;;;;;;x
+d_hese_forest;Hese Forest;;;;;;;;;;;;;x
+d_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+d_home_of_the_vitat;Vitat Home;;;;;;;;;;;;;x
+d_home_of_the_vitat_adj;Vitat;;;;;;;;;;;;;x
+d_huargen;Huargen;;;;;;;;;;;;;x
+d_huargen_adj;Huargen;;;;;;;;;;;;;x
+d_hunute_forest;Hunute Forest;;;;;;;;;;;;;x
+d_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+d_jese_castle;Jese Castle;;;;;;;;;;;;;x
+d_jese_castle_adj;Hesen;;;;;;;;;;;;;x
+d_kalan_village;Kalan Village;;;;;;;;;;;;;x
+d_kalan_village_adj;Kalani;;;;;;;;;;;;;x
+d_kalani_coast;Kalani Coast;;;;;;;;;;;;;x
+d_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+d_ko;Ko;;;;;;;;;;;;;x
+d_ko_adj;Ades;;;;;;;;;;;;;x
+d_levyt;Levyt;;;;;;;;;;;;;x
+d_levyt_adj;Levytan;;;;;;;;;;;;;x
+d_levyt_river;Levyt River;;;;;;;;;;;;;x
+d_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+d_levyt_w_bank;Levyt W. Bank;;;;;;;;;;;;;x
+d_levyt_w_bank_adj;Levytan;;;;;;;;;;;;;x
+d_lommal;Lommal;;;;;;;;;;;;;x
+d_lommal_adj;Lommal;;;;;;;;;;;;;x
+d_majat_mountains;Majat Mtns;;;;;;;;;;;;;x
+d_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+d_merro;Merro;;;;;;;;;;;;;x
+d_merro_adj;Merro;;;;;;;;;;;;;x
+d_n_abimelechs;N. Abimelechs;;;;;;;;;;;;;x
+d_n_abimelechs_adj;Anin;;;;;;;;;;;;;x
+d_n_anin_coast;N. Anin Coast;;;;;;;;;;;;;x
+d_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+d_n_anin_plains;N. Anin Plains;;;;;;;;;;;;;x
+d_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_n_grey_plains;N. Grey Plains;;;;;;;;;;;;;x
+d_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+d_n_hal_mountains;N. Hal Mountains;;;;;;;;;;;;;x
+d_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+d_n_hunute_forest;N. Hunute Forest;;;;;;;;;;;;;x
+d_n_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+d_n_rannu_coast;N. Rannu Coast;;;;;;;;;;;;;x
+d_n_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+d_n_vitat_canyon;N. Vitat Canyon;;;;;;;;;;;;;x
+d_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+d_navo_coast;Navo Coast;;;;;;;;;;;;;x
+d_navo_coast_adj;Navo;;;;;;;;;;;;;x
+d_navo_river;Navo River;;;;;;;;;;;;;x
+d_navo_river_adj;Navo;;;;;;;;;;;;;x
+d_ne_anin_plains;N.E. Anin Plains;;;;;;;;;;;;;x
+d_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_ne_yava_forest;N.E. Yava Forest;;;;;;;;;;;;;x
+d_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+d_norrain_river;Norrain River;;;;;;;;;;;;;x
+d_norrain_river_adj;Kalani;;;;;;;;;;;;;x
+d_nw_yava_forest;N.W. Yava Forest;;;;;;;;;;;;;x
+d_nw_yava_forest_adj;Yava;;;;;;;;;;;;;x
+d_pan_cliffs;Pan Cliffs;;;;;;;;;;;;;x
+d_pan_cliffs_adj;Vitat;;;;;;;;;;;;;x
+d_poghess;Poghess;;;;;;;;;;;;;x
+d_poghess_adj;Poghess;;;;;;;;;;;;;x
+d_qess_fort;Qess Fort;;;;;;;;;;;;;x
+d_qess_fort_adj;Gawei;;;;;;;;;;;;;x
+d_qwari;Qwari;;;;;;;;;;;;;x
+d_qwari_adj;Qwari;;;;;;;;;;;;;x
+d_rannu_plains;Rannu Plains;;;;;;;;;;;;;x
+d_rannu_plains_adj;Ran-nu;;;;;;;;;;;;;x
+d_s_anin_plains;S. Anin Plains;;;;;;;;;;;;;x
+d_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_s_basli_forest;S. Basli Forest;;;;;;;;;;;;;x
+d_s_basli_forest_adj;Basli;;;;;;;;;;;;;x
+d_s_hese_coast;S. Hese Coast;;;;;;;;;;;;;x
+d_s_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+d_s_hunute_forest;S. Hunute Forest;;;;;;;;;;;;;x
+d_s_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+d_s_rannu_coast;S. Rannu Coast;;;;;;;;;;;;;x
+d_s_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+d_s_yava_forest;S. Yava Forest;;;;;;;;;;;;;x
+d_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+d_se_anin_plains;S.E. Anin Plains;;;;;;;;;;;;;x
+d_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_silt_castle;Silt Castle;;;;;;;;;;;;;x
+d_silt_castle_adj;Navo;;;;;;;;;;;;;x
+d_solwood;Solwood;;;;;;;;;;;;;x
+d_solwood_adj;Gawei;;;;;;;;;;;;;x
+d_sun_river;Sun River;;;;;;;;;;;;;x
+d_sun_river_adj;Gawei;;;;;;;;;;;;;x
+d_sw_anin_plains;S.W. Anin Plains;;;;;;;;;;;;;x
+d_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+d_timut;Timut;;;;;;;;;;;;;x
+d_timut_adj;Timut;;;;;;;;;;;;;x
+d_twins;Twins;;;;;;;;;;;;;x
+d_twins_adj;Hesen;;;;;;;;;;;;;x
+d_w_abimelechs;W. Abimelechs;;;;;;;;;;;;;x
+d_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+d_w_ades_plains;W. Ades Plains;;;;;;;;;;;;;x
+d_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+d_w_jese_coast;W. Jese Coast;;;;;;;;;;;;;x
+d_w_jese_coast_adj;Hesen;;;;;;;;;;;;;x
+d_w_kalan_fields;W. Kalan Fields;;;;;;;;;;;;;x
+d_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+d_w_navo_desert;W. Navo Desert;;;;;;;;;;;;;x
+d_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+d_zalv_forest;Zalv Forest;;;;;;;;;;;;;x
+d_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+d_zet;Zet;;;;;;;;;;;;;x
+d_zet_adj;Zet;;;;;;;;;;;;;x
+d_zuvaki_palace;Zuvaki Palace;;;;;;;;;;;;;x
+d_zuvaki_palace_adj;Zuvaki;;;;;;;;;;;;;x
+
+############
+#Counties
+############
+c_abimelech_falls;Abimelech Falls;;;;;;;;;;;;;x
+c_abimelech_falls_adj;Abimelechi;;;;;;;;;;;;;x
+c_anin_ko_coast;Anin Ko Coast;;;;;;;;;;;;;x
+c_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+c_anlas;Anlas;;;;;;;;;;;;;x
+c_anlas_adj;Gawei;;;;;;;;;;;;;x
+c_basli_forest;Basli Forest;;;;;;;;;;;;;x
+c_basli_forest_adj;Basli;;;;;;;;;;;;;x
+c_belar;Belar;;;;;;;;;;;;;x
+c_belar_adj;Timut;;;;;;;;;;;;;x
+c_black_fog_falls;Black Fog Falls;;;;;;;;;;;;;x
+c_black_fog_falls_adj;Dulmal;;;;;;;;;;;;;x
+c_black_fog_mountains;Black Fog Mtns;;;;;;;;;;;;;x
+c_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+c_blav;Blav;;;;;;;;;;;;;x
+c_blav_adj;Anin;;;;;;;;;;;;;x
+c_blav_approach;Blav Approach;;;;;;;;;;;;;x
+c_blav_approach_adj;Anin;;;;;;;;;;;;;x
+c_bottomless_hole;Bottomless Hole;;;;;;;;;;;;;x
+c_bottomless_hole_adj;Yava;;;;;;;;;;;;;x
+c_byajvos_approach;Byajvos Approach;;;;;;;;;;;;;x
+c_byajvos_approach_adj;Navo;;;;;;;;;;;;;x
+c_byajvos_cradle;Byajvos' Cradle;;;;;;;;;;;;;x
+c_byajvos_cradle_adj;Navo;;;;;;;;;;;;;x
+c_byajvos_keep;Byajvos' Keep;;;;;;;;;;;;;x
+c_byajvos_keep_adj;Navo;;;;;;;;;;;;;x
+c_c_abimelechs;C. Abimelechs;;;;;;;;;;;;;x
+c_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_c_ades_plains;C. Ades Plains;;;;;;;;;;;;;x
+c_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_c_anin_plains;C. Anin Plains;;;;;;;;;;;;;x
+c_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_c_e_daly_mountains;C.E. Daly Mtns;;;;;;;;;;;;;x
+c_c_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+c_c_grey_plains;C. Grey Plains;;;;;;;;;;;;;x
+c_c_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_c_hese_forest;C. Hese Forest;;;;;;;;;;;;;x
+c_c_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+c_c_kalan_fields;C. Kalan Fields;;;;;;;;;;;;;x
+c_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_c_kauni;C. Kauni;;;;;;;;;;;;;x
+c_c_kauni_adj;Zet;;;;;;;;;;;;;x
+c_c_kzi;C. Kzi;;;;;;;;;;;;;x
+c_c_kzi_adj;Gawei;;;;;;;;;;;;;x
+c_c_majat_mountains;C. Majat Mtns;;;;;;;;;;;;;x
+c_c_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+c_c_n_anin_coast;C.N. Anin Coast;;;;;;;;;;;;;x
+c_c_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+c_c_trovo;C. Trovo;;;;;;;;;;;;;x
+c_c_trovo_adj;Poghess;;;;;;;;;;;;;x
+c_c_vitat_canyon;C. Vitat Canyon;;;;;;;;;;;;;x
+c_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_c_yava_forest;C. Yava Forest;;;;;;;;;;;;;x
+c_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_cenno;Cenno;;;;;;;;;;;;;x
+c_cenno_adj;Gawei;;;;;;;;;;;;;x
+c_collsi_capital;Collsi Capital;;;;;;;;;;;;;x
+c_collsi_capital_adj;Collsi;;;;;;;;;;;;;x
+c_confusion_valley;Confusion Valley;;;;;;;;;;;;;x
+c_confusion_valley_adj;Vitat;;;;;;;;;;;;;x
+c_e_ades_plains;E. Ades Plains;;;;;;;;;;;;;x
+c_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_e_basli_forest;E. Basli Forest;;;;;;;;;;;;;x
+c_e_basli_forest_adj;Basli;;;;;;;;;;;;;x
+c_e_c_abimelechs;E.C. Abimelechs;;;;;;;;;;;;;x
+c_e_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_e_c_ades_plains;E.C. Ades Plains;;;;;;;;;;;;;x
+c_e_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_e_c_grey_plains;E.C. Grey Plains;;;;;;;;;;;;;x
+c_e_c_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_e_c_vitat_canyon;E.C. Vitat Canyon;;;;;;;;;;;;;x
+c_e_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_e_c_yava_forest;E.C. Yava Forest;;;;;;;;;;;;;x
+c_e_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_e_e_earthfort_mountains;E.E. Earthforts;;;;;;;;;;;;;x
+c_e_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_e_e_navo_desert;E.E. Navo Desert;;;;;;;;;;;;;x
+c_e_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_e_earthfort_mountains;E. Earthforts;;;;;;;;;;;;;x
+c_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_e_grey_coast;E. Grey Coast;;;;;;;;;;;;;x
+c_e_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_e_grey_plains;E. Grey Plains;;;;;;;;;;;;;x
+c_e_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_e_insol;E. Insol;;;;;;;;;;;;;x
+c_e_insol_adj;Poghess;;;;;;;;;;;;;x
+c_e_jese_coast;E. Jese Coast;;;;;;;;;;;;;x
+c_e_jese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_e_kalan_fields;E. Kalan Fields;;;;;;;;;;;;;x
+c_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_e_kauni_forest;E. Kauni Forest;;;;;;;;;;;;;x
+c_e_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+c_e_levyt_coast;E. Levyt Coast;;;;;;;;;;;;;x
+c_e_levyt_coast_adj;Levytan;;;;;;;;;;;;;x
+c_e_levyt_plains;E. Levyt Plains;;;;;;;;;;;;;x
+c_e_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+c_e_n_abimelechs;E.N. Abimelechs;;;;;;;;;;;;;x
+c_e_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_e_n_anin_coast;E.N. Anin Coast;;;;;;;;;;;;;x
+c_e_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+c_e_n_hal_mountains;E.N. Hal Mtns;;;;;;;;;;;;;x
+c_e_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_e_n_hese_coast;E.N. Hese Coast;;;;;;;;;;;;;x
+c_e_n_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_e_n_kalani_coast;E.N. Kalani Coast;;;;;;;;;;;;;x
+c_e_n_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+c_e_navo_coast;E. Navo Coast;;;;;;;;;;;;;x
+c_e_navo_coast_adj;Navo;;;;;;;;;;;;;x
+c_e_navo_desert;E. Navo Desert;;;;;;;;;;;;;x
+c_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_e_ne_anin_plains;E.NE. Anin Plains;;;;;;;;;;;;;x
+c_e_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_e_norrain_river;E. Norrain River;;;;;;;;;;;;;x
+c_e_norrain_river_adj;Kalani;;;;;;;;;;;;;x
+c_e_nw_yava_forest;E.NW. Yava Forest;;;;;;;;;;;;;x
+c_e_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_e_pan_cliffs;E. Pan Cliffs;;;;;;;;;;;;;x
+c_e_pan_cliffs_adj;Vitat;;;;;;;;;;;;;x
+c_e_rannu_river;E. Rannu River;;;;;;;;;;;;;x
+c_e_rannu_river_adj;Ran-nu;;;;;;;;;;;;;x
+c_e_s_anin_plains;E.S. Anin Plains;;;;;;;;;;;;;x
+c_e_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_e_s_gawei_coast;E.S. Gawei Coast;;;;;;;;;;;;;x
+c_e_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+c_e_s_hese_coast;E.S. Hese Coast;;;;;;;;;;;;;x
+c_e_s_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_e_s_kalani_coast;E.S. Kalani Coast;;;;;;;;;;;;;x
+c_e_s_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+c_e_s_majat_mountains;E.S. Majat Mtns;;;;;;;;;;;;;x
+c_e_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+c_e_s_yava_forest;E.S. Yava Forest;;;;;;;;;;;;;x
+c_e_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_e_w_kalan_fields;E.W. Kalan Fields;;;;;;;;;;;;;x
+c_e_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_e_w_navo_desert;E.W. Navo Desert;;;;;;;;;;;;;x
+c_e_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_e_yava_forest;E. Yava Forest;;;;;;;;;;;;;x
+c_e_yava_forest_adj;Yava;;;;;;;;;;;;;x
+c_e_zalv_forest;E. Zalv Forest;;;;;;;;;;;;;x
+c_e_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+c_earthfort_coasts;Earthfort Coasts;;;;;;;;;;;;;x
+c_earthfort_coasts_adj;Collsi;;;;;;;;;;;;;x
+c_elfall;Elfall;;;;;;;;;;;;;x
+c_elfall_adj;Merro;;;;;;;;;;;;;x
+c_elfall_volcano;Elfall Volcano;;;;;;;;;;;;;x
+c_elfall_volcano_adj;Merro;;;;;;;;;;;;;x
+c_etzu_berth;Etzu Berth;;;;;;;;;;;;;x
+c_etzu_berth_adj;Zuvaki;;;;;;;;;;;;;x
+c_etzu_falls;Etzu Falls;;;;;;;;;;;;;x
+c_etzu_falls_adj;Zuvaki;;;;;;;;;;;;;x
+c_etzu_lake;Etzu Lake;;;;;;;;;;;;;x
+c_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+c_etzus_mouth;Etzu's Mouth;;;;;;;;;;;;;x
+c_etzus_mouth_adj;Zuvaki;;;;;;;;;;;;;x
+c_gap_in_the_mountain;Mountain Gap;;;;;;;;;;;;;x
+c_gap_in_the_mountain_adj;Anin;;;;;;;;;;;;;x
+c_gawei_castle;Gawei Castle;;;;;;;;;;;;;x
+c_gawei_castle_adj;Gawei;;;;;;;;;;;;;x
+c_gawei_village;Gawei Village;;;;;;;;;;;;;x
+c_gawei_village_adj;Gawei;;;;;;;;;;;;;x
+c_great_war_hall;Great War Hall;;;;;;;;;;;;;x
+c_great_war_hall_adj;Abimelechi;;;;;;;;;;;;;x
+c_grey_mountains;Grey Mountains;;;;;;;;;;;;;x
+c_grey_mountains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_hideaway;Hideaway;;;;;;;;;;;;;x
+c_hideaway_adj;Collsi;;;;;;;;;;;;;x
+c_home_of_the_vitat;Vitat Home;;;;;;;;;;;;;x
+c_home_of_the_vitat_adj;Vitat;;;;;;;;;;;;;x
+c_huargen;Huargen;;;;;;;;;;;;;x
+c_huargen_adj;Huargen;;;;;;;;;;;;;x
+c_hunute_forest;Hunute Forest;;;;;;;;;;;;;x
+c_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_jese_castle;Jese Castle;;;;;;;;;;;;;x
+c_jese_castle_adj;Hesen;;;;;;;;;;;;;x
+c_kalan_village;Kalan Village;;;;;;;;;;;;;x
+c_kalan_village_adj;Kalani;;;;;;;;;;;;;x
+c_kalani_border;Kalani Border;;;;;;;;;;;;;x
+c_kalani_border_adj;Kalani;;;;;;;;;;;;;x
+c_kami;Kami;;;;;;;;;;;;;x
+c_kami_adj;Gawei;;;;;;;;;;;;;x
+c_khes;Khes;;;;;;;;;;;;;x
+c_khes_adj;Gawei;;;;;;;;;;;;;x
+c_left_twin;Left Twin;;;;;;;;;;;;;x
+c_left_twin_adj;Hesen;;;;;;;;;;;;;x
+c_lesser_etzu_river;Lesser Etzu River;;;;;;;;;;;;;x
+c_lesser_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+c_levyt_city;Levyt City;;;;;;;;;;;;;x
+c_levyt_city_adj;Levytan;;;;;;;;;;;;;x
+c_levyt_e_bank;Levyt E. Bank;;;;;;;;;;;;;x
+c_levyt_e_bank_adj;Levytan;;;;;;;;;;;;;x
+c_levyt_river_source;Levyt River Source;;;;;;;;;;;;;x
+c_levyt_river_source_adj;Levytan;;;;;;;;;;;;;x
+c_levyt_w_bank;Levyt W. Bank;;;;;;;;;;;;;x
+c_levyt_w_bank_adj;Levytan;;;;;;;;;;;;;x
+c_lower_mighty_etzu_river;Lower Mighty Etzu River;;;;;;;;;;;;;x
+c_lower_mighty_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+c_lower_navo_river;Lower Navo River;;;;;;;;;;;;;x
+c_lower_navo_river_adj;Navo;;;;;;;;;;;;;x
+c_maku;Maku;;;;;;;;;;;;;x
+c_maku_adj;Gawei;;;;;;;;;;;;;x
+c_n_abimelechs;N. Abimelechs;;;;;;;;;;;;;x
+c_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_n_ades_coast;N. Ades Coast;;;;;;;;;;;;;x
+c_n_ades_coast_adj;Ades;;;;;;;;;;;;;x
+c_n_anin_coast;N. Anin Coast;;;;;;;;;;;;;x
+c_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+c_n_anin_ko_coast;N. Anin Ko Coast;;;;;;;;;;;;;x
+c_n_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+c_n_anin_plains;N. Anin Plains;;;;;;;;;;;;;x
+c_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_n_basli_forest;N. Basli Forest;;;;;;;;;;;;;x
+c_n_basli_forest_adj;Basli;;;;;;;;;;;;;x
+c_n_basli_plains;N. Basli Plains;;;;;;;;;;;;;x
+c_n_basli_plains_adj;Basli;;;;;;;;;;;;;x
+c_n_c_anin_ko_coast;N.C. Anin Ko Coast;;;;;;;;;;;;;x
+c_n_c_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+c_n_c_anin_plains;N.C. Anin Plains;;;;;;;;;;;;;x
+c_n_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_n_c_kalan_fields;N.C. Kalan Fields;;;;;;;;;;;;;x
+c_n_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_n_c_vitat_canyon;N.C. Vitat Canyon;;;;;;;;;;;;;x
+c_n_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_n_door_to_yava;N. Yava Door;;;;;;;;;;;;;x
+c_n_door_to_yava_adj;Yavan;;;;;;;;;;;;;x
+c_n_e_ades_plains;N.E. Ades Plains;;;;;;;;;;;;;x
+c_n_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_n_e_daly_mountains;N.E. Daly Mtns;;;;;;;;;;;;;x
+c_n_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+c_n_e_earthfort_mountains;N.E. Earthforts;;;;;;;;;;;;;x
+c_n_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_n_e_levyt_plains;N.E. Levyt Plains;;;;;;;;;;;;;x
+c_n_e_levyt_plains_adj;Lommal;;;;;;;;;;;;;x
+c_n_e_navo_desert;N.E. Navo Desert;;;;;;;;;;;;;x
+c_n_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_n_grey_plains;N. Grey Plains;;;;;;;;;;;;;x
+c_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_n_hal_mountains;N. Hal Mtns;;;;;;;;;;;;;x
+c_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_n_hese_forest;N. Hese Forest;;;;;;;;;;;;;x
+c_n_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+c_n_hunute_forest;N. Hunute Forest;;;;;;;;;;;;;x
+c_n_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_n_kalani_coast;N. Kalani Coast;;;;;;;;;;;;;x
+c_n_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+c_n_kauni;N. Kauni;;;;;;;;;;;;;x
+c_n_kauni_adj;Zet;;;;;;;;;;;;;x
+c_n_ko;N. Ko;;;;;;;;;;;;;x
+c_n_ko_adj;Ades;;;;;;;;;;;;;x
+c_n_kzi;N. Kzi;;;;;;;;;;;;;x
+c_n_kzi_adj;Gawei;;;;;;;;;;;;;x
+c_n_levyt;N. Levyt;;;;;;;;;;;;;x
+c_n_levyt_adj;Levytan;;;;;;;;;;;;;x
+c_n_lower_levyt_river;N. Lower Levyt River;;;;;;;;;;;;;x
+c_n_lower_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+c_n_n_grey_plains;N.N. Grey Plains;;;;;;;;;;;;;x
+c_n_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_n_ne_anin_plains;N.NE. Anin Plains;;;;;;;;;;;;;x
+c_n_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_n_rannu_coast;N. Rannu Coast;;;;;;;;;;;;;x
+c_n_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+c_n_rannu_plains;N. Rannu Plains;;;;;;;;;;;;;x
+c_n_rannu_plains_adj;Ran-nu;;;;;;;;;;;;;x
+c_n_se_anin_plains;N.SE. Anin Plains;;;;;;;;;;;;;x
+c_n_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_n_solwood;N. Solwood;;;;;;;;;;;;;x
+c_n_solwood_adj;Gawei;;;;;;;;;;;;;x
+c_n_sun_river;N. Sun River;;;;;;;;;;;;;x
+c_n_sun_river_adj;Gawei;;;;;;;;;;;;;x
+c_n_sw_anin_plains;N.SW. Anin Plains;;;;;;;;;;;;;x
+c_n_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_n_trovo;N. Trovo;;;;;;;;;;;;;x
+c_n_trovo_adj;Poghess;;;;;;;;;;;;;x
+c_n_upper_levyt_river;N. Upper Levyt River;;;;;;;;;;;;;x
+c_n_upper_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+c_n_upper_navo_river;N. Upper Navo River;;;;;;;;;;;;;x
+c_n_upper_navo_river_adj;Navo;;;;;;;;;;;;;x
+c_n_vitat_canyon;N. Vitat Canyon;;;;;;;;;;;;;x
+c_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_n_w_abimelechs;N.W. Abimelechs;;;;;;;;;;;;;x
+c_n_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_n_w_ades_plains;N.W. Ades Plains;;;;;;;;;;;;;x
+c_n_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_n_w_daly_mountains;N.W. Daly Mtns;;;;;;;;;;;;;x
+c_n_w_daly_mountains_adj;Anin;;;;;;;;;;;;;x
+c_n_w_kalan_fields;N.W. Kalan Fields;;;;;;;;;;;;;x
+c_n_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_n_w_navo_desert;N.W. Navo Desert;;;;;;;;;;;;;x
+c_n_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_navos_mouth;Navo's Mouth;;;;;;;;;;;;;x
+c_navos_mouth_adj;Navo;;;;;;;;;;;;;x
+c_ne_anin_plains;N.E. Anin Plains;;;;;;;;;;;;;x
+c_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_ne_c_vitat_canyon;N.E.C. Vitat Canyon;;;;;;;;;;;;;x
+c_ne_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_ne_e_ades_plains;N.E.E. Ades Plains;;;;;;;;;;;;;x
+c_ne_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_ne_e_earthfort_mountains;N.E.E. Earthforts;;;;;;;;;;;;;x
+c_ne_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_ne_e_kalan_fields;N.E.E. Kalan Fields;;;;;;;;;;;;;x
+c_ne_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_ne_etzu_lake;N.E. Etzu Lake;;;;;;;;;;;;;x
+c_ne_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+c_ne_hunute_forest;N.E. Hunute Forest;;;;;;;;;;;;;x
+c_ne_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_ne_n_anin_plains;N.E.N. Anin Plains;;;;;;;;;;;;;x
+c_ne_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_ne_n_hal_mountains;N.E.N. Hal Mtns;;;;;;;;;;;;;x
+c_ne_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_ne_rannu_coast;N.E. Rannu Coast;;;;;;;;;;;;;x
+c_ne_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+c_ne_s_yava_forest;N.E.S. Yava Forest;;;;;;;;;;;;;x
+c_ne_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_ne_se_anin_plains;NE.SE. Anin Plains;;;;;;;;;;;;;x
+c_ne_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_ne_yava_forest;N.E. Yava Forest;;;;;;;;;;;;;x
+c_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_norrain_river;Norrain River;;;;;;;;;;;;;x
+c_norrain_river_adj;Kalani;;;;;;;;;;;;;x
+c_norrains_mouth;Norrain's Mouth;;;;;;;;;;;;;x
+c_norrains_mouth_adj;Kalani;;;;;;;;;;;;;x
+c_norrains_source;Norrain's Source;;;;;;;;;;;;;x
+c_norrains_source_adj;Kalani;;;;;;;;;;;;;x
+c_norrains_southwest_w_bend;Norrain's SW.W Bend;;;;;;;;;;;;;x
+c_norrains_southwest_w_bend_adj;Kalani;;;;;;;;;;;;;x
+c_norrains_west_bend;Norrain's W. Bend;;;;;;;;;;;;;x
+c_norrains_west_bend_adj;Kalani;;;;;;;;;;;;;x
+c_nw_c_anin_plains;N.W.C. Anin Plains;;;;;;;;;;;;;x
+c_nw_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_nw_c_vitat_canyon;N.W.C. Vitat Canyon;;;;;;;;;;;;;x
+c_nw_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_nw_e_kalan_fields;N.W.E. Kalan Fields;;;;;;;;;;;;;x
+c_nw_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_nw_hunute_forest;N.W. Hunute Forest;;;;;;;;;;;;;x
+c_nw_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_nw_n_anin_plains;N.W.N Anin Plains;;;;;;;;;;;;;x
+c_nw_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_nw_n_vitat_canyon;N.W.N. Vitat Canyon;;;;;;;;;;;;;x
+c_nw_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_nw_ne_anin_plains;NW.NE. Anin Plains;;;;;;;;;;;;;x
+c_nw_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_nw_s_yava_forest;N.W.S. Yava Forest;;;;;;;;;;;;;x
+c_nw_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_nw_se_anin_plains;NW.SE. Anin Plains;;;;;;;;;;;;;x
+c_nw_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_nw_sw_anin_plains;NW.SW. Anin Plains;;;;;;;;;;;;;x
+c_nw_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_nw_w_abimelechs;N.W.W. Abimelechs;;;;;;;;;;;;;x
+c_nw_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_nw_yava_forest;N.W. Yava Forest;;;;;;;;;;;;;x
+c_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_oto;Oto;;;;;;;;;;;;;x
+c_oto_adj;Qwari;;;;;;;;;;;;;x
+c_qess_fort;Qess Fort;;;;;;;;;;;;;x
+c_qess_fort_adj;Gawei;;;;;;;;;;;;;x
+c_right_twin;Right Twin;;;;;;;;;;;;;x
+c_right_twin_adj;Hesen;;;;;;;;;;;;;x
+c_s_ades_coast;S. Ades Coast;;;;;;;;;;;;;x
+c_s_ades_coast_adj;Ades;;;;;;;;;;;;;x
+c_s_anin_ko_coast;S. Anin Ko Coast;;;;;;;;;;;;;x
+c_s_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+c_s_anin_plains;S. Anin Plains;;;;;;;;;;;;;x
+c_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_s_basli_forest;S. Basli Forest;;;;;;;;;;;;;x
+c_s_basli_forest_adj;Basli;;;;;;;;;;;;;x
+c_s_basli_plains;S. Basli Plains;;;;;;;;;;;;;x
+c_s_basli_plains_adj;Basli;;;;;;;;;;;;;x
+c_s_black_fog_mountains;S. Black Fog Mtns;;;;;;;;;;;;;x
+c_s_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+c_s_c_abimelechs;S.C. Abimelechs;;;;;;;;;;;;;x
+c_s_c_abimelechs_adj;Abimelechs;;;;;;;;;;;;;x
+c_s_c_anin_ko_coast;S.C. Anin Ko Coast;;;;;;;;;;;;;x
+c_s_c_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+c_s_c_anin_plains;S.C. Anin Plains;;;;;;;;;;;;;x
+c_s_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_s_c_kalan_fields;S.C. Kalan Fields;;;;;;;;;;;;;x
+c_s_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_s_door_to_yava;S. Yava Door;;;;;;;;;;;;;x
+c_s_door_to_yava_adj;Yavan;;;;;;;;;;;;;x
+c_s_e_ades_plains;S.E. Ades Plains;;;;;;;;;;;;;x
+c_s_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_s_e_daly_mountains;S.E. Daly Mtns;;;;;;;;;;;;;x
+c_s_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+c_s_e_earthfort_mountains;S.E. Earthforts;;;;;;;;;;;;;x
+c_s_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_s_e_navo_desert;S.E. Navo Desert;;;;;;;;;;;;;x
+c_s_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_s_etzu_lake;S. Etzu Lake;;;;;;;;;;;;;x
+c_s_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+c_s_gawei_coast;S. Gawei Coast;;;;;;;;;;;;;x
+c_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+c_s_grey_mountains;S. Grey Mountains;;;;;;;;;;;;;x
+c_s_grey_mountains_adj;Basli;;;;;;;;;;;;;x
+c_s_hal_mountains;S. Hal Mtns;;;;;;;;;;;;;x
+c_s_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_s_hese_forest;S. Hese Forest;;;;;;;;;;;;;x
+c_s_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+c_s_hunute_forest;S. Hunute Forest;;;;;;;;;;;;;x
+c_s_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_s_insol;S. Insol;;;;;;;;;;;;;x
+c_s_insol_adj;Poghess;;;;;;;;;;;;;x
+c_s_kalani_coast;S. Kalani Coast;;;;;;;;;;;;;x
+c_s_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+c_s_kauni;S. Kauni;;;;;;;;;;;;;x
+c_s_kauni_adj;Zet;;;;;;;;;;;;;x
+c_s_kauni_forest;S. Kauni Forest;;;;;;;;;;;;;x
+c_s_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+c_s_kzi;S. Kzi;;;;;;;;;;;;;x
+c_s_kzi_adj;Gawei;;;;;;;;;;;;;x
+c_s_lower_levyt_river;S. Lower Levyt River;;;;;;;;;;;;;x
+c_s_lower_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+c_s_majat_mountains;S. Majat Mtns;;;;;;;;;;;;;x
+c_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+c_s_n_abimelechs;S.N. Abimelechs;;;;;;;;;;;;;x
+c_s_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_s_n_grey_plains;S.N. Grey Plains;;;;;;;;;;;;;x
+c_s_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_s_n_vitat_canyon;S.N. Vitat Canyon;;;;;;;;;;;;;x
+c_s_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_s_ne_anin_plains;S.NE. Anin Plains;;;;;;;;;;;;;x
+c_s_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_s_ne_yava_forest;S.NE. Yava Forest;;;;;;;;;;;;;x
+c_s_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_s_nw_yava_forest;S.NW. Yava Forest;;;;;;;;;;;;;x
+c_s_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_s_rannu_coast;S. Rannu Coast;;;;;;;;;;;;;x
+c_s_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+c_s_rannu_plains;S. Rannu Plains;;;;;;;;;;;;;x
+c_s_rannu_plains_adj;Ran-nu;;;;;;;;;;;;;x
+c_s_se_anin_plains;S.SE. Anin Plains;;;;;;;;;;;;;x
+c_s_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_s_solwood;S. Solwood;;;;;;;;;;;;;x
+c_s_solwood_adj;Gawei;;;;;;;;;;;;;x
+c_s_sw_anin_plains;S.SW. Anin Plains;;;;;;;;;;;;;x
+c_s_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_s_trovo;S. Trovo;;;;;;;;;;;;;x
+c_s_trovo_adj;Poghess;;;;;;;;;;;;;x
+c_s_upper_levyt_river;S. Upper Levyt River;;;;;;;;;;;;;x
+c_s_upper_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+c_s_upper_navo_river;S. Upper Navo River;;;;;;;;;;;;;x
+c_s_upper_navo_river_adj;Navo;;;;;;;;;;;;;x
+c_s_w_abimelechs;S.W. Abimelechs;;;;;;;;;;;;;x
+c_s_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_s_w_ades_plains;S.W. Ades Plains;;;;;;;;;;;;;x
+c_s_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_s_w_navo_desert;S.W. Navo Desert;;;;;;;;;;;;;x
+c_s_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_s_yava_forest;S. Yava Forest;;;;;;;;;;;;;x
+c_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_saar;Saar;;;;;;;;;;;;;x
+c_saar_adj;Levytan;;;;;;;;;;;;;x
+c_se_anin_plains;SE. Anin Plains;;;;;;;;;;;;;x
+c_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_se_basli_forest;SE. Basli Forest;;;;;;;;;;;;;x
+c_se_basli_forest_adj;Basli;;;;;;;;;;;;;x
+c_se_c_abimelechs;SE.C. Abimelechs;;;;;;;;;;;;;x
+c_se_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_se_c_anin_plains;SE.C Anin Plains;;;;;;;;;;;;;x
+c_se_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_se_e_earthfort_mountains;SE.E. Earthforts;;;;;;;;;;;;;x
+c_se_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_se_e_navo_desert;SE.E. Navo Desert;;;;;;;;;;;;;x
+c_se_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_se_etzu_lake;SE. Etzu Lake;;;;;;;;;;;;;x
+c_se_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+c_se_hunute_forest;SE. Hunute Forest;;;;;;;;;;;;;x
+c_se_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_se_ko;SE. Ko;;;;;;;;;;;;;x
+c_se_ko_adj;Ades;;;;;;;;;;;;;x
+c_se_n_abimelechs;SE.N. Abimelechs;;;;;;;;;;;;;x
+c_se_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_se_n_anin_plains;SE.N. Anin Plains;;;;;;;;;;;;;x
+c_se_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_se_n_hal_mountains;SE.N. Hal Mtns;;;;;;;;;;;;;x
+c_se_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_se_rannu_coast;SE. Rannu Coast;;;;;;;;;;;;;x
+c_se_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+c_se_w_earthfort_mountains;SE.W. Earthforts;;;;;;;;;;;;;x
+c_se_w_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+c_se_zalv_forest;SE. Zalv Forest;;;;;;;;;;;;;x
+c_se_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+c_silt_castle;Silt Castle;;;;;;;;;;;;;x
+c_silt_castle_adj;Navo;;;;;;;;;;;;;x
+c_stra;Stra;;;;;;;;;;;;;x
+c_stra_adj;Gawei;;;;;;;;;;;;;x
+c_stro;Stro;;;;;;;;;;;;;x
+c_stro_adj;Levytan;;;;;;;;;;;;;x
+c_sun_river;Sun River;;;;;;;;;;;;;x
+c_sun_river_adj;Gawei;;;;;;;;;;;;;x
+c_sw_anin_plains;SW. Anin Plains;;;;;;;;;;;;;x
+c_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_c_anin_plains;SW.C. Anin Plains;;;;;;;;;;;;;x
+c_sw_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_grey_mountains;SW. Grey Mtns;;;;;;;;;;;;;x
+c_sw_grey_mountains_adj;Basli;;;;;;;;;;;;;x
+c_sw_hese_forest;SW. Hese Forest;;;;;;;;;;;;;x
+c_sw_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+c_sw_hunute_forest;SW. Hunute Forest;;;;;;;;;;;;;x
+c_sw_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_sw_ko;SW. Ko;;;;;;;;;;;;;x
+c_sw_ko_adj;Ades;;;;;;;;;;;;;x
+c_sw_n_anin_plains;SW.N. Anin Plains;;;;;;;;;;;;;x
+c_sw_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_n_hal_mountains;SW.N. Hal Mtns;;;;;;;;;;;;;x
+c_sw_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_sw_ne_anin_plains;SW.NE. Anin Plains;;;;;;;;;;;;;x
+c_sw_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_s_hal_mountains;SW.S. Hal Mtns;;;;;;;;;;;;;x
+c_sw_s_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_sw_se_anin_plains;SW.SE. Anin Plains;;;;;;;;;;;;;x
+c_sw_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_sw_anin_plains;SW.SW. Anin Plains;;;;;;;;;;;;;x
+c_sw_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_sw_zalv_forest;SW. Zalv Forest;;;;;;;;;;;;;x
+c_sw_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+c_topa;Topa;;;;;;;;;;;;;x
+c_topa_adj;Timut;;;;;;;;;;;;;x
+c_umi;Umi;;;;;;;;;;;;;x
+c_umi_adj;Levytan;;;;;;;;;;;;;x
+c_upper_mighty_etzu_river;Upper Mighty Etzu River;;;;;;;;;;;;;x
+c_upper_mighty_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+c_w_abimelechs;W. Abimelechs;;;;;;;;;;;;;x
+c_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_w_ades_plains;W. Ades Plains;;;;;;;;;;;;;x
+c_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_w_black_fog_mountains;W. Black Fog Mtns;;;;;;;;;;;;;x
+c_w_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+c_w_c_abimelechs;W.C. Abimelechs;;;;;;;;;;;;;x
+c_w_c_abimelechs_adj;Abmielechi;;;;;;;;;;;;;x
+c_w_c_ades_plains;W.C. Ades Plains;;;;;;;;;;;;;x
+c_w_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_w_c_vitat_canyon;W.C. Vitat Canyon;;;;;;;;;;;;;x
+c_w_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+c_w_c_yava_forest;W.C. Yava Forest;;;;;;;;;;;;;x
+c_w_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_w_daly_mountains;W. Daly Mtns;;;;;;;;;;;;;x
+c_w_daly_mountains_adj;Anin;;;;;;;;;;;;;x
+c_w_e_ades_plains;W.E. Ades Plains;;;;;;;;;;;;;x
+c_w_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+c_w_e_daly_mountains;W.E. Daly Mtns;;;;;;;;;;;;;x
+c_w_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+c_w_e_grey_coast;W.E. Grey Coast;;;;;;;;;;;;;x
+c_w_e_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_w_e_kalan_fields;W.E. Kalan Fields;;;;;;;;;;;;;x
+c_w_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_w_e_yava_forest;W.E. Yava Forest;;;;;;;;;;;;;x
+c_w_e_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_w_etzu_lake;W. Etzu Lake;;;;;;;;;;;;;x
+c_w_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+c_w_gawei_coast;W. Gawei Coast;;;;;;;;;;;;;x
+c_w_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+c_w_grey_coast;W. Grey Coast;;;;;;;;;;;;;x
+c_w_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+c_w_hese_forest;W. Hese Forest;;;;;;;;;;;;;x
+c_w_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+c_w_hunute_approach;W. Hunute Approach;;;;;;;;;;;;;x
+c_w_hunute_approach_adj;Hunute;;;;;;;;;;;;;x
+c_w_hunute_forest;W. Hunute Forest;;;;;;;;;;;;;x
+c_w_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+c_w_insol;W. Insol;;;;;;;;;;;;;x
+c_w_insol_adj;Poghess;;;;;;;;;;;;;x
+c_w_jese_coast;W. Jese Coast;;;;;;;;;;;;;x
+c_w_jese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_w_kalan_fields;W. Kalan Fields;;;;;;;;;;;;;x
+c_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+c_w_kauni_forest;W. Kauni Forest;;;;;;;;;;;;;x
+c_w_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+c_w_levyt_plains;W. Levyt Plains;;;;;;;;;;;;;x
+c_w_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+c_w_n_abimelechs;W.N. Abimelechs;;;;;;;;;;;;;x
+c_w_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+c_w_n_anin_coast;W.N. Anin Coast;;;;;;;;;;;;;x
+c_w_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+c_w_n_anin_plains;W.N. Anin Plains;;;;;;;;;;;;;x
+c_w_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_w_n_hal_mountains;W.N. Hal Mtns;;;;;;;;;;;;;x
+c_w_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+c_w_n_hese_coast;W.N. Hese Coast;;;;;;;;;;;;;x
+c_w_n_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_w_navo_coast;W. Navo Coast;;;;;;;;;;;;;x
+c_w_navo_coast_adj;Navo;;;;;;;;;;;;;x
+c_w_navo_desert;W. Navo Desert;;;;;;;;;;;;;x
+c_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+c_w_ne_anin_plains;W.NE. Anin Plains;;;;;;;;;;;;;x
+c_w_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_w_ne_yava_forest;W.NE. Yava Forest;;;;;;;;;;;;;x
+c_w_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+c_w_pan_cliffs;W. Pan Cliffs;;;;;;;;;;;;;x
+c_w_pan_cliffs_adj;Vitat;;;;;;;;;;;;;x
+c_w_rannu_river;W. Rannu River;;;;;;;;;;;;;x
+c_w_rannu_river_adj;Ran-nu;;;;;;;;;;;;;x
+c_w_s_anin_plains;W.S. Anin Plains;;;;;;;;;;;;;x
+c_w_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_w_s_gawei_coast;W.S. Gawei Coast;;;;;;;;;;;;;x
+c_w_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+c_w_s_hese_coast;W.S. Hese Coast;;;;;;;;;;;;;x
+c_w_s_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+c_w_s_majat_mountains;W.S. Majat Mtns;;;;;;;;;;;;;x
+c_w_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+c_w_se_anin_plains;W.SE. Anin Plains;;;;;;;;;;;;;x
+c_w_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_w_sw_anin_plains;W.SW. Anin Plains;;;;;;;;;;;;;x
+c_w_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+c_w_w_levyt_plains;W.W. Levyt Plains;;;;;;;;;;;;;x
+c_w_w_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+c_w_zalv_forest;W. Zalv Forest;;;;;;;;;;;;;x
+c_w_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+c_war_halls_approach;War Hall's Approach;;;;;;;;;;;;;x
+c_war_halls_approach_adj;Abimelechi;;;;;;;;;;;;;x
+c_zalv_forest;Zalv Forest;;;;;;;;;;;;;x
+c_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+c_zuvaki_palace;Zuvaki Palace;;;;;;;;;;;;;x
+c_zuvaki_palace_adj;Zuvaki;;;;;;;;;;;;;x
+
+############
+#Baronies
+############
+
+#Castles
+b_abimelech_falls;Abimelech Falls;;;;;;;;;;;;;x
+b_abimelech_falls_adj;Abimelechi;;;;;;;;;;;;;x
+b_anin_ko_coast;Anin Ko Coast;;;;;;;;;;;;;x
+b_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+b_anlas;Anlas;;;;;;;;;;;;;x
+b_anlas_adj;Gawei;;;;;;;;;;;;;x
+b_basli_forest;Basli Forest;;;;;;;;;;;;;x
+b_basli_forest_adj;Basli;;;;;;;;;;;;;x
+b_belar;Belar;;;;;;;;;;;;;x
+b_belar_adj;Timut;;;;;;;;;;;;;x
+b_black_fog_falls;Black Fog Falls;;;;;;;;;;;;;x
+b_black_fog_falls_adj;Dulmal;;;;;;;;;;;;;x
+b_black_fog_mountains;Black Fog Mtns;;;;;;;;;;;;;x
+b_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+b_blav;Blav;;;;;;;;;;;;;x
+b_blav_adj;Anin;;;;;;;;;;;;;x
+b_blav_approach;Blav Approach;;;;;;;;;;;;;x
+b_blav_approach_adj;Anin;;;;;;;;;;;;;x
+b_bottomless_hole;Bottomless Hole;;;;;;;;;;;;;x
+b_bottomless_hole_adj;Yava;;;;;;;;;;;;;x
+b_byajvos_approach;Byajvos Approach;;;;;;;;;;;;;x
+b_byajvos_approach_adj;Navo;;;;;;;;;;;;;x
+b_byajvos_cradle;Byajvos' Cradle;;;;;;;;;;;;;x
+b_byajvos_cradle_adj;Navo;;;;;;;;;;;;;x
+b_byajvos_keep;Byajvos' Keep;;;;;;;;;;;;;x
+b_byajvos_keep_adj;Navo;;;;;;;;;;;;;x
+b_c_abimelechs;C. Abimelechs;;;;;;;;;;;;;x
+b_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_c_ades_plains;C. Ades Plains;;;;;;;;;;;;;x
+b_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_c_anin_plains;C. Anin Plains;;;;;;;;;;;;;x
+b_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_c_e_daly_mountains;C.E. Daly Mtns;;;;;;;;;;;;;x
+b_c_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+b_c_grey_plains;C. Grey Plains;;;;;;;;;;;;;x
+b_c_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_c_hese_forest;C. Hese Forest;;;;;;;;;;;;;x
+b_c_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+b_c_kalan_fields;C. Kalan Fields;;;;;;;;;;;;;x
+b_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_c_kauni;C. Kauni;;;;;;;;;;;;;x
+b_c_kauni_adj;Zet;;;;;;;;;;;;;x
+b_c_kzi;C. Kzi;;;;;;;;;;;;;x
+b_c_kzi_adj;Gawei;;;;;;;;;;;;;x
+b_c_majat_mountains;C. Majat Mtns;;;;;;;;;;;;;x
+b_c_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+b_c_n_anin_coast;C.N. Anin Coast;;;;;;;;;;;;;x
+b_c_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+b_c_trovo;C. Trovo;;;;;;;;;;;;;x
+b_c_trovo_adj;Poghess;;;;;;;;;;;;;x
+b_c_vitat_canyon;C. Vitat Canyon;;;;;;;;;;;;;x
+b_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_c_yava_forest;C. Yava Forest;;;;;;;;;;;;;x
+b_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_cenno;Cenno;;;;;;;;;;;;;x
+b_cenno_adj;Gawei;;;;;;;;;;;;;x
+b_cenno_fort;Cenno Fort;;;;;;;;;;;;;x
+b_cenno_fort_adj;Gawei;;;;;;;;;;;;;x
+b_cenno_port;Cenno Port;;;;;;;;;;;;;x
+b_cenno_port_adj;Gawei;;;;;;;;;;;;;x
+b_collsi_capital;Collsi Capital;;;;;;;;;;;;;x
+b_collsi_capital_adj;Collsi;;;;;;;;;;;;;x
+b_confusion_valley;Confusion Valley;;;;;;;;;;;;;x
+b_confusion_valley_adj;Vitat;;;;;;;;;;;;;x
+b_e_ades_plains;E. Ades Plains;;;;;;;;;;;;;x
+b_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_e_basli_forest;E. Basli Forest;;;;;;;;;;;;;x
+b_e_basli_forest_adj;Basli;;;;;;;;;;;;;x
+b_e_c_abimelechs;E.C. Abimelechs;;;;;;;;;;;;;x
+b_e_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_e_c_ades_plains;E.C. Ades Plains;;;;;;;;;;;;;x
+b_e_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_e_c_grey_plains;E.C. Grey Plains;;;;;;;;;;;;;x
+b_e_c_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_e_c_vitat_canyon;E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_e_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_e_c_yava_forest;E.C. Yava Forest;;;;;;;;;;;;;x
+b_e_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_e_e_earthfort_mountains;E.E. Earthforts;;;;;;;;;;;;;x
+b_e_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_e_e_navo_desert;E.E. Navo Desert;;;;;;;;;;;;;x
+b_e_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_e_earthfort_mountains;E. Earthforts;;;;;;;;;;;;;x
+b_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_e_grey_coast;E. Grey Coast;;;;;;;;;;;;;x
+b_e_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_e_grey_plains;E. Grey Plains;;;;;;;;;;;;;x
+b_e_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_e_insol;E. Insol;;;;;;;;;;;;;x
+b_e_insol_adj;Poghess;;;;;;;;;;;;;x
+b_e_jese_coast;E. Jese Coast;;;;;;;;;;;;;x
+b_e_jese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_e_kalan_fields;E. Kalan Fields;;;;;;;;;;;;;x
+b_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_e_kauni_forest;E. Kauni Forest;;;;;;;;;;;;;x
+b_e_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+b_e_levyt_coast;E. Levyt Coast;;;;;;;;;;;;;x
+b_e_levyt_coast_adj;Levytan;;;;;;;;;;;;;x
+b_e_levyt_plains;E. Levyt Plains;;;;;;;;;;;;;x
+b_e_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+b_e_n_abimelechs;E.N. Abimelechs;;;;;;;;;;;;;x
+b_e_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_e_n_anin_coast;E.N. Anin Coast;;;;;;;;;;;;;x
+b_e_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+b_e_n_hal_mountains;E.N. Hal Mtns;;;;;;;;;;;;;x
+b_e_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_e_n_hese_coast;E.N. Hese Coast;;;;;;;;;;;;;x
+b_e_n_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_e_n_kalani_coast;E.N. Kalani Coast;;;;;;;;;;;;;x
+b_e_n_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+b_e_navo_coast;E. Navo Coast;;;;;;;;;;;;;x
+b_e_navo_coast_adj;Navo;;;;;;;;;;;;;x
+b_e_navo_desert;E. Navo Desert;;;;;;;;;;;;;x
+b_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_e_ne_anin_plains;E.NE. Anin Plains;;;;;;;;;;;;;x
+b_e_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_e_norrain_river;E. Norrain River;;;;;;;;;;;;;x
+b_e_norrain_river_adj;Kalani;;;;;;;;;;;;;x
+b_e_nw_yava_forest;E.NW. Yava Forest;;;;;;;;;;;;;x
+b_e_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_e_pan_cliffs;E. Pan Cliffs;;;;;;;;;;;;;x
+b_e_pan_cliffs_adj;Vitat;;;;;;;;;;;;;x
+b_e_rannu_river;E. Rannu River;;;;;;;;;;;;;x
+b_e_rannu_river_adj;Ran-nu;;;;;;;;;;;;;x
+b_e_s_anin_plains;E.S. Anin Plains;;;;;;;;;;;;;x
+b_e_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_e_s_gawei_coast;E.S. Gawei Coast;;;;;;;;;;;;;x
+b_e_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+b_e_s_hese_coast;E.S. Hese Coast;;;;;;;;;;;;;x
+b_e_s_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_e_s_kalani_coast;E.S. Kalani Coast;;;;;;;;;;;;;x
+b_e_s_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+b_e_s_majat_mountains;E.S. Majat Mtns;;;;;;;;;;;;;x
+b_e_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+b_e_s_yava_forest;E.S. Yava Forest;;;;;;;;;;;;;x
+b_e_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_e_w_kalan_fields;E.W. Kalan Fields;;;;;;;;;;;;;x
+b_e_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_e_w_navo_desert;E.W. Navo Desert;;;;;;;;;;;;;x
+b_e_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_e_yava_forest;E. Yava Forest;;;;;;;;;;;;;x
+b_e_yava_forest_adj;Yava;;;;;;;;;;;;;x
+b_e_zalv_forest;E. Zalv Forest;;;;;;;;;;;;;x
+b_e_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+b_earthfort_coasts;Earthfort Coasts;;;;;;;;;;;;;x
+b_earthfort_coasts_adj;Collsi;;;;;;;;;;;;;x
+b_elfall;Elfall;;;;;;;;;;;;;x
+b_elfall_adj;Merro;;;;;;;;;;;;;x
+b_elfall_volcano;Elfall Volcano;;;;;;;;;;;;;x
+b_elfall_volcano_adj;Merro;;;;;;;;;;;;;x
+b_etzu_berth;Etzu Berth;;;;;;;;;;;;;x
+b_etzu_berth_adj;Zuvaki;;;;;;;;;;;;;x
+b_etzu_falls;Etzu Falls;;;;;;;;;;;;;x
+b_etzu_falls_adj;Zuvaki;;;;;;;;;;;;;x
+b_etzu_lake;Etzu Lake;;;;;;;;;;;;;x
+b_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+b_etzus_mouth;Etzu's Mouth;;;;;;;;;;;;;x
+b_etzus_mouth_adj;Zuvaki;;;;;;;;;;;;;x
+b_gap_in_the_mountain;Mountain Gap;;;;;;;;;;;;;x
+b_gap_in_the_mountain_adj;Anin;;;;;;;;;;;;;x
+b_gawei_castle;Gawei Castle;;;;;;;;;;;;;x
+b_gawei_castle_adj;Gawei;;;;;;;;;;;;;x
+b_gawei_fairgrounds;Gawei Fairgrounds;;;;;;;;;;;;;x
+b_gawei_castle_fairgrounds_adj;Gawei;;;;;;;;;;;;;x
+b_gawei_castle_port;Gawei Castle Port;;;;;;;;;;;;;x
+b_gawei_castle_port_adj;Gawei;;;;;;;;;;;;;x
+b_gawei_training_grounds;Gawei Training Grounds;;;;;;;;;;;;;x
+b_gawei_training_grounds_adj;Gawei;;;;;;;;;;;;;x
+b_gawei_tower;Gawei Tower;;;;;;;;;;;;;x
+b_gawei_village;Gawei Village;;;;;;;;;;;;;x
+b_great_war_hall;Great War Hall;;;;;;;;;;;;;x
+b_great_war_hall_adj;Abimelechi;;;;;;;;;;;;;x
+b_grey_mountains;Grey Mountains;;;;;;;;;;;;;x
+b_grey_mountains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_hideaway;Hideaway;;;;;;;;;;;;;x
+b_hideaway_adj;Collsi;;;;;;;;;;;;;x
+b_home_of_the_vitat;Vitat Home;;;;;;;;;;;;;x
+b_home_of_the_vitat_adj;Vitat;;;;;;;;;;;;;x
+b_huargen;Huargen;;;;;;;;;;;;;x
+b_huargen_adj;Huargen;;;;;;;;;;;;;x
+b_hunute_forest;Hunute Forest;;;;;;;;;;;;;x
+b_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_jese_castle;Jese Castle;;;;;;;;;;;;;x
+b_jese_castle_adj;Hesen;;;;;;;;;;;;;x
+b_kalan_village;Kalan Village;;;;;;;;;;;;;x
+b_kalan_village_adj;Kalani;;;;;;;;;;;;;x
+b_kalani_border;Kalani Border;;;;;;;;;;;;;x
+b_kalani_border_adj;Kalani;;;;;;;;;;;;;x
+b_kami;Kami;;;;;;;;;;;;;x
+b_kami_adj;Gawei;;;;;;;;;;;;;x
+b_khes;Khes;;;;;;;;;;;;;x
+b_khes_adj;Gawei;;;;;;;;;;;;;x
+b_left_twin;Left Twin;;;;;;;;;;;;;x
+b_left_twin_adj;Hesen;;;;;;;;;;;;;x
+b_lesser_etzu_river;Lesser Etzu River;;;;;;;;;;;;;x
+b_lesser_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+b_levyt_city;Levyt City;;;;;;;;;;;;;x
+b_levyt_city_adj;Levytan;;;;;;;;;;;;;x
+b_levyt_e_bank;Levyt E. Bank;;;;;;;;;;;;;x
+b_levyt_e_bank_adj;Levytan;;;;;;;;;;;;;x
+b_levyt_river_source;Levyt River Source;;;;;;;;;;;;;x
+b_levyt_river_source_adj;Levytan;;;;;;;;;;;;;x
+b_levyt_w_bank;Levyt W. Bank;;;;;;;;;;;;;x
+b_levyt_w_bank_adj;Levytan;;;;;;;;;;;;;x
+b_loa;Loa;;;;;;;;;;;;;x
+b_loa_adj;Levytan;;;;;;;;;;;;;x
+b_lower_mighty_etzu_river;Lower Mighty Etzu River;;;;;;;;;;;;;x
+b_lower_might_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+b_lower_navo_river;Lower Navo River;;;;;;;;;;;;;x
+b_lower_navo_river_adj;Navo;;;;;;;;;;;;;x
+b_maku;Maku;;;;;;;;;;;;;x
+b_maku_adj;Gawei;;;;;;;;;;;;;x
+b_n_abimelechs;N. Abimelechs;;;;;;;;;;;;;x
+b_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_n_ades_coast;N. Ades Coast;;;;;;;;;;;;;x
+b_n_ades_coast_adj;Ades;;;;;;;;;;;;;x
+b_n_anin_coast;N. Anin Coast;;;;;;;;;;;;;x
+b_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+b_n_anin_ko_coast;N. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+b_n_anin_plains;N. Anin Plains;;;;;;;;;;;;;x
+b_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_n_basli_forest;N. Basli Forest;;;;;;;;;;;;;x
+b_n_basli_forest_adj;Basli;;;;;;;;;;;;;x
+b_n_basli_plains;N. Basli Plains;;;;;;;;;;;;;x
+b_n_basli_plains_adj;Basli;;;;;;;;;;;;;x
+b_n_c_anin_ko_coast;N.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_c_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+b_n_c_anin_plains;N.C. Anin Plains;;;;;;;;;;;;;x
+b_n_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_n_c_kalan_fields;N.C. Kalan Fields;;;;;;;;;;;;;x
+b_n_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_n_c_vitat_canyon;N.C. Vitat Canyon;;;;;;;;;;;;;x
+b_n_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_n_door_to_yava;N. Yava Door;;;;;;;;;;;;;x
+b_n_door_to_yava_adj;Yavan;;;;;;;;;;;;;x
+b_n_e_ades_plains;N.E. Ades Plains;;;;;;;;;;;;;x
+b_n_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_n_e_daly_mountains;N.E. Daly Mtns;;;;;;;;;;;;;x
+b_n_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+b_n_e_earthfort_mountains;N.E. Earthforts;;;;;;;;;;;;;x
+b_n_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_n_e_levyt_plains;N.E. Levyt Plains;;;;;;;;;;;;;x
+b_n_e_levyt_plains_adj;Lommal;;;;;;;;;;;;;x
+b_n_e_navo_desert;N.E. Navo Desert;;;;;;;;;;;;;x
+b_n_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_n_grey_plains;N. Grey Plains;;;;;;;;;;;;;x
+b_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_n_hal_mountains;N. Hal Mtns;;;;;;;;;;;;;x
+b_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_n_hese_forest;N. Hese Forest;;;;;;;;;;;;;x
+b_n_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+b_n_hunute_forest;N. Hunute Forest;;;;;;;;;;;;;x
+b_n_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_n_kalani_coast;N. Kalani Coast;;;;;;;;;;;;;x
+b_n_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+b_n_kauni;N. Kauni;;;;;;;;;;;;;x
+b_n_kauni_adj;Zet;;;;;;;;;;;;;x
+b_n_ko;N. Ko;;;;;;;;;;;;;x
+b_n_ko_adj;Ades;;;;;;;;;;;;;x
+b_n_kzi;N. Kzi;;;;;;;;;;;;;x
+b_n_kzi_adj;Gawei;;;;;;;;;;;;;x
+b_n_levyt;N. Levyt;;;;;;;;;;;;;x
+b_n_levyt_adj;Levytan;;;;;;;;;;;;;x
+b_n_lower_levyt_river;N. Lower Levyt River;;;;;;;;;;;;;x
+b_n_lower_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+b_n_n_grey_plains;N.N. Grey Plains;;;;;;;;;;;;;x
+b_n_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_n_ne_anin_plains;N.NE. Anin Plains;;;;;;;;;;;;;x
+b_n_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_n_rannu_coast;N. Rannu Coast;;;;;;;;;;;;;x
+b_n_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+b_n_rannu_plains;N. Rannu Plains;;;;;;;;;;;;;x
+b_n_rannu_plains_adj;Ran-nu;;;;;;;;;;;;;x
+b_n_se_anin_plains;N.SE. Anin Plains;;;;;;;;;;;;;x
+b_n_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_n_solwood;N. Solwood;;;;;;;;;;;;;x
+b_n_solwood_adj;Gawei;;;;;;;;;;;;;x
+b_n_sun_river;N. Sun River;;;;;;;;;;;;;x
+b_n_sun_river_adj;Gawei;;;;;;;;;;;;;x
+b_n_sw_anin_plains;N.SW. Anin Plains;;;;;;;;;;;;;x
+b_n_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_n_trovo;N. Trovo;;;;;;;;;;;;;x
+b_n_trovo_adj;Poghess;;;;;;;;;;;;;x
+b_n_upper_levyt_river;N. Upper Levyt River;;;;;;;;;;;;;x
+b_n_upper_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+b_n_upper_navo_river;N. Upper Navo River;;;;;;;;;;;;;x
+b_n_upper_navo_river_adj;Navo;;;;;;;;;;;;;x
+b_n_vitat_canyon;N. Vitat Canyon;;;;;;;;;;;;;x
+b_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_n_w_abimelechs;N.W. Abimelechs;;;;;;;;;;;;;x
+b_n_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_n_w_ades_plains;N.W. Ades Plains;;;;;;;;;;;;;x
+b_n_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_n_w_daly_mountains;N.W. Daly Mtns;;;;;;;;;;;;;x
+b_n_w_daly_mountains_adj;Anin;;;;;;;;;;;;;x
+b_n_w_kalan_fields;N.W. Kalan Fields;;;;;;;;;;;;;x
+b_n_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_n_w_navo_desert;N.W. Navo Desert;;;;;;;;;;;;;x
+b_n_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_navos_mouth;Navo's Mouth;;;;;;;;;;;;;x
+b_navos_mouth_adj;Navo;;;;;;;;;;;;;x
+b_ne_anin_plains;N.E. Anin Plains;;;;;;;;;;;;;x
+b_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_ne_c_vitat_canyon;N.E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_ne_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_ne_e_ades_plains;N.E.E. Ades Plains;;;;;;;;;;;;;x
+b_ne_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_ne_e_earthfort_mountains;N.E.E. Earthforts;;;;;;;;;;;;;x
+b_ne_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_ne_e_kalan_fields;N.E.E. Kalan Fields;;;;;;;;;;;;;x
+b_ne_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_ne_etzu_lake;N.E. Etzu Lake;;;;;;;;;;;;;x
+b_ne_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+b_ne_hunute_forest;N.E. Hunute Forest;;;;;;;;;;;;;x
+b_ne_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_ne_n_anin_plains;N.E.N. Anin Plains;;;;;;;;;;;;;x
+b_ne_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_ne_n_hal_mountains;N.E.N. Hal Mtns;;;;;;;;;;;;;x
+b_ne_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_ne_rannu_coast;N.E. Rannu Coast;;;;;;;;;;;;;x
+b_ne_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+b_ne_s_yava_forest;N.E.S. Yava Forest;;;;;;;;;;;;;x
+b_ne_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_ne_se_anin_plains;NE.SE. Anin Plains;;;;;;;;;;;;;x
+b_ne_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_ne_yava_forest;N.E. Yava Forest;;;;;;;;;;;;;x
+b_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_norrain_river;Norrain River;;;;;;;;;;;;;x
+b_norrain_river_adj;Kalani;;;;;;;;;;;;;x
+b_norrains_mouth;Norrain's Mouth;;;;;;;;;;;;;x
+b_norrains_mouth_adj;Kalani;;;;;;;;;;;;;x
+b_norrains_source;Norrain's Source;;;;;;;;;;;;;x
+b_norrains_source_adj;Kalani;;;;;;;;;;;;;x
+b_norrains_southwest_w_bend;Norrain's SW.W Bend;;;;;;;;;;;;;x
+b_norrains_southwest_w_bend_adj;Kalani;;;;;;;;;;;;;x
+b_norrains_west_bend;Norrain's W. Bend;;;;;;;;;;;;;x
+b_norrains_west_bend_adj;Kalani;;;;;;;;;;;;;x
+b_nw_c_anin_plains;N.W.C. Anin Plains;;;;;;;;;;;;;x
+b_nw_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_nw_c_vitat_canyon;N.W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_nw_e_kalan_fields;N.W.E. Kalan Fields;;;;;;;;;;;;;x
+b_nw_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_nw_hunute_forest;N.W. Hunute Forest;;;;;;;;;;;;;x
+b_nw_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_nw_n_anin_plains;N.W.N Anin Plains;;;;;;;;;;;;;x
+b_nw_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_nw_n_vitat_canyon;N.W.N. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_nw_ne_anin_plains;NW.NE. Anin Plains;;;;;;;;;;;;;x
+b_nw_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_nw_s_yava_forest;N.W.S. Yava Forest;;;;;;;;;;;;;x
+b_nw_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_nw_se_anin_plains;NW.SE. Anin Plains;;;;;;;;;;;;;x
+b_nw_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_nw_sw_anin_plains;NW.SW. Anin Plains;;;;;;;;;;;;;x
+b_nw_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_nw_w_abimelechs;N.W.W. Abimelechs;;;;;;;;;;;;;x
+b_nw_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_nw_yava_forest;N.W. Yava Forest;;;;;;;;;;;;;x
+b_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_oto;Oto;;;;;;;;;;;;;x
+b_oto_adj;Qwari;;;;;;;;;;;;;x
+b_qess_fort;Qess Fort;;;;;;;;;;;;;x
+b_qess_fort_adj;Gawei;;;;;;;;;;;;;x
+b_right_twin;Right Twin;;;;;;;;;;;;;x
+b_right_twin_adj;Hesen;;;;;;;;;;;;;x
+b_s_ades_coast;S. Ades Coast;;;;;;;;;;;;;x
+b_s_ades_coast_adj;Ades;;;;;;;;;;;;;x
+b_s_anin_ko_coast;S. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+b_s_anin_plains;S. Anin Plains;;;;;;;;;;;;;x
+b_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_s_basli_forest;S. Basli Forest;;;;;;;;;;;;;x
+b_s_basli_forest_adj;Basli;;;;;;;;;;;;;x
+b_s_basli_plains;S. Basli Plains;;;;;;;;;;;;;x
+b_s_basli_plains_adj;Basli;;;;;;;;;;;;;x
+b_s_black_fog_mountains;S. Black Fog Mtns;;;;;;;;;;;;;x
+b_s_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+b_s_c_abimelechs;S.C. Abimelechs;;;;;;;;;;;;;x
+b_s_c_abimelechs_adj;Abimelechs;;;;;;;;;;;;;x
+b_s_c_anin_ko_coast;S.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_c_anin_ko_coast_adj;Anin;;;;;;;;;;;;;x
+b_s_c_anin_plains;S.C. Anin Plains;;;;;;;;;;;;;x
+b_s_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_s_c_kalan_fields;S.C. Kalan Fields;;;;;;;;;;;;;x
+b_s_c_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_s_door_to_yava;S. Yava Door;;;;;;;;;;;;;x
+b_s_door_to_yava_adj;Yavan;;;;;;;;;;;;;x
+b_s_e_ades_plains;S.E. Ades Plains;;;;;;;;;;;;;x
+b_s_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_s_e_daly_mountains;S.E. Daly Mtns;;;;;;;;;;;;;x
+b_s_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+b_s_e_earthfort_mountains;S.E. Earthforts;;;;;;;;;;;;;x
+b_s_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_s_e_navo_desert;S.E. Navo Desert;;;;;;;;;;;;;x
+b_s_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_s_etzu_lake;S. Etzu Lake;;;;;;;;;;;;;x
+b_s_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+b_s_gawei_coast;S. Gawei Coast;;;;;;;;;;;;;x
+b_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+b_s_grey_mountains;S. Grey Mountains;;;;;;;;;;;;;x
+b_s_grey_mountains_adj;Basli;;;;;;;;;;;;;x
+b_s_hal_mountains;S. Hal Mtns;;;;;;;;;;;;;x
+b_s_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_s_hese_forest;S. Hese Forest;;;;;;;;;;;;;x
+b_s_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+b_s_hunute_forest;S. Hunute Forest;;;;;;;;;;;;;x
+b_s_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_s_insol;S. Insol;;;;;;;;;;;;;x
+b_s_insol_adj;Poghess;;;;;;;;;;;;;x
+b_s_kalani_coast;S. Kalani Coast;;;;;;;;;;;;;x
+b_s_kalani_coast_adj;Kalani;;;;;;;;;;;;;x
+b_s_kauni;S. Kauni;;;;;;;;;;;;;x
+b_s_kauni_adj;Zet;;;;;;;;;;;;;x
+b_s_kauni_forest;S. Kauni Forest;;;;;;;;;;;;;x
+b_s_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+b_s_kzi;S. Kzi;;;;;;;;;;;;;x
+b_s_kzi_adj;Gawei;;;;;;;;;;;;;x
+b_s_lower_levyt_river;S. Lower Levyt River;;;;;;;;;;;;;x
+b_s_lower_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+b_s_majat_mountains;S. Majat Mtns;;;;;;;;;;;;;x
+b_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+b_s_n_abimelechs;S.N. Abimelechs;;;;;;;;;;;;;x
+b_s_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_s_n_grey_plains;S.N. Grey Plains;;;;;;;;;;;;;x
+b_s_n_grey_plains_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_s_n_vitat_canyon;S.N. Vitat Canyon;;;;;;;;;;;;;x
+b_s_n_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_s_ne_anin_plains;S.NE. Anin Plains;;;;;;;;;;;;;x
+b_s_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_s_ne_yava_forest;S.NE. Yava Forest;;;;;;;;;;;;;x
+b_s_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_s_nw_yava_forest;S.NW. Yava Forest;;;;;;;;;;;;;x
+b_s_nw_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_s_rannu_coast;S. Rannu Coast;;;;;;;;;;;;;x
+b_s_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+b_s_rannu_plains;S. Rannu Plains;;;;;;;;;;;;;x
+b_s_rannu_plains_adj;Ran-nu;;;;;;;;;;;;;x
+b_s_se_anin_plains;S.SE. Anin Plains;;;;;;;;;;;;;x
+b_s_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_s_solwood;S. Solwood;;;;;;;;;;;;;x
+b_s_solwood_adj;Gawei;;;;;;;;;;;;;x
+b_s_sw_anin_plains;S.SW. Anin Plains;;;;;;;;;;;;;x
+b_s_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_s_trovo;S. Trovo;;;;;;;;;;;;;x
+b_s_trovo_adj;Poghess;;;;;;;;;;;;;x
+b_s_upper_levyt_river;S. Upper Levyt River;;;;;;;;;;;;;x
+b_s_upper_levyt_river_adj;Levytan;;;;;;;;;;;;;x
+b_s_upper_navo_river;S. Upper Navo River;;;;;;;;;;;;;x
+b_s_upper_navo_river_adj;Navo;;;;;;;;;;;;;x
+b_s_w_abimelechs;S.W. Abimelechs;;;;;;;;;;;;;x
+b_s_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_s_w_ades_plains;S.W. Ades Plains;;;;;;;;;;;;;x
+b_s_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_s_w_navo_desert;S.W. Navo Desert;;;;;;;;;;;;;x
+b_s_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_s_yava_forest;S. Yava Forest;;;;;;;;;;;;;x
+b_s_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_saar;Saar;;;;;;;;;;;;;x
+b_saar_adj;Levytan;;;;;;;;;;;;;x
+b_se_anin_plains;SE. Anin Plains;;;;;;;;;;;;;x
+b_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_se_basli_forest;SE. Basli Forest;;;;;;;;;;;;;x
+b_se_basli_forest_adj;Basli;;;;;;;;;;;;;x
+b_se_c_abimelechs;SE.C. Abimelechs;;;;;;;;;;;;;x
+b_se_c_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_se_c_anin_plains;SE.C Anin Plains;;;;;;;;;;;;;x
+b_se_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_se_e_earthfort_mountains;SE.E. Earthforts;;;;;;;;;;;;;x
+b_se_e_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_se_e_navo_desert;SE.E. Navo Desert;;;;;;;;;;;;;x
+b_se_e_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_se_etzu_lake;SE. Etzu Lake;;;;;;;;;;;;;x
+b_se_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+b_se_hunute_forest;SE. Hunute Forest;;;;;;;;;;;;;x
+b_se_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_se_ko;SE. Ko;;;;;;;;;;;;;x
+b_se_ko_adj;Ades;;;;;;;;;;;;;x
+b_se_n_abimelechs;SE.N. Abimelechs;;;;;;;;;;;;;x
+b_se_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_se_n_anin_plains;SE.N. Anin Plains;;;;;;;;;;;;;x
+b_se_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_se_n_hal_mountains;SE.N. Hal Mtns;;;;;;;;;;;;;x
+b_se_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_se_rannu_coast;SE. Rannu Coast;;;;;;;;;;;;;x
+b_se_rannu_coast_adj;Ran-nu;;;;;;;;;;;;;x
+b_se_w_earthfort_mountains;SE.W. Earthforts;;;;;;;;;;;;;x
+b_se_w_earthfort_mountains_adj;Collsi;;;;;;;;;;;;;x
+b_se_zalv_forest;SE. Zalv Forest;;;;;;;;;;;;;x
+b_se_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+b_silt_castle;Silt Castle;;;;;;;;;;;;;x
+b_silt_castle_adj;Navo;;;;;;;;;;;;;x
+b_stra;Stra;;;;;;;;;;;;;x
+b_stra_adj;Gawei;;;;;;;;;;;;;x
+b_stro;Stro;;;;;;;;;;;;;x
+b_stro_adj;Levytan;;;;;;;;;;;;;x
+b_sun_river;Sun River;;;;;;;;;;;;;x
+b_sun_river_adj;Gawei;;;;;;;;;;;;;x
+b_sw_anin_plains;SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_c_anin_plains;SW.C. Anin Plains;;;;;;;;;;;;;x
+b_sw_c_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_grey_mountains;SW. Grey Mtns;;;;;;;;;;;;;x
+b_sw_grey_mountains_adj;Basli;;;;;;;;;;;;;x
+b_sw_hese_forest;SW. Hese Forest;;;;;;;;;;;;;x
+b_sw_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+b_sw_hunute_forest;SW. Hunute Forest;;;;;;;;;;;;;x
+b_sw_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_sw_ko;SW. Ko;;;;;;;;;;;;;x
+b_sw_ko_adj;Ades;;;;;;;;;;;;;x
+b_sw_n_anin_plains;SW.N. Anin Plains;;;;;;;;;;;;;x
+b_sw_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_n_hal_mountains;SW.N. Hal Mtns;;;;;;;;;;;;;x
+b_sw_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_sw_ne_anin_plains;SW.NE. Anin Plains;;;;;;;;;;;;;x
+b_sw_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_s_hal_mountains;SW.S. Hal Mtns;;;;;;;;;;;;;x
+b_sw_s_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_sw_se_anin_plains;SW.SE. Anin Plains;;;;;;;;;;;;;x
+b_sw_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_sw_anin_plains;SW.SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_sw_zalv_forest;SW. Zalv Forest;;;;;;;;;;;;;x
+b_sw_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+b_topa;Topa;;;;;;;;;;;;;x
+b_topa_adj;Timut;;;;;;;;;;;;;x
+b_umi;Umi;;;;;;;;;;;;;x
+b_umi_adj;Levytan;;;;;;;;;;;;;x
+b_upper_mighty_etzu_river;Upper Mighty Etzu River;;;;;;;;;;;;;x
+b_upper_mighty_etzu_river_adj;Zuvaki;;;;;;;;;;;;;x
+b_w_abimelechs;W. Abimelechs;;;;;;;;;;;;;x
+b_w_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_w_ades_plains;W. Ades Plains;;;;;;;;;;;;;x
+b_w_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_w_black_fog_mountains;W. Black Fog Mtns;;;;;;;;;;;;;x
+b_w_black_fog_mountains_adj;Dulmal;;;;;;;;;;;;;x
+b_w_c_abimelechs;W.C. Abimelechs;;;;;;;;;;;;;x
+b_w_c_abimelechs_adj;Abmielechi;;;;;;;;;;;;;x
+b_w_c_ades_plains;W.C. Ades Plains;;;;;;;;;;;;;x
+b_w_c_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_w_c_vitat_canyon;W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_w_c_vitat_canyon_adj;Vitat;;;;;;;;;;;;;x
+b_w_c_yava_forest;W.C. Yava Forest;;;;;;;;;;;;;x
+b_w_c_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_w_daly_mountains;W. Daly Mtns;;;;;;;;;;;;;x
+b_w_daly_mountains_adj;Anin;;;;;;;;;;;;;x
+b_w_e_ades_plains;W.E. Ades Plains;;;;;;;;;;;;;x
+b_w_e_ades_plains_adj;Ades;;;;;;;;;;;;;x
+b_w_e_daly_mountains;W.E. Daly Mtns;;;;;;;;;;;;;x
+b_w_e_daly_mountains_adj;Ran-nu;;;;;;;;;;;;;x
+b_w_e_grey_coast;W.E. Grey Coast;;;;;;;;;;;;;x
+b_w_e_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_w_e_kalan_fields;W.E. Kalan Fields;;;;;;;;;;;;;x
+b_w_e_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_w_e_yava_forest;W.E. Yava Forest;;;;;;;;;;;;;x
+b_w_e_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_w_etzu_lake;W. Etzu Lake;;;;;;;;;;;;;x
+b_w_etzu_lake_adj;Zuvaki;;;;;;;;;;;;;x
+b_w_gawei_coast;W. Gawei Coast;;;;;;;;;;;;;x
+b_w_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+b_w_grey_coast;W. Grey Coast;;;;;;;;;;;;;x
+b_w_grey_coast_adj;Grey-Tribesman;;;;;;;;;;;;;x
+b_w_hese_forest;W. Hese Forest;;;;;;;;;;;;;x
+b_w_hese_forest_adj;Hesen;;;;;;;;;;;;;x
+b_w_hunute_approach;W. Hunute Approach;;;;;;;;;;;;;x
+b_w_hunute_approach_adj;Hunute;;;;;;;;;;;;;x
+b_w_hunute_forest;W. Hunute Forest;;;;;;;;;;;;;x
+b_w_hunute_forest_adj;Hunute;;;;;;;;;;;;;x
+b_w_insol;W. Insol;;;;;;;;;;;;;x
+b_w_insol_adj;Poghess;;;;;;;;;;;;;x
+b_w_jese_coast;W. Jese Coast;;;;;;;;;;;;;x
+b_w_jese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_w_kalan_fields;W. Kalan Fields;;;;;;;;;;;;;x
+b_w_kalan_fields_adj;Kalani;;;;;;;;;;;;;x
+b_w_kauni_forest;W. Kauni Forest;;;;;;;;;;;;;x
+b_w_kauni_forest_adj;Zet;;;;;;;;;;;;;x
+b_w_levyt_plains;W. Levyt Plains;;;;;;;;;;;;;x
+b_w_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+b_w_n_abimelechs;W.N. Abimelechs;;;;;;;;;;;;;x
+b_w_n_abimelechs_adj;Abimelechi;;;;;;;;;;;;;x
+b_w_n_anin_coast;W.N. Anin Coast;;;;;;;;;;;;;x
+b_w_n_anin_coast_adj;Anin;;;;;;;;;;;;;x
+b_w_n_anin_plains;W.N. Anin Plains;;;;;;;;;;;;;x
+b_w_n_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_w_n_hal_mountains;W.N. Hal Mtns;;;;;;;;;;;;;x
+b_w_n_hal_mountains_adj;Gawei;;;;;;;;;;;;;x
+b_w_n_hese_coast;W.N. Hese Coast;;;;;;;;;;;;;x
+b_w_n_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_w_navo_coast;W. Navo Coast;;;;;;;;;;;;;x
+b_w_navo_coast_adj;Navo;;;;;;;;;;;;;x
+b_w_navo_desert;W. Navo Desert;;;;;;;;;;;;;x
+b_w_navo_desert_adj;Navo;;;;;;;;;;;;;x
+b_w_ne_anin_plains;W.NE. Anin Plains;;;;;;;;;;;;;x
+b_w_ne_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_w_ne_yava_forest;W.NE. Yava Forest;;;;;;;;;;;;;x
+b_w_ne_yava_forest_adj;Yavan;;;;;;;;;;;;;x
+b_w_pan_cliffs;W. Pan Cliffs;;;;;;;;;;;;;x
+b_w_pan_cliffs_adj;Vitat;;;;;;;;;;;;;x
+b_w_rannu_river;W. Rannu River;;;;;;;;;;;;;x
+b_w_rannu_river_adj;Ran-nu;;;;;;;;;;;;;x
+b_w_s_anin_plains;W.S. Anin Plains;;;;;;;;;;;;;x
+b_w_s_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_w_s_gawei_coast;W.S. Gawei Coast;;;;;;;;;;;;;x
+b_w_s_gawei_coast_adj;Gawei;;;;;;;;;;;;;x
+b_w_s_hese_coast;W.S. Hese Coast;;;;;;;;;;;;;x
+b_w_s_hese_coast_adj;Hesen;;;;;;;;;;;;;x
+b_w_s_majat_mountains;W.S. Majat Mtns;;;;;;;;;;;;;x
+b_w_s_majat_mountains_adj;Anin;;;;;;;;;;;;;x
+b_w_se_anin_plains;W.SE. Anin Plains;;;;;;;;;;;;;x
+b_w_se_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_w_sw_anin_plains;W.SW. Anin Plains;;;;;;;;;;;;;x
+b_w_sw_anin_plains_adj;Anin;;;;;;;;;;;;;x
+b_w_w_levyt_plains;W.W. Levyt Plains;;;;;;;;;;;;;x
+b_w_w_levyt_plains_adj;Levytan;;;;;;;;;;;;;x
+b_w_zalv_forest;W. Zalv Forest;;;;;;;;;;;;;x
+b_w_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+b_war_halls_approach;War Hall's Approach;;;;;;;;;;;;;x
+b_war_halls_approach_adj;Abimelechi;;;;;;;;;;;;;x
+b_zalv_forest;Zalv Forest;;;;;;;;;;;;;x
+b_zalv_forest_adj;Ades;;;;;;;;;;;;;x
+b_zuvaki_palace;Zuvaki Palace;;;;;;;;;;;;;x
+b_zuvaki_palace_adj;Zuvaki;;;;;;;;;;;;;x
+
+#Cities
+b_abimelech_falls_city;Abimelech Falls;;;;;;;;;;;;;x
+b_anin_ko_coast_city;Anin Ko Coast;;;;;;;;;;;;;x
+b_anlas_city;Anlas;;;;;;;;;;;;;x
+b_basli_forest_city;Basli Forest;;;;;;;;;;;;;x
+b_belar_city;Belar;;;;;;;;;;;;;x
+b_black_fog_falls_city;Black Fog Falls;;;;;;;;;;;;;x
+b_black_fog_mountains_city;Black Fog Mtns;;;;;;;;;;;;;x
+b_blav_city;Blav;;;;;;;;;;;;;x
+b_blav_approach_city;Blav Approach;;;;;;;;;;;;;x
+b_bottomless_hole_city;Bottomless Hole;;;;;;;;;;;;;x
+b_byajvos_approach_city;Byajvos Approach;;;;;;;;;;;;;x
+b_byajvos_cradle_city;Byajvos' Cradle;;;;;;;;;;;;;x
+b_byajvos_keep_city;Byajvos' Keep;;;;;;;;;;;;;x
+b_c_abimelechs_city;C. Abimelechs;;;;;;;;;;;;;x
+b_c_ades_plains_city;C. Ades Plains;;;;;;;;;;;;;x
+b_c_anin_plains_city;C. Anin Plains;;;;;;;;;;;;;x
+b_c_e_daly_mountains_city;C.E. Daly Mtns;;;;;;;;;;;;;x
+b_c_grey_plains_city;C. Grey Plains;;;;;;;;;;;;;x
+b_c_hese_forest_city;C. Hese Forest;;;;;;;;;;;;;x
+b_c_kalan_fields_city;C. Kalan Fields;;;;;;;;;;;;;x
+b_c_kauni_city;C. Kauni;;;;;;;;;;;;;x
+b_c_kzi_city;C. Kzi;;;;;;;;;;;;;x
+b_c_majat_mountains_city;C. Majat Mtns;;;;;;;;;;;;;x
+b_c_n_anin_coast_city;C.N. Anin Coast;;;;;;;;;;;;;x
+b_c_trovo_city;C. Trovo;;;;;;;;;;;;;x
+b_c_vitat_canyon_city;C. Vitat Canyon;;;;;;;;;;;;;x
+b_c_yava_forest_city;C. Yava Forest;;;;;;;;;;;;;x
+b_cenno_city;Cenno;;;;;;;;;;;;;x
+b_collsi_capital_city;Collsi Capital;;;;;;;;;;;;;x
+b_confusion_valley_city;Confusion Valley;;;;;;;;;;;;;x
+b_e_ades_plains_city;E. Ades Plains;;;;;;;;;;;;;x
+b_e_basli_forest_city;E. Basli Forest;;;;;;;;;;;;;x
+b_e_c_abimelechs_city;E.C. Abimelechs;;;;;;;;;;;;;x
+b_e_c_ades_plains_city;E.C. Ades Plains;;;;;;;;;;;;;x
+b_e_c_grey_plains_city;E.C. Grey Plains;;;;;;;;;;;;;x
+b_e_c_vitat_canyon_city;E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_e_c_yava_forest_city;E.C. Yava Forest;;;;;;;;;;;;;x
+b_e_e_earthfort_mountains_city;E.E. Earthforts;;;;;;;;;;;;;x
+b_e_e_navo_desert_city;E.E. Navo Desert;;;;;;;;;;;;;x
+b_e_earthfort_mountains_city;E. Earthforts;;;;;;;;;;;;;x
+b_e_grey_coast_city;E. Grey Coast;;;;;;;;;;;;;x
+b_e_grey_plains_city;E. Grey Plains;;;;;;;;;;;;;x
+b_e_insol_city;E. Insol;;;;;;;;;;;;;x
+b_e_jese_coast_city;E. Jese Coast;;;;;;;;;;;;;x
+b_e_kalan_fields_city;E. Kalan Fields;;;;;;;;;;;;;x
+b_e_kauni_forest_city;E. Kauni Forest;;;;;;;;;;;;;x
+b_e_levyt_coast_city;E. Levyt Coast;;;;;;;;;;;;;x
+b_e_levyt_plains_city;E. Levyt Plains;;;;;;;;;;;;;x
+b_e_n_abimelechs_city;E.N. Abimelechs;;;;;;;;;;;;;x
+b_e_n_anin_coast_city;E.N. Anin Coast;;;;;;;;;;;;;x
+b_e_n_hal_mountains_city;E.N. Hal Mtns;;;;;;;;;;;;;x
+b_e_n_hese_coast_city;E.N. Hese Coast;;;;;;;;;;;;;x
+b_e_n_kalani_coast_city;E.N. Kalani Coast;;;;;;;;;;;;;x
+b_e_navo_coast_city;E. Navo Coast;;;;;;;;;;;;;x
+b_e_navo_desert_city;E. Navo Desert;;;;;;;;;;;;;x
+b_e_ne_anin_plains_city;E.NE. Anin Plains;;;;;;;;;;;;;x
+b_e_norrain_river_city;E. Norrain River;;;;;;;;;;;;;x
+b_e_nw_yava_forest_city;E.NW. Yava Forest;;;;;;;;;;;;;x
+b_e_pan_cliffs_city;E. Pan Cliffs;;;;;;;;;;;;;x
+b_e_rannu_river_city;E. Rannu River;;;;;;;;;;;;;x
+b_e_s_anin_plains_city;E.S. Anin Plains;;;;;;;;;;;;;x
+b_e_s_gawei_coast_city;E.S. Gawei Coast;;;;;;;;;;;;;x
+b_e_s_hese_coast_city;E.S. Hese Coast;;;;;;;;;;;;;x
+b_e_s_kalani_coast_city;E.S. Kalani Coast;;;;;;;;;;;;;x
+b_e_s_majat_mountains_city;E.S. Majat Mtns;;;;;;;;;;;;;x
+b_e_s_yava_forest_city;E.S. Yava Forest;;;;;;;;;;;;;x
+b_e_w_kalan_fields_city;E.W. Kalan Fields;;;;;;;;;;;;;x
+b_e_w_navo_desert_city;E.W. Navo Desert;;;;;;;;;;;;;x
+b_e_yava_forest_city;E. Yava Forest;;;;;;;;;;;;;x
+b_e_zalv_forest_city;E. Zalv Forest;;;;;;;;;;;;;x
+b_earthfort_coasts_city;Earthfort Coasts;;;;;;;;;;;;;x
+b_elfall_city;Elfall;;;;;;;;;;;;;x
+b_elfall_volcano_city;Elfall Volcano;;;;;;;;;;;;;x
+b_etzu_berth_city;Etzu Berth;;;;;;;;;;;;;x
+b_etzu_falls_city;Etzu Falls;;;;;;;;;;;;;x
+b_etzu_lake_city;Etzu Lake;;;;;;;;;;;;;x
+b_etzus_mouth_city;Etzu's Mouth;;;;;;;;;;;;;x
+b_gap_in_the_mountain_city;Mountain Gap;;;;;;;;;;;;;x
+b_gawei_castle_city;Gawei Castle;;;;;;;;;;;;;x
+b_gawei_village_city;Gawei Village;;;;;;;;;;;;;x
+b_great_war_hall_city;Great War Hall;;;;;;;;;;;;;x
+b_grey_mountains_city;Grey Mountains;;;;;;;;;;;;;x
+b_hideaway_city;Hideaway;;;;;;;;;;;;;x
+b_home_of_the_vitat_city;Vitat Home;;;;;;;;;;;;;x
+b_huargen_city;Huargen;;;;;;;;;;;;;x
+b_hunute_forest_city;Hunute Forest;;;;;;;;;;;;;x
+b_jese_castle_city;Jese Castle;;;;;;;;;;;;;x
+b_kalan_village_city;Kalan Village;;;;;;;;;;;;;x
+b_kalani_border_city;Kalani Border;;;;;;;;;;;;;x
+b_kami_city;Kami;;;;;;;;;;;;;x
+b_khes_city;Khes;;;;;;;;;;;;;x
+b_left_twin_city;Left Twin;;;;;;;;;;;;;x
+b_lesser_etzu_river_city;Lesser Etzu River;;;;;;;;;;;;;x
+b_levyt_city_city;Levyt City;;;;;;;;;;;;;x
+b_levyt_e_bank_city;Levyt E. Bank;;;;;;;;;;;;;x
+b_levyt_river_source_city;Levyt River Source;;;;;;;;;;;;;x
+b_levyt_w_bank_city;Levyt W. Bank;;;;;;;;;;;;;x
+b_lower_mighty_etzu_river_city;Lower Mighty Etzu River;;;;;;;;;;;;;x
+b_lower_navo_river_city;Lower Navo River;;;;;;;;;;;;;x
+b_maku_city;Maku;;;;;;;;;;;;;x
+b_n_abimelechs_city;N. Abimelechs;;;;;;;;;;;;;x
+b_n_ades_coast_city;N. Ades Coast;;;;;;;;;;;;;x
+b_n_anin_coast_city;N. Anin Coast;;;;;;;;;;;;;x
+b_n_anin_ko_coast_city;N. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_anin_plains_city;N. Anin Plains;;;;;;;;;;;;;x
+b_n_basli_forest_city;N. Basli Forest;;;;;;;;;;;;;x
+b_n_basli_plains_city;N. Basli Plains;;;;;;;;;;;;;x
+b_n_c_anin_ko_coast_city;N.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_c_anin_plains_city;N.C. Anin Plains;;;;;;;;;;;;;x
+b_n_c_kalan_fields_city;N.C. Kalan Fields;;;;;;;;;;;;;x
+b_n_c_vitat_canyon_city;N.C. Vitat Canyon;;;;;;;;;;;;;x
+b_n_door_to_yava_city;N. Yava Door;;;;;;;;;;;;;x
+b_n_e_ades_plains_city;N.E. Ades Plains;;;;;;;;;;;;;x
+b_n_e_daly_mountains_city;N.E. Daly Mtns;;;;;;;;;;;;;x
+b_n_e_earthfort_mountains_city;N.E. Earthforts;;;;;;;;;;;;;x
+b_n_e_levyt_plains_city;N.E. Levyt Plains;;;;;;;;;;;;;x
+b_n_e_navo_desert_city;N.E. Navo Desert;;;;;;;;;;;;;x
+b_n_grey_plains_city;N. Grey Plains;;;;;;;;;;;;;x
+b_n_hal_mountains_city;N. Hal Mtns;;;;;;;;;;;;;x
+b_n_hese_forest_city;N. Hese Forest;;;;;;;;;;;;;x
+b_n_hunute_forest_city;N. Hunute Forest;;;;;;;;;;;;;x
+b_n_kalani_coast_city;N. Kalani Coast;;;;;;;;;;;;;x
+b_n_kauni_city;N. Kauni;;;;;;;;;;;;;x
+b_n_ko_city;N. Ko;;;;;;;;;;;;;x
+b_n_kzi_city;N. Kzi;;;;;;;;;;;;;x
+b_n_levyt_city;N. Levyt;;;;;;;;;;;;;x
+b_n_lower_levyt_river_city;N. Lower Levyt River;;;;;;;;;;;;;x
+b_n_n_grey_plains_city;N.N. Grey Plains;;;;;;;;;;;;;x
+b_n_ne_anin_plains_city;N.NE. Anin Plains;;;;;;;;;;;;;x
+b_n_rannu_coast_city;N. Rannu Coast;;;;;;;;;;;;;x
+b_n_rannu_plains_city;N. Rannu Plains;;;;;;;;;;;;;x
+b_n_se_anin_plains_city;N.SE. Anin Plains;;;;;;;;;;;;;x
+b_n_solwood_city;N. Solwood;;;;;;;;;;;;;x
+b_n_sun_river_city;N. Sun River;;;;;;;;;;;;;x
+b_n_sw_anin_plains_city;N.SW. Anin Plains;;;;;;;;;;;;;x
+b_n_trovo_city;N. Trovo;;;;;;;;;;;;;x
+b_n_upper_levyt_river_city;N. Upper Levyt River;;;;;;;;;;;;;x
+b_n_upper_navo_river_city;N. Upper Navo River;;;;;;;;;;;;;x
+b_n_vitat_canyon_city;N. Vitat Canyon;;;;;;;;;;;;;x
+b_n_w_abimelechs_city;N.W. Abimelechs;;;;;;;;;;;;;x
+b_n_w_ades_plains_city;N.W. Ades Plains;;;;;;;;;;;;;x
+b_n_w_daly_mountains_city;N.W. Daly Mtns;;;;;;;;;;;;;x
+b_n_w_kalan_fields_city;N.W. Kalan Fields;;;;;;;;;;;;;x
+b_n_w_navo_desert_city;N.W. Navo Desert;;;;;;;;;;;;;x
+b_navos_mouth_city;Navo's Mouth;;;;;;;;;;;;;x
+b_ne_anin_plains_city;N.E. Anin Plains;;;;;;;;;;;;;x
+b_ne_c_vitat_canyon_city;N.E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_ne_e_ades_plains_city;N.E.E. Ades Plains;;;;;;;;;;;;;x
+b_ne_e_earthfort_mountains_city;N.E.E. Earthforts;;;;;;;;;;;;;x
+b_ne_e_kalan_fields_city;N.E.E. Kalan Fields;;;;;;;;;;;;;x
+b_ne_etzu_lake_city;N.E. Etzu Lake;;;;;;;;;;;;;x
+b_ne_hunute_forest_city;N.E. Hunute Forest;;;;;;;;;;;;;x
+b_ne_n_anin_plains_city;N.E.N. Anin Plains;;;;;;;;;;;;;x
+b_ne_n_hal_mountains_city;N.E.N. Hal Mtns;;;;;;;;;;;;;x
+b_ne_rannu_coast_city;N.E. Rannu Coast;;;;;;;;;;;;;x
+b_ne_s_yava_forest_city;N.E.S. Yava Forest;;;;;;;;;;;;;x
+b_ne_se_anin_plains_city;NE.SE. Anin Plains;;;;;;;;;;;;;x
+b_ne_yava_forest_city;N.E. Yava Forest;;;;;;;;;;;;;x
+b_norrain_river_city;Norrain River;;;;;;;;;;;;;x
+b_norrains_mouth_city;Norrain's Mouth;;;;;;;;;;;;;x
+b_norrains_source_city;Norrain's Source;;;;;;;;;;;;;x
+b_norrains_southwest_w_bend_city;Norrain's SW.W Bend;;;;;;;;;;;;;x
+b_norrains_west_bend_city;Norrain's W. Bend;;;;;;;;;;;;;x
+b_nw_c_anin_plains_city;N.W.C. Anin Plains;;;;;;;;;;;;;x
+b_nw_c_vitat_canyon_city;N.W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_e_kalan_fields_city;N.W.E. Kalan Fields;;;;;;;;;;;;;x
+b_nw_hunute_forest_city;N.W. Hunute Forest;;;;;;;;;;;;;x
+b_nw_n_anin_plains_city;N.W.N Anin Plains;;;;;;;;;;;;;x
+b_nw_n_vitat_canyon_city;N.W.N. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_ne_anin_plains_city;NW.NE. Anin Plains;;;;;;;;;;;;;x
+b_nw_s_yava_forest_city;N.W.S. Yava Forest;;;;;;;;;;;;;x
+b_nw_se_anin_plains_city;NW.SE. Anin Plains;;;;;;;;;;;;;x
+b_nw_sw_anin_plains_city;NW.SW. Anin Plains;;;;;;;;;;;;;x
+b_nw_w_abimelechs_city;N.W.W. Abimelechs;;;;;;;;;;;;;x
+b_nw_yava_forest_city;N.W. Yava Forest;;;;;;;;;;;;;x
+b_oto_city;Oto;;;;;;;;;;;;;x
+b_qess_fort_city;Qess Fort;;;;;;;;;;;;;x
+b_right_twin_city;Right Twin;;;;;;;;;;;;;x
+b_s_ades_coast_city;S. Ades Coast;;;;;;;;;;;;;x
+b_s_anin_ko_coast_city;S. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_anin_plains_city;S. Anin Plains;;;;;;;;;;;;;x
+b_s_basli_forest_city;S. Basli Forest;;;;;;;;;;;;;x
+b_s_basli_plains_city;S. Basli Plains;;;;;;;;;;;;;x
+b_s_black_fog_mountains_city;S. Black Fog Mtns;;;;;;;;;;;;;x
+b_s_c_abimelechs_city;S.C. Abimelechs;;;;;;;;;;;;;x
+b_s_c_anin_ko_coast_city;S.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_c_anin_plains_city;S.C. Anin Plains;;;;;;;;;;;;;x
+b_s_c_kalan_fields_city;S.C. Kalan Fields;;;;;;;;;;;;;x
+b_s_door_to_yava_city;S. Yava Door;;;;;;;;;;;;;x
+b_s_e_ades_plains_city;S.E. Ades Plains;;;;;;;;;;;;;x
+b_s_e_daly_mountains_city;S.E. Daly Mtns;;;;;;;;;;;;;x
+b_s_e_earthfort_mountains_city;S.E. Earthforts;;;;;;;;;;;;;x
+b_s_e_navo_desert_city;S.E. Navo Desert;;;;;;;;;;;;;x
+b_s_etzu_lake_city;S. Etzu Lake;;;;;;;;;;;;;x
+b_s_gawei_coast_city;S. Gawei Coast;;;;;;;;;;;;;x
+b_s_grey_mountains_city;S. Grey Mountains;;;;;;;;;;;;;x
+b_s_hal_mountains_city;S. Hal Mtns;;;;;;;;;;;;;x
+b_s_hese_forest_city;S. Hese Forest;;;;;;;;;;;;;x
+b_s_hunute_forest_city;S. Hunute Forest;;;;;;;;;;;;;x
+b_s_insol_city;S. Insol;;;;;;;;;;;;;x
+b_s_kalani_coast_city;S. Kalani Coast;;;;;;;;;;;;;x
+b_s_kauni_city;S. Kauni;;;;;;;;;;;;;x
+b_s_kauni_forest_city;S. Kauni Forest;;;;;;;;;;;;;x
+b_s_kzi_city;S. Kzi;;;;;;;;;;;;;x
+b_s_lower_levyt_river_city;S. Lower Levyt River;;;;;;;;;;;;;x
+b_s_majat_mountains_city;S. Majat Mtns;;;;;;;;;;;;;x
+b_s_n_abimelechs_city;S.N. Abimelechs;;;;;;;;;;;;;x
+b_s_n_grey_plains_city;S.N. Grey Plains;;;;;;;;;;;;;x
+b_s_n_vitat_canyon_city;S.N. Vitat Canyon;;;;;;;;;;;;;x
+b_s_ne_anin_plains_city;S.NE. Anin Plains;;;;;;;;;;;;;x
+b_s_ne_yava_forest_city;S.NE. Yava Forest;;;;;;;;;;;;;x
+b_s_nw_yava_forest_city;S.NW. Yava Forest;;;;;;;;;;;;;x
+b_s_rannu_coast_city;S. Rannu Coast;;;;;;;;;;;;;x
+b_s_rannu_plains_city;S. Rannu Plains;;;;;;;;;;;;;x
+b_s_se_anin_plains_city;S.SE. Anin Plains;;;;;;;;;;;;;x
+b_s_solwood_city;S. Solwood;;;;;;;;;;;;;x
+b_s_sw_anin_plains_city;S.SW. Anin Plains;;;;;;;;;;;;;x
+b_s_trovo_city;S. Trovo;;;;;;;;;;;;;x
+b_s_upper_levyt_river_city;S. Upper Levyt River;;;;;;;;;;;;;x
+b_s_upper_navo_river_city;S. Upper Navo River;;;;;;;;;;;;;x
+b_s_w_abimelechs_city;S.W. Abimelechs;;;;;;;;;;;;;x
+b_s_w_ades_plains_city;S.W. Ades Plains;;;;;;;;;;;;;x
+b_s_w_navo_desert_city;S.W. Navo Desert;;;;;;;;;;;;;x
+b_s_yava_forest_city;S. Yava Forest;;;;;;;;;;;;;x
+b_saar_city;Saar;;;;;;;;;;;;;x
+b_se_anin_plains_city;SE. Anin Plains;;;;;;;;;;;;;x
+b_se_basli_forest_city;SE. Basli Forest;;;;;;;;;;;;;x
+b_se_c_abimelechs_city;SE.C. Abimelechs;;;;;;;;;;;;;x
+b_se_c_anin_plains_city;SE.C Anin Plains;;;;;;;;;;;;;x
+b_se_e_earthfort_mountains_city;SE.E. Earthforts;;;;;;;;;;;;;x
+b_se_e_navo_desert_city;SE.E. Navo Desert;;;;;;;;;;;;;x
+b_se_etzu_lake_city;SE. Etzu Lake;;;;;;;;;;;;;x
+b_se_hunute_forest_city;SE. Hunute Forest;;;;;;;;;;;;;x
+b_se_ko_city;SE. Ko;;;;;;;;;;;;;x
+b_se_n_abimelechs_city;SE.N. Abimelechs;;;;;;;;;;;;;x
+b_se_n_anin_plains_city;SE.N. Anin Plains;;;;;;;;;;;;;x
+b_se_n_hal_mountains_city;SE.N. Hal Mtns;;;;;;;;;;;;;x
+b_se_rannu_coast_city;SE. Rannu Coast;;;;;;;;;;;;;x
+b_se_w_earthfort_mountains_city;SE.W. Earthforts;;;;;;;;;;;;;x
+b_se_zalv_forest_city;SE. Zalv Forest;;;;;;;;;;;;;x
+b_silt_castle_city;Silt Castle;;;;;;;;;;;;;x
+b_stra_city;Stra;;;;;;;;;;;;;x
+b_stro_city;Stro;;;;;;;;;;;;;x
+b_sun_river_city;Sun River;;;;;;;;;;;;;x
+b_sw_anin_plains_city;SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_c_anin_plains_city;SW.C. Anin Plains;;;;;;;;;;;;;x
+b_sw_grey_mountains_city;SW. Grey Mtns;;;;;;;;;;;;;x
+b_sw_hese_forest_city;SW. Hese Forest;;;;;;;;;;;;;x
+b_sw_hunute_forest_city;SW. Hunute Forest;;;;;;;;;;;;;x
+b_sw_ko_city;SW. Ko;;;;;;;;;;;;;x
+b_sw_n_anin_plains_city;SW.N. Anin Plains;;;;;;;;;;;;;x
+b_sw_n_hal_mountains_city;SW.N. Hal Mtns;;;;;;;;;;;;;x
+b_sw_ne_anin_plains_city;SW.NE. Anin Plains;;;;;;;;;;;;;x
+b_sw_s_hal_mountains_city;SW.S. Hal Mtns;;;;;;;;;;;;;x
+b_sw_se_anin_plains_city;SW.SE. Anin Plains;;;;;;;;;;;;;x
+b_sw_sw_anin_plains_city;SW.SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_zalv_forest_city;SW. Zalv Forest;;;;;;;;;;;;;x
+b_topa_city;Topa;;;;;;;;;;;;;x
+b_umi_city;Umi;;;;;;;;;;;;;x
+b_upper_mighty_etzu_river_city;Upper Mighty Etzu River;;;;;;;;;;;;;x
+b_w_abimelechs_city;W. Abimelechs;;;;;;;;;;;;;x
+b_w_ades_plains_city;W. Ades Plains;;;;;;;;;;;;;x
+b_w_black_fog_mountains_city;W. Black Fog Mtns;;;;;;;;;;;;;x
+b_w_c_abimelechs_city;W.C. Abimelechs;;;;;;;;;;;;;x
+b_w_c_ades_plains_city;W.C. Ades Plains;;;;;;;;;;;;;x
+b_w_c_vitat_canyon_city;W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_w_c_yava_forest_city;W.C. Yava Forest;;;;;;;;;;;;;x
+b_w_daly_mountains_city;W. Daly Mtns;;;;;;;;;;;;;x
+b_w_e_ades_plains_city;W.E. Ades Plains;;;;;;;;;;;;;x
+b_w_e_daly_mountains_city;W.E. Daly Mtns;;;;;;;;;;;;;x
+b_w_e_grey_coast_city;W.E. Grey Coast;;;;;;;;;;;;;x
+b_w_e_kalan_fields_city;W.E. Kalan Fields;;;;;;;;;;;;;x
+b_w_e_yava_forest_city;W.E. Yava Forest;;;;;;;;;;;;;x
+b_w_etzu_lake_city;W. Etzu Lake;;;;;;;;;;;;;x
+b_w_gawei_coast_city;W. Gawei Coast;;;;;;;;;;;;;x
+b_w_grey_coast_city;W. Grey Coast;;;;;;;;;;;;;x
+b_w_hese_forest_city;W. Hese Forest;;;;;;;;;;;;;x
+b_w_hunute_approach_city;W. Hunute Approach;;;;;;;;;;;;;x
+b_w_hunute_forest_city;W. Hunute Forest;;;;;;;;;;;;;x
+b_w_insol_city;W. Insol;;;;;;;;;;;;;x
+b_w_jese_coast_city;W. Jese Coast;;;;;;;;;;;;;x
+b_w_kalan_fields_city;W. Kalan Fields;;;;;;;;;;;;;x
+b_w_kauni_forest_city;W. Kauni Forest;;;;;;;;;;;;;x
+b_w_levyt_plains_city;W. Levyt Plains;;;;;;;;;;;;;x
+b_w_n_abimelechs_city;W.N. Abimelechs;;;;;;;;;;;;;x
+b_w_n_anin_coast_city;W.N. Anin Coast;;;;;;;;;;;;;x
+b_w_n_anin_plains_city;W.N. Anin Plains;;;;;;;;;;;;;x
+b_w_n_hal_mountains_city;W.N. Hal Mtns;;;;;;;;;;;;;x
+b_w_n_hese_coast_city;W.N. Hese Coast;;;;;;;;;;;;;x
+b_w_navo_coast_city;W. Navo Coast;;;;;;;;;;;;;x
+b_w_navo_desert_city;W. Navo Desert;;;;;;;;;;;;;x
+b_w_ne_anin_plains_city;W.NE. Anin Plains;;;;;;;;;;;;;x
+b_w_ne_yava_forest_city;W.NE. Yava Forest;;;;;;;;;;;;;x
+b_w_pan_cliffs_city;W. Pan Cliffs;;;;;;;;;;;;;x
+b_w_rannu_river_city;W. Rannu River;;;;;;;;;;;;;x
+b_w_s_anin_plains_city;W.S. Anin Plains;;;;;;;;;;;;;x
+b_w_s_gawei_coast_city;W.S. Gawei Coast;;;;;;;;;;;;;x
+b_w_s_hese_coast_city;W.S. Hese Coast;;;;;;;;;;;;;x
+b_w_s_majat_mountains_city;W.S. Majat Mtns;;;;;;;;;;;;;x
+b_w_se_anin_plains_city;W.SE. Anin Plains;;;;;;;;;;;;;x
+b_w_sw_anin_plains_city;W.SW. Anin Plains;;;;;;;;;;;;;x
+b_w_w_levyt_plains_city;W.W. Levyt Plains;;;;;;;;;;;;;x
+b_w_zalv_forest_city;W. Zalv Forest;;;;;;;;;;;;;x
+b_war_halls_approach_city;War Hall's Approach;;;;;;;;;;;;;x
+b_zalv_forest_city;Zalv Forest;;;;;;;;;;;;;x
+b_zuvaki_palace_city;Zuvaki Palace;;;;;;;;;;;;;x
+
+#Temples
+b_abimelech_falls_temple;Abimelech Falls;;;;;;;;;;;;;x
+b_anin_ko_coast_temple;Anin Ko Coast;;;;;;;;;;;;;x
+b_anlas_temple;Anlas;;;;;;;;;;;;;x
+b_basli_forest_temple;Basli Forest;;;;;;;;;;;;;x
+b_belar_temple;Belar;;;;;;;;;;;;;x
+b_black_fog_falls_temple;Black Fog Falls;;;;;;;;;;;;;x
+b_black_fog_mountains_temple;Black Fog Mtns;;;;;;;;;;;;;x
+b_blav_temple;Blav;;;;;;;;;;;;;x
+b_blav_approach_temple;Blav Approach;;;;;;;;;;;;;x
+b_bottomless_hole_temple;Bottomless Hole;;;;;;;;;;;;;x
+b_byajvos_approach_temple;Byajvos Approach;;;;;;;;;;;;;x
+b_byajvos_cradle_temple;Byajvos' Cradle;;;;;;;;;;;;;x
+b_byajvos_keep_temple;Byajvos' Keep;;;;;;;;;;;;;x
+b_c_abimelechs_temple;C. Abimelechs;;;;;;;;;;;;;x
+b_c_ades_plains_temple;C. Ades Plains;;;;;;;;;;;;;x
+b_c_anin_plains_temple;C. Anin Plains;;;;;;;;;;;;;x
+b_c_e_daly_mountains_temple;C.E. Daly Mtns;;;;;;;;;;;;;x
+b_c_grey_plains_temple;C. Grey Plains;;;;;;;;;;;;;x
+b_c_hese_forest_temple;C. Hese Forest;;;;;;;;;;;;;x
+b_c_kalan_fields_temple;C. Kalan Fields;;;;;;;;;;;;;x
+b_c_kauni_temple;C. Kauni;;;;;;;;;;;;;x
+b_c_kzi_temple;C. Kzi;;;;;;;;;;;;;x
+b_c_majat_mountains_temple;C. Majat Mtns;;;;;;;;;;;;;x
+b_c_n_anin_coast_temple;C.N. Anin Coast;;;;;;;;;;;;;x
+b_c_trovo_temple;C. Trovo;;;;;;;;;;;;;x
+b_c_vitat_canyon_temple;C. Vitat Canyon;;;;;;;;;;;;;x
+b_c_yava_forest_temple;C. Yava Forest;;;;;;;;;;;;;x
+b_cenno_temple;Cenno;;;;;;;;;;;;;x
+b_collsi_capital_temple;Collsi Capital;;;;;;;;;;;;;x
+b_confusion_valley_temple;Confusion Valley;;;;;;;;;;;;;x
+b_e_ades_plains_temple;E. Ades Plains;;;;;;;;;;;;;x
+b_e_basli_forest_temple;E. Basli Forest;;;;;;;;;;;;;x
+b_e_c_abimelechs_temple;E.C. Abimelechs;;;;;;;;;;;;;x
+b_e_c_ades_plains_temple;E.C. Ades Plains;;;;;;;;;;;;;x
+b_e_c_grey_plains_temple;E.C. Grey Plains;;;;;;;;;;;;;x
+b_e_c_vitat_canyon_temple;E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_e_c_yava_forest_temple;E.C. Yava Forest;;;;;;;;;;;;;x
+b_e_e_earthfort_mountains_temple;E.E. Earthforts;;;;;;;;;;;;;x
+b_e_e_navo_desert_temple;E.E. Navo Desert;;;;;;;;;;;;;x
+b_e_earthfort_mountains_temple;E. Earthforts;;;;;;;;;;;;;x
+b_e_grey_coast_temple;E. Grey Coast;;;;;;;;;;;;;x
+b_e_grey_plains_temple;E. Grey Plains;;;;;;;;;;;;;x
+b_e_insol_temple;E. Insol;;;;;;;;;;;;;x
+b_e_jese_coast_temple;E. Jese Coast;;;;;;;;;;;;;x
+b_e_kalan_fields_temple;E. Kalan Fields;;;;;;;;;;;;;x
+b_e_kauni_forest_temple;E. Kauni Forest;;;;;;;;;;;;;x
+b_e_levyt_coast_temple;E. Levyt Coast;;;;;;;;;;;;;x
+b_e_levyt_plains_temple;E. Levyt Plains;;;;;;;;;;;;;x
+b_e_n_abimelechs_temple;E.N. Abimelechs;;;;;;;;;;;;;x
+b_e_n_anin_coast_temple;E.N. Anin Coast;;;;;;;;;;;;;x
+b_e_n_hal_mountains_temple;E.N. Hal Mtns;;;;;;;;;;;;;x
+b_e_n_hese_coast_temple;E.N. Hese Coast;;;;;;;;;;;;;x
+b_e_n_kalani_coast_temple;E.N. Kalani Coast;;;;;;;;;;;;;x
+b_e_navo_coast_temple;E. Navo Coast;;;;;;;;;;;;;x
+b_e_navo_desert_temple;E. Navo Desert;;;;;;;;;;;;;x
+b_e_ne_anin_plains_temple;E.NE. Anin Plains;;;;;;;;;;;;;x
+b_e_norrain_river_temple;E. Norrain River;;;;;;;;;;;;;x
+b_e_nw_yava_forest_temple;E.NW. Yava Forest;;;;;;;;;;;;;x
+b_e_pan_cliffs_temple;E. Pan Cliffs;;;;;;;;;;;;;x
+b_e_rannu_river_temple;E. Rannu River;;;;;;;;;;;;;x
+b_e_s_anin_plains_temple;E.S. Anin Plains;;;;;;;;;;;;;x
+b_e_s_gawei_coast_temple;E.S. Gawei Coast;;;;;;;;;;;;;x
+b_e_s_hese_coast_temple;E.S. Hese Coast;;;;;;;;;;;;;x
+b_e_s_kalani_coast_temple;E.S. Kalani Coast;;;;;;;;;;;;;x
+b_e_s_majat_mountains_temple;E.S. Majat Mtns;;;;;;;;;;;;;x
+b_e_s_yava_forest_temple;E.S. Yava Forest;;;;;;;;;;;;;x
+b_e_w_kalan_fields_temple;E.W. Kalan Fields;;;;;;;;;;;;;x
+b_e_w_navo_desert_temple;E.W. Navo Desert;;;;;;;;;;;;;x
+b_e_yava_forest_temple;E. Yava Forest;;;;;;;;;;;;;x
+b_e_zalv_forest_temple;E. Zalv Forest;;;;;;;;;;;;;x
+b_earthfort_coasts_temple;Earthfort Coasts;;;;;;;;;;;;;x
+b_elfall_temple;Elfall;;;;;;;;;;;;;x
+b_elfall_volcano_temple;Elfall Volcano;;;;;;;;;;;;;x
+b_etzu_berth_temple;Etzu Berth;;;;;;;;;;;;;x
+b_etzu_falls_temple;Etzu Falls;;;;;;;;;;;;;x
+b_etzu_lake_temple;Etzu Lake;;;;;;;;;;;;;x
+b_etzus_mouth_temple;Etzu's Mouth;;;;;;;;;;;;;x
+b_gap_in_the_mountain_temple;Mountain Gap;;;;;;;;;;;;;x
+b_gawei_castle_temple;Gawei Castle;;;;;;;;;;;;;x
+b_gawei_village_temple;Gawei Village;;;;;;;;;;;;;x
+b_entrance_to_varos_heart;Varo's Heart Entrance;;;;;;;;;;;;;x
+b_entrance_to_laakis_womb;Laaki's Womb Entrance;;;;;;;;;;;;;x
+b_grey_mountains_temple;Grey Mountains;;;;;;;;;;;;;x
+b_hideaway_temple;Hideaway;;;;;;;;;;;;;x
+b_home_of_the_vitat_temple;Vitat Home;;;;;;;;;;;;;x
+b_huargen_temple;Huargen;;;;;;;;;;;;;x
+b_hunute_forest_temple;Hunute Forest;;;;;;;;;;;;;x
+b_jese_castle_temple;Jese Castle;;;;;;;;;;;;;x
+b_kalan_village_temple;Kalan Village;;;;;;;;;;;;;x
+b_kalani_border_temple;Kalani Border;;;;;;;;;;;;;x
+b_kami_temple;Kami;;;;;;;;;;;;;x
+b_khes_temple;Khes;;;;;;;;;;;;;x
+b_left_twin_temple;Left Twin;;;;;;;;;;;;;x
+b_lesser_etzu_river_temple;Lesser Etzu River;;;;;;;;;;;;;x
+b_levyt_city_temple;Levyt temple;;;;;;;;;;;;;x
+b_levyt_e_bank_temple;Levyt E. Bank;;;;;;;;;;;;;x
+b_levyt_river_source_temple;Levyt River Source;;;;;;;;;;;;;x
+b_levyt_w_bank_temple;Levyt W. Bank;;;;;;;;;;;;;x
+b_lower_mighty_etzu_river_temple;Lower Mighty Etzu River;;;;;;;;;;;;;x
+b_lower_navo_river_temple;Lower Navo River;;;;;;;;;;;;;x
+b_maku_temple;Maku;;;;;;;;;;;;;x
+b_n_abimelechs_temple;N. Abimelechs;;;;;;;;;;;;;x
+b_n_ades_coast_temple;N. Ades Coast;;;;;;;;;;;;;x
+b_n_anin_coast_temple;N. Anin Coast;;;;;;;;;;;;;x
+b_n_anin_ko_coast_temple;N. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_anin_plains_temple;N. Anin Plains;;;;;;;;;;;;;x
+b_n_basli_forest_temple;N. Basli Forest;;;;;;;;;;;;;x
+b_n_basli_plains_temple;N. Basli Plains;;;;;;;;;;;;;x
+b_n_c_anin_ko_coast_temple;N.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_n_c_anin_plains_temple;N.C. Anin Plains;;;;;;;;;;;;;x
+b_n_c_kalan_fields_temple;N.C. Kalan Fields;;;;;;;;;;;;;x
+b_n_c_vitat_canyon_temple;N.C. Vitat Canyon;;;;;;;;;;;;;x
+b_n_door_to_yava_temple;N. Yava Door;;;;;;;;;;;;;x
+b_n_e_ades_plains_temple;N.E. Ades Plains;;;;;;;;;;;;;x
+b_n_e_daly_mountains_temple;N.E. Daly Mtns;;;;;;;;;;;;;x
+b_n_e_earthfort_mountains_temple;N.E. Earthforts;;;;;;;;;;;;;x
+b_n_e_levyt_plains_temple;N.E. Levyt Plains;;;;;;;;;;;;;x
+b_n_e_navo_desert_temple;N.E. Navo Desert;;;;;;;;;;;;;x
+b_n_grey_plains_temple;N. Grey Plains;;;;;;;;;;;;;x
+b_n_hal_mountains_temple;N. Hal Mtns;;;;;;;;;;;;;x
+b_n_hese_forest_temple;N. Hese Forest;;;;;;;;;;;;;x
+b_n_hunute_forest_temple;N. Hunute Forest;;;;;;;;;;;;;x
+b_n_kalani_coast_temple;N. Kalani Coast;;;;;;;;;;;;;x
+b_n_kauni_temple;N. Kauni;;;;;;;;;;;;;x
+b_n_ko_temple;N. Ko;;;;;;;;;;;;;x
+b_n_kzi_temple;N. Kzi;;;;;;;;;;;;;x
+b_n_levyt_temple;N. Levyt;;;;;;;;;;;;;x
+b_n_lower_levyt_river_temple;N. Lower Levyt River;;;;;;;;;;;;;x
+b_n_n_grey_plains_temple;N.N. Grey Plains;;;;;;;;;;;;;x
+b_n_ne_anin_plains_temple;N.NE. Anin Plains;;;;;;;;;;;;;x
+b_n_rannu_coast_temple;N. Rannu Coast;;;;;;;;;;;;;x
+b_n_rannu_plains_temple;N. Rannu Plains;;;;;;;;;;;;;x
+b_n_se_anin_plains_temple;N.SE. Anin Plains;;;;;;;;;;;;;x
+b_n_solwood_temple;N. Solwood;;;;;;;;;;;;;x
+b_n_sun_river_temple;N. Sun River;;;;;;;;;;;;;x
+b_n_sw_anin_plains_temple;N.SW. Anin Plains;;;;;;;;;;;;;x
+b_n_trovo_temple;N. Trovo;;;;;;;;;;;;;x
+b_n_upper_levyt_river_temple;N. Upper Levyt River;;;;;;;;;;;;;x
+b_n_upper_navo_river_temple;N. Upper Navo River;;;;;;;;;;;;;x
+b_n_vitat_canyon_temple;N. Vitat Canyon;;;;;;;;;;;;;x
+b_n_w_abimelechs_temple;N.W. Abimelechs;;;;;;;;;;;;;x
+b_n_w_ades_plains_temple;N.W. Ades Plains;;;;;;;;;;;;;x
+b_n_w_daly_mountains_temple;N.W. Daly Mtns;;;;;;;;;;;;;x
+b_n_w_kalan_fields_temple;N.W. Kalan Fields;;;;;;;;;;;;;x
+b_n_w_navo_desert_temple;N.W. Navo Desert;;;;;;;;;;;;;x
+b_navos_mouth_temple;Navo's Mouth;;;;;;;;;;;;;x
+b_ne_anin_plains_temple;N.E. Anin Plains;;;;;;;;;;;;;x
+b_ne_c_vitat_canyon_temple;N.E.C. Vitat Canyon;;;;;;;;;;;;;x
+b_ne_e_ades_plains_temple;N.E.E. Ades Plains;;;;;;;;;;;;;x
+b_ne_e_earthfort_mountains_temple;N.E.E. Earthforts;;;;;;;;;;;;;x
+b_ne_e_kalan_fields_temple;N.E.E. Kalan Fields;;;;;;;;;;;;;x
+b_ne_etzu_lake_temple;N.E. Etzu Lake;;;;;;;;;;;;;x
+b_ne_hunute_forest_temple;N.E. Hunute Forest;;;;;;;;;;;;;x
+b_ne_n_anin_plains_temple;N.E.N. Anin Plains;;;;;;;;;;;;;x
+b_ne_n_hal_mountains_temple;N.E.N. Hal Mtns;;;;;;;;;;;;;x
+b_ne_rannu_coast_temple;N.E. Rannu Coast;;;;;;;;;;;;;x
+b_ne_s_yava_forest_temple;N.E.S. Yava Forest;;;;;;;;;;;;;x
+b_ne_se_anin_plains_temple;NE.SE. Anin Plains;;;;;;;;;;;;;x
+b_ne_yava_forest_temple;N.E. Yava Forest;;;;;;;;;;;;;x
+b_norrain_river_temple;Norrain River;;;;;;;;;;;;;x
+b_norrains_mouth_temple;Norrain's Mouth;;;;;;;;;;;;;x
+b_norrains_source_temple;Norrain's Source;;;;;;;;;;;;;x
+b_norrains_southwest_w_bend_temple;Norrain's SW.W Bend;;;;;;;;;;;;;x
+b_norrains_west_bend_temple;Norrain's W. Bend;;;;;;;;;;;;;x
+b_nw_c_anin_plains_temple;N.W.C. Anin Plains;;;;;;;;;;;;;x
+b_nw_c_vitat_canyon_temple;N.W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_e_kalan_fields_temple;N.W.E. Kalan Fields;;;;;;;;;;;;;x
+b_nw_hunute_forest_temple;N.W. Hunute Forest;;;;;;;;;;;;;x
+b_nw_n_anin_plains_temple;N.W.N Anin Plains;;;;;;;;;;;;;x
+b_nw_n_vitat_canyon_temple;N.W.N. Vitat Canyon;;;;;;;;;;;;;x
+b_nw_ne_anin_plains_temple;NW.NE. Anin Plains;;;;;;;;;;;;;x
+b_nw_s_yava_forest_temple;N.W.S. Yava Forest;;;;;;;;;;;;;x
+b_nw_se_anin_plains_temple;NW.SE. Anin Plains;;;;;;;;;;;;;x
+b_nw_sw_anin_plains_temple;NW.SW. Anin Plains;;;;;;;;;;;;;x
+b_nw_w_abimelechs_temple;N.W.W. Abimelechs;;;;;;;;;;;;;x
+b_nw_yava_forest_temple;N.W. Yava Forest;;;;;;;;;;;;;x
+b_oto_temple;Oto;;;;;;;;;;;;;x
+b_qess_fort_temple;Qess Fort;;;;;;;;;;;;;x
+b_right_twin_temple;Right Twin;;;;;;;;;;;;;x
+b_s_ades_coast_temple;S. Ades Coast;;;;;;;;;;;;;x
+b_s_anin_ko_coast_temple;S. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_anin_plains_temple;S. Anin Plains;;;;;;;;;;;;;x
+b_s_basli_forest_temple;S. Basli Forest;;;;;;;;;;;;;x
+b_s_basli_plains_temple;S. Basli Plains;;;;;;;;;;;;;x
+b_s_black_fog_mountains_temple;S. Black Fog Mtns;;;;;;;;;;;;;x
+b_s_c_abimelechs_temple;S.C. Abimelechs;;;;;;;;;;;;;x
+b_s_c_anin_ko_coast_temple;S.C. Anin Ko Coast;;;;;;;;;;;;;x
+b_s_c_anin_plains_temple;S.C. Anin Plains;;;;;;;;;;;;;x
+b_s_c_kalan_fields_temple;S.C. Kalan Fields;;;;;;;;;;;;;x
+b_s_door_to_yava_temple;S. Yava Door;;;;;;;;;;;;;x
+b_s_e_ades_plains_temple;S.E. Ades Plains;;;;;;;;;;;;;x
+b_s_e_daly_mountains_temple;S.E. Daly Mtns;;;;;;;;;;;;;x
+b_s_e_earthfort_mountains_temple;S.E. Earthforts;;;;;;;;;;;;;x
+b_s_e_navo_desert_temple;S.E. Navo Desert;;;;;;;;;;;;;x
+b_s_etzu_lake_temple;S. Etzu Lake;;;;;;;;;;;;;x
+b_s_gawei_coast_temple;S. Gawei Coast;;;;;;;;;;;;;x
+b_s_grey_mountains_temple;S. Grey Mountains;;;;;;;;;;;;;x
+b_s_hal_mountains_temple;S. Hal Mtns;;;;;;;;;;;;;x
+b_s_hese_forest_temple;S. Hese Forest;;;;;;;;;;;;;x
+b_s_hunute_forest_temple;S. Hunute Forest;;;;;;;;;;;;;x
+b_s_insol_temple;S. Insol;;;;;;;;;;;;;x
+b_s_kalani_coast_temple;S. Kalani Coast;;;;;;;;;;;;;x
+b_s_kauni_temple;S. Kauni;;;;;;;;;;;;;x
+b_s_kauni_forest_temple;S. Kauni Forest;;;;;;;;;;;;;x
+b_s_kzi_temple;S. Kzi;;;;;;;;;;;;;x
+b_s_lower_levyt_river_temple;S. Lower Levyt River;;;;;;;;;;;;;x
+b_s_majat_mountains_temple;S. Majat Mtns;;;;;;;;;;;;;x
+b_s_n_abimelechs_temple;S.N. Abimelechs;;;;;;;;;;;;;x
+b_s_n_grey_plains_temple;S.N. Grey Plains;;;;;;;;;;;;;x
+b_s_n_vitat_canyon_temple;S.N. Vitat Canyon;;;;;;;;;;;;;x
+b_s_ne_anin_plains_temple;S.NE. Anin Plains;;;;;;;;;;;;;x
+b_s_ne_yava_forest_temple;S.NE. Yava Forest;;;;;;;;;;;;;x
+b_s_nw_yava_forest_temple;S.NW. Yava Forest;;;;;;;;;;;;;x
+b_s_rannu_coast_temple;S. Rannu Coast;;;;;;;;;;;;;x
+b_s_rannu_plains_temple;S. Rannu Plains;;;;;;;;;;;;;x
+b_s_se_anin_plains_temple;S.SE. Anin Plains;;;;;;;;;;;;;x
+b_s_solwood_temple;S. Solwood;;;;;;;;;;;;;x
+b_s_sw_anin_plains_temple;S.SW. Anin Plains;;;;;;;;;;;;;x
+b_s_trovo_temple;S. Trovo;;;;;;;;;;;;;x
+b_s_upper_levyt_river_temple;S. Upper Levyt River;;;;;;;;;;;;;x
+b_s_upper_navo_river_temple;S. Upper Navo River;;;;;;;;;;;;;x
+b_s_w_abimelechs_temple;S.W. Abimelechs;;;;;;;;;;;;;x
+b_s_w_ades_plains_temple;S.W. Ades Plains;;;;;;;;;;;;;x
+b_s_w_navo_desert_temple;S.W. Navo Desert;;;;;;;;;;;;;x
+b_s_yava_forest_temple;S. Yava Forest;;;;;;;;;;;;;x
+b_saar_temple;Saar;;;;;;;;;;;;;x
+b_se_anin_plains_temple;SE. Anin Plains;;;;;;;;;;;;;x
+b_se_basli_forest_temple;SE. Basli Forest;;;;;;;;;;;;;x
+b_se_c_abimelechs_temple;SE.C. Abimelechs;;;;;;;;;;;;;x
+b_se_c_anin_plains_temple;SE.C Anin Plains;;;;;;;;;;;;;x
+b_se_e_earthfort_mountains_temple;SE.E. Earthforts;;;;;;;;;;;;;x
+b_se_e_navo_desert_temple;SE.E. Navo Desert;;;;;;;;;;;;;x
+b_se_etzu_lake_temple;SE. Etzu Lake;;;;;;;;;;;;;x
+b_se_hunute_forest_temple;SE. Hunute Forest;;;;;;;;;;;;;x
+b_se_ko_temple;SE. Ko;;;;;;;;;;;;;x
+b_se_n_abimelechs_temple;SE.N. Abimelechs;;;;;;;;;;;;;x
+b_se_n_anin_plains_temple;SE.N. Anin Plains;;;;;;;;;;;;;x
+b_se_n_hal_mountains_temple;SE.N. Hal Mtns;;;;;;;;;;;;;x
+b_se_rannu_coast_temple;SE. Rannu Coast;;;;;;;;;;;;;x
+b_se_w_earthfort_mountains_temple;SE.W. Earthforts;;;;;;;;;;;;;x
+b_se_zalv_forest_temple;SE. Zalv Forest;;;;;;;;;;;;;x
+b_silt_castle_temple;Silt Castle;;;;;;;;;;;;;x
+b_stra_temple;Stra;;;;;;;;;;;;;x
+b_stro_temple;Stro;;;;;;;;;;;;;x
+b_sun_river_temple;Sun River;;;;;;;;;;;;;x
+b_sw_anin_plains_temple;SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_c_anin_plains_temple;SW.C. Anin Plains;;;;;;;;;;;;;x
+b_sw_grey_mountains_temple;SW. Grey Mtns;;;;;;;;;;;;;x
+b_sw_hese_forest_temple;SW. Hese Forest;;;;;;;;;;;;;x
+b_sw_hunute_forest_temple;SW. Hunute Forest;;;;;;;;;;;;;x
+b_sw_ko_temple;SW. Ko;;;;;;;;;;;;;x
+b_sw_n_anin_plains_temple;SW.N. Anin Plains;;;;;;;;;;;;;x
+b_sw_n_hal_mountains_temple;SW.N. Hal Mtns;;;;;;;;;;;;;x
+b_sw_ne_anin_plains_temple;SW.NE. Anin Plains;;;;;;;;;;;;;x
+b_sw_s_hal_mountains_temple;SW.S. Hal Mtns;;;;;;;;;;;;;x
+b_sw_se_anin_plains_temple;SW.SE. Anin Plains;;;;;;;;;;;;;x
+b_sw_sw_anin_plains_temple;SW.SW. Anin Plains;;;;;;;;;;;;;x
+b_sw_zalv_forest_temple;SW. Zalv Forest;;;;;;;;;;;;;x
+b_topa_temple;Topa;;;;;;;;;;;;;x
+b_umi_temple;Umi;;;;;;;;;;;;;x
+b_upper_mighty_etzu_river_temple;Upper Mighty Etzu River;;;;;;;;;;;;;x
+b_w_abimelechs_temple;W. Abimelechs;;;;;;;;;;;;;x
+b_w_ades_plains_temple;W. Ades Plains;;;;;;;;;;;;;x
+b_w_black_fog_mountains_temple;W. Black Fog Mtns;;;;;;;;;;;;;x
+b_w_c_abimelechs_temple;W.C. Abimelechs;;;;;;;;;;;;;x
+b_w_c_ades_plains_temple;W.C. Ades Plains;;;;;;;;;;;;;x
+b_w_c_vitat_canyon_temple;W.C. Vitat Canyon;;;;;;;;;;;;;x
+b_w_c_yava_forest_temple;W.C. Yava Forest;;;;;;;;;;;;;x
+b_w_daly_mountains_temple;W. Daly Mtns;;;;;;;;;;;;;x
+b_w_e_ades_plains_temple;W.E. Ades Plains;;;;;;;;;;;;;x
+b_w_e_daly_mountains_temple;W.E. Daly Mtns;;;;;;;;;;;;;x
+b_w_e_grey_coast_temple;W.E. Grey Coast;;;;;;;;;;;;;x
+b_w_e_kalan_fields_temple;W.E. Kalan Fields;;;;;;;;;;;;;x
+b_w_e_yava_forest_temple;W.E. Yava Forest;;;;;;;;;;;;;x
+b_w_etzu_lake_temple;W. Etzu Lake;;;;;;;;;;;;;x
+b_w_gawei_coast_temple;W. Gawei Coast;;;;;;;;;;;;;x
+b_w_grey_coast_temple;W. Grey Coast;;;;;;;;;;;;;x
+b_w_hese_forest_temple;W. Hese Forest;;;;;;;;;;;;;x
+b_w_hunute_approach_temple;W. Hunute Approach;;;;;;;;;;;;;x
+b_w_hunute_forest_temple;W. Hunute Forest;;;;;;;;;;;;;x
+b_w_insol_temple;W. Insol;;;;;;;;;;;;;x
+b_w_jese_coast_temple;W. Jese Coast;;;;;;;;;;;;;x
+b_w_kalan_fields_temple;W. Kalan Fields;;;;;;;;;;;;;x
+b_w_kauni_forest_temple;W. Kauni Forest;;;;;;;;;;;;;x
+b_w_levyt_plains_temple;W. Levyt Plains;;;;;;;;;;;;;x
+b_w_n_abimelechs_temple;W.N. Abimelechs;;;;;;;;;;;;;x
+b_w_n_anin_coast_temple;W.N. Anin Coast;;;;;;;;;;;;;x
+b_w_n_anin_plains_temple;W.N. Anin Plains;;;;;;;;;;;;;x
+b_w_n_hal_mountains_temple;W.N. Hal Mtns;;;;;;;;;;;;;x
+b_w_n_hese_coast_temple;W.N. Hese Coast;;;;;;;;;;;;;x
+b_w_navo_coast_temple;W. Navo Coast;;;;;;;;;;;;;x
+b_w_navo_desert_temple;W. Navo Desert;;;;;;;;;;;;;x
+b_w_ne_anin_plains_temple;W.NE. Anin Plains;;;;;;;;;;;;;x
+b_w_ne_yava_forest_temple;W.NE. Yava Forest;;;;;;;;;;;;;x
+b_w_pan_cliffs_temple;W. Pan Cliffs;;;;;;;;;;;;;x
+b_w_rannu_river_temple;W. Rannu River;;;;;;;;;;;;;x
+b_w_s_anin_plains_temple;W.S. Anin Plains;;;;;;;;;;;;;x
+b_w_s_gawei_coast_temple;W.S. Gawei Coast;;;;;;;;;;;;;x
+b_w_s_hese_coast_temple;W.S. Hese Coast;;;;;;;;;;;;;x
+b_w_s_majat_mountains_temple;W.S. Majat Mtns;;;;;;;;;;;;;x
+b_w_se_anin_plains_temple;W.SE. Anin Plains;;;;;;;;;;;;;x
+b_w_sw_anin_plains_temple;W.SW. Anin Plains;;;;;;;;;;;;;x
+b_w_w_levyt_plains_temple;W.W. Levyt Plains;;;;;;;;;;;;;x
+b_w_zalv_forest_temple;W. Zalv Forest;;;;;;;;;;;;;x
+b_war_halls_approach_temple;War Hall's Approach;;;;;;;;;;;;;x
+b_zalv_forest_temple;Zalv Forest;;;;;;;;;;;;;x
+b_zuvaki_palace_temple;Zuvaki Palace;;;;;;;;;;;;;x
+
+############
+#Religious Titles
+############
+d_jual;Jual;;;;;;;;;;;;;x
+d_jual_adj;Abimelechi;;;;;;;;;;;;;x
+d_founders;Founder Gods;;;;;;;;;;;;;x
+d_founders_adj;Ades;;;;;;;;;;;;;x
+d_gods_blav;Gods of the Blav;;;;;;;;;;;;;x
+d_gods_blav_adj;Anin;;;;;;;;;;;;;x
+d_jaali;Jaali;;;;;;;;;;;;;x
+d_jaali_adj;Basli;;;;;;;;;;;;;x
+d_bwoyy;Bwoyy;;;;;;;;;;;;;x
+d_bwoyy_adj;Dulmal;;;;;;;;;;;;;x
+d_pusla;Pusla;;;;;;;;;;;;;x
+d_pusla_adj;Gawei;;;;;;;;;;;;;x
+d_ancients;Ancients;;;;;;;;;;;;;x
+d_ancients_adj;Grey-Tribes;;;;;;;;;;;;;x
+d_silent;Silent;;;;;;;;;;;;;x
+d_silent_adj;Hesen;;;;;;;;;;;;;x
+d_shayaen;Shayaen;;;;;;;;;;;;;x
+d_shayaen_adj;Huargen;;;;;;;;;;;;;x
+d_venute;Venute;;;;;;;;;;;;;x
+d_venute_adj;Hunute;;;;;;;;;;;;;x
+d_bumlan;Bumlan;;;;;;;;;;;;;x
+d_bumlan_adj;Kalani;;;;;;;;;;;;;x
+d_boadon;Boadon;;;;;;;;;;;;;x
+d_boadon_adj;Levytan;;;;;;;;;;;;;x
+d_nebiro;Nebiro;;;;;;;;;;;;;x
+d_nebiro_adj;Merro;;;;;;;;;;;;;x
+d_byajvo;Byajvo;;;;;;;;;;;;;x
+d_byajvo_adj;Navo;;;;;;;;;;;;;x
+d_moghes;Moghes;;;;;;;;;;;;;x
+d_moghes_adj;Poghess;;;;;;;;;;;;;x
+d_herder;Herder;;;;;;;;;;;;;x
+d_herder_adj;Ran-nu;;;;;;;;;;;;;x
+d_vawri;Vawri;;;;;;;;;;;;;x
+d_vawri_adj;Qwari;;;;;;;;;;;;;x
+d_ilnut;Ilnut;;;;;;;;;;;;;x
+d_ilnut_adj;Timut;;;;;;;;;;;;;x
+d_zineks;Zineks;;;;;;;;;;;;;x
+d_zineks_adj;Vitat;;;;;;;;;;;;;x
+d_kahala;Kahala;;;;;;;;;;;;;x
+d_kahala_adj;Yava;;;;;;;;;;;;;x
+d_karet;Karet;;;;;;;;;;;;;x
+d_karet_adj;Zet;;;;;;;;;;;;;x
+d_samak;Samak;;;;;;;;;;;;;x
+d_samak_adj;Zuvak;;;;;;;;;;;;;x
+
+#################
+#Mercenary Titles
+#################
+
+#Abimelech Mercs
+d_clan_guard;Clan Guard;;;;;;;;;;;;;x
+d_clan_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_beons_pride_clan;Abimelech;;;;;;;;;;;;;x
+d_beons_pride_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_beons_pride_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_black_axe_clan;Ades;;;;;;;;;;;;;x
+d_black_axe_clan_adj;Ades;;;;;;;;;;;;;x
+d_black_axe_clan_desc;Ades;;;;;;;;;;;;;x
+d_black_stone_clan;Abimelech;;;;;;;;;;;;;x
+d_black_stone_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_black_stone_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_bloodstone_clan;Abimelech;;;;;;;;;;;;;x
+d_bloodstone_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_bloodstone_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_drugar_skull_clan;Abimelech;;;;;;;;;;;;;x
+d_drugar_skull_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_drugar_skull_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_eker_sons_clan;Abimelech;;;;;;;;;;;;;x
+d_eker_sons_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_eker_sons_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_gayl_brothers_clan;Abimelech;;;;;;;;;;;;;x
+d_gayl_brothers_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_gayl_brothers_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_might_fist_clan;Abimelech;;;;;;;;;;;;;x
+d_might_fist_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_might_fist_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_pale_cave_clan;Abimelech;;;;;;;;;;;;;x
+d_pale_cave_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_pale_cave_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_rising_rock_clan;Abimelech;;;;;;;;;;;;;x
+d_rising_rock_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_rising_rock_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_savage_toncho_clan;Abimelech;;;;;;;;;;;;;x
+d_savage_toncho_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_savage_toncho_clan_desc;Abimelech;;;;;;;;;;;;;x
+d_white_claw_clan;Abimelech;;;;;;;;;;;;;x
+d_white_claw_clan_adj;Abimelech;;;;;;;;;;;;;x
+d_white_claw_clan_desc;Abimelech;;;;;;;;;;;;;x
+
+#Ades Mercs
+d_ades_guard;Ades Guard;;;;;;;;;;;;;x
+d_ades_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_garyns_attendants;Garyn's Attendants;;;;;;;;;;;;;x
+d_garyns_attendants_adj;Guardsman;;;;;;;;;;;;;x
+d_khiies_servants;Khiies' Servants;;;;;;;;;;;;;x
+d_khiies_servants_adj;Guardsman;;;;;;;;;;;;;x
+d_tmes_minions;Tmes' Minions;;;;;;;;;;;;;x
+d_tmes_minions_adj;Guardsman;;;;;;;;;;;;;x
+
+#Anin Mercs
+d_anin_guard;Anin Guard;;;;;;;;;;;;;x
+d_anin_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_blav;Riders of the Blav;;;;;;;;;;;;;x
+d_riders_blav_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_zheld;Riders of Zhel'd;;;;;;;;;;;;;x
+d_riders_zheld_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_chenh;Riders of Chen'h;;;;;;;;;;;;;x
+d_riders_chenh_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_raeln;Riders of Rael'n;;;;;;;;;;;;;x
+d_riders_raeln_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_kar;Riders of K'ar;;;;;;;;;;;;;x
+d_riders_kar_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_vaoyn;Riders of Vaoyn;;;;;;;;;;;;;x
+d_riders_vaoyn_adj;Guardsman;;;;;;;;;;;;;x
+d_riders_honaal;Riders of Honaal;;;;;;;;;;;;;x
+d_riders_honaal_adj;Guardsman;;;;;;;;;;;;;x
+
+#Basli Mercs
+d_basli_guard;Basli Guard;;;;;;;;;;;;;x
+d_basli_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_jaalis_vision;Jaali's Vision;;;;;;;;;;;;;x
+d_jaalis_vision_adj;Guardsman;;;;;;;;;;;;;x
+
+#Gawei Mercs
+d_the_will;Will;;;;;;;;;;;;;x
+d_the_will_adj;Will;;;;;;;;;;;;;x
+d_hal_riders;Hal Riders;;;;;;;;;;;;;x
+d_hal_riders_adj;Gawei;;;;;;;;;;;;;x
+d_sun_riders;Sun Riders;;;;;;;;;;;;;x
+d_sun_riders_adj;Gawei;;;;;;;;;;;;;x
+
+#Grey Land Mercs
+d_grey_guard;Grey Guard;;;;;;;;;;;;;x
+d_grey_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_the_ancients;The Ancients;;;;;;;;;;;;;x
+d_the_ancients_adj;Guardsman;;;;;;;;;;;;;x
+
+#Hesen Mercs
+d_hesen_guard;Hesen Guard;;;;;;;;;;;;;x
+d_hesen_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_silent_ones;Silent Ones;;;;;;;;;;;;;x
+d_silent_ones_adj;Guardsman;;;;;;;;;;;;;x
+d_unheard;Unheard;;;;;;;;;;;;;x
+d_unheard_adj;Guardsman;;;;;;;;;;;;;x
+d_the_mute;The Mute;;;;;;;;;;;;;x
+d_the_mute_adj;Guardsman;;;;;;;;;;;;;x
+
+#Hunute Mercs
+d_hunute_guard;Hunute Guard;;;;;;;;;;;;;x
+d_hunute_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_forest_walkers;Forest Walkers;;;;;;;;;;;;;x
+d_forest_walkers_adj;Guardsman;;;;;;;;;;;;;x
+d_the_unsighted;The Unsighted;;;;;;;;;;;;;x
+d_the_unsighted_adj;Guardsman;;;;;;;;;;;;;x
+
+#Kalan Mercs
+d_field_guard;Field Guard;;;;;;;;;;;;;x
+d_field_guard_adj;Guardsman;;;;;;;;;;;;;x
+
+#Levytan Mercs
+d_levytan_guard;Levyt Guard;;;;;;;;;;;;;x
+d_levytan_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_loas_saints;Loa's Saints;;;;;;;;;;;;;x
+d_loas_saints_adj;Loian;;;;;;;;;;;;;x
+d_the_unbound;The Unbound;;;;;;;;;;;;;x
+d_the_unbound_adj;Loian;;;;;;;;;;;;;x
+d_the_murked;The Murked;;;;;;;;;;;;;x
+d_the_murked_adj;Loian;;;;;;;;;;;;;x
+
+#Navo Mercs
+d_navo_guard;Navo Guard;;;;;;;;;;;;;x
+d_navo_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_the_built;Navo Guard;;;;;;;;;;;;;x
+d_the_built_adj;Guardsman;;;;;;;;;;;;;x
+d_byajvos_children;Navo Guard;;;;;;;;;;;;;x
+d_byajvos_children_adj;Guardsman;;;;;;;;;;;;;x
+
+#Rannu Mercs
+d_bule;Bule;;;;;;;;;;;;;x
+d_bule_adj;Rider;;;;;;;;;;;;;x
+d_rannu_riders;Ran-nu Riders;;;;;;;;;;;;;x
+d_rannu_riders_adj;Rider;;;;;;;;;;;;;x
+d_herders;Herders;;;;;;;;;;;;;x
+d_herders_adj;Rider;;;;;;;;;;;;;x
+
+#Vitat Mercs
+d_vitat_guard;Vitat Guard;;;;;;;;;;;;;x
+d_vitat_guard_adj;Guardsman;;;;;;;;;;;;;x
+
+#Yava Mercs
+d_forest_guard;Forest Guard;;;;;;;;;;;;;x
+d_forest_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_zabas_bane;Zaba's Bane;;;;;;;;;;;;;x
+d_zabas_bane_adj;Guardsman;;;;;;;;;;;;;x
+
+#Zuvak Mercs
+d_lake_guard;Lake Guard;;;;;;;;;;;;;x
+d_lake_guard_adj;Guardsman;;;;;;;;;;;;;x
+d_samaks_tide;Samak's Tide;;;;;;;;;;;;;x
+d_samaks_tide_adj;Guardsman;;;;;;;;;;;;;x
+
+##############
+#Special Names
+##############
+
+#Religious Heads
+PARAE_CHIEF;Parae Chief;;;;;;;;;;;;;x
+PARAE_CHIEF_FOA;Parae Chief;;;;;;;;;;;;;x
+NUUES_KING;Nuues King;;;;;;;;;;;;;x
+NUUES_KING_FOA;Nuues King;;;;;;;;;;;;;x
+MHRIN_CHIEF;Mhrin Chief;;;;;;;;;;;;;x
+MHRIN_CHIEF_FOA;Mhrin Chief;;;;;;;;;;;;;x
+HAALI;Haali;;;;;;;;;;;;;x
+HAALI_FOA;Haali;;;;;;;;;;;;;x
+TYMAE_CHIEF;Tymae Chief;;;;;;;;;;;;;x
+TYMAE_CHIEF_FOA;Tymae Chief;;;;;;;;;;;;;x
+ELDER_AISH;Elder Aish;;;;;;;;;;;;;x
+ELDER_AISH_FOA;Elder Aish;;;;;;;;;;;;;x
+ANCIENT_ANKEY;Ancient Ankey;;;;;;;;;;;;;x
+ANCIENT_ANKEY_FOA;Ancient Ankey;;;;;;;;;;;;;x
+ASANTE;Asante;;;;;;;;;;;;;x
+ASANTE_FOA;Asante;;;;;;;;;;;;;x
+BRUD;Brud;;;;;;;;;;;;;x
+BRUD_FOA;Brud;;;;;;;;;;;;;x
+VERTE;Verte;;;;;;;;;;;;;x
+VERTE_FOA;Verte;;;;;;;;;;;;;x
+ELDER_PRUAN;Elder Pruan;;;;;;;;;;;;;x
+ELDER_PRUAN_FOA;Elder Pruan;;;;;;;;;;;;;x
+CHIEF_ALIM;Chief Alim;;;;;;;;;;;;;x
+CHIEF_ALIM_FOA;Chief Alim;;;;;;;;;;;;;x
+MERRO_JATAO;Meero-Jatao;;;;;;;;;;;;;x
+MERRO_JATAO_FOA;Meero-Jatao;;;;;;;;;;;;;x
+STRCTO_CHIEF;Strcto Chief;;;;;;;;;;;;;x
+STRCTO_CHIEF_FOA;Strcto Chief;;;;;;;;;;;;;x
+LANGHESI;Langhesi;;;;;;;;;;;;;x
+LANGHESI_FOA;Langhesi;;;;;;;;;;;;;x
+CHIEF_NGJO;Chief Ngjo;;;;;;;;;;;;;x
+CHIEF_NGJO_FOA;Chief Ngjo;;;;;;;;;;;;;x
+WARI;Wari;;;;;;;;;;;;;x
+WARI_FOA;Wari;;;;;;;;;;;;;x
+CHIEF_MUUT;Chief Muut;;;;;;;;;;;;;x
+CHIEF_MUUT_FOA;Chief Muut;;;;;;;;;;;;;x
+ZINEKS_KEEPER;Zineks' Keeper;;;;;;;;;;;;;x
+ZINEKS_KEEPER_FOA;Zineks' Keeper;;;;;;;;;;;;;x
+HARFA_CHIEF;Harfa Chief;;;;;;;;;;;;;x
+HARFA_CHIEF_FOA;Harfa Chief;;;;;;;;;;;;;x
+VAETAN;Vaetan;;;;;;;;;;;;;x
+VAETAN_FOA;Vaetan;;;;;;;;;;;;;x
+FIRST_BAIAK;First Baiak;;;;;;;;;;;;;x
+FIRST_BAIAK_FOA;First Baiak;;;;;;;;;;;;;x
+
+#Guards
+ELDERS_WILL;Will of the Elder;;;;;;;;;;;;;x
+ELDERS_WILL_FOA;Crimson;;;;;;;;;;;;;x
+
+#Minor Titles
+title_personalguard;Personal Guard;;;;;;;;;;;;;x
+title_personalguard_desc;A Personal guard to a noble;;;;;;;;;;;;;x

@@ -1,0 +1,1015 @@
+####################
+# Grey-Tribes 7001-8000
+####################
+
+#Line of Aethel
+7001 = {
+	name = Aethel
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+7002 = {
+	name = Muren
+	father = 7001
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+7003 = {
+	name = Aella
+	father = 7002
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+7004 = {
+	name = Staan
+	father = 7003
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+7005 = {
+	name = Aalf
+	father = 7004
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+7006 = {
+	name = Wuulf
+	father = 7005
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+7007 = {
+	name = Elred
+	father = 7006
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+7008 = {
+	name = Aethel
+	father = 7007
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+7009 = {
+	name = Etan
+	father = 7008
+	dynasty = 701
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Meen
+7051 = {
+	name = Meen
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+7052 = {
+	name = Tsevy
+	father = 7051
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+7053 = {
+	name = Draay
+	father = 7052
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+7054 = {
+	name = Fiyr
+	father = 7053
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+7055 = {
+	name = Finyf
+	father = 7054
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+7056 = {
+	name = Zeex
+	father = 7055
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+7057 = {
+	name = Zibyn
+	father = 7056
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+7058 = {
+	name = Akhyt
+	father = 7057
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+7059 = {
+	name = Anhat
+	father = 7058
+	dynasty = 702
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Meen
+7101 = {
+	name = Bouym
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+7102 = {
+	name = Kuust
+	father = 7101
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+7103 = {
+	name = Vasyr
+	father = 7102
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+7104 = {
+	name = Dryyst
+	father = 7103
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+7105 = {
+	name = Heldin
+	father = 7104
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+7106 = {
+	name = Sharh
+	father = 7105
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+7107 = {
+	name = Patys
+	father = 7106
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+7108 = {
+	name = Oktyr
+	father = 7107
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+7109 = {
+	name = Ocktav
+	father = 7108
+	dynasty = 703
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Fyryr
+7151 = {
+	name = Fyryr
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+7152 = {
+	name = Keenyg
+	father = 7151
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+7153 = {
+	name = Firsht
+	father = 7152
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+7154 = {
+	name = Tsyyl
+	father = 7153
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+7155 = {
+	name = Beory
+	father = 7154
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+7156 = {
+	name = Kyysr
+	father = 7155
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+7157 = {
+	name = Gaalyk
+	father = 7156
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+7158 = {
+	name = Kardin
+	father = 7157
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+7159 = {
+	name = Karreh
+	father = 7158
+	dynasty = 704
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

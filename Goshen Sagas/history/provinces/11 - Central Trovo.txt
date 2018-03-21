@@ -1,0 +1,20 @@
+#####################
+# Central Trovo
+#####################
+
+#County Title
+title = c_c_trovo
+
+#Settlements
+max_settlements = 3
+b_c_trovo = castle
+b_c_trovo_city = city
+b_c_trovo_temple = temple
+
+#Settings
+culture = poghess
+religion = poghess_rel
+
+#History
+#867.1.1 = {
+#}

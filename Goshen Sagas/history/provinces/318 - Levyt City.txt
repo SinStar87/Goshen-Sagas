@@ -1,0 +1,18 @@
+#########################
+# Levyt City
+#########################
+
+#County Title
+title = c_levyt_city
+
+#Settlements
+max_settlements = 3
+b_levyt_city = castle
+b_levyt_city_city = city
+b_levyt_city_temple = temple
+
+#Settings
+culture = levyt
+religion = levyt_rel
+
+#History

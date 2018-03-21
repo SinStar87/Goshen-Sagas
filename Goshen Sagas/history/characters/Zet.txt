@@ -1,0 +1,509 @@
+####################
+# Zet 22001-23000
+####################
+
+#Line of tmerh
+22001 = {
+	name = Aset
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+22002 = {
+	name = Clset
+	father = 22001
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+22003 = {
+	name = Onnset
+	father = 22002
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+22004 = {
+	name = Hset
+	father = 22003
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+22005 = {
+	name = Dnjet
+	father = 22004
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+22006 = {
+	name = Annet
+	father = 22005
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+22007 = {
+	name = Joset
+	father = 22006
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+22008 = {
+	name = Nset
+	father = 22007
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+22009 = {
+	name = Seti
+	father = 22008
+	dynasty = 2201
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of twalin
+22051 = {
+	name = Winet
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+22052 = {
+	name = Liset
+	father = 22051
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+22053 = {
+	name = Nzset
+	father = 22052
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+22054 = {
+	name = Alet
+	father = 22053
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+22055 = {
+	name = Walet
+	father = 22054
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+22056 = {
+	name = Ardet
+	father = 22055
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+22057 = {
+	name = Zizet
+	father = 22056
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+22058 = {
+	name = Linet
+	father = 22057
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+22059 = {
+	name = Leen
+	father = 22058
+	dynasty = 2202
+
+	culture = zet
+	religion = zet_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

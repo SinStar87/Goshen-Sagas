@@ -1,0 +1,20 @@
+#########################
+# Hideaway
+#########################
+
+#County Title
+title = c_hideaway
+
+#Settlements
+max_settlements = 3
+b_hideaway = castle
+b_hideaway_city = city
+b_hideaway_temple = temple
+
+#Settings
+culture = collsi
+religion = grey_tribes_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,903 @@
+####################
+# Levyt 12001-13000
+####################
+
+# Line of Otanij
+12001 = {
+	name = Ledij
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1726.1.1 = {
+		birth = yes
+	}
+	1780.1.1 = {
+		death = yes
+	}
+}
+12002 = {
+	name = Erecke
+	father = 12001
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1759.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+12003 = {
+	name = Rebij
+	father = 12002
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1790.1.1 = {
+		birth = yes
+	}
+	1850.1.1 = {
+		death = yes
+	}
+}
+12004 = {
+	name = Gaig
+	father = 12003
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1815.1.1 = {
+		birth = yes
+	}
+	1872.1.1 = {
+		death = yes
+	}
+}
+12005 = {
+	name = Belij
+	father = 12004
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1845.1.1 = {
+		birth = yes
+	}
+	1890.1.1 = {
+		death = yes
+	}
+}
+12006 = {
+	name = Stefig
+	father = 12005
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1876.1.1 = {
+		birth = yes
+	}
+	1940.1.1 = {
+		death = yes
+	}
+}
+12007 = {
+	name = Faar
+	father = 12006
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1908.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+12008 = {
+	name = Lundij
+	father = 12007
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1940.1.1 = {
+		birth = yes
+	}
+	1998.1.1 = {
+		death = yes
+	}
+}
+12009 = {
+	name = Sakij
+	father = 12008
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1962.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+12010 = {
+	name = Erente
+	father = 12009
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1986.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+12011 = {
+	name = Brore
+	father = 12009
+	dynasty = 1201
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	2000.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+# Line of Halum
+12021 = {
+	name = Gant
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1755.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+12022 = {
+	name = Dere
+	father = 12021
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1795.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+12023 = {
+	name = Gant
+	father = 12022
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1835.1.1 = {
+		birth = yes
+	}
+	1900.1.1 = {
+		death = yes
+	}
+}
+12024 = {
+	name = Ader
+	father = 12023
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1880.1.1 = {
+		birth = yes
+	}
+	1950.1.1 = {
+		death = yes
+	}
+}
+12025 = {
+	name = Gant
+	father = 12024
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1920.1.1 = {
+		birth = yes
+	}
+	1987.1.1 = {
+		death = yes
+	}
+}
+12026 = {
+	name = Gant
+	father = 12025
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1960.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+12027 = {
+	name = Fhan
+	father = 12026
+	dynasty = 1202
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1990.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+# Line of Raiste
+12041 = {
+	name = Flod
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1755.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+12042 = {
+	name = Soo
+	father = 12041
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1795.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+12043 = {
+	name = Strom
+	father = 12042
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1835.1.1 = {
+		birth = yes
+	}
+	1900.1.1 = {
+		death = yes
+	}
+}
+12044 = {
+	name = Regn
+	father = 12043
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1880.1.1 = {
+		birth = yes
+	}
+	1950.1.1 = {
+		death = yes
+	}
+}
+12045 = {
+	name = Seen
+	father = 12044
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1920.1.1 = {
+		birth = yes
+	}
+	1987.1.1 = {
+		death = yes
+	}
+}
+12046 = {
+	name = Kodth
+	father = 12045
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1960.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+12047 = {
+	name = Kadot
+	father = 12046
+	dynasty = 1203
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1990.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+# Line of Zeket
+12061 = {
+	name = Tiig
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1755.1.1 = {
+		birth = yes
+	}
+	1820.1.1 = {
+		death = yes
+	}
+}
+12062 = {
+	name = Mind
+	father = 12061
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1795.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+12063 = {
+	name = Delig
+	father = 12062
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1835.1.1 = {
+		birth = yes
+	}
+	1900.1.1 = {
+		death = yes
+	}
+}
+12064 = {
+	name = Inde
+	father = 12063
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1880.1.1 = {
+		birth = yes
+	}
+	1950.1.1 = {
+		death = yes
+	}
+}
+12065 = {
+	name = Almin
+	father = 12064
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1920.1.1 = {
+		birth = yes
+	}
+	1987.1.1 = {
+		death = yes
+	}
+}
+12066 = {
+	name = Duudte
+	father = 12065
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1960.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+12067 = {
+	name = Dahate
+	father = 12066
+	dynasty = 1204
+
+	culture = levyt
+	religion = levyt_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1990.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

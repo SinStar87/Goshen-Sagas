@@ -1,0 +1,92 @@
+namespace = goshen_coa_events
+character_event = {
+	id = goshen_coa_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		FROM = {
+			IF = {
+				limit = {
+					OR = {
+						title = k_abimelech
+						title = d_great_war_hall
+						title = c_great_war_hall
+					}
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 2 }
+					}
+					set_coa = d_bloodstone_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 3 }
+					}
+					set_coa = d_beons_pride_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 4 }
+					}
+					set_coa = d_black_axe_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 5 }
+					}
+					set_coa = d_black_stone_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 6 }
+					}
+					set_coa = d_drugar_skull_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 7 }
+					}
+					set_coa = d_eker_sons_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 8 }
+					}
+					set_coa = d_gayl_brothers_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 9 }
+					}
+					set_coa = d_might_fist_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 10 }
+					}
+					set_coa = d_pale_cave_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 11 }
+					}
+					set_coa = d_rising_rock_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 12 }
+					}
+					set_coa = d_savage_toncho_clan
+				}
+				IF = {
+					limit = {
+						ROOT = { dynasty = 13 }
+					}
+					set_coa = d_white_claw_clan
+				}
+			}
+		}
+	}
+}

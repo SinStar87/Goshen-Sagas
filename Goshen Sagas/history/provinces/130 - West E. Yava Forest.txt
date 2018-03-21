@@ -1,0 +1,20 @@
+#####################
+# West E. Yava Forest
+#####################
+
+#County Title
+title = c_w_e_yava_forest
+
+#Settlements
+max_settlements = 3
+b_w_e_yava_forest = castle
+b_w_e_yava_forest_city = city
+b_w_e_yava_forest_temple = temple
+
+#Settings
+culture = yava
+religion = yava_rel
+
+#History
+#867.1.1 = {
+#}

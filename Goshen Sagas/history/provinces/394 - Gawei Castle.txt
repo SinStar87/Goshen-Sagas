@@ -1,0 +1,21 @@
+#####################
+# Gawei Castle
+#####################
+
+#County Title
+title = c_gawei_castle
+
+#Settlements
+max_settlements = 6
+b_gawei_castle = castle
+b_gawei_castle_city = city
+b_gawei_castle_temple = temple
+b_gawei_castle_port = city
+b_gawei_training_grounds = castle
+b_gawei_fairgrounds = castle
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History

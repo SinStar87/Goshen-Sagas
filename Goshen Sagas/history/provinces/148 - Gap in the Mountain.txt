@@ -1,0 +1,18 @@
+#########################
+# Gap in the Mountain
+#########################
+
+#County Title
+title = c_gap_in_the_mountain
+
+#Settlements
+max_settlements = 3
+b_gap_in_the_mountain = castle
+b_gap_in_the_mountain_city = city
+b_gap_in_the_mountain_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History

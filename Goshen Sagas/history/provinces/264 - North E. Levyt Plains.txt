@@ -1,0 +1,20 @@
+#####################
+# North E. Levyt Plains
+#####################
+
+#County Title
+title = c_n_e_levyt_plains
+
+#Settlements
+max_settlements = 3
+b_n_e_levyt_plains = castle
+b_n_e_levyt_plains_city = city
+b_n_e_levyt_plains_temple = temple
+
+#Settings
+culture = lommal
+religion = dulmal_rel
+
+#History
+#867.1.1 = {
+#}

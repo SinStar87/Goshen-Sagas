@@ -1,0 +1,20 @@
+#####################
+# Central Ades Plains
+#####################
+
+#County Title
+title = c_c_ades_plains
+
+#Settlements
+max_settlements = 3
+b_c_ades_plains = castle
+b_c_ades_plains_city = city
+b_c_ades_plains_temple = temple
+
+#Settings
+culture = ades
+religion = ades_rel
+
+#History
+#867.1.1 = {
+#}

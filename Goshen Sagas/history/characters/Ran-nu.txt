@@ -1,0 +1,318 @@
+####################
+# Ran-nu 18001-19000
+####################
+
+#Natel Line
+18001 = {
+	name = Mane
+	dynasty = 1801
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1935.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		death = yes
+	}
+}
+18002 = {
+	name = Mel
+	father = 18001
+	dynasty = 1801
+	dna = dehcmyacaax
+	properties = ab00ga00000000
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1965.1.1 = {
+		birth = yes
+		employer = 18001
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18003 = {
+	name = Mun
+	father = 18002
+	dynasty = 1801
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+		employer = 18001
+	}
+	1990.1.1 = {
+		employer = 18002
+	}
+	1992.1.1 = {
+		give_nickname = nick_yamewag
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18004 = {
+	name = Ja
+	father = 18002
+	dynasty = 1801
+	female = yes
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	trait = twin
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1995.1.1 = {
+		birth = yes
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18005 = {
+	name = Mane
+	father = 18002
+	dynasty = 1801
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	trait = twin
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1995.1.1 = {
+		birth = yes
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Oda Line
+18020 = {
+	name = Gin
+	dynasty = 1803
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1930.1.1 = {
+		birth = yes
+	}
+	1975.1.1 = {
+		death = yes
+	}
+}
+18021 = {
+	name = In
+	father = 18020
+	dynasty = 1803
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1955.1.1 = {
+		birth = yes
+		employer = 18020
+	}
+	1975.1.1 = {
+		employer = 18001
+	}
+	1990.1.1 = {
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18022 = {
+	name = Me
+	father = 18021
+	dynasty = 1803
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1983.1.1 = {
+		birth = yes
+		employer = 18001
+	}
+	1990.1.1 = {
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18023 = {
+	name = Aj
+	father = 18021
+	dynasty = 1803
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1987.1.1 = {
+		birth = yes
+		employer = 18001
+	}
+	1990.1.1 = {
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+18024 = {
+	name = Ane
+	father = 18021
+	dynasty = 1803
+
+	culture = rannu
+	religion = rannu_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1991.1.1 = {
+		birth = yes
+		employer = 18002
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

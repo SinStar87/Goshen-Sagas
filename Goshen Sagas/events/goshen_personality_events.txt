@@ -1,0 +1,1233 @@
+namespace = goshen_personality_events
+character_event = {
+	id = goshen_personality_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NAND = {
+			has_openness_trait_trigger = yes
+			has_planning_trait_trigger = yes
+			has_sociable_trait_trigger = yes
+			has_agreeable_trait_trigger = yes
+			has_worry_trait_trigger = yes
+		}
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 0
+					has_openness_trait_trigger = yes
+				}
+				character_event = { id = goshen_personality_events.10 }
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_planning_trait_trigger = yes
+				}
+				character_event = { id = goshen_personality_events.20 }
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_sociable_trait_trigger = yes
+				}
+				character_event = { id = goshen_personality_events.30 }
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_agreeable_trait_trigger = yes
+				}
+				character_event = { id = goshen_personality_events.40 }
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					has_worry_trait_trigger = yes
+				}
+				character_event = { id = goshen_personality_events.50 }
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_personality_events.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NOR = {
+			has_character_flag = child_martial_training
+			has_character_flag = child_intrigue_training
+			has_character_flag = child_steward_training
+			has_character_flag = child_random_training
+		}
+	}
+
+	immediate = {
+		employer = {
+			character_event = { id = goshen_personality_events.11 }
+		}
+	}
+}
+character_event = {
+	id = goshen_personality_events.10
+	desc = EVTDESCgoshen_personality_events.10
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.10
+		random_list = {
+			1 = {
+				add_trait = susceptible
+			}
+			1 = {
+				add_trait = receptive
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_personality_events.10
+		random_list = {
+			1 = {
+				add_trait = receptive
+			}
+			1 = {
+				add_trait = impartial
+			}
+			1 = {
+				add_trait = biased
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_personality_events.10
+		random_list = {
+			1 = {
+				add_trait = biased
+			}
+			1 = {
+				add_trait = prejudiced
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_personality_events.11
+	desc = EVTDESCgoshen_personality_events.11
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.11
+		trigger = {
+			wealth = 50
+		}
+		wealth = -50
+		FROM = { set_character_flag = child_martial_training }
+	}
+	option = {
+		name = EVTOPTBgoshen_personality_events.11
+		trigger = {
+			wealth = 50
+		}
+		wealth = -50
+		FROM = { set_character_flag = child_intrigue_training }
+	}
+	option = {
+		name = EVTOPTCgoshen_personality_events.11
+		trigger = {
+			wealth = 50
+		}
+		wealth = -50
+		FROM = { set_character_flag = child_steward_training }
+	}
+	option = {
+		name = EVTOPTDgoshen_personality_events.11
+		FROM = { set_character_flag = child_random_training }
+	}
+}
+character_event = {
+	id = goshen_personality_events.12
+	desc = EVTDESCgoshen_personality_events.12
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_character_flag = child_martial_training
+			has_character_flag = child_intrigue_training
+			has_character_flag = child_steward_training
+			has_character_flag = child_random_training
+		}
+	}
+
+	immediate = {
+		remove_trait = agent
+		remove_trait = mediator
+		remove_trait = minister
+		remove_trait = emissary
+		remove_trait = soldier
+		remove_trait = tactician
+		remove_trait = strategist
+		remove_trait = mastermind
+		remove_trait = clerk
+		remove_trait = entrepreneur
+		remove_trait = financier
+		remove_trait = mogul
+		remove_trait = rascal
+		remove_trait = rogue
+		remove_trait = schemer
+		remove_trait = conspirator
+		remove_trait = thinker
+		remove_trait = intellectual
+		remove_trait = scholar
+		remove_trait = sage
+	}
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.12
+		trigger = {
+			has_character_flag = child_martial_training
+		}
+		clr_character_flag = child_martial_training
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = soldier
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = tactician
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = strategist
+				change_diplomacy = 4
+				change_martial = 5
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = mastermind
+				change_diplomacy = 5
+				change_martial = 7
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 5
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_personality_events.11
+		trigger = {
+			has_character_flag = child_intrigue_training
+		}
+		clr_character_flag = child_intrigue_training
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = agent
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = mediator
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = minister
+				change_diplomacy = 5
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = emissary
+				change_diplomacy = 7
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = rascal
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = rogue
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = schemer
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 5
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = conspirator
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 7
+				change_learning = 5
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_personality_events.11
+		trigger = {
+			has_character_flag = child_steward_training
+		}
+		clr_character_flag = child_steward_training
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = clerk
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = entrepreneur
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = financier
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 5
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = mogul
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 7
+				change_intrigue = 5
+				change_learning = 5
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDgoshen_personality_events.11
+		trigger = {
+			has_character_flag = child_random_training
+		}
+		clr_character_flag = child_random_training
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = agent
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = mediator
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = minister
+				change_diplomacy = 5
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = emissary
+				change_diplomacy = 7
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = soldier
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = tactician
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = strategist
+				change_diplomacy = 4
+				change_martial = 5
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = mastermind
+				change_diplomacy = 5
+				change_martial = 7
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = clerk
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = entrepreneur
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = financier
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 5
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = mogul
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 7
+				change_intrigue = 5
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = rascal
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = rogue
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = schemer
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 5
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = conspirator
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 7
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = inept
+				}
+				modifier = {
+					factor = 3
+					trait = fool
+				}
+				add_trait = thinker
+				change_diplomacy = 3
+				change_martial = 3
+				change_stewardship = 3
+				change_intrigue = 3
+				change_learning = 3
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = inept
+				}
+				modifier = {
+					factor = 1.5
+					trait = fool
+				}
+				add_trait = intellectual
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 4
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					trait = clever
+				}
+				modifier = {
+					factor = 1.5
+					trait = prodigy
+				}
+				add_trait = scholar
+				change_diplomacy = 4
+				change_martial = 4
+				change_stewardship = 4
+				change_intrigue = 4
+				change_learning = 5
+			}
+			1 = {
+				modifier = {
+					factor = 1.5
+					trait = clever
+				}
+				modifier = {
+					factor = 3
+					trait = prodigy
+				}
+				add_trait = sage
+				change_diplomacy = 5
+				change_martial = 5
+				change_stewardship = 5
+				change_intrigue = 5
+				change_learning = 7
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_personality_events.20
+	desc = EVTDESCgoshen_personality_events.20
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.20
+		random_list = {
+			1 = {
+				add_trait = controlling
+			}
+			1 = {
+				add_trait = calculating
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_personality_events.20
+		random_list = {
+			1 = {
+				add_trait = calculating
+			}
+			1 = {
+				add_trait = willful
+			}
+			1 = {
+				add_trait = erratic
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_personality_events.20
+		random_list = {
+			1 = {
+				add_trait = erratic
+			}
+			1 = {
+				add_trait = irrational
+			}
+		}
+	}
+}
+character_event = {#Diplomacy Event
+	id = goshen_personality_events.21
+	desc = EVTDESCgoshen_personality_events.21
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.21
+		change_diplomacy = 1
+	}
+}
+character_event = {#Martial Event
+	id = goshen_personality_events.22
+	desc = EVTDESCgoshen_personality_events.22
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.22
+		change_martial = 1
+	}
+}
+character_event = {#Stewardship Event
+	id = goshen_personality_events.23
+	desc = EVTDESCgoshen_personality_events.23
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.23
+		change_stewardship = 1
+		wealth = 2
+	}
+}
+character_event = {#Intrigue Event
+	id = goshen_personality_events.24
+	desc = EVTDESCgoshen_personality_events.24
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.24
+		change_intrigue = 1
+	}
+}
+character_event = {#Learning Event
+	id = goshen_personality_events.25
+	desc = EVTDESCgoshen_personality_events.25
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.25
+		change_learning = 1
+	}
+}
+character_event = {
+	id = goshen_personality_events.30
+	desc = EVTDESCgoshen_personality_events.30
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.30
+		random_list = {
+			1 = {
+				add_trait = extrovert
+			}
+			1 = {
+				add_trait = friendly
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_personality_events.30
+		random_list = {
+			1 = {
+				add_trait = friendly
+			}
+			1 = {
+				add_trait = cordial
+			}
+			1 = {
+				add_trait = cold
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_personality_events.30
+		random_list = {
+			1 = {
+				add_trait = cold
+			}
+			1 = {
+				add_trait = introvert
+			}
+		}
+	}
+}
+character_event = {#AI Random Stat Gain
+	id = goshen_personality_events.31
+	desc = EVTDESCgoshen_personality_events.31
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		ai = yes
+	}
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.31
+		random_list = {
+			1 = { change_diplomacy = 1 }
+			1 = { change_martial = 1 }
+			1 = { change_stewardship = 1 }
+			1 = { change_intrigue = 1 }
+			1 = { change_learning = 1 }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_personality_events.31
+		trigger = {
+			is_ruler = no
+			prisoner = no
+			employer = {
+				ai = no
+				NOT = {
+					is_foe = ROOT
+				}
+			}
+		}
+		employer = {
+			character_event = { id = goshen_personality_events.32 }
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_personality_events.31
+		trigger = {
+			is_ruler = yes
+			prisoner = no
+			any_liege = {
+				ai = no
+				NOT = {
+					is_foe = ROOT
+				}
+			}
+		}
+		any_liege = {
+			limit = {
+				ai = no
+			}
+			character_event = { id = goshen_personality_events.32 }
+		}
+	}
+}
+character_event = {#Tutored by vassal Event
+	id = goshen_personality_events.32
+	desc = EVTDESCgoshen_personality_events.32
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.32
+		IF = {
+			limit = {
+				NOT = {
+					any_friend = { character = FROM }
+				}
+			}
+			random = {
+				chance = 50
+				add_friend = FROM
+			}
+		}
+		hidden_tooltip = {
+			random_list = {
+				1 = {
+					change_diplomacy = 1
+				}
+				1 = {
+					change_martial = 1
+				}
+				1 = {
+					change_stewardship = 1
+				}
+				1 = {
+					change_intrigue = 1
+				}
+				1 = {
+					change_learning = 1
+				}
+			}
+			random_list = {
+				1 = {
+					change_diplomacy = 1
+				}
+				1 = {
+					change_martial = 1
+				}
+				1 = {
+					change_stewardship = 1
+				}
+				1 = {
+					change_intrigue = 1
+				}
+				1 = {
+					change_learning = 1
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						trait = clever
+					}
+					modifier = {
+						factor = 0
+						trait = prodigy
+					}
+				}
+			}
+			random_list = {
+				1 = {
+					modifier = {
+						factor = 1.5
+						trait = clever
+					}
+					modifier = {
+						factor = 3
+						trait = prodigy
+					}
+					FROM = {
+						change_diplomacy = 1
+						change_martial = 1
+						change_stewardship = 1
+						change_intrigue = 1
+						change_learning = 1
+					}
+					change_diplomacy = 1
+					change_martial = 1
+					change_stewardship = 1
+					change_intrigue = 1
+					change_learning = 1
+					set_character_flag = majorboost
+				}
+				9 = {
+				}
+			}
+		}
+		character_event = { id = goshen_personality_events.33 days = 1 random = 2 }
+	}
+	option = {
+		name = EVTOPTBgoshen_personality_events.32
+		IF = {
+			limit = {
+				any_friend = { character = FROM }
+			}
+			random = {
+				chance = 50
+				remove_friend = FROM
+			}
+			break = yes
+		}
+		random = {
+			chance = 50
+			add_rival = FROM
+		}
+	}
+}
+character_event = {#Tutoring Informer Event
+	id = goshen_personality_events.33
+	desc = {
+		text = EVTDESCAgoshen_personality_events.33
+		trigger = {
+			NOT = { has_character_flag = majorboost }
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_personality_events.33
+		trigger = {
+			has_character_flag = majorboost
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.33
+		clr_character_flag = majorboost
+	}
+}
+character_event = {
+	id = goshen_personality_events.40
+	desc = EVTDESCgoshen_personality_events.40
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.40
+		random_list = {
+			1 = {
+				add_trait = overeager
+			}
+			1 = {
+				add_trait = sympathetic
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_personality_events.40
+		random_list = {
+			1 = {
+				add_trait = sympathetic
+			}
+			1 = {
+				add_trait = responsive
+			}
+			1 = {
+				add_trait = unwilling
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_personality_events.40
+		random_list = {
+			1 = {
+				add_trait = unwilling
+			}
+			1 = {
+				add_trait = irreconcilable
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_personality_events.50
+	desc = EVTDESCgoshen_personality_events.50
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_personality_events.50
+		random_list = {
+			1 = {
+				add_trait = carefree
+			}
+			1 = {
+				add_trait = idealist
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_personality_events.50
+		random_list = {
+			1 = {
+				add_trait = idealist
+			}
+			1 = {
+				add_trait = pragmatic
+			}
+			1 = {
+				add_trait = cynic
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_personality_events.50
+		random_list = {
+			1 = {
+				add_trait = cynic
+			}
+			1 = {
+				add_trait = pessimist
+			}
+		}
+	}
+}

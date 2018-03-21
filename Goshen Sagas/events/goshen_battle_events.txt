@@ -1,0 +1,891 @@
+namespace = goshen_battle_events
+character_event = {#Injured in Battle
+	id = goshen_battle_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		NOR = {
+			trait = deadly_injury
+			trait = incapacitating_injury
+		}
+	}
+	immediate = {
+		IF = {
+			limit = { trait = severe_injury }
+			remove_trait = severe_injury
+			add_trait = incapacitating_injury
+		}
+		IF = {
+			limit = { trait = moderate_injury }
+			remove_trait = moderate_injury
+			add_trait = severe_injury
+		}
+		IF = {
+			limit = { trait = minor_injury }
+			remove_trait = minor_injury
+			add_trait = moderate_injury
+		}
+		IF = {
+			limit = {
+				NOR = {
+					trait = minor_injury
+					trait = moderate_injury
+					trait = severe_injury
+				}
+			}
+			add_trait = minor_injury
+		}
+		character_event = { id = goshen_injury_events.1 }
+	}
+}
+character_event = {#Killed in Battle
+	id = goshen_battle_events.1
+	desc = EVTDESCgoshen_battle_events.1
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.1
+	}
+}
+character_event = {#Special Tactic
+	id = goshen_battle_events.11
+	desc = {
+		text = EVTDESCAgoshen_battle_events.11
+		trigger = { has_character_flag = STEnvelop }
+	}
+	desc = {
+		text = EVTDESCAgoshen_battle_events.11
+		trigger = { has_character_flag = STFlank }
+	}
+	desc = {
+		text = EVTDESCAgoshen_battle_events.11
+		trigger = { has_character_flag = STFeint }
+	}
+	desc = {
+		text = EVTDESCAgoshen_battle_events.11
+		trigger = { has_character_flag = STAmbush }
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		in_battle = yes
+		in_command = yes
+		prisoner = no
+		OR = {
+			is_ruler = yes
+			employer = { at_location = ROOT }
+		}
+		OR = {
+			trait = emissary
+			trait = strategist
+			trait = mastermind
+			trait = mogul
+			trait = conspirator
+			trait = sage
+		}
+		any_current_enemy = {
+			at_location = ROOT
+			in_command = yes
+			prisoner = no
+		}
+	}
+	immediate = {
+		random_list = {
+			1 = { set_character_flag = STEnvelop }
+			1 = { set_character_flag = STFlank }
+			1 = { set_character_flag = STFeint }
+			1 = { set_character_flag = STAmbush }
+		}
+		ROOT = {
+			save_event_target_as = STPlanner
+		}
+		random_current_enemy = {
+			limit = {
+				at_location = ROOT
+				in_command = yes
+				prisoner = no
+			}
+			save_event_target_as = STVictim
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.11
+		trigger = {
+			is_ruler = yes
+		}
+		hidden_tooltip = {
+			event_target:STVictim = {
+				IF = {
+					limit = {
+						OR = {
+							trait = emissary
+							trait = strategist
+							trait = mastermind
+							trait = mogul
+							trait = conspirator
+							trait = sage
+						}
+					}
+					character_event = { id = goshen_battle_events.12 }
+					break = yes
+				}
+			}
+		}
+		character_event = { id = goshen_battle_events.14 }
+	}
+	option = {
+		name = EVTOPTBgoshen_battle_events.11
+		trigger = {
+			is_ruler = no
+		}
+		employer = {
+			character_event = { id = goshen_battle_events.13 }
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_battle_events.11
+	}
+}
+character_event = {#Catch wind of Special Tactic
+	id = goshen_battle_events.12
+	desc = EVTDESCgoshen_battle_events.12
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.12
+		hidden_tooltip = {
+			event_target:STPlanner = {
+				IF = {
+					limit = { has_character_flag = STEnvelop }
+					set_character_flag = STEnvelopcounter
+				}
+				FROM = { character_event = { id = goshen_battle_events.14 } }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_battle_events.12
+		hidden_tooltip = {
+			event_target:STPlanner = {
+				IF = {
+					limit = { has_character_flag = STFlank }
+					set_character_flag = STFlankcounter
+				}
+				FROM = { character_event = { id = goshen_battle_events.14 } }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_battle_events.12
+		hidden_tooltip = {
+			event_target:STPlanner = {
+				IF = {
+					limit = { has_character_flag = STFeint }
+					set_character_flag = STFeintcounter
+				}
+				FROM = { character_event = { id = goshen_battle_events.14 } }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTDgoshen_battle_events.12
+		hidden_tooltip = {
+			event_target:STPlanner = {
+				IF = {
+					limit = { has_character_flag = STAmbush }
+					set_character_flag = STAmbushcounter
+				}
+				FROM = { character_event = { id = goshen_battle_events.14 } }
+			}
+		}
+	}
+}
+character_event = {#Inform about Special Tactic
+	id = goshen_battle_events.13
+	desc = EVTDESCgoshen_battle_events.13
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.13
+		hidden_tooltip = {
+			event_target:STVictim = {
+				IF = {
+					limit = {
+						OR = {
+							trait = emissary
+							trait = strategist
+							trait = mastermind
+							trait = mogul
+							trait = conspirator
+							trait = sage
+						}
+					}
+					character_event = { id = goshen_battle_events.12 }
+					break = yes
+				}
+			}
+		}
+		character_event = { id = goshen_battle_events.14 }
+	}
+	option = {
+		name = EVTOPTBgoshen_battle_events.13
+	}
+}
+character_event = {#Special Tactic Succeed or Fail
+	id = goshen_battle_events.14
+	desc = {
+		text = EVTDESCAgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STEnvelop
+				NOT = { has_character_flag = STEnvelopcounter }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STFlank
+				NOT = { has_character_flag = STFlankcounter }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STFeint
+				NOT = { has_character_flag = STFeintcounter }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCDgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STWAmbush
+				NOT = { has_character_flag = STAmbushcounter }
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCEgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STEnvelopcounter
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCFgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STFlankcounter
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCGgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STFeintcounter
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCHgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				has_character_flag = STAmbushcounter
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				NOR = {
+					has_character_flag = STEnvelopcounter
+					has_character_flag = STFlankcounter
+					has_character_flag = STFeintcounter
+					has_character_flag = STAmbushcounter
+				}
+			}
+		}
+		event_target:STVictim = {
+			troops = -0.05
+			morale = -0.25
+		}
+		event_target:STPlanner = {
+			clr_character_flag = STEnvelop
+			clr_character_flag = STFlank
+			clr_character_flag = STFeint
+			clr_character_flag = STAmbush
+			clr_character_flag = STEnvelopcounter
+			clr_character_flag = STFlankcounter
+			clr_character_flag = STFeintcounter
+			clr_character_flag = STAmbushcounter
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_battle_events.14
+		trigger = {
+			event_target:STPlanner = {
+				OR = {
+					has_character_flag = STEnvelopcounter
+					has_character_flag = STFlankcounter
+					has_character_flag = STFeintcounter
+					has_character_flag = STAmbushcounter
+				}
+			}
+		}
+		event_target:STPlanner = {
+			troops = -0.05
+			morale = -0.25
+		}
+		event_target:STPlanner = {
+			clr_character_flag = STEnvelop
+			clr_character_flag = STFlank
+			clr_character_flag = STFeint
+			clr_character_flag = STAmbush
+			clr_character_flag = STEnvelopcounter
+			clr_character_flag = STFlankcounter
+			clr_character_flag = STFeintcounter
+			clr_character_flag = STAmbushcounter
+		}
+	}
+}
+character_event = {#Duel
+	id = goshen_battle_events.2
+	desc = EVTDESCgoshen_battle_events.2
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		prisoner = no
+		OR = {
+			is_ruler = yes
+			employer = {
+				is_ruler = yes
+			}
+		}
+		any_current_enemy = {
+			OR = {
+				AND = {
+					in_battle = yes
+					at_location = ROOT
+					prisoner = no
+					is_alive = yes		
+					NOR = {
+						character = ROOT
+						has_character_flag = in_duel
+					}
+				}
+				any_realm_character = {
+					in_battle = yes
+					at_location = ROOT
+					prisoner = no
+					is_alive = yes		
+					NOR = {
+						character = ROOT
+						has_character_flag = in_duel
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_battle_events.2
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				trait = noncombatant
+			}
+			modifier = {
+				factor = 2
+				trait = scrapper
+			}
+			modifier = {
+				factor = 4
+				trait = fighter
+			}
+			modifier = {
+				factor = 6
+				trait = champion
+			}
+			modifier = {
+				factor = 8
+				trait = legend
+			}
+			modifier = {
+				factor = 0.5
+				trait = susceptible
+			}
+			modifier = {
+				factor = 0.75
+				trait = receptive
+			}
+			modifier = {
+				factor = 0.9
+				trait = impartial
+			}
+			modifier = {
+				factor = 1.5
+				trait = biased
+			}
+			modifier = {
+				factor = 2
+				trait = prejudiced
+			}
+			modifier = {
+				factor = 1.5
+				trait = controlling
+			}
+			modifier = {
+				factor = 1.5
+				trait = calculating
+			}
+			modifier = {
+				factor = 2
+				trait = willful
+			}
+			modifier = {
+				factor = 2
+				trait = erratic
+			}
+			modifier = {
+				factor = 4
+				trait = irrational
+			}
+			modifier = {
+				factor = 0.25
+				trait = extrovert
+			}
+			modifier = {
+				factor = 0.5
+				trait = friendly
+			}
+			modifier = {
+				factor = 0.75
+				trait = cordial
+			}
+			modifier = {
+				factor = 1.2
+				trait = cold
+			}
+			modifier = {
+				factor = 1.2
+				trait = introvert
+			}
+			modifier = {
+				factor = 0.5
+				trait = overeager
+			}
+			modifier = {
+				factor = 0.75
+				trait = sympathetic
+			}
+			modifier = {
+				factor = 1.1
+				trait = responsive
+			}
+			modifier = {
+				factor = 3
+				trait = unwilling
+			}
+			modifier = {
+				factor = 4
+				trait = irreconcilable
+			}
+			modifier = {
+				factor = 0
+				trait = carefree
+			}
+			modifier = {
+				factor = 0.25
+				trait = idealist
+			}
+			modifier = {
+				factor = 0.9
+				trait = pragmatic
+			}
+			modifier = {
+				factor = 2
+				trait = cynic
+			}
+			modifier = {
+				factor = 3
+				trait = pessimist
+			}
+		}
+		random_current_enemy = {
+			limit = {
+				in_battle = yes
+				at_location = ROOT
+				prisoner = no
+				is_alive = yes		
+				NOR = {
+					character = ROOT
+					has_character_flag = in_duel
+				}
+			}
+			save_event_target_as = dueler2
+			set_character_flag = in_duel
+			ROOT = {
+				save_event_target_as = dueler1
+				set_character_flag = in_duel
+				character_event = { id = goshen_duel_events.20 }
+			}
+			break = yes
+		}
+		any_current_enemy = {
+			random_realm_character = {
+				limit = {
+					in_battle = yes
+					at_location = ROOT
+					prisoner = no
+					is_alive = yes		
+					NOR = {
+						character = ROOT
+						has_character_flag = in_duel
+					}
+				}
+				save_event_target_as = dueler2
+				set_character_flag = in_duel
+				ROOT = {
+					save_event_target_as = dueler1
+					set_character_flag = in_duel
+					character_event = { id = goshen_duel_events.20 }
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_battle_events.2
+		trigger = {
+			any_courtier = {
+				has_minor_title = title_personalguard
+				NOT = { has_character_flag = in_duel }
+				prisoner = no
+			}
+		}
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				trait = noncombatant
+			}
+			modifier = {
+				factor = 2
+				trait = scrapper
+			}
+			modifier = {
+				factor = 4
+				trait = fighter
+			}
+			modifier = {
+				factor = 6
+				trait = champion
+			}
+			modifier = {
+				factor = 8
+				trait = legend
+			}
+			modifier = {
+				factor = 0.5
+				trait = susceptible
+			}
+			modifier = {
+				factor = 0.75
+				trait = receptive
+			}
+			modifier = {
+				factor = 0.9
+				trait = impartial
+			}
+			modifier = {
+				factor = 1.5
+				trait = biased
+			}
+			modifier = {
+				factor = 2
+				trait = prejudiced
+			}
+			modifier = {
+				factor = 1.5
+				trait = controlling
+			}
+			modifier = {
+				factor = 1.5
+				trait = calculating
+			}
+			modifier = {
+				factor = 2
+				trait = willful
+			}
+			modifier = {
+				factor = 2
+				trait = erratic
+			}
+			modifier = {
+				factor = 4
+				trait = irrational
+			}
+			modifier = {
+				factor = 0.25
+				trait = extrovert
+			}
+			modifier = {
+				factor = 0.5
+				trait = friendly
+			}
+			modifier = {
+				factor = 0.75
+				trait = cordial
+			}
+			modifier = {
+				factor = 1.2
+				trait = cold
+			}
+			modifier = {
+				factor = 1.2
+				trait = introvert
+			}
+			modifier = {
+				factor = 0.5
+				trait = overeager
+			}
+			modifier = {
+				factor = 0.75
+				trait = sympathetic
+			}
+			modifier = {
+				factor = 1.1
+				trait = responsive
+			}
+			modifier = {
+				factor = 3
+				trait = unwilling
+			}
+			modifier = {
+				factor = 4
+				trait = irreconcilable
+			}
+			modifier = {
+				factor = 0
+				trait = carefree
+			}
+			modifier = {
+				factor = 0.25
+				trait = idealist
+			}
+			modifier = {
+				factor = 0.9
+				trait = pragmatic
+			}
+			modifier = {
+				factor = 2
+				trait = cynic
+			}
+			modifier = {
+				factor = 3
+				trait = pessimist
+			}
+		}
+		random_current_enemy = {
+			limit = {
+				in_battle = yes
+				at_location = ROOT
+				prisoner = no
+				is_alive = yes		
+				NOR = {
+					character = ROOT
+					has_character_flag = in_duel
+				}
+			}
+			save_event_target_as = dueler2
+			set_character_flag = in_duel
+			ROOT = {
+				random_courtier = {
+					limit = {
+						has_minor_title = title_personalguard
+						NOT = { has_character_flag = in_duel }
+					}
+					save_event_target_as = dueler1
+					set_character_flag = in_duel
+					set_character_flag = guard_in_duel
+					character_event = { id = goshen_duel_events.20 }
+				}
+			}
+			break = yes
+		}
+		any_current_enemy = {
+			random_realm_character = {
+				limit = {
+					in_battle = yes
+					at_location = ROOT
+					prisoner = no
+					is_alive = yes		
+					NOR = {
+						character = ROOT
+						has_character_flag = in_duel
+					}
+				}
+				save_event_target_as = dueler2
+				set_character_flag = in_duel
+				ROOT = {
+					random_courtier = {
+						limit = {
+							has_minor_title = title_personalguard
+							NOT = { has_character_flag = in_duel }
+						}
+						save_event_target_as = dueler1
+						set_character_flag = in_duel
+						set_character_flag = guard_in_duel
+						character_event = { id = goshen_duel_events.20 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_battle_events.2
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 0.75
+				trait = scrapper
+			}
+			modifier = {
+				factor = 0.5
+				trait = fighter
+			}
+			modifier = {
+				factor = 0.33
+				trait = champion
+			}
+			modifier = {
+				factor = 0.125
+				trait = legend
+			}
+			modifier = {
+				factor = 2
+				trait = susceptible
+			}
+			modifier = {
+				factor = 1.5
+				trait = receptive
+			}
+			modifier = {
+				factor = 1.1
+				trait = impartial
+			}
+			modifier = {
+				factor = 0.75
+				trait = biased
+			}
+			modifier = {
+				factor = 0.5
+				trait = prejudiced
+			}
+			modifier = {
+				factor = 1.1
+				trait = controlling
+			}
+			modifier = {
+				factor = 1.1
+				trait = calculating
+			}
+			modifier = {
+				factor = 1.1
+				trait = willful
+			}
+			modifier = {
+				factor = 0.5
+				trait = erratic
+			}
+			modifier = {
+				factor = 0.25
+				trait = irrational
+			}
+			modifier = {
+				factor = 2
+				trait = extrovert
+			}
+			modifier = {
+				factor = 1.5
+				trait = friendly
+			}
+			modifier = {
+				factor = 1.1
+				trait = cordial
+			}
+			modifier = {
+				factor = 0.75
+				trait = cold
+			}
+			modifier = {
+				factor = 0.5
+				trait = introvert
+			}
+			modifier = {
+				factor = 1.5
+				trait = overeager
+			}
+			modifier = {
+				factor = 1.1
+				trait = sympathetic
+			}
+			modifier = {
+				factor = 0.75
+				trait = responsive
+			}
+			modifier = {
+				factor = 0.5
+				trait = unwilling
+			}
+			modifier = {
+				factor = 0.25
+				trait = irreconcilable
+			}
+			modifier = {
+				factor = 5
+				trait = carefree
+			}
+			modifier = {
+				factor = 4
+				trait = idealist
+			}
+			modifier = {
+				factor = 3
+				trait = pragmatic
+			}
+			modifier = {
+				factor = 2
+				trait = cynic
+			}
+			modifier = {
+				factor = 0.5
+				trait = pessimist
+			}
+		}
+	}
+}

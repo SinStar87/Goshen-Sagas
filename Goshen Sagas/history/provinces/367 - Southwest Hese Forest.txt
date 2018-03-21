@@ -1,0 +1,20 @@
+#####################
+# Southwest Hese Forest
+#####################
+
+#County Title
+title = c_sw_hese_forest
+
+#Settlements
+max_settlements = 3
+b_sw_hese_forest = castle
+b_sw_hese_forest_city = city
+b_sw_hese_forest_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History
+#867.1.1 = {
+#}

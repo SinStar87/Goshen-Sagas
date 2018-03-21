@@ -1,0 +1,20 @@
+#####################
+# East N. Kalani Coast
+#####################
+
+#County Title
+title = c_e_n_kalani_coast
+
+#Settlements
+max_settlements = 3
+b_e_n_kalani_coast = castle
+b_e_n_kalani_coast_city = city
+b_e_n_kalani_coast_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+#867.1.1 = {
+#}

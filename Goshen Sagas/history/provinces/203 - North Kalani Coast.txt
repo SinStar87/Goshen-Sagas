@@ -1,0 +1,21 @@
+########################
+# North Kalani Coast
+########################
+
+#County Title
+title = c_n_kalani_coast
+
+#Settlements
+max_settlements = 3
+b_n_kalani_coast = castle
+b_n_kalani_coast_city = city
+b_n_kalani_coast_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+1900.1.1 = {
+	b_n_kalani_coast = ca_special_levytan_tradepost
+}

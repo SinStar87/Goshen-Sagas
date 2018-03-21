@@ -1,0 +1,3575 @@
+####################
+# Abimelech 1-999
+####################
+#First War Chief
+1 = {
+	name = "First War Chief"
+	dynasty = 1
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1700.1.1 = {
+		birth = yes
+	}
+	1757.1.1 = {
+		death = yes
+	}
+}
+
+#12 Sons of the War Chief
+2 = {
+	name = "War'o"
+	father = 1
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1718.1.1 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		death = yes
+	}
+}
+3 = {
+	name = Mandrid
+	father = 1
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1719.1.1 = {
+		birth = yes
+	}
+	1785.1.1 = {
+		death = yes
+	}
+}
+4 = {
+	name = Beorthelfbrak
+	father = 1
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1720.1.1 = {
+		birth = yes
+	}
+	1781.1.1 = {
+		death = yes
+	}
+}
+5 = {
+	name = Wulfhrun
+	father = 1
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	trait = twin
+
+	1722.1.1 = {
+		birth = yes
+	}
+	1791.1.1 = {
+		death = yes
+	}
+}
+6 = {
+	name = Drud
+	father = 1
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	trait = twin
+
+	1722.1.1 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		death = yes
+	}
+}
+7 = {
+	name = Eadu
+	father = 1
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1723.1.1 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		death = yes
+	}
+}
+8 = {
+	name = Ara
+	father = 1
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1724.1.1 = {
+		birth = yes
+	}
+	1789.1.1 = {
+		death = yes
+	}
+}
+9 = {
+	name = Delferth
+	father = 1
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1725.1.1 = {
+		birth = yes
+	}
+	1801.1.1 = {
+		death = yes
+	}
+}
+10 = {
+	name = Thenn
+	father = 1
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1726.1.1 = {
+		birth = yes
+	}
+	1790.1.1 = {
+		death = yes
+	}
+}
+11 = {
+	name = Manax
+	father = 1
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1727.1.1 = {
+		birth = yes
+	}
+	1798.1.1 = {
+		death = yes
+	}
+}
+12 = {
+	name = Ealtheon
+	father = 1
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1727.2.1 = {
+		birth = yes
+	}
+	1800.1.1 = {
+		death = yes
+	}
+}
+13 = {
+	name = Vaceo
+	father = 1
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1728.1.1 = {
+		birth = yes
+	}
+	1793.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Bloodstone Clan
+20 = {
+	name = Anchei
+	father = 2
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+21 = {
+	name = Daneo
+	father = 20
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+22 = {
+	name = Nemir
+	father = 21
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+23 = {
+	name = Thorkru
+	father = 22
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+24 = {
+	name = Rhun
+	father = 23
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+25 = {
+	name = Cobar
+	father = 24
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+26 = {
+	name = Vaceo
+	father = 25
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1954.1.1 = {
+		add_spouse = 24001
+	}
+	1958.2.1 = {
+		remove_spouse = 24001
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+27 = {
+	name = Rhun
+	father = 26
+	mother = 24001
+	dynasty = 2
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1958.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+28 = {
+	name = Rhun
+	father = 27
+	dynasty = 2
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Beon's Pride Clan
+30 = {
+	name = Manfar
+	father = 3
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+31 = {
+	name = Manbyrn
+	father = 30
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+32 = {
+	name = Manbryt
+	father = 31
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+33 = {
+	name = Krummwen
+	father = 32
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+34 = {
+	name = Wulfsan
+	father = 33
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+35 = {
+	name = Wulfhes
+	father = 34
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+36 = {
+	name = Manax
+	father = 35
+	dynasty = 3
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1958.1.1 = {
+		add_spouse = 24001
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+37 = {
+	name = Cobar
+	father = 36
+	mother = 24001
+	dynasty = 3
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+38 = {
+	name = Thorkru
+	father = 36
+	dynasty = 3
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1962.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		death = yes
+	}
+}
+39 = {
+	name = Soule
+	father = 38
+	dynasty = 3
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1979.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+371 = {
+	name = Carric
+	father = 37
+	dynasty = 3
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1982.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		employer = 39
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Black Axe Clan
+40 = {
+	name = Waruka
+	father = 4
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+41 = {
+	name = Mandrid
+	father = 40
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+42 = {
+	name = Cynsteel
+	father = 41
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+43 = {
+	name = Waruka
+	father = 42
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+44 = {
+	name = Valwi
+	father = 43
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+45 = {
+	name = Delferth
+	father = 44
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+46 = {
+	name = Stanthang
+	father = 45
+	dynasty = 4
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+47 = {
+	name = Cynsteel
+	father = 46
+	dynasty = 4
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+48 = {
+	name = Stel
+	father = 47
+	dynasty = 4
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Black Stone Clan
+50 = {
+	name = Ferth
+	father = 5
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+51 = {
+	name = Drud
+	father = 50
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+52 = {
+	name = Nemir
+	father = 51
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+53 = {
+	name = Jonda
+	father = 52
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+54 = {
+	name = Ferth
+	father = 53
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+55 = {
+	name = Jonto
+	father = 54
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+56 = {
+	name = Ferth
+	father = 55
+	dynasty = 5
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+57 = {
+	name = Manax
+	father = 56
+	dynasty = 5
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+58 = {
+	name = Maanan
+	father = 57
+	dynasty = 5
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Drugar Skull Clan
+60 = {
+	name = Foo
+	father = 6
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+61 = {
+	name = Taana
+	father = 60
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+62 = {
+	name = Thann
+	father = 61
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+63 = {
+	name = Roolo
+	father = 62
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+64 = {
+	name = Relf
+	father = 63
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+65 = {
+	name = Braaka
+	father = 64
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+66 = {
+	name = Beor
+	father = 65
+	dynasty = 6
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+67 = {
+	name = Beorthelfbrak
+	father = 66
+	dynasty = 6
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+68 = {
+	name = Baoore
+	father = 67
+	dynasty = 6
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Eker Sons Clan
+70 = {
+	name = Beorthelfbrak
+	father = 7
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+71 = {
+	name = Wulfrun
+	father = 70
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+72 = {
+	name = Wulfhrun
+	father = 71
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+73 = {
+	name = Delferth
+	father = 72
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+74 = {
+	name = Jonha
+	father = 73
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+75 = {
+	name = Staan
+	father = 74
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+76 = {
+	name = Thanos
+	father = 75
+	dynasty = 7
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+77 = {
+	name = Stanthang
+	father = 76
+	dynasty = 7
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+78 = {
+	name = Salan
+	father = 77
+	dynasty = 7
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Gayl Brothers Clan
+80 = {
+	name = Delferth
+	father = 8
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+81 = {
+	name = Danno
+	father = 80
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+82 = {
+	name = Neema
+	father = 81
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+83 = {
+	name = Daan
+	father = 82
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+84 = {
+	name = Dank
+	father = 83
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+85 = {
+	name = Drod
+	father = 84
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+86 = {
+	name = Draad
+	father = 85
+	dynasty = 8
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+87 = {
+	name = Drak
+	father = 86
+	dynasty = 8
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1954.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+88 = {
+	name = Hulgen
+	father = 86
+	dynasty = 8
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		employer = 39
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+89 = {
+	name = Huulan
+	father = 87
+	dynasty = 8
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Might Fist Clan
+90 = {
+	name = Grad
+	father = 9
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+91 = {
+	name = Aro
+	father = 90
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+92 = {
+	name = Ara
+	father = 91
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+93 = {
+	name = Vacen
+	father = 92
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+94 = {
+	name = Cacen
+	father = 93
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+95 = {
+	name = Haneo
+	father = 94
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+96 = {
+	name = Vaceo
+	father = 95
+	dynasty = 9
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+97 = {
+	name = Glorthak
+	father = 96
+	dynasty = 9
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+98 = {
+	name = Bhull
+	father = 97
+	dynasty = 9
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1975.1.1 = {
+		birth = yes
+	}
+	1990.1.1 = {
+		employer = 39
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Pale Cave Clan
+100 = {
+	name = Krom
+	father = 10
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+101 = {
+	name = Hunkrom
+	father = 100
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+102 = {
+	name = Hilcwen
+	father = 101
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+103 = {
+	name = Reyathe
+	father = 102
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+104 = {
+	name = Wulfhes
+	father = 103
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+105 = {
+	name = Ealtheon
+	father = 104
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+106 = {
+	name = Ara
+	father = 105
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+107 = {
+	name = Xero
+	father = 106
+	dynasty = 10
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+108 = {
+	name = Xeran
+	father = 107
+	dynasty = 10
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Rising Rock Clan
+110 = {
+	name = Ax
+	father = 11
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+111 = {
+	name = Roco
+	father = 110
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+112 = {
+	name = Rooc
+	father = 111
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+113 = {
+	name = Axglor
+	father = 112
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+114 = {
+	name = Glordel
+	father = 113
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+115 = {
+	name = Glorfin
+	father = 114
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+116 = {
+	name = Axhelm
+	father = 115
+	dynasty = 11
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+117 = {
+	name = Axglor
+	father = 116
+	dynasty = 11
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+118 = {
+	name = Golar
+	father = 117
+	dynasty = 11
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 110.000
+	prestige = 20.000
+
+	piety = 11.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Savage Toncho Clan
+120 = {
+	name = Nirrid
+	father = 12
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+121 = {
+	name = Nirron
+	father = 120
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+122 = {
+	name = Griga
+	father = 121
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+123 = {
+	name = Grimgrand
+	father = 122
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+124 = {
+	name = Griima
+	father = 123
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+125 = {
+	name = Droon
+	father = 124
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+126 = {
+	name = Dryt
+	father = 125
+	dynasty = 12
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+127 = {
+	name = Nirrid
+	father = 126
+	dynasty = 12
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+128 = {
+	name = Namor
+	father = 127
+	dynasty = 12
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 120.000
+	prestige = 20.000
+
+	piety = 12.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of White Claw Clan
+130 = {
+	name = Reyathe
+	father = 13
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+131 = {
+	name = Denno
+	father = 130
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+132 = {
+	name = Nemero
+	father = 131
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+133 = {
+	name = Jongas
+	father = 132
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+134 = {
+	name = Reegas
+	father = 133
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
+		death = yes
+	}
+}
+135 = {
+	name = Renno
+	father = 134
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+136 = {
+	name = Reha
+	father = 135
+	dynasty = 13
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1934.1.1 = {
+		birth = yes
+	}
+	1984.1.1 = {
+		death = yes
+	}
+}
+137 = {
+	name = Reyathe
+	father = 136
+	dynasty = 13
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1959.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+138 = {
+	name = Reeyan
+	father = 137
+	dynasty = 13
+	dna = clgfbldcaaw
+	properties = am00aa00000000
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 130.000
+	prestige = 20.000
+
+	piety = 13.000
+
+	1989.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

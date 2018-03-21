@@ -1,0 +1,20 @@
+#########################
+# Blav Approach
+#########################
+
+#County Title
+title = c_blav_approach
+
+#Settlements
+max_settlements = 3
+b_blav_approach = castle
+b_blav_approach_city = city
+b_blav_approach_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History
+#867.1.1 = {
+#}

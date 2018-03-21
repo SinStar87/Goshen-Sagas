@@ -1,0 +1,6 @@
+1000.1.1 = {
+	liege = d_c_abimelechs
+}
+1990.1.1 = {
+	holder = 47
+}

@@ -1,0 +1,524 @@
+province;red;green;blue;x;x
+1;168;96;87;West Kauni Forest;x
+2;0;84;85;South Kauni;x
+3;42;102;88;South Kauni Forest;x
+4;84;90;86;Central Kauni;x
+5;126;108;89;North Kauni;x
+6;84;120;91;East Kauni Forest;x
+7;168;126;92;South Insol;x
+8;42;132;93;East Insol;x
+9;126;138;94;West Insol;x
+10;42;162;98;North Trovo;x
+11;84;150;96;Central Trovo;x
+12;168;156;97;South Trovo;x
+13;0;174;0;Southwest Ko;x
+14;84;180;1;Southeast Ko;x
+15;126;168;99;North Ko;x
+16;42;66;53;Anin Ko Coast;x
+17;42;99;23;West S.W. Anin Plains;x
+18;126;21;144;South S.W. Anin Plains;x
+19;168;174;42;West S. Anin Plains;x
+20;0;138;65;North W. Daly Mountains;x
+21;168;144;37;South Anin Plains;x
+22;42;6;43;East S. Anin Plains;x
+23;84;87;21;West S.E. Anin Plains;x
+24;0;111;25;South S.E. Anin Plains;x
+25;84;204;76;West Daly Mountains;x
+26;42;150;38;Southwest Anin Plains;x
+27;84;45;56;Southwest S.W. Anin Plains;x
+28;126;3;49;North C. Anin Ko Coast;x
+29;168;54;22;South C. Anin Ko Coast;x
+30;42;30;18;North S.W. Anin Plains;x
+31;0;39;55;South C. Anin Plains;x
+32;42;90;28;Southwest C. Anin Plains;x
+33;168;30;47;Southeast C. Anin Plains;x
+34;84;117;26;Southeast Anin Plains;x
+35;0;51;15;Central Vitat Canyon;x
+36;0;168;70;Northwest S.W. Anin Plains;x
+37;0;195;10;Central Anin Plains;x
+38;42;36;48;North S.E. Anin Plains;x
+39;42;63;88;Northeast S.E. Anin Plains;x
+40;84;24;46;Northwest S.E. Anin Plains;x
+41;168;87;92;South Anin Ko Coast;x
+42;42;129;28;North Anin Ko Coast;x
+43;42;60;23;Northwest C. Anin Plains;x
+44;42;186;73;South N.E. Anin Plains;x
+45;0;102;30;North C. Anin Plains;x
+46;0;72;25;East S. Majat Mountains;x
+47;84;15;51;Blav;x
+48;0;108;60;Blav Approach;x
+49;126;39;84;North Ades Coast;x
+50;84;174;71;East Zalv Forest;x
+51;0;132;35;West Zalv Forest;x
+52;84;147;31;Southeast Zalv Forest;x
+53;168;51;57;Southwest N. Anin Plains;x
+54;84;54;51;Southwest N.E. Anin Plains;x
+55;126;129;99;South N. Vitat Canyon;x
+56;0;201;40;Southwest Zalv Forest;x
+57;168;0;42;West Ades Plains;x
+58;84;168;41;East Ades Plains;x
+59;168;57;87;West E. Ades Plains;x
+60;126;165;34;West N.E. Anin Plains;x
+61;0;198;75;Northeast Anin Plains;x
+62;126;192;74;Southeast N. Anin Plains;x
+63;168;90;57;Central Ades Plains;x
+64;126;66;24;South W. Ades Plains;x
+65;0;171;35;South Ades Coast;x
+66;126;159;4;Mount Koryfi;x
+67;168;93;22;East C. Ades Plains;x
+68;168;60;52;North Anin Plains;x
+69;84;114;61;Northwest N.E. Anin Plains;x
+70;0;42;20;South E. Ades Plains;x
+71;168;204;47;West C. Ades Plains;x
+72;0;45;85;North N.E. Anin Plains;x
+73;126;75;19;Northeast N. Anin Plains;x
+74;42;120;33;West N. Anin Plains;x
+75;84;108;31;East N. Anin Coast;x
+76;42;153;3;Central N. Anin Coast;x
+77;126;93;64;North Anin Coast;x
+78;84;21;81;West N. Anin Coast;x
+79;0;78;55;East Pan Cliffs;x
+80;84;81;91;West Navo Coast;x
+81;42;39;13;Navo's Mouth;x
+82;42;210;48;North E. Navo Desert;x
+83;84;207;41;East E. Navo Desert;x
+84;84;78;26;West E. Daly Mountains;x
+85;0;15;80;West Rannu River;x
+86;0;18;45;North Rannu Plains;x
+87;168;123;27;Qess Fort;x
+88;168;150;67;Lower Navo River;x
+89;84;177;36;North E. Daly Mountains;x
+90;168;180;72;East Rannu River;x
+91;168;81;62;North Upper Navo River;x
+92;126;12;44;East Navo Coast;x
+93;84;171;6;North W. Navo Desert;x
+94;0;165;5;North Rannu Coast;x
+95;126;69;89;South Rannu Plains;x
+96;0;162;40;Northeast Rannu Coast;x
+97;168;120;62;Central E. Daly Mountains;x
+98;42;27;53;North Vitat Canyon;x
+99;84;57;16;East Navo Desert;x
+100;84;141;1;South Upper Navo River;x
+101;42;183;8;South Rannu Coast;x
+102;0;192;45;South E. Navo Desert;x
+103;42;93;93;West Navo Desert;x
+104;42;159;33;East W. Navo Desert;x
+105;42;126;63;South E. Daly Mountains;x
+106;126;195;39;Silt Castle;x
+107;126;102;59;Byajvo's Approach;x
+108;168;207;12;South W. Navo Desert;x
+109;126;162;69;North C.E. Daly Mountains;x
+110;126;33;54;Northeast C. Vitat Canyon;x
+111;0;81;20;East Dying Lands Barrier;x
+112;0;75;90;East C.E. Daly Mountains;x
+113;168;24;17;Northeast Yava Forest;x
+114;126;189;9;West N.E. Yava Forest;x
+115;126;36;19;North Upper Dying Lands Coast;x
+116;168;117;97;Northwest Dying Lands;x
+117;126;126;34;Northeast Dying Lands;x
+118;42;3;78;South N.E. Yava Forest;x
+119;168;27;82;Bottomless Hole;x
+120;0;141;30;South N.W. Yava Forest;x
+121;168;114;32;East C. Vitat Canyon;x
+122;84;51;86;East Yava Forest;x
+123;42;156;68;East Dying Lands;x
+124;84;144;66;East C. Yava Forest;x
+125;126;42;49;South Upper Dying Lands Coast;x
+126;84;18;16;Central Yava Forest;x
+127;126;132;64;Central Dying Lands;x
+128;126;186;44;North W. Dying Lands;x
+129;84;198;46;Northwest S. Yava Forest;x
+130;126;96;29;West E. Yava Forest;x
+131;42;69;18;Northeast S. Yava Forest;x
+132;42;0;13;West Dying Lands;x
+133;126;9;79;North Lower Dying Lands Coast;x
+134;168;177;7;North Door to Yava;x
+135;126;72;54;South C. Dying Lands;x
+136;126;63;59;Southeast C. Dying Lands;x
+137;0;69;60;South Yava Forest;x
+138;84;48;21;South Door to Yava;x
+139;0;48;50;North S. Dying Lands;x
+140;126;156;39;South W. Dying Lands;x
+141;168;63;17;Southeast Dying Lands;x
+142;126;105;24;South Lower Dying Lands Coast;x
+143;84;111;96;East S. Yava Forest;x
+144;126;99;94;Southwest Dying Lands;x
+145;0;9;50;South Dying Lands;x
+146;42;180;43;Northeast Zane Desert;x
+147;84;66;216;Southwest S.E. Anin Plains;x
+148;168;72;217;Gap in the Mountain;x
+149;42;78;218;West C. Vitat Canyon;x
+150;126;84;219;East W. Daly Mountains;x
+151;0;90;220;North W. Ades Plains;x
+152;84;96;221;Northwest C. Vitat Canyon;x
+153;168;102;222;South Majat Mountains;x
+154;42;108;223;Zalv Forest;x
+155;126;114;224;North E. Ades Plains;x
+156;0;120;225;Home of the Vitat;x
+157;84;126;226;Southwest W. Daly Mountains;x
+158;168;132;227;West S. Majat Mountains;x
+159;42;138;128;East N.E. Anin Plains;x
+160;126;144;129;Northeast E. Ades Plains;x
+161;0;150;130;Central Majat Mountains;x
+162;84;156;131;Northwest N. Anin Plains;x
+163;168;162;132;West Pan Cliffs;x
+164;42;168;133;Southeast Rannu Coast;x
+165;126;174;134;Northwest N. Vitat Canyon;x
+166;0;180;135;Southeast E. Navo Desert;x
+167;84;186;136;Niya Falls;x
+168;168;192;137;North C. Vitat Canyon;x
+169;42;198;138;Byajvo's Keep;x
+170;126;204;139;West Dying Lands Barrier;x
+171;0;210;140;Byajvo's Cradle;x
+172;84;3;141;Central E. Daly Mountains;x
+173;168;9;142;West C.E. Daly Mountains;x
+174;42;15;143;East N.W. Yava Forest;x
+175;42;87;63;Northwest Yava Forest;x
+176;0;27;145;West C. Yava Forest;x
+177;84;33;146;Confusion Valley;x
+178;0;117;160;Saar;x
+179;42;66;158;Norrain's Mouth;x
+180;42;192;208;Norrain's West Bend;x
+181;168;186;207;Norrain's Southwest W. Bend;x
+182;42;132;198;Norrain River;x
+183;0;78;160;South Norrain Forest;x
+184;126;171;169;South Frozen Plains;x
+185;0;108;165;North Ice Sheets;x
+186;126;102;164;Northwest W. Abimelechs;x
+187;168;66;187;North Frozen Floods;x
+188;84;90;191;South Frozen Floods;x
+189;168;210;182;Lesser Etzu River;x
+190;84;180;206;Lower Mighty Etzu River;x
+191;126;78;189;Upper Mighty Etzu River;x
+192;168;36;182;South C. Abimelechs;x
+193;84;120;196;West S.W. Black Wastes;x
+194;84;27;216;North Hunute Forest;x
+195;126;9;184;Southwest Black Wastes;x
+196;168;117;202;East S.W. Black Wastes;x
+197;126;135;134;North Black Fog Mountains;x
+198;42;195;173;Southeast E. Norrain Forest;x
+199;0;171;140;Southeast C. Abimelechs;x
+200;126;162;174;South Black Wastes Coast;x
+201;84;60;186;South W. Norrain Forest;x
+202;42;3;183;South E. Norrain Forest;x
+203;126;129;204;North Kalani Coast;x
+204;0;111;130;Central Abimelechs;x
+205;126;168;204;West C. Abimelechs;x
+206;126;39;189;South Ice Sheets;x
+207;0;24;180;East Norrain River;x
+208;84;21;186;Central Black Wastes Coast;x
+209;84;111;201;East N. Kalani Coast;x
+210;42;159;138;Frozen Spring;x
+211;0;165;210;Central Frozen Plains;x
+212;126;159;209;Black Fog Falls;x
+213;84;171;211;North W. Kalan Fields;x
+214;84;150;201;Norrain's Source;x
+215;0;204;210;Etzu Falls;x
+216;168;63;222;East W. Norrain Forest;x
+217;42;123;203;Abimelech Falls;x
+218;84;207;146;East C. Abimelechs;x
+219;0;15;185;Kalan Village;x
+220;42;72;188;Southwest W. Norrain Forest;x
+221;42;129;133;South Black Wastes;x
+222;0;144;200;Northwest Hunute Forest;x
+223;168;156;202;East S. Black Wastes;x
+224;84;204;181;West S. Black Wastes;x
+225;168;153;137;East E. Norrain Forest;x
+226;84;144;171;Central E. Norrain Forest;x
+227;84;84;161;Southeast N. Abimelechs;x
+228;0;198;180;South Etzu Lake;x
+229;42;99;128;Southwest W. Black Wastes;x
+230;42;9;213;Northeast E. Kalan Fields;x
+231;168;159;167;North C. Kalan Fields;x
+232;126;165;139;Northeast Hunute Forest;x
+233;126;189;214;Northwest E. Kalan Fields;x
+234;168;0;147;South Kalani Coast;x
+235;42;39;218;Southeast Etzu Lake;x
+236;42;162;203;Frozen Plains;x
+237;84;210;211;War Hall's Approach;x
+238;0;18;150;South N. Abimelechs;x
+239;42;69;223;West Abimelechs;x
+240;0;174;205;West Black Wastes;x
+241;126;105;129;South Black Fog Mountains;x
+242;42;126;168;West Etzu Lake;x
+243;0;84;190;West E. Kalan Fields;x
+244;42;36;153;East Kalan Fields;x
+245;126;15;214;Central W. Norrain Forest;x
+246;168;177;212;West W. Norrain Forest;x
+247;126;201;174;Etzu Lake;x
+248;168;150;172;East Frozen Marshes;x
+249;84;54;156;West Frozen Marshes;x
+250;0;51;220;Hunute Forest;x
+251;42;0;218;Levyt River Source;x
+252;42;186;178;Black Fog Mountains;x
+253;42;33;188;Northeast Etzu Lake;x
+254;168;3;212;North C. Black Wastes Coast;x
+255;42;42;183;Southwest Hunute Forest;x
+256;84;57;221;West Kalan Fields;x
+257;126;132;169;Frozen Marshes;x
+258;0;75;195;South N.E. Black Wastes;x
+259;168;129;162;East N. Abimelechs;x
+260;168;123;132;East W. Kalan Fields;x
+261;0;195;215;West N. Abimelechs;x
+262;126;138;199;West Hunute Approach;x
+263;42;63;193;North Upper Levyt River;x
+264;42;6;148;North E. Levyt Plains;x
+265;0;114;195;Southeast Hunute Forest;x
+266;42;183;213;East S. Kalani Coast;x
+267;0;12;220;Northwest E. Norrain Forest;x
+268;0;21;215;Northeast E. Norrain Forest;x
+269;0;168;175;Central Kalan Fields;x
+270;126;42;154;North Frozen Plains;x
+271;42;93;198;North W. Norrain Forest;x
+272;42;153;208;Zuvaki Palace;x
+273;126;69;194;Northeast Black Wastes;x
+274;168;90;162;Etzu's Mouth;x
+275;126;141;164;South Upper Levyt River;x
+276;126;108;194;North Frozen Marshes;x
+277;126;48;184;East Tainted Greys;x
+278;84;0;176;Etzu Berth;x
+279;84;141;206;South C. Kalan Fields;x
+280;168;96;192;North N.E. Black Wastes;x
+281;84;174;176;South Hunute Forest;x
+282;168;87;197;North Black Wastes Coast;x
+283;168;93;227;Southwest N. Black Wastes;x
+284;168;27;187;Southeast N. Black Wastes;x
+285;168;180;177;West Hunute Forest;x
+286;84;114;166;Dead Coast;x
+287;42;156;173;East Levyt Coast;x
+288;168;147;207;West N. Black Wastes;x
+289;84;87;226;North Basli Plains;x
+290;126;198;209;East Levyt Plains;x
+291;126;72;159;Kalani Border;x
+292;168;207;217;North Basli Forest;x
+293;42;102;193;North Lower Levyt River;x
+294;168;6;177;North Black Wastes;x
+295;84;183;171;Northeast E. Earthfort Mountains;x
+296;168;189;172;Southeast W. Earthfort Mountains;x
+297;0;45;190;North N. Grey Plains;x
+298;126;75;224;South Lower Levyt River;x
+299;84;123;161;Levyt East Bank;x
+300;126;192;179;East Basli Forest;x
+301;84;24;151;West Levyt Plains;x
+302;126;18;179;North E. Earthfort Mountains;x
+303;42;12;178;Basli Forest;x
+304;168;57;192;West W. Levyt Plains;x
+305;0;147;165;South N. Grey Plains;x
+306;84;30;181;East E. Earthfort Mountains;x
+307;42;135;163;East Grey Plains;x
+308;42;96;163;South Basli Plains;x
+309;84;201;216;North Grey Plains;x
+310;84;153;166;East C. Grey Plains;x
+311;168;120;167;North Levyt;x
+312;84;81;196;Southeast E. Earthfort Mountains;x
+313;0;48;155;Levyt West Bank;x
+314;0;135;205;Central Grey Plains;x
+315;126;6;219;East Grey Coast;x
+316;84;51;191;East Earthfort Mountains;x
+317;126;45;219;Hideaway;x
+318;168;183;142;Levyt City;x
+319;126;12;149;South Basli Forest;x
+320;168;126;197;Grey Mountains;x
+321;126;195;144;Southeast Basli Forest;x
+322;0;177;170;Earthfort Coasts;x
+323;84;177;141;West E. Grey Coast;x
+324;42;165;168;West Grey Coast;x
+325;0;105;200;South E. Earthfort Mountains;x
+326;0;201;145;Southwest Grey Mountains;x
+327;0;141;135;South Grey Mountains;x
+328;42;174;13;West Black Fog Mountains;x
+329;126;180;14;North W. Abimelechs;x
+330;0;186;15;Northwest Black Fog Mountains;x
+331;84;192;16;Great War Hall;x
+332;168;198;17;South W. Abimelechs;x
+333;42;204;18;North Tainted Greys;x
+334;126;210;19;Varo's Heart;x
+335;0;3;20;North W. Earthfort Mountains;x
+336;84;9;21;North Abimelechs;x
+337;168;15;22;W. Earthfort Drugar Nests;x
+338;42;21;23;Collsi Capital;x
+339;126;27;24;Tainted Greys Drugar Nests;x
+340;0;33;25;South W. Earthfort Mountains;x
+341;84;39;26;South Tainted Greys;x
+342;168;45;27;Gayl Hunting Grounds;x
+343;42;51;28;E. Earthfort Drugar Nests;x
+344;42;111;38;Huargen;x
+345;0;153;45;Stro;x
+346;0;183;50;Creche of the Gods;x
+347;42;18;58;Elfall Volcano;x
+348;168;12;57;Elfall;x
+349;168;42;62;Laaki's Womb;x
+350;168;72;67;Vane Desert;x
+351;0;120;75;Stra;x
+352;84;186;86;North Kzi;x
+353;42;198;88;South Kzi;x
+354;168;192;87;Central Kzi;x
+355;168;24;222;355;x
+356;0;42;225;Oto;x
+357;84;78;131;357;x
+358;42;90;133;Right Twin;x
+359;126;96;134;Umi;x
+360;0;132;140;West Hese Forest;x
+361;84;108;136;Central Hese Forest;x
+362;168;114;137;North Hese Forest;x
+363;84;138;141;East Jese Coast;x
+364;168;174;147;West Jese Coast;x
+365;84;168;146;Jese Castle;x
+366;42;120;138;East S. Hese Coast;x
+367;168;144;142;Southwest Hese Forest;x
+368;0;162;145;South Hese Forest;x
+369;126;126;139;West S. Hese Coast;x
+370;126;156;144;East N. Hese Coast;x
+371;126;141;14;West N. Hese Coast;x
+372;84;183;21;Topa;x
+373;126;186;149;Cenno;x
+374;0;192;150;Left Twin;x
+375;42;195;23;Belar;x
+376;168;153;87;West Gawei Coast;x
+377;42;159;88;South Solwood;x
+378;0;201;95;Anlas;x
+379;0;141;85;North Sun River;x
+380;126;135;84;West N. Hal Mountains;x
+381;0;171;90;East N. Hal Mountains;x
+382;42;189;93;Southeast N. Hal Mountains;x
+383;84;207;96;Southwest N. Hal Mountains;x
+384;84;177;91;North Solwood;x
+385;126;120;209;Sun River;x
+386;84;117;81;Northeast N. Hal Mountains;x
+387;168;183;92;North Hal Mountains;x
+388;126;165;89;Southwest S. Hal Mountains;x
+389;85;24;1;South Hal Mountains;x
+390;1;18;0;West S. Gawei Coast;x
+391;127;87;139;East S. Gawei Coast;x
+392;84;147;86;Gawei Village;x
+393;168;0;97;South Gawei Coast;x
+394;0;186;220;Gawei Castle;x
+395;168;15;227;Kami;x
+396;43;36;3;Khes;x
+397;43;96;13;Maku;x
+398;42;57;208;West N. Dusk Sea;x
+399;126;93;214;North Dusk Sea;x
+400;0;165;155;x;x
+401;84;12;136;x;x
+402;168;129;57;x;x
+403;84;45;206;East N. Dusk Sea;x
+404;0;6;135;x;x
+405;126;186;194;x;x
+406;126;30;139;x;x
+407;168;141;222;x;x
+408;84;195;131;x;x
+409;168;81;212;x;x
+410;0;39;205;x;x
+411;126;141;59;x;x
+412;42;135;58;x;x
+413;168;207;162;x;x
+414;0;147;60;x;x
+415;84;153;61;x;x
+416;126;66;174;x;x
+417;168;21;202;x;x
+418;126;171;64;x;x
+419;84;15;201;x;x
+420;168;159;62;x;x
+421;42;165;63;x;x
+422;0;192;195;x;x
+423;84;18;166;x;x
+424;168;174;192;x;x
+425;84;168;191;x;x
+426;0;102;180;x;x
+427;126;189;159;x;x
+428;42;30;168;x;x
+429;168;201;132;x;x
+430;0;36;140;x;x
+431;0;177;65;x;x
+432;0;207;70;x;x
+433;0;132;185;x;x
+434;126;201;69;x;x
+435;42;147;223;x;x
+436;126;9;129;x;x
+437;126;6;164;x;x
+438;126;129;149;x;x
+439;168;27;132;x;x
+440;0;129;220;x;x
+441;84;0;71;x;x
+442;168;144;187;x;x
+443;0;72;175;x;x
+444;168;171;227;x;x
+445;0;42;170;x;x
+446;168;111;217;x;x
+447;126;96;179;x;x
+448;42;177;128;x;x
+449;84;48;171;x;x
+450;42;150;188;x;x
+451;42;0;163;x;x
+452;168;6;72;x;x
+453;84;183;66;x;x
+454;168;189;67;x;x
+455;42;195;68;x;x
+456;42;12;73;x;x
+457;84;51;136;x;x
+458;126;126;184;x;x
+459;126;183;129;x;x
+460;84;141;151;x;x
+461;84;138;186;x;x
+462;0;195;160;x;x
+463;42;180;193;x;x
+464;42;27;203;x;x
+465;168;84;177;x;x
+466;84;171;156;x;x
+467;0;24;75;x;x
+468;168;36;77;x;x
+469;42;24;138;x;x
+470;126;123;219;x;x
+471;84;105;216;x;x
+472;42;210;198;x;x
+473;0;159;225;x;x
+474;126;36;169;x;x
+475;126;18;74;x;x
+476;0;99;215;x;x
+477;168;57;137;x;x
+478;0;75;140;x;x
+479;42;33;133;x;x
+480;42;123;148;x;x
+481;0;162;190;x;x
+482;84;165;226;x;x
+483;0;15;130;x;x
+484;0;69;210;x;x
+485;126;99;144;x;x
+486;126;3;199;x;x
+487;42;87;213;x;x
+488;84;30;76;x;x
+489;84;198;196;x;x
+490;168;66;82;x;x
+491;0;54;80;x;x
+492;42;72;83;x;x
+493;84;135;221;x;x
+494;42;117;218;x;x
+495;42;93;143;x;x
+496;42;3;128;x;x
+497;126;0;134;x;x
+498;168;114;182;x;x
+499;0;12;165;x;x
+500;84;75;211;x;x
+501;168;177;157;x;x
+502;42;207;133;x;x
+503;126;48;79;x;x
+504;84;60;81;x;x
+505;0;189;130;x;x
+506;168;117;147;x;x
+507;0;45;135;x;x
+508;126;159;154;x;x
+509;126;84;14;x;x
+510;168;123;82;x;x
+511;0;105;145;x;x
+512;42;42;78;x;x
+513;126;78;84;x;x
+514;168;204;197;x;x
+515;126;33;204;x;x
+516;42;153;153;x;x
+517;84;21;131;x;x
+518;42;63;138;x;x
+519;42;171;48;x;x
+520;168;102;72;x;x
+521;42;138;78;x;x
+522;0;150;80;x;x
+523;84;3;91;x;x

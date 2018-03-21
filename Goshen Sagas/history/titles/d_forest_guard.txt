@@ -1,0 +1,7 @@
+1000.1.1 = {
+	liege = k_yava
+}
+1900.1.1 = {
+	liege = 0
+	active = no
+}

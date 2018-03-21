@@ -1,0 +1,18 @@
+#######################
+# Etzu Berth
+#######################
+
+#County Title
+title = c_etzu_berth
+
+#Settlements
+max_settlements = 3
+b_etzu_berth = castle
+b_etzu_berth_city = city
+b_etzu_berth_temple = temple
+
+#Settings
+culture = zuvak
+religion = zuvak_rel
+
+#History

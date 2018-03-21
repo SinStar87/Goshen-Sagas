@@ -1,0 +1,1153 @@
+decisions = {
+	employ_diplomat = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_diplomat = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_soldier = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_soldier = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_steward = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_steward = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_intriguer = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_intriguer = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_learnedman = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_priest = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_woman = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_character = {
+				random_traits = yes
+				female = yes
+				dynasty = random
+				age = 25
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+	}
+	employ_medicus = {
+		potential = {
+			NOT = {
+				any_courtier = { trait = is_medicus }
+			}
+		}
+		allow = {
+			scaled_wealth = 0.2
+		}
+		effect = {
+			scaled_wealth = -0.2
+			create_random_priest = {
+				random_traits = yes
+				dynasty = random
+				female = no
+				trait = is_medicus
+				age = 40
+				health = 5
+				fertility = 0.6
+			}
+			new_character = {
+				hidden_tooltip = {
+					IF = {
+						limit = { NOT = { has_combat_prowess_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = noncombatant
+							}
+							1 = {
+								add_trait = scrapper
+							}
+							1 = {
+								add_trait = fighter
+							}
+							1 = {
+								add_trait = champion
+							}
+							1 = {
+								add_trait = legend
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_openness_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = susceptible
+							}
+							1 = {
+								add_trait = receptive
+							}
+							1 = {
+								add_trait = impartial
+							}
+							1 = {
+								add_trait = biased
+							}
+							1 = {
+								add_trait = prejudiced
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_planning_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = controlling
+							}
+							1 = {
+								add_trait = calculating
+							}
+							1 = {
+								add_trait = willful
+							}
+							1 = {
+								add_trait = erratic
+							}
+							1 = {
+								add_trait = irrational
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_sociable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = extrovert
+							}
+							1 = {
+								add_trait = friendly
+							}
+							1 = {
+								add_trait = cordial
+							}
+							1 = {
+								add_trait = cold
+							}
+							1 = {
+								add_trait = introvert
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_agreeable_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = overeager
+							}
+							1 = {
+								add_trait = sympathetic
+							}
+							1 = {
+								add_trait = responsive
+							}
+							1 = {
+								add_trait = unwilling
+							}
+							1 = {
+								add_trait = irreconcilable
+							}
+						}
+					}
+					IF = {
+						limit = { NOT = { has_worry_trait_trigger = yes } }
+						random_list = {
+							1 = {
+								add_trait = carefree
+							}
+							1 = {
+								add_trait = idealist
+							}
+							1 = {
+								add_trait = pragmatic
+							}
+							1 = {
+								add_trait = cynic
+							}
+							1 = {
+								add_trait = pessimist
+							}
+						}
+					}
+					IF = {
+						limit = {
+							culture = yava
+							NOT = { trait = yava_trait }
+						}
+						add_trait = yava_trait
+					}
+					IF = {
+						limit = {
+							culture = huargens
+							NOT = { trait = huargen_trait }
+						}
+						add_trait = huargen_trait
+					}
+					IF = {
+						limit = {
+							culture = kalan
+							NOT = { trait = kalan_trait }
+						}
+						add_trait = kalan_trait
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

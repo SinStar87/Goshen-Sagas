@@ -1,0 +1,10 @@
+1000.1.1 = {
+	liege = k_anin
+}
+1990.1.1 = {
+	holder = 2108
+	liege = 0
+	effect = {
+		make_primary_title = yes
+	}
+}

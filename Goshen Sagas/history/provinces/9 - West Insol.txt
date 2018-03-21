@@ -1,0 +1,20 @@
+#####################
+# West Insol
+#####################
+
+#County Title
+title = c_w_insol
+
+#Settlements
+max_settlements = 3
+b_w_insol = castle
+b_w_insol_city = city
+b_w_insol_temple = temple
+
+#Settings
+culture = poghess
+religion = poghess_rel
+
+#History
+#867.1.1 = {
+#}

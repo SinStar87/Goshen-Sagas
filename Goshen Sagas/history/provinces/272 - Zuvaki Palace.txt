@@ -1,0 +1,18 @@
+#####################
+# Zuvaki Palace
+#####################
+
+#County Title
+title = c_zuvaki_palace
+
+#Settlements
+max_settlements = 3
+b_zuvaki_palace = castle
+b_zuvaki_palace_city = city
+b_zuvaki_palace_temple = temple
+
+#Settings
+culture = zuvak
+religion = zuvak_rel
+
+#History

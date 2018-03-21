@@ -1,0 +1,5 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+gawei_invasion;Gawei Invasion;;;;;;;;;;;;;x
+CB_NAME_GAWEI_INVASION;Gawei Invasion of [Title.GetName];;;;;;;;;;;;;x
+WAR_NAME_GAWEI_INVASION;$ORDER$$FIRST_ADJ$ Invasion of $SECOND$;;;;;;;;;;;;;x
+gawei_invasion_desc;Launch an invasion of §Y$TITLE$§! in order to bring the lands under the Supreme.;;;;;;;;;;;;;x

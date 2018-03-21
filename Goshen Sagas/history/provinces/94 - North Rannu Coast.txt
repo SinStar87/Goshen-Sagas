@@ -1,0 +1,20 @@
+########################
+# North Rannu Coast
+########################
+
+#County Title
+title = c_n_rannu_coast
+
+#Settlements
+max_settlements = 3
+b_n_rannu_coast = castle
+b_n_rannu_coast_city = city
+b_n_rannu_coast_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

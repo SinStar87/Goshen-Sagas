@@ -1,0 +1,20 @@
+#####################
+# North Upper Navo River
+#####################
+
+#County Title
+title = c_n_upper_navo_river
+
+#Settlements
+max_settlements = 3
+b_n_upper_navo_river = castle
+b_n_upper_navo_river_city = city
+b_n_upper_navo_river_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History
+#867.1.1 = {
+#}

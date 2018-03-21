@@ -1,0 +1,6 @@
+1000.1.1 = {
+	liege = d_anin_ko_coast
+}
+1990.1.1 = {
+	holder = 2058
+}

@@ -1,0 +1,20 @@
+#####################
+# Kami
+#####################
+
+#County Title
+title = c_kami
+
+#Settlements
+max_settlements = 3
+b_kami = castle
+b_kami_city = city
+b_kami_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

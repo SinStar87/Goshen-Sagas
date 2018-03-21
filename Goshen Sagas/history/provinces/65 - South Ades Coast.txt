@@ -1,0 +1,20 @@
+#####################
+# South Ades Coast
+#####################
+
+#County Title
+title = c_s_ades_coast
+
+#Settlements
+max_settlements = 3
+b_s_ades_coast = castle
+b_s_ades_coast_city = city
+b_s_ades_coast_temple = temple
+
+#Settings
+culture = ades
+religion = ades_rel
+
+#History
+#867.1.1 = {
+#}

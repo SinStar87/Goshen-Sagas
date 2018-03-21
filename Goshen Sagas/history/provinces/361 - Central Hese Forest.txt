@@ -1,0 +1,20 @@
+#####################
+# Central Hese Forest
+#####################
+
+#County Title
+title = c_c_hese_forest
+
+#Settlements
+max_settlements = 3
+b_c_hese_forest = castle
+b_c_hese_forest_city = city
+b_c_hese_forest_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History
+#867.1.1 = {
+#}

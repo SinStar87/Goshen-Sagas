@@ -1,0 +1,20 @@
+########################
+# Central Kzi
+########################
+
+#County Title
+title = c_c_kzi
+
+#Settlements
+max_settlements = 3
+b_c_kzi = castle
+b_c_kzi_city = city
+b_c_kzi_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,18 @@
+#########################
+# Blav
+#########################
+
+#County Title
+title = c_blav
+
+#Settlements
+max_settlements = 3
+b_blav = castle
+b_blav_city = city
+b_blav_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History

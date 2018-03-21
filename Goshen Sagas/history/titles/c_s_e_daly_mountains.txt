@@ -1,0 +1,7 @@
+1000.1.1 = {
+	liege = d_s_rannu_coast
+}
+1995.1.1 = {
+	liege = k_rannu
+	holder = 18002
+}

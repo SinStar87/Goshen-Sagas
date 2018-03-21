@@ -1,0 +1,20 @@
+####################
+# Southeast Ko
+####################
+
+#County Title
+title = c_se_ko
+
+#Settlements
+max_settlements = 3
+b_se_ko = castle
+b_se_ko_city = city
+b_se_ko_temple = temple
+
+#Settings
+culture = ades
+religion = ades_rel
+
+#History
+#1.1.1 = {
+#}

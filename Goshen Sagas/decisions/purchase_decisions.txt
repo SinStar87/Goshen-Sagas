@@ -1,0 +1,424 @@
+decisions = {
+	purchase_sword = {
+		potential = {
+			NOT = {
+				has_sword_trigger = yes
+			}
+		}
+		allow = {
+			OR = {
+				wealth = 100
+				trait = swordsmith
+			}
+			OR = {
+				swordsmith = {
+					at_location = ROOT
+					prisoner = no
+					NOR = {
+						war_with = ROOT
+						employer = {
+							war_with = ROOT
+						}
+						any_liege = {
+							war_with = ROOT
+						}
+					}
+				}
+				AND = {
+					trait = swordsmith
+					prisoner = no
+				}
+			}
+		}
+		effect = {
+			IF = {
+				limit = {
+					NOT = { trait = swordsmith }
+				}
+				wealth = -100
+			}
+			swordsmith = {
+				limit = {
+					prisoner = no
+					OR = {
+						character = ROOT
+						AND = {
+							NOT = { character = ROOT }
+							at_location = ROOT
+							NOR = {
+								war_with = ROOT
+								employer = {
+									war_with = ROOT
+								}
+								any_liege = {
+									war_with = ROOT
+								}
+							}
+						}
+					}
+				}
+				random_character = {
+					limit = { character = PREV }
+					character_event = { id = goshen_swordsmith_events.0 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	purchase_armor = {
+		potential = {
+			NOT = {
+				has_armor_trigger = yes
+			}
+		}
+		allow = {
+			OR = {
+				wealth = 100
+				trait = swordsmith
+			}
+			OR = {
+				swordsmith = {
+					at_location = ROOT
+					prisoner = no
+					NOR = {
+						war_with = ROOT
+						employer = {
+							war_with = ROOT
+						}
+						any_liege = {
+							war_with = ROOT
+						}
+					}
+				}
+				AND = {
+					trait = swordsmith
+					prisoner = no
+				}
+			}
+		}
+		effect = {
+			IF = {
+				limit = {
+					NOT = { trait = swordsmith }
+				}
+				wealth = -100
+			}
+			swordsmith = {
+				limit = {
+					prisoner = no
+					OR = {
+						character = ROOT
+						AND = {
+							NOT = { character = ROOT }
+							at_location = ROOT
+							NOR = {
+								war_with = ROOT
+								employer = {
+									war_with = ROOT
+								}
+								any_liege = {
+									war_with = ROOT
+								}
+							}
+						}
+					}
+				}
+				random_character = {
+					limit = { character = PREV }
+					character_event = { id = goshen_swordsmith_events.2 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+targetted_decisions = {
+	purchase_sword_other = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			NOT = {
+				has_sword_trigger = yes
+			}
+		}
+		potential = {
+			OR = {
+				father = { character = FROM }
+				mother = { character = FROM }
+				any_child = { character = FROM }
+				any_sibling = { character = FROM }
+				any_spouse = { character = FROM }
+				any_lover = { character = FROM }
+				any_friend = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			FROM = {
+				wealth = 100
+				prisoner = no
+			}
+			swordsmith = {
+				OR = {
+					character = FROM
+					AND = {
+						at_location = FROM
+						NOR = {
+							war_with = FROM
+							employer = {
+								war_with = FROM
+							}
+							any_liege = {
+								war_with = FROM
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				IF = {
+					limit = {
+						NOT = { trait = swordsmith }
+					}
+					wealth = -100
+				}
+			}
+			character_event = { id = goshen_swordsmith_events.10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	purchase_armor_other = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			NOT = {
+				has_armor_trigger = yes
+			}
+		}
+		potential = {
+			OR = {
+				father = { character = FROM }
+				mother = { character = FROM }
+				any_child = { character = FROM }
+				any_sibling = { character = FROM }
+				any_spouse = { character = FROM }
+				any_lover = { character = FROM }
+				any_friend = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			FROM = {
+				wealth = 100
+				prisoner = no
+			}
+			swordsmith = {
+				OR = {
+					character = FROM
+					AND = {
+						at_location = FROM
+						NOR = {
+							war_with = FROM
+							employer = {
+								war_with = FROM
+							}
+							any_liege = {
+								war_with = FROM
+							}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			FROM = {
+				IF = {
+					limit = {
+						NOT = { trait = swordsmith }
+					}
+					wealth = -100
+				}
+			}
+			character_event = { id = goshen_swordsmith_events.21 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gift_beonpup = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			trait = pet_beonpup
+		}
+		potential = {
+			OR = {
+				any_friend = { character = FROM }
+				any_lover = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			is_alive = yes
+			NOR = {
+				trait = pet_beonpup
+				trait = pet_beon
+			}
+		}
+		effect = {
+			add_trait = pet_beonpup
+			FROM = { remove_trait = pet_beonpup }
+			opinion = { modifier = opinion_very_grateful who = FROM years = 10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gift_kununpup = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			trait = pet_kununpup
+		}
+		potential = {
+			NOT = { character = FROM }
+			OR = {
+				any_friend = { character = FROM }
+				any_lover = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			is_alive = yes
+			NOR = {
+				trait = pet_kununpup
+				trait = pet_kunun
+			}
+		}
+		effect = {
+			add_trait = pet_kununpup
+			FROM = { remove_trait = pet_kununpup }
+			opinion = { modifier = opinion_very_grateful who = FROM years = 10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gift_pleencub = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			trait = pet_pleencub
+		}
+		potential = {
+			prisoner = no
+			NOT = { character = FROM }
+			OR = {
+				any_friend = { character = FROM }
+				any_lover = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			is_alive = yes
+			OR = {
+				culture = yava
+				FROM = {
+					top_liege = { character = ROOT }
+				}
+			}
+			NOR = {
+				trait = pet_pleencub
+				trait = pet_pleen
+			}
+		}
+		effect = {
+			add_trait = pet_pleencub
+			FROM = { remove_trait = pet_pleencub }
+			opinion = { modifier = opinion_very_grateful who = FROM years = 10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gift_tochonkitten = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			trait = pet_tochonkitten
+		}
+		potential = {
+			OR = {
+				any_friend = { character = FROM }
+				any_lover = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			is_alive = yes
+			NOR = {
+				trait = pet_tochonkitten
+				trait = pet_tochon
+			}
+		}
+		effect = {
+			add_trait = pet_tochonkitten
+			FROM = { remove_trait = pet_tochonkitten }
+			opinion = { modifier = opinion_very_grateful who = FROM years = 10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	gift_tusklet = {
+		filter = realm
+		ai_target_filter = self
+
+		from_potential = {
+			ai = no
+			trait = pet_tusklet
+		}
+		potential = {
+			OR = {
+				any_friend = { character = FROM }
+				any_lover = { character = FROM }
+				any_dynasty_member = { character = FROM }
+			}
+		}
+		allow = {
+			is_alive = yes
+			NOR = {
+				trait = pet_tusklet
+				trait = pet_tusken
+			}
+		}
+		effect = {
+			add_trait = pet_tusklet
+			FROM = { remove_trait = pet_tusklet }
+			opinion = { modifier = opinion_very_grateful who = FROM years = 10 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

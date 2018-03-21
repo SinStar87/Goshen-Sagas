@@ -1,0 +1,20 @@
+#####################
+# North Basli Plains
+#####################
+
+#County Title
+title = c_n_basli_plains
+
+#Settlements
+max_settlements = 3
+b_n_basli_plains = castle
+b_n_basli_plains_city = city
+b_n_basli_plains_temple = temple
+
+#Settings
+culture = basli
+religion = basli_rel
+
+#History
+#867.1.1 = {
+#}

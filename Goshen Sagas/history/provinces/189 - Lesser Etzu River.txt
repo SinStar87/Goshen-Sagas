@@ -1,0 +1,20 @@
+#####################
+# Lesser Etzu River
+#####################
+
+#County Title
+title = c_lesser_etzu_river
+
+#Settlements
+max_settlements = 3
+b_lesser_etzu_river = castle
+b_lesser_etzu_river_city = city
+b_lesser_etzu_river_temple = temple
+
+#Settings
+culture = zuvak
+religion = zuvak_rel
+
+#History
+#867.1.1 = {
+#}

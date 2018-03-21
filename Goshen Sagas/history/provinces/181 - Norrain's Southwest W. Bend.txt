@@ -1,0 +1,20 @@
+############################
+# Norrain's Southwest W. Bend
+############################
+
+#County Title
+title = c_norrains_southwest_w_bend
+
+#Settlements
+max_settlements = 3
+b_norrains_southwest_w_bend = castle
+b_norrains_southwest_w_bend_city = city
+b_norrains_southwest_w_bend_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+#867.1.1 = {
+#}

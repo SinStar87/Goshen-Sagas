@@ -1,0 +1,20 @@
+#######################
+# West Navo Coast
+#######################
+
+#County Title
+title = c_w_navo_coast
+
+#Settlements
+max_settlements = 3
+b_w_navo_coast = castle
+b_w_navo_coast_city = city
+b_w_navo_coast_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History
+#867.1.1 = {
+#}

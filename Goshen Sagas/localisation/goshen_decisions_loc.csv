@@ -1,0 +1,61 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Misc Decisions
+employ_diplomat;Hire a Diplomat;;;;;;;;;;;;;x
+employ_diplomat_desc;You can hire a random realm Diplomat to work in your court.;;;;;;;;;;;;;x
+employ_soldier;Hire a Soldier;;;;;;;;;;;;;x
+employ_soldier_desc;You can hire a random realm Soldier to work in your court.;;;;;;;;;;;;;x
+employ_steward;Hire a Steward;;;;;;;;;;;;;x
+employ_steward_desc;You can hire a random realm Steward to work in your court.;;;;;;;;;;;;;x
+employ_intriguer;Hire a Spy;;;;;;;;;;;;;x
+employ_intriguer_desc;You can hire a random realm Spy to work in your court.;;;;;;;;;;;;;x
+employ_learnedman;Hire a Learnedman;;;;;;;;;;;;;x
+employ_learnedman_desc;You can hire a random realm Learnedman to work in your court.;;;;;;;;;;;;;x
+employ_woman;Hire a Woman;;;;;;;;;;;;;x
+employ_woman_desc;You can hire a random realm Woman to work in your court.;;;;;;;;;;;;;x
+employ_medicus;Hire a Medicus;;;;;;;;;;;;;x
+employ_medicus_desc;You can hire a random realm Medicus to work in your court.;;;;;;;;;;;;;x
+
+#Guard Decisions
+form_a_guard;Form a Guard;;;;;;;;;;;;;x
+form_a_guard_desc;You are a King without an Elite Guard.;;;;;;;;;;;;;x
+form_a_guard_named;Form a Guard on [Root.GetFirstName].;;;;;;;;;;;;;x
+grant_gawei_sword;Grant Will Sword;;;;;;;;;;;;;x
+grant_gawei_sword_desc;You are lacking one of the Will and can elevate one of the realm Houses.;;;;;;;;;;;;;x
+grant_gawei_sword_named;Grant [Root.GetFirstName] Will Sword;;;;;;;;;;;;;x
+name_to_guard;Name to the Guard;;;;;;;;;;;;;x
+name_to_guard_desc;Your Guard Corps is lacking so you can name one of the Realm.;;;;;;;;;;;;;x
+name_to_guard_named;Name [Root.GetFirstName] to the Guard;;;;;;;;;;;;;x
+name_personal_guardsman;Name as Personal Guard;;;;;;;;;;;;;x
+name_personal_guardsman_desc;You're lacking a Personal Guard.;;;;;;;;;;;;;x
+name_personal_guardsman_named;Name [Root.GetFirstName] as Personal Guard;;;;;;;;;;;;;x
+return_to_guard;Return to  Guard;;;;;;;;;;;;;x
+return_to_guard_desc;One of the Guards is errant.;;;;;;;;;;;;;x
+return_to_guard_named;Return [Root.GetFirstName] to the Guard;;;;;;;;;;;;;x
+disband_guard;Disband Guard;;;;;;;;;;;;;x
+disband_guard_desc;Your Liege has too many Guard Corps.;;;;;;;;;;;;;x
+disband_guard_named;Disband one of [Root.GetFirstName]'s Guard Corps;;;;;;;;;;;;;x
+
+#Medicus Decisions
+consult_medicus;Consult a Medicus;;;;;;;;;;;;;x
+consult_medicus_desc;You are suffering from an unknown illness and can consult a Medicus.;;;;;;;;;;;;;x
+
+#Purchase Decisions
+purchase_sword;Purchase a Sword;;;;;;;;;;;;;x
+purchase_sword_desc;There is a swordsmith in the region, so you can purchase a sword.;;;;;;;;;;;;;x
+purchase_sword_other;Purchase a Sword;;;;;;;;;;;;;x
+purchase_sword_other_desc;There is a swordsmith in the region, so you can purchase a sword for [Root.GetFirstName].;;;;;;;;;;;;;x
+purchase_armor;Purchase a Set of Armor;;;;;;;;;;;;;x
+purchase_armor_desc;There is a swordsmith in the region, so you can purchase a set of armor.;;;;;;;;;;;;;x
+purchase_armor_other;Purchase a Set of Armor;;;;;;;;;;;;;x
+purchase_armor_other_desc;There is a swordsmith in the region, so you can purchase a set of armor for [Root.GetFirstName].;;;;;;;;;;;;;x
+gift_beonpup;Gift [Root.GetFirstName] a beon pup;;;;;;;;;;;;;x
+gift_beonpup_desc;You have a beon pup that you can give to [Root.GetFirstName].;;;;;;;;;;;;;x
+gift_kununpup;Gift [Root.GetFirstName] a kunun pup;;;;;;;;;;;;;x
+gift_kununpup_desc;You have a kunun pup that you can give to [Root.GetFirstName].;;;;;;;;;;;;;x
+gift_pleencub;Gift [Root.GetFirstName] a pleen cub;;;;;;;;;;;;;x
+gift_pleencub_desc;You have a pleen cub that you can give to [Root.GetFirstName].;;;;;;;;;;;;;x
+gift_tochonkitten;Gift [Root.GetFirstName] a tochon kitten;;;;;;;;;;;;;x
+gift_tochonkitten_desc;You have a tochon kitten that you can give to [Root.GetFirstName].;;;;;;;;;;;;;x
+gift_tusklet;Gift [Root.GetFirstName] a tusklet;;;;;;;;;;;;;x
+gift_tusklet_desc;You have a tusklet that you can give to [Root.GetFirstName].;;;;;;;;;;;;;x

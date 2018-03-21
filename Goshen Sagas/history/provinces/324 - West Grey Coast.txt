@@ -1,0 +1,21 @@
+#####################
+# West Grey Coast
+#####################
+
+#County Title
+title = c_w_grey_coast
+
+#Settlements
+max_settlements = 3
+b_w_grey_coast = castle
+b_w_grey_coast_city = city
+b_w_grey_coast_temple = temple
+
+#Settings
+culture = grey_tribes
+religion = grey_tribes_rel
+
+#History
+1900.1.1 = {
+	b_w_grey_coast = ca_special_levytan_tradepost
+}

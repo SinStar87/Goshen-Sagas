@@ -1,0 +1,20 @@
+#####################
+# Northwest N. Vitat Canyon
+#####################
+
+#County Title
+title = c_nw_n_vitat_canyon
+
+#Settlements
+max_settlements = 3
+b_nw_n_vitat_canyon = castle
+b_nw_n_vitat_canyon_city = city
+b_nw_n_vitat_canyon_temple = temple
+
+#Settings
+culture = vitat
+religion = vitat_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,6 @@
+1000.1.1 = {
+	liege = d_ne_yava_forest
+}
+1990.1.1 = {
+	holder = 21108
+}

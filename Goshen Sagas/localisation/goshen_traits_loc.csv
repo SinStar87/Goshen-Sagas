@@ -1,0 +1,386 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+###########
+#Educations
+###########
+
+#Diplomats
+agent;Agent;;;;;;;;;;;;;x
+agent_desc;A low level diplomat.;;;;;;;;;;;;;x
+mediator;Mediator;;;;;;;;;;;;;x
+mediator_desc;A mid level diplomat.;;;;;;;;;;;;;x
+minister;Minister;;;;;;;;;;;;;x
+minister_desc;A high level diplomat.;;;;;;;;;;;;;x
+emissary;Emissary;;;;;;;;;;;;;x
+emissary_desc;A master level diplomat.;;;;;;;;;;;;;x
+
+#Officers
+soldier;Soldier;;;;;;;;;;;;;x
+soldier_desc;A low level officer.;;;;;;;;;;;;;x
+tactician;Tactician;;;;;;;;;;;;;x
+tactician_desc;A mid level officer.;;;;;;;;;;;;;x
+strategist;Strategist;;;;;;;;;;;;;x
+strategist_desc;A high level officer.;;;;;;;;;;;;;x
+mastermind;Mastermind;;;;;;;;;;;;;x
+mastermind_desc;A master level officer.;;;;;;;;;;;;;x
+
+#Stewards
+clerk;Clerk;;;;;;;;;;;;;x
+clerk_desc;A low level steward.;;;;;;;;;;;;;x
+entrepreneur;Entrepreneur;;;;;;;;;;;;;x
+entrepreneur_desc;A mid level steward.;;;;;;;;;;;;;x
+financier;Financier;;;;;;;;;;;;;x
+financier_desc;A high level steward.;;;;;;;;;;;;;x
+mogul;Mogul;;;;;;;;;;;;;x
+mogul_desc;A master level steward.;;;;;;;;;;;;;x
+
+#Spies
+rascal;Rascal;;;;;;;;;;;;;x
+rascal_desc;A low level spy.;;;;;;;;;;;;;x
+rogue;Rogue;;;;;;;;;;;;;x
+rogue_desc;A mid level spy.;;;;;;;;;;;;;x
+schemer;Schemer;;;;;;;;;;;;;x
+schemer_desc;A high level spy.;;;;;;;;;;;;;x
+conspirator;Conspirator;;;;;;;;;;;;;x
+conspirator_desc;A master level spy.;;;;;;;;;;;;;x
+
+#Academics
+thinker;Thinker;;;;;;;;;;;;;x
+thinker_desc;A low level academic.;;;;;;;;;;;;;x
+intellectual;Intellectual;;;;;;;;;;;;;x
+intellectual_desc;A mid level academic.;;;;;;;;;;;;;x
+scholar;Scholar;;;;;;;;;;;;;x
+scholar_desc;A high level academic.;;;;;;;;;;;;;x
+sage;Sage;;;;;;;;;;;;;x
+sage_desc;A master level academic.;;;;;;;;;;;;;x
+
+#Combat Prowess
+noncombatant;Noncombatant;;;;;;;;;;;;;x
+noncombatant_desc;A low level fighter.;;;;;;;;;;;;;x
+scrapper;Scrapper;;;;;;;;;;;;;x
+scrapper_desc;A mid level fighter.;;;;;;;;;;;;;x
+fighter;Fighter;;;;;;;;;;;;;x
+fighter_desc;A high level fighter.;;;;;;;;;;;;;x
+champion;Champion;;;;;;;;;;;;;x
+champion_desc;A champion level fighter.;;;;;;;;;;;;;x
+legend;Legend;;;;;;;;;;;;;x
+legend_desc;A legendary fighter.;;;;;;;;;;;;;x
+
+###################
+#Personality Traits
+###################
+
+#Openness
+susceptible;Susceptible;;;;;;;;;;;;;x
+susceptible_desc;Open to any ideas.;;;;;;;;;;;;;x
+receptive;Receptive;;;;;;;;;;;;;x
+receptive_desc;Open of most ideas.;;;;;;;;;;;;;x
+impartial;Impartial;;;;;;;;;;;;;x
+impartial_desc;Balanced view of ideas.;;;;;;;;;;;;;x
+biased;Biased;;;;;;;;;;;;;x
+biased_desc;Closed to many ideas.;;;;;;;;;;;;;x
+prejudiced;Prejudiced;;;;;;;;;;;;;x
+prejudiced_desc;Closed to all but a few ideas.;;;;;;;;;;;;;x
+
+#Planning
+controlling;Controlling;;;;;;;;;;;;;x
+controlling_desc;Has plans for everything.;;;;;;;;;;;;;x
+calculating;Calculating;;;;;;;;;;;;;x
+calculating_desc;Creates plans for every occasion.;;;;;;;;;;;;;x
+willful;Willful;;;;;;;;;;;;;x
+willful_desc;Acts according to own desires.;;;;;;;;;;;;;x
+erratic;Erratic;;;;;;;;;;;;;x
+erratic_desc;Acts randomly at times.;;;;;;;;;;;;;x
+irrational;Irrational;;;;;;;;;;;;;x
+irrational_desc;Often acts against logic.;;;;;;;;;;;;;x
+
+#Sociable
+extrovert;Extrovert;;;;;;;;;;;;;x
+extrovert_desc;Compelled to be with others.;;;;;;;;;;;;;x
+friendly;Friendly;;;;;;;;;;;;;x
+friendly_desc;Enjoys being with others.;;;;;;;;;;;;;x
+cordial;Cordial;;;;;;;;;;;;;x
+cordial_desc;Likes being alone and with others equally.;;;;;;;;;;;;;x
+cold;Cold;;;;;;;;;;;;;x
+cold_desc;Dislikes being with others.;;;;;;;;;;;;;x
+introvert;Introvert;;;;;;;;;;;;;x
+introvert_desc;The thought of being around others is draining.;;;;;;;;;;;;;x
+
+#Agreeable
+overeager;Overeager;;;;;;;;;;;;;x
+overeager_desc;Extremely eager to do for others.;;;;;;;;;;;;;x
+sympathetic;Sympathetic;;;;;;;;;;;;;x
+sympathetic_desc;Enjoys doing for others.;;;;;;;;;;;;;x
+responsive;Responsive;;;;;;;;;;;;;x
+responsive_desc;Willing to do for others.;;;;;;;;;;;;;x
+unwilling;Unwilling;;;;;;;;;;;;;x
+unwilling_desc;Unwilling to do for others.;;;;;;;;;;;;;x
+irreconcilable;Irreconcilable;;;;;;;;;;;;;x
+irreconcilable_desc;Hates doing for others.;;;;;;;;;;;;;x
+
+#Worry
+carefree;Carefree;;;;;;;;;;;;;x
+carefree_desc;Worries about nothing.;;;;;;;;;;;;;x
+idealist;Idealist;;;;;;;;;;;;;x
+idealist_desc;Very little worry.;;;;;;;;;;;;;x
+pragmatic;Pragmatic;;;;;;;;;;;;;x
+pragmatic_desc;Worries about important things.;;;;;;;;;;;;;x
+cynic;cynic;;;;;;;;;;;;;x
+cynic_desc;Worries about minor things.;;;;;;;;;;;;;x
+pessimist;Pessimist;;;;;;;;;;;;;x
+pessimist_desc;Worries about everything.;;;;;;;;;;;;;x
+
+###########################
+#Health Traits
+###########################
+
+#Illnesses
+minor_illness;Minor Illness;;;;;;;;;;;;;x
+minor_illness_desc;A bit of a cough.;;;;;;;;;;;;;x
+moderate_illness;Moderate Illness;;;;;;;;;;;;;x
+moderate_illness_desc;A cough and fever.;;;;;;;;;;;;;x
+severe_illness;Severe Illness;;;;;;;;;;;;;x
+severe_illness_desc;Hacking cough, excretions, a high fever, and dizzy spells.;;;;;;;;;;;;;x
+incapacitating_illness;Incapacitating Illness;;;;;;;;;;;;;x
+incapacitating_illness_desc;Bed ridden and rarely conscience.;;;;;;;;;;;;;x
+deadly_illness;Deadly Illness;;;;;;;;;;;;;x
+deadly_illness_desc;Death is waiting.;;;;;;;;;;;;;x
+
+#Injury
+minor_injury;Minor Injury;;;;;;;;;;;;;x
+minor_injury_desc;A bit of pain.;;;;;;;;;;;;;x
+moderate_injury;Moderate Injury;;;;;;;;;;;;;x
+moderate_injury_desc;Pain and bruising around the injury.;;;;;;;;;;;;;x
+severe_injury;Severe Injury;;;;;;;;;;;;;x
+severe_injury_desc;Extreme pain with immense bruising across the body.;;;;;;;;;;;;;x
+incapacitating_injury;Incapacitating Injury;;;;;;;;;;;;;x
+incapacitating_injury_desc;Bed ridden and unresponsive.;;;;;;;;;;;;;x
+deadly_injury;Deadly Injury;;;;;;;;;;;;;x
+deadly_injury_desc;Death is waiting, sickle in hand.;;;;;;;;;;;;;x
+
+#Others
+pregnant;Pregnant;;;;;;;;;;;;;x
+pregnant_desc;With Child.;;;;;;;;;;;;;x
+sickly;Sickly;;;;;;;;;;;;;x
+sickly_desc;Born sickly, probably won't survive long.;;;;;;;;;;;;;x
+blinded;Blinded;;;;;;;;;;;;;x
+blinded_desc;Has no eyes to see.;;;;;;;;;;;;;x
+eunuch;Eunuch;;;;;;;;;;;;;x
+eunuch_desc;Genitals have been cut off.;;;;;;;;;;;;;x
+
+###########################
+#Congenital Traits
+###########################
+
+#Congenital
+twin;Twin;;;;;;;;;;;;;x
+twin_desc;Shared a womb with another.;;;;;;;;;;;;;x
+bastard;Bastard;;;;;;;;;;;;;x
+bastard_desc;Born out of wedlock.;;;;;;;;;;;;;x
+child_of_consort;Child of Consort;;;;;;;;;;;;;x
+child_of_consort_desc;Born to a lesser spouse.;;;;;;;;;;;;;x
+legit_bastard;Legitimised Bastard;;;;;;;;;;;;;x
+legit_bastard_desc;Born out of wedlock, but now in succession.;;;;;;;;;;;;;x
+born_in_the_purple;High Born;;;;;;;;;;;;;x
+born_in_the_purple_desc;Was born to a family of High Rank.;;;;;;;;;;;;;x
+
+#Strength
+strong;Strong;;;;;;;;;;;;;x
+strong_desc;A great strength pours out of you.;;;;;;;;;;;;;x
+halenhearty;Hale n Hearty;;;;;;;;;;;;;x
+halenhearty_desc;Bright eyed and in the pink.;;;;;;;;;;;;;x
+weak;Weak;;;;;;;;;;;;;x
+weak_desc;Barely capable of supporting your own frame.;;;;;;;;;;;;;x
+feeble;Feeble;;;;;;;;;;;;;x
+feeble_desc;Completely undersized and often sick.;;;;;;;;;;;;;x
+
+#Height
+huargen_trait;Huargen;;;;;;;;;;;;;x
+huargen_trait_desc;One of the giantfolk of Huargen's Islands.;;;;;;;;;;;;;x
+colossal;Colossal;;;;;;;;;;;;;x
+colossal_desc;Often mistaken for a Huargen.;;;;;;;;;;;;;x
+tall;Tall;;;;;;;;;;;;;x
+tall_desc;A bit taller than average.;;;;;;;;;;;;;x
+small;Small;;;;;;;;;;;;;x
+small_desc;A bit shorter than average.;;;;;;;;;;;;;x
+dwarf;Dwarf;;;;;;;;;;;;;x
+dwarf_desc;Born of stunted size with smaller than usual arms, torso, and legs.;;;;;;;;;;;;;x
+yava_trait;Yavan;;;;;;;;;;;;;x
+yava_trait_desc;One of the pigmies of the Yava Forest.;;;;;;;;;;;;;x
+
+#Looks
+gorgeous;Gorgeous;;;;;;;;;;;;;x
+gorgeous_desc;A great Beauty.;;;;;;;;;;;;;x
+fair;Fair;;;;;;;;;;;;;x
+fair_desc;Pleasant and appealing form.;;;;;;;;;;;;;x
+lackluster;Lackluster;;;;;;;;;;;;;x
+lackluster_desc;Drab and slightly unappealing looks.;;;;;;;;;;;;;x
+ugly;Ugly;;;;;;;;;;;;;x
+ugly_desc;An unfortunate accident of birth.;;;;;;;;;;;;;x
+
+#Intelligence
+prodigy;Prodigy;;;;;;;;;;;;;x
+prodigy_desc;A Genius level Intellect.;;;;;;;;;;;;;x
+clever;Clever;;;;;;;;;;;;;x
+clever_desc;A High level Intellect.;;;;;;;;;;;;;x
+inept;Inept;;;;;;;;;;;;;x
+inept_desc;A Low level intellect.;;;;;;;;;;;;;x
+fool;Fool;;;;;;;;;;;;;x
+fool_desc;A complete and utter fool.;;;;;;;;;;;;;x
+
+#Special Characteristics
+kalan_trait;Kalani;;;;;;;;;;;;;x
+kalan_trait_desc;One of the Kalani.;;;;;;;;;;;;;x
+hunute_trait;Hunute;;;;;;;;;;;;;x
+hunute_trait_desc;One of the Hunute.;;;;;;;;;;;;;x
+
+###########################
+#Commander Traits
+###########################
+
+#Commander Traits
+good_attacker;Attacker;;;;;;;;;;;;;x
+good_attacker_desc;Excels at the attack.;;;;;;;;;;;;;x
+good_defender;Defender;;;;;;;;;;;;;x
+good_defender_desc;Excels at the defense.;;;;;;;;;;;;;x
+good_sieger;Sieger;;;;;;;;;;;;;x
+good_sieger_desc;Excels at sieges.;;;;;;;;;;;;;x
+
+living_life;Living Life;;;;;;;;;;;;;x
+living_life_desc;Living life as best as one can.;;;;;;;;;;;;;x
+childhood_trait;Childhood;;;;;;;;;;;;;x
+childhood_trait_desc;A child, living through childhood as best as one can.;;;;;;;;;;;;;x
+
+###########################
+#Sword Traits
+###########################
+
+#Gawei Sword
+gawei_sword_1;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_1_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_2;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_2_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_3;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_3_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_4;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_4_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_5;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_5_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_6;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_6_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_7;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_7_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_8;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_8_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+gawei_sword_9;Sword of the Will;;;;;;;;;;;;;x
+gawei_sword_9_desc;One of the 9 ancestral swords of the Gawei, traditionally carried by the 9 Wills.;;;;;;;;;;;;;x
+
+#Swordcrafting
+swordsmith;Swordsmith;;;;;;;;;;;;;x
+swordsmith_desc;An elite Swordsmith.;;;;;;;;;;;;;x
+
+#Swords
+sword_generic;Sword;;;;;;;;;;;;;x
+sword_generic_desc;A finely smithed sword.;;;;;;;;;;;;;x
+sword_gilded;Gilded Sword;;;;;;;;;;;;;x
+sword_gilded_desc;An expertly smithed sword.;;;;;;;;;;;;;x
+sword_grandeur;Grandeous Sword;;;;;;;;;;;;;x
+sword_grandeur_desc;A masterfully smithed sword.;;;;;;;;;;;;;x
+sword_crimson_bolt;Crimson Bolt;;;;;;;;;;;;;x
+sword_crimson_bolt_desc;A masterfully smithed sword, crafted from bone metal and hilted with a blood red wrap.;;;;;;;;;;;;;x
+sword_darkness;Darkness;;;;;;;;;;;;;x
+sword_darkness_desc;A masterfully smithed sword, crafted from bone metal with a blade that seems to absorb light.;;;;;;;;;;;;;x
+sword_ekers_light;Eker's Light;;;;;;;;;;;;;x
+sword_ekers_light_desc;A masterfully smithed sword, crafted from bone metal and a blade that seems to shimmer with the light of Eker.;;;;;;;;;;;;;x
+sword_flight;Flight;;;;;;;;;;;;;x
+sword_flight_desc;A masterfully smithed sword, crafted from bone metal, so sharp it cuts flesh as easily as air.;;;;;;;;;;;;;x
+sword_luxs_setting;Lux's Setting;;;;;;;;;;;;;x
+sword_luxs_setting_desc;A masterfully smithed sword, crafted from bone metal that seems to glow with the light of dusk.;;;;;;;;;;;;;x
+sword_might_abimelech;Might of Abimelech;;;;;;;;;;;;;x
+sword_might_abimelech_desc;A masterfully smithed sword, crafted from bone metal and strong enough to cleave stone.;;;;;;;;;;;;;x
+sword_roses_thorn;Rose's Thorn;;;;;;;;;;;;;x
+sword_roses_thorn_desc;A masterfully smithed sword, crafted from bone metal with a thrust that can pierce armor with ease.;;;;;;;;;;;;;x
+sword_silver_wisp;Silver Wisp;;;;;;;;;;;;;x
+sword_silver_wisp_desc;A masterfully smithed sword, crafted from bone metal, it strikes with a silver flash.;;;;;;;;;;;;;x
+sword_vastness;Vastness;;;;;;;;;;;;;x
+sword_vastness_desc;A masterfully smithed sword, crafted from bone metal, of such great heft that it can crush armor with a swing.;;;;;;;;;;;;;x
+
+#Armors
+armor_leather;Leather;;;;;;;;;;;;;x
+armor_leather_desc;A finely worked piece of leather armor.;;;;;;;;;;;;;x
+armor_blackleather;Black-dyed Leather;;;;;;;;;;;;;x
+armor_blackleather_desc;An expertly crafted piece of leather armor dyed black.;;;;;;;;;;;;;x
+armor_chain;Chainmail;;;;;;;;;;;;;x
+armor_chain_desc;A masterfully crafted piece of chainmail.;;;;;;;;;;;;;x
+armor_blackplate;Black Platemail;;;;;;;;;;;;;x
+armor_blackplate_desc;Masterfully smithed platemail, crafted from bone metal, it's deep black barely shimmers in the light.;;;;;;;;;;;;;x
+armor_bronzemail;Bronzed Mail;;;;;;;;;;;;;x
+armor_bronzemail_desc;Masterfully smithed chainmail, crafted from bone metal with a deep bronze shimmer.;;;;;;;;;;;;;x
+armor_goldplate;Gold Platemail;;;;;;;;;;;;;x
+armor_goldplate_desc;Masterfully smithed platemail, crafted from bone metal that shines with a bright gold.;;;;;;;;;;;;;x
+armor_greyplate;Grey Platemail;;;;;;;;;;;;;x
+armor_greyplate_desc;Masterfully smithed platemail, crafted from bone metal, the sheen has been dulled.;;;;;;;;;;;;;x
+armor_knight;Knight's Chestpiece;;;;;;;;;;;;;x
+armor_knight_desc;Masterfully smithed chestpiece, crafted from bone metal and reinforced to absorb the blows during a charge.;;;;;;;;;;;;;x
+armor_knightplate;Knightly Platemail;;;;;;;;;;;;;x
+armor_knightplate_desc;Masterfully smithed platemail, crafted from bone metal, a full set of knightplate that shimmers of silver in the light.;;;;;;;;;;;;;x
+armor_plate;Platemail;;;;;;;;;;;;;x
+armor_plate_desc;Masterfully smithed platemail, crafted from bone metal and shines with a bright grey sheen.;;;;;;;;;;;;;x
+
+#Pets
+pet_beon;Beon;;;;;;;;;;;;;x
+pet_beon_desc;Domesticated canine native to the Abimelechs, they are faithful companions and rumored to have never been wild.;;;;;;;;;;;;;x
+pet_beonpup;Beon pup;;;;;;;;;;;;;x
+pet_beonpup_desc;Baby beon.;;;;;;;;;;;;;x
+pet_kunun;Kunun;;;;;;;;;;;;;x
+pet_kunun_desc;Scavenger creature with white and black fur found all over Goshen with a ferocious bark.;;;;;;;;;;;;;x
+pet_kununpup;Kunun pup;;;;;;;;;;;;;x
+pet_kununpup_desc;Baby kunun.;;;;;;;;;;;;;x
+pet_pleen;Pleen;;;;;;;;;;;;;x
+pet_pleen_desc;Large creature with stubby hind legs, native to the Yava Forest, the Yava have long trained them as mounts.;;;;;;;;;;;;;x
+pet_pleencub;Pleen cub;;;;;;;;;;;;;x
+pet_pleencub_desc;Baby Pleen.;;;;;;;;;;;;;x
+pet_tochon;Tochon;;;;;;;;;;;;;x
+pet_tochon_desc;Large stout feline with a bearded mane that lives in the Abimelech mountains.;;;;;;;;;;;;;x
+pet_tochonkitten;Tochon kitten;;;;;;;;;;;;;x
+pet_tochonkitten_desc;Baby Tochon.;;;;;;;;;;;;;x
+pet_tusken;Tusken;;;;;;;;;;;;;x
+pet_tusken_desc;Large creature native to Rogas, has two protruding tusks from its jaws that it uses to dig or fight.;;;;;;;;;;;;;x
+pet_tusklet;Tusklet;;;;;;;;;;;;;x
+pet_tusklet_desc;Baby Tusken.;;;;;;;;;;;;;x
+
+guardsman;Guardsman;;;;;;;;;;;;;x
+guardsman_desc;A member of an Elite Guard.;;;;;;;;;;;;;x
+
+###########################
+#Illness Traits
+###########################
+
+#Illnesses
+has_malaise;Malaise;;;;;;;;;;;;;x
+has_malaise_desc;Suffering from a general malaise and nagging cough.;;;;;;;;;;;;;x
+has_red_fever;Red Fever;;;;;;;;;;;;;x
+has_red_fever_desc;Suffering from a high fever and a red rash across the whole body.;;;;;;;;;;;;;x
+has_red_plague;Red Plague;;;;;;;;;;;;;x
+has_red_plague_desc;Suffering from painful lesions that periodically rupture and bleed.;;;;;;;;;;;;;x
+has_shigella;Shigella;;;;;;;;;;;;;x
+has_shigella_desc;Suffering from a fever, vomitting and diarrhea, and extreme thirst.;;;;;;;;;;;;;x
+has_hansen;Hansen;;;;;;;;;;;;;x
+has_hansen_desc;Suffering from itchy black blotches all over the body that are starting to rot.;;;;;;;;;;;;;x
+has_delusia;Delusia;;;;;;;;;;;;;x
+has_delusia_desc;Suffering from a high fever with delusions and black welts across the torso.;;;;;;;;;;;;;x
+has_sickness;The Sickness;;;;;;;;;;;;;x
+has_sickness_desc;Suffering from a high fever and delusions, rumored to be a form of Black Fog Sickness that only seems to affect women.;;;;;;;;;;;;;x
+has_plaga;Plaga;;;;;;;;;;;;;x
+has_plaga_desc;Suffering from a cough, fever, and buboes beginning to form in your pits and groin.;;;;;;;;;;;;;x
+has_black_fog;Black Fog Sick;;;;;;;;;;;;;x
+has_black_fog_desc;Been exposed to Fog from the Black Wastes.;;;;;;;;;;;;;x
+is_medicus;Medicus;;;;;;;;;;;;;x
+is_medicus_desc;A trained Medicus, practised in the workings of medicine and illness.;;;;;;;;;;;;;x
+
+###########################
+#Unoccupied Traits
+###########################
+
+dyinglands_trait;Dying Lands;;;;;;;;;;;;;x
+dyinglands_trait_desc;The Dyinglands are a vast stretch of course desert that the divides the Giji Bay from the Yava Forest.;;;;;;;;;;;;;x

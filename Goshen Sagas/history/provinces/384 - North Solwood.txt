@@ -1,0 +1,20 @@
+#####################
+# North Solwood
+#####################
+
+#County Title
+title = c_n_solwood
+
+#Settlements
+max_settlements = 3
+b_n_solwood = castle
+b_n_solwood_city = city
+b_n_solwood_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

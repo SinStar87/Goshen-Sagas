@@ -1,0 +1,20 @@
+########################
+# Oto
+########################
+
+#County Title
+title = c_oto
+
+#Settlements
+max_settlements = 3
+b_oto = castle
+b_oto_city = city
+b_oto_temple = temple
+
+#Settings
+culture = qwari
+religion = qwari_rel
+
+#History
+#867.1.1 = {
+#}

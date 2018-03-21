@@ -1,0 +1,20 @@
+#####################
+# West N.E. Anin Plains
+#####################
+
+#County Title
+title = c_w_ne_anin_plains
+
+#Settlements
+max_settlements = 3
+b_w_ne_anin_plains = castle
+b_w_ne_anin_plains = city
+b_w_ne_anin_plains = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History
+#867.1.1 = {
+#}

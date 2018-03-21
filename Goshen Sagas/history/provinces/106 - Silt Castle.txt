@@ -1,0 +1,18 @@
+#####################
+# Silt Castle
+#####################
+
+#County Title
+title = c_silt_castle
+
+#Settlements
+max_settlements = 3
+b_silt_castle = castle
+b_silt_castle_city = city
+b_silt_castle_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History

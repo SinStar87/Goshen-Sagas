@@ -1,0 +1,9 @@
+1000.1.1 = {
+	liege = d_e_daly_mountains
+}
+1976.1.1 = {
+	holder = 18001
+}
+1990.1.1 = {
+	holder = 18002
+}

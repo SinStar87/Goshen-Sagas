@@ -1,0 +1,21 @@
+###########################
+# Hunute Forest
+###########################
+
+#County Title
+title = c_hunute_forest
+
+#Settlements
+max_settlements = 3
+b_hunute_forest = castle
+b_hunute_forest_city = city
+b_hunute_forest_temple = temple
+
+#Settings
+culture = hunute
+religion = hunute_rel
+
+#History
+867.1.1 = {
+	b_hunute_forest = ca_special_hunute_village
+}

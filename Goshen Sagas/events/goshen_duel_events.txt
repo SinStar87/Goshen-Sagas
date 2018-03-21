@@ -1,0 +1,1541 @@
+namespace = goshen_duel_events
+character_event = {#Decide Duels
+	id = goshen_duel_events.1
+	desc = EVTDESCgoshen_duel_events.1
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.1 # Dueler 1 Wins
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = scrapper
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = fighter
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler1 = {
+					trait = champion
+				}
+			}
+			modifier = {
+				factor = 8
+				event_target:dueler1 = {
+					trait = legend
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = emissary
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = tactician
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = strategist
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = mastermind
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = mogul
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = schemer
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = conspirator
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = scholar
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = sage
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = controlling
+				}
+			}
+			modifier = {
+				factor = 1.5
+				event_target:dueler1 = {
+					trait = calculating
+				}
+			}
+			modifier = {
+				factor = 1.5
+				event_target:dueler1 = {
+					trait = erratic
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = irrational
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler1 = {
+					trait = carefree
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler1 = {
+					trait = minor_illness
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler1 = {
+					trait = moderate_illness
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler1 = {
+					trait = severe_illness
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler1 = {
+					trait = incapacitating_illness
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler1 = {
+					trait = deadly_illness
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler1 = {
+					trait = minor_injury
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler1 = {
+					trait = moderate_injury
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler1 = {
+					trait = severe_injury
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler1 = {
+					trait = incapacitating_injury
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler1 = {
+					trait = deadly_injury
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler1 = {
+					trait = pregnant
+				}
+			}
+			modifier = {
+				factor = 0.1
+				event_target:dueler1 = {
+					trait = blinded
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler1 = {
+					trait = strong
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler1 = {
+					trait = halenhearty
+				}
+			}
+			modifier = {
+				factor = 0.66
+				event_target:dueler1 = {
+					trait = weak
+				}
+			}
+			modifier = {
+				factor = 0.33
+				event_target:dueler1 = {
+					trait = feeble
+				}
+			}
+			modifier = {
+				factor = 8
+				event_target:dueler1 = {
+					trait = huargen_trait
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler1 = {
+					trait = colossal
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler1 = {
+					trait = tall
+				}
+			}
+			modifier = {
+				factor = 0.66
+				event_target:dueler1 = {
+					trait = small
+				}
+			}
+			modifier = {
+				factor = 0.33
+				event_target:dueler1 = {
+					trait = dwarf
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = yava_trait
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler1 = {
+					trait = prodigy
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = clever
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler1 = {
+					trait = inept
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler1 = {
+					trait = fool
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = hunute_trait
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					has_sword_trigger = yes
+					NOT = { has_bonesword_trigger = yes }
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler1 = {
+					has_bonesword_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					has_armor_trigger = yes
+					NOT = { has_bonearmor_trigger = yes }
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler1 = {
+					has_bonearmor_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler1 = {
+					trait = guardsman
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Thrust
+						}
+						event_target:dueler2 = {
+							has_character_flag = Retreat
+						}
+					}
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Swing
+						}
+						event_target:dueler2 = {
+							has_character_flag = Block
+						}
+					}
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Chop
+						}
+						event_target:dueler2 = {
+							has_character_flag = Parry
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Thrust
+						}
+						event_target:dueler2 = {
+							has_character_flag = Parry
+						}
+					}
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Swing
+						}
+						event_target:dueler2 = {
+							has_character_flag = Retreat
+						}
+					}
+					AND = {
+						event_target:dueler1 = {
+							has_character_flag = Chop
+						}
+						event_target:dueler2 = {
+							has_character_flag = Block
+						}
+					}
+				}
+			}
+		}
+		event_target:dueler2 = {
+			clr_character_flag = Parry
+			clr_character_flag = Retreat
+			clr_character_flag = Block
+			event_target:dueler1 = {
+				clr_character_flag = Thrust
+				clr_character_flag = Swing
+				clr_character_flag = Chop
+			}
+			character_event = { id = goshen_duel_events.10 }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.1 # Dueler 2 Wins
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = scrapper
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = fighter
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler2 = {
+					trait = champion
+				}
+			}
+			modifier = {
+				factor = 8
+				event_target:dueler2 = {
+					trait = legend
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = emissary
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = tactician
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = strategist
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = mastermind
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = mogul
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = schemer
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = conspirator
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = scholar
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = sage
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = controlling
+				}
+			}
+			modifier = {
+				factor = 1.5
+				event_target:dueler2 = {
+					trait = calculating
+				}
+			}
+			modifier = {
+				factor = 1.5
+				event_target:dueler2 = {
+					trait = erratic
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = irrational
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler2 = {
+					trait = carefree
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler2 = {
+					trait = minor_illness
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler2 = {
+					trait = moderate_illness
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler2 = {
+					trait = severe_illness
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler2 = {
+					trait = incapacitating_illness
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler2 = {
+					trait = deadly_illness
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler2 = {
+					trait = minor_injury
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler2 = {
+					trait = moderate_injury
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler2 = {
+					trait = severe_injury
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler2 = {
+					trait = incapacitating_injury
+				}
+			}
+			modifier = {
+				factor = 0
+				event_target:dueler2 = {
+					trait = deadly_injury
+				}
+			}
+			modifier = {
+				factor = 0.75
+				event_target:dueler2 = {
+					trait = pregnant
+				}
+			}
+			modifier = {
+				factor = 0.1
+				event_target:dueler2 = {
+					trait = blinded
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler2 = {
+					trait = strong
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler2 = {
+					trait = halenhearty
+				}
+			}
+			modifier = {
+				factor = 0.66
+				event_target:dueler2 = {
+					trait = weak
+				}
+			}
+			modifier = {
+				factor = 0.33
+				event_target:dueler2 = {
+					trait = feeble
+				}
+			}
+			modifier = {
+				factor = 8
+				event_target:dueler2 = {
+					trait = huargen_trait
+				}
+			}
+			modifier = {
+				factor = 6
+				event_target:dueler2 = {
+					trait = colossal
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler2 = {
+					trait = tall
+				}
+			}
+			modifier = {
+				factor = 0.66
+				event_target:dueler2 = {
+					trait = small
+				}
+			}
+			modifier = {
+				factor = 0.33
+				event_target:dueler2 = {
+					trait = dwarf
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = yava_trait
+				}
+			}
+			modifier = {
+				factor = 4
+				event_target:dueler2 = {
+					trait = prodigy
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = clever
+				}
+			}
+			modifier = {
+				factor = 0.5
+				event_target:dueler2 = {
+					trait = inept
+				}
+			}
+			modifier = {
+				factor = 0.25
+				event_target:dueler2 = {
+					trait = fool
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = hunute_trait
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					has_sword_trigger = yes
+					NOT = { has_bonesword_trigger = yes }
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler2 = {
+					has_bonesword_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					has_armor_trigger = yes
+					NOT = { has_bonearmor_trigger = yes }
+				}
+			}
+			modifier = {
+				factor = 3
+				event_target:dueler2 = {
+					has_bonearmor_trigger = yes
+				}
+			}
+			modifier = {
+				factor = 2
+				event_target:dueler2 = {
+					trait = guardsman
+				}
+			}
+		}
+		event_target:dueler1 = {
+			clr_character_flag = Thrust
+			clr_character_flag = Swing
+			clr_character_flag = Chop
+			event_target:dueler2 = {
+				clr_character_flag = Parry
+				clr_character_flag = Retreat
+				clr_character_flag = Block
+			}
+			character_event = { id = goshen_duel_events.10 }
+		}
+	}
+}
+character_event = {#Determine Rebound
+	id = goshen_duel_events.10
+	desc = EVTDESCgoshen_duel_events.10
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		IF = {
+			limit = {
+				event_target:dueler1 = {
+					character = ROOT
+				}
+			}
+			clear_event_target = dueler1
+			clear_event_target = dueler2
+			save_event_target_as = dueler1
+			FROMFROM = { save_event_target_as = dueler2 }
+		}
+		IF = {
+			limit = {
+				event_target:dueler2 = {
+					character = ROOT
+				}
+			}
+			clear_event_target = dueler1
+			clear_event_target = dueler2
+			save_event_target_as = dueler1
+			FROMFROMFROM = { save_event_target_as = dueler2 }
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.10 # Roll
+		hidden_tooltip = {
+			random_list = {
+				1 = {
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = minor_illness
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = moderate_illness
+						}
+					}
+					modifier = {
+						factor = 6
+						event_target:dueler1 = {
+							trait = severe_illness
+						}
+					}
+					modifier = {
+						factor = 8
+						event_target:dueler1 = {
+							trait = incapacitating_illness
+						}
+					}
+					modifier = {
+						factor = 10
+						event_target:dueler1 = {
+							trait = deadly_illness
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = minor_injury
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = moderate_injury
+						}
+					}
+					modifier = {
+						factor = 6
+						event_target:dueler1 = {
+							trait = severe_injury
+						}
+					}
+					modifier = {
+						factor = 8
+						event_target:dueler1 = {
+							trait = incapacitating_injury
+						}
+					}
+					modifier = {
+						factor = 10
+						event_target:dueler1 = {
+							trait = deadly_injury
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = champion
+						}
+					}
+					modifier = {
+						factor = 0.33
+						event_target:dueler1 = {
+							trait = legend
+						}
+					}
+					modifier = {
+						factor = 0.25
+						event_target:dueler1 = {
+							trait = strong
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = halenhearty
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = weak
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = feeble
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler2 = {
+							trait = champion
+						}
+					}
+					modifier = {
+						factor = 3
+						event_target:dueler2 = {
+							trait = legend
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler2 = {
+							trait = strong
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler2 = {
+							trait = halenhearty
+						}
+					}
+					event_target:dueler2 = { clr_character_flag = in_duel }
+					death = {
+						death_reason = death_duel
+						killer = event_target:dueler2
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = minor_illness
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = moderate_illness
+						}
+					}
+					modifier = {
+						factor = 6
+						event_target:dueler1 = {
+							trait = severe_illness
+						}
+					}
+					modifier = {
+						factor = 8
+						event_target:dueler1 = {
+							trait = incapacitating_illness
+						}
+					}
+					modifier = {
+						factor = 10
+						event_target:dueler1 = {
+							trait = deadly_illness
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = minor_injury
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = moderate_injury
+						}
+					}
+					modifier = {
+						factor = 6
+						event_target:dueler1 = {
+							trait = severe_injury
+						}
+					}
+					modifier = {
+						factor = 8
+						event_target:dueler1 = {
+							trait = incapacitating_injury
+						}
+					}
+					modifier = {
+						factor = 10
+						event_target:dueler1 = {
+							trait = deadly_injury
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = champion
+						}
+					}
+					modifier = {
+						factor = 0.33
+						event_target:dueler1 = {
+							trait = legend
+						}
+					}
+					modifier = {
+						factor = 0.25
+						event_target:dueler1 = {
+							trait = strong
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = halenhearty
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = weak
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = feeble
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler2 = {
+							trait = champion
+						}
+					}
+					modifier = {
+						factor = 3
+						event_target:dueler2 = {
+							trait = legend
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler2 = {
+							trait = strong
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler2 = {
+							trait = halenhearty
+						}
+					}
+					IF = {
+						limit = {
+							trait = deadly_injury
+						}
+						remove_trait = deadly_injury
+						death = { death_reason = death_trait }
+					}
+					IF = {
+						limit = {
+							trait = incapacitating_injury
+						}
+						remove_trait = incapacitating_injury
+						add_trait = deadly_injury
+					}
+					IF = {
+						limit = {
+							trait = severe_injury
+						}
+						remove_trait = severe_injury
+						add_trait = incapacitating_injury
+					}
+					IF = {
+						limit = {
+							trait = moderate_injury
+						}
+						remove_trait = moderate_injury
+						add_trait = severe_injury
+					}
+					IF = {
+						limit = {
+							trait = minor_injury
+						}
+						remove_trait = minor_injury
+						add_trait = moderate_injury
+					}
+					IF = {
+						limit = {
+							NOR = {
+								trait = minor_injury
+								trait = moderate_injury
+								trait = severe_injury
+								trait = incapacitating_injury
+								trait = deadly_injury
+							}
+						}
+						add_trait = minor_injury
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0.75
+						event_target:dueler1 = {
+							trait = minor_illness
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = moderate_illness
+						}
+					}
+					modifier = {
+						factor = 0.25
+						event_target:dueler1 = {
+							trait = severe_illness
+						}
+					}
+					modifier = {
+						factor = 0
+						event_target:dueler1 = {
+							trait = incapacitating_illness
+						}
+					}
+					modifier = {
+						factor = 0
+						event_target:dueler1 = {
+							trait = deadly_illness
+						}
+					}
+					modifier = {
+						factor = 1.5
+						event_target:dueler1 = {
+							trait = champion
+						}
+					}
+					modifier = {
+						factor = 3
+						event_target:dueler1 = {
+							trait = legend
+						}
+					}
+					modifier = {
+						factor = 4
+						event_target:dueler1 = {
+							trait = strong
+						}
+					}
+					modifier = {
+						factor = 2
+						event_target:dueler1 = {
+							trait = halenhearty
+						}
+					}
+					modifier = {
+						factor = 0.5
+						event_target:dueler1 = {
+							trait = weak
+						}
+					}
+					modifier = {
+						factor = 0.25
+						event_target:dueler1 = {
+							trait = feeble
+						}
+					}
+				}
+			}
+		}
+		event_target:dueler1 = {
+			character_event = { id = goshen_duel_events.20 }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.10 # Surrender
+		event_target:dueler2 = {
+			character_event = { id = goshen_duel_events.11 }
+		}
+	}
+}
+character_event = {#Imprison or Kill Dueler
+	id = goshen_duel_events.11
+	desc = EVTDESCgoshen_duel_events.11
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.11 # Imprison
+		ai_chance = {
+			factor = 0.9
+			modifier = {
+				factor = 2
+				trait = susceptible
+			}
+			modifier = {
+				factor = 1.5
+				trait = receptive
+			}
+			modifier = {
+				factor = 1.1
+				trait = impartial
+			}
+			modifier = {
+				factor = 0.75
+				trait = biased
+			}
+			modifier = {
+				factor = 0.5
+				trait = prejudiced
+			}
+			modifier = {
+				factor = 1.1
+				trait = controlling
+			}
+			modifier = {
+				factor = 1.1
+				trait = calculating
+			}
+			modifier = {
+				factor = 1.1
+				trait = willful
+			}
+			modifier = {
+				factor = 0.5
+				trait = erratic
+			}
+			modifier = {
+				factor = 0.25
+				trait = irrational
+			}
+			modifier = {
+				factor = 2
+				trait = extrovert
+			}
+			modifier = {
+				factor = 1.5
+				trait = friendly
+			}
+			modifier = {
+				factor = 1.1
+				trait = cordial
+			}
+			modifier = {
+				factor = 0.75
+				trait = cold
+			}
+			modifier = {
+				factor = 0.5
+				trait = introvert
+			}
+			modifier = {
+				factor = 1.5
+				trait = overeager
+			}
+			modifier = {
+				factor = 1.1
+				trait = sympathetic
+			}
+			modifier = {
+				factor = 0.75
+				trait = responsive
+			}
+			modifier = {
+				factor = 0.5
+				trait = unwilling
+			}
+			modifier = {
+				factor = 0.25
+				trait = irreconcilable
+			}
+			modifier = {
+				factor = 5
+				trait = carefree
+			}
+			modifier = {
+				factor = 4
+				trait = idealist
+			}
+			modifier = {
+				factor = 3
+				trait = pragmatic
+			}
+			modifier = {
+				factor = 2
+				trait = cynic
+			}
+			modifier = {
+				factor = 0.5
+				trait = pessimist
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					higher_real_tier_than = BARON
+				}
+			}
+		}
+		clr_character_flag = in_duel
+		prestige = 100
+		IF = {
+			limit = { has_character_flag = guard_in_duel }
+			employer = {
+				FROM = {
+					imprison = PREV
+					clr_character_flag = in_duel
+				}
+				prestige = 20
+			}
+			clr_character_flag = guard_in_duel
+			break = yes
+		}
+		FROM = {
+			imprison = ROOT
+			clr_character_flag = in_duel
+			IF = {
+				limit = { has_character_flag = guard_in_duel }
+				employer = {
+					character_event = { id = goshen_duel_events.12 }
+				}
+				clr_character_flag = guard_in_duel
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.11 # Kill
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 0.5
+				trait = susceptible
+			}
+			modifier = {
+				factor = 0.75
+				trait = receptive
+			}
+			modifier = {
+				factor = 0.9
+				trait = impartial
+			}
+			modifier = {
+				factor = 1.5
+				trait = biased
+			}
+			modifier = {
+				factor = 2
+				trait = prejudiced
+			}
+			modifier = {
+				factor = 1.5
+				trait = controlling
+			}
+			modifier = {
+				factor = 1.5
+				trait = calculating
+			}
+			modifier = {
+				factor = 2
+				trait = willful
+			}
+			modifier = {
+				factor = 2
+				trait = erratic
+			}
+			modifier = {
+				factor = 4
+				trait = irrational
+			}
+			modifier = {
+				factor = 0.25
+				trait = extrovert
+			}
+			modifier = {
+				factor = 0.5
+				trait = friendly
+			}
+			modifier = {
+				factor = 0.75
+				trait = cordial
+			}
+			modifier = {
+				factor = 1.2
+				trait = cold
+			}
+			modifier = {
+				factor = 1.2
+				trait = introvert
+			}
+			modifier = {
+				factor = 0.5
+				trait = overeager
+			}
+			modifier = {
+				factor = 0.75
+				trait = sympathetic
+			}
+			modifier = {
+				factor = 1.1
+				trait = responsive
+			}
+			modifier = {
+				factor = 3
+				trait = unwilling
+			}
+			modifier = {
+				factor = 4
+				trait = irreconcilable
+			}
+			modifier = {
+				factor = 0
+				trait = carefree
+			}
+			modifier = {
+				factor = 0.25
+				trait = idealist
+			}
+			modifier = {
+				factor = 0.9
+				trait = pragmatic
+			}
+			modifier = {
+				factor = 2
+				trait = cynic
+			}
+			modifier = {
+				factor = 3
+				trait = pessimist
+			}
+		}
+		clr_character_flag = in_duel
+		prestige = 100
+		IF = {
+			limit = { has_character_flag = guard_in_duel }
+			employer = {
+				prestige = 20
+			}
+			clr_character_flag = guard_in_duel
+		}
+		FROM = {
+			any_child = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_family who = ROOT years = 100 }
+			}
+			any_spouse = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_family who = ROOT years = 100 }
+			}
+			any_sibling = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_family who = ROOT years = 100 }
+			}
+			father = {
+				IF = {
+					limit = {
+						NOT = { character = ROOT }
+					}
+					opinion = { modifier = opinion_killed_family who = ROOT years = 100 }
+				}
+			}
+			mother = {
+				IF = {
+					limit = {
+						NOT = { character = ROOT }
+					}
+					opinion = { modifier = opinion_killed_family who = ROOT years = 100 }
+				}
+			}
+			any_friend = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_friend who = ROOT years = 100 }
+			}
+			any_vassal = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_liege who = ROOT years = 20 }
+			}
+			any_rival = {
+				limit = {
+					NOT = { character = ROOT }
+				}
+				opinion = { modifier = opinion_killed_rival who = ROOT years = 20 }
+			}
+			clr_character_flag = in_duel
+			IF = {
+				limit = { has_character_flag = guard_in_duel }
+				employer = {
+					character_event = { id = goshen_duel_events.12 }
+				}
+				clr_character_flag = guard_in_duel
+			}
+			death = {
+				death_reason = death_duel
+				killer = ROOT
+			}
+		}
+	}
+}
+character_event = {#Inform Lost Duel
+	id = goshen_duel_events.12
+	desc = {
+		text = EVTDESCAgoshen_duel_events.12
+		trigger = {
+			event_target:dueler1 = {
+				prisoner = yes
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_duel_events.12
+		trigger = {
+			event_target:dueler1 = {
+				is_alive = no
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.12
+		trigger = {
+			event_target:dueler1 = {
+				prisoner = yes
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.12
+		trigger = {
+			event_target:dueler1 = {
+				is_alive = no
+			}
+		}
+	}
+}
+character_event = {#Determine Attack
+	id = goshen_duel_events.20
+	desc = EVTDESCgoshen_duel_events.20
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.20 # Thrust
+		set_character_flag = Thrust
+		event_target:dueler2 = {
+			character_event = { id = goshen_duel_events.21 }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.20 # Swing
+		set_character_flag = Swing
+		event_target:dueler2 = {
+			character_event = { id = goshen_duel_events.21 }
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_duel_events.20 # Chop
+		set_character_flag = Chop
+		event_target:dueler2 = {
+			character_event = { id = goshen_duel_events.21 }
+		}
+	}
+}
+character_event = {#Determine Defense
+	id = goshen_duel_events.21
+	desc = EVTDESCgoshen_duel_events.21
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_duel_events.21 # Parry
+		set_character_flag = Parry
+		e_AGOT = {
+			holder_scope = {
+				character_event = { id = goshen_duel_events.1 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_duel_events.21 # Retreat
+		set_character_flag = Retreat
+		e_AGOT = {
+			holder_scope = {
+				character_event = { id = goshen_duel_events.1 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCgoshen_duel_events.21 # Block
+		set_character_flag = Block
+		e_AGOT = {
+			holder_scope = {
+				character_event = { id = goshen_duel_events.1 }
+			}
+		}
+	}
+}

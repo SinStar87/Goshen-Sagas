@@ -1,0 +1,4 @@
+1976.1.1 = {
+	liege = k_gawei
+	holder = 6082
+}

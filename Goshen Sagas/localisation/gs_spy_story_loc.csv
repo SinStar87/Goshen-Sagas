@@ -1,0 +1,27 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+opinion_damaged_rep;Damaged Reputation;;;;;;;;;;;;;x
+opinion_rumormonger;Spread False Rumors;;;;;;;;;;;;;x
+opened_gates;The Gates have been opened, making a siege much easier.;;;;;;;;;;;;;x
+EVTDESCAgs_spy_story_events.1;You've come across a person of remarkable charm and cunning.;;;;;;;;;;;;;x
+EVTDESCBgs_spy_story_events.1;My first book ever, A Tale of Intrigue and Reconnaissance, is a story about a spy and is now on sale(link in the mod description if you're interested). In honor of its release, I've created a number of spy mechanics.;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.1;Let me use these mechanics.;;;;;;;;;;;;;x
+EVTOPTBgs_spy_story_events.1;Not interested in these mechanics.;;;;;;;;;;;;;x
+EVTOPTCgs_spy_story_events.1;Hmm, you'd make an excellent spy.;;;;;;;;;;;;;x
+EVTDESCgs_spy_story_events.2;The spy has successfully sneaked inside the walls and now awaits your orders..;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.2;Send the signal, I want in that castle!;;;;;;;;;;;;;x
+EVTOPTBgs_spy_story_events.2;No, it's not needed.;;;;;;;;;;;;;x
+EVTDESCAgs_spy_story_events.21;The spy was successful, the gates are now open, this will make the sige much easier.;;;;;;;;;;;;;x
+EVTDESCBgs_spy_story_events.21;The spy failed to raise the gate and died in the attempt..;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.21;Excellent, forward!;;;;;;;;;;;;;x
+EVTOPTBgs_spy_story_events.21;Damn...;;;;;;;;;;;;;x
+EVTDESCgs_spy_story_events.3;The spy comes to you with a proposal, "My lord, I believe I can spread a rumor that will damage the reputation of someone in your way.";;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.3;Hmm, I can use this against my liege, surely that would clear my path.;;;;;;;;;;;;;x
+EVTOPTBgs_spy_story_events.3;My rival has far too much support, this would do wonders for me.;;;;;;;;;;;;;x
+EVTOPTCgs_spy_story_events.3;This will make my claim much easier to press.;;;;;;;;;;;;;x
+EVTOPTDgs_spy_story_events.3;No I don't need to use such tactics.;;;;;;;;;;;;;x
+EVTDESCgs_spy_story_events.31;There's a terrible rumor about [TOI_target.GetFirstName] spreading through the realm;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.31;Such nonsense, [TOI_target.GetFirstName] would never...;;;;;;;;;;;;;x
+EVTOPTBgs_spy_story_events.31;Bah, just more reason to hate [TOI_target.GetFirstName].;;;;;;;;;;;;;x
+EVTOPTCgs_spy_story_events.31;[TOI_target.GetFirstName] did what??.;;;;;;;;;;;;;x
+EVTDESCgs_spy_story_events.32;There's a terrible rumor about you spreading through the realm;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.32;No one will believe it, right?;;;;;;;;;;;;;x

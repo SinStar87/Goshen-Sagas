@@ -1,0 +1,218 @@
+namespace = goshen_job_events
+character_event = {#Improve Relations
+	id = goshen_job_events.1
+	hide_window = yes
+
+	trigger = {
+		has_job_title = job_chancellor
+		has_job_action = action_improve_relations
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = {
+		location = {
+			owner = {
+				random_list = {
+					1 = {
+						character_event = { id = goshen_job_events.11 }
+					}
+					1 = {
+						set_character_flag = offended
+						character_event = { id = goshen_job_events.11 }
+					}
+					1 = {}
+				}
+			}
+		}
+	}
+}
+character_event = {#Informer
+	id = goshen_job_events.11
+	desc = {
+		text = EVTDESCAgoshen_job_events.11
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_job_events.11
+		trigger = {
+			has_character_flag = offended
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_job_events.11
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+		FROM = {
+			employer = {
+				reverse_opinion = { modifier = opinion_loyal who = ROOT }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_job_events.11
+		trigger = {
+			has_character_flag = offended
+		}
+		FROM = {
+			employer = {
+				reverse_opinion = { modifier = opinion_disloyal who = ROOT }
+			}
+		}
+		clr_character_flag = offended
+	}
+}
+character_event = {#Cause Dissent
+	id = goshen_job_events.2
+	hide_window = yes
+
+	trigger = {
+		has_job_title = job_chancellor
+		has_job_action = action_improve_relations
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = {
+		location = {
+			owner = {
+				random_list = {
+					1 = {
+						character_event = { id = goshen_job_events.21 }
+					}
+					1 = {
+						set_character_flag = offended
+						character_event = { id = goshen_job_events.21 }
+					}
+					1 = {}
+				}
+			}
+		}
+	}
+}
+character_event = { # Informer
+	id = goshen_job_events.21
+	desc = {
+		text = EVTDESCAgoshen_job_events.21
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_job_events.21
+		trigger = {
+			has_character_flag = offended
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_job_events.21
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+		liege = {
+			reverse_opinion = { modifier = opinion_disloyal who = ROOT }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_job_events.21
+		trigger = {
+			has_character_flag = offended
+		}
+		liege = {
+			reverse_opinion = { modifier = opinion_loyal who = ROOT }
+		}
+		clr_character_flag = offended
+	}
+}
+character_event = {#Promote Heir
+	id = goshen_job_events.3
+	hide_window = yes
+
+	trigger = {
+		has_job_title = job_chancellor
+		has_job_action = action_improve_relations
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	immediate = {
+		location = {
+			owner = {
+				random_list = {
+					1 = {
+						character_event = { id = goshen_job_events.31 }
+					}
+					1 = {
+						set_character_flag = offended
+						character_event = { id = goshen_job_events.31 }
+					}
+					1 = {}
+				}
+			}
+		}
+	}
+}
+character_event = {#Informer
+	id = goshen_job_events.31
+	desc = {
+		text = EVTDESCAgoshen_job_events.31
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_job_events.31
+		trigger = {
+			has_character_flag = offended
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_job_events.31
+		trigger = {
+			NOT = { has_character_flag = offended }
+		}
+		FROM = {
+			employer = {
+				primary_title = {
+					heir_under_primogeniture_law = {
+						reverse_opinion = { modifier = opinion_loyal who = ROOT }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_job_events.31
+		trigger = {
+			has_character_flag = offended
+		}
+		FROM = {
+			employer = {
+				primary_title = {
+					heir_under_primogeniture_law = {
+						reverse_opinion = { modifier = opinion_disloyal who = ROOT }
+					}
+				}
+			}
+		}
+		clr_character_flag = offended
+	}
+}

@@ -1,0 +1,20 @@
+#####################
+# Northeast Hunute Forest
+#####################
+
+#County Title
+title = c_ne_hunute_forest
+
+#Settlements
+max_settlements = 3
+b_ne_hunute_forest = castle
+b_ne_hunute_forest_city = city
+b_ne_hunute_forest_temple = temple
+
+#Settings
+culture = hunute
+religion = hunute_rel
+
+#History
+#867.1.1 = {
+#}

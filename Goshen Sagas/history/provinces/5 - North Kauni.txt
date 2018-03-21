@@ -1,0 +1,20 @@
+########################
+# North Kauni
+########################
+
+#County Title
+title = c_n_kauni
+
+#Settlements
+max_settlements = 3
+b_n_kauni = castle
+b_n_kauni_city = city
+b_n_kauni_temple = temple
+
+#Settings
+culture = zet
+religion = zet_rel
+
+#History
+#867.1.1 = {
+#}

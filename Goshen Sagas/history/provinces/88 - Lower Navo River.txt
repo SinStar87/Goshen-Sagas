@@ -1,0 +1,20 @@
+############################
+# Lower Navo River
+############################
+
+#County Title
+title = c_lower_navo_river
+
+#Settlements
+max_settlements = 3
+b_lower_navo_river = castle
+b_lower_navo_river_city = city
+b_lower_navo_river_temple = temple
+
+#Settings
+culture = navo
+religion = navo_rel
+
+#History
+#867.1.1 = {
+#}

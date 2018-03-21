@@ -1,0 +1,732 @@
+targetted_decisions = {
+	form_a_guard = {
+		is_high_prio = yes
+		filter = sub_realm
+		ai_target_filter = self
+
+		from_potential = {
+			real_tier = KING
+			NOT = { has_guard_trigger = yes }
+			OR = {
+				AND = {
+					primary_title = { title = k_abimelech }
+					d_clan_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_ades }
+					d_ades_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_anin }
+					d_anin_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_basli }
+					d_basli_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_gawei }
+					d_the_will = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_grey_lands }
+					d_grey_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_hesen }
+					d_hesen_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_hunute }
+					d_hunute_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_kalan }
+					d_field_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_levyt }
+					d_levytan_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_navo }
+					d_navo_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_rannu }
+					d_bule = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_vitat }
+					d_vitat_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_yava }
+					d_forest_guard = { has_holder = no }
+				}
+				AND = {
+					primary_title = { title = k_zuvak }
+					d_lake_guard = { has_holder = no }
+				}
+			}
+		}
+		potential = {
+			age = 16
+			is_female = no
+			prisoner = no
+			is_married = no
+			is_ruler = no
+			employer = { character = FROM }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+			}
+			OR = {
+				trait = fighter
+				trait = champion
+				trait = legend
+			}
+		}
+		allow = {
+			FROM = {
+				war = no
+				NOT = { has_guard_trigger = yes }
+			}
+		}
+		effect = {
+			IF = {
+				limit = {
+					has_landed_title = k_abimelech
+					d_clan_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_clan_guard }
+				d_clan_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_ades
+					d_ades_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_ades_guard }
+				d_ades_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_anin
+					d_anin_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_anin_guard }
+				d_anin_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_basli
+					d_basli_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_basli_guard }
+				d_basli_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_gawei
+					d_the_will = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_the_will }
+				d_the_will = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_grey_lands
+					d_grey_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_grey_guard }
+				d_grey_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_hesen
+					d_hesen_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_hesen_guard }
+				d_hesen_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_hunute
+					d_hunute_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_hunute_guard }
+				d_hunute_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_kalan
+					d_field_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_field_guard }
+				d_field_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_levyt
+					d_levytan_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_levytan_guard }
+				d_levytan_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_navo
+					d_navo_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_navo_guard }
+				d_navo_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_rannu
+					d_bule = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_bule }
+				d_bule = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_vitat
+					d_vitat_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_vitat_guard }
+				d_vitat_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_yava
+					d_forest_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_forest_guard }
+				d_forest_guard = {
+					gain_title = ROOT
+				}
+			}
+			IF = {
+				limit = {
+					has_landed_title = k_zuvak
+					d_lake_guard = { has_holder = no }
+				}
+				activate_title = { status = yes title = d_lake_guard }
+				d_lake_guard = {
+					gain_title = ROOT
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	grant_gawei_sword = {
+		filter = sub_realm
+		ai_target_filter = self
+
+		from_potential = {
+			higher_real_tier_than = DUKE
+			prisoner = no
+			has_landed_title = c_gawei_castle
+			any_vassal = {
+				has_landed_title = d_the_will
+			}
+			OR = {
+				trait = gawei_sword_1
+				trait = gawei_sword_2
+				trait = gawei_sword_3
+				trait = gawei_sword_4
+				trait = gawei_sword_5
+				trait = gawei_sword_6
+				trait = gawei_sword_7
+				trait = gawei_sword_8
+				trait = gawei_sword_9
+			}
+		}
+		potential = {
+			OR = {
+				has_landed_title = d_the_will
+				AND = {
+					d_the_will = {
+						holder_scope = {
+							OR = {
+								trait = gawei_sword_1
+								trait = gawei_sword_2
+								trait = gawei_sword_3
+								trait = gawei_sword_4
+								trait = gawei_sword_5
+								trait = gawei_sword_6
+								trait = gawei_sword_7
+								trait = gawei_sword_8
+								trait = gawei_sword_9
+							}
+						}
+					}
+					OR = {
+						is_ruler = no
+						AND = {
+							higher_real_tier_than = BARON
+							FROM = {
+								NOT = {
+									any_vassal = {
+										is_guard_trigger = yes
+										count = 7
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			NOR = {
+				trait = gawei_sword_1
+				trait = gawei_sword_2
+				trait = gawei_sword_3
+				trait = gawei_sword_4
+				trait = gawei_sword_5
+				trait = gawei_sword_6
+				trait = gawei_sword_7
+				trait = gawei_sword_8
+				trait = gawei_sword_9
+			}
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			d_the_will = {
+				holder_scope = {
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_1 }
+						}
+						FROM = { remove_trait = gawei_sword_1 }
+						ROOT = {
+							add_trait = gawei_sword_1
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_2 }
+						}
+						FROM = { remove_trait = gawei_sword_2 }
+						ROOT = {
+							add_trait = gawei_sword_2
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_3 }
+						}
+						FROM = { remove_trait = gawei_sword_3 }
+						ROOT = {
+							add_trait = gawei_sword_3
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_4 }
+						}
+						FROM = { remove_trait = gawei_sword_4 }
+						ROOT = {
+							add_trait = gawei_sword_4
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_5 }
+						}
+						FROM = { remove_trait = gawei_sword_5 }
+						ROOT = {
+							add_trait = gawei_sword_5
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_6 }
+						}
+						FROM = { remove_trait = gawei_sword_6 }
+						ROOT = {
+							add_trait = gawei_sword_6
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_7 }
+						}
+						FROM = { remove_trait = gawei_sword_7 }
+						ROOT = {
+							add_trait = gawei_sword_7
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_8 }
+						}
+						FROM = { remove_trait = gawei_sword_8 }
+						ROOT = {
+							add_trait = gawei_sword_8
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+					IF = {
+						limit = {
+							FROM = { trait = gawei_sword_9 }
+						}
+						FROM = { remove_trait = gawei_sword_9 }
+						ROOT = {
+							add_trait = gawei_sword_9
+							IF = {
+								limit = { is_ruler = no }
+								move_character = PREV
+							}
+						}
+						IF = {
+							limit = {
+								NOT = { character = ROOT }
+							}
+							reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+						}
+						break = yes
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 100
+				ROOT = { has_landed_title = d_the_will }
+			}
+			modifier = {
+				factor = 10
+				ROOT = { real_tier = duke }
+			}
+			modifier = {
+				factor = 2
+				ROOT = { real_tier = count }
+			}
+			modifier = {
+				factor = 2
+				ROOT = {
+					OR = {
+						trait = champion
+						trait = legend
+					}
+				}
+			}
+		}
+	}
+	name_to_guard = {
+		filter = sub_realm
+		ai_target_filter = self
+
+		from_potential = {
+			any_vassal = {
+				has_guard_trigger = yes
+			}
+			NOT = {
+				any_vassal = {
+					has_full_guard_trigger = yes
+				}
+			}
+			NOT = { has_opinion_modifier = { modifier = opinion_refused_guard who = ROOT } }
+		}
+		potential = {
+			age = 16
+			prisoner = no
+			OR = {
+				is_ruler = no
+				FROM = {
+					NOT = {
+						any_vassal = {
+							is_guard_trigger = yes
+							count = 3
+						}
+					}
+				}
+			}
+			NOT = { has_guard_trigger = yes }
+			NOT = { is_guard_trigger = yes }
+			NOR = {
+				has_job_title = job_chancellor
+				has_job_title = job_marshal
+				has_job_title = job_treasurer
+				has_job_title = job_spymaster
+				has_job_title = job_spiritual
+			}
+			OR = {
+				trait = fighter
+				trait = champion
+				trait = legend
+			}
+		}
+		allow = {
+			age = 16
+			prisoner = no
+		}
+		effect = {
+			FROM = {
+				any_vassal = {
+					limit = { has_guard_trigger = yes }
+					ROOT = {
+						add_trait = guardsman
+						IF = {
+							limit = { is_ruler = no }
+							move_character = PREV
+						}
+					}
+					reverse_opinion = { modifier = opinion_commander who = ROOT years = 100 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 10
+				ROOT = { real_tier = duke }
+			}
+			modifier = {
+				factor = 2
+				ROOT = { real_tier = count }
+			}
+			modifier = {
+				factor = 2
+				ROOT = {
+					OR = {
+						trait = champion
+						trait = legend
+					}
+				}
+			}
+		}
+	}
+	name_personal_guardsman = {
+		filter = sub_realm
+		ai_target_filter = self
+		is_high_prio = yes
+
+		from_potential = {
+			any_vassal = {
+				has_guard_trigger = yes
+			}
+			NOT = {
+				any_courtier = {
+					has_minor_title = title_personalguard
+					count = 2
+				}
+			}
+		}
+		potential = {
+			is_guard_trigger = yes
+			is_ruler = no
+			FROM = {
+				any_vassal = {
+					has_guard_trigger = yes
+					ROOT = {
+						has_opinion_modifier = { modifier = opinion_commander who = PREV }
+					}
+				}
+			}
+			NOT = { has_minor_title = title_personalguard }
+		}
+		allow = {
+			prisoner = no
+		}
+		effect = {
+			opinion = { modifier = opinion_charge who = FROM years = 100 }
+			move_character = FROM
+			give_minor_title = title_personalguard
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	return_to_guard = {
+		filter = realm
+		ai_target_filter = self
+		is_high_prio = yes
+
+		from_potential = {
+			has_guard_trigger = yes
+		}
+		potential = {
+			is_guard_trigger = yes
+			is_ruler = no
+			NOT = { has_any_opinion_modifier = opinion_charge }
+			NOT = {
+				employer = { character = FROM }
+			}
+			has_opinion_modifier = { modifier = opinion_commander who = FROM }
+		}
+		allow = {
+			ROOT = {
+				has_opinion_modifier = { modifier = opinion_commander who = FROM }
+			}
+		}
+		effect = {
+			move_character = FROM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	disband_guard = {
+		filter = realm
+		ai_target_filter = self
+		is_high_prio = yes
+
+		from_potential = {
+			has_guard_trigger = yes
+		}
+		potential = {
+			OR = {
+				any_vassal = {
+					has_guard_trigger = yes
+					count = 2
+				}
+				AND = {
+					any_vassal = {
+						has_landed_title = d_the_will
+					}
+					any_vassal = {
+						has_guard_trigger = yes
+					}
+				}
+			}
+			any_vassal = { character = ROOT }
+		}
+		allow = {
+		}
+		effect = {
+			ROOT = {
+				random_vassal = {
+					limit = { has_guard_trigger = yes }
+					destroy_guard_effect = yes
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

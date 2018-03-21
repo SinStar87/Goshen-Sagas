@@ -1,0 +1,20 @@
+###########################
+# Collsi Capital
+###########################
+
+#County Title
+title = c_collsi_capital
+
+#Settlements
+max_settlements = 3
+b_collsi_capital = castle
+b_collsi_capital_city = city
+b_collsi_capital_temple = temple
+
+#Settings
+culture = collsi
+religion = grey_tribes_rel
+
+#History
+#867.1.1 = {
+#}

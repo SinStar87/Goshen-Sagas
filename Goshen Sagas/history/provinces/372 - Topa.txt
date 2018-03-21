@@ -1,0 +1,20 @@
+#####################
+# Topa
+#####################
+
+#County Title
+title = c_topa
+
+#Settlements
+max_settlements = 3
+b_topa = castle
+b_topa_city = city
+b_topa_temple = temple
+
+#Settings
+culture = timut
+religion = timut_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,17 @@
+###############################
+# South Upper Dying Lands Coast
+###############################
+
+#County Title
+title = c_s_upper_dying_lands_coast
+
+#Settlements
+max_settlements = 0
+
+#Settings
+culture = dyinglands
+religion = dyinglands_rel
+
+#History
+#867.1.1 = {
+#}

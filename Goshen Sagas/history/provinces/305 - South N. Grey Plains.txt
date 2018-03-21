@@ -1,0 +1,20 @@
+#####################
+# South N. Grey Plains
+#####################
+
+#County Title
+title = c_s_n_grey_plains
+
+#Settlements
+max_settlements = 3
+b_s_n_grey_plains = castle
+b_s_n_grey_plains_city = city
+b_s_n_grey_plains_temple = temple
+
+#Settings
+culture = grey_tribes
+religion = grey_tribes_rel
+
+#History
+#867.1.1 = {
+#}

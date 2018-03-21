@@ -1,0 +1,9 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+job_chancellor;Prime Councillor;;;;;;;;;;;;;x
+job_marshal;War Councillor;;;;;;;;;;;;;x
+job_treasurer;chamberlain;;;;;;;;;;;;;x
+job_spymaster;Informer;;;;;;;;;;;;;x
+job_spiritual;Cleric;;;;;;;;;;;;;x
+
+#Job Actions
+action_promote_heir;Promote Heir;;;;;;;;;;;;;x

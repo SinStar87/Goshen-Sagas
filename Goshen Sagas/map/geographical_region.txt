@@ -1,0 +1,93 @@
+########
+#Goshen
+########
+world_abimelech = {
+	duchies = {
+		d_abimelech_falls d_c_abimelechs d_great_war_hall d_n_abimelechs d_w_abimelechs
+	}
+}
+world_ades = {
+	duchies = { 
+		d_ades_coast d_c_ades_plains d_e_ades_plains d_ko d_w_ades_plains d_zalv_forest
+	}
+}
+world_anin = {
+	duchies = {
+		d_anin_ko_coast d_blav d_c_anin_plains d_gap_in_the_mountain d_majat_mountains d_n_anin_coast d_n_anin_plains d_ne_anin_plains d_s_anin_plains d_se_anin_plains d_sw_anin_plains
+	}
+}
+world_basli = {
+	duchies = {
+		d_basli_forest d_basli_plains d_grey_mountains d_s_basli_forest
+	}
+}
+world_gawei = {
+	duchies = {
+		d_cenno d_gawei_castle d_gawei_channel_isles d_gawei_isles d_gawei_village d_n_hal_mountains d_solwood d_sun_river
+	}
+}
+world_grey_lands = {
+	duchies = {
+		d_c_grey_plains d_e_grey_plains d_grey_coast d_n_grey_plains
+	}
+}
+world_hesen = {
+	duchies = {
+		d_hese_forest d_jese_castle d_s_hese_coast d_twins d_w_jese_coast
+	}
+}
+world_hunute = {
+	duchies = {
+		d_hunute_forest d_n_hunute_forest d_s_hunute_forest
+	}
+}
+world_kalan = {
+	duchies = {
+		d_e_kalan_fields d_kalan_village d_kalani_coast d_norrain_river d_w_kalan_fields
+	}
+}
+world_levyt = {
+	duchies = {
+		d_collsi d_dulmal d_huargen d_levyt d_levyt_river d_levyt_w_bank d_lommal d_merro d_poghess d_qwari d_timut d_zet
+	}
+}
+world_navo = {
+	duchies = {
+		d_e_navo_desert d_navo_coast d_navo_river d_silt_castle d_w_navo_desert
+	}
+}
+world_rannu = {
+	duchies = {
+		d_e_daly_mountains d_n_rannu_coast d_qess_fort d_rannu_plains d_s_rannu_coast
+	}
+}
+world_vitat = {
+	duchies = {
+		d_c_vitat_canyon d_home_of_the_vitat d_n_vitat_canyon d_pan_cliffs
+	}
+}
+world_yava = {
+	duchies = {
+		d_c_yava_forest d_door_to_yava d_e_yava_forest d_ne_yava_forest d_nw_yava_forest d_s_yava_forest
+	}
+}
+world_zuvak = {
+	duchies = {
+		d_etzu_lake d_etzu_river d_etzus_mouth d_zuvaki_palace
+	}
+}
+world_rogas = {
+	regions = {
+		world_abimelech world_basli world_gawei world_grey_lands world_hunute world_kalan world_levyt world_zuvak
+	}
+}
+world_pan = {
+	regions = {
+		world_ades world_anin world_hesen world_navo world_rannu world_vitat world_yava
+	}
+}
+world_goshen = {
+	regions = {
+		world_rogas world_pan
+	}
+}

@@ -1,0 +1,20 @@
+############################
+# Norrain River
+############################
+
+#County Title
+title = c_norrain_river
+
+#Settlements
+max_settlements = 3
+b_norrain_river = castle
+b_norrain_river_city = city
+b_norrain_river_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+#867.1.1 = {
+#}

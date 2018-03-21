@@ -1,0 +1,20 @@
+############################
+# Southwest S. Hal Mountains
+############################
+
+#County Title
+title = c_sw_s_hal_mountains
+
+#Settlements
+max_settlements = 3
+b_sw_s_hal_mountains = castle
+b_sw_s_hal_mountains_city = city
+b_sw_s_hal_mountains_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

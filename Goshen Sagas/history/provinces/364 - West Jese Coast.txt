@@ -1,0 +1,20 @@
+#####################
+# West Jese Coast
+#####################
+
+#County Title
+title = c_w_jese_coast
+
+#Settlements
+max_settlements = 3
+b_w_jese_coast = castle
+b_w_jese_coast_city = city
+b_w_jese_coast_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,20 @@
+#######################
+# saar
+#######################
+
+#County Title
+title = c_saar
+
+#Settlements
+max_settlements = 3
+b_saar = castle
+b_saar_city = city
+b_saar_temple = temple
+
+#Settings
+culture = levyt
+religion = levyt_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,20 @@
+####################
+# Etzu Falls
+####################
+
+#County Title
+title = c_etzu_falls
+
+#Settlements
+max_settlements = 3
+b_etzu_falls = castle
+b_etzu_falls_city = city
+b_etzu_falls_temple = temple
+
+#Settings
+culture = abimelech
+religion = abimelech_rel
+
+#History
+#1.1.1 = {
+#}

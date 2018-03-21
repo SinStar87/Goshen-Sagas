@@ -1,0 +1,6 @@
+1000.1.1 = {
+	liege = d_rannu_plains
+}
+1976.1.1 = {
+	holder = 36060
+}

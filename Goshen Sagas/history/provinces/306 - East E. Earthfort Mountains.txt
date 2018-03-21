@@ -1,0 +1,20 @@
+####################
+# East E. Earthfort Mountains
+####################
+
+#County Title
+title = c_e_e_earthfort_mountains
+
+#Settlements
+max_settlements = 3
+b_e_e_earthfort_mountains = castle
+b_e_e_earthfort_mountains_city = city
+b_e_e_earthfort_mountains_temple = temple
+
+#Settings
+culture = collsi
+religion = grey_tribes_rel
+
+#History
+#1.1.1 = {
+#}

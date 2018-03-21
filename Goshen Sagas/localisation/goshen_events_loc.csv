@@ -1,0 +1,254 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#################
+#Black Fog Events
+#################
+
+EVTDESCgoshen_black_fog_events.0;You've entered a region choked in black fog and it has begun to affect you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_black_fog_events.0;My eyes are burning!;;;;;;;;;;;;;x
+EVTDESCAgoshen_black_fog_events.1;The Black Fog Sickness is getting worse.;;;;;;;;;;;;;x
+EVTDESCBgoshen_black_fog_events.1;The Black Fog Sickness is getting better.;;;;;;;;;;;;;x
+EVTOPTAgoshen_black_fog_events.1;It burns!;;;;;;;;;;;;;x
+
+###############
+#Medicus Events
+###############
+
+EVTDESCAgoshen_medicus_events.1;You've found out you have Malaise.;;;;;;;;;;;;;x
+EVTDESCBgoshen_medicus_events.1;You've found out you have Red Fever.;;;;;;;;;;;;;x
+EVTDESCCgoshen_medicus_events.1;You've found out you have Red Plague.;;;;;;;;;;;;;x
+EVTDESCDgoshen_medicus_events.1;You've found out you have Shigella.;;;;;;;;;;;;;x
+EVTDESCEgoshen_medicus_events.1;You've found out you have Hansen.;;;;;;;;;;;;;x
+EVTDESCFgoshen_medicus_events.1;You've found out you have Delusia.;;;;;;;;;;;;;x
+EVTDESCGgoshen_medicus_events.1;You've found out you have The Sickness.;;;;;;;;;;;;;x
+EVTDESCHgoshen_medicus_events.1;You've found out you have Plaga.;;;;;;;;;;;;;x
+EVTOPTAgoshen_medicus_events.1;I see, well atleast I know.;;;;;;;;;;;;;x
+
+###################
+#Illness Events
+###################
+
+EVTDESCAgoshen_illness_events.1;You have a scratchy throat, runny nose, and nagging cough, it seems you are sick;;;;;;;;;;;;;x
+EVTDESCBgoshen_illness_events.1;You have nearly unending disruptive coughing fits, nightsweats, and burn with fever it seems you are very sick;;;;;;;;;;;;;x
+EVTDESCCgoshen_illness_events.1;Your wound has festered, oozing pus and the skin around it has darkened in color. now you suffer from nightsweats, and a burning fever it seems you are very sick.;;;;;;;;;;;;;x
+EVTOPTAgoshen_illness_events.1;Damn.;;;;;;;;;;;;;x
+EVTDESCgoshen_illness_events.10;Your coughing hasn't abated, you suffer terrible fevers, and your sheets are soaked with sweat everynight. Your illness has progressed.;;;;;;;;;;;;;x
+EVTOPTAgoshen_illness_events.10;I'm dying!;;;;;;;;;;;;;x
+EVTDESCgoshen_illness_events.20;Your coughing hasn't abated, but you don't seem any worse than usual.;;;;;;;;;;;;;x
+EVTOPTAgoshen_illness_events.20;I'm dying I tell you!!;;;;;;;;;;;;;x
+EVTDESCgoshen_illness_events.30;Your coughing fits have lessened of late and you are not as feverish as you used to be. You seem to be getting better.;;;;;;;;;;;;;x
+EVTOPTAgoshen_illness_events.30;Thank [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+
+###################
+#Injury Events
+###################
+
+EVTDESCAgoshen_injury_events.1;You have a nagging pain when you try and walk or work, it seems you are hurt.;;;;;;;;;;;;;x
+EVTDESCBgoshen_injury_events.1;You have nearly unending disruptive pain that makes it very difficult, it seems you are very hurt.;;;;;;;;;;;;;x
+EVTDESCCgoshen_injury_events.1;You have a festering open wound, pain shooting through your body, and dizzy spells, you are in trouble.;;;;;;;;;;;;;x
+EVTOPTAgoshen_injury_events.1;Damn.;;;;;;;;;;;;;x
+EVTDESCgoshen_injury_events.10;Your pain has noticably increased and the wound is festering, your injury has grown worse.;;;;;;;;;;;;;x
+EVTOPTAgoshen_injury_events.10;I'm dying!;;;;;;;;;;;;;x
+EVTDESCgoshen_injury_events.20;Your pain is more or less the same so you don't seem any worse than usual.;;;;;;;;;;;;;x
+EVTOPTAgoshen_injury_events.20;I'm dying I tell you!!;;;;;;;;;;;;;x
+EVTDESCgoshen_injury_events.30;Your pain has lessed lessened of late and the sores are less oozy. You seem to be getting better.;;;;;;;;;;;;;x
+EVTOPTAgoshen_injury_events.30;Thank [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+
+###################
+#Maintenance Events
+###################
+
+EVTDESCgoshen_maintenance_events.10;[From.GetFirstName] has passed on, Joining Inn-z in the Underverse.;;;;;;;;;;;;;x
+EVTOPTAgoshen_maintenance_events.10;"May Maku remove [From.GetHerHis] worldly burdens.";;;;;;;;;;;;;x
+
+###################
+#Personality Events
+###################
+
+EVTDESCgoshen_personality_events.10;You are out in the court playing when a stranger approaches you, "Child, take me to court, I've important business.";;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.10;Alright!;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.10;Who are you?;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.10;No, go away!;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.11;[From.GetFirstName] has reached schooling age and can receive a special education.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.11;[From.GetSheHe] would do well as a commmander.;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.11;I see a spark of politics in [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.11;[From.GetFirstName] loves finance.;;;;;;;;;;;;;x
+EVTOPTDgoshen_personality_events.11;What do I care?;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.12;Congratulations, you have completed your education.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.12;I wonder what kind of Marshal I'll make.;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.12;I'll rise in court quickly, I'm sure of it.;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.12;Penes, Lii, Harks, and Hazah, money makes the world go round.;;;;;;;;;;;;;x
+EVTOPTDgoshen_personality_events.12;What mark shall I make on the world?;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.20;Another child comes up to you at court, "Want to skip lessons and go with us?";;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.20;No, we have to study.;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.20;can it wait until after studies?;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.20;Absolutely, let's go!;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.21;While you are playing at court, a couple of the other children start fighting over a game.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.21;Stop fighting.;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.22;You and the other children of the court start up a game of Turboll, now you just need to pick teams.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.22;I call captain.;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.23;You and another child find a purse filled with Lii and talk about what you should do with it.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.23;I know.;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.24;You are out late at night, and walk into court. As you flitter, two figures enter and start speaking in hushed tones.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.24;Listen in.;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.25;You are on your way to court when come accross a book in the hall and stop to pick it up.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.25;Sounds interesting.;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.30;As you sit reading Winnen of Sterven, you hear other children playing outside and having fun.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.30;Not without me!;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.30;I can at least watch for awhile.;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.30;Good for them *Continue reading*;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.31;Players shouldn't ever see me, Random AI stat Gain.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.31;Gain Stat;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.31;Tutor Player - Employer;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.31;Tutor Player - Liege;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.32;[From.GetFirstName] appears one day after you have dismissed your court, '[Root.GetFirstName], I noticed you struggled with some ideas in court, I could explain them to you, if you wish.';;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.32;Really? That would be great!;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.32;No thanks, I don't need your help.;;;;;;;;;;;;;x
+EVTDESCAgoshen_personality_events.33;[FromFrom.GetFirstName] appears one day after you have dismissed your court, '[Root.GetFirstName] finishes [FromFrom.GetHerHis] lesson, 'Excellent, it seems like you understand it';;;;;;;;;;;;;x
+EVTDESCBgoshen_personality_events.33;[FromFrom.GetFirstName] appears one day after you have dismissed your court, '[Root.GetFirstName] finishes [FromFrom.GetHerHis] lesson and looks at you in astonishment, 'Incredible, I never thought of it that way!';;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.33;Thank you so much, [FromFrom.GetFirstName];;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.40;You are out in the court playing when another child approaches you, "You want see something?";;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.40;Do I?!;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.40;What is it?;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.40;No, now leave me alone!;;;;;;;;;;;;;x
+EVTDESCgoshen_personality_events.50;While you are in court, you see one of the courtiers grab [Root.GetHerHis] chest and fall over, the others start shouting "[Root.GetSheHe]'s dead!" and running about.;;;;;;;;;;;;;x
+EVTOPTAgoshen_personality_events.50;C'est la vie.;;;;;;;;;;;;;x
+EVTOPTBgoshen_personality_events.50;Sad to see [Root.GetHerHim] go.;;;;;;;;;;;;;x
+EVTOPTCgoshen_personality_events.50;That will be one day!;;;;;;;;;;;;;x
+
+###################
+#Swordsmith Events
+###################
+
+EVTDESCAgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of fine quality, but nothing special.;;;;;;;;;;;;;x
+EVTDESCBgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of fine quality, embellished with gold.;;;;;;;;;;;;;x
+EVTDESCCgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of fine quality, masterfully smithed and embellished.;;;;;;;;;;;;;x
+EVTDESCDgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, hilted with a blood red wrap.;;;;;;;;;;;;;x
+EVTDESCEgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, with a blade that seems to absorb light.;;;;;;;;;;;;;x
+EVTDESCFgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, with a blade that seems to shimmer with the light of Eker.;;;;;;;;;;;;;x
+EVTDESCGgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, so sharp it cuts flesh as easily as air.;;;;;;;;;;;;;x
+EVTDESCHgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, seems to glow with the light of dusk.;;;;;;;;;;;;;x
+EVTDESCIgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, strong enough to cleave stone.;;;;;;;;;;;;;x
+EVTDESCJgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, with a thrust that can pierce armor with ease.;;;;;;;;;;;;;x
+EVTDESCKgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, it strikes with a silver flash.;;;;;;;;;;;;;x
+EVTDESCLgoshen_swordsmith_events.1;[From.GetFirstName] presents to you a sword, it is of master quality and smithed of bonemetal, of such great heft that it can crush armor with a swing.;;;;;;;;;;;;;x
+EVTOPTAgoshen_swordsmith_events.1;It's great work, [From.GetFirstName].;;;;;;;;;;;;;x
+
+EVTDESCAgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, A finely worked piece of leather armor.;;;;;;;;;;;;;x
+EVTDESCBgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, An expertly crafted piece of leather armor dyed black.;;;;;;;;;;;;;x
+EVTDESCCgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, A masterfully crafted piece of chainmail..;;;;;;;;;;;;;x
+EVTDESCDgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, it's deep black barely shimmers in the light.;;;;;;;;;;;;;x
+EVTDESCEgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, with a deep bronze shimmer.;;;;;;;;;;;;;x
+EVTDESCFgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, that shines with a bright gold.;;;;;;;;;;;;;x
+EVTDESCGgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, the sheen has been dulled.;;;;;;;;;;;;;x
+EVTDESCHgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, reinforced to absorb the blows during a charge.;;;;;;;;;;;;;x
+EVTDESCIgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, a full set of knightplate that shimmers of silver in the light.;;;;;;;;;;;;;x
+EVTDESCJgoshen_swordsmith_events.20;[From.GetFirstName] presents to you a set of armor, it is of master quality and smithed of bonemetal, shines with a bright grey sheen.;;;;;;;;;;;;;x
+EVTOPTAgoshen_swordsmith_events.20;It's great work, [From.GetFirstName].;;;;;;;;;;;;;x
+
+###################
+#Pet Events
+###################
+
+EVTDESCgoshen_pet_events.1;You're pet has outgrown its baby stage and matured into a fine animal.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.1;Who's a good dear?;;;;;;;;;;;;;x
+EVTDESCgoshen_pet_events.10;You call for your pet but no response. As you look for it, you find its limp body.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.10;What?? No!;;;;;;;;;;;;;x
+EVTDESCgoshen_pet_events.12;You call for your pet but no response. As you look for it, you find it near a tree with a new litter curled up beside it.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.12;Look at all the cute babies!!;;;;;;;;;;;;;x
+EVTOPTBgoshen_pet_events.12;But we can't keep them.;;;;;;;;;;;;;x
+EVTDESCgoshen_pet_events.20;You are out on a hunt when you hear a call in the distance. You track down the source of the sound and find an injured animal.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.20A;Oh you poor Beon, [Root.GetFirstName]'s gonna take care of you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.20B;Oh you poor Kunun, [Root.GetFirstName]'s gonna take care of you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.20C;Oh you poor Pleen, [Root.GetFirstName]'s gonna take care of you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.20D;Oh you poor Tochon, [Root.GetFirstName]'s gonna take care of you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_pet_events.20E;Oh you poor Tusken, [Root.GetFirstName]'s gonna take care of you.;;;;;;;;;;;;;x
+EVTOPTBgoshen_pet_events.20;You poor beast, you are hurt, best to end it quickly.;;;;;;;;;;;;;x
+
+####################
+#Combat Skill Events
+####################
+
+EVTDESCgoshen_cskill_events.1;All your martial practice as improved your skill.;;;;;;;;;;;;;x
+EVTOPTAgoshen_cskill_events.1;Great!;;;;;;;;;;;;;x
+
+###############
+#Battle Events
+###############
+
+EVTDESCgoshen_battle_events.1;In the midst of battle, you caught the wrong end of a random blade or projectile and fell to the ground, before like you could no longer move or speak. And finally the world was veiled by darkness.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.1;I die!;;;;;;;;;;;;;x
+EVTDESCgoshen_battle_events.2;In the midst of battle, you see that one of the enemy commanders is open to attack, you could charge in and strike.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.2;Have at them!;;;;;;;;;;;;;x
+EVTOPTBgoshen_battle_events.2;My guard can handle this.;;;;;;;;;;;;;x
+EVTOPTCgoshen_battle_events.2;No need for personal glory, we will win the day regardless.;;;;;;;;;;;;;x
+
+#Special Tactics
+EVTDESCAgoshen_battle_events.11;In the midst of battle, you see that the enemy is pushing hard on the center, if you give ground you could envelop them.;;;;;;;;;;;;;x
+EVTDESCBgoshen_battle_events.11;In the midst of battle, you see that the enemy flank is weak, could pull troops from you line and smash into it.;;;;;;;;;;;;;x
+EVTDESCCgoshen_battle_events.11;In the midst of battle, you see that the enemy is pushing forward with everything, if you fall back they may give chase.;;;;;;;;;;;;;x
+EVTDESCDgoshen_battle_events.11;In the midst of battle, your reserves have gone unnoticed, they could be withdrawn to setup an ambush.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.11;This will work.;;;;;;;;;;;;;x
+EVTOPTBgoshen_battle_events.11;I'll tell my liege.;;;;;;;;;;;;;x
+EVTOPTCgoshen_battle_events.11;This is too crazy.;;;;;;;;;;;;;x
+EVTDESCgoshen_battle_events.12;You notice the enemy is manuvering [STPlanner.GetHerHis] troops in effort to pull off a tactic.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.12;It's an Envelopment!;;;;;;;;;;;;;x
+EVTOPTBgoshen_battle_events.12;[STPlanner.GetSheHe]'s going to Flank!;;;;;;;;;;;;;x
+EVTOPTCgoshen_battle_events.12;[STPlanner.GetFirstName]'s planning a Feint!;;;;;;;;;;;;;x
+EVTOPTDgoshen_battle_events.12;I won't fall for [STPlanner.GetHerHis] Ambush!;;;;;;;;;;;;;x
+EVTDESCgoshen_battle_events.13;[STPlanner.GetFirstName] comes to you and lays out a plan for attacking the enemy.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.13;This will work.;;;;;;;;;;;;;x
+EVTOPTBgoshen_battle_events.13;This is too crazy.;;;;;;;;;;;;;x
+EVTDESCAgoshen_battle_events.14;Your center slowly gives, drawing the enemy in, before long [STVictim.GetHerHis] flanks buckle and your troops surround the enemy.;;;;;;;;;;;;;x
+EVTDESCBgoshen_battle_events.14;You pull troops from your center then the call rings out for a charge, before long [STVictim.GetFirstName]'s flank collapses and you smash into [STVictim.GetHerHis] rear.;;;;;;;;;;;;;x
+EVTDESCCgoshen_battle_events.14;You call for a retreat and your troops start falling back, [STVictim.GetFirstName] reacts and charges after you, soon [STVictim.GetHerHis] troops are tired and you attack.;;;;;;;;;;;;;x
+EVTDESCDgoshen_battle_events.14;You send your forces to hide and slowly give ground to the enemy, you finally reach the area and signal, the ambush is sprung and crashes into the [STVictim.GetFirstName]'s flank.;;;;;;;;;;;;;x
+EVTDESCEgoshen_battle_events.14;You slowly pull your center back but [STVictim.GetFirstName] doesn't push, instead [STVictim.GetSheHe] strengthens [STVictim.GetHerHis] flanks and pushes you back.;;;;;;;;;;;;;x
+EVTDESCFgoshen_battle_events.14;You pull troops from the center and try to flank [STVictim.GetFirstName], but [STVictim.GetSheHe] sees the flank and charges into your weakened center.;;;;;;;;;;;;;x
+EVTDESCGgoshen_battle_events.14;You call for a retreat and your troops start falling back, but [STVictim.GetFirstName] doesn't follow and instead strengthens [STVictim.GetHerHis] defenses and harasses your retreat.;;;;;;;;;;;;;x
+EVTDESCHgoshen_battle_events.14;You send your reserves to hide in ambush and slowly fall back, but when you reach the ambush site, [STVictim.GetFirstName] sends [STVictim.GetHerHis] reserves against your hidden troops.;;;;;;;;;;;;;x
+EVTOPTAgoshen_battle_events.14;Excellent!;;;;;;;;;;;;;x
+EVTOPTBgoshen_battle_events.14;No, damn it!;;;;;;;;;;;;;x
+
+###############
+#Duel Events
+###############
+
+EVTDESCgoshen_duel_events.1;Determine a winner of the duel round.;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.1;[dueler1.GetFirstName];;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.1;[dueler2.GetFirstName];;;;;;;;;;;;;x
+EVTDESCgoshen_duel_events.10;[dueler1.GetFirstName] strikes away your weapon, forcing you to your knee. [dueler1.GetSheHe] lifts the blade for a killing stroke.;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.10;Roll;;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.10;I surrender!;;;;;;;;;;;;;x
+EVTDESCgoshen_duel_events.11;[From.GetFirstName] drops [From.GetHerHis] weapon and throws up [From.GetHerHis] hands in surrender.;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.11;Guards!;;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.11;So sorry.;;;;;;;;;;;;;x
+EVTDESCAgoshen_duel_events.12;You watch on as [dueler2.GetFirstName] twists [dueler2.GetHerHis] weapon and disarms [dueler1.GetFirstName]. As [dueler2.GetFirstName] readies a killing strike, [dueler1.GetFirstName] declares surrender;;;;;;;;;;;;;x
+EVTDESCBgoshen_duel_events.12;You watch on as [dueler2.GetFirstName] twists [dueler2.GetHerHis] weapon and disarms [dueler1.GetFirstName]. You can only watch as [dueler2.GetFirstName]'s weapon tears into [dueler1.GetFirstName], leaving [dueler1.GetHerHim] in a pool of blood.;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.12;Damn!;;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.12;Farewell, [dueler1.GetFirstName].;;;;;;;;;;;;;x
+EVTDESCgoshen_duel_events.20;You close the gap with [dueler2.GetFirstName], who takes up a guard position. So you decide to attack with...;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.20;A Thrust.;;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.20;A Swing.;;;;;;;;;;;;;x
+EVTOPTCgoshen_duel_events.20;A Chop.;;;;;;;;;;;;;x
+EVTDESCgoshen_duel_events.21;[dueler1.GetFirstName] closed with you, putting you on the defensive and readies an attack. So you decide to defend with...;;;;;;;;;;;;;x
+EVTOPTAgoshen_duel_events.21;A Parry.;;;;;;;;;;;;;x
+EVTOPTBgoshen_duel_events.21;A Retreat.;;;;;;;;;;;;;x
+EVTOPTCgoshen_duel_events.21;A Block.;;;;;;;;;;;;;x
+
+####################
+#Councillor Events
+####################
+
+EVTDESCAgoshen_job_events.11;As you are attending to the matters of court, adjudicating squabbles between the lords of your realm, mostly complaints over cattle and boundaries, you overhear talks extolling your liege.;;;;;;;;;;;;;x
+EVTDESCBgoshen_job_events.11;As you are attending to the matters of court, adjudicating squabbles between the realm lords, when [From.GetFirstName] bursts in, "My Lord, I must tell you about the greatness of [From.Liege.GetTitledFirstName]".;;;;;;;;;;;;;x
+EVTOPTAgoshen_job_events.11;You know, [From.Liege.GetTitledFirstName] has treated me well.;;;;;;;;;;;;;x
+EVTOPTBgoshen_job_events.11;Damn it, [From.GetFirstName] [From.Liege.GetTitledFirstName] sent you,didn't [From.Liege.GetSheHe]?!;;;;;;;;;;;;;x
+EVTDESCAgoshen_job_events.21;As you are attending to the matters of court, you overhear one of the courtiers talking about a vicious slander about you.;;;;;;;;;;;;;x
+EVTDESCBgoshen_job_events.21;As you are attending to the matters of court, [From.GetFirstName] starts talking loudly, "Can you believe what [Root.Liege.GetTitledFirstName] said about [Root.GetFirstName]?";;;;;;;;;;;;;x
+EVTOPTAgoshen_job_events.21;[Root.Liege.GetTitledFirstName] said what??;;;;;;;;;;;;;x
+EVTOPTBgoshen_job_events.21;Damn it, [From.GetFirstName] [From.Liege.GetTitledFirstName] sent you, didn't [From.Liege.GetSheHe]?!;;;;;;;;;;;;;x
+EVTDESCAgoshen_job_events.31;As you are attending to the matters of court, you overhear one of the courtiers talking about a vicious slander about you.;;;;;;;;;;;;;x
+EVTDESCBgoshen_job_events.31;As you are attending to the matters of court, [From.GetFirstName] starts talking loudly, "Can you believe what [Root.Liege.GetTitledFirstName] said about [Root.GetFirstName]?";;;;;;;;;;;;;x
+EVTOPTAgoshen_job_events.31;[Root.Liege.GetTitledFirstName] said what??;;;;;;;;;;;;;x
+EVTOPTBgoshen_job_events.31;Damn it, [From.GetFirstName] [From.Liege.GetTitledFirstName] sent you, didn't [From.Liege.GetSheHe]?!;;;;;;;;;;;;;x

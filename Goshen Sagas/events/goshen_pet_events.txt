@@ -1,0 +1,330 @@
+namespace = goshen_pet_events
+character_event = {
+	id = goshen_pet_events.1
+	desc = EVTDESCgoshen_pet_events.1
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			trait = pet_beonpup
+			trait = pet_kununpup
+			trait = pet_pleencub
+			trait = pet_tochonkitten
+			trait = pet_tusklet
+		}
+	}
+	option = {
+		name = EVTOPTAgoshen_pet_events.1
+		IF = {
+			limit = { trait = pet_beonpup }
+			remove_trait = pet_beonpup
+			add_trait = pet_beon
+		}
+		IF = {
+			limit = { trait = pet_kununpup }
+			remove_trait = pet_kununpup
+			add_trait = pet_kunun
+		}
+		IF = {
+			limit = { trait = pet_pleencub }
+			remove_trait = pet_pleencub
+			add_trait = pet_pleen
+		}
+		IF = {
+			limit = { trait = pet_tochonkitten }
+			remove_trait = pet_tochonkitten
+			add_trait = pet_tochon
+		}
+		IF = {
+			limit = { trait = pet_tusklet }
+			remove_trait = pet_tusklet
+			add_trait = pet_tusken
+		}
+	}
+}
+character_event = {
+	id = goshen_pet_events.10
+	desc = EVTDESCgoshen_pet_events.10
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			trait = pet_beon
+			trait = pet_beonpup
+			trait = pet_kunun
+			trait = pet_kununpup
+			trait = pet_pleen
+			trait = pet_pleencub
+			trait = pet_tochon
+			trait = pet_tochonkitten
+			trait = pet_tusken
+			trait = pet_tusklet
+		}
+	}
+	immediate = {
+		remove_trait = pet_beon
+		remove_trait = pet_beonpup
+		remove_trait = pet_kunun
+		remove_trait = pet_kununpup
+		remove_trait = pet_pleen
+		remove_trait = pet_pleencub
+		remove_trait = pet_tochon
+		remove_trait = pet_tochonkitten
+		remove_trait = pet_tusken
+		remove_trait = pet_tusklet
+	}
+	option = {
+		name = EVTOPTAgoshen_pet_events.10
+	}
+}
+
+character_event = {
+	id = goshen_pet_events.100
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = pet_beon
+			trait = pet_beonpup
+			trait = pet_kunun
+			trait = pet_kununpup
+			trait = pet_pleen
+			trait = pet_pleencub
+			trait = pet_tochon
+			trait = pet_tochonkitten
+			trait = pet_tusken
+			trait = pet_tusklet
+		}
+	}
+	immediate = {
+		remove_trait = pet_beon
+		remove_trait = pet_beonpup
+		remove_trait = pet_kunun
+		remove_trait = pet_kununpup
+		remove_trait = pet_pleen
+		remove_trait = pet_pleencub
+		remove_trait = pet_tochon
+		remove_trait = pet_tochonkitten
+		remove_trait = pet_tusken
+		remove_trait = pet_tusklet
+	}
+}
+character_event = {
+	id = goshen_pet_events.11
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		ai = no
+		OR = {
+			AND = {
+				trait = pet_beon
+				not = { trait = pet_beonpup }
+			}
+			AND = {
+				trait = pet_kunun
+				not = { trait = pet_kununpup }
+			}
+			AND = {
+				trait = pet_pleen
+				not = { trait = pet_pleencub }
+			}
+			AND = {
+				trait = pet_tochon
+				not = { trait = pet_tochonkitten }
+			}
+			AND = {
+				trait = pet_tusken
+				not = { trait = pet_tusklet }
+			}
+		}
+	}
+	immediate = {
+		random = {
+			chance = 50
+			character_event = { id = goshen_pet_events.12 }
+		}
+	}
+}
+character_event = {
+	id = goshen_pet_events.12
+	desc = EVTDESCgoshen_pet_events.12
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			AND = {
+				trait = pet_beon
+				not = { trait = pet_beonpup }
+			}
+			AND = {
+				trait = pet_kunun
+				not = { trait = pet_kununpup }
+			}
+			AND = {
+				trait = pet_pleen
+				not = { trait = pet_pleencub }
+			}
+			AND = {
+				trait = pet_tochon
+				not = { trait = pet_tochonkitten }
+			}
+			AND = {
+				trait = pet_tusken
+				not = { trait = pet_tusklet }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTAgoshen_pet_events.12
+		IF = {
+			limit = { trait = pet_beon }
+			add_trait = pet_beonpup
+		}
+		IF = {
+			limit = { trait = pet_kunun }
+			add_trait = pet_kununpup
+		}
+		IF = {
+			limit = { trait = pet_pleen }
+			add_trait = pet_pleencub
+		}
+		IF = {
+			limit = { trait = pet_tochon }
+			add_trait = pet_tochonkitten
+		}
+		IF = {
+			limit = { trait = pet_tusken }
+			add_trait = pet_tusklet
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_pet_events.12
+	}
+}
+character_event = {
+	id = goshen_pet_events.20
+	desc = EVTDESCgoshen_pet_events.20
+	picture = GFX_evt_council
+	is_triggered_only = yes
+
+	trigger = {
+		NOR = {
+			trait = pet_beon
+			trait = pet_beonpup
+			trait = pet_kunun
+			trait = pet_kununpup
+			trait = pet_pleen
+			trait = pet_pleencub
+			trait = pet_tochon
+			trait = pet_tochonkitten
+			trait = pet_tusken
+			trait = pet_tusklet
+		}
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 3
+					capital_scope = {
+						region = world_abimelech
+					}
+				}
+				modifier = {
+					factor = 0
+					NOT = {
+						capital_scope = {
+							region = world_rogas
+						}
+					}
+				}
+				add_trait = pet_beon
+			}
+			1 = {
+				add_trait = pet_kunun
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					culture = yava
+				}
+				modifier = {
+					factor = 0
+					NOT = {
+						capital_scope = {
+							region = world_yava
+						}
+					}
+				}
+				add_trait = pet_pleen
+			}
+			1 = {
+				modifier = {
+					factor = 2
+					capital_scope = {
+						region = world_abimelech
+					}
+				}
+				modifier = {
+					factor = 0
+					NOT = {
+						capital_scope = {
+							region = world_rogas
+						}
+					}
+				}
+				add_trait = pet_tochon
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					NOT = {
+						capital_scope = {
+							region = world_rogas
+						}
+					}
+				}
+				add_trait = pet_tusken
+			}
+		}
+	}
+
+	option = {
+		name = {
+			text = EVTOPTAgoshen_pet_events.20A
+			trigger = { trait = pet_beon }
+		}
+		name = {
+			text = EVTOPTAgoshen_pet_events.20B
+			trigger = { trait = pet_kunun }
+		}
+		name = {
+			text = EVTOPTAgoshen_pet_events.20C
+			trigger = { trait = pet_pleen }
+		}
+		name = {
+			text = EVTOPTAgoshen_pet_events.20D
+			trigger = { trait = pet_tochon }
+		}
+		name = {
+			text = EVTOPTAgoshen_pet_events.20E
+			trigger = { trait = pet_tusken }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_pet_events.20
+		hidden_tooltip = {
+			remove_trait = pet_beon
+			remove_trait = pet_kunun
+			remove_trait = pet_pleen
+			remove_trait = pet_tochon
+			remove_trait = pet_tusken
+		}
+	}
+}

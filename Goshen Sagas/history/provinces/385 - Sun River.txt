@@ -1,0 +1,20 @@
+#####################
+# Sun River
+#####################
+
+#County Title
+title = c_sun_river
+
+#Settlements
+max_settlements = 3
+b_sun_river = castle
+b_sun_river_city = city
+b_sun_river_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_dyinglands"
+		texturefile = "gfx\\characters\\unoccupied\\dyinglands.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
+}

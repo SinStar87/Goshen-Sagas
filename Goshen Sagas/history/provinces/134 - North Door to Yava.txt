@@ -1,0 +1,20 @@
+#####################
+# North Door to Yava
+#####################
+
+#County Title
+title = c_n_door_to_yava
+
+#Settlements
+max_settlements = 3
+b_n_door_to_yava = castle
+b_n_door_to_yava_city = city
+b_n_door_to_yava_temple = temple
+
+#Settings
+culture = yava
+religion = yava_rel
+
+#History
+#867.1.1 = {
+#}

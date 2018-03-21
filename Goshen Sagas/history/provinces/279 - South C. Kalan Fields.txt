@@ -1,0 +1,20 @@
+#######################
+# South C. Kalan Fields
+#######################
+
+#County Title
+title = c_s_c_kalan_fields
+
+#Settlements
+max_settlements = 3
+b_s_c_kalan_fields = castle
+b_s_c_kalan_fields_city = city
+b_s_c_kalan_fields_temple = temple
+
+#Settings
+culture = kalan
+religion = kalan_rel
+
+#History
+#867.1.1 = {
+#}

@@ -1,0 +1,20 @@
+#####################
+# Khes
+#####################
+
+#County Title
+title = c_khes
+
+#Settlements
+max_settlements = 3
+b_khes = castle
+b_khes_city = city
+b_khes_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

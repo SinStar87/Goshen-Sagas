@@ -1,0 +1,18 @@
+####################
+# Qess Fort
+####################
+
+#County Title
+title = c_qess_fort
+
+#Settlements
+max_settlements = 3
+b_qess_fort = castle
+b_qess_fort_city = city
+b_qess_fort_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History

@@ -1,0 +1,185 @@
+namespace = goshen_black_fog_events
+character_event = {#Inform about Illness
+	id = goshen_black_fog_events.0
+	desc = EVTDESCgoshen_black_fog_events.0
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		NOR = {
+			culture = dulmal
+			culture = hunute
+		}
+		NOT = {
+			trait = has_black_fog
+		}
+		location = {
+			OR = {
+				region = world_hunute
+				province_id = 212
+				province_id = 241
+				province_id = 252
+				province_id = 328
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		add_trait = has_black_fog
+		add_trait = minor_illness
+	}
+	option = {
+		name = EVTOPTAgoshen_black_fog_events.0
+	}
+}
+character_event = {#Inform about Black Fog Sickness
+	id = goshen_black_fog_events.1
+	desc = {
+		text = EVTDESCAgoshen_black_fog_events.1
+		trigger = {
+			OR = {
+				region = world_hunute
+				province_id = 212
+				province_id = 241
+				province_id = 252
+				province_id = 328
+				trait = severe_illness
+				trait = incapacitating_illness
+				trait = deadly_illness
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_black_fog_events.1
+		trigger = {
+			NOR = {
+				region = world_hunute
+				province_id = 212
+				province_id = 241
+				province_id = 252
+				province_id = 328
+				trait = severe_illness
+				trait = incapacitating_illness
+				trait = deadly_illness
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		trait = has_black_fog
+	}
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	immediate = {
+		IF = {
+			limit = {
+				location = {
+					NOR = {
+						region = world_hunute
+						province_id = 212
+						province_id = 241
+						province_id = 252
+						province_id = 328
+					}
+				}
+				trait = minor_illness
+			}
+			remove_trait = minor_illness
+			remove_trait = has_black_fog
+		}
+		IF = {
+			limit = {
+				location = {
+					NOR = {
+						region = world_hunute
+						province_id = 212
+						province_id = 241
+						province_id = 252
+						province_id = 328
+					}
+				}
+				trait = moderate_illness
+			}
+			remove_trait = moderate_illness
+			add_trait = minor_illness
+		}
+		IF = {
+			limit = {
+				trait = deadly_illness
+			}
+			death = { death_reason = death_trait }
+		}
+		IF = {
+			limit = {
+				trait = incapacitating_illness
+			}
+			remove_trait = incapacitating_illness
+			add_trait = deadly_illness
+		}
+		IF = {
+			limit = {
+				trait = severe_illness
+			}
+			remove_trait = severe_illness
+			add_trait = incapacitating_illness
+		}
+		IF = {
+			limit = {
+				location = {
+					OR = {
+						region = world_hunute
+						province_id = 212
+						province_id = 241
+						province_id = 252
+						province_id = 328
+					}
+				}
+				trait = moderate_illness
+			}
+			remove_trait = moderate_illness
+			add_trait = severe_illness
+		}
+		IF = {
+			limit = {
+				location = {
+					OR = {
+						region = world_hunute
+						province_id = 212
+						province_id = 241
+						province_id = 252
+						province_id = 328
+					}
+				}
+				trait = moderate_illness
+			}
+			remove_trait = moderate_illness
+			add_trait = severe_illness
+		}
+		IF = {
+			limit = {
+				location = {
+					OR = {
+						region = world_hunute
+						province_id = 212
+						province_id = 241
+						province_id = 252
+						province_id = 328
+					}
+				}
+				trait = minor_illness
+			}
+			remove_trait = minor_illness
+			add_trait = moderate_illness
+		}
+	}
+	option = {
+		name = EVTOPTAgoshen_black_fog_events.0
+	}
+}

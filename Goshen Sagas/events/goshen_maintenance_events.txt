@@ -1,0 +1,1743 @@
+namespace = goshen_maintenance_events
+character_event = {
+	id = goshen_maintenance_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_landed_title = e_AGOT
+	}
+	
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				NOT = { any_courtier = { trait = is_medicus } }
+			}
+			create_random_priest = {
+				random_traits = yes
+				trait = is_medicus
+				age = 40
+				health = 5
+				fertility = 0.5
+				culture = THIS
+				religion = THIS
+			}
+			IF = {
+				limit = {
+					culture = yava
+					NOT = { trait = yava_trait }
+				}
+				add_trait = yava_trait
+			}
+			IF = {
+				limit = {
+					culture = huargens
+					NOT = { trait = huargen_trait }
+				}
+				add_trait = huargen_trait
+			}
+			IF = {
+				limit = {
+					culture = kalan
+					NOT = { trait = kalan_trait }
+				}
+				add_trait = kalan_trait
+			}
+			IF = {
+				limit = {
+					culture = hunute
+					NOT = { trait = hunute_trait }
+				}
+				add_trait = hunute_trait
+			}
+		}
+		any_independent_ruler = {
+			any_realm_lord = {
+				limit = {
+					NOT = { any_courtier = { trait = is_medicus } }
+				}
+				create_random_priest = {
+					random_traits = yes
+					trait = is_medicus
+					age = 40
+					health = 5
+					fertility = 0.5
+					culture = THIS
+					religion = THIS
+				}
+			}
+		}
+		any_independent_ruler = {
+			any_realm_lord = {
+				limit = {
+					has_guard_trigger = yes
+				}
+				add_trait = guardsman
+			}
+		}
+		any_independent_ruler = {#Make Sure everyone has sufficient traits
+			any_realm_character = {
+				limit = {
+					age = 9
+					NAND = {
+						has_combat_prowess_trigger = yes
+						has_openness_trait_trigger = yes
+						has_planning_trait_trigger = yes
+						has_sociable_trait_trigger = yes
+						has_agreeable_trait_trigger = yes
+						has_worry_trait_trigger = yes
+					}
+				}
+				IF = {
+					limit = { NOT = { has_combat_prowess_trigger = yes } }
+					random_list = {
+						10 = {
+							modifier = {
+								factor = 10
+								culture = kalan
+							}
+							modifier = {
+								factor = 0.1
+								NOT = { culture = kalan }
+							}
+							add_trait = noncombatant
+						}
+						39 = {
+							modifier = {
+								factor = 2
+								NOT = { culture = kalan }
+							}
+							add_trait = scrapper
+						}
+						40 = {
+							modifier = {
+								factor = 2
+								NOT = { culture = kalan }
+							}
+							add_trait = fighter
+						}
+						10 = {
+							modifier = {
+								factor = 2
+								OR = {
+									trait = soldier
+									trait = tactician
+									trait = strategist
+									trait = mastermind
+								}
+							}
+							add_trait = champion
+						}
+						1 = {
+							add_trait = legend
+						}
+					}
+				}
+				IF = {
+					limit = { NOT = { has_openness_trait_trigger = yes } }
+					random_list = {
+						1 = {
+							add_trait = susceptible
+						}
+						1 = {
+							add_trait = receptive
+						}
+						1 = {
+							add_trait = impartial
+						}
+						1= {
+							add_trait = biased
+						}
+						1 = {
+							add_trait = prejudiced
+						}
+					}
+				}
+				IF = {
+					limit = { NOT = { has_planning_trait_trigger = yes } }
+					random_list = {
+						1 = {
+							add_trait = controlling
+						}
+						1 = {
+							add_trait = calculating
+						}
+						1 = {
+							add_trait = willful
+						}
+						1= {
+							add_trait = erratic
+						}
+						1 = {
+							add_trait = irrational
+						}
+					}
+				}
+				IF = {
+					limit = { NOT = { has_sociable_trait_trigger = yes } }
+					random_list = {
+						1 = {
+							add_trait = extrovert
+						}
+						1 = {
+							add_trait = friendly
+						}
+						1 = {
+							add_trait = cordial
+						}
+						1= {
+							add_trait = cold
+						}
+						1 = {
+							add_trait = introvert
+						}
+					}
+				}
+				IF = {
+					limit = { NOT = { has_agreeable_trait_trigger = yes } }
+					random_list = {
+						1 = {
+							add_trait = overeager
+						}
+						1 = {
+							add_trait = sympathetic
+						}
+						1 = {
+							add_trait = responsive
+						}
+						1= {
+							add_trait = unwilling
+						}
+						1 = {
+							add_trait = irreconcilable
+						}
+					}
+				}
+				IF = {
+					limit = { NOT = { has_worry_trait_trigger = yes } }
+					random_list = {
+						1 = {
+							add_trait = carefree
+						}
+						1 = {
+							add_trait = idealist
+						}
+						1 = {
+							add_trait = pragmatic
+						}
+						1= {
+							add_trait = cynic
+						}
+						1 = {
+							add_trait = pessimist
+						}
+					}
+				}
+				IF = {
+					limit = {
+						culture = yava
+						NOT = { trait = yava_trait }
+					}
+					add_trait = yava_trait
+				}
+				IF = {
+					limit = {
+						culture = huargens
+						NOT = { trait = huargen_trait }
+					}
+					add_trait = huargen_trait
+				}
+				IF = {
+					limit = {
+						culture = kalan
+						NOT = { trait = kalan_trait }
+					}
+					add_trait = kalan_trait
+				}
+				IF = {
+					limit = {
+						culture = hunute
+						NOT = { trait = hunute_trait }
+					}
+					add_trait = hunute_trait
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = gawei_sword_1
+			trait = gawei_sword_2
+			trait = gawei_sword_3
+			trait = gawei_sword_4
+			trait = gawei_sword_5
+			trait = gawei_sword_6
+			trait = gawei_sword_7
+			trait = gawei_sword_8
+			trait = gawei_sword_9
+		}
+	}
+
+	immediate = {
+		primary_title = {
+			heir_under_primogeniture_law = {
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_1 }
+					}
+					add_trait = gawei_sword_1
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_2 }
+					}
+					add_trait = gawei_sword_2
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_3 }
+					}
+					add_trait = gawei_sword_3
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_4 }
+					}
+					add_trait = gawei_sword_4
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_5 }
+					}
+					add_trait = gawei_sword_5
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_6 }
+					}
+					add_trait = gawei_sword_6
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_7 }
+					}
+					add_trait = gawei_sword_7
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_8 }
+					}
+					add_trait = gawei_sword_8
+				}
+				IF = {
+					limit = {
+						dynasty = ROOT 
+						ROOT = { trait = gawei_sword_9 }
+					}
+					add_trait = gawei_sword_9
+				}
+			}
+		}
+		k_gawei = {
+			holder_scope = {
+				character_event = { id = goshen_maintenance_events.10 days = 1 }
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			culture = huargens
+			culture = yava
+			culture = kalan
+		}
+		NOR = {
+			trait = huargen_trait
+			trait = yava_trait
+			trait = kalan_trait
+		}
+	}
+
+	immediate = {
+		IF = {
+			limit = {
+				culture = yava
+				NOT = { trait = yava_trait }
+			}
+			add_trait = yava_trait
+		}
+		IF = {
+			limit = {
+				culture = huargens
+				NOT = { trait = huargen_trait }
+			}
+			add_trait = huargen_trait
+		}
+		IF = {
+			limit = {
+				culture = kalan
+				NOT = { trait = kalan_trait }
+			}
+			add_trait = kalan_trait
+		}
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.3
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_landed_title = e_AGOT
+		NOT = {
+			swordsmith = {
+				is_alive = yes
+				count = 20
+			}
+		}
+	}
+
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				NOT = {
+					any_realm_character = {
+						trait = swordsmith
+						count = 3
+					}
+				}
+			}
+			any_realm_lord = {
+				limit = {
+					OR = {
+						trait = clerk
+						trait = entrepreneur
+						trait = financier
+						trait = mogul
+					}
+					real_tier = BARON
+					is_republic = yes
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								trait = swordsmith
+								count = 3
+							}
+						}
+					}
+				}
+				add_trait = swordsmith
+			}
+			any_realm_character = {
+				limit = {
+					OR = {
+						trait = clerk
+						trait = entrepreneur
+						trait = financier
+						trait = mogul
+					}
+					is_ruler = no
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								trait = swordsmith
+								count = 3
+							}
+						}
+					}
+				}
+				add_trait = swordsmith
+			}
+			any_realm_lord = {
+				limit = {
+					NOT = {
+						top_liege = {
+							any_realm_character = {
+								trait = swordsmith
+								count = 3
+							}
+						}
+					}
+				}
+				create_random_steward = {
+					random_traits = yes
+					dynasty = random
+					female = no
+					trait = swordsmith
+					age = 35
+					health = 5
+					fertility = 0.6
+				}
+				new_character = {
+					hidden_tooltip = {
+						IF = {
+							limit = { NOT = { has_combat_prowess_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = noncombatant
+								}
+								1 = {
+									add_trait = scrapper
+								}
+								1 = {
+									add_trait = fighter
+								}
+								1 = {
+									add_trait = champion
+								}
+								1 = {
+									add_trait = legend
+								}
+							}
+						}
+						IF = {
+							limit = { NOT = { has_openness_trait_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = susceptible
+								}
+								1 = {
+									add_trait = receptive
+								}
+								1 = {
+									add_trait = impartial
+								}
+								1 = {
+									add_trait = biased
+								}
+								1 = {
+									add_trait = prejudiced
+								}
+							}
+						}
+						IF = {
+							limit = { NOT = { has_planning_trait_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = controlling
+								}
+								1 = {
+									add_trait = calculating
+								}
+								1 = {
+									add_trait = willful
+								}
+								1 = {
+									add_trait = erratic
+								}
+								1 = {
+									add_trait = irrational
+								}
+							}
+						}
+						IF = {
+							limit = { NOT = { has_sociable_trait_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = extrovert
+								}
+								1 = {
+									add_trait = friendly
+								}
+								1 = {
+									add_trait = cordial
+								}
+								1 = {
+									add_trait = cold
+								}
+								1 = {
+									add_trait = introvert
+								}
+							}
+						}
+						IF = {
+							limit = { NOT = { has_agreeable_trait_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = overeager
+								}
+								1 = {
+									add_trait = sympathetic
+								}
+								1 = {
+									add_trait = responsive
+								}
+								1 = {
+									add_trait = unwilling
+								}
+								1 = {
+									add_trait = irreconcilable
+								}
+							}
+						}
+						IF = {
+							limit = { NOT = { has_worry_trait_trigger = yes } }
+							random_list = {
+								1 = {
+									add_trait = carefree
+								}
+								1 = {
+									add_trait = idealist
+								}
+								1 = {
+									add_trait = pragmatic
+								}
+								1 = {
+									add_trait = cynic
+								}
+								1 = {
+									add_trait = pessimist
+								}
+							}
+						}
+						IF = {
+							limit = {
+								culture = yava
+								NOT = { trait = yava_trait }
+							}
+							add_trait = yava_trait
+						}
+						IF = {
+							limit = {
+								culture = huargens
+								NOT = { trait = huargen_trait }
+							}
+							add_trait = huargen_trait
+						}
+						IF = {
+							limit = {
+								culture = kalan
+								NOT = { trait = kalan_trait }
+							}
+							add_trait = kalan_trait
+						}
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.10
+	desc = EVTDESCgoshen_maintenance_events.10
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_1 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_1
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_2 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_2
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_3 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_3
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_4 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_4
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_5 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_5
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_6 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_6
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_7 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_7
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_8 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_8
+		}
+		IF = {
+			limit = {
+				NOT = {
+					gawei_sword_9 = {
+						is_alive = yes
+					}
+				}
+			}
+			add_trait = gawei_sword_9
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_maintenance_events.10
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.20
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = minor_illness
+			trait = moderate_illness
+			trait = severe_illness
+			trait = incapacitating_illness
+			trait = deadly_illness
+		}
+		NOR = {
+			trait = has_malaise
+			trait = has_red_fever
+			trait = has_red_plague
+			trait = has_shigella
+			trait = has_hansen
+			trait = has_delusia
+			trait = has_sickness
+			trait = has_plaga
+			trait = has_black_fog
+		}
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 5
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_malaise
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_malaise
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_malaise
+					}
+				}
+				add_trait = has_malaise
+			}
+			1 = {
+				modifier = {
+					factor = 2
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_red_fever
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_red_fever
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_red_fever
+					}
+				}
+				add_trait = has_red_fever
+			}
+			1 = {
+				modifier = {
+					factor = 2
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_red_plague
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_red_plague
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_red_plague
+					}
+				}
+				add_trait = has_red_plague
+			}
+			1 = {
+				modifier = {
+					factor = 0.1
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 2
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_shigella
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_shigella
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_shigella
+					}
+				}
+				add_trait = has_shigella
+			}
+			1 = {
+				modifier = {
+					factor = 2
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_hansen
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_hansen
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_hansen
+					}
+				}
+				add_trait = has_hansen
+			}
+			1 = {
+				modifier = {
+					factor = 0.1
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 3
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					OR = {
+						trait = severe_illness
+						trait = incapacitating_illness
+						trait = deadly_illness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_delusia
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_delusia
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_delusia
+					}
+				}
+				add_trait = has_delusia
+			}
+			1 = {
+				modifier = {
+					factor = 0.05
+					is_female = no
+				}
+				modifier = {
+					factor = 0.1
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 3
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					OR = {
+						trait = severe_illness
+						trait = incapacitating_illness
+						trait = deadly_illness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_sickness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_sickness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_sickness
+					}
+				}
+				add_trait = has_sickness
+			}
+			1 = {
+				modifier = {
+					factor = 0.1
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 3
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					OR = {
+						trait = severe_illness
+						trait = incapacitating_illness
+						trait = deadly_illness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_plaga
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_plaga
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_plaga
+					}
+				}
+				add_trait = has_plaga
+			}
+		}
+		character_event = { id = goshen_medicus_events.1 }
+	}
+}
+character_event = {#Name as Guard Commander
+	id = goshen_maintenance_events.21
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_guard_trigger = yes
+	}
+
+	immediate = {
+		current_heir = {
+			add_trait = guardsman
+		}
+	}
+}
+character_event = {
+	id = goshen_maintenance_events.30
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_landed_title = e_AGOT
+		OR = {
+			c_n_upper_dying_lands_coast = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_nw_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_ne_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_e_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_s_upper_dying_lands_coast = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_c_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_n_w_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_w_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_n_lower_dying_lands_coast = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_s_c_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_se_c_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_n_s_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_s_w_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_se_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_s_lower_dying_lands_coast = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_sw_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+			c_s_dying_lands = {
+				OR = {
+					has_holder = no
+					NOT = {
+						holder_scope = {
+							trait = dyinglands_trait
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		c_n_upper_dying_lands_coast = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_nw_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_ne_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_e_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_s_upper_dying_lands_coast = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_c_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_n_w_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_w_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_n_lower_dying_lands_coast = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_s_c_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_se_c_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_n_s_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_s_w_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_se_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_s_lower_dying_lands_coast = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_sw_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+		c_s_dying_lands = {
+			IF = {
+				limit = {
+					OR = {
+						has_holder = no
+						NOT = {
+							holder_scope = {
+								trait = dyinglands_trait
+							}
+						}
+					}
+				}
+				create_character = {
+					name = ""
+					culture = dyinglands
+					religion = dyinglands_rel
+					dynasty = NONE
+					attributes = {
+						martial = 0
+						diplomacy = 0
+						intrigue = 0
+						stewardship = 0
+						learning = 0
+					}
+					trait = dyinglands_trait
+				}
+				new_character = {
+					gain_title = PREV
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+###########################
+# Central E. Daly Mountains
+###########################
+
+#County Title
+title = c_c_e_daly_mountains
+
+#Settlements
+max_settlements = 3
+b_c_e_daly_mountains = castle
+b_c_e_daly_mountains_city = city
+b_c_e_daly_mountains_temple = temple
+
+#Settings
+culture = rannu
+religion = rannu_rel
+
+#History
+#867.1.1 = {
+#}

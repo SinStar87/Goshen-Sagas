@@ -1,0 +1,20 @@
+#####################
+# Central Majat Mountains
+#####################
+
+#County Title
+title = c_c_majat_mountains
+
+#Settlements
+max_settlements = 3
+b_c_majat_mountains = castle
+b_c_majat_mountains_city = city
+b_c_majat_mountains_temple = temple
+
+#Settings
+culture = anin
+religion = anin_rel
+
+#History
+#867.1.1 = {
+#}

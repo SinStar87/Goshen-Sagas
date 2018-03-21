@@ -1,0 +1,464 @@
+namespace = goshen_illness_events
+character_event = {#Now you're sick
+	id = goshen_illness_events.0
+	hide_window = yes
+
+	trigger = {
+		NOR = {
+			trait = minor_illness
+			trait = moderate_illness
+			trait = severe_illness
+			trait = incapacitating_illness
+			trait = deadly_illness
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 15
+		modifier = {
+			factor = 0.1
+			OR = {
+				trait = moderate_injury
+				trait = severe_injury
+				trait = incapacitating_injury
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trait = weak
+		}
+		modifier = {
+			factor = 0.75
+			trait = feeble
+		}
+		modifier = {
+			factor = 0.3
+			any_courtier = {
+				trait = has_red_fever
+			}
+		}
+		modifier = {
+			factor = 0.3
+			any_courtier = {
+				trait = has_red_plague
+			}
+		}
+		modifier = {
+			factor = 0.3
+			any_courtier = {
+				trait = has_shigella
+			}
+		}
+		modifier = {
+			factor = 0.9
+			any_courtier = {
+				trait = has_hansen
+			}
+		}
+		modifier = {
+			factor = 0.3
+			any_courtier = {
+				trait = has_delusia
+			}
+		}
+		modifier = {
+			factor = 0.1
+			is_female = yes
+			any_courtier = {
+				trait = has_sickness
+			}
+		}
+		modifier = {
+			factor = 0.3
+			any_courtier = {
+				trait = has_plaga
+			}
+		}
+		modifier = {
+			factor = 6
+			health = 6
+		}
+		modifier = {
+			factor = 1.5
+			trait = halenhearty
+		}
+		modifier = {
+			factor = 3
+			trait = strong
+		}
+	}
+
+	immediate = {
+		random_list = {
+			3 = {
+				modifier = {
+					factor = 3
+					health = 6
+				}
+				modifier = {
+					factor = 2
+					NOR = {
+						trait = moderate_injury
+						trait = severe_injury
+						trait = incapacitating_injury
+					}
+				}
+				modifier = {
+					factor = 0
+					OR = {
+						trait = severe_injury
+						trait = incapacitating_injury
+					}
+				}
+				add_trait = minor_illness
+				character_event = { id = goshen_illness_events.1 }
+			}
+			2 = {
+				modifier = {
+					factor = 3
+					OR = {
+						trait = moderate_injury
+						trait = severe_injury
+					}
+				}
+				add_trait = moderate_illness
+				character_event = { id = goshen_illness_events.1 }
+			}
+			1 = {
+				modifier = {
+					factor = 3
+					OR = {
+						trait = moderate_injury
+						trait = severe_injury
+					}
+				}
+				modifier = {
+					factor = 4
+					trait = incapacitating_injury
+				}
+				add_trait = severe_illness
+				character_event = { id = goshen_illness_events.1 }
+			}
+		}
+	}
+}
+character_event = {#Informed of Illness
+	id = goshen_illness_events.1
+	desc = {
+		text = EVTDESCAgoshen_illness_events.1
+		trigger = {
+			trait = minor_illness
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_illness_events.1
+		trigger = {
+			OR = {
+				trait = moderate_illness
+				trait = severe_illness
+			}
+			NOR = {
+				trait = moderate_injury
+				trait = severe_injury
+				trait = incapacitating_injury
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_illness_events.1
+		trigger = {
+			OR = {
+				trait = moderate_illness
+				trait = severe_illness
+			}
+			OR = {
+				trait = moderate_injury
+				trait = severe_injury
+				trait = incapacitating_injury
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_illness_events.1
+	}
+}
+character_event = {#Illness outcome
+	id = goshen_illness_events.2
+	hide_window = yes
+
+	trigger = {
+		OR = {
+			trait = minor_illness
+			trait = moderate_illness
+			trait = severe_illness
+			trait = incapacitating_illness
+			trait = deadly_illness
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 0.1
+			OR = {
+				trait = incapacitating_illness
+				trait = deadly_illness
+			}
+		}
+		modifier = {
+			factor = 0.2
+			trait = minor_illness
+		}
+		modifier = {
+			factor = 0.1
+			trait = has_red_plague
+		}
+		modifier = {
+			factor = 0.1
+			trait = has_shigella
+		}
+		modifier = {
+			factor = 10
+			trait = has_hansen
+		}
+		modifier = {
+			factor = 0.1
+			trait = has_delusia
+		}
+		modifier = {
+			factor = 0.5
+			trait = has_sickness
+		}
+		modifier = {
+			factor = 0.1
+			trait = has_plaga
+		}
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 3
+					OR = {
+						trait = incapacitating_illness
+						trait = deadly_illness
+					}
+				}
+				modifier = {
+					factor = 5
+					trait = has_red_plague
+				}
+				modifier = {
+					factor = 5
+					trait = has_shigella
+				}
+				modifier = {
+					factor = 3
+					trait = has_hansen
+				}
+				modifier = {
+					factor = 2
+					trait = has_delusia
+				}
+				modifier = {
+					factor = 5
+					is_female = yes
+					trait = has_sickness
+				}
+				modifier = {
+					factor = 5
+					trait = has_plaga
+				}
+				modifier = {
+					factor = 3
+					age = 45
+				}
+				modifier = {
+					factor = 3
+					NOT = { age = 6 }
+				}
+				modifier = {
+					factor = 1.5
+					any_courtier = {
+						trait = is_medicus
+						NOT = { learning = 5 }
+					}
+				}
+				modifier = {
+					factor = 0.5
+					any_courtier = {
+						trait = is_medicus
+						learning = 10
+					}
+				}
+				modifier = {
+					factor = 0.5
+					any_courtier = {
+						trait = is_medicus
+						learning = 15
+					}
+				}
+				character_event = { id = goshen_illness_events.10 }
+			}
+			1 = {
+				modifier = {
+					factor = 2
+					trait = has_hansen
+				}
+				character_event = { id = goshen_illness_events.20 }
+			}
+			1 = {
+				modifier = {
+					factor = 0
+					trait = has_hansen
+				}
+				modifier = {
+					factor = 4
+					trait = has_malaise
+				}
+				modifier = {
+					factor = 0.75
+					trait = weak
+				}
+				modifier = {
+					factor = 0.5
+					trait = feeble
+				}
+				modifier = {
+					factor = 2
+					age = 16
+					NOT = { age = 45 }
+				}
+				modifier = {
+					factor = 2
+					health = 6
+				}
+				modifier = {
+					factor = 1.5
+					trait = halenhearty
+				}
+				modifier = {
+					factor = 3
+					trait = strong
+				}
+				character_event = { id = goshen_illness_events.30 }
+			}
+		}
+	}
+}
+character_event = {#Illness progresses
+	id = goshen_illness_events.10
+	desc = EVTDESCgoshen_illness_events.10
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		IF = {
+			limit = {
+				trait = deadly_illness
+			}
+			death = { death_reason = death_trait }
+		}
+		IF = {
+			limit = {
+				trait = incapacitating_illness
+			}
+			remove_trait = incapacitating_illness
+			add_trait = deadly_illness
+		}
+		IF = {
+			limit = {
+				trait = severe_illness
+			}
+			remove_trait = severe_illness
+			add_trait = incapacitating_illness
+		}
+		IF = {
+			limit = {
+				trait = moderate_illness
+			}
+			remove_trait = moderate_illness
+			add_trait = severe_illness
+		}
+		IF = {
+			limit = {
+				trait = minor_illness
+			}
+			remove_trait = minor_illness
+			add_trait = moderate_illness
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_illness_events.10
+	}
+}
+character_event = {#Illness unchanged
+	id = goshen_illness_events.20
+	desc = EVTDESCgoshen_illness_events.20
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_illness_events.20
+	}
+}
+character_event = {#Illness regresses
+	id = goshen_illness_events.30
+	desc = EVTDESCgoshen_illness_events.30
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		IF = {
+			limit = {
+				trait = minor_illness
+			}
+			remove_trait = minor_illness
+			remove_trait = has_malaise
+			remove_trait = has_red_fever
+			remove_trait = has_red_plague
+			remove_trait = has_shigella
+			remove_trait = has_delusia
+			remove_trait = has_sickness
+			remove_trait = has_plaga
+			remove_trait = has_black_fog
+		}
+		IF = {
+			limit = {
+				trait = moderate_illness
+			}
+			remove_trait = moderate_illness
+			add_trait = minor_illness
+		}
+		IF = {
+			limit = {
+				trait = severe_illness
+			}
+			remove_trait = severe_illness
+			add_trait = moderate_illness
+		}
+		IF = {
+			limit = {
+				trait = incapacitating_illness
+			}
+			remove_trait = incapacitating_illness
+			add_trait = severe_illness
+		}
+		IF = {
+			limit = {
+				trait = deadly_illness
+			}
+			remove_trait = deadly_illness
+			add_trait = incapacitating_illness
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_illness_events.30
+	}
+}

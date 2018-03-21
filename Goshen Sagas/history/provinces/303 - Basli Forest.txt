@@ -1,0 +1,18 @@
+########################
+# Basli Forest
+########################
+
+#County Title
+title = c_basli_forest
+
+#Settlements
+max_settlements = 3
+b_basli_forest = castle
+b_basli_forest_city = city
+b_basli_forest_temple = temple
+
+#Settings
+culture = basli
+religion = basli_rel
+
+#History

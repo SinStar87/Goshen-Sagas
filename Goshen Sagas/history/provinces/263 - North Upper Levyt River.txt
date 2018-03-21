@@ -1,0 +1,20 @@
+#####################
+# North Upper Levyt River
+#####################
+
+#County Title
+title = c_n_upper_levyt_river
+
+#Settlements
+max_settlements = 3
+b_n_upper_levyt_river = castle
+b_n_upper_levyt_river_city = city
+b_n_upper_levyt_river_temple = temple
+
+#Settings
+culture = levyt
+religion = levyt_rel
+
+#History
+#867.1.1 = {
+#}

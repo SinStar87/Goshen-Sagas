@@ -1,0 +1,20 @@
+#########################
+# Etzu Lake
+#########################
+
+#County Title
+title = c_etzu_lake
+
+#Settlements
+max_settlements = 3
+b_etzu_lake = castle
+b_etzu_lake_city = city
+b_etzu_lake_temple = temple
+
+#Settings
+culture = zuvak
+religion = zuvak_rel
+
+#History
+#867.1.1 = {
+#}

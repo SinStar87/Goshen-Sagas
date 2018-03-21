@@ -1,0 +1,20 @@
+############################
+# Levyt East Bank
+############################
+
+#County Title
+title = c_levyt_e_bank
+
+#Settlements
+max_settlements = 3
+b_levyt_e_bank = castle
+b_levyt_e_bank_city = city
+b_levyt_e_bank_temple = temple
+
+#Settings
+culture = lommal
+religion = dulmal_rel
+
+#History
+#867.1.1 = {
+#}

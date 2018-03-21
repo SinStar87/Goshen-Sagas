@@ -1,0 +1,20 @@
+########################
+# Home of the Vitat
+########################
+
+#County Title
+title = c_home_of_the_vitat
+
+#Settlements
+max_settlements = 3
+b_home_of_the_vitat = castle
+b_home_of_the_vitat_city = city
+b_home_of_the_vitat_temple = temple
+
+#Settings
+culture = vitat
+religion = vitat_rel
+
+#History
+#867.1.1 = {
+#}

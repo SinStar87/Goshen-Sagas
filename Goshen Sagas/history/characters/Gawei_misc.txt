@@ -1,0 +1,127 @@
+########################
+# Gawei Misc 36001-38000
+########################
+
+#Line of Arvu
+36001 = {
+	name = Avou
+	dynasty = 616
+
+	culture = gawei
+	religion = gawei_rel
+
+	1960.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+36002 = {
+	name = Agamu
+	father = 36001
+	dynasty = 616
+
+	culture = gawei
+	religion = gawei_rel
+
+	1984.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Babar
+36020 = {
+	name = Babar
+	dynasty = 617
+
+	culture = gawei
+	religion = gawei_rel
+
+	1962.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+36021 = {
+	name = Danbar
+	father = 36020
+	dynasty = 617
+
+	culture = gawei
+	religion = gawei_rel
+
+	1978.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+# Line of Bakam
+36040 = {
+	name = Baka
+	dynasty = 618
+
+	culture = gawei
+	religion = gawei_rel
+
+	1961.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+36041 = {
+	name = Maka
+	father = 36040
+	dynasty = 618
+
+	culture = gawei
+	religion = gawei_rel
+
+	1979.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+
+#Line of Bakar
+36060 = {
+	name = Ryou
+	dynasty = 619
+
+	culture = gawei
+	religion = gawei_rel
+
+	1964.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+36061 = {
+	name = Keno
+	father = 36060
+	dynasty = 619
+
+	culture = gawei
+	religion = gawei_rel
+
+	1981.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}

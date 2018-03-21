@@ -1,0 +1,18 @@
+#####################
+# Jese Castle
+#####################
+
+#County Title
+title = c_jese_castle
+
+#Settlements
+max_settlements = 3
+b_jese_castle = castle
+b_jese_castle_city = city
+b_jese_castle_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History

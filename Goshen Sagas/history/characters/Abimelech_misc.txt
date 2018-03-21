@@ -1,0 +1,31 @@
+##########################
+# Abimelech Misc 24001-26000
+##########################
+24001 = {#Rhun and Cobar's Mom
+	name = Naana
+	dynasty = 0
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1938.1.1 = {
+		birth = yes
+	}
+	1959.1.1 = {
+		death = yes
+	}
+}

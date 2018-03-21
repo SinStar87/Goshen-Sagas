@@ -1,0 +1,43 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Goshen Cultures
+goshen_culture_group;Goshenite Cultures;;;;;;;;;;;;;x
+ades;Ades;;;;;;;;;;;;;x
+collsi;Collsi;;;;;;;;;;;;;x
+dulmal;Dulmal;;;;;;;;;;;;;x
+gawei;Gawei;;;;;;;;;;;;;x
+grey_tribes;Grey Tribes;;;;;;;;;;;;;x
+huargens;Huargens;;;;;;;;;;;;;x
+kalan;Kalani;;;;;;;;;;;;;x
+levyt;Levytan;;;;;;;;;;;;;x
+lommal;Lommal;;;;;;;;;;;;;x
+navo;Navo;;;;;;;;;;;;;x
+qwari;Qwari;;;;;;;;;;;;;x
+rannu;Ran-nu;;;;;;;;;;;;;x
+timut;Timut;;;;;;;;;;;;;x
+vitat;Vitat;;;;;;;;;;;;;x
+yava;Yava;;;;;;;;;;;;;x
+zet;Zets;;;;;;;;;;;;;x
+
+#Non Humans
+goshen_nh_culture_group;Non Human Cultures;;;;;;;;;;;;;x
+basli;Basli;;;;;;;;;;;;;x
+merro;Merro;;;;;;;;;;;;;x
+poghess;Poghess;;;;;;;;;;;;;x
+zuvak;Zuvak;;;;;;;;;;;;;x
+
+
+#Raid Culture
+goshen_r_culture_group;Raiders;;;;;;;;;;;;;x
+abimelech;Abimelech;;;;;;;;;;;;;x
+anin;Anin;;;;;;;;;;;;;x
+
+#Isolationsts
+hesen_group;Hesen;;;;;;;;;;;;;x
+hesen;Hesen;;;;;;;;;;;;;x
+hunute_group;Hunute;;;;;;;;;;;;;x
+hunute;Hunute;;;;;;;;;;;;;x
+
+#Unoccupied Provinces
+unoccupied_group;Unoccupied Group;;;;;;;;;;;;;x
+dyinglands;Dying Lands;;;;;;;;;;;;;x

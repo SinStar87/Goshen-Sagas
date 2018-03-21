@@ -1,0 +1,20 @@
+########################
+# Zalv Forest
+########################
+
+#County Title
+title = c_zalv_forest
+
+#Settlements
+max_settlements = 3
+b_zalv_forest = castle
+b_zalv_forest_city = city
+b_zalv_forest_temple = temple
+
+#Settings
+culture = ades
+religion = ades_rel
+
+#History
+#867.1.1 = {
+#}

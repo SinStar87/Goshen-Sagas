@@ -1,0 +1,19 @@
+#####################
+# Great War Hall
+#####################
+
+#County Title
+title = c_great_war_hall
+
+#Settlements
+max_settlements = 4
+b_great_war_hall = castle
+b_great_war_hall_city = city
+b_entrance_to_varos_heart = temple
+b_entrance_to_laakis_womb = temple
+
+#Settings
+culture = abimelech
+religion = abimelech_rel
+
+#History

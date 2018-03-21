@@ -1,0 +1,18 @@
+#########################
+# Elfall Volcano
+#########################
+
+#County Title
+title = c_elfall_volcano
+
+#Settlements
+max_settlements = 3
+b_elfall_volcano = castle
+b_elfall_volcano_city = city
+b_elfall_volcano_temple = temple
+
+#Settings
+culture = merro
+religion = merro_rel
+
+#History

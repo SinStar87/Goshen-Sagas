@@ -1,0 +1,20 @@
+#####################
+# Right Twin
+#####################
+
+#County Title
+title = c_right_twin
+
+#Settlements
+max_settlements = 3
+b_right_twin = castle
+b_right_twin_city = city
+b_right_twin_temple = temple
+
+#Settings
+culture = hesen
+religion = hesen_rel
+
+#History
+#867.1.1 = {
+#}

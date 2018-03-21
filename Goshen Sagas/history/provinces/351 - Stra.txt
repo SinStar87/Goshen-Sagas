@@ -1,0 +1,20 @@
+###########################
+# Stra
+###########################
+
+#County Title
+title = c_stra
+
+#Settlements
+max_settlements = 3
+b_stra = castle
+b_stra_city = city
+b_stra_temple = temple
+
+#Settings
+culture = gawei
+religion = gawei_rel
+
+#History
+#867.1.1 = {
+#}

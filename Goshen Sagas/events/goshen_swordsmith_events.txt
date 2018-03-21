@@ -1,0 +1,678 @@
+namespace = goshen_swordsmith_events
+character_event = {#Smith Sword
+	id = goshen_swordsmith_events.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		FROM = {
+			random_list = {
+				5 = {
+					modifier = {
+						factor = 3
+						ROOT = { trait = clerk }
+					}
+					add_trait = sword_generic
+				}
+				4 = {
+					modifier = {
+						factor = 3
+						ROOT = { trait = entrepreneur }
+					}
+					add_trait = sword_gilded
+				}
+				3 = {
+					modifier = {
+						factor = 2
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { trait = mogul }
+					}
+					add_trait = sword_grandeur
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_crimson_bolt
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_darkness
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_ekers_light
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_flight
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_luxs_setting
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					modifier = {
+						factor = 2
+						FROM = {
+							OR = {
+								culture = abimelech
+								religion = abimelech_rel
+							}
+						}
+					}
+					modifier = {
+						factor = 0
+						FROM = {
+							culture = collsi
+						}
+					}
+					add_trait = sword_might_abimelech
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_roses_thorn
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_silver_wisp
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = sword_vastness
+				}
+			}
+			character_event = { id = goshen_swordsmith_events.1 }
+		}
+	}
+}
+character_event = {#Inform about Sword
+	id = goshen_swordsmith_events.1
+	desc = {
+		text = EVTDESCAgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_generic
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_gilded
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_grandeur
+		}
+	}
+	desc = {
+		text = EVTDESCDgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_crimson_bolt
+		}
+	}
+	desc = {
+		text = EVTDESCEgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_darkness
+		}
+	}
+	desc = {
+		text = EVTDESCFgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_ekers_light
+		}
+	}
+	desc = {
+		text = EVTDESCGgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_flight
+		}
+	}
+	desc = {
+		text = EVTDESCHgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_luxs_setting
+		}
+	}
+	desc = {
+		text = EVTDESCIgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_might_abimelech
+		}
+	}
+	desc = {
+		text = EVTDESCJgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_roses_thorn
+		}
+	}
+	desc = {
+		text = EVTDESCKgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_silver_wisp
+		}
+	}
+	desc = {
+		text = EVTDESCLgoshen_swordsmith_events.1
+		trigger = {
+			trait = sword_vastness
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_swordsmith_events.1
+	}
+}
+
+character_event = {#Smith Sword Other
+	id = goshen_swordsmith_events.10
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		swordsmith = {
+			limit = {
+				prisoner = no
+				OR = {
+					character = FROMFROM
+					AND = {
+						NOT = { character = FROMFROM }
+						at_location = FROMFROM
+						NOR = {
+							war_with = FROMFROM
+							employer = {
+								war_with = FROMFROM
+							}
+							any_liege = {
+								war_with = FROMFROM
+							}
+						}
+					}
+				}
+			}
+			random_character = {
+				limit = { character = PREV }
+				character_event = { id = goshen_swordsmith_events.0 }
+			}
+		}
+	}
+}
+character_event = {#Smith Armor
+	id = goshen_swordsmith_events.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		FROM = {
+			random_list = {
+				5 = {
+					modifier = {
+						factor = 3
+						ROOT = { trait = clerk }
+					}
+					add_trait = armor_leather
+				}
+				4 = {
+					modifier = {
+						factor = 3
+						ROOT = { trait = entrepreneur }
+					}
+					add_trait = armor_blackleather
+				}
+				3 = {
+					modifier = {
+						factor = 2
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { trait = mogul }
+					}
+					add_trait = armor_chain
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_blackplate
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_bronzemail
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_goldplate
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_greyplate
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_knight
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_knightplate
+				}
+				1 = {
+					modifier = {
+						factor = 0.5
+						ROOT = { trait = clerk }
+					}
+					modifier = {
+						factor = 1.5
+						ROOT = { trait = financier }
+					}
+					modifier = {
+						factor = 2
+						ROOT = { trait = mogul }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { culture = grey_tribes }
+					}
+					modifier = {
+						factor = 3
+						ROOT = { religion = grey_tribes_rel }
+					}
+					add_trait = armor_plate
+				}
+			}
+			character_event = { id = goshen_swordsmith_events.20 }
+		}
+	}
+}
+character_event = {#Inform about Armor
+	id = goshen_swordsmith_events.20
+	desc = {
+		text = EVTDESCAgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_leather
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_blackleather
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_chain
+		}
+	}
+	desc = {
+		text = EVTDESCDgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_blackplate
+		}
+	}
+	desc = {
+		text = EVTDESCEgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_bronzemail
+		}
+	}
+	desc = {
+		text = EVTDESCFgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_goldplate
+		}
+	}
+	desc = {
+		text = EVTDESCGgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_greyplate
+		}
+	}
+	desc = {
+		text = EVTDESCHgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_knight
+		}
+	}
+	desc = {
+		text = EVTDESCIgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_knightplate
+		}
+	}
+	desc = {
+		text = EVTDESCJgoshen_swordsmith_events.20
+		trigger = {
+			trait = armor_plate
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_swordsmith_events.20
+	}
+}
+
+character_event = {#Smith Armor Other
+	id = goshen_swordsmith_events.21
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		swordsmith = {
+			limit = {
+				prisoner = no
+				OR = {
+					character = FROMFROM
+					AND = {
+						NOT = { character = FROMFROM }
+						at_location = FROMFROM
+						NOR = {
+							war_with = FROMFROM
+							employer = {
+								war_with = FROMFROM
+							}
+							any_liege = {
+								war_with = FROMFROM
+							}
+						}
+					}
+				}
+			}
+			random_character = {
+				limit = { character = PREV }
+				character_event = { id = goshen_swordsmith_events.2 }
+			}
+		}
+	}
+}

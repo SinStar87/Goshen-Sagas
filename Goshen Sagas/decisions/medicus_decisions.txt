@@ -1,0 +1,279 @@
+decisions = {
+	consult_medicus = {
+		is_high_prio = yes
+		potential = {
+			OR = {
+				trait = minor_illness
+				trait = moderate_illness
+				trait = severe_illness
+				trait = incapacitating_illness
+				trait = deadly_illness
+			}
+			NOR = {
+				trait = has_malaise
+				trait = has_red_fever
+				trait = has_red_plague
+				trait = has_shigella
+				trait = has_hansen
+				trait = has_delusia
+				trait = has_sickness
+				trait = has_plaga
+				trait = has_black_fog
+			}
+		}
+		allow = {
+			any_courtier = { trait = is_medicus }
+		}
+		effect = {
+			hidden_tooltip = {
+				random_list = {
+					1 = {
+						modifier = {
+							factor = 5
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_malaise
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_malaise
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_malaise
+							}
+						}
+						add_trait = has_malaise
+					}
+					1 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_red_fever
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_red_fever
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_red_fever
+							}
+						}
+						add_trait = has_red_fever
+					}
+					1 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_red_plague
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_red_plague
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_red_plague
+							}
+						}
+						add_trait = has_red_plague
+					}
+					1 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_shigella
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_shigella
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_shigella
+							}
+						}
+						add_trait = has_shigella
+					}
+					1 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_hansen
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_hansen
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_hansen
+							}
+						}
+						add_trait = has_hansen
+					}
+					1 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_delusia
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_delusia
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_delusia
+							}
+						}
+						add_trait = has_delusia
+					}
+					1 = {
+						modifier = {
+							factor = 0.05
+							is_female = no
+						}
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_sickness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_sickness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_sickness
+							}
+						}
+						add_trait = has_sickness
+					}
+					1 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_plaga
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_plaga
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_plaga
+							}
+						}
+						add_trait = has_plaga
+					}
+				}
+			}
+			character_event = { id = goshen_medicus_events.1 }
+		}
+	}
+}
