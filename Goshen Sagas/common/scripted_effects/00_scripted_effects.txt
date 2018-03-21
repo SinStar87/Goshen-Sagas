@@ -1,0 +1,40 @@
+destroy_guard_effect = {
+	if = {
+		limit = { 
+			has_guard_trigger = yes
+		}
+		any_realm_character = {
+			limit = {
+				has_opinion_modifier = { modifier = opinion_commander who = ROOT }
+			}
+			remove_opinion = { modifier = opinion_commander who = ROOT }
+			remove_trait = guardsman
+		}
+		remove_trait = guardsman
+		any_demesne_title = {
+			limit = {
+				OR = {
+					title = d_clan_guard
+					title = d_ades_guard
+					title = d_anin_guard
+					title = d_basli_guard
+					title = d_the_will
+					title = d_grey_guard
+					title = d_hesen_guard
+					title = d_hunute_guard
+					title = d_field_guard
+					title = d_levytan_guard
+					title = d_navo_guard
+					title = d_bule
+					title = d_vitat_guard
+					title = d_forest_guard
+					title = d_lake_guard
+				}
+			}
+			hidden_tooltip = {
+				activate_title = { status = no title = THIS }
+			}
+			destroy_landed_title = ROOT
+		}
+	}
+}

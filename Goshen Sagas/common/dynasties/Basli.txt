@@ -1,0 +1,60 @@
+####################
+# Basli Dynasties 301 - 400
+####################
+#Supreme
+301 = {
+	name = Ybuic
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+302 = {
+	name = Tsok
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+303 = {
+	name = Uyln
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+304 = {
+	name = Oi
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

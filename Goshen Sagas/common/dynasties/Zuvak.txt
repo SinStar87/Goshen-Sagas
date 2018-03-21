@@ -1,0 +1,60 @@
+####################
+# Zuvak Dynasties 2301 - 2400
+####################
+#Supreme
+2301 = {
+	name = Foojhaa
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2302 = {
+	name = Saahae
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2303 = {
+	name = Hoonaa
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+2304 = {
+	name = Pheesh
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

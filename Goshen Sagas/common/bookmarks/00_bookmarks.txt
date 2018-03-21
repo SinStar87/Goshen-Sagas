@@ -1,0 +1,75 @@
+BM_DAYS_OF_STRIFE = {
+	name = "BM_DAYS_OF_STRIFE_ERA"
+	desc = "BM_DAYS_OF_STRIFE_ERA_DESC"
+	date = 2000.1.1
+
+	custom_start = yes
+
+	era = yes
+	picture = GFX_pick_era_image_1
+
+	selectable_character = {
+		id = 18002 #Natelmel
+		age = 35
+		name = DAYS_OF_STRIFE_CHAR_18002
+		title = k_rannu
+		title_name = DAYS_OF_STRIFE_RANNU
+		
+		character = {
+			dna = dehcmyacaax
+			properties = ab00ga00000000
+			culture = "rannu"
+			religion = "rannu_rel"
+			government = feudal_government
+			dynasty=1801
+		}
+	}
+	selectable_character = {
+		id = 6010 #Nidza
+		age = 26
+		name = DAYS_OF_STRIFE_CHAR_6010
+		title = k_gawei
+		title_name = DAYS_OF_STRIFE_GAWEI
+		
+		character = {
+			dna = clgfbldcaaw
+			properties = am00aa00000000
+			culture = "gawei"
+			religion = "gawei_rel"
+			government = feudal_government
+			dynasty = 601
+		}
+	}
+	selectable_character = {
+		id = 39 #Soule
+		age = 21
+		name = DAYS_OF_STRIFE_CHAR_39
+		title = d_w_abimelechs
+		title_name = DAYS_OF_STRIFE_W_ABIMELECHS
+		
+		character = {
+			dna = clgfbldcaaw
+			properties = am00aa00000000
+			culture = "abimelech"
+			religion = "abimelech_rel"
+			government = feudal_government
+			dynasty=3
+		}
+	}
+	selectable_character = {
+		id = 27 #Rhun
+		age = 41
+		name = DAYS_OF_STRIFE_CHAR_27
+		title = d_c_abimelechs
+		title_name = DAYS_OF_STRIFE_C_ABIMELECHS
+		
+		character = {
+			dna = clgfbldcaaw
+			properties = am00aa00000000
+			culture = "abimelech"
+			religion = "abimelech_rel"
+			government = feudal_government
+			dynasty=2
+		}
+	}
+}

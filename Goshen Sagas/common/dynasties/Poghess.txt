@@ -1,0 +1,32 @@
+####################
+# Poghess Dynasties 1601 - 1700
+####################
+#Supreme
+1601 = {
+	name = Chapess
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1602 = {
+	name = Hoggas
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

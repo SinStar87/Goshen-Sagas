@@ -1,0 +1,74 @@
+####################
+# Hesen Dynasties 801 - 900
+####################
+#Supreme
+801 = {
+	name = Hes-Anaten
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+802 = {
+	name = Hes-Elikia
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+803 = {
+	name = Hes-Nosya
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+804 = {
+	name = Hes-Trsii
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+805 = {
+	name = Hes-Soagr
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

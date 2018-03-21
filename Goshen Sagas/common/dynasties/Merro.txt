@@ -1,0 +1,18 @@
+####################
+# Merro Dynasties 1401 - 1500
+####################
+#Supreme
+1401 = {
+	name = Witt
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

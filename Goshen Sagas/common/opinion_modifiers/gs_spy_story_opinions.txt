@@ -1,0 +1,8 @@
+opinion_damaged_rep = {
+	opinion = -50
+	years = 10
+}
+opinion_rumormonger = {
+	opinion = -30
+	years = 10
+}

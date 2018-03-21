@@ -1,0 +1,1515 @@
+# Supported types: character
+#
+# Note: if 'chance' evaluates to 0, an AI character will also abandon the focus
+#
+
+
+###############
+# FOCUSES
+###############
+
+focus_rulership = {
+	type = character
+	modifier_name = "RULERSHIP_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_incapable_trigger = yes
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				is_republic = yes
+				is_patrician = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	stewardship = 3
+}
+
+focus_business = {
+	type = character
+	modifier_name = "BUSINESS_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 2.0
+			OR = {
+				is_republic = yes
+				is_patrician = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	stewardship = 2
+	town_opinion = 20
+}
+
+focus_seduction = {
+	type = character
+	modifier_name = "SEDUCTION_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = eunuch }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 40
+		modifier = {
+			factor = 0.01 # Faithful spouse/consort
+			OR = {
+				AND = {
+					is_married = yes
+					any_spouse = {
+						is_lover = ROOT
+					}
+				}
+				AND = {
+					is_consort = yes
+					consort = {
+						is_lover = ROOT
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				trait = rascal
+				trait = rogue
+				trait = schemer
+				trait = conspirator
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			is_incapable_trigger = yes
+			is_playable = no
+			trait = eunuch
+		}
+	}
+	abort_effect = {
+	}
+
+	intrigue = 2
+	fertility = 0.25
+	sex_appeal_opinion = 10
+}
+
+focus_intrigue = {
+	type = character
+	modifier_name = "INTRIGUE_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 2
+			OR = {
+				trait = rascal
+				trait = rogue
+				trait = schemer
+				trait = conspirator
+			}
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	intrigue = 3
+}
+
+focus_hunting = {
+	type = character
+	modifier_name = "HUNTING_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 0.5
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 1.5
+			trait = cold
+		}
+		modifier = {
+			factor = 2
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	martial = 2
+	health = 1
+}
+
+focus_war = {
+	type = character
+	modifier_name = "WAR_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	martial = 3
+}
+
+focus_carousing = {
+	type = character
+	modifier_name = "CAROUSING_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 3
+			trait = susceptible
+		}
+		modifier = {
+			factor = 2
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 0.75
+			trait = biased
+		}
+		modifier = {
+			factor = 0.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 5
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	diplomacy = 3
+}
+
+focus_family = {
+	type = character
+	modifier_name = "FAMILY_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.01
+			NOT = {
+				any_sibling = {
+					always = yes
+				}
+			}
+			NOT = {
+				any_child = {
+					always = yes
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { age = 25 }
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			prisoner = yes
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	diplomacy = 2
+	health = 1
+	fertility = 0.25
+}
+
+focus_scholarship = {
+	type = character
+	modifier_name = "SCHOLARSHIP_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 2
+			OR = {
+				trait = thinker
+				trait = intellectual
+				trait = scholar
+				trait = sage
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_theocracy = yes
+		}
+		modifier = {
+			factor = 0
+			trait = fool
+		}
+		modifier = {
+			factor = 3.0
+			is_theocracy = yes
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	learning = 3
+}
+
+focus_theology = {
+	type = character
+	modifier_name = "THEOLOGY_FOCUS"
+
+	potential = {
+		is_playable = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		NOT = { is_incapable_trigger = yes }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 2
+			OR = {
+				trait = thinker
+				trait = intellectual
+				trait = scholar
+				trait = sage
+			}
+		}
+		modifier = {
+			factor = 3
+			is_theocracy = yes
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		always = no
+	}
+	abort = {
+		OR = {
+			is_incapable_trigger = yes
+			is_playable = no
+		}
+	}
+	abort_effect = {
+	}
+
+	learning = 2
+	church_opinion = 20
+	health = 1.0
+}

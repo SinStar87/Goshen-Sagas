@@ -1,0 +1,270 @@
+####################
+# Anin Dynasties 201 - 300
+####################
+#Supreme
+201 = {
+	name = "Zhel'd Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+202 = {
+	name = "Chen'h Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+203 = {
+	name = "Rael'n Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+204 = {
+	name = "K'ar Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+205 = {
+	name = "Vaoyn Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+206 = {
+	name = "Honaal Clan"
+	culture = anin
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+207 = {
+	name = "Abajian Clan"
+	culture = anin
+}
+208 = {
+	name = "Arslanian Clan"
+	culture = anin
+}
+209 = {
+	name = "Babyaal Clan"
+	culture = anin
+}
+210 = {
+	name = "Be'dos Clan"
+	culture = anin
+}
+211 = {
+	name = "Derian Clan"
+	culture = anin
+}
+212 = {
+	name = "Garab'd Clan"
+	culture = anin
+}
+213 = {
+	name = "Ghar'b Clan"
+	culture = anin
+}
+214 = {
+	name = "Grigor Clan"
+	culture = anin
+}
+215 = {
+	name = "Hakiim Clan"
+	culture = anin
+}
+216 = {
+	name = "Hov'aa Clan"
+	culture = anin
+}
+217 = {
+	name = "Kalaj Clan"
+	culture = anin
+}
+218 = {
+	name = "Kapraal Clan"
+	culture = anin
+}
+219 = {
+	name = "Kassp'aa Clan"
+	culture = anin
+}
+220 = {
+	name = "Kazzaa Clan"
+	culture = anin
+}
+221 = {
+	name = "Kevoraal Clan"
+	culture = anin
+}
+222 = {
+	name = "Magar Clan"
+	culture = anin
+}
+223 = {
+	name = "Mal'ar Clan"
+	culture = anin
+}
+224 = {
+	name = "Mano'h Clan"
+	culture = anin
+}
+225 = {
+	name = "Mardi'ar Clan"
+	culture = anin
+}
+226 = {
+	name = "Mardi'h Clan"
+	culture = anin
+}
+227 = {
+	name = "Mardi'n Clan"
+	culture = anin
+}
+228 = {
+	name = "Nahig'aa Clan"
+	culture = anin
+}
+229 = {
+	name = "Nazar Clan"
+	culture = anin
+}
+230 = {
+	name = "Ohaa'n Clan"
+	culture = anin
+}
+231 = {
+	name = "Ohanaal Clan"
+	culture = anin
+}
+232 = {
+	name = "Pertoos'ar Clan"
+	culture = anin
+}
+233 = {
+	name = "Sahag'ar Clan"
+	culture = anin
+}
+234 = {
+	name = "Sa'ar Clan"
+	culture = anin
+}
+235 = {
+	name = "Sark'ar Clan"
+	culture = anin
+}
+236 = {
+	name = "Sark'h Clan"
+	culture = anin
+}
+237 = {
+	name = "Stpa'n Clan"
+	culture = anin
+}
+238 = {
+	name = "Tarp'aa Clan"
+	culture = anin
+}
+239 = {
+	name = "Terz'n Clan"
+	culture = anin
+}
+240 = {
+	name = "Topaal Clan"
+	culture = anin
+}
+241 = {
+	name = "Toraal Clan"
+	culture = anin
+}
+242 = {
+	name = "Tor'ar Clan"
+	culture = anin
+}
+243 = {
+	name = "Toro'h Clan"
+	culture = anin
+}
+244 = {
+	name = "Toro'n Clan"
+	culture = anin
+}
+245 = {
+	name = "Var'ar Clan"
+	culture = anin
+}
+246 = {
+	name = "Var'n Clan"
+	culture = anin
+}
+247 = {
+	name = "Vart'ar Clan"
+	culture = anin
+}
+248 = {
+	name = "Vart'h Clan"
+	culture = anin
+}
+249 = {
+	name = "Vart'n Clan"
+	culture = anin
+}
+250 = {
+	name = "Zaka'ar Clan"
+	culture = anin
+}

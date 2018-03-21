@@ -1,0 +1,64 @@
+####################
+# Grey-Tribes Dynasties 701 - 800
+####################
+#Supreme
+701 = {
+	name = "of the Rynyr Tribe"
+	culture = grey_tribes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+702 = {
+	name = "of the Smyyt Tribe"
+	culture = grey_tribes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+703 = {
+	name = "of the Poye Tribe"
+	culture = grey_tribes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+704 = {
+	name = "of the Voryr Tribe"
+	culture = grey_tribes
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

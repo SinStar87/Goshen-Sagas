@@ -1,0 +1,732 @@
+goshen_rel_group = {
+	graphical_culture = norsegfx
+	playable = yes
+
+	color = { 0.1 0.7 1.0 }
+
+	ades_rel = {
+		graphical_culture = norsegfx
+
+		icon = 2
+		heresy_icon = 2
+
+		color = { 0.2 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ADES_BOOK
+		priest_title = ADES_PRIEST
+
+		high_god_name = ADES_GOD_GARYN
+
+		god_names = {
+			ADES_GOD_GARYN ADES_GOD_KHIIES ADES_GOD_TMES
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	dulmal_rel = {
+		graphical_culture = norsegfx
+
+		icon = 5
+		heresy_icon = 5
+
+		color = { 0.5 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = DULMAL_BOOK
+		priest_title = DULMAL_PRIEST
+
+		high_god_name = DULMAL_GOD
+
+		god_names = {
+			DULMAL_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	gawei_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 6
+		heresy_icon = 6
+
+		color = { 0.6 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = GAWEI_BOOK
+		priest_title = GAWEI_PRIEST
+
+		high_god_name = GAWEI_GOD_INNZ
+
+		god_names = {
+			GAWEI_GOD_INNZ GAWEI_GOD_KAMI GAWEI_GOD_CENNO GAWEI_GOD_MAKU
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	grey_tribes_rel = {
+		graphical_culture = norsegfx
+
+		icon = 7
+		heresy_icon = 7
+
+		color = { 0.7 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = GREY_TRIBES_BOOK
+		priest_title = GREY_TRIBES_PRIEST
+
+		high_god_name = GREY_TRIBE_GOD
+
+		god_names = {
+			GREY_TRIBE_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	huargens_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 9
+		heresy_icon = 9
+
+		color = { 0.9 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = HUARGENS_BOOK
+		priest_title = HUARGENS_PRIEST
+
+		high_god_name = HUARGENS_GOD
+
+		god_names = {
+			HUARGENS_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	kalan_rel = {
+		graphical_culture = africangfx
+
+		icon = 11
+		heresy_icon = 11
+
+		color = { 0.1 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = KALAN_BOOK
+		priest_title = KALAN_PRIEST
+
+		high_god_name = KALAN_GOD
+
+		god_names = {
+			KALAN_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		peace_piety_gain = 1.0
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	levyt_rel = {
+		graphical_culture = norsegfx
+
+		icon = 12
+		heresy_icon = 12
+
+		color = { 0.2 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = LEVYTAN_BOOK
+		priest_title = LEVYTAN_PRIEST
+
+		high_god_name = LEVYTAN_GOD
+
+		god_names = {
+			LEVYTAN_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	navo_rel = {
+		graphical_culture = africangfx
+
+		icon = 14
+		heresy_icon = 14
+
+		color = { 0.4 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = NAVO_BOOK
+		priest_title = NAVO_PRIEST
+
+		high_god_name = NAVO_GOD
+
+		god_names = {
+			NAVO_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	qwari_rel = {
+		graphical_culture = norsegfx
+
+		icon = 17
+		heresy_icon = 17
+
+		color = { 0.6 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = QWARI_BOOK
+		priest_title = QWARI_PRIEST
+
+		high_god_name = QWARI_GOD
+
+		god_names = {
+			QWARI_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	rannu_rel = {
+		graphical_culture = africangfx
+
+		icon = 16
+		heresy_icon = 16
+
+		color = { 0.7 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = RANNU_BOOK
+		priest_title = RANNU_PRIEST
+
+		high_god_name = RANNU_GOD
+
+		god_names = {
+			RANNU_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		has_heir_designation = yes
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	timut_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 18
+		heresy_icon = 18
+
+		color = { 0.8 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = TIMUT_BOOK
+		priest_title = TIMUT_PRIEST
+
+		high_god_name = TIMUT_GOD
+
+		god_names = {
+			TIMUT_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	yava_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 20
+		heresy_icon = 20
+
+		color = { 1.0 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = YAVA_BOOK
+		priest_title = YAVA_PRIEST
+
+		high_god_name = YAVA_GOD
+
+		god_names = {
+			YAVA_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	zet_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 21
+		heresy_icon = 21
+
+		color = { 0.1 0.9 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ZET_BOOK
+		priest_title = ZET_PRIEST
+
+		high_god_name = ZET_GOD
+
+		god_names = {
+			ZET_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}
+goshen_nh_rel_group = {
+	graphical_culture = norsegfx
+	playable = yes
+
+	color = { 0.1 0.7 1.0 }
+
+	basli_rel = {
+		graphical_culture = africangfx
+
+		icon = 4
+		heresy_icon = 4
+
+		color = { 0.4 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = BASLI_BOOK
+		priest_title = BASLI_PRIEST
+
+		high_god_name = BASLI_GOD
+
+		god_names = {
+			BASLI_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		max_wives = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	merro_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 13
+		heresy_icon = 13
+
+		color = { 0.3 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = MERRO_BOOK
+		priest_title = MERRO_PRIEST
+
+		high_god_name = MERRO_GOD
+
+		god_names = {
+			MERRO_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		max_wives = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	poghess_rel = {
+		graphical_culture = norsegfx
+
+		icon = 15
+		heresy_icon = 15
+
+		color = { 0.5 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = POGHESS_BOOK
+		priest_title = POGHESS_PRIEST
+
+		high_god_name = POGHESS_GOD_DJAHES
+
+		god_names = {
+			POGHESS_GOD_DJAHES POGHESS_GOD_HARHES POGHESS_GOD_ZAVHES
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		max_wives = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	vitat_rel = {
+		graphical_culture = africangfx
+
+		icon = 19
+		heresy_icon = 19
+
+		color = { 0.9 0.8 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = VITAT_BOOK
+		priest_title = VITAT_PRIEST
+
+		high_god_name = VITAT_GOD
+
+		god_names = {
+			VITAT_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	zuvak_rel = {
+		graphical_culture = africangfx
+
+		icon = 22
+		heresy_icon = 22
+
+		color = { 0.2 0.9 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ZUVAK_BOOK
+		priest_title = ZUVAK_PRIEST
+
+		high_god_name = ZUVAK_GOD
+
+		god_names = {
+			ZUVAK_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+		feminist = yes
+		max_wives = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}
+goshen_r_rel_group = {
+	graphical_culture = norsegfx
+	playable = yes
+
+	color = { 0.1 0.7 1.0 }
+
+	abimelech_rel = {
+		graphical_culture = norsegfx
+
+		icon = 1
+		heresy_icon = 1
+
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ABIMELECH_BOOK
+		priest_title = ABIMELECH_PRIEST
+
+		high_god_name = ABIMELECH_GOD_MALE
+
+		god_names = {
+			ABIMELECH_GOD_MALE ABIMELECH_GOD_FEMALE
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		allow_looting = yes
+		max_consorts = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+
+	anin_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 3
+		heresy_icon = 3
+
+		color = { 0.3 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = ANIN_BOOK
+		priest_title = ANIN_PRIEST
+
+		high_god_name = ANIN_GOD_TAYIN
+
+		god_names = {
+			ANIN_GOD_TAYIN ANIN_GOD_YULIN ANIN_GOD_DULAIN
+		}
+		evil_god_names = {
+			ANIN_GOD_DULAIN
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		allow_looting = yes
+		pc_marriage = no
+		psc_marriage = no
+		divine_blood = yes
+		max_consorts = 3
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}
+hesen_rel_group = {
+	graphical_culture = africangfx
+	playable = yes
+	ai_peaceful = yes # Will make Hordes lose their super aggressiveness
+
+	color = { 0.1 0.7 1.0 }
+
+	hesen_rel = {
+		graphical_culture = africangfx
+
+		icon = 8
+		heresy_icon = 8
+
+		color = { 0.8 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = HESEN_BOOK
+		priest_title = HESEN_PRIEST
+
+		high_god_name = HESEN_GOD
+
+		god_names = {
+			HESEN_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		can_grant_invasion_cb = invasion
+		can_excommunicate = yes
+		can_hold_temples = yes
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}
+hunute_rel_group = {
+	graphical_culture = andalusiangfx
+	playable = yes
+
+	color = { 0.1 0.7 1.0 }
+
+	hunute_rel = {
+		graphical_culture = andalusiangfx
+
+		icon = 10
+		heresy_icon = 10
+
+		color = { 1.0 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = HUNUTE_BOOK
+		priest_title = HUNUTE_PRIEST
+
+		high_god_name = HUNUTE_GOD
+
+		god_names = {
+			HUNUTE_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+		can_grant_invasion_cb = invasion
+
+		priests_can_marry = yes
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}
+unoccupied_rel_group = {
+	graphical_culture = andalusiangfx
+	playable = no
+
+	color = { 0.1 0.1 0.1 }
+
+	dyinglands_rel = {
+		graphical_culture = dying_lands
+
+		icon = 20
+		heresy_icon = 20
+
+		color = { 1.0 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = YAVA_BOOK
+		priest_title = YAVA_PRIEST
+
+		high_god_name = YAVA_GOD
+
+		god_names = {
+			YAVA_GOD
+		}
+		evil_god_names = {
+			DEATH
+		}
+
+		can_grant_divorce = yes
+		can_call_crusade = no
+
+		priests_can_marry = no
+
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+	}
+}

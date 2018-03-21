@@ -1,0 +1,200 @@
+###############
+#Trait Triggers
+###############
+has_combat_prowess_trigger = {
+	OR = {
+		trait = noncombatant
+		trait = scrapper
+		trait = fighter
+		trait = champion
+		trait = legend
+	}
+}
+has_openness_trait_trigger = {
+	OR = {
+		trait = susceptible
+		trait = receptive
+		trait = impartial
+		trait = biased
+		trait = prejudiced
+	}
+}
+has_planning_trait_trigger = {
+	OR = {
+		trait = controlling
+		trait = calculating
+		trait = willful
+		trait = erratic
+		trait = irrational
+	}
+}
+has_sociable_trait_trigger = {
+	OR = {
+		trait = extrovert
+		trait = friendly
+		trait = cordial
+		trait = cold
+		trait = introvert
+	}
+}
+has_agreeable_trait_trigger = {
+	OR = {
+		trait = overeager
+		trait = sympathetic
+		trait = responsive
+		trait = unwilling
+		trait = irreconcilable
+	}
+}
+has_worry_trait_trigger = {
+	OR = {
+		trait = carefree
+		trait = idealist
+		trait = pragmatic
+		trait = cynic
+		trait = pessimist
+	}
+}
+
+#Swordcrafting
+has_sword_trigger = {
+	OR = {
+		trait = gawei_sword_1
+		trait = gawei_sword_2
+		trait = gawei_sword_3
+		trait = gawei_sword_4
+		trait = gawei_sword_5
+		trait = gawei_sword_6
+		trait = gawei_sword_7
+		trait = gawei_sword_8
+		trait = gawei_sword_9
+		trait = sword_generic
+		trait = sword_gilded
+		trait = sword_grandeur
+		trait = sword_crimson_bolt
+		trait = sword_darkness
+		trait = sword_ekers_light
+		trait = sword_flight
+		trait = sword_luxs_setting
+		trait = sword_might_abimelech
+		trait = sword_roses_thorn
+		trait = sword_silver_wisp
+		trait = sword_vastness
+	}
+}
+has_bonesword_trigger = {
+	OR = {
+		trait = gawei_sword_1
+		trait = gawei_sword_2
+		trait = gawei_sword_3
+		trait = gawei_sword_4
+		trait = gawei_sword_5
+		trait = gawei_sword_6
+		trait = gawei_sword_7
+		trait = gawei_sword_8
+		trait = gawei_sword_9
+		trait = sword_crimson_bolt
+		trait = sword_darkness
+		trait = sword_ekers_light
+		trait = sword_flight
+		trait = sword_luxs_setting
+		trait = sword_might_abimelech
+		trait = sword_roses_thorn
+		trait = sword_silver_wisp
+		trait = sword_vastness
+	}
+}
+has_armor_trigger = {
+	OR = {
+		trait = armor_leather
+		trait = armor_blackleather
+		trait = armor_chain
+		trait = armor_blackplate
+		trait = armor_bronzemail
+		trait = armor_goldplate
+		trait = armor_greyplate
+		trait = armor_knight
+		trait = armor_knightplate
+		trait = armor_plate
+	}
+}
+has_bonearmor_trigger = {
+	OR = {
+		trait = armor_blackplate
+		trait = armor_bronzemail
+		trait = armor_goldplate
+		trait = armor_greyplate
+		trait = armor_knight
+		trait = armor_knightplate
+		trait = armor_plate
+	}
+}
+
+
+is_incapable_trigger = {
+	OR = {
+		trait = incapacitating_illness
+		trait = deadly_illness
+		trait = incapacitating_injury
+		trait = deadly_injury
+	}
+}
+
+###############
+#Title Triggers
+###############
+has_guard_trigger = {
+	OR = {
+		has_landed_title = d_clan_guard
+		has_landed_title = d_ades_guard
+		has_landed_title = d_anin_guard
+		has_landed_title = d_basli_guard
+		has_landed_title = d_the_will
+		has_landed_title = d_grey_guard
+		has_landed_title = d_hesen_guard
+		has_landed_title = d_hunute_guard
+		has_landed_title = d_field_guard
+		has_landed_title = d_levytan_guard
+		has_landed_title = d_navo_guard
+		has_landed_title = d_bule
+		has_landed_title = d_vitat_guard
+		has_landed_title = d_forest_guard
+		has_landed_title = d_lake_guard
+	}
+}
+has_full_guard_trigger = {
+	OR = {
+		has_landed_title = d_clan_guard
+		has_landed_title = d_ades_guard
+		has_landed_title = d_anin_guard
+		has_landed_title = d_basli_guard
+		has_landed_title = d_grey_guard
+		has_landed_title = d_hesen_guard
+		has_landed_title = d_hunute_guard
+		has_landed_title = d_field_guard
+		has_landed_title = d_levytan_guard
+		has_landed_title = d_navo_guard
+		has_landed_title = d_bule
+		has_landed_title = d_vitat_guard
+		has_landed_title = d_forest_guard
+		has_landed_title = d_lake_guard
+	}
+	guardsman = {
+		has_opinion_modifier = { modifier = opinion_commander who = ROOT }
+		count = 5
+	}
+}
+is_guard_trigger = {
+	OR = {
+		trait = gawei_sword_1
+		trait = gawei_sword_2
+		trait = gawei_sword_3
+		trait = gawei_sword_4
+		trait = gawei_sword_5
+		trait = gawei_sword_6
+		trait = gawei_sword_7
+		trait = gawei_sword_8
+		trait = gawei_sword_9
+		trait = guardsman
+	}
+}

@@ -1,0 +1,1493 @@
+################
+#Abimelech Mercs
+################
+d_clan_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_beons_pride_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_black_axe_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_black_stone_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_bloodstone_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_drugar_skull_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_eker_sons_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_gayl_brothers_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_might_fist_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_pale_cave_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_rising_rock_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_savage_toncho_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_white_claw_clan = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_abimelech = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_abimelech_mercs
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+###########
+#Ades Mercs
+###########
+d_ades_guard = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_ades = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_ades_mercs
+
+	culture = ades
+	religion = ades_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_garyns_attendants = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_ades = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_ades_mercs
+
+	culture = ades
+	religion = ades_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_khiies_servants = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_ades = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_ades_mercs
+
+	culture = ades
+	religion = ades_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_tmes_minions = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_ades = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_ades_mercs
+
+	culture = ades
+	religion = ades_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+###########
+#Anin Mercs
+###########
+d_anin_guard = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_blav = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_zheld = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_chenh = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_raeln = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_kar = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_vaoyn = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_riders_honaal = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_anin = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_anin_mercs
+
+	culture = anin
+	religion = anin_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+###########
+#Basli Mercs
+###########
+d_basli_guard = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_basli = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_basli_mercs
+
+	culture = basli
+	religion = basli_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_jaalis_vision = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_basli = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_basli_mercs
+
+	culture = basli
+	religion = basli_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+###########
+#Gawei Mercs
+###########
+d_the_will = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		OR = {
+			has_landed_title = k_gawei
+			has_landed_title = c_gawei_castle
+			has_landed_title = c_gawei_village
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_gawei_mercs
+
+	culture = gawei
+	religion = gawei_rel
+
+	dignity = 15
+	title = "ELDERS_WILL"
+	foa = "ELDERS_WILL_FOA"
+}
+d_hal_riders = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_gawei = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_gawei_mercs
+
+	culture = gawei
+	religion = gawei_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_sun_riders = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 394#Gawei Castle
+
+	allow = {
+		NOT = {
+			k_gawei = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_gawei_mercs
+
+	culture = gawei
+	religion = gawei_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Grey Land Mercs
+################
+d_grey_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_grey_lands = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_grey_lands_mercs
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_ancients = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_grey_lands = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_grey_lands_mercs
+
+	culture = grey_tribes
+	religion = grey_tribes_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Hesen Mercs
+################
+d_hesen_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hesen = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hesen_mercs
+
+	culture = hesen
+	religion = hesen_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_silent_ones = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hesen = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hesen_mercs
+
+	culture = hesen
+	religion = hesen_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_unheard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hesen = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hesen_mercs
+
+	culture = hesen
+	religion = hesen_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_mute = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hesen = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hesen_mercs
+
+	culture = hesen
+	religion = hesen_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Hunute Mercs
+################
+d_hunute_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hunute = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hunute_mercs
+
+	culture = hunute
+	religion = hunute_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_forest_walkers = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hunute = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hunute_mercs
+
+	culture = hunute
+	religion = hunute_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_unsighted = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_hunute = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_hunute_mercs
+
+	culture = hunute
+	religion = hunute_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Kalan Mercs
+################
+d_field_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_kalan = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_kalan_mercs
+
+	culture = kalan
+	religion = kalan_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Levytan Mercs
+################
+d_levytan_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_levyt = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_levytan_mercs
+
+	culture = levyt
+	religion = levyt_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_loas_saints = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 304#West W. Levyt Plains
+
+	allow = {
+		NOR = {
+			religion = abimelech_rel
+			k_levyt = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+			capital_scope = { region = world_abimelech }
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_merc_loas_saints
+
+	culture = levyt
+	religion = levyt_rel
+
+	dignity = 15
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_unbound = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOR = {
+			religion = abimelech_rel
+			k_levyt = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+			capital_scope = { region = world_abimelech }
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_levytan_mercs
+
+	culture = collsi
+	religion = grey_tribes_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_murked = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_levyt = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_levytan_mercs
+
+	culture = dulmal
+	religion = dulmal_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Navo Mercs
+################
+d_navo_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_navo = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_navo_mercs
+
+	culture = navo
+	religion = navo_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_the_built = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_navo = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_navo_mercs
+
+	culture = navo
+	religion = navo_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_byajvos_children = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_navo = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_navo_mercs
+
+	culture = navo
+	religion = navo_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Rannu Mercs
+################
+d_bule = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_rannu = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_rannu_mercs
+
+	culture = rannu
+	religion = rannu_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_rannu_riders = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_rannu = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_rannu_mercs
+
+	culture = rannu
+	religion = rannu_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_herders = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_rannu = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_rannu_mercs
+
+	culture = rannu
+	religion = rannu_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Vitat Mercs
+################
+d_vitat_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_vitat = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_vitat_mercs
+
+	culture = vitat
+	religion = vitat_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Yava Mercs
+################
+d_forest_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_yava = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_yava_mercs
+
+	culture = yava
+	religion = yava_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_zabas_bane = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_yava = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_yava_mercs
+
+	culture = yava
+	religion = yava_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+
+################
+#Zuvak Mercs
+################
+d_lake_guard = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_zuvak = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_zuvak_mercs
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}
+d_samaks_tide = {
+	color = { 0 0 0 }
+	color2 = { 0 0 0 }
+
+	capital = 331 #Great War Hall
+
+	allow = {
+		NOT = {
+			k_zuvak = {
+				holder_scope = {
+					war_with = ROOT
+				}
+			}
+		}
+	}
+	landless = yes
+	primary = yes
+	mercenary = yes
+	mercenary_type = d_zuvak_mercs
+
+	culture = zuvak
+	religion = zuvak_rel
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+}

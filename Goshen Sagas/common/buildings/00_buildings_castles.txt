@@ -1,0 +1,1420 @@
+####################
+# Castle Buildings
+####################
+castle = {
+# Generic Castle Buildings
+	# Defenses Structures
+	ca_defenses_1 = {
+		desc = ca_defenses_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_2 = {
+		desc = ca_defenses_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_defenses_1
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_3 = {
+		desc = ca_defenses_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_defenses_2
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_4 = {
+		desc = ca_defenses_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_defenses_3
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_5 = {
+		desc = ca_defenses_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_defenses_4
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Barracks give light and heavy infantry
+	ca_barracks_1 = {
+		desc = ca_barracks_1_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_2 = {
+		desc = ca_barracks_2_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_barracks_1
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_3 = {
+		desc = ca_barracks_3_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_barracks_2
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_4 = {
+		desc = ca_barracks_4_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_barracks_3
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_5 = {
+		desc = ca_barracks_5_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_barracks_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 50
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Abimelech Barracks
+	ca_a_barracks_1 = {
+		desc = ca_a_barracks_1_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_2 = {
+		desc = ca_a_barracks_2_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_a_barracks_1
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		heavy_infantry = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_3 = {
+		desc = ca_a_barracks_3_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_a_barracks_2
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 100
+		heavy_infantry = 50
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_4 = {
+		desc = ca_a_barracks_4_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_a_barracks_3
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 100
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_5 = {
+		desc = ca_a_barracks_5_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_a_barracks_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Gawei Barracks
+	ca_g_barracks_1 = {
+		desc = ca_g_barracks_1_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		pikemen = 20
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_barracks_2 = {
+		desc = ca_g_barracks_2_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_barracks_1
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 50
+		pikemen = 30
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_barracks_3 = {
+		desc = ca_g_barracks_3_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_barracks_2
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 100
+		pikemen = 50
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_barracks_4 = {
+		desc = ca_g_barracks_4_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_barracks_3
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 100
+		pikemen = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_barracks_5 = {
+		desc = ca_g_barracks_5_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_barracks_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		pikemen = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Bowyers give archers
+	ca_bowyer_1 = {
+		desc = ca_bowyer_1_desc
+		potential = {
+			NOT = {
+				culture = grey_tribes
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		archers = 50
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_bowyer_2 = {
+		desc = ca_bowyer_2_desc
+		potential = {
+			NOT = {
+				culture = grey_tribes
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_bowyer_1
+		gold_cost = 50
+		build_time = 182
+		archers = 50
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_bowyer_3 = {
+		desc = ca_bowyer_3_desc
+		potential = {
+			NOT = {
+				culture = grey_tribes
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_bowyer_2
+		gold_cost = 50
+		build_time = 182
+		archers = 50
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_bowyer_4 = {
+		desc = ca_bowyer_4_desc
+		potential = {
+			NOT = {
+				culture = grey_tribes
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_bowyer_3
+		gold_cost = 50
+		build_time = 182
+		archers = 50
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Grey-Tribes bowyers give more archers
+	ca_gt_bowyer_1 = {
+		desc = ca_gt_bowyer_1_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		archers = 75
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_2 = {
+		desc = ca_gt_bowyer_2_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_gt_bowyer_1
+		gold_cost = 50
+		build_time = 182
+		archers = 75
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_3 = {
+		desc = ca_gt_bowyer_3_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_gt_bowyer_2
+		gold_cost = 50
+		build_time = 182
+		archers = 75
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_4 = {
+		desc = ca_gt_bowyer_4_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_gt_bowyer_3
+		gold_cost = 50
+		build_time = 182
+		archers = 75
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_5 = {
+		desc = ca_gt_bowyer_5_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_gt_bowyer_4
+		gold_cost = 50
+		build_time = 182
+		archers = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Training grounds, gives morale and reinforce rate
+	ca_training_grounds_1 = {
+		desc = ca_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		prerequisites = { ca_barracks_2 }
+		gold_cost = 200
+		build_time = 730
+		land_morale = 0.1
+		levy_reinforce_rate = 0.1
+		ai_creation_factor = 89
+		extra_tech_building_start = 1.2
+	}
+	ca_training_grounds_2 = {
+		desc = ca_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_training_grounds_1
+		gold_cost = 250
+		build_time = 1095
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.5
+	}
+	ca_training_grounds_3 = {
+		desc = ca_training_grounds_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_training_grounds_2
+		gold_cost = 300
+		build_time = 2190
+		land_morale = 0.2
+		levy_reinforce_rate = 0.2
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 0.2
+	}
+
+	# Stables
+	ca_stables_1 = {
+		desc = ca_stables_1_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = ades
+				culture = grey_tribes
+				culture = gawei
+				culture = levyt
+				culture = rannu
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_stables_2 = {
+		desc = ca_stables_2_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = ades
+				culture = grey_tribes
+				culture = gawei
+				culture = levyt
+				culture = rannu
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_stables_1
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_stables_3 = {
+		desc = ca_stables_3_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = ades
+				culture = grey_tribes
+				culture = gawei
+				culture = levyt
+				culture = rannu
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_stables_2
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_stables_4 = {
+		desc = ca_stables_4_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = ades
+				culture = grey_tribes
+				culture = gawei
+				culture = levyt
+				culture = rannu
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_stables_3
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_stables_5 = {
+		desc = ca_stables_5_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = ades
+				culture = grey_tribes
+				culture = gawei
+				culture = levyt
+				culture = rannu
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_stables_4
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Ades Stables
+	ca_ad_stables_1 = {
+		desc = ca_ad_stables_1_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_2 = {
+		desc = ca_ad_stables_2_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_ad_stables_1
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_3 = {
+		desc = ca_ad_stables_3_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_ad_stables_2
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_4 = {
+		desc = ca_ad_stables_4_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_ad_stables_3
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_5 = {
+		desc = ca_ad_stables_5_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_ad_stables_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+
+	#Gawei Stables
+	ca_g_stables_1 = {
+		desc = ca_g_stables_1_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_stables_2 = {
+		desc = ca_g_stables_2_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_stables_1
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_stables_3 = {
+		desc = ca_g_stables_3_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_stables_2
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_stables_4 = {
+		desc = ca_g_stables_4_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_stables_3
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_g_stables_5 = {
+		desc = ca_g_stables_5_desc
+		potential = {
+			culture = gawei
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_g_stables_4
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 5
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Kauni Stables
+	ca_k_stables_1 = {
+		desc = ca_k_stables_1_desc
+		potential = {
+			OR = {
+				culture = levyt
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_k_stables_2 = {
+		desc = ca_k_stables_2_desc
+		potential = {
+			OR = {
+				culture = levyt
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_k_stables_1
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_k_stables_3 = {
+		desc = ca_k_stables_3_desc
+		potential = {
+			OR = {
+				culture = levyt
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_k_stables_2
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_k_stables_4 = {
+		desc = ca_k_stables_4_desc
+		potential = {
+			OR = {
+				culture = levyt
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_k_stables_3
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_k_stables_5 = {
+		desc = ca_k_stables_5_desc
+		potential = {
+			OR = {
+				culture = levyt
+				culture = zet
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_k_stables_4
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		knights = 10
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Ran-nu Stables
+	ca_r_stables_1 = {
+		desc = ca_r_stables_1_desc
+		potential = {
+			culture = rannu
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		light_infantry = 15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_r_stables_2 = {
+		desc = ca_r_stables_2_desc
+		potential = {
+			culture = rannu
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_r_stables_1
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		light_infantry = 15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_r_stables_3 = {
+		desc = ca_r_stables_3_desc
+		potential = {
+			culture = rannu
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_r_stables_2
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		light_infantry = 25
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_r_stables_4 = {
+		desc = ca_r_stables_4_desc
+		potential = {
+			culture = rannu
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_r_stables_3
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		light_infantry = 25
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_r_stables_5 = {
+		desc = ca_r_stables_5_desc
+		potential = {
+			culture = rannu
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_r_stables_4
+		gold_cost = 50
+		build_time = 182
+		light_cavalry = 10
+		light_infantry = 25
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Recruit Post
+	ca_recruit_post_1 = {
+		desc = ca_recruit_post_1_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 182
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_recruit_post_2 = {
+		desc = ca_recruit_post_2_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_recruit_post_1
+		gold_cost = 50
+		build_time = 182
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_recruit_post_3 = {
+		desc = ca_recruit_post_3_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_recruit_post_2
+		gold_cost = 50
+		build_time = 182
+		levy_size = 0.1
+		garrison_size = 0.1
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_recruit_post_4 = {
+		desc = ca_recruit_post_4_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_recruit_post_3
+		gold_cost = 50
+		build_time = 182
+		levy_size = 0.2
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_recruit_post_5 = {
+		desc = ca_recruit_post_5_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		upgrades_from = ca_recruit_post_4
+		gold_cost = 50
+		build_time = 182
+		levy_size = 0.2
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+
+	#Castle market, gives income
+	ca_market_1 = {
+		desc = ca_market_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.5
+	}
+	ca_market_2 = {
+		desc = ca_market_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_market_1
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.5
+	}
+	ca_market_3 = {
+		desc = ca_market_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_market_2
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.5
+	}
+	ca_market_4 = {
+		desc = ca_market_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_market_3
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.5
+	}
+	ca_market_5 = {
+		desc = ca_market_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		upgrades_from = ca_market_4
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.5
+	}
+
+	#Docks give Galleys
+	ca_docks_1 = {
+		desc = ca_docks_1_desc
+		port = yes
+		trigger = { TECH_NAVAL = 0 }
+		gold_cost = 50
+		build_time = 365
+		galleys = 5
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.3
+	}
+	ca_docks_2 = {
+		desc = ca_docks_2_desc
+		port = yes
+		trigger = { TECH_NAVAL = 0 }
+		upgrades_from = ca_docks_1
+		gold_cost = 50
+		build_time = 365
+		galleys = 5
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.3
+	}
+	ca_docks_3 = {
+		desc = ca_docks_3_desc
+		port = yes
+		trigger = { TECH_NAVAL = 0 }
+		upgrades_from = ca_docks_2
+		gold_cost = 50
+		build_time = 365
+		galleys = 5
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.3
+	}
+	ca_docks_4 = {
+		desc = ca_docks_4_desc
+		port = yes
+		trigger = { TECH_NAVAL = 0 }
+		upgrades_from = ca_docks_3
+		gold_cost = 50
+		build_time = 365
+		galleys = 5
+		ai_creation_factor = 100
+
+		extra_tech_building_start = 0.3
+	}
+	ca_docks_5 = {
+		desc = ca_docks_5_desc
+		port = yes
+		trigger = { TECH_NAVAL = 0 }
+		upgrades_from = ca_docks_4
+		gold_cost = 50
+		build_time = 365
+		galleys = 10
+		tax_income = 2
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.3
+	}
+	ca_docks_6 = {
+		desc = ca_docks_6_desc
+		port = yes
+		potential = {
+			culture = levyt
+		}
+		trigger = { TECH_NAVAL = 0 }
+		upgrades_from = ca_docks_5
+		gold_cost = 50
+		build_time = 365
+		galleys = 20
+		tax_income = 2
+		ai_creation_factor = 100
+		extra_tech_building_start = 0.3
+	}
+#Unique Castles
+	ca_castle_blav = {
+		desc = ca_castle_blav_desc
+		potential = {
+			FROMFROM = {
+				title = b_blav
+				has_building = ca_castle_blav
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_gap = {
+		desc = ca_castle_gap_desc
+		potential = {
+			FROMFROM = {
+				title = b_gap_in_the_mountain
+				has_building = ca_castle_gap
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_gawei = {
+		desc = ca_castle_gawei_desc
+		potential = {
+			FROMFROM = {
+				title = b_gawei_castle
+				has_building = ca_castle_gawei
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_jese = {
+		desc = ca_castle_jese_desc
+		potential = {
+			FROMFROM = {
+				title = b_jese_castle
+				has_building = ca_castle_jese
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_levyt = {
+		desc = ca_castle_levyt_desc
+		potential = {
+			FROMFROM = {
+				title = b_levyt_city
+				has_building = ca_castle_levyt
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_silt = {
+		desc = ca_castle_silt_desc
+		potential = {
+			FROMFROM = {
+				title = b_silt_castle
+				has_building = ca_castle_silt
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_castle_warhall = {
+		desc = ca_castle_warhall_desc
+		potential = {
+			FROMFROM = {
+				title = b_great_war_hall
+				has_building = ca_castle_warhall
+			}
+		}
+		gold_cost = 500
+		build_time = 3650
+		fort_level = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_coral_castle = {
+		desc = ca_special_coral_castle_desc
+		potential = {
+			FROMFROM = {
+				title = b_zuvaki_palace
+				has_building = ca_special_coral_castle
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_kalan_village = {
+		desc = ca_special_kalan_village_desc
+		potential = {
+			FROMFROM = {
+				title = b_kalan_village
+				has_building = ca_special_kalan_village
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_kauni_forest = {
+		desc = ca_special_kauni_forest_desc
+		potential = {
+			FROMFROM = {
+				title = b_s_kauni_forest
+				has_building = ca_special_kauni_forest
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		tax_income = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_hunute_village = {
+		desc = ca_special_hunute_village_desc
+		potential = {
+			FROMFROM = {
+				title = b_hunute_forest
+				has_building = ca_special_hunute_village
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_qess_fort = {
+		desc = ca_special_qess_fort_desc
+		potential = {
+			FROMFROM = {
+				title = b_qess_fort
+				has_building = ca_special_qess_fort
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+#Unique Buildings
+	ca_special_greyforges = {
+		desc = ca_special_greywalls_desc
+		potential = {
+			culture = grey_tribes
+		}
+		gold_cost = 500
+		build_time = 730
+		local_tax_modifier = 0.1
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_greywalls = {
+		desc = ca_special_greywalls_desc
+		potential = {
+			FROMFROM = { is_capital = yes }
+			OR = {
+				province_id = 297
+				province_id = 305
+				province_id = 307
+				province_id = 309
+				province_id = 310
+				province_id = 314
+				province_id = 315
+				province_id = 323
+				province_id = 324
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_elfall = {
+		desc = ca_special_elfall_desc
+		potential = {
+			FROMFROM = {
+				title = b_elfall_volcano
+				has_building = ca_special_elfall
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_hole = {
+		desc = ca_special_hole_desc
+		potential = {
+			FROMFROM = {
+				title = b_bottomless_hole
+				has_building = ca_special_hole
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_jaali_tree = {
+		desc = ca_special_jaali_tree_desc
+		potential = {
+			FROMFROM = {
+				title = b_basli_forest
+				has_building = ca_special_jaali_tree
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_levytan_tradepost = {
+		desc = ca_special_levytan_tradepost_desc
+		potential = {
+			FROMFROM = {
+				OR = {
+					title = b_n_kalani_coast
+					title = b_w_grey_coast
+					title = b_etzu_berth
+					title = b_levyt_city
+				}
+				has_building = ca_special_levytan_tradepost
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		local_tax_modifier = 0.1
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_niya_falls = {
+		desc = ca_special_niya_falls_desc
+		potential = {
+			FROMFROM = {
+				title = b_silt_castle
+				has_building = ca_special_niya_falls
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_yava_village = {
+		desc = ca_special_yava_village_desc
+		potential = {
+			FROMFROM = {
+				title = b_c_yava_forest
+				has_building = ca_special_yava_village
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		fort_level = 2.0
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+	ca_special_gawei_village = {
+		desc = ca_special_gawei_village_desc
+		potential = {
+			FROMFROM = {
+				title = b_gawei_village
+				has_building = ca_special_gawei_village
+			}
+		}
+		gold_cost = 500
+		build_time = 730
+		liege_prestige = 5.0
+		ai_creation_factor = 150
+	}
+}

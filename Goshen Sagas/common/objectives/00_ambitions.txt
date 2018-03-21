@@ -1,0 +1,3134 @@
+# Supported types:
+# character, spouse, rivals, friends, liege_titles, vassal_titles, realm_titles, realm_characters, realm_characters_plus, independent_rulers
+
+###############
+# AMBITIONS
+###############
+
+# Job Ambitions
+
+obj_become_chancellor = {
+	type = character
+	is_job_ambition = yes
+	expectation_of_liege = yes
+
+	potential = {
+		independent = no
+	}
+	allow = {
+		is_councillor = no
+		can_be_chancellor_trigger = yes
+		NOT = { has_dlc = "Zeus" }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 10
+			trait = emissary
+		}
+		modifier = {
+			factor = 5
+			trait = minister
+		}
+		modifier = {
+			factor = 2
+			trait = mediator
+		}
+		modifier = {
+			factor = 0.5
+			trait = agent
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+		modifier = {
+			factor = 1.25
+			diplomacy = 6
+		}
+		modifier = {
+			factor = 1.25
+			diplomacy = 7
+		}
+		modifier = {
+			factor = 1.25
+			diplomacy = 8
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 10
+		}
+	}
+
+	success = {
+		has_job_title = job_chancellor
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_councillor = yes
+				NOT = { has_job_title = job_chancellor }
+			}
+			can_be_chancellor_trigger = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = successful_council_ambition }
+			}
+			change_diplomacy = 1
+		}
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+		set_character_flag = successful_council_ambition
+	}
+}
+
+
+obj_become_marshal = {
+	type = character
+	is_job_ambition = yes
+
+	potential = {
+		independent = no
+	}
+	allow = {
+		is_councillor = no
+		can_be_marshal_trigger = yes
+		NOT = { has_dlc = "Zeus" }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 10
+			trait = mastermind
+		}
+		modifier = {
+			factor = 5
+			trait = strategist
+		}
+		modifier = {
+			factor = 2
+			trait = tactician
+		}
+		modifier = {
+			factor = 0.5
+			trait = soldier
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+		modifier = {
+			factor = 1.25
+			martial = 6
+		}
+		modifier = {
+			factor = 1.25
+			martial = 7
+		}
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.5
+			martial = 10
+		}
+	}
+
+	success = {
+		has_job_title = job_marshal
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_councillor = yes
+				NOT = { has_job_title = job_marshal }
+			}
+			can_be_marshal_trigger = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = successful_council_ambition }
+			}
+			change_martial = 1
+		}
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+		set_character_flag = successful_council_ambition
+	}
+}
+
+obj_become_treasurer = {
+	type = character
+	is_job_ambition = yes
+
+	potential = {
+		independent = no
+	}
+	allow = {
+		is_councillor = no
+		can_be_treasurer_trigger = yes
+		NOT = { has_dlc = "Zeus" }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 10
+			trait = mogul
+		}
+		modifier = {
+			factor = 5
+			trait = financier
+		}
+		modifier = {
+			factor = 2
+			trait = entrepreneur
+		}
+		modifier = {
+			factor = 0.5
+			trait = clerk
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 6
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 7
+		}
+		modifier = {
+			factor = 1.25
+			stewardship = 8
+		}
+		modifier = {
+			factor = 1.5
+			stewardship = 10
+		}
+	}
+
+	success = {
+		has_job_title = job_treasurer
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_councillor = yes
+				NOT = { has_job_title = job_treasurer }
+			}
+			can_be_treasurer_trigger = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = successful_council_ambition }
+			}
+			change_stewardship = 1
+		}
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+		set_character_flag = successful_council_ambition
+	}
+}
+
+obj_become_spymaster = {
+	type = character
+	is_job_ambition = yes
+
+	potential = {
+		independent = no
+	}
+	allow = {
+		is_councillor = no
+		can_be_spymaster_trigger = yes
+		NOT = { has_dlc = "Zeus" }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 10
+			trait = conspirator
+		}
+		modifier = {
+			factor = 5
+			trait = schemer
+		}
+		modifier = {
+			factor = 2
+			trait = rogue
+		}
+		modifier = {
+			factor = 0.5
+			trait = rascal
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+		modifier = {
+			factor = 1.25
+			intrigue = 6
+		}
+		modifier = {
+			factor = 1.25
+			intrigue = 7
+		}
+		modifier = {
+			factor = 1.25
+			intrigue = 8
+		}
+		modifier = {
+			factor = 1.5
+			intrigue = 10
+		}
+	}
+
+	success = {
+		has_job_title = job_spymaster
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_councillor = yes
+				NOT = { has_job_title = job_spymaster }
+			}
+			can_be_spymaster_trigger = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = successful_council_ambition }
+			}
+			change_intrigue = 1
+		}
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+		set_character_flag = successful_council_ambition
+	}
+}
+
+obj_become_spiritual = {
+	type = character
+	is_job_ambition = yes
+
+	potential = {
+		independent = no
+	}
+	allow = {
+		is_councillor = no
+		can_be_spiritual_trigger = yes
+		NOT = { has_dlc = "Zeus" }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 10
+			trait = sage
+		}
+		modifier = {
+			factor = 5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = intellectual
+		}
+		modifier = {
+			factor = 0.5
+			trait = thinker
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+		modifier = {
+			factor = 1.25
+			learning = 6
+		}
+		modifier = {
+			factor = 1.25
+			learning = 7
+		}
+		modifier = {
+			factor = 1.25
+			learning = 8
+		}
+		modifier = {
+			factor = 1.5
+			learning = 10
+		}
+	}
+
+	success = {
+		has_job_title = job_spiritual
+	}
+	abort = {
+		OR = {
+			AND = {
+				is_councillor = yes
+				NOT = { has_job_title = job_spiritual }
+			}
+			can_be_spiritual_trigger = no
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = successful_council_ambition }
+			}
+			change_learning = 1
+		}
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+		set_character_flag = successful_council_ambition
+	}
+}
+
+
+# Misc Ambitions
+
+obj_amass_wealth = {
+	type = character
+
+	potential = {
+		NOT = { has_character_flag = amassed_wealth }
+	}
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		is_adult = yes
+		NOT = { wealth = 200 }
+		is_ruler = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 10
+			trait = mogul
+		}
+		modifier = {
+			factor = 5
+			trait = financier
+		}
+		modifier = {
+			factor = 2
+			trait = entrepreneur
+		}
+		modifier = {
+			factor = 0.5
+			trait = clerk
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		wealth = 500
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_stewardship = 1
+		set_character_flag = amassed_wealth
+	}
+}
+
+obj_become_paragon_of_virtue = {
+	type = character
+
+	potential = {
+		NOT = { religion_group = goshen_r_rel_group }
+	}
+	allow = {
+		is_adult = yes
+		is_ruler = yes
+		NOT = { piety = 100 }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 0.01
+			NOT = { higher_tier_than = DUKE }
+		}
+		modifier = {
+			factor = 10
+			trait = sage
+		}
+		modifier = {
+			factor = 5
+			trait = scholar
+		}
+		modifier = {
+			factor = 2
+			trait = intellectual
+		}
+		modifier = {
+			factor = 0.5
+			trait = thinker
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		piety = 500
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_learning = 1
+		piety = 100
+		religion_authority = {
+			modifier = paragon_of_virtue
+			years = 20
+		}
+		religion_head = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_paragon
+				months = 1200
+			}
+		}
+		any_vassal = {
+			limit = {
+				is_theocracy = yes
+				religion = ROOT
+			}
+			opinion = {
+				who = ROOT
+				modifier = opinion_paragon
+				months = 1200
+			}
+		}
+	}
+}
+
+obj_become_exalted = {
+	type = character
+	
+	potential = {
+		NOT = { prestige = 1000 }
+	}
+	
+	allow = {
+		is_adult = yes
+		is_ruler = yes
+		NOT = { prestige = 200 }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 0.01
+			NOT = { higher_tier_than = DUKE }
+		}
+		modifier = {
+			factor = 10
+			trait = emissary
+		}
+		modifier = {
+			factor = 5
+			trait = minister
+		}
+		modifier = {
+			factor = 2
+			trait = mediator
+		}
+		modifier = {
+			factor = 0.5
+			trait = agent
+		}
+		modifier = {
+			factor = 10
+			trait = mastermind
+		}
+		modifier = {
+			factor = 5
+			trait = strategist
+		}
+		modifier = {
+			factor = 2
+			trait = tactician
+		}
+		modifier = {
+			factor = 0.5
+			trait = soldier
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		prestige = 1000
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_diplomacy = 1
+		prestige = 100
+		any_vassal = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_exalted
+				months = 1200
+			}
+		}
+	}
+}
+
+obj_get_married = {
+	type = character
+	
+	potential = {
+		is_married = no
+		is_consort = no
+		can_marry = yes
+	}
+	
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		is_marriage_adult = yes
+		OR = {
+			is_female = no
+			NOT = { age = 40 }
+		}
+		prisoner = no
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = eunuch }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 2.0 
+			age = 25
+		}
+		modifier = {
+			factor = 5.0
+			age = 35
+		}
+		modifier = {
+			factor = 10.0
+			age = 40
+		}
+		modifier = {
+			factor = 10
+			trait = emissary
+		}
+		modifier = {
+			factor = 5
+			trait = minister
+		}
+		modifier = {
+			factor = 2
+			trait = mediator
+		}
+		modifier = {
+			factor = 0.5
+			trait = agent
+		}
+		modifier = {
+			factor = 10
+			trait = mastermind
+		}
+		modifier = {
+			factor = 5
+			trait = strategist
+		}
+		modifier = {
+			factor = 2
+			trait = tactician
+		}
+		modifier = {
+			factor = 0.5
+			trait = soldier
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		is_married = yes
+	}
+	abort = {
+		OR = {
+			can_marry = no
+			AND = {
+				is_female = yes
+				is_ruler = no
+				age = 40
+			}
+			is_incapable_trigger = yes
+			trait = eunuch
+		}
+	}
+	abort_effect = {
+		clr_character_flag = flag_promised_marriage
+		clr_character_flag = flag_denied_marriage
+		remove_character_modifier = promised_a_marriage
+	}
+	effect = {
+		piety = 10
+		if = {
+			limit = { independent = no }
+			opinion = {
+				who = liege
+				modifier = opinion_fulfilled_marriage_wish
+				months = 24
+			}
+		}
+		hidden_tooltip = {
+			clr_character_flag = flag_promised_marriage
+			clr_character_flag = flag_denied_marriage
+			remove_character_modifier = promised_a_marriage
+		}
+	}
+}
+
+obj_have_a_daughter = {
+	type = character
+	fertility = 0.25
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		prisoner = no
+		is_marriage_adult = yes
+		OR = {
+			is_married = yes
+			is_consort = yes
+		}
+		NOT = {
+			any_child = {
+				is_female = yes
+			}
+		}
+		OR = {
+			ai = no
+			is_female = yes
+			num_of_children = 2
+		}
+		NAND = {
+			age = 45
+			is_female = yes
+		}
+		NOT = { age = 75 }
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = eunuch }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 1.5
+			num_of_children = 3
+		}
+		modifier = {
+			factor = 3.0
+			num_of_children = 4
+		}
+		modifier = {
+			factor = 10.0
+			num_of_children = 5
+		}
+	}
+
+	success = {
+		any_child = {
+			is_female = yes
+		}
+	}
+	abort = {
+		OR = {
+			AND = {
+				age = 45
+				is_female = yes
+			}
+			age = 75
+			is_incapable_trigger = yes
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		piety = 10
+	}
+}
+
+obj_have_a_son = {
+	type = character
+	fertility = 0.25
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		prisoner = no
+		is_marriage_adult = yes
+		OR = {
+			is_married = yes
+			is_consort = yes
+		}
+		NOT = {
+			any_child = {
+				is_female = no
+			}
+		}
+		OR = {
+			ai = no
+			is_female = no
+			# Have at least two daughters
+			any_child = {
+				is_female = yes
+				ROOT = {
+					any_child = {
+						is_female = yes
+						NOT = { character = PREVPREV }
+					}
+				}
+			}
+		}
+		NOT = {
+			AND = {
+				age = 45
+				is_female = yes
+			}
+		}
+		NOT = { age = 75 }
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = eunuch }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 1.5
+			num_of_children = 3
+		}
+		modifier = {
+			factor = 3.0
+			num_of_children = 4
+		}
+		modifier = {
+			factor = 10.0
+			num_of_children = 5
+		}
+	}
+
+	success = {
+		any_child = {
+			is_female = no
+		}
+	}
+	abort = {
+		OR = {
+			AND = {
+				age = 45
+				is_female = yes
+			}
+			age = 75
+			is_incapable_trigger = yes
+			trait = eunuch
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		piety = 10
+	}
+}
+
+obj_wants_landed_title = {
+	type = character
+
+	potential = {
+		is_ruler = no
+	}
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		prisoner = no
+		is_adult = yes
+		is_female = no
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = eunuch }
+		NOT = { has_minor_title = title_guru }
+		liege = {
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+			}
+			is_close_relative = ROOT
+			num_of_extra_landed_titles = 1
+			OR = {
+				AND = {
+					NOT = { is_father = ROOT }
+					NOT = { is_mother = ROOT }
+				}
+				NOT = {
+					current_heir = {
+						character = ROOT
+					}
+				}
+				NOT = {
+					primary_title = {
+						has_law = succ_gavelkind
+					}
+				}
+			}
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		is_ruler = yes
+	}
+	abort = {
+		liege = { 
+			OR = {
+				NOT = { is_close_relative = ROOT }
+				NOT = { num_of_extra_landed_titles = 1 }
+			}
+		}
+		OR = {
+			is_incapable_trigger = yes
+			trait = eunuch
+		}
+	}	
+	abort_effect = {
+		clr_character_flag = flag_denied_title
+		clr_character_flag = flag_promised_title
+		remove_character_modifier = promised_a_title
+		clr_character_flag = flag_later_title
+	}
+	effect = {
+		prestige = 50
+		opinion = {
+			who = liege
+			modifier = opinion_generous_relative
+			months = 60
+		}
+		hidden_tooltip = {
+			clr_character_flag = flag_denied_title
+			clr_character_flag = flag_promised_title
+			remove_character_modifier = promised_a_title
+			clr_character_flag = flag_later_title
+			remove_opinion = { who = liege modifier = opinion_promised_title }
+		}
+	}
+}
+
+obj_become_heir = {
+	type = character
+
+	potential = {
+		liege = { any_child = { character = ROOT } }
+		NOT = { 
+			liege = { primary_title = { has_law = agnatic_succession } }
+			is_female = yes
+		}
+		NOT = { trait = bastard }
+		liege = {
+			any_child = {
+				is_primary_heir = yes
+				OR = {
+					has_epidemic = yes
+					is_ill = yes
+					is_incapable_trigger = yes
+				}
+			}
+		}
+	}
+	allow = {
+		NOT = { has_dlc = "Zeus" }
+		prisoner = no
+		is_adult = yes
+		is_primary_heir = no
+		NOR = {
+			is_incapable_trigger = yes
+			trait = eunuch
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 50
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		is_primary_heir = yes
+	}
+	abort = {
+		OR = {
+			is_incapable_trigger = yes
+			trait = eunuch
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		change_intrigue = 1
+	}
+}
+
+### Ambitions to improve abilitites
+# Diplomacy
+obj_improve_diplomacy = {
+	type = character
+	
+	potential = {
+		age = 16
+		is_playable = yes
+		NOT = { has_dlc = "Way of Life" }
+	}
+	allow = {
+		NOT = { diplomacy = 10 }
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = emissary
+		}
+		modifier = {
+			factor = 2
+			trait = minister
+		}
+		modifier = {
+			factor = 5
+			trait = mediator
+		}
+		modifier = {
+			factor = 10
+			trait = agent
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		diplomacy = 10
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+		clr_character_flag = the_feud
+		clr_character_flag = the_mirror
+		clr_character_flag = the_suicide
+	}
+	effect = {
+		prestige = 100
+		clr_character_flag = improve_diplomacy_success
+		clr_character_flag = the_feud
+		clr_character_flag = the_mirror
+		clr_character_flag = the_suicide
+	}
+}
+
+# Martial
+obj_improve_martial = {
+	type = character
+
+	potential = {
+		age = 16
+		is_playable = yes
+		NOT = { has_dlc = "Way of Life" }
+	}
+	allow = {
+		NOT = { martial = 10 }
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = mastermind
+		}
+		modifier = {
+			factor = 2
+			trait = strategist
+		}
+		modifier = {
+			factor = 5
+			trait = tactician
+		}
+		modifier = {
+			factor = 10
+			trait = soldier
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		martial = 10
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+		clr_character_flag = improve_martial_success
+		clr_character_flag = toy_army_prepare
+		clr_character_flag = toy_army
+		clr_character_flag = street_ruffians
+	}
+	effect = {
+		prestige = 100
+		clr_character_flag = improve_martial_success
+		clr_character_flag = toy_army_prepare
+		clr_character_flag = toy_army
+		clr_character_flag = street_ruffians
+	}
+}
+
+# Stewardship
+obj_improve_stewardship = {
+	type = character
+	
+	potential = {
+		age = 16
+		is_playable = yes
+		NOT = { has_dlc = "Way of Life" }
+	}
+	allow = {
+		NOT = { stewardship = 10 }
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = mogul
+		}
+		modifier = {
+			factor = 2
+			trait = financier
+		}
+		modifier = {
+			factor = 5
+			trait = entrepreneur
+		}
+		modifier = {
+			factor = 10
+			trait = clerk
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		stewardship = 10
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+		clr_character_flag = 10_salt
+		clr_character_flag = 20_salt
+		clr_character_flag = 30_salt
+		clr_character_flag = all_salt
+		clr_character_flag = the_inn
+		clr_character_flag = the_garden
+		clr_character_flag = the_survey
+	}
+	effect = {
+		prestige = 100
+		clr_character_flag = improve_stewardship_success
+		clr_character_flag = the_inn
+		clr_character_flag = the_garden
+		clr_character_flag = the_survey
+	}
+}
+
+# Intrigue
+obj_improve_intrigue = {
+	type = character
+	
+	potential = {
+		age = 16
+		is_playable = yes
+		NOT = { has_dlc = "Way of Life" }
+	}
+	allow = {
+		NOT = { intrigue = 10 }
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = conspirator
+		}
+		modifier = {
+			factor = 2
+			trait = schemer
+		}
+		modifier = {
+			factor = 5
+			trait = rogue
+		}
+		modifier = {
+			factor = 10
+			trait = rascal
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		intrigue = 10
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+		clr_character_flag = the_necklace
+		clr_character_flag = gossip
+		clr_character_flag = old_spymaster
+	}
+	effect = {
+		prestige = 100
+		clr_character_flag = improve_intrigue_success
+		clr_character_flag = the_necklace
+		clr_character_flag = gossip
+		clr_character_flag = old_spymaster
+	}
+}
+
+# Learning
+obj_improve_learning = {
+	type = character
+
+	potential = {
+		age = 16
+		is_playable = yes
+		NOT = { has_dlc = "Way of Life" }
+	}
+	
+	allow = {
+		NOT = { learning = 10 }
+		NOT = { is_incapable_trigger = yes }
+		prisoner = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0.5
+			trait = sage
+		}
+		modifier = {
+			factor = 2
+			trait = scholar
+		}
+		modifier = {
+			factor = 5
+			trait = intellectual
+		}
+		modifier = {
+			factor = 10
+			trait = thinker
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		learning = 10
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+		clr_character_flag = flying_machine
+		clr_character_flag = ancient_tome
+		clr_character_flag = hermit_visit
+	}
+	effect = {
+		prestige = 100
+		clr_character_flag = improve_learning_success
+		clr_character_flag = flying_machine
+		clr_character_flag = ancient_tome
+		clr_character_flag = hermit_visit
+	}
+}
+
+# Become King
+obj_become_king = {
+	type = character
+	can_cancel = no
+	ai_capital_kingdom_focus = yes # AI characters with this ambition will actually focus on taking the kingdom
+
+	potential = {
+		is_adult = yes
+		is_playable = yes
+		is_landed = yes
+		lower_tier_than = KING
+		OR = {
+			independent = yes
+			liege = { independent = yes }
+		}
+		NOT = {
+			any_heir_title = {
+				higher_tier_than = DUKE
+			}
+		}
+	}
+	allow = {
+		NOT = { is_incapable_trigger = yes }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			religion = kalan_rel
+		}
+		modifier = {
+			factor = 3
+			capital_scope = {
+				kingdom = {
+					has_holder = no
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+				independent = yes
+		}
+		modifier = {
+			factor = 0.1
+			tier = COUNT
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+
+	success = {
+		custom_tooltip = {
+			text = obj_become_king_tip
+			hidden_tooltip = {
+				capital_scope = {
+					kingdom = {
+						holder_scope = {
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+	abort = {
+		OR = {
+			is_incapable_trigger = yes
+			is_playable = no
+			is_landed = no
+			AND = {
+				higher_tier_than = DUKE
+				primary_title = {
+					temporary = no
+				}
+			}
+			any_heir_title = {
+				higher_tier_than = DUKE
+				temporary = no
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		prestige = 500
+		hidden_tooltip = {
+			clr_character_flag = kingdom_claimed_with_ambition
+		}
+	}
+}

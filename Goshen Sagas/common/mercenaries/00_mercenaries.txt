@@ -1,0 +1,80 @@
+d_merc_loas_saints = {
+	levy_size = 1
+	knights = 150
+	light_cavalry = 250
+}
+d_abimelech_mercs = {
+	levy_size = 1
+	heavy_infantry = 250
+	light_infantry = 350
+}
+d_ades_mercs = {
+	levy_size = 1
+	war_elephants = 10
+	light_infantry = 450
+}
+d_anin_mercs = {
+	levy_size = 1
+	knights = 150
+	light_cavalry = 250
+}
+d_basli_mercs = {
+	levy_size = 1
+	knights = 150
+	light_cavalry = 250
+}
+d_gawei_mercs = {
+	levy_size = 1
+	knights = 150
+	pikemen = 250
+}
+d_grey_lands_mercs = {
+	levy_size = 1
+	heavy_infantry = 100
+	archers = 400
+}
+d_hesen_mercs = {
+	levy_size = 1
+	heavy_infantry = 350
+}
+d_hunute_mercs = {
+	levy_size = 1
+	heavy_infantry = 100
+	archers = 300
+}
+d_kalan_mercs = {
+	levy_size = 1
+	heavy_infantry = 50
+	light_infantry = 450
+}
+d_levytan_mercs = {
+	levy_size = 1
+	knights = 150
+	heavy_infantry = 250
+}
+d_navo_mercs = {
+	levy_size = 1
+	heavy_infantry = 100
+	light_infantry = 250
+	archers = 150
+}
+d_rannu_mercs = {
+	levy_size = 1
+	light_cavalry = 300
+	light_infantry = 400
+}
+d_vitat_mercs = {
+	levy_size = 1
+	heavy_infantry = 50
+	light_infantry = 400
+}
+d_yava_mercs = {
+	levy_size = 1
+	light_infantry = 250
+	archers = 250
+}
+d_zuvak_mercs = {
+	levy_size = 1
+	heavy_infantry = 50
+	light_infantry = 400
+}

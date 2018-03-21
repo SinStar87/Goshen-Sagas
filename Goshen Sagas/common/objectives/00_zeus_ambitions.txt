@@ -1,0 +1,879 @@
+# Supported types:
+# character, spouse, rivals, friends, liege_titles, vassal_titles, realm_titles, realm_characters, realm_characters_plus, independent_rulers
+
+###############
+# NEW AMBITIONS
+###############
+
+# Council ambition
+
+obj_become_council_member = {
+	type = character
+	expectation_of_liege = yes
+	is_job_ambition=yes
+
+	potential = {
+		independent = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		liege = { independent = yes }
+		NOT = {
+			liege = { spouse = { character = ROOT } }
+		}
+		has_dlc = "Zeus"
+		prisoner = no
+		is_adult = yes
+		is_councillor = no
+		OR = {
+			can_hold_title = job_chancellor
+			can_hold_title = job_marshal
+			can_hold_title = job_treasurer
+			can_hold_title = job_spymaster
+			can_hold_title = job_spiritual
+		}
+		NOR = {
+			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = { 
+			factor = 10
+			among_most_powerful_vassals = 5 #TODO replace this with more appropriate trigger
+		}
+		modifier = { 
+			factor = 5
+			relative_income_to_liege = 0.5
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				diplomacy = 8
+				stewardship = 8
+				intrigue = 8
+				martial = 8
+				learning = 8
+			}
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				diplomacy = 12
+				stewardship = 12
+				intrigue = 12
+				martial = 12
+				learning = 12
+			}
+		}
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		is_councillor = yes
+	}
+	abort = {
+		OR = {
+			liege = { spouse = { character = ROOT } }
+			is_inaccessible_trigger = yes
+			independent = yes
+			is_incapable_trigger = yes
+			NOR = { 
+				can_hold_title = job_chancellor
+				can_hold_title = job_marshal
+				can_hold_title = job_treasurer
+				can_hold_title = job_spymaster
+				can_hold_title = job_spiritual
+			}
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+		opinion = {
+			who = liege
+			modifier = opinion_ambition_fulfilled
+			months = 24
+		}
+	}
+}
+
+# Gain land for son
+obj_land_for_son = {
+	type = character
+
+	potential = {
+		independent = no
+		is_nomadic = no
+		liege = {
+			is_nomadic = no
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+
+	allow = {
+		liege = { independent = yes }
+		has_dlc = "Zeus"
+		prisoner = no
+		is_adult = yes
+		NOR = { 
+			is_incapable_trigger = yes 
+			has_character_flag = land_for_son_successful
+		}
+		any_child = {
+			is_female = no
+			is_landed = no
+			is_adult = yes
+			is_heir = no
+			prisoner = no
+			NOT = {
+				is_incapable_trigger = yes
+			}
+			liege = {
+				character = ROOT
+			}
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = { 
+			factor = 10
+			is_councillor = yes
+		}
+		modifier = { 
+			factor = 5
+			relative_income_to_liege = 0.5
+		}
+		modifier = {
+			factor = 1.5
+			diplomacy = 12
+		}
+		modifier = {
+			factor = 1.25
+			from_ruler_dynasty = yes
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		custom_tooltip = {
+			text = obj_land_for_son_success_tooltip
+			hidden_tooltip = {
+				has_character_flag = land_for_son_successful
+			}
+		}
+	}
+	abort = {
+		is_nomadic = yes
+		liege = {
+			is_nomadic = yes
+		}
+		OR = {
+			NOT = {
+				any_child = {
+					is_female = no
+					is_adult = yes
+					is_landed = no
+					is_heir = no
+				}
+			}
+			independent = yes
+			is_incapable_trigger = yes
+		}
+	}
+	abort_effect = {
+	}
+	effect = {
+	}
+}
+
+obj_build_a_war_chest = {
+	type = character
+	
+	potential = {
+		has_dlc = "Zeus"
+		NOT = { has_character_modifier = war_chest_timer }
+		is_nomadic = no
+		higher_tier_than = BARON
+		is_landed = yes
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = {
+		is_adult = yes
+		is_ruler = yes
+		war = no
+		OR = {
+			AND = {
+				tier = count
+				NOT = { wealth = 300 }
+			}
+			AND = {
+				tier = duke
+				NOT = { wealth = 500 }
+			}
+			AND = {
+				tier = king
+				NOT = { wealth = 700 }
+			}
+			AND = {
+				tier = emperor
+				NOT = { wealth = 1000 }
+			}
+		}
+		NOR = { 
+			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+		
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 10
+			NOT = { wealth = 0 }
+		}
+		modifier = {
+			factor = 2
+			martial = 10
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { martial = 10 }
+		}
+		modifier = {
+			factor = 0.5
+			independent = no
+		}
+		modifier = {
+			factor = 0.5
+			tier = emperor
+			wealth = 850
+		}
+		modifier = {
+			factor = 0.5
+			tier = king
+			wealth = 550
+		}	
+		modifier = {
+			factor = 0.5
+			tier = duke
+			wealth = 350
+		}
+		modifier = {
+			factor = 0.5
+			tier = count
+			wealth = 200
+		}
+		modifier = {
+			factor = 0.5
+			government = theocracy_government
+		}
+		modifier = {
+			factor = 0.5
+			tier = count
+			independent = no
+		}
+		modifier = {
+			factor = 0.5
+			tier = duke
+			independent = no
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		custom_tooltip = {
+				text = obj_build_a_war_chest_success_custom_tooltip
+				hidden_tooltip = {
+					OR = {
+						AND = {
+							tier = count
+							wealth = 300
+						}
+						AND = {
+							tier = duke
+							wealth = 500
+						}
+						AND = {
+							tier = king
+							wealth = 700
+						}
+						AND = {
+							tier = emperor
+							wealth = 1000
+						}
+					}
+				}
+			}
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = war_taxes
+			months = 36
+		}
+		add_character_modifier = {
+		   modifier = war_chest_timer
+		   years = 25
+		   hidden = yes
+		}
+	}
+}
+
+obj_groom_an_heir = {
+	type = character
+	
+	fertility = 0.20
+	
+	potential = {
+		has_dlc = "Conclave"
+		higher_tier_than = BARON
+		holy_order = no
+		mercenary = no
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	
+	allow = {
+		is_adult = yes
+		is_ruler = yes
+		OR = {
+			NOT = { trait = eunuch }
+			any_child = {
+				is_alive = yes
+			}
+		}
+		NOR = {
+			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
+			any_child = {
+				is_adult = yes 
+				NOR = {
+					trait = bastard
+					trait = eunuch
+					is_incapable_trigger = yes
+				}
+				OR = {
+					is_female = no
+					AND = {
+						is_female = yes
+						ROOT = { has_law = true_cognatic_succession }
+					}
+				}
+			}
+			AND = {
+				age = 45
+				is_female = yes
+			}
+			age = 75
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 100
+		modifier = {
+			factor = 0
+			is_theocracy = yes
+		}
+		modifier = {
+			factor = 10
+			has_focus = focus_family
+		}
+		modifier = {
+			factor = 5
+			trait = bastard
+		}
+		modifier = {
+			factor = 5
+			age = 30
+		}
+		modifier = {
+			factor = 5
+			age = 45
+		}
+		modifier = {
+			factor = 5
+			government = nomadic_government
+		}
+		modifier = {
+			factor = 0.5
+			trait = susceptible
+		}
+		modifier = {
+			factor = 0.75
+			trait = receptive
+		}
+		modifier = {
+			factor = 1.1
+			trait = impartial
+		}
+		modifier = {
+			factor = 1.2
+			trait = biased
+		}
+		modifier = {
+			factor = 1.5
+			trait = prejudiced
+		}
+		modifier = {
+			factor = 3
+			trait = controlling
+		}
+		modifier = {
+			factor = 2
+			trait = calculating
+		}
+		modifier = {
+			factor = 1.5
+			trait = willful
+		}
+		modifier = {
+			factor = 0.75
+			trait = erratic
+		}
+		modifier = {
+			factor = 0.5
+			trait = irrational
+		}
+		modifier = {
+			factor = 2
+			trait = extrovert
+		}
+		modifier = {
+			factor = 1.5
+			trait = friendly
+		}
+		modifier = {
+			factor = 1.1
+			trait = cordial
+		}
+		modifier = {
+			factor = 0.5
+			trait = cold
+		}
+		modifier = {
+			factor = 0.01
+			trait = introvert
+		}
+		modifier = {
+			factor = 1.5
+			trait = overeager
+		}
+		modifier = {
+			factor = 1.1
+			trait = sympathetic
+		}
+		modifier = {
+			factor = 0.75
+			trait = responsive
+		}
+		modifier = {
+			factor = 0.5
+			trait = unwilling
+		}
+		modifier = {
+			factor = 0.25
+			trait = irreconcilable
+		}
+		modifier = {
+			factor = 0.01
+			trait = carefree
+		}
+		modifier = {
+			factor = 2
+			trait = idealist
+		}
+		modifier = {
+			factor = 1.5
+			trait = pragmatic
+		}
+		modifier = {
+			factor = 0.75
+			trait = cynic
+		}
+		modifier = {
+			factor = 0.5
+			trait = pessimist
+		}
+	}
+	success = {
+		any_child = {
+			is_adult = yes 
+			NOR = {
+				trait = bastard
+				trait = eunuch
+				is_incapable_trigger = yes
+			}
+			OR = {
+				is_female = no
+				AND = {
+					is_female = yes
+					ROOT = { has_law = true_cognatic_succession }
+				}
+			}
+		}
+	}
+	abort = {
+		is_incapable_trigger = yes
+	}
+	abort_effect = {
+	}
+	effect = {
+	custom_tooltip = {
+	text = opinion_boost_child
+		hidden_tooltip = {
+			any_child = {
+					limit = {
+						is_adult = yes 
+						NOR = {
+							trait = bastard
+							trait = eunuch
+							is_incapable_trigger = yes
+						}
+						OR = {
+							is_female = no
+							AND = {
+								is_female = yes
+								ROOT = { has_law = true_cognatic_succession }
+							}
+						}
+					}
+					opinion = {
+						who = ROOT
+						modifier = opinion_family_love
+						months = 240
+					}
+				}
+			}
+		}
+	}
+}

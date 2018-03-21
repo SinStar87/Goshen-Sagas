@@ -1,0 +1,1676 @@
+# Plot tags need to start with 'plot_'
+
+# Supported types:
+# character, spouse, rivals, friends, liege_titles, vassal_titles, realm_titles, realm_characters, realm_characters_plus, independent_rulers
+
+###############
+# PLOTS
+###############
+# Gain one of a vassal's landed titles
+plot_gain_vassal_title = {
+	type = vassal_titles
+	vassal_rank_plot = yes
+
+	potential = { # Plotter scope
+		is_playable = yes
+		prisoner = no
+		is_patrician = no
+		is_merchant_republic = no
+		age = 16
+		primary_title = {
+			higher_tier_than = COUNT
+			temporary = no
+		}
+		NOT = { is_incapable_trigger = yes }
+		OR = {
+			ai = no
+			war = no
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+
+	allow = {
+		hidden_tooltip = {
+			# No barony titles
+			higher_tier_than = BARON
+			is_primary_type_title = no
+			controls_religion = no
+			is_merchant_republic = no
+			mercenary = no
+			is_recent_grant = no
+			OR = { # Count title outside a Duke's duchy
+				AND = {
+					tier = COUNT
+					holder_scope = {
+						tier = DUKE
+						ROOT = {
+							NOT = { de_jure_liege = PREV }
+						}
+					}
+				}
+				AND = { # Duke with no count titles
+					tier = DUKE
+					holder_scope = {
+						NOT = {
+							any_demesne_title = {
+								tier = COUNT
+								location = {
+									duchy = {
+										title = ROOT
+									}
+								}
+							}
+						}
+						NOT = {
+							any_vassal = {
+								any_demesne_title = {
+									tier = COUNT
+									location = {
+										duchy = {
+											title = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				AND = { # Count titles in ruler's primary duchy
+					tier = COUNT
+					location = {
+						duchy = {
+							holder_scope = {
+								character = FROM
+							}
+							FROM = {
+								capital_scope = {
+									duchy = {
+										title = PREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+				AND = { # Count's secondary county
+					tier = COUNT
+					location = {
+						is_capital = no
+					}
+					holder_scope = {
+						lower_tier_than = DUKE
+						num_of_count_titles = 2
+					}
+				}
+			}
+			holder_scope = {
+				liege_before_war = {
+					character = FROM
+				}
+			}
+			holder_scope = {
+				NOT = { reverse_has_truce = FROM }
+			}
+			holder_scope = {
+				NOR = {
+					culture_group = unoccupied_group
+					religion_group = unoccupied_rel_group
+				}
+			}
+		}
+		FROM = { # Only if there is no non-aggression-pact with the vassal
+			NOT = {
+				has_non_aggression_pact_with = ROOT
+			}
+		}
+	}
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			FROM = {
+				ai = yes
+				war = yes
+			}
+		}
+		modifier = {
+			factor = 0
+			FROM = {
+				ai = yes
+				family = ROOT
+				opinion = { who = ROOT value = 0 }
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { FROM = { opinion = { who = ROOT value = -50 } } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { FROM = { opinion = { who = ROOT value = -75 } } }
+		}
+		modifier = {
+			factor = 0
+			FROM = { is_incapable_trigger = yes }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	success = {
+		holder = FROM
+	}
+	abort = {
+		OR = {
+			NOR = {
+				AND = { # Count title outside a Duke's duchy
+					tier = COUNT
+					holder_scope = {
+						tier = DUKE
+						ROOT = {
+							NOT = { de_jure_liege = PREV }
+						}
+					}
+				}
+				AND = { # Duke with no count titles
+					tier = DUKE
+					holder_scope = {
+						NOT = {
+							any_demesne_title = {
+								tier = COUNT
+								location = {
+									duchy = {
+										title = ROOT
+									}
+								}
+							}
+						}
+						NOT = {
+							any_vassal = {
+								any_demesne_title = {
+									tier = COUNT
+									location = {
+										duchy = {
+											title = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				AND = { # Count titles in ruler's primary duchy
+					tier = COUNT
+					location = {
+						duchy = {
+							holder_scope = {
+								character = FROM
+							}
+							FROM = {
+								capital_scope = {
+									duchy = {
+										title = PREVPREVPREV
+									}
+								}
+							}
+						}
+					}
+				}
+				AND = { # Count's secondary county
+					tier = COUNT
+					location = {
+						is_capital = no
+					}
+					holder_scope = {
+						lower_tier_than = DUKE
+						num_of_count_titles = 2
+					}
+				}
+			}
+			FROM = {
+				OR = {
+					is_playable = no
+					is_incapable_trigger = yes
+				}
+			}
+			holder_scope = {
+				liege_before_war = {
+					NOT = { character = FROM }
+				}
+			}
+		}
+	}
+	abort_effect = {
+		FROM = { # Clear flags
+			hidden_tooltip = {
+				clr_character_flag = event7040
+				clr_character_flag = plot_gain_vassal_title_decision_taken
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+			hidden_tooltip = { # Clear flags
+				clr_character_flag = event7040
+				clr_character_flag = plot_gain_vassal_title_decision_taken
+			}
+		}
+	}
+}
+
+# Get a character killed
+plot_kill_character = {
+	type = realm_characters_plus # All characters in the same realm, plus rivals and relatives of self, parents, children and spouse
+	intrigue_plot = yes
+	murder_plot = yes
+
+	potential = { # Plotter scope
+		prisoner = no
+		age = 16
+		NOT = { is_incapable_trigger = yes }
+		NAND = {
+			ai = yes
+			trait = introvert
+		}
+		NAND = {
+			ai = yes
+			trait = overeager
+		}
+		hidden_tooltip = {
+			OR = {
+				ai = no # Human
+				any_pretender_title = { # Pretender to a title
+					always = yes
+				}
+				any_heir_title = { # Heir to a title
+					always = yes
+				}
+				any_child = { # Character's child is heir or pretender to a title that I don't hold
+					OR = {
+						any_pretender_title = {
+							NOT = { holder = ROOT }
+							NOT = { current_heir = { character = ROOT } }
+						}
+						any_heir_title = {
+							NOT = { holder = ROOT }
+						}
+					}
+				}
+				spouse = { # Spouse is pretender to a title
+					any_pretender_title = {
+						NOT = { current_heir = { character = ROOT } }
+					}
+					any_heir_title = {
+						NOT = { holder = ROOT }
+					}
+				}
+				spouse = { # A lover of spouse...
+					has_lover = yes
+				}
+				# Is nuts...
+				#trait = lunatic
+				#trait = possessed
+			}
+			NOR = {
+				culture_group = unoccupied_group
+				religion_group = unoccupied_rel_group
+			}
+		}
+	}
+	player_allow = { # Target allow trigger for when players target a specific character in the GUI
+		OR = { # Not my own children unless...
+			AND = {
+				ai = no
+				OR = {
+					trait = erratic
+					trait = irrational
+				}
+				NOT = {
+					opinion = { who = FROM value = 0 }
+				}
+			}
+			NOT = { is_child_of = FROM }
+		}
+		is_within_diplo_range = FROM
+		NOT = { has_blood_oath_with = FROM }
+	}
+	target_potential = {
+		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
+	}
+	allow = { # Target character scope
+		OR = { # Not my own children unless...
+			AND = {
+				ai = no
+				OR = {
+					trait = erratic
+					trait = irrational
+				}
+				NOT = {
+					opinion = { who = FROM value = 0 }
+				}
+			}
+			NOT = { is_child_of = FROM }
+		}
+		#OR = {
+		#	NOT = { character = FROM }  # Not against myself! (unself I am bonkers)
+		#	trait = irrational
+		#}
+		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
+		NOT = { has_blood_oath_with = FROM }
+		is_within_diplo_range = FROM
+		NOT = { # Don't kill my lovers, or their children
+			FROM = {
+				any_lover = {
+					OR = {
+						character = ROOT
+						is_father = ROOT
+						is_mother = ROOT
+					}
+				}
+			}
+		}
+		NOT = { is_friend = FROM }
+		FROM = {
+			OR = {
+				AND = { # Get rid of the current heir if I'm a pretender
+					any_pretender_title = {
+						current_heir = { character = ROOT }
+					}
+					OR = {
+						ai = no
+						trait = erratic
+						trait = irrational
+						NOT = { opinion = { who = ROOT value = 0 } }
+					}
+				}
+				AND = { # Kill a ruler if I'm the heir
+					any_heir_title = {
+						holder = ROOT
+					}
+					OR = {
+						ai = no
+						trait = erratic
+						trait = irrational
+						NOT = { opinion = { who = ROOT value = 0 } }
+					}
+				}
+				AND = { # Gets rid of obstacles in the way of a child's succession
+					any_child = {
+						OR = {
+							any_pretender_title = {
+								current_heir = { character = ROOT }
+							}
+							any_heir_title = {
+								holder = ROOT
+							}
+						}
+					}
+					NOT = { is_close_relative = ROOT }
+					OR = {
+						ai = no
+						trait = erratic
+						trait = irrational
+						NOT = { opinion = { who = ROOT value = 0 } }
+					}
+				}
+				AND = { # Get rid of the current heir to a title the character's spouse is a pretender to
+					spouse = {	
+						any_pretender_title = {
+							current_heir = { character = ROOT }
+						}
+					}
+					NOT = { is_close_relative = ROOT }
+					OR = {
+						ai = no
+						trait = erratic
+						trait = irrational
+						NOT = { opinion = { who = ROOT value = 0 } }
+					}
+				}
+				AND = { # Get rid of a ruler the spouse is heir to
+					spouse = {
+						any_heir_title = {
+							holder = ROOT
+						}
+					}
+					NOT = { is_close_relative = ROOT }
+					OR = {
+						ai = no
+						trait = erratic
+						trait = irrational
+						AND = {
+							is_female = no
+							NOT = { opinion = { who = ROOT value = 0 } }
+						}
+						AND = {
+							is_female = yes
+							NOT = { opinion = { who = ROOT value = -33 } }
+						}
+					}
+				}
+				spouse = { # A lover of spouse...
+					has_lover = yes
+					any_lover = {
+						character = ROOT
+					}
+					OR = {
+						ai = no
+						NOT = { opinion = { who = ROOT value = 0 } }
+					}
+				}
+				#AND = { # Go nuts...
+				#	same_liege = ROOT
+				#	OR = {
+				#		trait = lunatic
+				#		trait = possessed
+				#	}
+				#}
+				any_rival = { # Rivals
+					character = ROOT
+				}
+			}
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			their_opinion = { who = FROM value = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { their_opinion = { who = FROM value = -25 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { their_opinion = { who = FROM value = -50 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { their_opinion = { who = FROM value = -75 } }
+		}
+		modifier = {
+			# Subtle balance against nepotism: Kill off members of powerful dynasties
+			factor = 2
+			top_liege = {
+				higher_tier_than = COUNT
+				dynasty = ROOT
+				dynasty_realm_power = 0.25
+			}
+		}
+		modifier = {
+			# Subtle balance against nepotism: Kill off members of powerful dynasties
+			factor = 2
+			top_liege = {
+				higher_tier_than = COUNT
+				dynasty = ROOT
+				dynasty_realm_power = 0.4
+			}
+		}
+		modifier = {
+			# Subtle balance against nepotism: Kill off members of powerful dynasties
+			factor = 2
+			top_liege = {
+				higher_tier_than = COUNT
+				dynasty = ROOT
+				dynasty_realm_power = 0.6
+			}
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	success = {
+		is_alive = no
+		hidden_tooltip = {
+			FROM = { has_character_flag = murder_in_motion }
+		}
+	}
+	abort = {
+		is_alive = no
+	}
+	abort_effect = {
+		FROM = { clr_character_flag = murder_in_motion }
+	}
+	effect = {
+		FROM = {
+			hidden_tooltip = { # Clear flags
+				clr_character_flag = murder_in_motion
+			}
+		}
+	}
+}
+
+# Get a spouse killed
+plot_kill_spouse = {
+	type = spouse
+	intrigue_plot = yes
+	murder_plot = yes
+
+	potential = { # Plotter scope
+		prisoner = no
+		age = 16
+		is_married = yes
+		NOT = { is_incapable_trigger = yes }
+		NAND = {
+			ai = yes
+			trait = introvert
+		}
+		NAND = {
+			ai = yes
+			trait = overeager
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+
+	player_allow = { # Target allow trigger for when players target a specific character in the GUI
+		always = yes
+	}
+
+	allow = { # Target character scope
+		NOT = { is_lover = FROM }
+		OR = {
+			FROM = { ai = no } # Human
+			AND = { # Male plotter without sons wanting to kill an old/barren wife
+				age = 40
+				FROM = {
+					is_female = no
+					OR = {
+						is_ruler = yes
+						is_primary_heir = yes
+					}
+					NOT = { # No sons
+						any_child = {
+							is_alive = yes
+							is_female = no
+						}
+					}
+					NOT = { opinion = { who = ROOT value = 50 } }
+				}
+			}
+			FROM = { # Female plotter disliking her husband but loving her child - the legal heir
+				is_female = yes
+				num_of_children = 1
+				any_child = {
+					is_alive = yes
+					any_heir_title = {
+						holder = ROOT
+					}
+					NOT = { is_incapable_trigger = yes }
+					their_opinion = { who = FROM value = 75 }
+				}
+			}
+			AND = { # Spouse has a lover...
+				has_lover = yes
+				any_lover = {
+					NOT = { character = FROM }
+				}
+			}
+			FROM = { # Insane plotter...
+				OR = {
+					trait = erratic
+					trait = irrational
+				}
+			}
+		}
+		OR = {
+			FROM = { ai = no }
+			FROM = {
+				NOT = { opinion = { who = ROOT value = -25 } }
+			}
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	chance = {
+		factor = 10
+		modifier = {
+			factor = 2
+			age = 40
+			FROM = {
+				is_female = no
+				NOT = {
+					any_child = {
+						is_alive = yes
+						is_female = no
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			their_opinion = { who = FROM value = 25 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { their_opinion = { who = FROM value = -25 } }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { their_opinion = { who = FROM value = -50 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { their_opinion = { who = FROM value = -75 } }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = conspirator }
+		}
+		modifier = {
+			factor = 1.25
+			FROM = { trait = schemer }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	success = {
+		is_alive = no
+		hidden_tooltip = {
+			FROM = { has_character_flag = murder_in_motion }
+		}
+	}
+	abort = {
+		OR = {
+			is_alive = no
+			is_incapable_trigger = yes
+		}
+	}
+	abort_effect = {
+		FROM = { clr_character_flag = murder_in_motion }
+	}
+	effect = {
+		FROM = {
+			clr_character_flag = murder_in_motion
+		}
+	}
+}
+
+#################################
+### Plots to Fabricate Claims ###
+#################################
+
+# Vassal ruler plots to gain claim on liege's title
+plot_gain_liege_title = {
+	type = liege_titles
+	vassal_intrigue_plot = yes
+
+	potential = { # Plotter scope
+		is_playable = yes
+		prisoner = no
+		age = 16
+		is_landed = yes
+		independent = no
+		mercenary = no
+		NOT = { is_incapable_trigger = yes }
+		liege = {
+			NOT = { is_father = ROOT }
+			NOT = { is_mother = ROOT }
+		}
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	target_potential = {
+		FROM = {
+			OR = {
+				dejure_liege_title = {
+					title = ROOT
+				}
+				primary_title = {
+					de_jure_vassal_or_below = ROOT
+				}
+			}
+		}
+	}
+	allow = { # Target scope
+		is_vice_royalty = no
+		NOT = { claimed_by = FROM }
+		current_heir = {
+			NOT = { character = FROM }
+		}
+		holder_scope = {
+			NOR = {
+				culture_group = unoccupied_group
+				religion_group = unoccupied_rel_group
+			}
+		}
+	}
+	chance = {
+		factor = 1 # Must always be an integer
+		modifier = {
+			factor = 0
+			FROM = {
+				ai = yes
+				war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				holder_scope = {
+					reverse_opinion = { who = FROM value = -50 }
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { 
+				holder_scope = {
+					reverse_opinion = { who = FROM value = -75 }
+				}
+			}
+		}
+		modifier = {
+			# Subtle balance against nepotism
+			factor = 2
+			holder_scope = {
+				NOT = { dynasty = FROM }
+				top_liege = {
+					higher_tier_than = COUNT
+					dynasty = PREV
+					dynasty_realm_power = 0.25
+				}
+			}
+		}
+		modifier = {
+			# Subtle balance against nepotism
+			factor = 2
+			holder_scope = {
+				NOT = { dynasty = FROM }
+				top_liege = {
+					higher_tier_than = COUNT
+					dynasty = PREV
+					dynasty_realm_power = 0.4
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	success = {
+		claimed_by = FROM
+	}
+	abort = {
+		OR = {
+			holder_scope = {
+				character = FROM
+			}
+			has_holder = no
+		}
+		is_playable = no
+	}
+	abort_effect = {
+		FROM = {
+			# Clear flags
+			hidden_tooltip = {
+				clr_character_flag = plot_gain_liege_title_decision_taken
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+			# Clear flags
+			hidden_tooltip = {
+				clr_character_flag = plot_gain_liege_title_decision_taken
+			}
+		}
+	}
+}
+
+# Vassal ruler plots to gain claim on a fellow vassal's title
+plot_gain_fellow_vassal_title = {
+	type = realm_titles
+	vassal_intrigue_plot = yes
+
+	potential = { # Plotter scope
+		is_playable = yes
+		prisoner = no
+		age = 16
+		is_landed = yes
+		independent = no
+		NOT = { is_incapable_trigger = yes }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	target_potential = { # Target scope
+		FROM = {
+			OR = {
+				any_demesne_title = {
+					dejure_liege_title = {
+						title = ROOT
+					}
+				}
+				primary_title = {
+					de_jure_vassal_or_below = ROOT
+				}
+			}
+		}
+		holder_scope = {
+			is_ruler = yes
+			independent = no
+			NOT = { is_liege_of = FROM }
+			same_liege = FROM
+			is_landed = yes
+			primary_title = { higher_tier_than = BARON }
+			NOT = { character = FROM }
+		}
+		holder_scope = {
+			NOR = {
+				culture_group = unoccupied_group
+				religion_group = unoccupied_rel_group
+			}
+		}
+	}
+	allow = { # Target scope
+		is_vice_royalty = no
+		NOT = { claimed_by = FROM }
+		current_heir = {
+			NOT = { character = FROM }
+		}
+	}
+	
+	chance = {
+		factor = 1 # Must be an integer
+		modifier = {
+			factor = 0
+			FROM = {
+				ai = yes
+				war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				ROOT = {
+					holder_scope = {
+						reverse_opinion = { who = FROM value = -50 }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { 
+				ROOT = {
+					holder_scope = {
+						reverse_opinion = { who = FROM value = -75 }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	success = { 
+		claimed_by = FROM
+	}
+	abort = {
+		OR = {
+			holder_scope = {
+				character = FROM
+			}
+			has_holder = no
+		}
+	}
+	abort_effect = {
+		FROM = {
+			# Clear flags
+			hidden_tooltip = {
+				clr_character_flag = plot_gain_fellow_vassal_title_decision_taken
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			if = {
+				limit = {
+					NOT = { intrigue = 10 }
+				}
+				change_intrigue = 1
+			}
+			any_plot_backer = {
+				reverse_opinion = {
+					modifier = opinion_grateful
+					who = FROM
+					years = 5
+				}
+			}
+			# Clear flags
+			hidden_tooltip = {
+				clr_character_flag = plot_gain_fellow_vassal_title_decision_taken
+			}
+		}
+	}
+}
+
+# Seize Trade Post (Republics only)
+plot_seize_trade_post = {
+	type = rep_trade_posts
+	intrigue_plot = yes
+
+	potential = { # Plotter scope
+		has_dlc = "The Republic"
+		is_patrician = yes
+		is_merchant_republic = no
+		prisoner = no
+		age = 16
+		NOT = { is_incapable_trigger = yes }
+		NOT = { trait = fool }
+		NOR = {
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
+	}
+	allow = { # Target scope
+		has_trade_post = yes
+		trade_post_owner = {
+			num_of_trade_post_diff = {
+				character = FROM 
+				value = 1
+			}
+			OR = {
+				same_liege = FROM
+				any_vassal = { character = FROM }
+			}
+			NOT = { character = FROM }
+			NOT = { 
+				has_opinion_modifier = { who = FROM modifier = opinion_seized_tp }
+			}
+			FROM = { # Only if there is no non-aggression-pact with the trade post owner
+				NOT = {
+					has_non_aggression_pact_with = PREV
+				}			
+			}
+		}
+		any_neighbor_province = {
+			has_trade_post = yes
+			trade_post_owner = { 
+				character = FROM
+			}
+		}
+		holder_scope = {
+			NOR = {
+				culture_group = unoccupied_group
+				religion_group = unoccupied_rel_group
+			}
+		}
+	}
+	chance = {
+		factor = 1 # Must be an integer
+		modifier = {
+			factor = 0.0
+			FROM = {
+				ai = yes
+				war = yes
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				ROOT = {
+					holder_scope = {
+						NOT = { character = FROM }
+						reverse_opinion = { who = FROM value = -50 }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { 
+				ROOT = {
+					holder_scope = {
+						NOT = { character = FROM }
+						reverse_opinion = { who = FROM value = -75 }
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			ROOT = { 
+				holder_scope = {
+					num_of_trade_post_diff = {
+						character = FROM
+						value = 10
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = susceptible }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = receptive }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = impartial }
+		}
+		modifier = {
+			factor = 1.2
+			FROM = { trait = biased }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = prejudiced }
+		}
+		modifier = {
+			factor = 3
+			FROM = { trait = controlling }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = calculating }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = willful }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = erratic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = irrational }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = extrovert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = friendly }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = cordial }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = cold }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = introvert }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = overeager }
+		}
+		modifier = {
+			factor = 1.1
+			FROM = { trait = sympathetic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = responsive }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = unwilling }
+		}
+		modifier = {
+			factor = 0.25
+			FROM = { trait = irreconcilable }
+		}
+		modifier = {
+			factor = 0.01
+			FROM = { trait = carefree }
+		}
+		modifier = {
+			factor = 2
+			FROM = { trait = idealist }
+		}
+		modifier = {
+			factor = 1.5
+			FROM = { trait = pragmatic }
+		}
+		modifier = {
+			factor = 0.75
+			FROM = { trait = cynic }
+		}
+		modifier = {
+			factor = 0.5
+			FROM = { trait = pessimist }
+		}
+	}
+	
+	success = {
+		trade_post_owner = { 
+			character = FROM
+		}
+	}
+	abort = {
+	}
+	abort_effect = {
+		FROM = {
+			clr_character_flag = plot_seize_trade_post_decision_taken
+		}
+	}
+	effect = {
+		seize_trade_post = FROM
+	}
+}

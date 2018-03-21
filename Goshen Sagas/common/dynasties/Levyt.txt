@@ -1,0 +1,143 @@
+####################
+# Levyt Dynasties 1201 - 1300
+####################
+#Historical
+1201 = {
+	name = Otanij
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1202 = {
+	name = Halum
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1203 = {
+	name = Raiste
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1204 = {
+	name = Zeket
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1205 = {
+	name = Gisch
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+1206 = {
+	name = Sheak
+	culture = levyt
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+#Random
+1207 = {
+	name = Kulyt
+	culture = levyt
+}
+1208 = {
+	name = Omeyt
+	culture = levyt
+}
+1209 = {
+	name = Omenij
+	culture = levyt
+}
+1210 = {
+	name = Omatyt
+	culture = levyt
+}
+1211 = {
+	name = Lavtij
+	culture = levyt
+}
+1212 = {
+	name = Dyvij
+	culture = levyt
+}
+1213 = {
+	name = Onatyj
+	culture = levyt
+}
+1214 = {
+	name = Feris
+	culture = levyt
+}
+1215 = {
+	name = Felis
+	culture = levyt
+}

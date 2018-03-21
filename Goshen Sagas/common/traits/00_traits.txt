@@ -1,0 +1,1672 @@
+###################################################################
+#Goshen Traits
+###################################################################
+
+###########
+#Educations
+###########
+
+
+#Dipliomacy
+agent = {
+	attribute = diplomacy
+	education = yes
+
+	diplomacy = 1
+	ai_rationality = -10
+}
+mediator = {
+	attribute = diplomacy
+	education = yes
+
+	diplomacy = 3
+	intrigue = 1
+}
+minister = {
+	attribute = diplomacy
+	education = yes
+
+	diplomacy = 4
+	intrigue = 2
+	ai_rationality = 10
+}
+emissary = {
+	attribute = diplomacy
+	education = yes
+
+	diplomacy = 6
+	intrigue = 2
+	leadership_traits = 1
+
+	combat_rating = 2
+	ai_rationality = 20
+}
+
+#Martial
+soldier = {
+	attribute = martial
+	education = yes
+
+	martial = 2
+	ai_rationality = -10
+}
+tactician = {
+	attribute = martial
+	education = yes
+
+	martial = 4
+
+	combat_rating = 2
+	leadership_traits = 1
+}
+strategist = {
+	attribute = martial
+	education = yes
+
+	martial = 6
+	leadership_traits = 2
+
+	combat_rating = 2
+	ai_rationality = 10
+}
+mastermind = {
+	attribute = martial
+	education = yes
+
+	martial = 8
+	leadership_traits = 3
+
+	combat_rating = 4
+	ai_rationality = 20
+}
+
+#Stewardship
+clerk = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 2
+	ai_rationality = -10
+}
+entrepreneur = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 4
+}
+financier = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 6
+	ai_rationality = 10
+}
+mogul = {
+	attribute = stewardship
+	education = yes
+
+	stewardship = 8
+	leadership_traits = 1
+
+	combat_rating = 2
+	ai_rationality = 20
+}
+
+#Intrigue
+rascal = {
+	attribute = intrigue
+	education = yes
+
+	intrigue = 1
+	ai_rationality = -10
+}
+rogue = {
+	attribute = intrigue
+	education = yes
+
+	diplomacy = 1
+	intrigue = 3
+}
+schemer = {
+	attribute = intrigue
+	education = yes
+
+	diplomacy = 2
+	intrigue = 4
+
+	combat_rating = 2
+	ai_rationality = 10
+}
+conspirator = {
+	attribute = intrigue
+	education = yes
+
+	diplomacy = 2
+	intrigue = 6
+	leadership_traits = 1
+
+	combat_rating = 4
+	ai_rationality = 20
+}
+
+#Learning
+thinker = {
+	attribute = learning
+	education = yes
+
+	learning = 2
+	ai_rationality = -10
+}
+intellectual = {
+	attribute = learning
+	education = yes
+
+	learning = 4
+	ai_rationality = 10
+}
+scholar = {
+	attribute = learning
+	education = yes
+
+	learning = 6
+	diplomacy = 1
+	stewardship = 1
+	leadership_traits = 1
+
+	combat_rating = 2
+	ai_rationality = 20
+}
+sage = {
+	attribute = learning
+	education = yes
+
+	learning = 8
+	diplomacy = 2
+	stewardship = 2
+	leadership_traits = 1
+
+	combat_rating = 4
+	ai_rationality = 50
+}
+
+#Combat Ability
+noncombatant = {
+	opposites = {
+		scrapper
+		fighter
+		champion
+		legend
+	}
+}
+scrapper = {
+	opposites = {
+		noncombatant
+		fighter
+		champion
+		legend
+	}
+	combat_rating = 2
+}
+fighter = {
+	opposites = {
+		noncombatant
+		scrapper
+		champion
+		legend
+	}
+	combat_rating = 4
+}
+champion = {
+	opposites = {
+		noncombatant
+		scrapper
+		fighter
+		legend
+	}
+	combat_rating = 6
+}
+legend = {
+	opposites = {
+		noncombatant
+		scrapper
+		fighter
+		champion
+	}
+	combat_rating = 8
+}
+
+###################
+#Personality Traits
+###################
+
+#Openness
+susceptible = {
+	opposites = {
+		receptive
+		impartial
+		biased
+		prejudiced
+	}
+	personality = yes
+	ai_rationality = -20
+}
+receptive = {
+	opposites = {
+		susceptible
+		prejudiced
+		impartial
+		biased
+	}
+	personality = yes
+	ai_rationality = -10
+}
+impartial = {
+	opposites = {
+		susceptible
+		receptive
+		biased
+		prejudiced
+	}
+	personality = yes
+	ai_rationality = 20
+}
+biased = {
+	opposites = {
+		susceptible
+		receptive
+		impartial
+		prejudiced
+	}
+	personality = yes
+	ai_rationality = -10
+}
+prejudiced = {
+	opposites = {
+		susceptible
+		receptive
+		impartial
+		biased
+	}
+	personality = yes
+	ai_rationality = -20
+}
+
+#Planning
+controlling = {
+	opposites = {
+		calculating
+		willful
+		erratic
+		irrational
+	}
+	personality = yes
+	ai_rationality = 20
+}
+calculating = {
+	opposites = {
+		controlling
+		willful
+		erratic
+		irrational
+	}
+	personality = yes
+	ai_rationality = 10
+}
+willful = {
+	opposites = {
+		controlling
+		calculating
+		erratic
+		irrational
+	}
+	personality = yes
+	ai_rationality = -10
+}
+erratic = {
+	opposites = {
+		controlling
+		calculating
+		willful
+		irrational
+	}
+	personality = yes
+	ai_rationality = -20
+}
+irrational = {
+	opposites = {
+		controlling
+		calculating
+		willful
+		erratic
+	}
+	personality = yes
+	ai_rationality = -50
+}
+
+#Sociable
+extrovert = {
+	opposites = {
+		friendly
+		cordial
+		cold
+		introvert
+	}
+	personality = yes
+	ai_rationality = -20
+}
+friendly = {
+	opposites = {
+		extrovert
+		cordial
+		cold
+		introvert
+	}
+	personality = yes
+	ai_rationality = -10
+}
+cordial = {
+	opposites = {
+		extrovert
+		friendly
+		cold
+		introvert
+	}
+	personality = yes
+}
+cold = {
+	opposites = {
+		extrovert
+		friendly
+		cordial
+		introvert
+	}
+	personality = yes
+	ai_rationality = -10
+}
+introvert = {
+	opposites = {
+		extrovert
+		friendly
+		cordial
+		cold
+	}
+	personality = yes
+	ai_rationality = -20
+}
+
+#Agreeable
+overeager = {
+	opposites = {
+		sympathetic
+		responsive
+		unwilling
+		irreconcilable
+	}
+	personality = yes
+	ai_rationality = -20
+}
+sympathetic = {
+	opposites = {
+		overeager
+		responsive
+		unwilling
+		irreconcilable
+	}
+	personality = yes
+	ai_rationality = -10
+}
+responsive = {
+	opposites = {
+		overeager
+		sympathetic
+		unwilling
+		irreconcilable
+	}
+	personality = yes
+	ai_rationality = 10
+}
+unwilling = {
+	opposites = {
+		overeager
+		sympathetic
+		responsive
+		irreconcilable
+	}
+	personality = yes
+	ai_rationality = -10
+}
+irreconcilable = {
+	opposites = {
+		overeager
+		sympathetic
+		responsive
+		unwilling
+	}
+	personality = yes
+	ai_rationality = -20
+}
+
+#Worry
+carefree = {
+	opposites = {
+		idealist
+		pragmatic
+		cynic
+		pessimist
+	}
+	personality = yes
+	ai_rationality = -50
+}
+idealist = {
+	opposites = {
+		carefree
+		pragmatic
+		cynic
+		pessimist
+	}
+	personality = yes
+	ai_rationality = -10
+}
+pragmatic = {
+	opposites = {
+		carefree
+		idealist
+		cynic
+		pessimist
+	}
+	personality = yes
+	ai_rationality = 20
+}
+cynic = {
+	opposites = {
+		carefree
+		idealist
+		pragmatic
+		pessimist
+	}
+	personality = yes
+	ai_rationality = -10
+}
+pessimist = {
+	opposites = {
+		carefree
+		idealist
+		pragmatic
+		cynic
+	}
+	personality = yes
+	ai_rationality = -50
+}
+
+###################
+#Illness Traits
+###################
+
+#Illness
+minor_illness = {
+	opposites = {
+		moderate_illness
+		severe_illness
+		incapacitating_illness
+		deadly_illness
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -2
+}
+moderate_illness = {
+	opposites = {
+		minor_illness
+		severe_illness
+		incapacitating_illness
+		deadly_illness
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -4
+}
+severe_illness = {
+	opposites = {
+		minor_illness
+		moderate_illness
+		incapacitating_illness
+		deadly_illness
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -6
+}
+incapacitating_illness = {
+	opposites = {
+		minor_illness
+		moderate_illness
+		severe_illness
+		deadly_illness
+	}
+	customizer = no
+	random = no
+
+	incapacitating = yes
+
+	combat_rating = -100
+}
+deadly_illness = {
+	opposites = {
+		minor_illness
+		moderate_illness
+		severe_illness
+		incapacitating_illness
+	}
+	customizer = no
+	random = no
+
+	incapacitating = yes
+
+	combat_rating = -100
+}
+
+#Injury
+minor_injury = {
+	opposites = {
+		moderate_injury
+		severe_injury
+		incapacitating_injury
+		deadly_injury
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -2
+}
+moderate_injury = {
+	opposites = {
+		minor_injury
+		severe_injury
+		incapacitating_injury
+		deadly_injury
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -4
+}
+severe_injury = {
+	opposites = {
+		minor_injury
+		moderate_injury
+		incapacitating_injury
+		deadly_injury
+	}
+	customizer = no
+	random = no
+
+	combat_rating = -6
+}
+incapacitating_injury = {
+	opposites = {
+		minor_injury
+		moderate_injury
+		severe_injury
+		deadly_injury
+	}
+	customizer = no
+	random = no
+
+	incapacitating = yes
+
+	combat_rating = -100
+}
+deadly_injury = {
+	opposites = {
+		minor_injury
+		moderate_injury
+		severe_injury
+		incapacitating_injury
+	}
+	customizer = no
+	random = no
+
+	incapacitating = yes
+
+	combat_rating = -100
+}
+
+#Pregnant
+pregnant = {
+	customizer = no
+	random = no
+	combat_rating = -2
+	
+	spouse_opinion = 15
+}
+blinded = {
+	customizer = no
+	random = no
+	blinding = yes
+	martial = -6
+	stewardship = -2
+	intrigue = -2
+
+	combat_rating = -10
+	sex_appeal_opinion = -10
+}
+eunuch = {
+	customizer = no
+	random = no
+	cannot_marry = yes
+	cannot_inherit = yes
+
+	fertility = -50.0
+	sex_appeal_opinion = -20
+}
+sickly = {
+	customizer = no
+	random = no
+	is_health = yes
+	is_illness = yes
+
+	potential = {
+		NOT = { age = 6 }
+	}
+
+	health = -2.5
+}
+
+###################
+#Congenital Traits
+###################
+
+#Others
+twin = {
+	customizer = no
+	random = no
+
+	twin_opinion = 15
+}
+child_of_consort = {
+	customizer = no
+	diplomacy = -1
+}
+bastard = {
+	opposites =  {
+		legit_bastard
+	}
+	customizer = no
+	random = no
+
+	diplomacy = -1
+
+	same_opinion = 5
+}
+legit_bastard = {
+	opposites =  {
+		bastard
+	}
+
+	diplomacy = -1
+}
+born_in_the_purple = {
+	customizer = no
+	random = no
+
+	vassal_opinion = 5
+	monthly_character_prestige = 0.5
+}
+
+#Strength
+strong = {
+	opposites = {
+		halenhearty
+		weak
+		feeble
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 10
+	monthly_character_prestige = 0.5
+	health = 1.0
+
+	combat_rating = 6
+}
+halenhearty = {
+	opposites = {
+		strong
+		weak
+		feeble
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 5
+	health = 0.5
+
+	combat_rating = 3
+}
+weak = {
+	opposites = {
+		strong
+		halenhearty
+		feeble
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -5
+	health = -0.5
+
+	combat_rating = -3
+}
+feeble = {
+	opposites = {
+		strong
+		halenhearty
+		weak
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -10
+	monthly_character_prestige = -0.5
+	health = -1.0
+
+	combat_rating = -6
+}
+
+#Height
+huargen_trait = {
+	customizer = no
+	random = no
+
+	potential = {
+		culture = huargens
+	}
+
+	same_opinion = 5
+	health = 3.0
+
+	combat_rating = 8
+}
+colossal = {
+	opposites = {
+		tall
+		small
+		dwarf
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 10
+	monthly_character_prestige = 0.5
+	health = 1.0
+
+	combat_rating = 6
+}
+tall = {
+	opposites = {
+		colossal
+		small
+		dwarf
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 5
+	health = 0.5
+
+	combat_rating = 3
+}
+small = {
+	opposites = {
+		colossal
+		tall
+		dwarf
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -5
+	health = -0.5
+
+	combat_rating = -3
+}
+dwarf = {
+	opposites = {
+		colossal
+		tall
+		small
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -10
+	monthly_character_prestige = -0.5
+	health = -1.0
+
+	combat_rating = -6
+}
+yava_trait = {
+	customizer = no
+	random = no
+
+	potential = {
+		culture = yava
+	}
+
+	same_opinion = 5
+
+	combat_rating = 4
+}
+
+#Looks
+gorgeous = {
+	opposites = {
+		fair
+		lackluster
+		ugly
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 10
+	monthly_character_prestige = 1.0
+	diplomacy = 3
+	intrigue = 3
+}
+fair = {
+	opposites = {
+		gorgeous
+		lackluster
+		ugly
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 5
+	monthly_character_prestige = 0.5
+	diplomacy = 1
+	intrigue = 1
+}
+lackluster = {
+	opposites = {
+		gorgeous
+		fair
+		ugly
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -5
+	monthly_character_prestige = -0.5
+	diplomacy = -1
+	intrigue = -1
+}
+ugly = {
+	opposites = {
+		gorgeous
+		fair
+		lackluster
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -10
+	monthly_character_prestige = -1.0
+	diplomacy = -3
+	intrigue = -3
+}
+
+#Intelligence
+prodigy = {
+	opposites = {
+		clever
+		inept
+		fool
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 10
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 3
+	martial = 3
+	learning = 3
+
+	combat_rating = 4
+	ai_rationality = 60
+}
+clever = {
+	opposites = {
+		prodigy
+		inept
+		fool
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = 5
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	martial = 1
+	learning = 1
+
+	combat_rating = 2
+	ai_rationality = 30
+}
+inept = {
+	opposites = {
+		prodigy
+		clever
+		fool
+	}
+	birth = 100
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -5
+	diplomacy = -1
+	intrigue = -1
+	stewardship = -1
+	martial = -1
+	learning = -1
+
+	combat_rating = -2
+	ai_rationality = -30
+}
+fool = {
+	opposites = {
+		prodigy
+		clever
+		inept
+	}
+	birth = 25
+	inherit_chance = 25
+	both_parent_has_trait_inherit_chance = 75
+
+	vassal_opinion = -10
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+
+	combat_rating = -4
+	ai_rationality = -60
+}
+
+#Special Characteristics
+kalan_trait = {
+
+	potential = {
+		culture = kalan
+	}
+
+	vassal_opinion = 10
+	same_opinion = 15
+	diplomacy = 3
+	fertility = 0.4
+}
+hunute_trait = {
+	customizer = no
+	random = no
+
+	potential = {
+		culture = hunute
+	}
+
+	blinding = yes
+	same_opinion = 15
+	diplomacy = -3
+	martial = 2
+
+	combat_rating = 2
+}
+
+#################
+#Commander Traits
+#################
+
+good_attacker = {
+	leader = yes
+	
+	command_modifier = {
+		morale_offence = 0.4
+	}
+}
+good_defender = {
+	leader = yes
+	
+	command_modifier = {
+		morale_defence = 0.2
+		defence = 0.1
+	}
+}
+good_sieger = {
+	leader = yes
+	
+	command_modifier = {
+		siege = 0.4
+	}
+}
+
+#################
+#Lifestyle Traits
+#################
+
+living_life = {
+	lifestyle = yes
+	ruler_designer_cost = 0
+
+	sex_appeal_opinion = 10
+}
+
+#################
+#Childhood Traits
+#################
+
+childhood_trait = {
+	childhood = yes
+	
+	learning = 1
+}
+
+#################
+#Sword Traits
+#################
+
+#Gawei Swords
+gawei_sword_1 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_2 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_3 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_4 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_5 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_6 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_7 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_8 = {
+	customizer = no
+	random = no
+	cached = yes
+	
+	martial = 1
+	combat_rating = 3
+}
+gawei_sword_9 = {
+	customizer = no
+	random = no
+	cached = yes
+
+	martial = 1
+	combat_rating = 3
+}
+
+#Swordsmith
+swordsmith = {
+	potential = {
+		OR = {
+			trait = clerk
+			trait = entrepreneur
+			trait = financier
+			trait = mogul
+		}
+		OR = {
+			AND = {
+				real_tier = BARON
+				is_republic = yes
+			}
+			culture = grey_tribes
+			religion = grey_tribes_rel
+			is_ruler = no
+		}
+	}
+	customizer = no
+	cached = yes
+
+	stewardship = 1
+	monthly_character_prestige = 0.5
+}
+
+#Basic Swords
+sword_generic = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	combat_rating = 2
+}
+sword_gilded = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 2
+}
+sword_grandeur = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 2
+}
+
+#Special Bone Metal Swords
+sword_crimson_bolt = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_darkness = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_ekers_light = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_flight = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_luxs_setting = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_might_abimelech = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_roses_thorn = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_silver_wisp = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+sword_vastness = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+
+#Basic Armors
+armor_leather = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	combat_rating = 2
+}
+armor_blackleather = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 2
+}
+armor_chain = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 2
+}
+
+#Special Bone Metal Armors
+armor_blackplate = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_bronzemail = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_goldplate = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_greyplate = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_knight = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_knightplate = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+armor_plate = {
+	customizer = no
+	random = no
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.4
+		morale_defence = 0.2
+	}
+	monthly_character_prestige = 0.5
+	combat_rating = 3
+}
+
+#Pet Traits
+pet_beon = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+	monthly_character_prestige = 0.5
+}
+pet_beonpup = {
+	cached = yes
+}
+pet_kunun = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+	monthly_character_prestige = 0.5
+}
+pet_kununpup = {
+	cached = yes
+}
+pet_pleen = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+	}
+	monthly_character_prestige = 0.5
+}
+pet_pleencub = {
+	cached = yes
+}
+pet_tochon = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.1
+		morale_defence = 0.1
+	}
+	monthly_character_prestige = 0.5
+}
+pet_tochonkitten = {
+	cached = yes
+}
+pet_tusken = {
+	cached = yes
+
+	command_modifier = {
+		morale_offence = 0.05
+		morale_defence = 0.05
+	}
+	monthly_character_prestige = 0.5
+}
+pet_tusklet = {
+	cached = yes
+}
+
+#Guard Trait
+guardsman = {
+	customizer = no
+	random = no
+	cached = yes
+
+	diplomacy = 1
+	monthly_character_prestige = 2
+	monthly_character_piety = 0.1
+	liege_opinion = 15
+	command_modifier = {
+		morale_defence = 0.2
+	}
+	combat_rating = 2
+
+	ai_ambition = -20
+}
+
+###########
+#Illnesses
+###########
+
+has_malaise = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+}
+has_red_fever = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -2
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -2
+}
+has_red_plague = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -2
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -3
+}
+has_shigella = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -3
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -2
+}
+has_hansen = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -4
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+}
+has_delusia = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -3
+	martial = -2
+	stewardship = -3
+	intrigue = -3
+	learning = -3
+}
+has_sickness = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	potential = {
+		is_female = yes
+	}
+
+	diplomacy = -3
+	martial = -3
+	stewardship = -3
+	intrigue = -3
+	learning = -3
+}
+has_plaga = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+
+	diplomacy = -3
+	martial = -3
+	stewardship = -3
+	intrigue = -3
+	learning = -3
+}
+has_black_fog = {
+	customizer = no
+	random = no
+	is_epidemic = yes
+	is_illness = yes
+	is_health = yes
+	blinding = yes
+
+	diplomacy = -1
+	martial = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+}
+is_medicus = {
+	customizer = no
+	random = no
+	cannot_marry = yes
+	cannot_inherit = yes
+}
+
+#Unoccupied
+dyinglands_trait = {
+	customizer = no
+	random = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	immortal = yes
+}

@@ -1,0 +1,279 @@
+####################
+# Ades Dynasties 101 - 200
+####################
+#Supreme
+101 = {
+	name = Frumus
+	culture = ades
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+102 = {
+	name = Grates
+	culture = ades
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+103 = {
+	name = Adus
+	culture = ades
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+104 = {
+	name = Jullus
+	culture = ades
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+105 = {
+	name = Azrus
+	culture = ades
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+106 = {
+	name = Cojulus
+	culture = ades
+}
+107 = {
+	name = Dalces
+	culture = ades
+}
+108 = {
+	name = Dumes
+	culture = ades
+}
+109 = {
+	name = Dumus
+	culture = ades
+}
+110 = {
+	name = Funes
+	culture = ades
+}
+111 = {
+	name = Fumus
+	culture = ades
+}
+112 = {
+	name = Gabores
+	culture = ades
+}
+113 = {
+	name = Gabourus
+	culture = ades
+}
+114 = {
+	name = Grigues
+	culture = ades
+}
+115 = {
+	name = Grigus
+	culture = ades
+}
+116 = {
+	name = Lunges
+	culture = ades
+}
+117 = {
+	name = Lungus
+	culture = ades
+}
+118 = {
+	name = Lupes
+	culture = ades
+}
+119 = {
+	name = Lupus
+	culture = ades
+}
+120 = {
+	name = Negres
+	culture = ades
+}
+121 = {
+	name = Negrus
+	culture = ades
+}
+122 = {
+	name = Petres
+	culture = ades
+}
+123 = {
+	name = Petrus
+	culture = ades
+}
+124 = {
+	name = Pretes
+	culture = ades
+}
+125 = {
+	name = Pretus
+	culture = ades
+}
+126 = {
+	name = Pupes
+	culture = ades
+}
+127 = {
+	name = Pupus
+	culture = ades
+}
+128 = {
+	name = Sales
+	culture = ades
+}
+129 = {
+	name = Salus
+	culture = ades
+}
+130 = {
+	name = Sules
+	culture = ades
+}
+131 = {
+	name = Sulus
+	culture = ades
+}
+132 = {
+	name = Ungures
+	culture = ades
+}
+133 = {
+	name = Ungurus
+	culture = ades
+}
+134 = {
+	name = Vasiles
+	culture = ades
+}
+135 = {
+	name = Vasilus
+	culture = ades
+}
+136 = {
+	name = Vlades
+	culture = ades
+}
+137 = {
+	name = Vladus
+	culture = ades
+}
+138 = {
+	name = Vladies
+	culture = ades
+}
+139 = {
+	name = Vladius
+	culture = ades
+}
+140 = {
+	name = Vladimes
+	culture = ades
+}
+141 = {
+	name = Vladimus
+	culture = ades
+}
+142 = {
+	name = Vladires
+	culture = ades
+}
+143 = {
+	name = Vladirus
+	culture = ades
+}
+144 = {
+	name = Vladries
+	culture = ades
+}
+145 = {
+	name = Vladrius
+	culture = ades
+}
+146 = {
+	name = Waimes
+	culture = ades
+}
+147 = {
+	name = Waimus
+	culture = ades
+}
+148 = {
+	name = Walulus
+	culture = ades
+}
+149 = {
+	name = Yeries
+	culture = ades
+}
+150 = {
+	name = Yerius
+	culture = ades
+}
+151 = {
+	name = Admus
+	culture = ades
+}
+152 = {
+	name = Adus
+	culture = ades
+}
+153 = {
+	name = Aleus
+	culture = ades
+}
+154 = {
+	name = Anghulus
+	culture = ades
+}
+155 = {
+	name = Cojulus
+	culture = ades
+}

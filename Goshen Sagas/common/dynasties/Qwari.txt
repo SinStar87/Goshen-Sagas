@@ -1,0 +1,18 @@
+####################
+# Qwari Dynasties 1701 - 1800
+####################
+#Supreme
+1701 = {
+	name = Glaej
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}

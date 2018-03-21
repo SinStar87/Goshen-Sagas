@@ -1,0 +1,16 @@
+silk_road = {
+	wealth = 100
+
+	modifier = {
+		castle_tax_modifier = 0.05
+		city_tax_modifier = 0.05
+		temple_tax_modifier = 0.05
+		trade_route_value = 1
+	}
+	start = {
+		1
+	}
+	path = {
+		1 2
+	}
+}

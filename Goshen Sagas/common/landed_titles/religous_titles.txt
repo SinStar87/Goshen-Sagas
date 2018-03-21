@@ -1,0 +1,374 @@
+d_jual = {
+	color = { 97 17 28 }
+	color2 = { 148 0 211 }
+
+	capital = 331 #Great War Hall
+
+	title = "PARAE_CHIEF"
+	foa = "PARAE_CHIEF_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = abimelech_rel
+	culture = abimelech
+
+	dignity = 100
+}
+d_founders = {
+	color = { 171 129 107 }
+	color2 = { 148 0 211 }
+
+	capital = 63 #Central Ades Plains
+
+	title = "NUUES_KING"
+	foa = "NUUES_KING_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = ades_rel
+	culture = ades
+
+	dignity = 100
+}
+d_gods_blav = {
+	color = { 255 255 170 }
+	color2 = { 148 0 211 }
+
+	capital = 47 #Blav
+
+	title = "MHRIN_CHIEF"
+	foa = "MHRIN_CHIEF_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = anin_rel
+	culture = anin
+
+	dignity = 100
+}
+d_jaali = {
+	color = { 203 193 218 }
+	color2 = { 148 0 211 }
+
+	capital = 303 #Basli Forest
+
+	title = "HAALI"
+	foa = "HAALI_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = basli_rel
+	culture = basli
+
+	dignity = 100
+}
+d_bwoyy = {
+	color = { 126 159 209 }
+	color2 = { 0 0 0 }
+
+	capital = 212 #Black Fog Falls
+
+	title = "TYMAE_CHIEF"
+	foa = "TYMAE_CHIEF_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = dulmal_rel
+	culture = dulmal
+
+	dignity = 100
+}
+d_pusla = {
+	color = { 172 53 55 }
+	color2 = { 0 0 0 }
+
+	capital = 394 #Gawei Castle
+
+	title = "ELDER_AISH"
+	foa = "ELDER_AISH_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = gawei_rel
+	culture = gawei
+
+	dignity = 100
+}
+d_ancients = {
+	color = { 196 196 196 }
+	color2 = { 148 0 211 }
+
+	capital = 314 #Central Grey Plains
+
+	title = "ANCIENT_ANKEY"
+	foa = "ANCIENT_ANKEY_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = grey_tribes_rel
+	culture = grey_tribes
+
+	dignity = 100
+}
+d_silent = {
+	color = { 190 217 76 }
+	color2 = { 148 0 211 }
+
+	capital = 365 #Jese Castle
+
+	title = "ASANTE"
+	foa = "ASANTE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = hesen_rel
+	culture = hesen
+
+	dignity = 100
+}
+d_shayaen = {
+	color = { 42 111 38 }
+	color2 = { 0 0 0 }
+
+	capital = 344 #Huargen
+
+	title = "BRUD"
+	foa = "BRUD_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = huargens_rel
+	culture = huargens
+
+	dignity = 100
+}
+d_venute = {
+	color = { 0 0 0 }
+	color2 = { 148 0 211 }
+
+	capital = 250 #Hunute Forest
+
+	title = "VERTE"
+	foa = "VERTE_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = hunute_rel
+	culture = hunute
+
+	dignity = 100
+}
+d_bumlan = {
+	color = { 217 143 82 }
+	color2 = { 148 0 211 }
+
+	capital = 219 #Kalan Village
+
+	title = "ELDER_PRUAN"
+	foa = "ELDER_PRUAN_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = kalan_rel
+	culture = kalan
+
+	dignity = 100
+}
+d_boadon = {
+	color = { 50 143 184 }
+	color2 = { 148 0 211 }
+
+	capital = 318 #Levyt City
+
+	title = "CHIEF_ALIM"
+	foa = "CHIEF_ALIM_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = levyt_rel
+	culture = levyt
+
+	dignity = 100
+}
+d_nebiro = {
+	color = { 168 12 57 }
+	color2 = { 0 0 0 }
+
+	capital = 348 #Elfall
+
+	title = "MERRO_JATAO"
+	foa = "MERRO_JATAO_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = merro_rel
+	culture = merro
+
+	dignity = 100
+}
+d_byajvo = {
+	color = { 180 226 243 }
+	color2 = { 148 0 211 }
+
+	capital = 106 #Silt Castle
+
+	title = "STRCTO_CHIEF"
+	foa = "STRCTO_CHIEF_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = navo_rel
+	culture = navo
+
+	dignity = 100
+}
+d_moghes = {
+	color = { 168 156 97 }
+	color2 = { 0 0 0 }
+
+	capital = 12 #South Trovo
+
+	title = "LANGHESI"
+	foa = "LANGHESI_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = poghess_rel
+	culture = poghess
+
+	dignity = 100
+}
+d_herder = {
+	color = { 154 88 116 }
+	color2 = { 148 0 211 }
+
+	capital = 87 #Qess Fort
+
+	title = "CHIEF_NGJO"
+	foa = "CHIEF_NGJO_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = rannu_rel
+	culture = rannu
+
+	dignity = 100
+}
+d_vawri = {
+	color = { 0 42 225 }
+	color2 = { 0 0 0 }
+
+	capital = 356 #Oto
+
+	title = "WARI"
+	foa = "WARI_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = qwari_rel
+	culture = qwari
+
+	dignity = 100
+}
+d_ilnut = {
+	color = { 84 183 21 }
+	color2 = { 0 0 0 }
+
+	capital = 372 #Topa
+
+	title = "CHIEF_MUUT"
+	foa = "CHIEF_MUUT_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = timut_rel
+	culture = timut
+
+	dignity = 100
+}
+d_zineks = {
+	color = { 77 52 71 }
+	color2 = { 148 0 211 }
+
+	capital = 156 #Home of the Vitat
+
+	title = "ZINEKS_KEEPER"
+	foa = "ZINEKS_KEEPER_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = vitat_rel
+	culture = vitat
+
+	dignity = 100
+}
+d_kahala = {
+	color = { 118 149 170 }
+	color2 = { 148 0 211 }
+
+	capital = 126 #Central Yava Forest
+
+	title = "HARFA_CHIEF"
+	foa = "HARFA_CHIEF_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = yava_rel
+	culture = yava
+
+	dignity = 100
+}
+d_karet = {
+	color = { 84 90 86 }
+	color2 = { 0 0 0 }
+
+	capital = 4 #Central Kauni
+
+	title = "VAETAN"
+	foa = "VAETAN_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = zet_rel
+	culture = zet
+
+	dignity = 100
+}
+d_samak = {
+	color = { 158 216 236 }
+	color2 = { 148 0 211 }
+
+	capital = 272 #Zuvaki Palace
+
+	title = "FIRST_BAIAK"
+	foa = "FIRST_BAIAK_FOA"
+	short_name = yes
+	location_ruler_title = yes
+	landless = yes
+	primary = yes
+	controls_religion = zuvak_rel
+	culture = zuvak
+
+	dignity = 100
+}

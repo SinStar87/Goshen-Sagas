@@ -1,0 +1,429 @@
+####################
+# Gawei Dynasties 601 - 700
+####################
+#Supreme
+601 = {#Historical
+	name = Gawei
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+#Commanders/Historical Dynasties
+602 = {
+	name = Colin
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+603 = {
+	name = Heimi
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+604 = {
+	name = Rama
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+605 = {
+	name = Iam
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+606 = {
+	name = Hozu
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+607 = {
+	name = Jeno
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+608 = {
+	name = Dekr
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+609 = {
+	name = Grall
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+610 = {
+	name = Pvosei
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+611 = {
+	name = Vizen
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+612 = {
+	name = Abrio
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+613 = {
+	name = Nediv
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+614 = {
+	name = Kizei
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+615 = {
+	name = Prosan
+	culture = gawei
+	used_for_random = no
+	can_appear = no
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 1
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+	}
+}
+#Random Gawei Houses
+616 = {
+	name = Arvu
+	culture = gawei
+}
+617 = {
+	name = Babar
+	culture = gawei
+}
+618 = {
+	name = Bakam
+	culture = gawei
+}
+619 = {
+	name = Bakar
+	culture = gawei
+}
+620 = {
+	name = Bando
+	culture = gawei
+}
+621 = {
+	name = Bandu
+	culture = gawei
+}
+622 = {
+	name = Bindo
+	culture = gawei
+}
+623 = {
+	name = Bindar
+	culture = gawei
+}
+624 = {
+	name = Pretes
+	culture = gawei
+}
+625 = {
+	name = Csaah
+	culture = gawei
+}
+626 = {
+	name = Csasar
+	culture = gawei
+}
+627 = {
+	name = Daar
+	culture = gawei
+}
+628 = {
+	name = Danko
+	culture = gawei
+}
+629 = {
+	name = Dedar
+	culture = gawei
+}
+630 = {
+	name = Dekr
+	culture = gawei
+}
+631 = {
+	name = Dosbo
+	culture = gawei
+}
+632 = {
+	name = Dormah
+	culture = gawei
+}
+633 = {
+	name = Egar
+	culture = gawei
+}
+634 = {
+	name = Egeh
+	culture = gawei
+}
+635 = {
+	name = Fabaar
+	culture = gawei
+}
+636 = {
+	name = Vasilus
+	culture = gawei
+}
+637 = {
+	name = Fatu
+	culture = gawei
+}
+638 = {
+	name = Gabar
+	culture = gawei
+}
+639 = {
+	name = Gabu
+	culture = gawei
+}
+640 = {
+	name = Gallaar
+	culture = gawei
+}
+641 = {
+	name = Gallauh
+	culture = gawei
+}
+642 = {
+	name = Gaspar
+	culture = gawei
+}
+643 = {
+	name = Geller
+	culture = gawei
+}
+644 = {
+	name = Jankar
+	culture = gawei
+}
+645 = {
+	name = Janku
+	culture = gawei
+}
+646 = {
+	name = Kin
+	culture = gawei
+}
+647 = {
+	name = Kollar
+	culture = gawei
+}
+648 = {
+	name = Kuun
+	culture = gawei
+}
+649 = {
+	name = Rabei
+	culture = gawei
+}
+650 = {
+	name = Weisz
+	culture = gawei
+}
+651 = {
+	name = Zawei
+	culture = gawei
+}
+652 = {
+	name = Adao
+	culture = gawei
+}
+653 = {
+	name = Agamu
+	culture = gawei
+}
+654 = {
+	name = Aram
+	culture = gawei
+}
+655 = {
+	name = Aru
+	culture = gawei
+}
+656 = {
+	name = Arvam
+	culture = gawei
+}
+657 = {
+	name = Arvar
+	culture = gawei
+}
