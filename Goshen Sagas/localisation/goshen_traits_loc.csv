@@ -326,6 +326,8 @@ armor_knightplate;Knightly Platemail;;;;;;;;;;;;;x
 armor_knightplate_desc;Masterfully smithed platemail, crafted from bone metal, a full set of knightplate that shimmers of silver in the light.;;;;;;;;;;;;;x
 armor_plate;Platemail;;;;;;;;;;;;;x
 armor_plate_desc;Masterfully smithed platemail, crafted from bone metal and shines with a bright grey sheen.;;;;;;;;;;;;;x
+armor_guard;Guard Armor;;;;;;;;;;;;;x
+armor_guard_desc;Masterfully smithed platemail, gilded ceremonial armor for Guards.;;;;;;;;;;;;;x
 
 #Pets
 pet_beon;Beon;;;;;;;;;;;;;x
@@ -377,6 +379,12 @@ has_black_fog;Black Fog Sick;;;;;;;;;;;;;x
 has_black_fog_desc;Been exposed to Fog from the Black Wastes.;;;;;;;;;;;;;x
 is_medicus;Medicus;;;;;;;;;;;;;x
 is_medicus_desc;A trained Medicus, practised in the workings of medicine and illness.;;;;;;;;;;;;;x
+
+####################
+#	Quest Traits
+####################
+on_quest;On a Quest;;;;;;;;;;;;;x
+on_quest_desc;This character has joined a quest, either a hunt or...;;;;;;;;;;;;;x
 
 ###########################
 #Unoccupied Traits

@@ -1,0 +1,156 @@
+namespace = goshen_hunt_events
+##########################
+#	Hunt Events
+##########################
+character_event = {	#Call on Officers for Hunt
+	id = goshen_hunt_events.1
+	title = EVTTTLgoshen_hunt_events.1
+	desc = EVTDESCgoshen_hunt_events.1
+	picture = GFX_evt_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_hunt_events.1
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 4
+				opinion = { who = ROOT value = 80 }
+			}
+			modifier = {
+				factor = 2
+				opinion = { who = ROOT value = 25 }
+			}
+		}
+		add_trait = on_quest
+		reverse_opinion = {
+			who = ROOT
+			modifier = opinion_joined_hunt
+			years = 20
+		}
+		set_character_flag = joined_hunt
+	}
+
+	option = {
+		name = EVTOPTBgoshen_hunt_events.1
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 4
+				NOT = {
+					opinion = { who = ROOT value = 0 }
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					opinion = { who = ROOT value = 20 }
+				}
+			}
+		}
+		set_character_flag = refused_hunt
+	}
+}
+character_event = {	#Establish Hunt
+	id = goshen_hunt_events.2
+	title = EVTTTLgoshen_hunt_events.2
+	desc = {
+		text = EVTDESCAgoshen_hunt_events.2
+		trigger = {
+			NOT = {
+				any_courtier_or_vassal = {
+					has_character_flag = refused_hunt
+				}
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_hunt_events.2
+		trigger = {
+			any_courtier_or_vassal = {
+				has_character_flag = refused_hunt
+			}
+		}
+	}
+	picture = GFX_evt_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_hunt_events.2
+		set_character_flag = leading_hunt
+		add_trait = on_quest
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					has_job_title = job_marshal
+					has_minor_title = title_commander
+				}
+				has_character_flag = refused_hunt
+			}
+			clr_character_flag = refused_hunt
+			reverse_opinion = {
+				who = ROOT
+				modifier = opinion_refused_hunt
+				years = 20
+			}
+		}
+	}
+}
+character_event = {	#Encounter Animal
+	id = goshen_hunt_events.3
+	title = EVTTTLgoshen_hunt_events.3
+	desc = EVTDESCgoshen_hunt_events.3
+	picture = GFX_evt_construction
+
+	trigger = {
+		NOT = {
+			has_pet_trigger = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = EVTOPTAgoshen_hunt_events.3
+		random = {
+			chance = 5
+			character_event = { id = goshen_animal_events.0 }
+		}
+	}
+	option = {
+		name = EVTOPTBgoshen_hunt_events.3
+	}
+}
+character_event = {	#End Hunt
+	id = goshen_hunt_events.100
+	title = EVTTTLgoshen_hunt_events.100
+	desc = EVTDESCgoshen_hunt_events.100
+	picture = GFX_evt_construction
+
+	trigger = {
+		has_character_flag = leading_hunt
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = EVTOPTAgoshen_hunt_events.100
+		remove_trait = on_quest
+		clr_character_flag = leading_hunt
+		any_courtier_or_vassal = {
+			limit = {
+				OR = {
+					has_job_title = job_marshal
+					has_minor_title = title_commander
+				}
+				has_character_flag = joined_hunt
+			}
+			remove_trait = on_quest
+			clr_character_flag = joined_hunt
+		}
+	}
+}

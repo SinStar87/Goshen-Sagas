@@ -1,5 +1,9 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 
+#Quest Decisions
+form_hunt_dec;Go on a Hunt;;;;;;;;;;;;;x
+form_hunt_dec_desc;You can go on a once in a lifetime hunt with some of your court.;;;;;;;;;;;;;x
+
 #Misc Decisions
 employ_diplomat;Hire a Diplomat;;;;;;;;;;;;;x
 employ_diplomat_desc;You can hire a random realm Diplomat to work in your court.;;;;;;;;;;;;;x

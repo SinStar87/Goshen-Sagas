@@ -1,0 +1,37 @@
+decisions = {
+	form_hunt_dec = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			independent = yes
+			NOR = {
+				has_character_flag = went_on_hunt
+				trait = on_quest
+			}
+		}
+		allow = {
+			war = no
+			in_command = no
+			prisoner = no
+		}
+		effect = {
+			set_character_flag = went_on_hunt
+			character_event = { id = goshen_hunt_events.2 days = 3 }
+			hidden_effect = {
+				any_courtier_or_vassal = {
+					limit = {
+						OR = {
+							has_job_title = job_marshal
+							has_minor_title = title_commander
+						}
+						NOT = { trait = on_quest }
+					}
+					character_event = { id = goshen_hunt_events.1 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+}

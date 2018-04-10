@@ -130,6 +130,16 @@ has_bonearmor_trigger = {
 	}
 }
 
+giftable_trigger = {
+	NOR = {
+		has_inheritance_blocker = yes
+		is_priest = yes
+	}
+	OR = {
+		is_primary_heir = yes
+		is_ruler = yes
+	}
+}
 
 is_incapable_trigger = {
 	OR = {

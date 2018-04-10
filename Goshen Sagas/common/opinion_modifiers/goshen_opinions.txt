@@ -5,6 +5,12 @@ opinion_loyal = {
 opinion_disloyal = {
 	opinion = -15
 }
+opinion_joined_hunt = {
+	opinion = 15
+}
+opinion_refused_hunt = {
+	opinion = -20
+}
 
 #Killer Opinions
 opinion_killed_family = {

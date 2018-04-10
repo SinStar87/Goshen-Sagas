@@ -1,0 +1,371 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sword_generic"
+		texturefile = "gfx/inventory/artifacts/sword_generic.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_generic_small"
+		texturefile = "gfx/inventory/artifacts/sword_generic_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_gilded"
+		texturefile = "gfx/inventory/artifacts/sword_gilded.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_gilded_small"
+		texturefile = "gfx/inventory/artifacts/sword_gilded_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_grandeur"
+		texturefile = "gfx/inventory/artifacts/sword_grandeur.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_grandeur_small"
+		texturefile = "gfx/inventory/artifacts/sword_grandeur_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_crimson_bolt"
+		texturefile = "gfx/inventory/artifacts/sword_crimson_bolt.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_crimson_bolt_small"
+		texturefile = "gfx/inventory/artifacts/sword_crimson_bolt_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_darkness"
+		texturefile = "gfx/inventory/artifacts/sword_darkness.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_darkness_small"
+		texturefile = "gfx/inventory/artifacts/sword_darkness_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_ekers_light"
+		texturefile = "gfx/inventory/artifacts/sword_ekers_light.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_ekers_light_small"
+		texturefile = "gfx/inventory/artifacts/sword_ekers_light_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_flight"
+		texturefile = "gfx/inventory/artifacts/sword_flight.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_flight_small"
+		texturefile = "gfx/inventory/artifacts/sword_flight_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_luxs_setting"
+		texturefile = "gfx/inventory/artifacts/sword_luxs_setting.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_luxs_setting_small"
+		texturefile = "gfx/inventory/artifacts/sword_luxs_setting_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_might_abimelech"
+		texturefile = "gfx/inventory/artifacts/sword_might_abimelech.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_might_abimelech_small"
+		texturefile = "gfx/inventory/artifacts/sword_might_abimelech_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_roses_thorn"
+		texturefile = "gfx/inventory/artifacts/sword_roses_thorn.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_roses_thorn_small"
+		texturefile = "gfx/inventory/artifacts/sword_roses_thorn_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_silver_wisp"
+		texturefile = "gfx/inventory/artifacts/sword_silver_wisp.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_silver_wisp_small"
+		texturefile = "gfx/inventory/artifacts/sword_silver_wisp_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_vastness"
+		texturefile = "gfx/inventory/artifacts/sword_vastness.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sword_vastness_small"
+		texturefile = "gfx/inventory/artifacts/sword_vastness_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_leather"
+		texturefile = "gfx/inventory/artifacts/armor_leather.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_leather_small"
+		texturefile = "gfx/inventory/artifacts/armor_leather_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_blackleather"
+		texturefile = "gfx/inventory/artifacts/armor_blackleather.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_blackleather_small"
+		texturefile = "gfx/inventory/artifacts/armor_blackleather_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_chain"
+		texturefile = "gfx/inventory/artifacts/armor_chain.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_chain_small"
+		texturefile = "gfx/inventory/artifacts/armor_chain_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_blackplate"
+		texturefile = "gfx/inventory/artifacts/armor_blackplate.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_blackplate_small"
+		texturefile = "gfx/inventory/artifacts/armor_blackplate_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_bronzemail"
+		texturefile = "gfx/inventory/artifacts/armor_bronzemail.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_bronzemail_small"
+		texturefile = "gfx/inventory/artifacts/armor_bronzemail_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_goldplate"
+		texturefile = "gfx/inventory/artifacts/armor_goldplate.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_goldplate_small"
+		texturefile = "gfx/inventory/artifacts/armor_goldplate_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_greyplate"
+		texturefile = "gfx/inventory/artifacts/armor_greyplate.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_greyplate_small"
+		texturefile = "gfx/inventory/artifacts/armor_greyplate_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_knight"
+		texturefile = "gfx/inventory/artifacts/armor_knight.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_knight_small"
+		texturefile = "gfx/inventory/artifacts/armor_knight_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_knightplate"
+		texturefile = "gfx/inventory/artifacts/armor_knightplate.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_knightplate_small"
+		texturefile = "gfx/inventory/artifacts/armor_knightplate_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_plate"
+		texturefile = "gfx/inventory/artifacts/armor_plate.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_armor_plate_small"
+		texturefile = "gfx/inventory/artifacts/armor_plate_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_guard"
+		texturefile = "gfx/inventory/artifacts/armor_guard.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_armor_guard_small"
+		texturefile = "gfx/inventory/artifacts/armor_guard_small.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+}

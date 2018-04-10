@@ -236,6 +236,25 @@ EVTOPTAgoshen_duel_events.21;A Parry.;;;;;;;;;;;;;x
 EVTOPTBgoshen_duel_events.21;A Retreat.;;;;;;;;;;;;;x
 EVTOPTCgoshen_duel_events.21;A Block.;;;;;;;;;;;;;x
 
+###################
+#Hunt Events
+###################
+EVTTTLgoshen_hunt_events.1;Called for a Hunt;;;;;;;;;;;;;x
+EVTDESCgoshen_hunt_events.1;[From.GetTitledFirstName] has called a great hunt and almost certainly expects you to join [From.GetHerHim] in the venture.;;;;;;;;;;;;;x
+EVTOPTAgoshen_hunt_events.1;Ofcourse I'll join;;;;;;;;;;;;;x
+EVTOPTBgoshen_hunt_events.1;Find an excuse not to.;;;;;;;;;;;;;x
+EVTTTLgoshen_hunt_events.2;Hunt Begins;;;;;;;;;;;;;x
+EVTDESCAgoshen_hunt_events.2;Your commanders have responded and all seem eager to join the hunt alongside you. Your supplies are ready and all await your command;;;;;;;;;;;;;x
+EVTDESCBgoshen_hunt_events.2;Your commanders have responded, though not all seem eager to join the hunt alongside you. Either way, your supplies are ready and all await your command;;;;;;;;;;;;;x
+EVTOPTAgoshen_hunt_events.2;Very well, let's be on our way.;;;;;;;;;;;;;x
+EVTTTLgoshen_hunt_events.3;Creature Encounter;;;;;;;;;;;;;x
+EVTDESCgoshen_hunt_events.3;While on your hunt, you encounter a strange beast. The rest of your party stand in awe of the mighty beast.;;;;;;;;;;;;;x
+EVTOPTAgoshen_hunt_events.3;I must have it!;;;;;;;;;;;;;x
+EVTOPTBgoshen_hunt_events.3;I must have its Fur!;;;;;;;;;;;;;x
+EVTTTLgoshen_hunt_events.100;The Hunt has Ended;;;;;;;;;;;;;x
+EVTDESCgoshen_hunt_events.100;The hunt draws to a close, as you and your commanders have bagged a great number of trophy creatures, not to mention you numerous displays of ability.;;;;;;;;;;;;;x
+EVTOPTAgoshen_hunt_events.100;The memory will surely last for some time.;;;;;;;;;;;;;x
+
 ####################
 #Councillor Events
 ####################

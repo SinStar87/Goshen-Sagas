@@ -3,6 +3,8 @@
 #General Opinions
 opinion_loyal;Loyal;;;;;;;;;;;;;x
 opinion_disloyal;Disloyal;;;;;;;;;;;;;x
+opinion_joined_hunt;Joined Hunt;;;;;;;;;;;;;x
+opinion_refused_hunt;Refused Hunt;;;;;;;;;;;;;x
 
 #Killer Opinions
 opinion_killed_family;Killed my Family member;;;;;;;;;;;;;x
