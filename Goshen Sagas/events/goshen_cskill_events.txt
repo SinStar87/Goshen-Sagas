@@ -1,5 +1,5 @@
 namespace = goshen_cskill_events
-character_event = {#Combat Skills
+character_event = {	#Chance to improve Combat Skills
 	id = goshen_cskill_events.0
 	is_triggered_only = yes
 	hide_window = yes

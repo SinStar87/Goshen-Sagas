@@ -1,5 +1,5 @@
 namespace = goshen_medicus_events
-character_event = {#Inform about Illness
+character_event = {	#Inform about Illness
 	id = goshen_medicus_events.1
 	desc = {
 		text = EVTDESCAgoshen_medicus_events.1

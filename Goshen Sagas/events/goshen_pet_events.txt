@@ -1,5 +1,5 @@
 namespace = goshen_pet_events
-character_event = {
+character_event = {	#Baby Pet Grows up
 	id = goshen_pet_events.1
 	desc = EVTDESCgoshen_pet_events.1
 	picture = GFX_evt_council
@@ -43,7 +43,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Death of Pet
 	id = goshen_pet_events.10
 	desc = EVTDESCgoshen_pet_events.10
 	picture = GFX_evt_council
@@ -80,7 +80,7 @@ character_event = {
 	}
 }
 
-character_event = {
+character_event = {	#Died, remove pet
 	id = goshen_pet_events.100
 	is_triggered_only = yes
 	hide_window = yes
@@ -112,7 +112,7 @@ character_event = {
 		remove_trait = pet_tusklet
 	}
 }
-character_event = {
+character_event = {	#Pet gives Birth Fire
 	id = goshen_pet_events.11
 	is_triggered_only = yes
 	hide_window = yes
@@ -149,7 +149,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Pet Gives Birth Informer
 	id = goshen_pet_events.12
 	desc = EVTDESCgoshen_pet_events.12
 	picture = GFX_evt_council
@@ -206,7 +206,7 @@ character_event = {
 		name = EVTOPTBgoshen_pet_events.12
 	}
 }
-character_event = {
+character_event = {	#Randomly Gain Pet
 	id = goshen_pet_events.20
 	desc = EVTDESCgoshen_pet_events.20
 	picture = GFX_evt_council

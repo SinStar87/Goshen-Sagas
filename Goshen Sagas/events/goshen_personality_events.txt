@@ -1,5 +1,5 @@
 namespace = goshen_personality_events
-character_event = {
+character_event = {	#Personality Developed
 	id = goshen_personality_events.0
 	is_triggered_only = yes
 	hide_window = yes
@@ -54,7 +54,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Fire for Training
 	id = goshen_personality_events.1
 	is_triggered_only = yes
 	hide_window = yes
@@ -74,7 +74,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Openness Personality
 	id = goshen_personality_events.10
 	desc = EVTDESCgoshen_personality_events.10
 	picture = GFX_evt_castle_construction
@@ -119,7 +119,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Decide Training
 	id = goshen_personality_events.11
 	desc = EVTDESCgoshen_personality_events.11
 	picture = GFX_evt_castle_construction
@@ -154,7 +154,7 @@ character_event = {
 		FROM = { set_character_flag = child_random_training }
 	}
 }
-character_event = {
+character_event = {	#Training Outcome
 	id = goshen_personality_events.12
 	desc = EVTDESCgoshen_personality_events.12
 	picture = GFX_evt_castle_construction
@@ -805,7 +805,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Planning Personality
 	id = goshen_personality_events.20
 	desc = EVTDESCgoshen_personality_events.20
 	picture = GFX_evt_castle_construction
@@ -850,7 +850,7 @@ character_event = {
 		}
 	}
 }
-character_event = {#Diplomacy Event
+character_event = {	#Diplomacy Random Event
 	id = goshen_personality_events.21
 	desc = EVTDESCgoshen_personality_events.21
 	picture = GFX_evt_castle_construction
@@ -861,7 +861,7 @@ character_event = {#Diplomacy Event
 		change_diplomacy = 1
 	}
 }
-character_event = {#Martial Event
+character_event = {	#Martial Random Event
 	id = goshen_personality_events.22
 	desc = EVTDESCgoshen_personality_events.22
 	picture = GFX_evt_castle_construction
@@ -872,7 +872,7 @@ character_event = {#Martial Event
 		change_martial = 1
 	}
 }
-character_event = {#Stewardship Event
+character_event = {	#Stewardship Random Event
 	id = goshen_personality_events.23
 	desc = EVTDESCgoshen_personality_events.23
 	picture = GFX_evt_castle_construction
@@ -884,7 +884,7 @@ character_event = {#Stewardship Event
 		wealth = 2
 	}
 }
-character_event = {#Intrigue Event
+character_event = {	#Intrigue Random Event
 	id = goshen_personality_events.24
 	desc = EVTDESCgoshen_personality_events.24
 	picture = GFX_evt_castle_construction
@@ -895,7 +895,7 @@ character_event = {#Intrigue Event
 		change_intrigue = 1
 	}
 }
-character_event = {#Learning Event
+character_event = {	#Learning Random Event
 	id = goshen_personality_events.25
 	desc = EVTDESCgoshen_personality_events.25
 	picture = GFX_evt_castle_construction
@@ -906,7 +906,7 @@ character_event = {#Learning Event
 		change_learning = 1
 	}
 }
-character_event = {
+character_event = {	#Sociable Personality
 	id = goshen_personality_events.30
 	desc = EVTDESCgoshen_personality_events.30
 	picture = GFX_evt_castle_construction
@@ -951,7 +951,7 @@ character_event = {
 		}
 	}
 }
-character_event = {#AI Random Stat Gain
+character_event = {	#AI Random Stat Gain
 	id = goshen_personality_events.31
 	desc = EVTDESCgoshen_personality_events.31
 	picture = GFX_evt_castle_construction
@@ -1007,7 +1007,7 @@ character_event = {#AI Random Stat Gain
 		}
 	}
 }
-character_event = {#Tutored by vassal Event
+character_event = {	#Tutored by Vassal Event
 	id = goshen_personality_events.32
 	desc = EVTDESCgoshen_personality_events.32
 	picture = GFX_evt_castle_construction
@@ -1119,7 +1119,7 @@ character_event = {#Tutored by vassal Event
 		}
 	}
 }
-character_event = {#Tutoring Informer Event
+character_event = {	#Tutoring Informer Event
 	id = goshen_personality_events.33
 	desc = {
 		text = EVTDESCAgoshen_personality_events.33
@@ -1141,7 +1141,7 @@ character_event = {#Tutoring Informer Event
 		clr_character_flag = majorboost
 	}
 }
-character_event = {
+character_event = {	#Agreeability Personality
 	id = goshen_personality_events.40
 	desc = EVTDESCgoshen_personality_events.40
 	picture = GFX_evt_castle_construction
@@ -1186,7 +1186,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Worry Personality
 	id = goshen_personality_events.50
 	desc = EVTDESCgoshen_personality_events.50
 	picture = GFX_evt_castle_construction

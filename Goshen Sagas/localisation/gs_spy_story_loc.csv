@@ -2,11 +2,8 @@
 opinion_damaged_rep;Damaged Reputation;;;;;;;;;;;;;x
 opinion_rumormonger;Spread False Rumors;;;;;;;;;;;;;x
 opened_gates;The Gates have been opened, making a siege much easier.;;;;;;;;;;;;;x
-EVTDESCAgs_spy_story_events.1;You've come across a person of remarkable charm and cunning.;;;;;;;;;;;;;x
-EVTDESCBgs_spy_story_events.1;My first book ever, A Tale of Intrigue and Reconnaissance, is a story about a spy and is now on sale(link in the mod description if you're interested). In honor of its release, I've created a number of spy mechanics.;;;;;;;;;;;;;x
-EVTOPTAgs_spy_story_events.1;Let me use these mechanics.;;;;;;;;;;;;;x
-EVTOPTBgs_spy_story_events.1;Not interested in these mechanics.;;;;;;;;;;;;;x
-EVTOPTCgs_spy_story_events.1;Hmm, you'd make an excellent spy.;;;;;;;;;;;;;x
+EVTDESCgs_spy_story_events.1;You've come across a person of remarkable charm and cunning.;;;;;;;;;;;;;x
+EVTOPTAgs_spy_story_events.1;Hmm, you'd make an excellent spy.;;;;;;;;;;;;;x
 EVTDESCgs_spy_story_events.2;The spy has successfully sneaked inside the walls and now awaits your orders..;;;;;;;;;;;;;x
 EVTOPTAgs_spy_story_events.2;Send the signal, I want in that castle!;;;;;;;;;;;;;x
 EVTOPTBgs_spy_story_events.2;No, it's not needed.;;;;;;;;;;;;;x

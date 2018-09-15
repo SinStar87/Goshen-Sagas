@@ -1,5 +1,5 @@
 namespace = goshen_battle_events
-character_event = {#Injured in Battle
+character_event = {	#Injured in Battle
 	id = goshen_battle_events.0
 	is_triggered_only = yes
 	hide_window = yes
@@ -39,7 +39,7 @@ character_event = {#Injured in Battle
 		character_event = { id = goshen_injury_events.1 }
 	}
 }
-character_event = {#Killed in Battle
+character_event = {	#Killed in Battle
 	id = goshen_battle_events.1
 	desc = EVTDESCgoshen_battle_events.1
 	picture = GFX_evt_castle_construction
@@ -55,7 +55,7 @@ character_event = {#Killed in Battle
 		name = EVTOPTAgoshen_battle_events.1
 	}
 }
-character_event = {#Special Tactic
+character_event = {	#Special Tactic
 	id = goshen_battle_events.11
 	desc = {
 		text = EVTDESCAgoshen_battle_events.11
@@ -154,9 +154,17 @@ character_event = {#Special Tactic
 	}
 	option = {
 		name = EVTOPTCgoshen_battle_events.11
+		clr_character_flag = STEnvelop
+		clr_character_flag = STFlank
+		clr_character_flag = STFeint
+		clr_character_flag = STAmbush
+		clr_character_flag = STEnvelopcounter
+		clr_character_flag = STFlankcounter
+		clr_character_flag = STFeintcounter
+		clr_character_flag = STAmbushcounter
 	}
 }
-character_event = {#Catch wind of Special Tactic
+character_event = {	#Catch wind of Special Tactic
 	id = goshen_battle_events.12
 	desc = EVTDESCgoshen_battle_events.12
 	picture = GFX_evt_castle_construction
@@ -241,9 +249,19 @@ character_event = {#Inform about Special Tactic
 	}
 	option = {
 		name = EVTOPTBgoshen_battle_events.13
+		event_target:STPlanner = {
+			clr_character_flag = STEnvelop
+			clr_character_flag = STFlank
+			clr_character_flag = STFeint
+			clr_character_flag = STAmbush
+			clr_character_flag = STEnvelopcounter
+			clr_character_flag = STFlankcounter
+			clr_character_flag = STFeintcounter
+			clr_character_flag = STAmbushcounter
+		}
 	}
 }
-character_event = {#Special Tactic Succeed or Fail
+character_event = {	#Special Tactic Succeed or Fail
 	id = goshen_battle_events.14
 	desc = {
 		text = EVTDESCAgoshen_battle_events.14
@@ -371,7 +389,7 @@ character_event = {#Special Tactic Succeed or Fail
 		}
 	}
 }
-character_event = {#Duel
+character_event = {	#Duel in Battle
 	id = goshen_battle_events.2
 	desc = EVTDESCgoshen_battle_events.2
 	picture = GFX_evt_castle_construction

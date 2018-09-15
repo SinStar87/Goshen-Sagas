@@ -1,5 +1,5 @@
 namespace = goshen_maintenance_events
-character_event = {
+character_event = {	#Assign Proper Traits
 	id = goshen_maintenance_events.0
 	is_triggered_only = yes
 	hide_window = yes
@@ -359,7 +359,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Set Racial Traits
 	id = goshen_maintenance_events.2
 	is_triggered_only = yes
 	hide_window = yes
@@ -401,7 +401,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Create Smiths
 	id = goshen_maintenance_events.3
 	is_triggered_only = yes
 	hide_window = yes
@@ -636,7 +636,7 @@ character_event = {
 		}
 	}
 }
-character_event = {
+character_event = {	#Assign Gawei Swords
 	id = goshen_maintenance_events.10
 	desc = EVTDESCgoshen_maintenance_events.10
 	picture = GFX_evt_castle_construction
@@ -739,7 +739,7 @@ character_event = {
 		name = EVTOPTAgoshen_maintenance_events.10
 	}
 }
-character_event = {
+character_event = {	#Visited Medicus
 	id = goshen_maintenance_events.20
 	is_triggered_only = yes
 	hide_window = yes
@@ -1015,7 +1015,7 @@ character_event = {
 		character_event = { id = goshen_medicus_events.1 }
 	}
 }
-character_event = {#Name as Guard Commander
+character_event = {	#Name as Guard Commander
 	id = goshen_maintenance_events.21
 	is_triggered_only = yes
 	hide_window = yes
@@ -1030,7 +1030,7 @@ character_event = {#Name as Guard Commander
 		}
 	}
 }
-character_event = {
+character_event = {	#Populate the Dying Lands
 	id = goshen_maintenance_events.30
 	is_triggered_only = yes
 	hide_window = yes

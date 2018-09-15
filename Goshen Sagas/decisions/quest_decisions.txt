@@ -1,5 +1,5 @@
 decisions = {
-	form_hunt_dec = {
+	form_hunt_dec = {	#Go on Hunt
 		is_high_prio = yes
 		potential = {
 			is_ruler = yes

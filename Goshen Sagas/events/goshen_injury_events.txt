@@ -1,5 +1,5 @@
 namespace = goshen_injury_events
-character_event = {#Random injury
+character_event = {	#Random injury
 	id = goshen_injury_events.0
 	hide_window = yes
 
@@ -83,7 +83,7 @@ character_event = {#Random injury
 		}
 	}
 }
-character_event = {#Informed of Injury
+character_event = {	#Informed of Injury
 	id = goshen_injury_events.1
 	desc = {
 		text = EVTDESCAgoshen_injury_events.1
@@ -126,7 +126,7 @@ character_event = {#Informed of Injury
 		name = EVTOPTAgoshen_injury_events.1
 	}
 }
-character_event = {#Injury Outcomes
+character_event = {	#Injury Outcomes
 	id = goshen_injury_events.2
 	hide_window = yes
 
@@ -211,7 +211,7 @@ character_event = {#Injury Outcomes
 		}
 	}
 }
-character_event = {#Injury progresses
+character_event = {	#Injury progresses
 	id = goshen_injury_events.10
 	desc = EVTDESCgoshen_injury_events.10
 	picture = GFX_evt_castle_construction
@@ -259,7 +259,7 @@ character_event = {#Injury progresses
 		name = EVTOPTAgoshen_injury_events.10
 	}
 }
-character_event = {#Injury unchanged
+character_event = {	#Injury unchanged
 	id = goshen_injury_events.20
 	desc = EVTDESCgoshen_injury_events.20
 	picture = GFX_evt_castle_construction
@@ -269,7 +269,7 @@ character_event = {#Injury unchanged
 		name = EVTOPTAgoshen_injury_events.20
 	}
 }
-character_event = {#Injury regresses
+character_event = {	#Injury regresses
 	id = goshen_injury_events.30
 	desc = EVTDESCgoshen_injury_events.30
 	picture = GFX_evt_castle_construction

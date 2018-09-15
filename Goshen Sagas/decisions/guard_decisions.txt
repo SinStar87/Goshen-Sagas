@@ -1,5 +1,5 @@
 targetted_decisions = {
-	form_a_guard = {
+	form_a_guard = {	#Form Bodyguards
 		is_high_prio = yes
 		filter = sub_realm
 		ai_target_filter = self
@@ -252,7 +252,7 @@ targetted_decisions = {
 			factor = 1
 		}
 	}
-	grant_gawei_sword = {
+	grant_gawei_sword = {	#Grant one of Gawei Swords to Will
 		filter = sub_realm
 		ai_target_filter = self
 
@@ -536,7 +536,7 @@ targetted_decisions = {
 			}
 		}
 	}
-	name_to_guard = {
+	name_to_guard = {	#Name a Character to the Guard
 		filter = sub_realm
 		ai_target_filter = self
 
@@ -620,7 +620,7 @@ targetted_decisions = {
 			}
 		}
 	}
-	name_personal_guardsman = {
+	name_personal_guardsman = {	#Call Guard to Bodyguard Duties
 		filter = sub_realm
 		ai_target_filter = self
 		is_high_prio = yes
@@ -661,7 +661,7 @@ targetted_decisions = {
 			factor = 1
 		}
 	}
-	return_to_guard = {
+	return_to_guard = {	#Return a Bodyguard to the Guard
 		filter = realm
 		ai_target_filter = self
 		is_high_prio = yes
@@ -690,7 +690,7 @@ targetted_decisions = {
 			factor = 1
 		}
 	}
-	disband_guard = {
+	disband_guard = {	#Disband too many Guards
 		filter = realm
 		ai_target_filter = self
 		is_high_prio = yes

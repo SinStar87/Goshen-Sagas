@@ -1,5 +1,5 @@
 decisions = {
-	purchase_sword = {
+	purchase_sword = {	#Forge a Sword
 		potential = {
 			NOT = {
 				has_sword_trigger = yes
@@ -67,7 +67,7 @@ decisions = {
 			factor = 1
 		}
 	}
-	purchase_armor = {
+	purchase_armor = {	#Forge Armor
 		potential = {
 			NOT = {
 				has_armor_trigger = yes
@@ -137,7 +137,7 @@ decisions = {
 	}
 }
 targetted_decisions = {
-	purchase_sword_other = {
+	purchase_sword_other = {	#Purchase Armor for Others
 		filter = realm
 		ai_target_filter = self
 
@@ -197,7 +197,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	purchase_armor_other = {
+	purchase_armor_other = {	#Purchase Armor for Others
 		filter = realm
 		ai_target_filter = self
 
@@ -257,7 +257,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	gift_beonpup = {
+	gift_beonpup = {	#Gift Pet pup to Others
 		filter = realm
 		ai_target_filter = self
 
@@ -288,7 +288,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	gift_kununpup = {
+	gift_kununpup = {	#Gift Pet pup to Others
 		filter = realm
 		ai_target_filter = self
 
@@ -320,7 +320,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	gift_pleencub = {
+	gift_pleencub = {	#Gift Pet pup to Others
 		filter = realm
 		ai_target_filter = self
 
@@ -359,7 +359,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	gift_tochonkitten = {
+	gift_tochonkitten = {	#Gift Pet pup to Others
 		filter = realm
 		ai_target_filter = self
 
@@ -390,7 +390,7 @@ targetted_decisions = {
 			factor = 0
 		}
 	}
-	gift_tusklet = {
+	gift_tusklet = {	#Gift Pet pup to Others
 		filter = realm
 		ai_target_filter = self
 

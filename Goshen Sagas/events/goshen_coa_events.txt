@@ -1,5 +1,5 @@
 namespace = goshen_coa_events
-character_event = {
+character_event = {	#Abimelech Tribe Takeover - New Flag
 	id = goshen_coa_events.0
 	is_triggered_only = yes
 	hide_window = yes

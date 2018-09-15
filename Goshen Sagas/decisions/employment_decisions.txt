@@ -1,5 +1,5 @@
 decisions = {
-	employ_diplomat = {
+	employ_diplomat = {	#Employ a Diplomat
 		potential = {
 			ai = no
 		}
@@ -163,7 +163,7 @@ decisions = {
 			}
 		}
 	}
-	employ_soldier = {
+	employ_soldier = {	#Employ a Soldier
 		potential = {
 			ai = no
 		}
@@ -324,7 +324,7 @@ decisions = {
 			}
 		}
 	}
-	employ_steward = {
+	employ_steward = {	#Employ a Steward
 		potential = {
 			ai = no
 		}
@@ -488,7 +488,7 @@ decisions = {
 			}
 		}
 	}
-	employ_intriguer = {
+	employ_intriguer = {	#Employ a Spy
 		potential = {
 			ai = no
 		}
@@ -652,7 +652,7 @@ decisions = {
 			}
 		}
 	}
-	employ_learnedman = {
+	employ_learnedman = {	#Employ Learnedman
 		potential = {
 			ai = no
 		}
@@ -816,7 +816,7 @@ decisions = {
 			}
 		}
 	}
-	employ_woman = {
+	employ_woman = {	#Employ a Woman
 		potential = {
 			ai = no
 		}
@@ -980,7 +980,7 @@ decisions = {
 			}
 		}
 	}
-	employ_medicus = {
+	employ_medicus = {	#Employ a Doctor
 		potential = {
 			NOT = {
 				any_courtier = { trait = is_medicus }

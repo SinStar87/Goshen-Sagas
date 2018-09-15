@@ -1,5 +1,5 @@
 decisions = {
-	consult_medicus = {
+	consult_medicus = {	#Call on Medicus for Diagnosis
 		is_high_prio = yes
 		potential = {
 			OR = {
