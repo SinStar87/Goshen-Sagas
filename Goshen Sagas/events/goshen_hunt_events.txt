@@ -116,7 +116,7 @@ character_event = {	#Encounter Animal
 		name = EVTOPTAgoshen_hunt_events.3
 		random = {
 			chance = 5
-			character_event = { id = goshen_animal_events.0 }
+			character_event = { id = goshen_pet_events.20 }
 		}
 	}
 	option = {

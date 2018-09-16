@@ -129,7 +129,6 @@ has_bonearmor_trigger = {
 		trait = armor_plate
 	}
 }
-
 giftable_trigger = {
 	NOR = {
 		has_inheritance_blocker = yes
@@ -140,7 +139,6 @@ giftable_trigger = {
 		is_ruler = yes
 	}
 }
-
 is_incapable_trigger = {
 	OR = {
 		trait = incapacitating_illness
@@ -206,5 +204,21 @@ is_guard_trigger = {
 		trait = gawei_sword_8
 		trait = gawei_sword_9
 		trait = guardsman
+	}
+}
+
+
+has_pet_trigger = {
+	OR = {
+		trait = pet_beon
+		trait = pet_beonpup
+		trait = pet_kunun
+		trait = pet_kununpup
+		trait = pet_pleen
+		trait = pet_pleencub
+		trait = pet_tochon
+		trait = pet_tochonkitten
+		trait = pet_tusken
+		trait = pet_tusklet
 	}
 }

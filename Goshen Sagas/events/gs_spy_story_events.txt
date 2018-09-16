@@ -255,7 +255,6 @@ character_event = {	#Poormouth Outcome
 		name = EVTOPTAgs_spy_story_events.31
 		trigger = {
 			OR = {
-				trait = content
 				any_friend = {
 					character = event_target:TOI_target
 				}
