@@ -1,0 +1,112 @@
+namespace = goshen_story_events
+narrative_event = {	#Days of Strife Intros
+	id = goshen_story_events.1
+	title = EVTTTLgoshen_story_events.1
+	desc = {
+		text = EVTDESCgoshen_story_events.1soule
+		trigger = {
+			character = 39
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_medicus_events.1rhun
+		trigger = {
+			character = 27
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.1moto
+		trigger = {
+			character = 6022
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.1supreme
+		trigger = {
+			character = 6010
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.1stev
+		trigger = {
+			character = 6011
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.1mel
+		trigger = {
+			character = 18002
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.1
+		trigger = {
+			NOR = {
+				character = 39
+				character = 27
+				character = 6022
+				character = 6010
+				character = 6011
+				character = 18002
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_story_events.1
+		trigger = {
+			character = 39
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_story_events.1
+		trigger = {
+			character = 27
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_story_events.1
+		trigger = {
+			character = 6022
+		}
+	}
+
+	option = {
+		name = EVTOPTDgoshen_story_events.1
+		trigger = {
+			character = 6010
+		}
+	}
+
+	option = {
+		name = EVTOPTEgoshen_story_events.1
+		trigger = {
+			character = 6011
+		}
+	}
+
+	option = {
+		name = EVTOPTFgoshen_story_events.1
+		trigger = {
+			character = 18002
+		}
+	}
+
+	option = {
+		name = EVTOPTGgoshen_story_events.1
+		trigger = {
+			NOR = {
+				character = 39
+				character = 27
+				character = 6022
+				character = 6010
+				character = 6011
+				character = 18002
+			}
+		}
+	}
+}

@@ -1,5 +1,5 @@
 namespace = goshen_maintenance_events
-character_event = {	#Assign Proper Traits
+character_event = {	#Startup Maintenance
 	id = goshen_maintenance_events.0
 	is_triggered_only = yes
 	hide_window = yes
@@ -263,9 +263,16 @@ character_event = {	#Assign Proper Traits
 				}
 			}
 		}
+		any_player = {	#Fire the Days of Strife
+			limit = {
+				startdate = 2000.1.1
+				NOT = { year = 2000 }
+			}
+			narrative_event = { id = goshen_story_events.1 }
+		}
 	}
 }
-character_event = {
+character_event = {	#Transfer Gawei Sword
 	id = goshen_maintenance_events.1
 	is_triggered_only = yes
 	hide_window = yes

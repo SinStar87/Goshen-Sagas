@@ -62,6 +62,25 @@ EVTDESCgoshen_maintenance_events.10;[From.GetFirstName] has passed on, Joining I
 EVTOPTAgoshen_maintenance_events.10;"May Maku remove [From.GetHerHis] worldly burdens.";;;;;;;;;;;;;x
 
 ###################
+#Story Events
+###################
+EVTTTLgoshen_story_events.1;Days of Strife;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1soule;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1rhun;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1moto;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1supreme;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1stev;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1mel;A;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTAgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTBgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTCgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTDgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTEgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTFgoshen_story_events.1;A;;;;;;;;;;;;;x
+EVTOPTGgoshen_story_events.1;A;;;;;;;;;;;;;x
+
+###################
 #Personality Events
 ###################
 
