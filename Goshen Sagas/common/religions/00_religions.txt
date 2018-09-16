@@ -702,7 +702,7 @@ unoccupied_rel_group = {
 	color = { 0.1 0.1 0.1 }
 
 	dyinglands_rel = {
-		graphical_culture = dying_lands
+		graphical_culture = dyinglandsgfx
 
 		icon = 20
 		heresy_icon = 20
