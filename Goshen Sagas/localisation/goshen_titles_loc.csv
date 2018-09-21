@@ -840,6 +840,51 @@ c_zalv_forest_adj;Ades;;;;;;;;;;;;;x
 c_zuvaki_palace;Zuvaki Palace;;;;;;;;;;;;;x
 c_zuvaki_palace_adj;Zuvaki;;;;;;;;;;;;;x
 
+#Dying Lands
+c_n_upper_dying_lands;N. Upper Dying Lands;;;;;;;;;;;;;x
+c_n_upper_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_n_upper_dying_lands_coast;N. Upper Dying Lands Coast;;;;;;;;;;;;;x
+c_n_upper_dying_lands_coast_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_upper_dying_lands;S. Upper Dying Lands;;;;;;;;;;;;;x
+c_s_upper_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_upper_dying_lands_coast;S. Upper Dying Lands Coast;;;;;;;;;;;;;x
+c_s_upper_dying_lands_coast_adj;Dying Lands;;;;;;;;;;;;;x
+c_ne_dying_lands;N.E. Dying Lands;;;;;;;;;;;;;x
+c_ne_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_nw_dying_lands;N.W. Dying Lands;;;;;;;;;;;;;x
+c_nw_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_sw_dying_lands;S.W. Dying Lands;;;;;;;;;;;;;x
+c_sw_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_se_dying_lands;S.E. Dying Lands;;;;;;;;;;;;;x
+c_se_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_c_dying_lands;Central Dying Lands;;;;;;;;;;;;;x
+c_c_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_e_dying_lands;Eastern Dying Lands;;;;;;;;;;;;;x
+c_e_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_c_dying_lands;S. Central Dying Lands;;;;;;;;;;;;;x
+c_s_c_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_se_c_dying_lands;S.E. Central Dying Lands;;;;;;;;;;;;;x
+c_se_c_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_n_w_dying_lands;N. Western Dying Lands;;;;;;;;;;;;;x
+c_n_w_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_w_dying_lands;Western Dying Lands;;;;;;;;;;;;;x
+c_w_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_w_dying_lands;S. Western Dying Lands;;;;;;;;;;;;;x
+c_s_w_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_n_s_dying_lands;N. Southern Dying Lands;;;;;;;;;;;;;x
+c_n_s_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_dying_lands;Southern Dying Lands;;;;;;;;;;;;;x
+c_s_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_n_lower_dying_lands;N. Lower Dying Lands;;;;;;;;;;;;;x
+c_n_lower_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_n_lower_dying_lands_coast;N. Lower Dying Lands Coast;;;;;;;;;;;;;x
+c_n_lower_dying_lands_coast_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_lower_dying_lands;S. Lower Dying Lands;;;;;;;;;;;;;x
+c_s_lower_dying_lands_adj;Dying Lands;;;;;;;;;;;;;x
+c_s_lower_dying_lands_coast;S. Lower Dying Lands Coast;;;;;;;;;;;;;x
+c_s_lower_dying_lands_coast_adj;Dying Lands;;;;;;;;;;;;;x
+
+
 ############
 #Baronies
 ############
