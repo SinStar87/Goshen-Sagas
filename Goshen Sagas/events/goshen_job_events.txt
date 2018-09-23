@@ -191,10 +191,8 @@ character_event = {	#Informer
 		}
 		FROM = {
 			employer = {
-				primary_title = {
-					heir_under_primogeniture_law = {
-						reverse_opinion = { modifier = opinion_loyal who = ROOT }
-					}
+				current_heir = {
+					reverse_opinion = { modifier = opinion_loyal who = ROOT }
 				}
 			}
 		}
@@ -206,10 +204,8 @@ character_event = {	#Informer
 		}
 		FROM = {
 			employer = {
-				primary_title = {
-					heir_under_primogeniture_law = {
-						reverse_opinion = { modifier = opinion_disloyal who = ROOT }
-					}
+				current_heir = {
+					reverse_opinion = { modifier = opinion_disloyal who = ROOT }
 				}
 			}
 		}
