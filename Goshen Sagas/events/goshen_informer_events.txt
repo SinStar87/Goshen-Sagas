@@ -13,3 +13,26 @@ character_event = {
 
 	#desc = "B"
 }
+
+character_event = {	#War were declared, On Action
+	id = 3
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		character_event = {
+			id = 31
+		}
+	}
+}
+
+character_event = {	#War were declared
+	id = 31
+	desc = EVTDESC31
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA3
+	}
+}

@@ -305,3 +305,9 @@ EVTDESCAgoshen_job_events.31;As you are attending to the matters of court, you o
 EVTDESCBgoshen_job_events.31;As you are attending to the matters of court, [From.GetFirstName] starts talking loudly, "Can you believe what [Root.Liege.GetTitledFirstName] said about [Root.GetFirstName]?";;;;;;;;;;;;;x
 EVTOPTAgoshen_job_events.31;[Root.Liege.GetTitledFirstName] said what??;;;;;;;;;;;;;x
 EVTOPTBgoshen_job_events.31;Damn it, [From.GetFirstName] [From.Liege.GetTitledFirstName] sent you, didn't [From.Liege.GetSheHe]?!;;;;;;;;;;;;;x
+
+##############
+#Informer Events
+##############
+EVTDESC31;[From.GetTitledFirstName] has seen fit to strike into your Realm, intent on forcing your people from their homes.;;;;;;;;;;;;;x
+EVTOPTA31;Raise the Levies!;;;;;;;;;;;;;x
