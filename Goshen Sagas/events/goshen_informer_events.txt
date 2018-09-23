@@ -36,3 +36,15 @@ character_event = {	#War were declared
 		name = EVTOPTA3
 	}
 }
+
+character_event = {	#Character Recruited
+	id = 4
+	desc = EVTDESC4
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTA4
+		clear_event_target = recruit
+	}
+}

@@ -159,7 +159,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -320,7 +324,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -484,7 +492,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -648,7 +660,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -812,7 +828,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -976,7 +996,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 	}
@@ -1143,7 +1167,11 @@ decisions = {
 						}
 						add_trait = kalan_trait
 					}
+					save_event_target_as = recruit
 				}
+			}
+			character_event = {
+				id = 4
 			}
 		}
 		ai_will_do = {

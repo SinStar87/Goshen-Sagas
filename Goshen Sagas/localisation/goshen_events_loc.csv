@@ -311,3 +311,5 @@ EVTOPTBgoshen_job_events.31;Damn it, [From.GetFirstName] [From.Liege.GetTitledFi
 ##############
 EVTDESC31;[From.GetTitledFirstName] has seen fit to strike into your Realm, intent on forcing your people from their homes.;;;;;;;;;;;;;x
 EVTOPTA31;Raise the Levies!;;;;;;;;;;;;;x
+EVTDESC4;[recruit.GetFullName] entered your court, offering [recruit.GetHerHis] services.;;;;;;;;;;;;;x
+EVTOPTA4;Welcome, [recruit.GetFirstName];;;;;;;;;;;;;x
