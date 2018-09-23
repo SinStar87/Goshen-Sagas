@@ -16,14 +16,6 @@ character_event = {	#Random injury
 	mean_time_to_happen = {
 		years = 50
 		modifier = {
-			factor = 0.1
-			OR = {
-				trait = minor_illness
-				trait = moderate_illness
-				trait = severe_illness
-			}
-		}
-		modifier = {
 			factor = 2
 			health = 6
 		}
@@ -36,47 +28,14 @@ character_event = {	#Random injury
 					factor = 3
 					health = 6
 				}
-				modifier = {
-					factor = 2
-					NOR = {
-						trait = minor_illness
-						trait = moderate_illness
-						trait = severe_illness
-					}
-				}
-				modifier = {
-					factor = 0
-					OR = {
-						trait = moderate_illness
-						trait = severe_illness
-					}
-				}
 				add_trait = minor_injury
 				character_event = { id = goshen_injury_events.1 }
 			}
 			2 = {
-				modifier = {
-					factor = 3
-					OR = {
-						trait = minor_illness
-						trait = moderate_illness
-					}
-				}
 				add_trait = moderate_injury
 				character_event = { id = goshen_injury_events.1 }
 			}
 			1 = {
-				modifier = {
-					factor = 2
-					OR = {
-						trait = minor_illness
-						trait = moderate_illness
-					}
-				}
-				modifier = {
-					factor = 4
-					trait = severe_illness
-				}
 				add_trait = severe_injury
 				character_event = { id = goshen_injury_events.1 }
 			}
