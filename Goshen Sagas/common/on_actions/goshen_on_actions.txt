@@ -13,9 +13,9 @@ on_yearly_pulse = {
 		goshen_pet_events.11
 	}
 	random_events = {
-		100 = 0
+		400 = 0
 		20 = goshen_pet_events.20
-		10 = goshen_personality_events.31
+		1 = goshen_personality_events.31
 		10 = goshen_pet_events.10
 	}
 }

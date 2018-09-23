@@ -14,7 +14,7 @@ character_event = {	#Now you're sick
 	}
 
 	mean_time_to_happen = {
-		years = 15
+		years = 30
 		modifier = {
 			factor = 0.1
 			OR = {
@@ -183,6 +183,365 @@ character_event = {#Informed of Illness
 
 	option = {
 		name = EVTOPTAgoshen_illness_events.1
+		IF = {
+			limit = {
+				is_adult = no
+				is_ruler = no
+			}
+			random_list = {
+				1 = {
+					modifier = {
+						factor = 4
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					father = {
+						character_event = {
+							id = goshen_illness_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					mother = {
+						character_event = {
+							id = goshen_illness_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						mother = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					guardian = {
+						character_event = {
+							id = goshen_illness_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						mother = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						has_guardian = yes
+					}
+					employer = {
+						character_event = {
+							id = goshen_illness_events.11
+						}
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {#Informed of Kid's Illness
+	id = goshen_illness_events.11
+	desc = EVTDESCAgoshen_illness_events.11
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {	#Send for the Medicus
+		name = EVTOPTAgoshen_illness_events.11
+		trigger = {
+			is_ruler = yes
+			any_courtier = {
+				trait = is_medicus
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+		FROM = {
+			hidden_tooltip = {
+				random_list = {
+					10 = {
+						modifier = {
+							factor = 5
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_malaise
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_malaise
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_malaise
+							}
+						}
+						add_trait = has_malaise
+					}
+					8 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_red_fever
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_red_fever
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_red_fever
+							}
+						}
+						add_trait = has_red_fever
+					}
+					3 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_shigella
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_shigella
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_shigella
+							}
+						}
+						add_trait = has_shigella
+					}
+					1 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_red_plague
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_red_plague
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_red_plague
+							}
+						}
+						add_trait = has_red_plague
+					}
+					1 = {
+						modifier = {
+							factor = 2
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_hansen
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_hansen
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_hansen
+							}
+						}
+						add_trait = has_hansen
+					}
+					1 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_delusia
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_delusia
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_delusia
+							}
+						}
+						add_trait = has_delusia
+					}
+					1 = {
+						modifier = {
+							factor = 0.05
+							is_female = no
+						}
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_sickness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_sickness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_sickness
+							}
+						}
+						add_trait = has_sickness
+					}
+					1 = {
+						modifier = {
+							factor = 0.1
+							trait = minor_illness
+						}
+						modifier = {
+							factor = 3
+							trait = moderate_illness
+						}
+						modifier = {
+							factor = 5
+							OR = {
+								trait = severe_illness
+								trait = incapacitating_illness
+								trait = deadly_illness
+							}
+						}
+						modifier = {
+							factor = 5
+							any_courtier = {
+								trait = has_plaga
+							}
+						}
+						modifier = {
+							factor = 5
+							any_spouse = {
+								trait = has_plaga
+							}
+						}
+						modifier = {
+							factor = 5
+							any_lover = {
+								trait = has_plaga
+							}
+						}
+						add_trait = has_plaga
+					}
+				}
+			}
+			character_event = { id = goshen_medicus_events.1 }
+		}
+	}
+
+	option = {	#It's nothing
+		name = EVTOPTBgoshen_illness_events.11
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 character_event = {#Illness outcome

@@ -265,8 +265,8 @@ character_event = {	#Startup Maintenance
 		}
 		any_player = {	#Fire the Days of Strife
 			limit = {
-				startdate = 2000.1.1
-				NOT = { year = 2000 }
+				start_date = 2000.1.1
+				NOT = { year = 2001 }
 			}
 			narrative_event = { id = goshen_story_events.1 }
 		}
@@ -292,71 +292,72 @@ character_event = {	#Transfer Gawei Sword
 	}
 
 	immediate = {
-		primary_title = {
-			heir_under_primogeniture_law = {
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_1 }
-					}
-					add_trait = gawei_sword_1
+		random_child = {
+			limit = {
+				is_alive = yes
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_1 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_2 }
-					}
-					add_trait = gawei_sword_2
+				add_trait = gawei_sword_1
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_2 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_3 }
-					}
-					add_trait = gawei_sword_3
+				add_trait = gawei_sword_2
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_3 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_4 }
-					}
-					add_trait = gawei_sword_4
+				add_trait = gawei_sword_3
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_4 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_5 }
-					}
-					add_trait = gawei_sword_5
+				add_trait = gawei_sword_4
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_5 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_6 }
-					}
-					add_trait = gawei_sword_6
+				add_trait = gawei_sword_5
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_6 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_7 }
-					}
-					add_trait = gawei_sword_7
+				add_trait = gawei_sword_6
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_7 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_8 }
-					}
-					add_trait = gawei_sword_8
+				add_trait = gawei_sword_7
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_8 }
 				}
-				IF = {
-					limit = {
-						dynasty = ROOT 
-						ROOT = { trait = gawei_sword_9 }
-					}
-					add_trait = gawei_sword_9
+				add_trait = gawei_sword_8
+			}
+			IF = {
+				limit = {
+					dynasty = ROOT 
+					ROOT = { trait = gawei_sword_9 }
 				}
+				add_trait = gawei_sword_9
 			}
 		}
 		k_gawei = {

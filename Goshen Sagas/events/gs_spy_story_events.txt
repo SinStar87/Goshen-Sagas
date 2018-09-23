@@ -43,7 +43,19 @@ character_event = {	#Send Spy to Open Gates
 		siege = {
 			is_attacker = yes
 		}
+		OR = {
+			NOT = { has_character_flag = siege_spy }
+			had_character_flag = { flag = siege_spy days = 90 }
+		}
+		
+	}
 
+	immediate = {
+		IF = {
+			limit = { has_character_flag = siege_spy }
+			clr_character_flag = siege_spy
+		}
+		set_character_flag = siege_spy
 	}
 
 	option = {

@@ -9,7 +9,7 @@ narrative_event = {	#Days of Strife Intros
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_medicus_events.1rhun
+		text = EVTDESCgoshen_story_events.1rhun
 		trigger = {
 			character = 27
 		}

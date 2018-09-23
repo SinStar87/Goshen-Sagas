@@ -124,6 +124,114 @@ character_event = {	#Informed of Injury
 
 	option = {
 		name = EVTOPTAgoshen_injury_events.1
+		IF = {
+			limit = {
+				is_adult = no
+				is_ruler = no
+			}
+			random_list = {
+				1 = {
+					modifier = {
+						factor = 4
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					father = {
+						character_event = {
+							id = goshen_injury_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					mother = {
+						character_event = {
+							id = goshen_injury_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						mother = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					guardian = {
+						character_event = {
+							id = goshen_injury_events.11
+						}
+					}
+				}
+				1 = {
+					modifier = {
+						factor = 0
+						father = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						mother = {
+							is_alive = yes
+							is_ruler = yes
+						}
+					}
+					modifier = {
+						factor = 0
+						has_guardian = yes
+					}
+					employer = {
+						character_event = {
+							id = goshen_injury_events.11
+						}
+					}
+				}
+			}
+		}
+	}
+}
+character_event = {#Informed of Kid's Injury
+	id = goshen_injury_events.11
+	desc = EVTDESCAgoshen_injury_events.11
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {	#Send for the Medicus
+		name = EVTOPTAgoshen_injury_events.11
+		trigger = {
+			is_ruler = yes
+			any_courtier = {
+				trait = is_medicus
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {	#It's nothing
+		name = EVTOPTBgoshen_injury_events.11
+		ai_chance = {
+			factor = 1
+		}
 	}
 }
 character_event = {	#Injury Outcomes

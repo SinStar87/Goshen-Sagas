@@ -23,6 +23,15 @@ EVTDESCFgoshen_medicus_events.1;You've found out you have Delusia.;;;;;;;;;;;;;x
 EVTDESCGgoshen_medicus_events.1;You've found out you have The Sickness.;;;;;;;;;;;;;x
 EVTDESCHgoshen_medicus_events.1;You've found out you have Plaga.;;;;;;;;;;;;;x
 EVTOPTAgoshen_medicus_events.1;I see, well atleast I know.;;;;;;;;;;;;;x
+EVTDESCAgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Malaise.;;;;;;;;;;;;;x
+EVTDESCBgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Red Fever.;;;;;;;;;;;;;x
+EVTDESCCgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Red Plague.;;;;;;;;;;;;;x
+EVTDESCDgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Shigella.;;;;;;;;;;;;;x
+EVTDESCEgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Hansen.;;;;;;;;;;;;;x
+EVTDESCFgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Delusia.;;;;;;;;;;;;;x
+EVTDESCGgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has The Sickness.;;;;;;;;;;;;;x
+EVTDESCHgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Plaga.;;;;;;;;;;;;;x
+EVTOPTAgoshen_medicus_events.11;I see, well atleast I know.;;;;;;;;;;;;;x
 
 ###################
 #Illness Events
@@ -32,6 +41,9 @@ EVTDESCAgoshen_illness_events.1;You have a scratchy throat, runny nose, and nagg
 EVTDESCBgoshen_illness_events.1;You have nearly unending disruptive coughing fits, nightsweats, and burn with fever it seems you are very sick;;;;;;;;;;;;;x
 EVTDESCCgoshen_illness_events.1;Your wound has festered, oozing pus and the skin around it has darkened in color. now you suffer from nightsweats, and a burning fever it seems you are very sick.;;;;;;;;;;;;;x
 EVTOPTAgoshen_illness_events.1;Damn.;;;;;;;;;;;;;x
+EVTDESCAgoshen_illness_events.11;[From.GetFirstName] has taken ill.;;;;;;;;;;;;;x
+EVTOPTAgoshen_illness_events.11;Send for the Medicus!;;;;;;;;;;;;;x
+EVTOPTBgoshen_illness_events.11;I'm sure it's nothing...;;;;;;;;;;;;;x
 EVTDESCgoshen_illness_events.10;Your coughing hasn't abated, you suffer terrible fevers, and your sheets are soaked with sweat everynight. Your illness has progressed.;;;;;;;;;;;;;x
 EVTOPTAgoshen_illness_events.10;I'm dying!;;;;;;;;;;;;;x
 EVTDESCgoshen_illness_events.20;Your coughing hasn't abated, but you don't seem any worse than usual.;;;;;;;;;;;;;x
@@ -47,6 +59,9 @@ EVTDESCAgoshen_injury_events.1;You have a nagging pain when you try and walk or 
 EVTDESCBgoshen_injury_events.1;You have nearly unending disruptive pain that makes it very difficult, it seems you are very hurt.;;;;;;;;;;;;;x
 EVTDESCCgoshen_injury_events.1;You have a festering open wound, pain shooting through your body, and dizzy spells, you are in trouble.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.1;Damn.;;;;;;;;;;;;;x
+EVTDESCAgoshen_injury_events.11;[From.GetFirstName] has been injured.;;;;;;;;;;;;;x
+EVTOPTAgoshen_injury_events.11;Send for the Medicus!;;;;;;;;;;;;;x
+EVTOPTBgoshen_injury_events.11;I'm sure it's nothing...;;;;;;;;;;;;;x
 EVTDESCgoshen_injury_events.10;Your pain has noticably increased and the wound is festering, your injury has grown worse.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.10;I'm dying!;;;;;;;;;;;;;x
 EVTDESCgoshen_injury_events.20;Your pain is more or less the same so you don't seem any worse than usual.;;;;;;;;;;;;;x
