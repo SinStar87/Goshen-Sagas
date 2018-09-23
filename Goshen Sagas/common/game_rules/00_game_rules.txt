@@ -1,0 +1,14 @@
+shattered_retreat = {
+	name = "RULE_SHATTERED_RETREAT"
+	group = "RULE_GROUP_WARFARE"
+	option = {
+		name = on
+		text = "RULE_OPTION_ON"
+		desc = "RULE_SHATTERED_RETREAT_ON_DESC"
+	}
+	option = {
+		name = off
+		text = "RULE_OPTION_OFF"
+		desc = "RULE_SHATTERED_RETREAT_OFF_DESC"
+	}
+}
