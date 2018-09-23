@@ -1,4 +1,52 @@
 ###############
+#Council Triggers
+###############
+can_be_chancellor_trigger = {
+	OR = {
+		trait = agent
+		trait = mediator
+		trait = minister
+		trait = emissary
+	}
+}
+
+can_be_marshal_trigger = {
+	OR = {
+		trait = soldier
+		trait = tactician
+		trait = strategist
+		trait = mastermind
+	}
+}
+
+can_be_treasurer_trigger = {
+	OR = {
+		trait = clerk
+		trait = entrepreneur
+		trait = financier
+		trait = mogul
+	}
+}
+
+can_be_spymaster_trigger = {
+	OR = {
+		trait = rascal
+		trait = rogue
+		trait = schemer
+		trait = conspirator
+	}
+}
+
+can_be_spiritual_trigger = {
+	OR = {
+		trait = thinker
+		trait = intellectual
+		trait = scholar
+		trait = sage
+	}
+}
+
+###############
 #Trait Triggers
 ###############
 has_combat_prowess_trigger = {
