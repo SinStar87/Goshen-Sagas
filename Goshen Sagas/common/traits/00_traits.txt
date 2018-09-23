@@ -239,7 +239,7 @@ legend = {
 #Personality Traits
 ###################
 
-#Openness
+#Openness - Blue
 susceptible = {
 	opposites = {
 		receptive
@@ -291,7 +291,7 @@ prejudiced = {
 	ai_rationality = -20
 }
 
-#Planning
+#Planning - Red
 controlling = {
 	opposites = {
 		calculating
@@ -343,7 +343,7 @@ irrational = {
 	ai_rationality = -50
 }
 
-#Sociable
+#Sociable - Orange
 extrovert = {
 	opposites = {
 		friendly
@@ -394,7 +394,7 @@ introvert = {
 	ai_rationality = -20
 }
 
-#Agreeable
+#Agreeable - Purple
 overeager = {
 	opposites = {
 		sympathetic
@@ -446,7 +446,7 @@ irreconcilable = {
 	ai_rationality = -20
 }
 
-#Worry
+#Worry - White
 carefree = {
 	opposites = {
 		idealist
