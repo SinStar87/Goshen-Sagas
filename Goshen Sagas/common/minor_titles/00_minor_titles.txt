@@ -1,0 +1,268 @@
+#######################################
+# HARD: AUTO-GRANTED - DO NOT REMOVE!
+#######################################
+
+title_regent = {
+	realm_in_name = yes
+	dignity = 0.9
+	revoke_allowed = no
+	is_voter = yes
+	
+	monthly_salary = 0.1
+	monthly_prestige = 1.50
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+
+title_appointed_regent = {
+	is_high_prio = yes
+	realm_in_name = yes
+	dignity = 0.9
+	grant_limit = 1
+	opinion_effect = 10
+	revoke_allowed = yes
+
+	monthly_salary = 0.05
+	monthly_prestige = 0.75
+
+	allowed_to_hold = {
+		is_adult = yes
+		prisoner = no
+		NOT = { trait = incapable }
+		has_regent = no
+	}
+	
+	allowed_to_grant = {
+		has_regent = no
+		NOT = {
+			has_game_rule = {
+				name = regencies
+				value = off
+			}
+		}
+	}
+	revoke_trigger = {
+		FROM = { has_regent = no }
+	}
+
+	gain_effect = {
+	}
+
+	lose_effect = {
+	}
+	message = yes
+}
+
+title_ruler_consort = {
+	dignity = 0.88
+	show_as_title = yes
+	realm_in_name = yes
+	spouse_context = yes # Title name as if the other gender version of the spouse's ruler title
+	revoke_allowed = no
+	
+	monthly_salary = 0.1
+	monthly_prestige = 0.5
+	
+	gain_effect = {
+	}
+	
+	lose_effect = {
+	}
+
+	message = no
+}
+
+title_tanist = {
+	dignity = 0.86
+	show_as_title = yes
+	realm_in_name = yes
+	revoke_allowed = no
+	
+	monthly_salary = 0.07
+	monthly_prestige = 0.75
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+title_queen_mother = {
+	dignity = 0.85
+	show_as_title = yes
+	realm_in_name = yes
+	revoke_allowed = no
+	
+	monthly_salary = 0.05
+	monthly_prestige = 1.00
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+title_prince = {
+	dignity = 0.8
+	show_as_title = yes
+	realm_in_name = yes
+	revoke_allowed = no
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.25
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+# Pagan consort
+title_courtesan = {
+	dignity = 0.05
+#	realm_in_name = yes
+	revoke_allowed = no
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.10
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = no
+}
+
+# Commander, granted via its own interaction, so very special
+title_commander = {
+	is_high_prio = yes
+	
+	attribute = martial
+	dignity = 0.05
+	opinion_effect = 5
+	realm_in_name = yes
+	
+	monthly_salary = 0.05
+	monthly_prestige = 0.50
+	
+	revoke_allowed = no # Handled by diplomatic interaction
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		liege = { character = FROM }
+		OR = {
+			AND = {
+				OR = {
+					is_female = no
+					AND = {
+						OR = {
+							religion = messalian
+							religion = cathar
+							religion = mazdaki
+						}
+						liege = { religion = ROOT }
+					}
+					liege = {
+						OR = {
+							primary_title = {
+								has_law = status_of_women_4
+							}
+							has_game_rule = {
+								name = gender
+								value = all
+							}
+						}
+					}
+				}
+				OR = {
+					NOT = { religion = hindu }
+					trait = kshatriya
+				}
+				is_adult = yes
+			}
+			has_character_flag = special_marshal
+		}
+		
+		prisoner = no
+		NOT = { trait = incapable }
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { has_character_flag = guru }
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+	
+	message = yes
+}
+
+############
+#Guard Titles
+###########
+title_personalguard = {
+	is_high_prio = yes
+
+	dignity = 0.1
+	grant_limit = 2
+
+	show_as_title = no
+	realm_in_name = no
+
+	monthly_salary = 0.2
+	monthly_prestige = 0.1
+	opinion_effect = 5
+
+	allowed_to_hold = {
+		OR = {
+			is_ruler = no
+			has_landed_title = d_the_will
+		}
+		is_adult = yes
+		OR = {
+			is_councillor  = no
+			has_job_title = job_marshal
+		}
+		OR = {
+			trait = fighter
+			trait = champion
+			trait = legend
+		}
+		NOR = {
+			trait = pregnant
+			AND = {
+				trait = fighter
+				trait = blinded
+			}
+			trait = incapacitating_illness
+			trait = deadly_illness
+			trait = incapacitating_injury
+			trait = deadly_injury
+		}
+	}
+	allowed_to_grant = {
+		higher_real_tier_than = BARON
+	}
+	ai_will_do = {
+		factor = 0.1
+	}
+
+	gain_effect = { }
+	lose_effect = { }
+
+	message = no
+}

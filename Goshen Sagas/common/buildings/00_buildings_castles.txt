@@ -1125,6 +1125,12 @@ castle = {
 #Unique Castles
 	ca_castle_blav = {
 		desc = ca_castle_blav_desc
+		trigger = {
+			FROMFROM = {
+				title = b_blav
+				has_building = ca_castle_blav
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_blav
@@ -1138,6 +1144,12 @@ castle = {
 	}
 	ca_castle_gap = {
 		desc = ca_castle_gap_desc
+		trigger = {
+			FROMFROM = {
+				title = b_gap_in_the_mountain
+				has_building = ca_castle_gap
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_gap_in_the_mountain
@@ -1151,6 +1163,12 @@ castle = {
 	}
 	ca_castle_gawei = {
 		desc = ca_castle_gawei_desc
+		trigger = {
+			FROMFROM = {
+				title = b_gawei_castle
+				has_building = ca_castle_gawei
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_gawei_castle
@@ -1164,6 +1182,12 @@ castle = {
 	}
 	ca_castle_jese = {
 		desc = ca_castle_jese_desc
+		trigger = {
+			FROMFROM = {
+				title = b_jese_castle
+				has_building = ca_castle_jese
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_jese_castle
@@ -1177,6 +1201,12 @@ castle = {
 	}
 	ca_castle_levyt = {
 		desc = ca_castle_levyt_desc
+		trigger = {
+			FROMFROM = {
+				title = b_levyt_city
+				has_building = ca_castle_levyt
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_levyt_city
@@ -1190,6 +1220,12 @@ castle = {
 	}
 	ca_castle_silt = {
 		desc = ca_castle_silt_desc
+		trigger = {
+			FROMFROM = {
+				title = b_silt_castle
+				has_building = ca_castle_silt
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_silt_castle
@@ -1203,6 +1239,12 @@ castle = {
 	}
 	ca_castle_warhall = {
 		desc = ca_castle_warhall_desc
+		trigger = {
+			FROMFROM = {
+				title = b_great_war_hall
+				has_building = ca_castle_warhall
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_great_war_hall
@@ -1216,6 +1258,12 @@ castle = {
 	}
 	ca_special_coral_castle = {
 		desc = ca_special_coral_castle_desc
+		trigger = {
+			FROMFROM = {
+				title = b_zuvaki_palace
+				has_building = ca_special_coral_castle
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_zuvaki_palace
@@ -1230,6 +1278,12 @@ castle = {
 	}
 	ca_special_kalan_village = {
 		desc = ca_special_kalan_village_desc
+		trigger = {
+			FROMFROM = {
+				title = b_kalan_village
+				has_building = ca_special_kalan_village
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_kalan_village
@@ -1244,6 +1298,12 @@ castle = {
 	}
 	ca_special_kauni_forest = {
 		desc = ca_special_kauni_forest_desc
+		trigger = {
+			FROMFROM = {
+				title = b_s_kauni_forest
+				has_building = ca_special_kauni_forest
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_s_kauni_forest
@@ -1259,6 +1319,12 @@ castle = {
 	}
 	ca_special_hunute_village = {
 		desc = ca_special_hunute_village_desc
+		trigger = {
+			FROMFROM = {
+				title = b_hunute_forest
+				has_building = ca_special_hunute_village
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_hunute_forest
@@ -1273,6 +1339,12 @@ castle = {
 	}
 	ca_special_qess_fort = {
 		desc = ca_special_qess_fort_desc
+		trigger = {
+			FROMFROM = {
+				title = b_qess_fort
+				has_building = ca_special_qess_fort
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_qess_fort
@@ -1288,6 +1360,9 @@ castle = {
 #Unique Buildings
 	ca_special_greyforges = {
 		desc = ca_special_greywalls_desc
+		trigger = {
+			culture = grey_tribes
+		}
 		potential = {
 			culture = grey_tribes
 		}
@@ -1299,6 +1374,20 @@ castle = {
 	}
 	ca_special_greywalls = {
 		desc = ca_special_greywalls_desc
+		trigger = {
+			FROMFROM = { is_capital = yes }
+			OR = {
+				province_id = 297
+				province_id = 305
+				province_id = 307
+				province_id = 309
+				province_id = 310
+				province_id = 314
+				province_id = 315
+				province_id = 323
+				province_id = 324
+			}
+		}
 		potential = {
 			FROMFROM = { is_capital = yes }
 			OR = {
@@ -1321,6 +1410,12 @@ castle = {
 	}
 	ca_special_elfall = {
 		desc = ca_special_elfall_desc
+		trigger = {
+			FROMFROM = {
+				title = b_elfall_volcano
+				has_building = ca_special_elfall
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_elfall_volcano
@@ -1334,6 +1429,12 @@ castle = {
 	}
 	ca_special_hole = {
 		desc = ca_special_hole_desc
+		trigger = {
+			FROMFROM = {
+				title = b_bottomless_hole
+				has_building = ca_special_hole
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_bottomless_hole
@@ -1347,6 +1448,12 @@ castle = {
 	}
 	ca_special_jaali_tree = {
 		desc = ca_special_jaali_tree_desc
+		trigger = {
+			FROMFROM = {
+				title = b_basli_forest
+				has_building = ca_special_jaali_tree
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_basli_forest
@@ -1360,6 +1467,17 @@ castle = {
 	}
 	ca_special_levytan_tradepost = {
 		desc = ca_special_levytan_tradepost_desc
+		trigger = {
+			FROMFROM = {
+				OR = {
+					title = b_n_kalani_coast
+					title = b_w_grey_coast
+					title = b_etzu_berth
+					title = b_levyt_city
+				}
+				has_building = ca_special_levytan_tradepost
+			}
+		}
 		potential = {
 			FROMFROM = {
 				OR = {
@@ -1379,6 +1497,12 @@ castle = {
 	}
 	ca_special_niya_falls = {
 		desc = ca_special_niya_falls_desc
+		trigger = {
+			FROMFROM = {
+				title = b_silt_castle
+				has_building = ca_special_niya_falls
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_silt_castle
@@ -1392,6 +1516,12 @@ castle = {
 	}
 	ca_special_yava_village = {
 		desc = ca_special_yava_village_desc
+		trigger = {
+			FROMFROM = {
+				title = b_c_yava_forest
+				has_building = ca_special_yava_village
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_c_yava_forest
@@ -1406,6 +1536,12 @@ castle = {
 	}
 	ca_special_gawei_village = {
 		desc = ca_special_gawei_village_desc
+		trigger = {
+			FROMFROM = {
+				title = b_gawei_village
+				has_building = ca_special_gawei_village
+			}
+		}
 		potential = {
 			FROMFROM = {
 				title = b_gawei_village
