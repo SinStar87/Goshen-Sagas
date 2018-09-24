@@ -1,4 +1,0 @@
-opened_gates = {
-	siege_defence = -0.3
-	icon = 27
-}
