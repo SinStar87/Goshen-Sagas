@@ -1,0 +1,7 @@
+Post Alpha +2
+Intro event with loc specific to; Levyt, Gawei, Ran-nu, Abimelech, and Hesen
+Generic Governments, patching up the itqa issue
+Illness and Injury fixing and clean up, Illness no longer a factor in injury gain
+History fixing
+Code cleanup and bugfixing
+Easter Egg
