@@ -79,21 +79,6 @@ EVTOPTAgoshen_maintenance_events.10;"May Maku remove [From.GetHerHis] worldly bu
 ###################
 #Story Events
 ###################
-EVTTTLgoshen_story_events.1;Days of Strife;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1soule;You return from the raid ;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1rhun;A;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1moto;A;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1supreme;A;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1stev;A;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1mel;A;;;;;;;;;;;;;x
-EVTDESCgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTAgoshen_story_events.1;He'll pay for this!;;;;;;;;;;;;;x
-EVTOPTBgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTCgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTDgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTEgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTFgoshen_story_events.1;A;;;;;;;;;;;;;x
-EVTOPTGgoshen_story_events.1;A;;;;;;;;;;;;;x
 
 ###################
 #Personality Events
@@ -309,6 +294,22 @@ EVTOPTBgoshen_job_events.31;Damn it, [From.GetFirstName] [From.Liege.GetTitledFi
 ##############
 #Informer Events
 ##############
+EVTTTLgoshen_story_events.0;Welcome to Goshen;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0gawei;The Gawei are fervant supporters of the Supreme Elder, what is commanded, the Gawei obey. This unquestioning obedience has seen great stability in the Realm and, through the elite Gawei commanders, the Will of the Supreme Elder, caused the Gawei grow from one of many tribes to Rulers of the whole Island and beyond. A solid next step to take would be finishing off the Ran-nu.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0rannu;For much of their history, the Ran-nu were a collection of mostly cooperative but independent tribes. This changed when the Gawei landed, the Tribes came together to oust the invaders, but failed against the discplined force. Afterwards the Gawei flooded in and forced the Ran-nu into the East Daly Mountains. But now, the Ran-nu are firmly united, it is time to raise the Ran-nu army, the Bule, and return home.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0levyt;Levyt is the largest realm of Goshen to date, it wasn't always so. Prior to the Gawei Invasion it was a single City-state at the mouth of the river, but soon diplomacy and trade saw their influence spread and member states join the council. Now the Levytans watch carefully as the Abimelech to the west and the Gawei begin the Days of Strife. For, perhaps, some gains could be made. Mayhaps even the return of Kzi.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0abimelech;The Abimelech are a people made strong by the harsh mountains the inhabit. As such they follow The Way, the Strong protect and rule the Weak and the Weak serve the Strong. Because of this belief, battle and war are integral to their society, if they can take it, it belongs to them. A fact their immediate neighbors know very well, from the yearly raids they suffer. A wily Chief might fully conquer the Kalani as a first step.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0hesen;The Silent One leads the Hesen through the Asante. For a time, the Silent One demanded the Hesen ignore the world outside their island but. Learning of unbelievers in Goshen, the Silent One commands the Hesen to seek them out and see to their conversion, or destruction. And the first Conversions shall be on the nearest island, Khes.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.0;Hello and welcome to the World of Goshen, created by Dillon B. Sapp and Cody Lee Collins. It is a broken world full of people, Goshenites, struggling to survive in these Days of Strife. With the Gawei and Ran-nu trading blows over a peninsula and the Abimelech settling who sits on the Skull Throne, as the Levyt watch on intently. The West of Pan is never stable, for the Anin ever seek to unit the Blavs while passing through the Gap to harass the Ades.;;;;;;;;;;;;;x
+EVTOPTAgoshen_story_events.0;For the Supreme!;;;;;;;;;;;;;x
+EVTOPTBgoshen_story_events.0;Call up the Bule, we march!;;;;;;;;;;;;;x
+EVTOPTCgoshen_story_events.0;Watch and wait, strike when it's time.;;;;;;;;;;;;;x
+EVTOPTDgoshen_story_events.0;The Axe and the Mountain!;;;;;;;;;;;;;x
+EVTOPTEgoshen_story_events.0;Purge the disbelievers!;;;;;;;;;;;;;x
+EVTOPTFgoshen_story_events.0;Oh, interesting!;;;;;;;;;;;;;x
+EVTOPTGgoshen_story_events.0;Ok;;;;;;;;;;;;;x
+
+#Misc Informers
 EVTDESC31;[From.GetTitledFirstName] has seen fit to strike into your Realm, intent on forcing your people from their homes.;;;;;;;;;;;;;x
 EVTOPTA31;Raise the Levies!;;;;;;;;;;;;;x
 EVTDESC4;[recruit.GetFullName] entered your court, offering [recruit.GetHerHis] services.;;;;;;;;;;;;;x

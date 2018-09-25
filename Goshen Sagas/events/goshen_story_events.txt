@@ -94,4 +94,17 @@ narrative_event = {	#Days of Strife Intros
 			}
 		}
 	}
+
+	option = {
+		name = EVTOPTGgoshen_story_events.1
+		trigger = {
+			NOR = {
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
+			}
+		}
+	}
 }
