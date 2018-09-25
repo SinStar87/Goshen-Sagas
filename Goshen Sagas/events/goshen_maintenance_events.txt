@@ -263,12 +263,8 @@ character_event = {	#Startup Maintenance
 				}
 			}
 		}
-		any_player = {	#Fire the Days of Strife
-			limit = {
-				start_date = 2000.1.1
-				NOT = { year = 2001 }
-			}
-			narrative_event = { id = goshen_story_events.1 }
+		any_player = {#Imprtant Culture Info
+			narrative_event = { id = goshen_story_events.0 }
 		}
 	}
 }

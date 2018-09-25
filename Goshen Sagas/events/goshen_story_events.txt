@@ -1,53 +1,46 @@
 namespace = goshen_story_events
 narrative_event = {	#Days of Strife Intros
-	id = goshen_story_events.1
-	title = EVTTTLgoshen_story_events.1
+	id = goshen_story_events.0
+	title = EVTTTLgoshen_story_events.0
 	desc = {
-		text = EVTDESCgoshen_story_events.1soule
+		text = EVTDESCgoshen_story_events.0gawei
 		trigger = {
-			character = 39
+			culture = gawei
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_story_events.1rhun
+		text = EVTDESCgoshen_story_events.0rannu
 		trigger = {
-			character = 27
+			culture = rannu
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_story_events.1moto
+		text = EVTDESCgoshen_story_events.0levyt
 		trigger = {
-			character = 6022
+			culture = levyt
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_story_events.1supreme
+		text = EVTDESCgoshen_story_events.0abimelech
 		trigger = {
-			character = 6010
+			culture = abimelech
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_story_events.1stev
+		text = EVTDESCgoshen_story_events.0hesen
 		trigger = {
-			character = 6011
-		}
-	}
-	desc = {
-		text = EVTDESCgoshen_story_events.1mel
-		trigger = {
-			character = 18002
+			culture = hesen
 		}
 	}
 	desc = {
 		text = EVTDESCgoshen_story_events.1
 		trigger = {
 			NOR = {
-				character = 39
-				character = 27
-				character = 6022
-				character = 6010
-				character = 6011
-				character = 18002
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
 			}
 		}
 	}
@@ -57,55 +50,47 @@ narrative_event = {	#Days of Strife Intros
 	option = {
 		name = EVTOPTAgoshen_story_events.1
 		trigger = {
-			character = 39
+				culture = gawei
 		}
 	}
 
 	option = {
 		name = EVTOPTBgoshen_story_events.1
 		trigger = {
-			character = 27
+				culture = rannu
 		}
 	}
 
 	option = {
 		name = EVTOPTCgoshen_story_events.1
 		trigger = {
-			character = 6022
+				culture = levyt
 		}
 	}
 
 	option = {
 		name = EVTOPTDgoshen_story_events.1
 		trigger = {
-			character = 6010
+				culture = abimelech
 		}
 	}
 
 	option = {
 		name = EVTOPTEgoshen_story_events.1
 		trigger = {
-			character = 6011
+				culture = hesen
 		}
 	}
 
 	option = {
 		name = EVTOPTFgoshen_story_events.1
 		trigger = {
-			character = 18002
-		}
-	}
-
-	option = {
-		name = EVTOPTGgoshen_story_events.1
-		trigger = {
 			NOR = {
-				character = 39
-				character = 27
-				character = 6022
-				character = 6010
-				character = 6011
-				character = 18002
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
 			}
 		}
 	}

@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_agent"
-		texturefile = "gfx/traits/agent.dds"
+		texturefile = "gfx/traits/agent.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -10,7 +10,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_mediator"
-		texturefile = "gfx/traits/mediator.dds"
+		texturefile = "gfx/traits/mediator.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -18,7 +18,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_minister"
-		texturefile = "gfx/traits/minister.dds"
+		texturefile = "gfx/traits/minister.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -26,7 +26,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_emissary"
-		texturefile = "gfx/traits/emissary.dds"
+		texturefile = "gfx/traits/emissary.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -34,7 +34,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_clerk"
-		texturefile = "gfx/traits/clerk.dds"
+		texturefile = "gfx/traits/clerk.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -42,7 +42,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_entrepreneur"
-		texturefile = "gfx/traits/entrepreneur.dds"
+		texturefile = "gfx/traits/entrepreneur.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -50,7 +50,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_financier"
-		texturefile = "gfx/traits/financier.dds"
+		texturefile = "gfx/traits/financier.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -58,7 +58,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_mogul"
-		texturefile = "gfx/traits/mogul.dds"
+		texturefile = "gfx/traits/mogul.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -66,7 +66,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_fighter"
-		texturefile = "gfx/traits/fighter.dds"
+		texturefile = "gfx/traits/fighter.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -74,7 +74,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_soldier"
-		texturefile = "gfx/traits/soldier.dds"
+		texturefile = "gfx/traits/soldier.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -82,7 +82,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_tactician"
-		texturefile = "gfx/traits/tactician.dds"
+		texturefile = "gfx/traits/tactician.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -90,7 +90,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_strategist"
-		texturefile = "gfx/traits/strategist.dds"
+		texturefile = "gfx/traits/strategist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -98,7 +98,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_mastermind"
-		texturefile = "gfx/traits/mastermind.dds"
+		texturefile = "gfx/traits/mastermind.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -106,7 +106,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_rascal"
-		texturefile = "gfx/traits/rascal.dds"
+		texturefile = "gfx/traits/rascal.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -114,7 +114,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_rogue"
-		texturefile = "gfx/traits/rogue.dds"
+		texturefile = "gfx/traits/rogue.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -122,7 +122,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_schemer"
-		texturefile = "gfx/traits/schemer.dds"
+		texturefile = "gfx/traits/schemer.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -130,7 +130,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_conspirator"
-		texturefile = "gfx/traits/conspirator.dds"
+		texturefile = "gfx/traits/conspirator.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -138,7 +138,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_thinker"
-		texturefile = "gfx/traits/thinker.dds"
+		texturefile = "gfx/traits/thinker.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -146,7 +146,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_intellectual"
-		texturefile = "gfx/traits/intellectual.dds"
+		texturefile = "gfx/traits/intellectual.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -154,7 +154,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_scholar"
-		texturefile = "gfx/traits/scholar.dds"
+		texturefile = "gfx/traits/scholar.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -162,7 +162,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sage"
-		texturefile = "gfx/traits/sage.dds"
+		texturefile = "gfx/traits/sage.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -170,7 +170,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_noncombatant"
-		texturefile = "gfx/traits/noncombatant.dds"
+		texturefile = "gfx/traits/noncombatant.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -178,7 +178,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_scrapper"
-		texturefile = "gfx/traits/scrapper.dds"
+		texturefile = "gfx/traits/scrapper.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -186,7 +186,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_fighter"
-		texturefile = "gfx/traits/fighter.dds"
+		texturefile = "gfx/traits/fighter.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -194,7 +194,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_champion"
-		texturefile = "gfx/traits/champion.dds"
+		texturefile = "gfx/traits/champion.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -202,7 +202,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_legend"
-		texturefile = "gfx/traits/legend.dds"
+		texturefile = "gfx/traits/legend.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -210,7 +210,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_susceptible"
-		texturefile = "gfx/traits/susceptible.dds"
+		texturefile = "gfx/traits/susceptible.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -218,7 +218,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_receptive"
-		texturefile = "gfx/traits/receptive.dds"
+		texturefile = "gfx/traits/receptive.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -226,7 +226,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_impartial"
-		texturefile = "gfx/traits/impartial.dds"
+		texturefile = "gfx/traits/impartial.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -234,7 +234,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_biased"
-		texturefile = "gfx/traits/biased.dds"
+		texturefile = "gfx/traits/biased.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -242,7 +242,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_prejudiced"
-		texturefile = "gfx/traits/prejudiced.dds"
+		texturefile = "gfx/traits/prejudiced.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -250,7 +250,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_controlling"
-		texturefile = "gfx/traits/controlling.dds"
+		texturefile = "gfx/traits/controlling.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -258,7 +258,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_calculating"
-		texturefile = "gfx/traits/calculating.dds"
+		texturefile = "gfx/traits/calculating.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -266,7 +266,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_willful"
-		texturefile = "gfx/traits/willful.dds"
+		texturefile = "gfx/traits/willful.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -274,7 +274,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_erratic"
-		texturefile = "gfx/traits/erratic.dds"
+		texturefile = "gfx/traits/erratic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -282,7 +282,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_irrational"
-		texturefile = "gfx/traits/irrational.dds"
+		texturefile = "gfx/traits/irrational.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -290,7 +290,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_extrovert"
-		texturefile = "gfx/traits/extrovert.dds"
+		texturefile = "gfx/traits/extrovert.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -298,7 +298,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_friendly"
-		texturefile = "gfx/traits/friendly.dds"
+		texturefile = "gfx/traits/friendly.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -306,7 +306,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_cordial"
-		texturefile = "gfx/traits/cordial.dds"
+		texturefile = "gfx/traits/cordial.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -314,7 +314,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_cold"
-		texturefile = "gfx/traits/cold.dds"
+		texturefile = "gfx/traits/cold.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -322,7 +322,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_introvert"
-		texturefile = "gfx/traits/introvert.dds"
+		texturefile = "gfx/traits/introvert.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -330,7 +330,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_overeager"
-		texturefile = "gfx/traits/overeager.dds"
+		texturefile = "gfx/traits/overeager.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -338,7 +338,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sympathetic"
-		texturefile = "gfx/traits/sympathetic.dds"
+		texturefile = "gfx/traits/sympathetic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -346,7 +346,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_responsive"
-		texturefile = "gfx/traits/responsive.dds"
+		texturefile = "gfx/traits/responsive.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -354,7 +354,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_unwilling"
-		texturefile = "gfx/traits/unwilling.dds"
+		texturefile = "gfx/traits/unwilling.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -362,7 +362,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_irreconcilable"
-		texturefile = "gfx/traits/irreconcilable.dds"
+		texturefile = "gfx/traits/irreconcilable.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -370,7 +370,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_trait_carefree"
-		texturefile = "gfx/traits/carefree.dds"
+		texturefile = "gfx/traits/carefree.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -378,7 +378,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_idealist"
-		texturefile = "gfx/traits/idealist.dds"
+		texturefile = "gfx/traits/idealist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -386,7 +386,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pragmatic"
-		texturefile = "gfx/traits/pragmatic.dds"
+		texturefile = "gfx/traits/pragmatic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -394,7 +394,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_cynic"
-		texturefile = "gfx/traits/cynic.dds"
+		texturefile = "gfx/traits/cynic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -402,7 +402,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pessimist"
-		texturefile = "gfx/traits/pessimist.dds"
+		texturefile = "gfx/traits/pessimist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -410,7 +410,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_minor_illness"
-		texturefile = "gfx/traits/minor_illness.dds"
+		texturefile = "gfx/traits/minor_illness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -418,7 +418,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_moderate_illness"
-		texturefile = "gfx/traits/moderate_illness.dds"
+		texturefile = "gfx/traits/moderate_illness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -426,7 +426,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_severe_illness"
-		texturefile = "gfx/traits/severe_illness.dds"
+		texturefile = "gfx/traits/severe_illness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -434,7 +434,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_incapacitating_illness"
-		texturefile = "gfx/traits/incapacitating_illness.dds"
+		texturefile = "gfx/traits/incapacitating_illness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -442,7 +442,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_deadly_illness"
-		texturefile = "gfx/traits/deadly_illness.dds"
+		texturefile = "gfx/traits/deadly_illness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -450,7 +450,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_minor_injury"
-		texturefile = "gfx/traits/minor_injury.dds"
+		texturefile = "gfx/traits/minor_injury.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -458,7 +458,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_moderate_injury"
-		texturefile = "gfx/traits/moderate_injury.dds"
+		texturefile = "gfx/traits/moderate_injury.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -466,7 +466,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_severe_injury"
-		texturefile = "gfx/traits/severe_injury.dds"
+		texturefile = "gfx/traits/severe_injury.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -474,7 +474,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_incapacitating_injury"
-		texturefile = "gfx/traits/incapacitating_injury.dds"
+		texturefile = "gfx/traits/incapacitating_injury.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -482,7 +482,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_deadly_injury"
-		texturefile = "gfx/traits/deadly_injury.dds"
+		texturefile = "gfx/traits/deadly_injury.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -490,7 +490,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pregnant"
-		texturefile = "gfx/traits/pregnant.dds"
+		texturefile = "gfx/traits/pregnant.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -498,7 +498,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_blinded"
-		texturefile = "gfx/traits/blinded.dds"
+		texturefile = "gfx/traits/blinded.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -506,7 +506,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_eunuch"
-		texturefile = "gfx/traits/eunuch.dds"
+		texturefile = "gfx/traits/eunuch.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -514,7 +514,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sickly"
-		texturefile = "gfx/traits/sickly.dds"
+		texturefile = "gfx/traits/sickly.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -522,7 +522,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_twin"
-		texturefile = "gfx/traits/twin.dds"
+		texturefile = "gfx/traits/twin.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -530,7 +530,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_child_of_consort"
-		texturefile = "gfx/traits/child_of_consort.dds"
+		texturefile = "gfx/traits/child_of_consort.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -538,7 +538,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_bastard"
-		texturefile = "gfx/traits/bastard.dds"
+		texturefile = "gfx/traits/bastard.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -546,7 +546,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_legit_bastard"
-		texturefile = "gfx/traits/legit_bastard.dds"
+		texturefile = "gfx/traits/legit_bastard.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -554,7 +554,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_born_in_the_purple"
-		texturefile = "gfx/traits/born_in_the_purple.dds"
+		texturefile = "gfx/traits/born_in_the_purple.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -562,7 +562,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_strong"
-		texturefile = "gfx/traits/strong.dds"
+		texturefile = "gfx/traits/strong.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -570,7 +570,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_halenhearty"
-		texturefile = "gfx/traits/halenhearty.dds"
+		texturefile = "gfx/traits/halenhearty.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -578,7 +578,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_weak"
-		texturefile = "gfx/traits/weak.dds"
+		texturefile = "gfx/traits/weak.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -586,7 +586,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_feeble"
-		texturefile = "gfx/traits/feeble.dds"
+		texturefile = "gfx/traits/feeble.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -594,7 +594,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_huargen_trait"
-		texturefile = "gfx/traits/huargen_trait.dds"
+		texturefile = "gfx/traits/huargen_trait.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -602,7 +602,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_colossal"
-		texturefile = "gfx/traits/colossal.dds"
+		texturefile = "gfx/traits/colossal.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -610,7 +610,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_tall"
-		texturefile = "gfx/traits/tall.dds"
+		texturefile = "gfx/traits/tall.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -618,7 +618,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_small"
-		texturefile = "gfx/traits/small.dds"
+		texturefile = "gfx/traits/small.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -626,7 +626,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_dwarf"
-		texturefile = "gfx/traits/dwarf.dds"
+		texturefile = "gfx/traits/dwarf.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -634,7 +634,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_yava_trait"
-		texturefile = "gfx/traits/yava_trait.dds"
+		texturefile = "gfx/traits/yava_trait.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -642,7 +642,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gorgeous"
-		texturefile = "gfx/traits/gorgeous.dds"
+		texturefile = "gfx/traits/gorgeous.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -650,7 +650,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_fair"
-		texturefile = "gfx/traits/fair.dds"
+		texturefile = "gfx/traits/fair.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -658,7 +658,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_lackluster"
-		texturefile = "gfx/traits/lackluster.dds"
+		texturefile = "gfx/traits/lackluster.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -666,7 +666,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_ugly"
-		texturefile = "gfx/traits/ugly.dds"
+		texturefile = "gfx/traits/ugly.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -674,7 +674,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_prodigy"
-		texturefile = "gfx/traits/prodigy.dds"
+		texturefile = "gfx/traits/prodigy.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -682,7 +682,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_clever"
-		texturefile = "gfx/traits/clever.dds"
+		texturefile = "gfx/traits/clever.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -690,7 +690,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_inept"
-		texturefile = "gfx/traits/inept.dds"
+		texturefile = "gfx/traits/inept.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -698,7 +698,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_fool"
-		texturefile = "gfx/traits/fool.dds"
+		texturefile = "gfx/traits/fool.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -706,7 +706,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_kalan_trait"
-		texturefile = "gfx/traits/kalan_trait.dds"
+		texturefile = "gfx/traits/kalan_trait.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -714,7 +714,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_hunute_trait"
-		texturefile = "gfx/traits/hunute_trait.dds"
+		texturefile = "gfx/traits/hunute_trait.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -722,7 +722,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_good_attacker"
-		texturefile = "gfx/traits/good_attacker.dds"
+		texturefile = "gfx/traits/good_attacker.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -730,7 +730,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_good_defender"
-		texturefile = "gfx/traits/good_defender.dds"
+		texturefile = "gfx/traits/good_defender.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -738,7 +738,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_good_sieger"
-		texturefile = "gfx/traits/good_sieger.dds"
+		texturefile = "gfx/traits/good_sieger.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -746,7 +746,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_living_life"
-		texturefile = "gfx/traits/living_life.dds"
+		texturefile = "gfx/traits/living_life.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -754,7 +754,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_childhood_trait"
-		texturefile = "gfx/traits/childhood_trait.dds"
+		texturefile = "gfx/traits/childhood_trait.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -762,7 +762,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_1"
-		texturefile = "gfx/traits/gawei_sword_1.dds"
+		texturefile = "gfx/traits/gawei_sword_1.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -770,7 +770,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_2"
-		texturefile = "gfx/traits/gawei_sword_2.dds"
+		texturefile = "gfx/traits/gawei_sword_2.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -778,7 +778,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_3"
-		texturefile = "gfx/traits/gawei_sword_3.dds"
+		texturefile = "gfx/traits/gawei_sword_3.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -786,7 +786,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_4"
-		texturefile = "gfx/traits/gawei_sword_4.dds"
+		texturefile = "gfx/traits/gawei_sword_4.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -794,7 +794,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_5"
-		texturefile = "gfx/traits/gawei_sword_5.dds"
+		texturefile = "gfx/traits/gawei_sword_5.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -802,7 +802,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_6"
-		texturefile = "gfx/traits/gawei_sword_6.dds"
+		texturefile = "gfx/traits/gawei_sword_6.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -810,7 +810,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_7"
-		texturefile = "gfx/traits/gawei_sword_7.dds"
+		texturefile = "gfx/traits/gawei_sword_7.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -818,7 +818,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_8"
-		texturefile = "gfx/traits/gawei_sword_8.dds"
+		texturefile = "gfx/traits/gawei_sword_8.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -826,7 +826,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_gawei_sword_9"
-		texturefile = "gfx/traits/gawei_sword_9.dds"
+		texturefile = "gfx/traits/gawei_sword_9.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -834,7 +834,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_swordsmith"
-		texturefile = "gfx/traits/swordsmith.dds"
+		texturefile = "gfx/traits/swordsmith.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -842,7 +842,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_generic"
-		texturefile = "gfx/traits/sword_generic.dds"
+		texturefile = "gfx/traits/sword_generic.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -850,7 +850,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_gilded"
-		texturefile = "gfx/traits/sword_gilded.dds"
+		texturefile = "gfx/traits/sword_gilded.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -858,7 +858,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_grandeur"
-		texturefile = "gfx/traits/sword_grandeur.dds"
+		texturefile = "gfx/traits/sword_grandeur.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -866,7 +866,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_crimson_bolt"
-		texturefile = "gfx/traits/sword_crimson_bolt.dds"
+		texturefile = "gfx/traits/sword_crimson_bolt.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -874,7 +874,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_darkness"
-		texturefile = "gfx/traits/sword_darkness.dds"
+		texturefile = "gfx/traits/sword_darkness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -882,7 +882,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_ekers_light"
-		texturefile = "gfx/traits/sword_ekers_light.dds"
+		texturefile = "gfx/traits/sword_ekers_light.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -890,7 +890,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_flight"
-		texturefile = "gfx/traits/sword_flight.dds"
+		texturefile = "gfx/traits/sword_flight.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -898,7 +898,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_luxs_setting"
-		texturefile = "gfx/traits/sword_luxs_setting.dds"
+		texturefile = "gfx/traits/sword_luxs_setting.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -906,7 +906,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_might_abimelech"
-		texturefile = "gfx/traits/sword_might_abimelech.dds"
+		texturefile = "gfx/traits/sword_might_abimelech.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -914,7 +914,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_roses_thorn"
-		texturefile = "gfx/traits/sword_roses_thorn.dds"
+		texturefile = "gfx/traits/sword_roses_thorn.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -922,7 +922,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_silver_wisp"
-		texturefile = "gfx/traits/sword_silver_wisp.dds"
+		texturefile = "gfx/traits/sword_silver_wisp.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -930,7 +930,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_sword_vastness"
-		texturefile = "gfx/traits/sword_vastness.dds"
+		texturefile = "gfx/traits/sword_vastness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -938,7 +938,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_leather"
-		texturefile = "gfx/traits/armor_leather.dds"
+		texturefile = "gfx/traits/armor_leather.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -946,7 +946,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_blackleather"
-		texturefile = "gfx/traits/armor_blackleather.dds"
+		texturefile = "gfx/traits/armor_blackleather.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -954,7 +954,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_chain"
-		texturefile = "gfx/traits/armor_chain.dds"
+		texturefile = "gfx/traits/armor_chain.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -962,7 +962,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_blackplate"
-		texturefile = "gfx/traits/armor_blackplate.dds"
+		texturefile = "gfx/traits/armor_blackplate.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -970,7 +970,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_bronzemail"
-		texturefile = "gfx/traits/armor_bronzemail.dds"
+		texturefile = "gfx/traits/armor_bronzemail.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -978,7 +978,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_goldplate"
-		texturefile = "gfx/traits/armor_goldplate.dds"
+		texturefile = "gfx/traits/armor_goldplate.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -986,7 +986,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_greyplate"
-		texturefile = "gfx/traits/armor_greyplate.dds"
+		texturefile = "gfx/traits/armor_greyplate.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -994,7 +994,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_knight"
-		texturefile = "gfx/traits/armor_knight.dds"
+		texturefile = "gfx/traits/armor_knight.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1002,7 +1002,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_knightplate"
-		texturefile = "gfx/traits/armor_knightplate.dds"
+		texturefile = "gfx/traits/armor_knightplate.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1010,7 +1010,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_armor_plate"
-		texturefile = "gfx/traits/armor_plate.dds"
+		texturefile = "gfx/traits/armor_plate.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1018,7 +1018,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_beon"
-		texturefile = "gfx/traits/pet_beon.dds"
+		texturefile = "gfx/traits/pet_beon.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1026,7 +1026,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_beonpup"
-		texturefile = "gfx/traits/pet_beonpup.dds"
+		texturefile = "gfx/traits/pet_beonpup.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1034,7 +1034,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_kunun"
-		texturefile = "gfx/traits/pet_kunun.dds"
+		texturefile = "gfx/traits/pet_kunun.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1042,7 +1042,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_kununpup"
-		texturefile = "gfx/traits/pet_kununpup.dds"
+		texturefile = "gfx/traits/pet_kununpup.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1050,7 +1050,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_pleen"
-		texturefile = "gfx/traits/pet_pleen.dds"
+		texturefile = "gfx/traits/pet_pleen.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1058,7 +1058,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_pleencub"
-		texturefile = "gfx/traits/pet_pleencub.dds"
+		texturefile = "gfx/traits/pet_pleencub.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1066,7 +1066,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_tochon"
-		texturefile = "gfx/traits/pet_tochon.dds"
+		texturefile = "gfx/traits/pet_tochon.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1074,7 +1074,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_tochonkitten"
-		texturefile = "gfx/traits/pet_tochonkitten.dds"
+		texturefile = "gfx/traits/pet_tochonkitten.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1082,7 +1082,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_tusken"
-		texturefile = "gfx/traits/pet_tusken.dds"
+		texturefile = "gfx/traits/pet_tusken.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1090,7 +1090,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_pet_tusklet"
-		texturefile = "gfx/traits/pet_tusklet.dds"
+		texturefile = "gfx/traits/pet_tusklet.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1098,7 +1098,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_guardsman"
-		texturefile = "gfx/traits/guardsman.dds"
+		texturefile = "gfx/traits/guardsman.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1106,7 +1106,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_malaise"
-		texturefile = "gfx/traits/has_malaise.dds"
+		texturefile = "gfx/traits/has_malaise.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1114,7 +1114,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_red_fever"
-		texturefile = "gfx/traits/has_red_fever.dds"
+		texturefile = "gfx/traits/has_red_fever.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1122,7 +1122,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_red_plague"
-		texturefile = "gfx/traits/has_red_plague.dds"
+		texturefile = "gfx/traits/has_red_plague.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1130,7 +1130,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_shigella"
-		texturefile = "gfx/traits/has_shigella.dds"
+		texturefile = "gfx/traits/has_shigella.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1138,7 +1138,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_hansen"
-		texturefile = "gfx/traits/has_hansen.dds"
+		texturefile = "gfx/traits/has_hansen.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1146,7 +1146,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_delusia"
-		texturefile = "gfx/traits/has_delusia.dds"
+		texturefile = "gfx/traits/has_delusia.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1154,7 +1154,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_sickness"
-		texturefile = "gfx/traits/has_sickness.dds"
+		texturefile = "gfx/traits/has_sickness.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1162,7 +1162,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_plaga"
-		texturefile = "gfx/traits/has_plaga.dds"
+		texturefile = "gfx/traits/has_plaga.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1170,7 +1170,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_has_black_fog"
-		texturefile = "gfx/traits/has_black_fog.dds"
+		texturefile = "gfx/traits/has_black_fog.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1178,7 +1178,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_trait_is_medicus"
-		texturefile = "gfx/traits/is_medicus.dds"
+		texturefile = "gfx/traits/is_medicus.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
