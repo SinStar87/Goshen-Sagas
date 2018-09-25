@@ -33,7 +33,7 @@ narrative_event = {	#Days of Strife Intros
 		}
 	}
 	desc = {
-		text = EVTDESCgoshen_story_events.1
+		text = EVTDESCgoshen_story_events.0
 		trigger = {
 			NOR = {
 				culture = gawei
@@ -48,42 +48,42 @@ narrative_event = {	#Days of Strife Intros
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTAgoshen_story_events.1
+		name = EVTOPTAgoshen_story_events.0
 		trigger = {
 				culture = gawei
 		}
 	}
 
 	option = {
-		name = EVTOPTBgoshen_story_events.1
+		name = EVTOPTBgoshen_story_events.0
 		trigger = {
 				culture = rannu
 		}
 	}
 
 	option = {
-		name = EVTOPTCgoshen_story_events.1
+		name = EVTOPTCgoshen_story_events.0
 		trigger = {
 				culture = levyt
 		}
 	}
 
 	option = {
-		name = EVTOPTDgoshen_story_events.1
+		name = EVTOPTDgoshen_story_events.0
 		trigger = {
 				culture = abimelech
 		}
 	}
 
 	option = {
-		name = EVTOPTEgoshen_story_events.1
+		name = EVTOPTEgoshen_story_events.0
 		trigger = {
 				culture = hesen
 		}
 	}
 
 	option = {
-		name = EVTOPTFgoshen_story_events.1
+		name = EVTOPTFgoshen_story_events.0
 		trigger = {
 			NOR = {
 				culture = gawei
@@ -96,7 +96,7 @@ narrative_event = {	#Days of Strife Intros
 	}
 
 	option = {
-		name = EVTOPTGgoshen_story_events.1
+		name = EVTOPTGgoshen_story_events.0
 		trigger = {
 			NOR = {
 				culture = gawei
