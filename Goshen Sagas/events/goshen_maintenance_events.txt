@@ -563,6 +563,7 @@ character_event = {	#Set Racial Traits
 			culture = huargens
 			culture = yava
 			culture = kalan
+			dynasty = 123456
 		}
 		NOR = {
 			trait = huargen_trait
@@ -592,6 +593,12 @@ character_event = {	#Set Racial Traits
 				NOT = { trait = kalan_trait }
 			}
 			add_trait = kalan_trait
+		}
+		IF = {
+			limit = {
+				dynasty = 123456
+			}
+			set_graphical_culture = polar
 		}
 	}
 }
@@ -1933,18 +1940,5 @@ character_event = {	#Populate the Dying Lands
 				}
 			}
 		}
-	}
-}
-character_event = {	#Polar Maintenance
-	id = goshen_maintenance_events.1000
-	is_triggered_only = yes
-	hide_window = yes
-
-	trigger = {
-		dynasty = 123456
-	}
-
-	immediate = {
-		set_graphical_culture = polar
 	}
 }
