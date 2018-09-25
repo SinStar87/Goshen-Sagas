@@ -8,4 +8,12 @@ spriteTypes = {
 		can_be_lowres = yes
 	}
 
+	spriteType = {
+		name = "GFX_polar"
+		texturefile = "gfx\\characters\\unoccupied\\polar.dds"
+		noOfFrames = 1
+		norefcount = yes
+		can_be_lowres = yes
+	}
+
 }
