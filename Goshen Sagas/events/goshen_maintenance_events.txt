@@ -267,17 +267,17 @@ character_event = {	#Startup Maintenance
 			limit = {
 				ai = yes
 			}
-			create_random_soldier = {
+			create_character = {
 				name = "M'rowa"
 				dynasty = 120000
 				age = 20
 				health = 5
 				fertility = 0.5
-				culture = THIS
-				religion = THIS
+				culture = polar
 			}
 			new_character = {
-				set_graphical_culture = polar
+				culture = THIS
+				religion = THIS
 				IF = {
 					limit = { NOT = { has_combat_prowess_trigger = yes } }
 					random_list = {
