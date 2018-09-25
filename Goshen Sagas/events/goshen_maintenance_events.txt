@@ -277,6 +277,7 @@ character_event = {	#Startup Maintenance
 				religion = THIS
 			}
 			new_character = {
+				set_graphical_culture = polar
 				IF = {
 					limit = { NOT = { has_combat_prowess_trigger = yes } }
 					random_list = {
@@ -1932,5 +1933,18 @@ character_event = {	#Populate the Dying Lands
 				}
 			}
 		}
+	}
+}
+character_event = {	#Polar Maintenance
+	id = goshen_maintenance_events.1000
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		dynasty = 123456
+	}
+
+	immediate = {
+		set_graphical_culture = polar
 	}
 }
