@@ -5,3 +5,6 @@ Illness and Injury fixing and clean up, Illness no longer a factor in injury gai
 History fixing
 Code cleanup and bugfixing
 Easter Egg
+
+Special Thanks
+marowa - artwork; fixing Dying Lands image
