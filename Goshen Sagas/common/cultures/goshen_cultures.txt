@@ -1657,3 +1657,36 @@ unoccupied_group = {
 		modifier = default_culture_modifier
 	}
 }
+polar_group = {
+	graphical_cultures = { westerngfx } # buildings, portraits, units
+
+	polar = {
+		graphical_cultures = { polargfx } # units
+
+		used_for_random = no
+		allow_in_ruler_designer = no
+
+		color = { 0.1 0.1 0.1 }
+
+		male_names = {
+			" "
+		}
+		female_names = {
+			" "
+		}
+
+		from_dynasty_prefix = "of "
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 25
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 5
+		mat_grm_name_chance = 20
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+	}
+}
