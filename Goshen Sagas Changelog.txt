@@ -8,5 +8,9 @@ Decreased AI Aggression
 Code cleanup and bugfixing
 Easter Egg
 
+New Team Member
+tsf4
+Julius Caesar
+
 Special Thanks
 marowa - artwork; fixing Dying Lands image
