@@ -1,0 +1,675 @@
+on_startup = {
+	events = {
+		goshen_maintenance_events.0
+		goshen_maintenance_events.3
+		goshen_maintenance_events.30
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		goshen_maintenance_events.2
+		goshen_maintenance_events.3
+		goshen_maintenance_events.20
+		goshen_pet_events.11
+	}
+	random_events = {
+		400 = 0
+		20 = goshen_pet_events.20
+		1 = goshen_personality_events.31
+		10 = goshen_pet_events.10
+	}
+}
+
+on_bi_yearly_pulse = {
+	events = {
+		goshen_pet_events.1
+	}
+}
+
+on_birth = {
+	events = {
+		goshen_maintenance_events.2
+	}
+}
+
+on_childhood_pulse = {
+	events = {
+		goshen_personality_events.0
+		goshen_cskill_events.0
+	}
+	random_events = {
+		100 = 0
+		20 = goshen_personality_events.21
+		20 = goshen_personality_events.22
+		20 = goshen_personality_events.23
+		20 = goshen_personality_events.24
+		20 = goshen_personality_events.25
+	}
+}
+
+on_adolescence_pulse = {
+	events = {
+		goshen_personality_events.0
+		goshen_personality_events.1
+		goshen_cskill_events.0
+	}
+	random_events = {
+		100 = 0
+		20 = goshen_personality_events.21
+		20 = goshen_personality_events.22
+		20 = goshen_personality_events.23
+		20 = goshen_personality_events.24
+		20 = goshen_personality_events.25
+	}
+}
+
+on_adulthood = {
+	events = {
+		goshen_personality_events.0
+		goshen_personality_events.12
+		goshen_cskill_events.0
+	}
+}
+
+on_combat_pulse = {
+	events = {
+		goshen_cskill_events.0
+	}
+	random_events = {
+		100 = 0
+		25 = goshen_battle_events.2
+		25 = goshen_battle_events.11
+		10 = goshen_battle_events.0
+		5 = goshen_battle_events.1
+	}
+}
+
+on_new_holder = {
+	events = {
+		goshen_coa_events.0
+	}
+}
+
+on_death = {
+	events = {
+		goshen_maintenance_events.20
+		goshen_maintenance_events.21
+		goshen_maintenance_events.1
+		goshen_pet_events.100
+	}
+}
+
+on_war_started = {
+	events = {
+		3
+	}
+}
+
+###########################
+# DIPLOMATIC NOTIFICATIONS
+###########################
+
+# FROM is the character recieving the event
+# FROMFROM is the person sending the event
+# ROOT is empty or a third party
+# new_character is empty or a third party
+
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		202
+	}
+}
+
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		203
+	}
+}
+
+REVOKE_TITLE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		204
+	}
+}
+
+REVOKE_TITLE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		205
+	}
+}
+
+OFFER_PEACE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		206
+		CM.1407 # Charlemagne in Spain
+	}
+}
+
+OFFER_PEACE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		207
+	}
+}
+
+SEND_GIFT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		208
+	}
+}
+
+SEND_GIFT_INTERACTION_DECLINE_EVENT = {
+	events = {
+		209
+	}
+}
+
+ASK_FOR_MONEY_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		SoA.3100
+	}
+}
+
+ASK_FOR_MONEY_INTERACTION_DECLINE_EVENT = {
+	events = {
+		SoA.3101
+	}
+}
+
+ASK_FOR_CLAIM_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		SoA.3104
+	}
+}
+
+ASK_FOR_CLAIM_INTERACTION_DECLINE_EVENT = {
+	events = {
+		SoA.3105
+	}
+}
+
+NOMINATE_BISHOP_TO_POPE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		SoA.3102
+	}
+}
+
+NOMINATE_BISHOP_TO_POPE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		SoA.3103
+	}
+}
+
+
+OFFER_VASSALIZATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		210
+	}
+}
+
+OFFER_VASSALIZATION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		211
+	}
+}
+
+ARRANGE_BETROTHAL_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		212
+	}
+}
+
+ARRANGE_BETROTHAL_INTERACTION_DECLINE_EVENT = {
+	events = {
+		213
+	}
+}
+
+ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		330
+	}
+}
+
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DECLINE_EVENT = {
+	events = {
+		331
+	}
+}
+
+OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		214
+		37255
+	}
+}
+
+OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		215
+	}
+}
+
+OFFER_MARRIGE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		216
+		37255
+	}
+}
+
+OFFER_MARRIGE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		217
+	}
+}
+
+RANSOM_CHARACTER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		218
+	}
+}
+
+RANSOM_CHARACTER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		219
+	}
+}
+
+EDUCATE_CHARACTER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		220
+	}
+}
+
+EDUCATE_CHARACTER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		221
+	}
+}
+
+ABANDON_AMBITION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		222
+	}
+}
+
+ABANDON_AMBITION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		223
+	}
+}
+
+STOP_BACKING_AMBITION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		224
+	}
+}
+
+STOP_BACKING_AMBITION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		225
+	}
+}
+
+JOIN_AMBITION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		226
+	}
+}
+
+JOIN_AMBITION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		227
+	}
+}
+
+GRANT_LANDED_TITLE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		MNM.1217
+		228
+	}
+}
+
+GRANT_LANDED_TITLE_INTERACTION_DECLINE_EVENT = {
+	events = {
+#		229
+	}
+}
+
+APPOINT_TO_OFFICE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		230
+	}
+}
+
+APPOINT_TO_OFFICE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		231
+	}
+}
+
+ASK_FOR_INVASION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		232
+	}
+}
+
+ASK_FOR_INVASION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		233
+	}
+}
+
+#
+ASK_FOR_DIVORCE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		234
+	}
+}
+
+ASK_FOR_DIVORCE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		235
+	}
+}
+
+ASK_FOR_EXCOMMUNICATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		236
+	}
+}
+
+ASK_FOR_EXCOMMUNICATION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		237
+	}
+}
+
+CALL_ALLY_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		238 # Ally accepts
+		41000 # Vassal accepts
+		CM.10014
+	}
+}
+
+CALL_ALLY_INTERACTION_DECLINE_EVENT = {
+	events = {
+		239 # Ally 
+		41001 # Vassal
+	}
+}
+
+DECLARE_WAR_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		240
+		241
+	}
+}
+
+RETRACT_VASSAL_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		274
+	}
+}
+
+RETRACT_VASSAL_INTERACTION_DECLINE_EVENT = {
+	events = {
+		275
+	}
+}
+
+INVITE_TO_COURT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		280
+	}
+}
+
+INVITE_TO_COURT_INTERACTION_DECLINE_EVENT = {
+	events = {
+		281
+	}
+}
+
+ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		282
+	}
+}
+
+ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		283
+	}
+}
+
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		284
+	}
+}
+
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		285
+	}
+}
+
+ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		286
+	}
+}
+
+ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		287
+	}
+}
+
+SETTLE_ADVENTURER_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		288
+		725
+	}
+}
+
+SETTLE_ADVENTURER_INTERACTION_DECLINE_EVENT = {
+	events = {
+		289
+	}
+}
+
+ASK_TO_JOIN_WAR_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		293
+		CM.10013
+	}
+}
+
+ASK_TO_JOIN_WAR_INTERACTION_DECLINE_EVENT = {
+	events = {
+		294
+	}
+}
+
+ASK_TO_EMBARGO_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		295
+	}
+}
+
+ASK_TO_EMBARGO_INTERACTION_DECLINE_EVENT = {
+	events = {
+		296
+	}
+}
+
+MAKE_CONSORT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		297
+	}
+}
+
+MAKE_CONSORT_INTERACTION_DECLINE_EVENT = {
+	events = {
+		298
+	}
+}
+
+ABSORB_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		503
+	}
+}
+
+ABSORB_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		504
+	}
+}
+
+SPLIT_CLAN_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		509
+	}
+}
+
+SPLIT_CLAN_INTERACTION_DECLINE_EVENT = {
+	events = {
+		510
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		505
+	}
+}
+
+FORM_BLOOD_OATH_INTERACTION_DECLINE_EVENT = {
+	events = {
+		506
+	}
+}
+
+SETTLE_FEUD_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		507
+	}
+}
+
+SETTLE_FEUD_INTERACTION_DECLINE_EVENT = {
+	events = {
+		508
+	}
+}
+
+FORM_ALLIANCE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		diploresponse.1
+	}
+}
+
+FORM_ALLIANCE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		diploresponse.2
+	}
+}
+
+DISSOLVE_ALLIANCE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+	}
+}
+
+DISSOLVE_ALLIANCE_INTERACTION_DECLINE_EVENT = {
+	events = {
+	}
+}
+
+BUY_FAVOR_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		520
+	}
+}
+BUY_FAVOR_INTERACTION_DECLINE_EVENT = {
+	events = {
+		521
+	}
+}
+
+REQUEST_SUPPORT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		522
+	}
+}
+REQUEST_SUPPORT_INTERACTION_DECLINE_EVENT = {
+	events = {
+		523
+	}
+}
+
+FORM_NON_AGGRESSION_PACT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		524
+	}
+}
+FORM_NON_AGGRESSION_PACT_INTERACTION_DECLINE_EVENT = {
+	events = {
+		525
+	}
+}
+
+ASK_COUNCIL_POSITION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		526
+	}
+}
+ASK_COUNCIL_POSITION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		527
+	}
+}
+
+ASK_REALM_PEACE_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		528
+	}
+}
+ASK_REALM_PEACE_INTERACTION_DECLINE_EVENT = {
+	events = {
+		529
+	}
+}
+
+FORCE_JOIN_FACTION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		530
+	}
+}
+FORCE_JOIN_FACTION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		531
+	}
+}
+
+ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		535
+	}
+}
+ASK_TO_JOIN_AMBITION_INTERACTION_DECLINE_EVENT = {
+	events = {
+		536
+	}
+}
+OFFER_CONSORT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		537
+	}
+}
+GIVE_ARTIFACT_INTERACTION_ACCEPT_EVENT = {
+	events = {
+		538
+	}
+}
