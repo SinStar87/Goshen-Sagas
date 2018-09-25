@@ -269,7 +269,7 @@ character_event = {	#Startup Maintenance
 			}
 			create_random_soldier = {
 				name = "M'rowa"
-				dynasty = 123456
+				dynasty = 120000
 				age = 20
 				health = 5
 				fertility = 0.5
@@ -563,7 +563,7 @@ character_event = {	#Set Racial Traits
 			culture = huargens
 			culture = yava
 			culture = kalan
-			dynasty = 123456
+			dynasty = 120000
 		}
 		NOR = {
 			trait = huargen_trait
@@ -596,7 +596,7 @@ character_event = {	#Set Racial Traits
 		}
 		IF = {
 			limit = {
-				dynasty = 123456
+				dynasty = 120000
 			}
 			set_graphical_culture = polar
 		}
