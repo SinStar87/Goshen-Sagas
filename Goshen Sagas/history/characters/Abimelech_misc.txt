@@ -58,6 +58,7 @@
 }
 24003 = { # War'o's wife
 	name = "Kuyni"
+	female = yes
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -79,6 +80,141 @@
 		birth = yes
 	}
 	1793.1.1 = {
+		death = yes
+	}
+}
+24004 = {
+	name = Fortah
+	female = yes
+	
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1756.1.1 = {
+		birth = yes
+	}
+	1821.4.9 = {
+		death = yes
+	}
+}
+24005 = {
+	name = Fiey
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1787.1.1 = {
+		birth = yes
+	}
+	1855.1.1 = {
+		death = yes
+	}
+}
+24006 = {
+	name = Kalla
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1823.1.1 = {
+		birth = yes
+	}
+	1870.1.1 = {
+		death = yes
+	}
+}
+24007 = {
+	name = Trig
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1848.1.1 = {
+		birth = yes
+	}
+	1928.1.1 = {
+		death = yes
+	}
+}
+24008 = {
+	name = Nith
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1878.1.1 = {
+		birth = yes
+	}
+	1943.1.1 = {
 		death = yes
 	}
 }
