@@ -3,6 +3,7 @@ Intro event with loc specific to; Levyt, Gawei, Ran-nu, Abimelech, and Hesen
 Generic Governments, patching up the itqa issue
 Illness and Injury fixing and clean up, Illness no longer a factor in injury gain
 Informer Events; War, Employment
+Feast Mechanic
 History fixing
 Decreased AI Aggression
 Code cleanup and bugfixing
