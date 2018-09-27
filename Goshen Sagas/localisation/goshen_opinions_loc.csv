@@ -5,6 +5,11 @@ opinion_loyal;Loyal;;;;;;;;;;;;;x
 opinion_disloyal;Disloyal;;;;;;;;;;;;;x
 opinion_joined_hunt;Joined Hunt;;;;;;;;;;;;;x
 opinion_refused_hunt;Refused Hunt;;;;;;;;;;;;;x
+opinion_join_feast;Joining Feast;;;;;;;;;;;;;x
+opinion_enjoyed_feast;Enjoyed the Feast;;;;;;;;;;;;;x
+opinion_hated_feast;Hated the Feast;;;;;;;;;;;;;x
+opinion_refuse_feast;Refused Feast;;;;;;;;;;;;;x
+opinion_refused_feast;Refused Feast;;;;;;;;;;;;;x
 
 #Killer Opinions
 opinion_killed_family;Killed my Family member;;;;;;;;;;;;;x

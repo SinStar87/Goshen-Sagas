@@ -3,6 +3,8 @@
 #Quest Decisions
 form_hunt_dec;Go on a Hunt;;;;;;;;;;;;;x
 form_hunt_dec_desc;You can go on a once in a lifetime hunt with some of your court.;;;;;;;;;;;;;x
+form_feast_dec;Host a Feast;;;;;;;;;;;;;x
+form_feast_dec_desc;You can host a magnificent feast and invite the Realm.;;;;;;;;;;;;;x
 
 #Misc Decisions
 employ_diplomat;Hire a Diplomat;;;;;;;;;;;;;x

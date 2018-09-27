@@ -5,6 +5,21 @@ opinion_loyal = {
 opinion_disloyal = {
 	opinion = -15
 }
+opinion_join_feast = {
+	opinion = 0
+}
+opinion_refuse_feast = {
+	opinion = 0
+}
+opinion_refused_feast = {
+	opinion = -15
+}
+opinion_enjoyed_feast = {
+	opinion = 15
+}
+opinion_hated_feast = {
+	opinion = -15
+}
 opinion_joined_hunt = {
 	opinion = 15
 }

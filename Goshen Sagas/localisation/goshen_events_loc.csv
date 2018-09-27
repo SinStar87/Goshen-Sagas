@@ -66,7 +66,7 @@ EVTDESCgoshen_injury_events.10;Your pain has noticably increased and the wound i
 EVTOPTAgoshen_injury_events.10;I'm dying!;;;;;;;;;;;;;x
 EVTDESCgoshen_injury_events.20;Your pain is more or less the same so you don't seem any worse than usual.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.20;I'm dying I tell you!!;;;;;;;;;;;;;x
-EVTDESCgoshen_injury_events.30;Your pain has lessened of late and the sores are less oozy. You seem to be getting better.;;;;;;;;;;;;;x
+EVTDESCgoshen_injury_events.30;Your pain has lessed lessened of late and the sores are less oozy. You seem to be getting better.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.30;Thank [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 
 ###################
@@ -256,8 +256,9 @@ EVTOPTBgoshen_duel_events.21;A Retreat.;;;;;;;;;;;;;x
 EVTOPTCgoshen_duel_events.21;A Block.;;;;;;;;;;;;;x
 
 ###################
-#Hunt Events
+#Quest Events
 ###################
+#Hunt
 EVTTTLgoshen_hunt_events.1;Called for a Hunt;;;;;;;;;;;;;x
 EVTDESCgoshen_hunt_events.1;[From.GetTitledFirstName] has called a great hunt and almost certainly expects you to join [From.GetHerHim] in the venture.;;;;;;;;;;;;;x
 EVTOPTAgoshen_hunt_events.1;Ofcourse I'll join;;;;;;;;;;;;;x
@@ -273,6 +274,24 @@ EVTOPTBgoshen_hunt_events.3;I must have its Fur!;;;;;;;;;;;;;x
 EVTTTLgoshen_hunt_events.100;The Hunt has Ended;;;;;;;;;;;;;x
 EVTDESCgoshen_hunt_events.100;The hunt draws to a close, as you and your commanders have bagged a great number of trophy creatures, not to mention you numerous displays of ability.;;;;;;;;;;;;;x
 EVTOPTAgoshen_hunt_events.100;The memory will surely last for some time.;;;;;;;;;;;;;x
+#Feast
+EVTTTLgoshen_feast_events.0;Host a Grand Feast;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.0;You have the means to host a Grand Feast.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.0;Begin the Preparations.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.0;Nevermind.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.1;Invitation to a Grand Feast;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.1;You have received and invite to a Grand Feast hosted by [From.GetTitledFirstName].;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.1;I'm on my way.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.1;I'm sick. *Cough Cough*;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.11;Invitation Refused;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.11;[From.GetFirstName] has sent [From.GetHerHis] refusal.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.11;I'll remember this.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.2;Feast Begins;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.2;Your Feast has begun.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.2;Please, everyone, enjoy yourselves.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.10;The Feast has Ended;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.10;The feast nears its end.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.10;It was a great affair.;;;;;;;;;;;;;x
 
 ####################
 #Councillor Events

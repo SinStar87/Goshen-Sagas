@@ -1,0 +1,215 @@
+namespace = goshen_feast_events
+character_event = {	#Host Feast
+	id = goshen_feast_events.0
+	title = EVTTTLgoshen_feast_events.0
+	desc = EVTDESCgoshen_feast_events.0
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	immediate = {
+		clr_character_flag = hosted_feast
+	}
+
+	option = { #Host Feast
+		name = EVTOPTAgoshen_feast_events.0
+		scaled_wealth = -0.6
+		set_character_flag = hosting_feast
+		set_character_flag = hosted_feast
+		clr_character_flag = feast_setup
+		character_event = {
+			id = goshen_feast_events.2
+			days = 30
+		}
+		hidden_effect = {
+			any_realm_character = {	#Send Invites
+				character_event = {
+					id = goshen_feast_events.1
+					days = 1
+					random = 2
+				}
+			}
+			character_event = {	#Safety
+				id = goshen_feast_events.100
+				days = 120
+			}
+		}
+	}
+
+	option = { #Host Feast
+		name = EVTOPTBgoshen_feast_events.0
+		clr_character_flag = feast_setup
+	}
+}
+character_event = {	#Feast Invite
+	id = goshen_feast_events.1
+	title = EVTTTLgoshen_feast_events.1
+	desc = EVTDESCgoshen_feast_events.1
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Join Feast
+		name = EVTOPTAgoshen_feast_events.1
+		trigger = {
+			NOR = {
+				has_character_flag = feast_setup
+				has_character_flag = hosting_feast
+				has_character_flag = feast_startedhosting_feast
+				has_any_opinion_modifier = opinion_join_feast
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_join_feast
+			months = 7
+		}
+	}
+
+	option = { #Refuse Feast
+		name = EVTOPTBgoshen_feast_events.1
+		opinion = {
+			who = FROM
+			modifier = opinion_refuse_feast
+			months = 7
+		}
+		FROM = {
+			character_event = {
+				id = goshen_feast_events.11
+			}
+		}
+	}
+}
+character_event = {	#Feast Invite
+	id = goshen_feast_events.11
+	title = EVTTTLgoshen_feast_events.11
+	desc = EVTDESCgoshen_feast_events.11
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Refuse Feast
+		name = EVTOPTAgoshen_feast_events.11
+		opinion = {
+			who = FROM
+			modifier = opinion_refused_feast
+			years = 12
+		}
+	}
+}
+character_event = {	#Feast Started
+	id = goshen_feast_events.2
+	title = EVTTTLgoshen_feast_events.2
+	desc = EVTDESCgoshen_feast_events.2
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Feast Started
+		name = EVTOPTAgoshen_feast_events.2
+		clr_character_flag = hosting_feast
+		set_character_flag = feast_started
+	}
+}
+character_event = {	#End Feast
+	id = goshen_feast_events.10
+	title = EVTTTLgoshen_feast_events.10
+	desc = EVTDESCgoshen_feast_events.10
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		had_character_flag = {
+			flag = feast_started
+			days = 50
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 60
+	}
+
+	option = { #End Feast
+		name = EVTOPTAgoshen_feast_events.10
+		clr_character_flag = feast_started
+		any_realm_character = {
+			IF = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+					NOT = {
+						has_character_flag = hated_feast
+					}
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_enjoyed_feast
+					years = 12
+				}
+			}
+			IF = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+					has_character_flag = hated_feast
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_hated_feast
+					years = 12
+				}
+			}
+		}
+	}
+}
+character_event = {	#End Feast
+	id = goshen_feast_events.100
+	title = EVTTTLgoshen_feast_events.10
+	desc = EVTDESCgoshen_feast_events.10
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		had_character_flag = {
+			flag = feast_started
+			days = 50
+		}
+	}
+
+	option = { #End Feast
+		name = EVTOPTAgoshen_feast_events.10
+		clr_character_flag = feast_started
+		any_realm_character = {
+			IF = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+					NOT = {
+						has_character_flag = hated_feast
+					}
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_enjoyed_feast
+					years = 12
+				}
+			}
+			IF = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+					has_character_flag = hated_feast
+				}
+				opinion = {
+					who = ROOT
+					modifier = opinion_hated_feast
+					years = 12
+				}
+				clr_character_flag = hated_feast
+			}
+		}
+	}
+}
