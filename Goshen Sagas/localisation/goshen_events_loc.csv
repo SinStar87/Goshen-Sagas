@@ -66,7 +66,7 @@ EVTDESCgoshen_injury_events.10;Your pain has noticably increased and the wound i
 EVTOPTAgoshen_injury_events.10;I'm dying!;;;;;;;;;;;;;x
 EVTDESCgoshen_injury_events.20;Your pain is more or less the same so you don't seem any worse than usual.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.20;I'm dying I tell you!!;;;;;;;;;;;;;x
-EVTDESCgoshen_injury_events.30;Your pain has lessed lessened of late and the sores are less oozy. You seem to be getting better.;;;;;;;;;;;;;x
+EVTDESCgoshen_injury_events.30;Your pain has lessened of late and the sores are less oozy. You seem to be getting better.;;;;;;;;;;;;;x
 EVTOPTAgoshen_injury_events.30;Thank [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
 
 ###################
