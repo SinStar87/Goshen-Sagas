@@ -25,6 +25,9 @@
 	1700.1.1 = {
 		birth = yes
 	}
+	1717.1.1 = {
+		add_spouse = 24002
+	}
 	1757.1.1 = {
 		death = yes
 	}
@@ -33,7 +36,6 @@
 #12 Sons of the War Chief
 2 = {
 	name = "War'o"
-	father = 1
 	dynasty = 2
 
 	culture = abimelech
@@ -51,9 +53,15 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1718.1.1 = {
 		birth = yes
+	}
+	1738.1.1 = {
+		add_spouse = 24003
 	}
 	1793.1.1 = {
 		death = yes
@@ -61,7 +69,6 @@
 }
 3 = {
 	name = Mandrid
-	father = 1
 	dynasty = 3
 
 	culture = abimelech
@@ -79,6 +86,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1719.1.1 = {
 		birth = yes
@@ -89,7 +99,6 @@
 }
 4 = {
 	name = Beorthelfbrak
-	father = 1
 	dynasty = 4
 
 	culture = abimelech
@@ -107,6 +116,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1720.1.1 = {
 		birth = yes
@@ -117,7 +129,6 @@
 }
 5 = {
 	name = Wulfhrun
-	father = 1
 	dynasty = 5
 
 	culture = abimelech
@@ -137,6 +148,9 @@
 	piety = 10.000
 
 	trait = twin
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1722.1.1 = {
 		birth = yes
@@ -147,7 +161,6 @@
 }
 6 = {
 	name = Drud
-	father = 1
 	dynasty = 6
 
 	culture = abimelech
@@ -167,6 +180,9 @@
 	piety = 10.000
 
 	trait = twin
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1722.1.1 = {
 		birth = yes
@@ -177,7 +193,6 @@
 }
 7 = {
 	name = Eadu
-	father = 1
 	dynasty = 7
 
 	culture = abimelech
@@ -195,6 +210,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1723.1.1 = {
 		birth = yes
@@ -205,7 +223,6 @@
 }
 8 = {
 	name = Ara
-	father = 1
 	dynasty = 8
 
 	culture = abimelech
@@ -223,6 +240,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1724.1.1 = {
 		birth = yes
@@ -233,7 +253,6 @@
 }
 9 = {
 	name = Delferth
-	father = 1
 	dynasty = 9
 
 	culture = abimelech
@@ -251,6 +270,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1725.1.1 = {
 		birth = yes
@@ -261,7 +283,6 @@
 }
 10 = {
 	name = Thenn
-	father = 1
 	dynasty = 10
 
 	culture = abimelech
@@ -279,6 +300,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1726.1.1 = {
 		birth = yes
@@ -289,7 +313,6 @@
 }
 11 = {
 	name = Manax
-	father = 1
 	dynasty = 11
 
 	culture = abimelech
@@ -307,6 +330,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1727.1.1 = {
 		birth = yes
@@ -317,7 +343,6 @@
 }
 12 = {
 	name = Ealtheon
-	father = 1
 	dynasty = 12
 
 	culture = abimelech
@@ -335,6 +360,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1727.2.1 = {
 		birth = yes
@@ -345,7 +373,6 @@
 }
 13 = {
 	name = Vaceo
-	father = 1
 	dynasty = 13
 
 	culture = abimelech
@@ -363,6 +390,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 1 # First War Chief
+	mother = 24002 # Merra
 
 	1728.1.1 = {
 		birth = yes
@@ -375,7 +405,6 @@
 #Line of Bloodstone Clan
 20 = {
 	name = Anchei
-	father = 2
 	dynasty = 2
 
 	culture = abimelech
@@ -393,6 +422,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 2 # War'o
+	mother = 24003 # Kuyni
 
 	1756.1.1 = {
 		birth = yes
