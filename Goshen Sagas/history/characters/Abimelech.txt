@@ -733,13 +733,15 @@
 	1756.1.1 = {
 		birth = yes
 	}
+	1776.1.1 = {
+		add_spouse = 24012
+	}
 	1821.4.9 = {
 		death = yes
 	}
 }
 31 = {
 	name = Manbyrn
-	father = 30
 	dynasty = 3
 
 	culture = abimelech
@@ -757,9 +759,15 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 30 # Manfar
+	mother = 24012 # Fiey
 
 	1787.1.1 = {
 		birth = yes
+	}
+	1807.1.1 = {
+		add_spouse = 24013
 	}
 	1855.1.1 = {
 		death = yes
@@ -767,7 +775,6 @@
 }
 32 = {
 	name = Manbryt
-	father = 31
 	dynasty = 3
 
 	culture = abimelech
@@ -785,9 +792,15 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 31 # Manbyrn
+	mother = 24013 # Kalla
 
 	1823.1.1 = {
 		birth = yes
+	}
+	1843.1.1 = {
+		add_spouse = 24014
 	}
 	1870.1.1 = {
 		death = yes
@@ -795,7 +808,6 @@
 }
 33 = {
 	name = Krummwen
-	father = 32
 	dynasty = 3
 
 	culture = abimelech
@@ -813,9 +825,15 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 32 # Manbryt
+	mother = 24014 # Merra
 
 	1848.1.1 = {
 		birth = yes
+	}
+	1868.1.1 = {
+		add_spouse = 24015
 	}
 	1928.1.1 = {
 		death = yes
@@ -823,7 +841,6 @@
 }
 34 = {
 	name = Wulfsan
-	father = 33
 	dynasty = 3
 
 	culture = abimelech
@@ -841,6 +858,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 33 # Krummwen
+	mother = 24015 # Trig
 
 	1878.1.1 = {
 		birth = yes
@@ -851,7 +871,6 @@
 }
 35 = {
 	name = Wulfhes
-	father = 34
 	dynasty = 3
 
 	culture = abimelech
@@ -869,6 +888,8 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 34 # Wulfsan
 
 	1901.1.1 = {
 		birth = yes

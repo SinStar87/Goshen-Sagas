@@ -1382,7 +1382,7 @@ goshen_r_culture_group = {
 			Grenris Than'krum Huncenkah Thorkru Vaceo Axglor Cobar Glorthak Thenn
 		}
 		female_names = {
-			Nith Ta Kuyni Fortah Fiey Kalla Merra Trig
+			Nith Ta Kuyni Fortah Fiey Kalla Merra Trig Naana
 		}
 
 		from_dynasty_prefix = "of "
