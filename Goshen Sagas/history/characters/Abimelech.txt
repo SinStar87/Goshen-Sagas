@@ -93,6 +93,9 @@
 	1719.1.1 = {
 		birth = yes
 	}
+	1739.1.1 = {
+		add_spouse = 24011
+	}
 	1785.1.1 = {
 		death = yes
 	}
@@ -594,13 +597,15 @@
 	1901.1.1 = {
 		birth = yes
 	}
+	1921.1.1 = {
+		add_spouse = 24009
+	}
 	1970.1.1 = {
 		death = yes
 	}
 }
 26 = {
 	name = Vaceo
-	father = 25
 	dynasty = 2
 
 	culture = abimelech
@@ -618,6 +623,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 25 # Cobar
+	mother = 24009 # Ta
 
 	1934.1.1 = {
 		birth = yes
@@ -634,8 +642,6 @@
 }
 27 = {
 	name = Rhun
-	father = 26
-	mother = 24001
 	dynasty = 2
 	dna = clgfbldcaaw
 	properties = am00aa00000000
@@ -655,9 +661,15 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 26 # Vaceo
+	mother = 24001 # Naana
 
 	1958.1.1 = {
 		birth = yes
+	}
+	1978.1.1 = {
+		add_spouse = 24010
 	}
 	2015.1.1 = {
 		death = yes
@@ -665,7 +677,6 @@
 }
 28 = {
 	name = Rhun
-	father = 27
 	dynasty = 2
 
 	culture = abimelech
@@ -683,6 +694,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 27 # Rhun
+	mother = 24010 # Kuyni
 
 	1989.1.1 = {
 		birth = yes
@@ -695,7 +709,6 @@
 #Line of Beon's Pride Clan
 30 = {
 	name = Manfar
-	father = 3
 	dynasty = 3
 
 	culture = abimelech
@@ -713,6 +726,9 @@
 	prestige = 20.000
 
 	piety = 10.000
+	
+	father = 3 # Mandrid
+	mother = 24011 # Fortah
 
 	1756.1.1 = {
 		birth = yes

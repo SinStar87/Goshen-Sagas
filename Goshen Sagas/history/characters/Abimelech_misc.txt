@@ -218,3 +218,84 @@
 		death = yes
 	}
 }
+24009 = {
+	name = Ta
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1901.1.1 = {
+		birth = yes
+	}
+	1970.1.1 = {
+		death = yes
+	}
+}
+24010 = {
+	name = Kuyni
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1958.1.1 = {
+		birth = yes
+	}
+	2015.1.1 = {
+		death = yes
+	}
+}
+24011 = {
+	name = Fortah
+	female = yes
+
+	culture = abimelech
+	religion = abimelech_rel
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	health = 5.0
+	fertility = 0.5
+
+	wealth = 100.000
+	prestige = 20.000
+
+	piety = 10.000
+
+	1719.1.1 = {
+		birth = yes
+	}
+	1785.1.1 = {
+		death = yes
+	}
+}
