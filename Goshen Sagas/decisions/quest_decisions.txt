@@ -70,7 +70,7 @@ decisions = {
 			war = no
 			in_command = no
 			prisoner = no
-			scaled_weath = 2.0
+			scaled_wealth = 2.0
 		}
 		effect = {
 			set_character_flag = feast_setup
