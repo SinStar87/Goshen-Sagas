@@ -9,19 +9,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1938.1.1 = {
 		birth = yes
 	}
@@ -35,19 +22,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1700.1.1 = {
 		birth = yes
@@ -63,19 +37,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1718.1.1 = {
 		birth = yes
 	}
@@ -89,19 +50,6 @@
 	
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1756.1.1 = {
 		birth = yes
@@ -117,19 +65,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1787.1.1 = {
 		birth = yes
 	}
@@ -143,19 +78,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1823.1.1 = {
 		birth = yes
@@ -171,19 +93,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1848.1.1 = {
 		birth = yes
 	}
@@ -197,19 +106,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1878.1.1 = {
 		birth = yes
@@ -225,19 +121,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -251,19 +134,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1958.1.1 = {
 		birth = yes
@@ -279,19 +149,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1719.1.1 = {
 		birth = yes
 	}
@@ -305,19 +162,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1756.1.1 = {
 		birth = yes
@@ -333,19 +177,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1787.1.1 = {
 		birth = yes
 	}
@@ -360,19 +191,6 @@
 	culture = abimelech
 	religion = abimelech_rel
 
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -386,19 +204,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes

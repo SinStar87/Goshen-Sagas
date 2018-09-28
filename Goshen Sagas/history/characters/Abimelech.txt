@@ -17,11 +17,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1700.1.1 = {
 		birth = yes
 	}
@@ -48,11 +43,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -81,11 +71,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -114,11 +99,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -144,11 +124,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	trait = twin
 	
@@ -177,11 +152,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	trait = twin
 	
 	father = 1 # First War Chief
@@ -208,11 +178,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -238,11 +203,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -268,11 +228,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -298,11 +253,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -328,11 +278,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -358,11 +303,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -388,11 +328,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -420,11 +355,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 2 # War'o
 	mother = 24003 # Kuyni
@@ -453,11 +383,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 20 # Anchei
 	mother = 24004 # Fortah
@@ -486,11 +411,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 21 # Daneo
 	mother = 24005 # Fiey
@@ -519,11 +439,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 22 # Nemir
 	mother = 24006 # Kalla
@@ -552,11 +467,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 23 # Thorkru
 	mother = 24007 # Trig
@@ -585,11 +495,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 24 # Rhun
 	mother = 24008 # Nith
@@ -618,11 +523,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 25 # Cobar
 	mother = 24009 # Ta
@@ -656,11 +556,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 26 # Vaceo
 	mother = 24001 # Naana
@@ -689,11 +584,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 27 # Rhun
 	mother = 24010 # Kuyni
@@ -721,11 +611,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 3 # Mandrid
 	mother = 24011 # Fortah
@@ -754,11 +639,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 30 # Manfar
 	mother = 24012 # Fiey
@@ -787,11 +667,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 31 # Manbyrn
 	mother = 24013 # Kalla
@@ -820,11 +695,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 32 # Manbryt
 	mother = 24014 # Merra
@@ -853,11 +723,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 33 # Krummwen
 	mother = 24015 # Trig
@@ -883,11 +748,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 	
 	father = 34 # Wulfsan
 
@@ -913,11 +773,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -948,11 +803,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -977,11 +827,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1962.1.1 = {
 		birth = yes
@@ -1008,11 +853,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1979.1.1 = {
 		birth = yes
 	}
@@ -1037,11 +877,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1982.1.1 = {
 		birth = yes
@@ -1071,11 +906,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -1098,11 +928,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -1127,11 +952,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -1154,11 +974,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -1183,11 +998,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -1211,11 +1021,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -1238,11 +1043,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -1269,11 +1069,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -1298,11 +1093,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1989.1.1 = {
 		birth = yes
@@ -1329,11 +1119,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -1356,11 +1141,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -1385,11 +1165,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -1412,11 +1187,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -1441,11 +1211,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -1469,11 +1234,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -1496,11 +1256,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -1527,11 +1282,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -1556,11 +1306,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1989.1.1 = {
 		birth = yes
@@ -1587,11 +1332,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -1614,11 +1354,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -1643,11 +1378,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -1670,11 +1400,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -1699,11 +1424,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -1727,11 +1447,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -1754,11 +1469,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -1785,11 +1495,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -1814,11 +1519,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1989.1.1 = {
 		birth = yes
@@ -1845,11 +1545,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -1872,11 +1567,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -1901,11 +1591,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -1928,11 +1613,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -1957,11 +1637,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -1985,11 +1660,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -2012,11 +1682,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -2043,11 +1708,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -2072,11 +1732,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1989.1.1 = {
 		birth = yes
@@ -2103,11 +1758,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -2130,11 +1780,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -2159,11 +1804,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -2186,11 +1826,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -2215,11 +1850,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -2243,11 +1873,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -2270,11 +1895,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -2301,11 +1921,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1954.1.1 = {
 		birth = yes
 	}
@@ -2330,11 +1945,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1959.1.1 = {
 		birth = yes
@@ -2364,11 +1974,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1989.1.1 = {
 		birth = yes
 	}
@@ -2394,11 +1999,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -2421,11 +2021,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -2450,11 +2045,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -2477,11 +2067,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -2506,11 +2091,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -2534,11 +2114,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -2561,11 +2136,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -2592,11 +2162,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -2621,11 +2186,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1975.1.1 = {
 		birth = yes
@@ -2655,11 +2215,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -2682,11 +2237,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1787.1.1 = {
 		birth = yes
@@ -2711,11 +2261,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -2738,11 +2283,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1848.1.1 = {
 		birth = yes
@@ -2767,11 +2307,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -2795,11 +2330,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -2822,11 +2352,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1934.1.1 = {
 		birth = yes
@@ -2853,11 +2378,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -2880,11 +2400,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 100.000
-	prestige = 20.000
-
-	piety = 10.000
 
 	1989.1.1 = {
 		birth = yes
@@ -2911,10 +2426,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1756.1.1 = {
 		birth = yes
@@ -2939,10 +2454,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1787.1.1 = {
 		birth = yes
@@ -2967,10 +2482,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1823.1.1 = {
 		birth = yes
@@ -2995,10 +2510,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1848.1.1 = {
 		birth = yes
@@ -3023,10 +2538,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1878.1.1 = {
 		birth = yes
@@ -3051,10 +2566,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1901.1.1 = {
 		birth = yes
@@ -3079,10 +2594,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1934.1.1 = {
 		birth = yes
@@ -3109,10 +2624,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1959.1.1 = {
 		birth = yes
@@ -3139,10 +2654,10 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 110.000
-	prestige = 20.000
+	
+	
 
-	piety = 11.000
+	
 
 	1989.1.1 = {
 		birth = yes
@@ -3170,7 +2685,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3198,7 +2713,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3226,7 +2741,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3254,7 +2769,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3282,7 +2797,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3310,7 +2825,7 @@
 	fertility = 0.5
 
 	wealth = 120.000
-	prestige = 20.000
+	
 
 	piety = 12.000
 
@@ -3337,11 +2852,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 120.000
-	prestige = 20.000
-
-	piety = 12.000
-
 	1934.1.1 = {
 		birth = yes
 	}
@@ -3366,11 +2876,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 120.000
-	prestige = 20.000
-
-	piety = 12.000
 
 	1959.1.1 = {
 		birth = yes
@@ -3397,11 +2902,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 120.000
-	prestige = 20.000
-
-	piety = 12.000
-
 	1989.1.1 = {
 		birth = yes
 	}
@@ -3427,11 +2927,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
-
 	1756.1.1 = {
 		birth = yes
 	}
@@ -3454,11 +2949,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
 
 	1787.1.1 = {
 		birth = yes
@@ -3483,11 +2973,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
-
 	1823.1.1 = {
 		birth = yes
 	}
@@ -3510,11 +2995,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
 
 	1848.1.1 = {
 		birth = yes
@@ -3539,11 +3019,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
-
 	1878.1.1 = {
 		birth = yes
 	}
@@ -3567,11 +3042,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
-
 	1901.1.1 = {
 		birth = yes
 	}
@@ -3594,11 +3064,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
 
 	1934.1.1 = {
 		birth = yes
@@ -3625,11 +3090,6 @@
 	health = 5.0
 	fertility = 0.5
 
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
-
 	1959.1.1 = {
 		birth = yes
 	}
@@ -3654,11 +3114,6 @@
 	learning = 5
 	health = 5.0
 	fertility = 0.5
-
-	wealth = 130.000
-	prestige = 20.000
-
-	piety = 13.000
 
 	1989.1.1 = {
 		birth = yes
