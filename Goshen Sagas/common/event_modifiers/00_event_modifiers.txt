@@ -26,6 +26,19 @@ negative_money = {
 	icon = 24
 }
 
+#############
+#Feast Modifiers
+#############
+mod_fst_ms_kidnap = {
+	icon = 24
+}
+mod_fst_ms_warning = {
+	icon = 24
+}
+mod_fst_ms_illness = {
+	icon = 24
+}
+
 ############
 #Spy Modifiers
 ############

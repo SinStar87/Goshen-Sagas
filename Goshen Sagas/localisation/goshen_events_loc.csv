@@ -289,6 +289,85 @@ EVTOPTAgoshen_feast_events.11;I'll remember this.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.2;Feast Begins;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.2;Your Feast has begun.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.2;Please, everyone, enjoy yourselves.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.31;Present Gift to the Host;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.31;You can present a gift to the Host.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.31;I present you a gift of Wealth.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.31;No, it's not needed.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.311;[From.GetFirstName] Presents a Gift;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.311;[From.GetFirstName] has appeared at the feast with a gift.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.311;My gratitude.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.311;What need I have of this pittance?;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.312;[From.GetFirstName] Rejected Gift;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.312;[From.GetFirstName] has refused your gift as a pittance.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.312;Ungrateful Cur!;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.32;Meet Someone;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.32;You meet someone at the feast and slip away somewhere more private.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.32;Come with me, my lady.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.32;Come with me, my lord.;;;;;;;;;;;;;x
+EVTOPTCgoshen_feast_events.32;Come with me, my prince.;;;;;;;;;;;;;x
+EVTOPTDgoshen_feast_events.32;Come with me, my princess.;;;;;;;;;;;;;x
+EVTOPTEgoshen_feast_events.32;No, it's inappropriate.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.321;Slip Away;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.321;You have slipped away from the feast with [From.GetFirstName] and things are going quickly.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.321;Let us be together.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.321;Let us be together.;;;;;;;;;;;;;x
+EVTOPTCgoshen_feast_events.321;Let us be together.;;;;;;;;;;;;;x
+EVTOPTDgoshen_feast_events.321;No, it's inappropriate.;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.322;You and [From.GetFirstName] have a great time together.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.322;Let us return.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.323;Child of the Feast;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.323;Some time ago during a feast you slipped away with someone, now they return with a child.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.323;My Child.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.323;My Child... I suppose.;;;;;;;;;;;;;x
+EVTOPTCgoshen_feast_events.323;No Child of mine.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.33;A Good Friend?;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.33;You meet [feast_friend.GetFirstName] at the feast and strike up a conversation, after a time a thought enters your mind.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.33;Perhaps we could be friends?;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.331;A Good Friend?;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.331;[From.GetFirstName] has carried your interest throughout your conversation with [From.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.331;Perhaps we could be friends?;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.331;It's been fun.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.332;A Good Friend?;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.332;Your conversation with [From.GetFirstName] draws to a close.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.332;I feel I have a new friend.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.332;It's been fun.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.41;Dark Figure Appears;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.41;A Dark Figure has appeared at the Feast.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.41;What does it want?;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.411;Dark Figure Appears;;;;;;;;;;;;;x
+EVTDESCAgoshen_feast_events.411;The Dark Figure collects [fst_target.GetFirstName] and disappears out the door as suddenly as it appeared.;;;;;;;;;;;;;x
+EVTDESCBgoshen_feast_events.411;The Dark Figure brings word of treachery, hissing out "[fst_target.GetFirstName] will betray you." before fleeing.;;;;;;;;;;;;;x
+EVTDESCCgoshen_feast_events.411;The Dark Figure approaches close, sweat dripping along its path. As it reaches the table, it coughs harshly then collapses;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.411;What is this?;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.411;What was that?;;;;;;;;;;;;;x
+EVTOPTCgoshen_feast_events.411;[fst_target.GetSheHe] will?!;;;;;;;;;;;;;x
+EVTOPTDgoshen_feast_events.411;What was that nonsense?;;;;;;;;;;;;;x
+EVTOPTEgoshen_feast_events.411;I don't feel well..;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.412;Dark Figure Appears;;;;;;;;;;;;;x
+EVTDESCAgoshen_feast_events.412;The Dark Figure collects [fst_target.GetFirstName] and disappears out the door as suddenly as it appeared.;;;;;;;;;;;;;x
+EVTDESCBgoshen_feast_events.412;The Dark Figure brings word of treachery, hissing out "[fst_target.GetFirstName] will betray you." before fleeing.;;;;;;;;;;;;;x
+EVTDESCCgoshen_feast_events.412;The Dark Figure approaches close, sweat dripping along its path. As it reaches the table, it coughs harshly then collapses;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.412;What was that?;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.42;Kitchen Fire;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.42;Flames burst forth from the Kitchen followed by screams of "Fire!".;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.42;Damned Cooks!;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.421;Kitchen Fire;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.421;[fst_target.GetFirstName] has insulted you so you leap from your seat and charge [fst_target.GetHerHim].;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.421;The Feast is Ruined!;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.43;Brawl at the Feast;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.43;Flames burst forth from the Kitchen followed by screams of "Fire!".;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.43;Take it back, you Cur!;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.431;[From.GetFirstName] Attacks you;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.431;You insinuate [From.GetFirstName] is incompetent, who, not taking it lightly, charges at you and tackles you.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.431;Well fought, I apologize.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.431;Damned Fool!;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.432;[From.GetFirstName] Attacks;;;;;;;;;;;;;x
+EVTDESCAgoshen_feast_events.432;[From.GetFirstName] attacked you for your insinuation.;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.432;[From.GetFirstName] attacks [fst_target.GetFirstName] for a preceived insult.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.432;Damned Fool!;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.432;Well fought, I apologize.;;;;;;;;;;;;;x
+EVTOPTCgoshen_feast_events.432;You must calm down!;;;;;;;;;;;;;x
+EVTOPTDgoshen_feast_events.432;My word, such disruption.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.10;The Feast has Ended;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.10;The feast nears its end.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.10;It was a great affair.;;;;;;;;;;;;;x

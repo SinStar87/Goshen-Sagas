@@ -1,0 +1,30 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#Event Modifiers
+mod_fst_ms_kidnap;Kidnapping;;;;;;;;;;;;;x
+mod_fst_ms_warning;Dire Warning;;;;;;;;;;;;;x
+mod_fst_ms_illness;Illness;;;;;;;;;;;;;x
+
+#General Opinions
+opinion_loyal;Loyal;;;;;;;;;;;;;x
+opinion_disloyal;Disloyal;;;;;;;;;;;;;x
+opinion_joined_hunt;Joined Hunt;;;;;;;;;;;;;x
+opinion_refused_hunt;Refused Hunt;;;;;;;;;;;;;x
+opinion_join_feast;Joining Feast;;;;;;;;;;;;;x
+opinion_enjoyed_feast;Enjoyed the Feast;;;;;;;;;;;;;x
+opinion_hated_feast;Hated the Feast;;;;;;;;;;;;;x
+opinion_refuse_feast;Refused Feast;;;;;;;;;;;;;x
+opinion_refused_feast;Refused Feast;;;;;;;;;;;;;x
+opinion_fst_friend;Befriended;;;;;;;;;;;;;x
+opinion_sexed;Tumble Partner;;;;;;;;;;;;;x
+
+#Killer Opinions
+opinion_killed_family;Killed my Family member;;;;;;;;;;;;;x
+opinion_killed_rival;Killed my Rival;;;;;;;;;;;;;x
+opinion_killed_friend;Killed my Friend;;;;;;;;;;;;;x
+opinion_killed_liege;Killed my Liege;;;;;;;;;;;;;x
+
+#Guardsman Opinions
+opinion_commander;My Commander;;;;;;;;;;;;;x
+opinion_charge;My Charge;;;;;;;;;;;;;x
+opinion_refused_guard;Refused Naming to Guard;;;;;;;;;;;;;x

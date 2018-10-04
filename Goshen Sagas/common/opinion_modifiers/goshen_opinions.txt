@@ -5,6 +5,16 @@ opinion_loyal = {
 opinion_disloyal = {
 	opinion = -15
 }
+
+#Hunt Opinions
+opinion_joined_hunt = {
+	opinion = 15
+}
+opinion_refused_hunt = {
+	opinion = -20
+}
+
+#Feast Opinions
 opinion_join_feast = {
 	opinion = 0
 }
@@ -20,11 +30,11 @@ opinion_enjoyed_feast = {
 opinion_hated_feast = {
 	opinion = -15
 }
-opinion_joined_hunt = {
-	opinion = 15
+opinion_fst_friend = {
+	opinion = 25
 }
-opinion_refused_hunt = {
-	opinion = -20
+opinion_sexed = {
+	opinion = 25
 }
 
 #Killer Opinions

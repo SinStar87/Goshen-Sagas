@@ -21,7 +21,7 @@ character_event = {	#Host Feast
 			days = 30
 		}
 		hidden_effect = {
-			any_realm_lord = {	#Send Invites
+			any_courtier_or_vassal = {	#Send Invites
 				character_event = {
 					id = goshen_feast_events.1
 					days = 1
@@ -53,7 +53,7 @@ character_event = {	#Feast Invite
 			NOR = {
 				has_character_flag = feast_setup
 				has_character_flag = hosting_feast
-				has_character_flag = feast_startedhosting_feast
+				has_character_flag = feast_started
 				has_any_opinion_modifier = opinion_join_feast
 			}
 		}
@@ -61,6 +61,17 @@ character_event = {	#Feast Invite
 			who = FROM
 			modifier = opinion_join_feast
 			months = 7
+		}
+		any_child = {
+			limit = {
+				is_ruler = no
+				is_adult = yes
+			}
+			opinion = {
+				who = FROM
+				modifier = opinion_join_feast
+				months = 7
+			}
 		}
 	}
 
@@ -85,7 +96,7 @@ character_event = {	#Feast Invite
 	picture = GFX_evt_castle_construction
 	is_triggered_only = yes
 
-	option = { #Refuse Feast
+	option = { #Refused Feast
 		name = EVTOPTAgoshen_feast_events.11
 		opinion = {
 			who = FROM
@@ -105,6 +116,1083 @@ character_event = {	#Feast Started
 		name = EVTOPTAgoshen_feast_events.2
 		clr_character_flag = hosting_feast
 		set_character_flag = feast_started
+	}
+}
+	#Goodly Feast Events
+character_event = {	#Present Gift
+	id = goshen_feast_events.31
+	title = EVTTTLgoshen_feast_events.31
+	desc = EVTDESCgoshen_feast_events.31
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		has_any_opinion_modifier = opinion_join_feast
+		any_realm_character = {
+			has_character_flag = feast_started
+			NOT = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_hate
+				}
+			}
+		}
+		is_ruler = yes
+		wealth = 100
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	option = { #Send Gift
+		name = EVTOPTAgoshen_feast_events.31
+		random_realm_character = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
+			}
+			character_event = {
+				id = goshen_feast_events.311
+			}
+		}
+	}
+
+	option = { #Do Nothing
+		name = EVTOPTBgoshen_feast_events.31
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+character_event = {	#Receive Gift
+	id = goshen_feast_events.311
+	title = EVTTTLgoshen_feast_events.311
+	desc = EVTDESCgoshen_feast_events.311
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Accept Gift
+		name = EVTOPTAgoshen_feast_events.311
+		FROM = {
+			transfer_scaled_wealth = { to = ROOT value = 0.25 }
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_grateful
+		}
+	}
+
+	option = { #Refuse Gift
+		name = EVTOPTBgoshen_feast_events.311
+		ai_chance = {
+			factor = 0
+		}
+		FROM = {
+			character_event = {
+				id = goshen_feast_events.312
+			}
+		}
+	}
+}
+character_event = {	#Receive Gift
+	id = goshen_feast_events.312
+	title = EVTTTLgoshen_feast_events.312
+	desc = EVTDESCgoshen_feast_events.312
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Get Angry
+		name = EVTOPTAgoshen_feast_events.312
+		opinion = {
+			who = FROM
+			modifier = opinion_hate
+			years = 2
+		}
+	}
+}
+character_event = {	#Meet Someone
+	id = goshen_feast_events.32
+	title = EVTTTLgoshen_feast_events.32
+	desc = EVTDESCgoshen_feast_events.32
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		OR = {
+			has_character_flag = feast_started
+			has_any_opinion_modifier = opinion_join_feast
+		}
+		NOT = {
+			has_any_opinion_modifier = opinion_sexed
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	immediate = {
+		random_realm_character = {
+			limit = {
+				NOT = {
+					character = ROOT
+				}
+				OR = {
+					has_character_flag = feast_started
+					has_any_opinion_modifier = opinion_join_feast
+				}
+				is_female = no
+			}
+			save_event_target_as = feast_male
+		}
+		random_realm_character = {
+			limit = {
+				NOT = {
+					character = ROOT
+				}
+				OR = {
+					has_character_flag = feast_started
+					has_any_opinion_modifier = opinion_join_feast
+				}
+				is_female = yes
+			}
+			save_event_target_as = feast_female
+		}
+	}
+
+	option = { #Join Tumble - Female
+		name = EVTOPTAgoshen_feast_events.32
+		trigger = {
+			is_female = no
+		}
+		event_target:feast_female = {
+			IF = {
+				limit = {
+					is_alive = yes
+				}
+				character_event = {
+					id = goshen_feast_events.321
+				}
+				break = yes
+			}
+		}
+		set_character_flag = feast_tumble
+	}
+
+	option = { #Join Tumble - Male
+		name = EVTOPTBgoshen_feast_events.32
+		trigger = {
+			is_female = yes
+		}
+		event_target:feast_male = {
+			IF = {
+				limit = {
+					is_alive = yes
+				}
+				character_event = {
+					id = goshen_feast_events.321
+				}
+				break = yes
+			}
+		}
+		impregnate_cuckoo = yes
+	}
+
+	option = { #Join Tumble - Male Homosexual
+		name = EVTOPTCgoshen_feast_events.32
+		trigger = {
+			ai = no
+			is_female = no
+		}
+		event_target:feast_male = {
+			IF = {
+				limit = {
+					is_alive = yes
+				}
+				character_event = {
+					id = goshen_feast_events.321
+				}
+			}
+		}
+	}
+
+	option = { #Join Tumble - Female Homosexual
+		name = EVTOPTDgoshen_feast_events.32
+		trigger = {
+			ai = no
+			is_female = yes
+		}
+		event_target:feast_female = {
+			IF = {
+				limit = {
+					is_alive = yes
+				}
+				character_event = {
+					id = goshen_feast_events.321
+				}
+				break = yes
+			}
+		}
+	}
+
+	option = { #Do Nothing
+		name = EVTOPTEgoshen_feast_events.32
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+character_event = {	#Join Tumble
+	id = goshen_feast_events.321
+	title = EVTTTLgoshen_feast_events.321
+	desc = EVTDESCgoshen_feast_events.321
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = { #Join Tumble - From Female
+		name = EVTOPTAgoshen_feast_events.321
+		trigger = {
+			is_female = no
+			FROM = {
+				is_female = yes
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_sexed
+			years = 2
+		}
+		FROM = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_sexed
+				years = 2
+			}
+			impregnate = ROOT
+			character_event = {
+				id = goshen_feast_events.322
+			}
+		}
+	}
+
+	option = { #Join Tumble - From Male
+		name = EVTOPTBgoshen_feast_events.321
+		trigger = {
+			is_female = yes
+			FROM = {
+				is_female = no
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_sexed
+			years = 2
+		}
+		impregnate = FROM
+		FROM = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_sexed
+				years = 2
+			}
+			character_event = {
+				id = goshen_feast_events.322
+			}
+		}
+	}
+
+	option = { #Join Tumble - Homosexual
+		name = EVTOPTCgoshen_feast_events.321
+		trigger = {
+			OR = {
+				AND = {
+					is_female = no
+					FROM = {
+						is_female = no
+					}
+				}
+				AND = {
+					is_female = yes
+					FROM = {
+						is_female = yes
+					}
+				}
+			}
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_sexed
+			years = 2
+		}
+		FROM = {
+			opinion = {
+				who = ROOT
+				modifier = opinion_sexed
+				years = 2
+			}
+			character_event = {
+				id = goshen_feast_events.322
+			}
+		}
+	}
+
+	option = { #Refuse Tumble
+		name = EVTOPTDgoshen_feast_events.321
+		trigger = {
+			ai = no
+		}
+	}
+}
+character_event = {	#Tumble Informer
+	id = goshen_feast_events.322
+	desc = EVTDESCgoshen_feast_events.322
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.322
+	}
+}
+character_event = {	#Tumble Bastard
+	id = goshen_feast_events.323
+	title = EVTTTLgoshen_feast_events.323
+	desc = EVTDESCgoshen_feast_events.323
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		has_character_flag = feast_tumble
+	}
+
+	mean_time_to_happen = {
+		months = 7
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				create_character = {
+					age = 0
+					female = no
+					father = ROOT
+					dynasty = ROOT
+					health = 5
+					fertility = 0.5
+				}
+				new_character = {
+					character_event = {
+						id = goshen_maintenance_events.2
+					}
+					save_event_target_as = tumble_bastard
+				}
+			}
+			1 = {
+				create_character = {
+					age = 0
+					female = yes
+					father = ROOT
+					dynasty = ROOT
+					health = 5
+					fertility = 0.5
+				}
+				new_character = {
+					character_event = {
+						id = goshen_maintenance_events.2
+					}
+					save_event_target_as = tumble_bastard
+				}
+			}
+		}
+	}
+
+	option = {	#My Child
+		name = EVTOPTAgoshen_feast_events.323
+		clr_character_flag = feast_tumble
+		event_target:tumble_bastard = {
+			prestige = 10
+		}
+	}
+
+	option = {	#My Child... I suppose
+		name = EVTOPTBgoshen_feast_events.323
+		clr_character_flag = feast_tumble
+		event_target:tumble_bastard = {
+			dynasty = father_bastard
+		}
+	}
+
+	option = {	#No Child of Mine
+		name = EVTOPTCgoshen_feast_events.323
+		clr_character_flag = feast_tumble
+		event_target:tumble_bastard = {
+			dynasty = none
+		}
+	}
+}
+character_event = {	#BFFs?
+	id = goshen_feast_events.33
+	title = EVTTTLgoshen_feast_events.33
+	desc = EVTDESCgoshen_feast_events.33
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		OR = {
+			has_character_flag = feast_started
+			has_any_opinion_modifier = opinion_join_feast
+		}
+		any_realm_character = {
+			NOT = {
+				character = ROOT
+			}
+			NOR = {
+				is_friend = ROOT
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_fst_friend
+				}
+			}
+			OR = {
+				has_character_flag = feast_started
+				has_any_opinion_modifier = opinion_join_feast
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	immediate = {
+		random_realm_character = {
+			limit = {
+				NOT = {
+					character = ROOT
+				}
+				OR = {
+					has_character_flag = feast_started
+					has_any_opinion_modifier = opinion_join_feast
+				}
+			}
+			save_event_target_as = feast_friend
+		}
+	}
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.33
+		event_target:feast_friend = {
+			character_event = {
+				id = goshen_feast_events.331
+			}
+		}
+	}
+}
+character_event = {	#BFFs?
+	id = goshen_feast_events.331
+	title = EVTTTLgoshen_feast_events.331
+	desc = EVTDESCgoshen_feast_events.331
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.331
+		add_friend = FROM
+		FROM = {
+			character_event = {
+				id = goshen_feast_events.332
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_feast_events.331
+		FROM = {
+			character_event = {
+				id = goshen_feast_events.332
+			}
+		}
+	}
+}
+character_event = {	#BFFs?
+	id = goshen_feast_events.332
+	title = EVTTTLgoshen_feast_events.332
+	desc = EVTDESCgoshen_feast_events.332
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.332
+		trigger = {
+			is_friend = FROM
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_feast_events.332
+		trigger = {
+			NOT = { is_friend = FROM }
+		}
+		opinion = {
+			who = FROM
+			modifier = opinion_fst_friend
+			years = 2
+		}
+		reverse_opinion = {
+			who = FROM
+			modifier = opinion_fst_friend
+			years = 2
+		}
+	}
+}
+	#Badly Feast Events
+character_event = {	#Shadowy Figure Appears 
+	id = goshen_feast_events.41
+	title = EVTTTLgoshen_feast_events.41
+	desc = EVTDESCgoshen_feast_events.41
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		OR = {
+			has_character_flag = feast_started
+			has_any_opinion_modifier = opinion_join_feast
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	immediate = {
+		random_list = {
+			1 = {
+				add_character_modifier = {
+					modifier = mod_fst_ms_kidnap
+					days = 3
+					hidden = yes
+				}
+			}
+			1 = {
+				add_character_modifier = {
+					modifier = mod_fst_ms_warning
+					days = 3
+					hidden = yes
+				}
+			}
+			1 = {
+				add_character_modifier = {
+					modifier = mod_fst_ms_illness
+					days = 3
+					hidden = yes
+				}
+			}
+		}
+	}
+
+	option = { #MS Appears
+		name = EVTOPTAgoshen_feast_events.41
+		character_event = {
+			id = goshen_feast_events.411
+		}
+		IF = {
+			limit = {
+				NOT = {
+					has_character_flag = feast_started
+				}
+			}
+			random_realm_character = {
+				limit = {
+					reverse_has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+				}
+				character_event = {
+					id = goshen_feast_events.412
+					days = 1
+				}
+			}
+		}
+	}
+}
+character_event = {	#Shadowy Figure Appears - Outcome
+	id = goshen_feast_events.411
+	title = EVTTTLgoshen_feast_events.411
+	desc = {
+		text = EVTDESCAgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_kidnap
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_warning
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_illness
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			has_character_flag = feast_started
+			has_any_opinion_modifier = opinion_join_feast
+		}
+	}
+
+	immediate = {
+		IF = {
+			limit = {
+				has_character_flag = feast_started
+			}
+			random_realm_character = {
+				limit = {
+					NOT = {
+						character = ROOT
+					}
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+				}
+				save_event_target_as = fst_target
+			}
+			break = yes
+		}
+		IF = {
+			limit = {
+				has_character_modifier = mod_fst_ms_warning
+			}
+			random_realm_character = {
+				limit = {
+					NOT = {
+						character = ROOT
+					}
+					OR = {
+						has_character_flag = feast_started
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = opinion_join_feast
+						}
+					}
+				}
+				save_event_target_as = fst_target
+			}
+			break = yes
+		}
+		save_event_target_as = fst_target
+	}
+
+	option = { #Kidnapped by the Stranger
+		name = EVTOPTAgoshen_feast_events.411
+		trigger = {
+			NOT = {
+				has_character_flag = feast_started
+			}
+			has_character_modifier = mod_fst_ms_kidnap
+		}
+		e_AGOT = {
+			holder_scope = {
+				reverse_imprison = ROOT
+			}
+		}
+		remove_opinion = {
+			who = ROOT
+			modifier = opinion_join_feast
+		}
+	}
+
+	option = { #Host, Joiner is Kidnapped
+		name = EVTOPTBgoshen_feast_events.411
+		trigger = {
+			has_character_flag = feast_started
+			has_character_modifier = mod_fst_ms_kidnap
+		}
+		e_AGOT = {
+			holder_scope = {
+				reverse_imprison = event_target:fst_target
+			}
+		}
+	}
+
+	option = { #MS Dire Warning - Believe
+		name = EVTOPTCgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_warning
+		}
+		opinion = {
+			who = event_target:fst_target
+			modifier = opinion_dishonorable
+		}
+	}
+
+	option = { #MS Dire Warning - Dismiss
+		name = EVTOPTDgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_warning
+		}
+	}
+
+	option = { #MS Illness
+		name = EVTOPTEgoshen_feast_events.411
+		trigger = {
+			has_character_modifier = mod_fst_ms_illness
+		}
+		set_character_flag = hated_feast
+		random_list = {
+			10 = {
+				add_trait = minor_illness
+			}
+			5 = {
+				add_trait = moderate_illness
+			}
+			4 = {
+				add_trait = severe_illness
+			}
+			3 = {
+				add_trait = incapacitating_illness
+			}
+			2 = {
+				add_trait = deadly_illness
+			}
+			1 = {
+				add_trait = has_plaga
+				add_trait = deadly_illness
+				death = {
+					death_reason = death_trait
+				}
+			}
+			1 = {
+			}
+		}
+	}
+}
+character_event = {	#Shadowy Figure Appeared - Host Informer
+	id = goshen_feast_events.412
+	title = EVTTTLgoshen_feast_events.412
+	desc = {
+		text = EVTDESCAgoshen_feast_events.412
+		trigger = {
+			FROM = {
+				has_character_modifier = mod_fst_ms_kidnap
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBgoshen_feast_events.412
+		trigger = {
+			FROM = {
+				has_character_modifier = mod_fst_ms_warning
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCCgoshen_feast_events.412
+		trigger = {
+			FROM = {
+				has_character_modifier = mod_fst_ms_illness
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.412
+	}
+}
+character_event = {	#Kitchen Fire
+	id = goshen_feast_events.42
+	title = EVTTTLgoshen_feast_events.42
+	desc = EVTDESCgoshen_feast_events.42
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		has_character_flag = feast_started
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	option = { #Send out Informer
+		name = EVTOPTAgoshen_feast_events.42
+		any_realm_character = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
+			}
+			character_event = {
+				id = goshen_feast_events.421
+			}
+		}
+	}
+}
+character_event = {	#Kitchen Fire Informer
+	id = goshen_feast_events.421
+	title = EVTTTLgoshen_feast_events.421
+	desc = EVTDESCgoshen_feast_events.421
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.421
+		set_character_flag = hated_feast
+	}
+}
+character_event = {	#Brawl at the Feast
+	id = goshen_feast_events.43
+	title = EVTTTLgoshen_feast_events.43
+	desc = EVTDESCgoshen_feast_events.43
+	picture = GFX_evt_castle_construction
+
+	trigger = {
+		OR = {
+			has_character_flag = feast_started
+			has_any_opinion_modifier = opinion_join_feast
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 120
+	}
+
+	immediate = {
+		random_realm_character = {
+			limit = {
+				NOT = {
+					character = ROOT
+				}
+				OR = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+					has_character_flag = feast_started
+				}
+			}
+			save_event_target_as = fst_target
+		}
+	}
+
+	option = { #MS Appears
+		name = EVTOPTAgoshen_feast_events.43
+		random_list = {
+			10 = {
+				add_trait = minor_injury 
+			}
+			5 = {
+				add_trait = moderate_injury
+			}
+			4 = {
+				add_trait = severe_injury
+			}
+			3 = {
+				add_trait = incapacitating_injury
+			}
+			2 = {
+				add_trait = deadly_injury
+			}
+			1 = {
+				death = {
+					death_reason = death_murder
+					killer = event_target:fst_target
+				}
+			}
+			1 = {
+			}
+		}
+		event_target:fst_target = {
+			random_list = {
+				10 = {
+					add_trait = minor_injury 
+				}
+				5 = {
+					add_trait = moderate_injury
+				}
+				4 = {
+					add_trait = severe_injury
+				}
+				3 = {
+					add_trait = incapacitating_injury
+				}
+				2 = {
+					add_trait = deadly_injury
+				}
+				1 = {
+					death = {
+						death_reason = death_murder
+						killer = ROOT
+					}
+				}
+				1 = {
+				}
+			}
+			random_list = {
+				10 = {
+					add_friend = ROOT
+				}
+				1 = {
+					opinion = {
+						who = ROOT
+						modifier = opinion_hate
+						years = 5
+					}
+					reverse_opinion = {
+						who = ROOT
+						modifier = opinion_hate
+						years = 5
+					}
+				}
+			}
+		}
+		event_target:fst_target = {
+			IF = {
+				limit = {
+					NOT = {
+						has_character_flag = feast_started
+					}
+				}
+				character_event = {
+					id = goshen_feast_events.431
+				}
+			}
+		}
+		random_realm_character = {
+			limit = {
+				reverse_has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
+			}
+			character_event = {
+				id = goshen_feast_events.432
+			}
+			any_realm_character = {
+				limit = {
+					NOT = {
+						character = event_target:fst_target
+					}
+					has_opinion_modifier = {
+						who = PREV
+						modifier = opinion_join_feast
+					}
+				}
+				character_event = {
+					id = goshen_feast_events.432
+				}
+			}
+		}
+	}
+}
+character_event = {	#Brawl Informer
+	id = goshen_feast_events.431
+	title = EVTTTLgoshen_feast_events.431
+	desc = EVTDESCgoshen_feast_events.431
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.431
+		trigger = {
+			any_friend = {
+				character = FROM
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_feast_events.431
+		trigger = {
+			NOT = {
+				any_friend = {
+					character = FROM
+				}
+			}
+		}
+	}
+}
+character_event = {	#Brawl Informer
+	id = goshen_feast_events.432
+	title = EVTTTLgoshen_feast_events.432
+	desc = {
+		text = EVTDESCgoshen_feast_events.432
+		trigger = {
+			NOT = {
+				event_target:fst_target = {
+					character = ROOT
+				}
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCAgoshen_feast_events.432
+		trigger = {
+			event_target:fst_target = {
+				character = ROOT
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_feast_events.432
+		trigger = {
+			has_character_flag = feast_started
+			event_target:fst_target = {
+				character = ROOT
+			}
+			NOT = {
+				any_friend = {
+					character = FROM
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_feast_events.432
+		trigger = {
+			has_character_flag = feast_started
+			event_target:fst_target = {
+				character = ROOT
+			}
+			any_friend = {
+				character = FROM
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_feast_events.432
+		trigger = {
+			has_character_flag = feast_started
+			NOT = {
+				event_target:fst_target = {
+					character = ROOT
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTDgoshen_feast_events.432
+		trigger = {
+			NOT = {
+				has_character_flag = feast_started
+			}
+		}
+		random = {
+			chance = 20
+			set_character_flag = hated_feast
+		}
 	}
 }
 character_event = {	#End Feast
@@ -127,7 +1215,7 @@ character_event = {	#End Feast
 	option = { #End Feast
 		name = EVTOPTAgoshen_feast_events.10
 		clr_character_flag = feast_started
-		any_realm_lord = {
+		any_realm_character = {
 			IF = {
 				limit = {
 					has_opinion_modifier = {
@@ -143,6 +1231,10 @@ character_event = {	#End Feast
 					modifier = opinion_enjoyed_feast
 					years = 12
 				}
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
 			}
 			IF = {
 				limit = {
@@ -156,6 +1248,10 @@ character_event = {	#End Feast
 					who = ROOT
 					modifier = opinion_hated_feast
 					years = 12
+				}
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_join_feast
 				}
 			}
 		}
@@ -178,7 +1274,7 @@ character_event = {	#End Feast
 	option = { #End Feast
 		name = EVTOPTAgoshen_feast_events.10
 		clr_character_flag = feast_started
-		any_realm_lord = {
+		any_realm_character = {
 			IF = {
 				limit = {
 					has_opinion_modifier = {
@@ -194,6 +1290,10 @@ character_event = {	#End Feast
 					modifier = opinion_enjoyed_feast
 					years = 12
 				}
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
 			}
 			IF = {
 				limit = {
@@ -208,7 +1308,10 @@ character_event = {	#End Feast
 					modifier = opinion_hated_feast
 					years = 12
 				}
-				clr_character_flag = hated_feast
+				remove_opinion = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
 			}
 		}
 	}
