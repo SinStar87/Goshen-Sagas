@@ -5,254 +5,103 @@
 1 = {
 	name = "First War Chief"
 	dynasty = 1
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1700.1.1 = {
-		birth = yes
-	}
-	1717.1.1 = {
-		add_spouse = 24002
-	}
-	1757.1.1 = {
-		death = yes
-	}
+	1700.1.1 = { birth = yes }
+	1717.1.1 = { add_spouse = 24002 }
+	1757.1.1 = { death = yes }
 }
 
 #12 Sons of the War Chief
 2 = {
 	name = "War'o"
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1718.1.1 = {
-		birth = yes
-	}
-	1738.1.1 = {
-		add_spouse = 24003
-	}
-	1793.1.1 = {
-		death = yes
-	}
+	1718.1.1 = { birth = yes }
+	1738.1.1 = { add_spouse = 24003 }
+	1793.1.1 = { death = yes }
 }
 3 = {
 	name = Mandrid
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1719.1.1 = {
-		birth = yes
-	}
-	1739.1.1 = {
-		add_spouse = 24011
-	}
-	1785.1.1 = {
-		death = yes
-	}
+	1719.1.1 = { birth = yes }
+	1739.1.1 = { add_spouse = 24011 }
+	1785.1.1 = { death = yes }
 }
 4 = {
 	name = Beorthelfbrak
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1720.1.1 = {
-		birth = yes
-	}
-	1781.1.1 = {
-		death = yes
-	}
+	1720.1.1 = { birth = yes }
+	1781.1.1 = { death = yes }
 }
 5 = {
 	name = Wulfhrun
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
 	trait = twin
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1722.1.1 = {
-		birth = yes
-	}
-	1791.1.1 = {
-		death = yes
-	}
+	1722.1.1 = { birth = yes }
+	1791.1.1 = { death = yes }
 }
 6 = {
 	name = Drud
 	dynasty = 6
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
 	trait = twin
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1722.1.1 = {
-		birth = yes
-	}
-	1793.1.1 = {
-		death = yes
-	}
+	1722.1.1 = { birth = yes }
+	1793.1.1 = { death = yes }
 }
 7 = {
 	name = Eadu
 	dynasty = 7
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1723.1.1 = {
-		birth = yes
-	}
-	1790.1.1 = {
-		death = yes
-	}
+	1723.1.1 = { birth = yes }
+	1790.1.1 = { death = yes }
 }
 8 = {
 	name = Ara
 	dynasty = 8
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1724.1.1 = {
-		birth = yes
-	}
-	1789.1.1 = {
-		death = yes
-	}
+	1724.1.1 = { birth = yes }
+	1789.1.1 = { death = yes }
 }
 9 = {
 	name = Delferth
 	dynasty = 9
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1725.1.1 = {
-		birth = yes
-	}
-	1801.1.1 = {
-		death = yes
-	}
+	1725.1.1 = { birth = yes }
+	1801.1.1 = { death = yes }
 }
 10 = {
 	name = Thenn
 	dynasty = 10
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -270,14 +119,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -295,14 +136,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -320,14 +153,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
@@ -347,14 +172,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 2 # War'o
 	mother = 24003 # Kuyni
@@ -375,14 +192,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 20 # Anchei
 	mother = 24004 # Fortah
@@ -403,14 +212,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 21 # Daneo
 	mother = 24005 # Fiey
@@ -431,14 +232,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 22 # Nemir
 	mother = 24006 # Kalla
@@ -459,14 +252,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 23 # Thorkru
 	mother = 24007 # Trig
@@ -487,14 +272,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 24 # Rhun
 	mother = 24008 # Nith
@@ -515,14 +292,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 25 # Cobar
 	mother = 24009 # Ta
@@ -548,14 +317,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 26 # Vaceo
 	mother = 24001 # Naana
@@ -576,14 +337,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 27 # Rhun
 	mother = 24010 # Kuyni
@@ -603,14 +356,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 3 # Mandrid
 	mother = 24011 # Fortah
@@ -631,14 +376,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 30 # Manfar
 	mother = 24012 # Fiey
@@ -659,14 +396,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 31 # Manbyrn
 	mother = 24013 # Kalla
@@ -687,14 +416,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 32 # Manbryt
 	mother = 24014 # Merra
@@ -715,14 +436,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 33 # Krummwen
 	mother = 24015 # Trig
