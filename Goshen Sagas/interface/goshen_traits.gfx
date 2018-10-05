@@ -89,8 +89,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_trait_strategist"
-		texturefile = "gfx/traits/strategist.tga"
+		name = "GFX_trait_clever_strategist"
+		texturefile = "gfx/traits/clever_strategist.tga"
 		noOfFrames = 1
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"

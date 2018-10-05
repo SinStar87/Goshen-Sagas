@@ -34,7 +34,7 @@ proper_character_effect = {
 					OR = {
 						trait = soldier
 						trait = tactician
-						trait = strategist
+						trait = clever_strategist
 						trait = mastermind
 					}
 				}

@@ -176,7 +176,7 @@ character_event = {	#Training Outcome
 		remove_trait = emissary
 		remove_trait = soldier
 		remove_trait = tactician
-		remove_trait = strategist
+		remove_trait = clever_strategist
 		remove_trait = mastermind
 		remove_trait = clerk
 		remove_trait = entrepreneur
@@ -240,7 +240,7 @@ character_event = {	#Training Outcome
 					factor = 1.5
 					trait = prodigy
 				}
-				add_trait = strategist
+				add_trait = clever_strategist
 				change_diplomacy = 4
 				change_martial = 5
 				change_stewardship = 4
@@ -587,7 +587,7 @@ character_event = {	#Training Outcome
 					factor = 1.5
 					trait = prodigy
 				}
-				add_trait = strategist
+				add_trait = clever_strategist
 				change_diplomacy = 4
 				change_martial = 5
 				change_stewardship = 4

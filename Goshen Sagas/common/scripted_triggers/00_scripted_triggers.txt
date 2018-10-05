@@ -14,7 +14,7 @@ can_be_marshal_trigger = {
 	OR = {
 		trait = soldier
 		trait = tactician
-		trait = strategist
+		trait = clever_strategist
 		trait = mastermind
 	}
 }

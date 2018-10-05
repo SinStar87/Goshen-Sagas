@@ -48,7 +48,7 @@ character_event = {#Decide Duels
 			modifier = {
 				factor = 2
 				event_target:dueler1 = {
-					trait = strategist
+					trait = clever_strategist
 				}
 			}
 			modifier = {
@@ -425,7 +425,7 @@ character_event = {#Decide Duels
 			modifier = {
 				factor = 2
 				event_target:dueler2 = {
-					trait = strategist
+					trait = clever_strategist
 				}
 			}
 			modifier = {

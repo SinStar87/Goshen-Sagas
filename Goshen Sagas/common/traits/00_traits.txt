@@ -59,7 +59,7 @@ tactician = {
 	combat_rating = 2
 	leadership_traits = 1
 }
-strategist = {
+clever_strategist = {
 	attribute = martial
 	education = yes
 

@@ -19,8 +19,8 @@ soldier;Soldier;;;;;;;;;;;;;x
 soldier_desc;A low level officer.;;;;;;;;;;;;;x
 tactician;Tactician;;;;;;;;;;;;;x
 tactician_desc;A mid level officer.;;;;;;;;;;;;;x
-strategist;Strategist;;;;;;;;;;;;;x
-strategist_desc;A high level officer.;;;;;;;;;;;;;x
+clever_strategist;Strategist;;;;;;;;;;;;;x
+clever_strategist_desc;A high level officer.;;;;;;;;;;;;;x
 mastermind;Mastermind;;;;;;;;;;;;;x
 mastermind_desc;A master level officer.;;;;;;;;;;;;;x
 
