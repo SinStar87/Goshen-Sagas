@@ -14,4 +14,4 @@ tsf4
 Julius Caesar
 
 Special Thanks
-marowa - artwork; fixing Dying Lands image
+marowa - artwork; fixing Dying Lands image, Trait art overhaul
