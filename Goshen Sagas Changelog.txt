@@ -8,6 +8,7 @@ History fixing
 Decreased AI Aggression
 Code cleanup and bugfixing
 Easter Egg
+Abimelech chars given mothers/wives and do not have their starting prestige, piety and cash now
 
 New Team Members
 tsf4
