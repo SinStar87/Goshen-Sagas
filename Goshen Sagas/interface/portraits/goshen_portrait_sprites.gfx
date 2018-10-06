@@ -2,7 +2,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_dyinglands"
-		texturefile = "gfx\\characters\\unoccupied\\dyinglands.dds"
+		texturefile = "gfx\\characters\\unoccupied\\dyinglands.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
