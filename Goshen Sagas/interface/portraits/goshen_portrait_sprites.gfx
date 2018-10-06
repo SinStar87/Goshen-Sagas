@@ -10,7 +10,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_polar"
-		texturefile = "gfx\\characters\\unoccupied\\polar.dds"
+		texturefile = "gfx\\characters\\unoccupied\\polar.tga"
 		noOfFrames = 1
 		norefcount = yes
 		can_be_lowres = yes
