@@ -102,169 +102,97 @@
 	dynasty = 10
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1726.1.1 = {
-		birth = yes
-	}
-	1790.1.1 = {
-		death = yes
-	}
+	1726.1.1 = { birth = yes }
+	1790.1.1 = { death = yes }
 }
 11 = {
 	name = Manax
 	dynasty = 11
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1727.1.1 = {
-		birth = yes
-	}
-	1798.1.1 = {
-		death = yes
-	}
+	1727.1.1 = { birth = yes }
+	1798.1.1 = { death = yes }
 }
 12 = {
 	name = Ealtheon
 	dynasty = 12
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1727.2.1 = {
-		birth = yes
-	}
-	1800.1.1 = {
-		death = yes
-	}
+	1727.2.1 = { birth = yes }
+	1800.1.1 = { death = yes }
 }
 13 = {
 	name = Vaceo
 	dynasty = 13
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 1 # First War Chief
 	mother = 24002 # Merra
-
-	1728.1.1 = {
-		birth = yes
-	}
-	1793.1.1 = {
-		death = yes
-	}
+	1728.1.1 = { birth = yes }
+	1793.1.1 = { death = yes }
 }
 
 #Line of Bloodstone Clan
 20 = {
 	name = Anchei
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 2 # War'o
 	mother = 24003 # Kuyni
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1776.1.1 = {
-		add_spouse = 24004
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24004 }
+	1821.4.9 = { death = yes }
 }
 21 = {
 	name = Daneo
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 20 # Anchei
 	mother = 24004 # Fortah
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1807.1.1 = {
-		add_spouse = 24005
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	1787.1.1 = { birth = yes }
+	1807.1.1 = { add_spouse = 24005 }
+	1855.1.1 = { death = yes }
 }
 22 = {
 	name = Nemir
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 21 # Daneo
 	mother = 24005 # Fiey
-
-	1823.1.1 = {
-		birth = yes
-	}
-	1843.1.1 = {
-		add_spouse = 24006
-	}
-	1870.1.1 = {
-		death = yes
-	}
+	1823.1.1 = { birth = yes }
+	1843.1.1 = { add_spouse = 24006 }
+	1870.1.1 = { death = yes }
 }
 23 = {
 	name = Thorkru
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 22 # Nemir
 	mother = 24006 # Kalla
-
-	1848.1.1 = {
-		birth = yes
-	}
-	1868.1.1 = {
-		add_spouse = 24007
-	}
-	1928.1.1 = {
-		death = yes
-	}
+	1848.1.1 = { birth = yes }
+	1868.1.1 = { add_spouse = 24007 }
+	1928.1.1 = { death = yes }
 }
 24 = {
 	name = Rhun
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 23 # Thorkru
 	mother = 24007 # Trig
-
-	1878.1.1 = {
-		birth = yes
-	}
-	1898.1.1 = {
-		add_spouse = 24008
-	}
-	1943.1.1 = {
-		death = yes
-	}
+	1878.1.1 = { birth = yes }
+	1898.1.1 = { add_spouse = 24008 }
+	1943.1.1 = { death = yes }
 }
 25 = {
 	name = Cobar
@@ -443,6 +371,7 @@
 	1878.1.1 = {
 		birth = yes
 	}
+	1898.1.1 = { add_spouse = 24016 }
 	1943.1.1 = {
 		death = yes
 	}
@@ -453,44 +382,32 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 	
 	father = 34 # Wulfsan
+	mother = 24016 # Nith
 
 	1901.1.1 = {
 		birth = yes
 	}
+	1921.1.1 = { add_spouse = 24017 }
 	1970.1.1 = {
 		death = yes
 	}
 }
 36 = {
 	name = Manax
-	father = 35
 	dynasty = 3
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
+	
+	father = 35 # Wulfhes
+	mother = 24017 # Ta
 
 	1934.1.1 = {
 		birth = yes
 	}
-	1958.1.1 = {
+	1958.2.1 = {
 		add_spouse = 24001
 	}
 	1984.1.1 = {
@@ -499,22 +416,15 @@
 }
 37 = {
 	name = Cobar
-	father = 36
-	mother = 24001
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
+	
+	father = 36 # Manax
+	mother = 24001 # Naana
 
 	1959.1.1 = {
 		birth = yes
@@ -532,14 +442,6 @@
 
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
 
 	1962.1.1 = {
 		birth = yes
