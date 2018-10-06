@@ -197,283 +197,166 @@
 25 = {
 	name = Cobar
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 24 # Rhun
 	mother = 24008 # Nith
-
-	1901.1.1 = {
-		birth = yes
-	}
-	1921.1.1 = {
-		add_spouse = 24009
-	}
-	1970.1.1 = {
-		death = yes
-	}
+	1901.1.1 = { birth = yes }
+	1921.1.1 = { add_spouse = 24009 }
+	1970.1.1 = { death = yes }
 }
 26 = {
 	name = Vaceo
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 25 # Cobar
 	mother = 24009 # Ta
-
-	1934.1.1 = {
-		birth = yes
-	}
-	1954.1.1 = {
-		add_spouse = 24001
-	}
-	1958.2.1 = {
-		remove_spouse = 24001
-	}
-	1984.1.1 = {
-		death = yes
-	}
+	1934.1.1 = { birth = yes }
+	1954.1.1 = { add_spouse = 24001 }
+	1958.2.1 = { remove_spouse = 24001 }
+	1984.1.1 = { death = yes }
 }
 27 = {
 	name = Rhun
 	dynasty = 2
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 26 # Vaceo
 	mother = 24001 # Naana
-
-	1958.1.1 = {
-		birth = yes
-	}
-	1978.1.1 = {
-		add_spouse = 24010
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1958.1.1 = { birth = yes }
+	1978.1.1 = { add_spouse = 24010 }
+	2015.1.1 = { death = yes }
 }
 28 = {
 	name = Rhun
 	dynasty = 2
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 27 # Rhun
 	mother = 24010 # Kuyni
-
-	1989.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1989.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 
 #Line of Beon's Pride Clan
 30 = {
 	name = Manfar
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 3 # Mandrid
 	mother = 24011 # Fortah
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1776.1.1 = {
-		add_spouse = 24012
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24012 }
+	1821.4.9 = { death = yes }
 }
 31 = {
 	name = Manbyrn
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 30 # Manfar
 	mother = 24012 # Fiey
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1807.1.1 = {
-		add_spouse = 24013
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	1787.1.1 = { birth = yes }
+	1807.1.1 = { add_spouse = 24013 }
+	1855.1.1 = { death = yes }
 }
 32 = {
 	name = Manbryt
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 31 # Manbyrn
 	mother = 24013 # Kalla
-
-	1823.1.1 = {
-		birth = yes
-	}
-	1843.1.1 = {
-		add_spouse = 24014
-	}
-	1870.1.1 = {
-		death = yes
-	}
+	1823.1.1 = { birth = yes }
+	1843.1.1 = { add_spouse = 24014 }
+	1870.1.1 = { death = yes }
 }
 33 = {
 	name = Krummwen
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 32 # Manbryt
 	mother = 24014 # Merra
-
-	1848.1.1 = {
-		birth = yes
-	}
-	1868.1.1 = {
-		add_spouse = 24015
-	}
-	1928.1.1 = {
-		death = yes
-	}
+	1848.1.1 = { birth = yes }
+	1868.1.1 = { add_spouse = 24015 }
+	1928.1.1 = { death = yes }
 }
 34 = {
 	name = Wulfsan
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 33 # Krummwen
 	mother = 24015 # Trig
-
-	1878.1.1 = {
-		birth = yes
-	}
+	1878.1.1 = { birth = yes }
 	1898.1.1 = { add_spouse = 24016 }
-	1943.1.1 = {
-		death = yes
-	}
+	1943.1.1 = { death = yes }
 }
 35 = {
 	name = Wulfhes
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 34 # Wulfsan
 	mother = 24016 # Nith
-
-	1901.1.1 = {
-		birth = yes
-	}
+	1901.1.1 = { birth = yes }
 	1921.1.1 = { add_spouse = 24017 }
-	1970.1.1 = {
-		death = yes
-	}
+	1970.1.1 = { death = yes }
 }
 36 = {
 	name = Manax
 	dynasty = 3
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 35 # Wulfhes
 	mother = 24017 # Ta
-
-	1934.1.1 = {
-		birth = yes
-	}
-	1958.2.1 = {
-		add_spouse = 24001
-	}
-	1984.1.1 = {
-		death = yes
-	}
+	1934.1.1 = { birth = yes }
+	1958.2.1 = { add_spouse = 24001 }
+	1961.1.1 = { remove_spouse = 24001 }
+	1961.2.1 = { add_spouse = 24018 }
+	1984.1.1 = { death = yes }
 }
 37 = {
 	name = Cobar
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-	
 	father = 36 # Manax
 	mother = 24001 # Naana
-
-	1959.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1959.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 38 = {
 	name = Thorkru
-	father = 36
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	1962.1.1 = {
-		birth = yes
-	}
-	1990.1.1 = {
-		death = yes
-	}
+	father = 36 # Manax
+	mother = 24018 # Kuyni
+	1962.1.1 = { birth = yes }
+	1978.1.1 = { add_spouse = 24019 }
+	1990.1.1 = { death = yes }
 }
 39 = {
 	name = Soule
-	father = 38
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1979.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	father = 38 # Thorkru
+	mother = 24019 # Fortah
+	1979.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 371 = {
 	name = Carric
@@ -481,27 +364,11 @@
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1982.1.1 = {
-		birth = yes
-	}
-	1990.1.1 = {
-		employer = 39
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1982.1.1 = { birth = yes }
+	1990.1.1 = { employer = 39 }
+	2015.1.1 = { death = yes }
 }
 
 #Line of Black Axe Clan
@@ -509,47 +376,19 @@
 	name = Waruka
 	father = 4
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1821.4.9 = { death = yes }
 }
 41 = {
 	name = Mandrid
 	father = 40
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
 }
 42 = {
 	name = Cynsteel

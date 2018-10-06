@@ -240,3 +240,19 @@
 		death = yes
 	}
 }
+24018 = {
+	name = Kuyni
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1934.1.1 = { birth = yes }
+	1984.1.1 = { death = yes }
+}
+24019 = {
+	name = Fortah
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1962.1.1 = { birth = yes }
+	1990.1.1 = { death = yes }
+}
