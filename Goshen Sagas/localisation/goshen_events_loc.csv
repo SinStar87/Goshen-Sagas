@@ -276,19 +276,19 @@ EVTDESCgoshen_hunt_events.100;The hunt draws to a close, as you and your command
 EVTOPTAgoshen_hunt_events.100;The memory will surely last for some time.;;;;;;;;;;;;;x
 #Feast
 EVTTTLgoshen_feast_events.0;Host a Grand Feast;;;;;;;;;;;;;x
-EVTDESCgoshen_feast_events.0;You have the means to host a Grand Feast.;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.0;You can host a feast of such grand proportion the whole realm shall envy;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.0;Begin the Preparations.;;;;;;;;;;;;;x
-EVTOPTBgoshen_feast_events.0;Nevermind.;;;;;;;;;;;;;x
-EVTTTLgoshen_feast_events.1;Invitation to a Grand Feast;;;;;;;;;;;;;x
-EVTDESCgoshen_feast_events.1;You have received and invite to a Grand Feast hosted by [From.GetTitledFirstName].;;;;;;;;;;;;;x
-EVTOPTAgoshen_feast_events.1;I'm on my way.;;;;;;;;;;;;;x
-EVTOPTBgoshen_feast_events.1;I'm sick. *Cough Cough*;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.0;Perhaps another time.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.1;Invitation to a Feast;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.1;[From.GetTitledFirstName] would be most honored should you join [From.GetHerHim] for a feast hosted in [From.Capital.GetName] where you would spend the night partaking in a feast and festivities of epic magnitude. Your host wishes that you may enjoy yourself along with your fellow guests.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.1;I look forward to it.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.1;My illness does not permit it.*Cough Cough*;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.11;Invitation Refused;;;;;;;;;;;;;x
-EVTDESCgoshen_feast_events.11;[From.GetFirstName] has sent [From.GetHerHis] refusal.;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.11;[From.GetFirstName] has refused to attend for some reason or another, it's unfortunate that [From.GetSheHe]'ll be missing out on the revelries of tonight. Whether [From.GetSheHe] wishes to or not, we'll be having a wonderful night.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.11;I'll remember this.;;;;;;;;;;;;;x
-EVTTTLgoshen_feast_events.2;Feast Begins;;;;;;;;;;;;;x
-EVTDESCgoshen_feast_events.2;Your Feast has begun.;;;;;;;;;;;;;x
-EVTOPTAgoshen_feast_events.2;Please, everyone, enjoy yourselves.;;;;;;;;;;;;;x
+EVTTTLgoshen_feast_events.2;The Feast Commences;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.2;The guests pour in through the doors, the food has been laid out and the hearths fire warms every inch of the grand hall. People begin to sit down as they look to their plates to see fine juicy cuts of meat along with an array of exotic fruits from the furthest reaches of the world, in their glasses sits expensive wines aged to perfection. On the center of the table is a cake towering several layers above, a beautiful frosting with so many intricate curls and bends curving around as it towers up.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.2;Welcome friends, let the night begin.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.31;Present Gift to the Host;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.31;You can present a gift to the Host.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.31;I present you a gift of Wealth.;;;;;;;;;;;;;x
@@ -369,8 +369,8 @@ EVTOPTBgoshen_feast_events.432;Well fought, I apologize.;;;;;;;;;;;;;x
 EVTOPTCgoshen_feast_events.432;You must calm down!;;;;;;;;;;;;;x
 EVTOPTDgoshen_feast_events.432;My word, such disruption.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.10;The Feast has Ended;;;;;;;;;;;;;x
-EVTDESCgoshen_feast_events.10;The feast nears its end.;;;;;;;;;;;;;x
-EVTOPTAgoshen_feast_events.10;It was a great affair.;;;;;;;;;;;;;x
+EVTDESCgoshen_feast_events.10;As the blazing hearth begins to die down to smoldering cinders, so too does the moon begin to raise in the sky and the stars light grow. The guests now exit the same doors they had entered as laughter begins to leave the room and wishes of good nights can be heard from inside, the feast draws to a close.;;;;;;;;;;;;;x
+EVTOPTAgoshen_feast_events.10;An incredible night, one to remember.;;;;;;;;;;;;;x
 
 ####################
 #Councillor Events
