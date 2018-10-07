@@ -112,8 +112,36 @@ character_event = {	#Feast Started
 	picture = GFX_evt_castle_construction
 	is_triggered_only = yes
 
-	option = { #Feast Started
+	option = { #Host - Feast Started
 		name = EVTOPTAgoshen_feast_events.2
+		trigger = {
+			has_character_flag = hosting_feast
+		}
+		clr_character_flag = hosting_feast
+		set_character_flag = feast_started
+		hidden_effect = {
+			any_realm_character = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = opinion_join_feast
+					}
+				}
+				character_event = {
+					id = goshen_feast_events.2
+				}
+			}
+		}
+	}
+
+	option = { #Joiner - Feast Started
+		name = EVTOPTBgoshen_feast_events.2
+		trigger = {
+			has_opinion_modifier = {
+				who = FROM
+				modifier = opinion_join_feast
+			}
+		}
 		clr_character_flag = hosting_feast
 		set_character_flag = feast_started
 	}
@@ -1212,7 +1240,21 @@ character_event = {	#End Feast
 		days = 60
 	}
 
-	option = { #End Feast
+	immediate = {
+		any_realm_character = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
+			}
+			character_event = {
+				id = goshen_feast_events.10
+			}
+		}
+	}
+
+	option = { #Host - End Feast
 		name = EVTOPTAgoshen_feast_events.10
 		clr_character_flag = feast_started
 		any_realm_character = {
@@ -1253,6 +1295,26 @@ character_event = {	#End Feast
 					who = ROOT
 					modifier = opinion_join_feast
 				}
+			}
+		}
+	}
+
+	option = { #End Feast
+		name = EVTOPTBgoshen_feast_events.10
+		trigger = {
+			has_character_flag = hated_feast
+			NOT = {
+				has_character_flag = feast_started
+			}
+		}
+	}
+
+	option = { #End Feast
+		name = EVTOPTCgoshen_feast_events.10
+		trigger = {
+			NOR = {
+				has_character_flag = hated_feast
+				has_character_flag = feast_started
 			}
 		}
 	}
@@ -1271,6 +1333,20 @@ character_event = {	#End Feast
 		}
 	}
 
+	immediate = {
+		any_realm_character = {
+			limit = {
+				has_opinion_modifier = {
+					who = ROOT
+					modifier = opinion_join_feast
+				}
+			}
+			character_event = {
+				id = goshen_feast_events.10
+			}
+		}
+	}
+
 	option = { #End Feast
 		name = EVTOPTAgoshen_feast_events.10
 		clr_character_flag = feast_started
@@ -1312,6 +1388,26 @@ character_event = {	#End Feast
 					who = ROOT
 					modifier = opinion_join_feast
 				}
+			}
+		}
+	}
+
+	option = { #End Feast
+		name = EVTOPTAgoshen_feast_events.10
+		trigger = {
+			NOR = {
+				has_character_flag = hated_feast
+				has_character_flag = feast_started
+			}
+		}
+	}
+
+	option = { #End Feast
+		name = EVTOPTBgoshen_feast_events.10
+		trigger = {
+			has_character_flag = hated_feast
+			NOT = {
+				has_character_flag = feast_started
 			}
 		}
 	}

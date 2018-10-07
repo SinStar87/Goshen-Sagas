@@ -289,6 +289,7 @@ EVTOPTAgoshen_feast_events.11;I'll remember this.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.2;The Feast Commences;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.2;The guests pour in through the doors, the food has been laid out and the hearths fire warms every inch of the grand hall. People begin to sit down as they look to their plates to see fine juicy cuts of meat along with an array of exotic fruits from the furthest reaches of the world, in their glasses sits expensive wines aged to perfection. On the center of the table is a cake towering several layers above, a beautiful frosting with so many intricate curls and bends curving around as it towers up.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.2;Welcome friends, let the night begin.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.2;I'm sure it'll be great.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.31;Present Gift to the Host;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.31;You can present a gift to the Host.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.31;I present you a gift of Wealth.;;;;;;;;;;;;;x
@@ -371,6 +372,7 @@ EVTOPTDgoshen_feast_events.432;My word, such disruption.;;;;;;;;;;;;;x
 EVTTTLgoshen_feast_events.10;The Feast has Ended;;;;;;;;;;;;;x
 EVTDESCgoshen_feast_events.10;As the blazing hearth begins to die down to smoldering cinders, so too does the moon begin to raise in the sky and the stars light grow. The guests now exit the same doors they had entered as laughter begins to leave the room and wishes of good nights can be heard from inside, the feast draws to a close.;;;;;;;;;;;;;x
 EVTOPTAgoshen_feast_events.10;An incredible night, one to remember.;;;;;;;;;;;;;x
+EVTOPTBgoshen_feast_events.10;Awful, I had a terrible time!;;;;;;;;;;;;;x
 
 ####################
 #Councillor Events
