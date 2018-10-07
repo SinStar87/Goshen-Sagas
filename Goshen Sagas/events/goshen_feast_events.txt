@@ -57,6 +57,9 @@ character_event = {	#Feast Invite
 				has_any_opinion_modifier = opinion_join_feast
 			}
 		}
+		ai_chance = {
+			factor = 80
+		}
 		opinion = {
 			who = FROM
 			modifier = opinion_join_feast
@@ -81,6 +84,9 @@ character_event = {	#Feast Invite
 			who = FROM
 			modifier = opinion_refuse_feast
 			months = 7
+		}
+		ai_chance = {
+			factor = 20
 		}
 		FROM = {
 			character_event = {
@@ -169,7 +175,7 @@ character_event = {	#Present Gift
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	option = { #Send Gift
@@ -257,7 +263,7 @@ character_event = {	#Meet Someone
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	immediate = {
@@ -587,7 +593,7 @@ character_event = {	#BFFs?
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	immediate = {
@@ -686,7 +692,7 @@ character_event = {	#Shadowy Figure Appears
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	immediate = {
@@ -944,7 +950,7 @@ character_event = {	#Kitchen Fire
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	option = { #Send out Informer
@@ -988,7 +994,7 @@ character_event = {	#Brawl at the Feast
 	}
 
 	mean_time_to_happen = {
-		days = 120
+		days = 600
 	}
 
 	immediate = {

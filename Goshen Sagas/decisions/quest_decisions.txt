@@ -38,11 +38,11 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			is_ruler = yes
+			NOT = { has_character_flag = feast_setup }
+			NOT = { has_character_flag = hosting_feast }
+			NOT = { has_character_flag = feast_started }
+			NOT = { has_character_flag = hosted_feast }
 			OR = {
-				NOT = { has_character_flag = feast_setup }
-				NOT = { has_character_flag = hosting_feast }
-				NOT = { has_character_flag = feast_started }
-				NOT = { has_character_flag = hosted_feast }
 				NOT = { has_any_opinion_modifier = opinion_join_feast }
 				had_character_flag = { flag = hosted_feast years = 10 }
 			}
