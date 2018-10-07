@@ -1,5 +1,6 @@
 name = "Goshen Sagas"
 path = "mod/Goshen Sagas"
+tags = { "overhaul" "Goshen" "fiction" "mod" "Sinful" "new" "world" "map" }
 replace_path = "common/buildings"
 replace_path = "common/cultures"
 replace_path = "common/defines"
