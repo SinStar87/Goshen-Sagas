@@ -3,60 +3,35 @@
 ##########################
 24001 = {#Rhun and Cobar's Mom
 	name = Naana
-	dynasty = 0
 	female = yes
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	1938.1.1 = {
-		birth = yes
-	}
-	1959.1.1 = {
-		death = yes
-	}
+	1938.1.1 = { birth = yes }
+	1959.1.1 = { death = yes }
 }
 24002 = { # First War Chief's wife
 	name = "Merra"
 	female=yes
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	1700.1.1 = {
-		birth = yes
-	}
-	1757.1.1 = {
-		death = yes
-	}
+	1700.1.1 = { birth = yes }
+	1757.1.1 = { death = yes }
 }
 24003 = { # War'o's wife
 	name = "Kuyni"
 	female = yes
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	1718.1.1 = {
-		birth = yes
-	}
-	1793.1.1 = {
-		death = yes
-	}
+	1718.1.1 = { birth = yes }
+	1793.1.1 = { death = yes }
 }
 24004 = {
 	name = Fortah
 	female = yes
-	
 	culture = abimelech
 	religion = abimelech_rel
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1821.4.9 = { death = yes }
 }
 24005 = {
 	name = Fiey
