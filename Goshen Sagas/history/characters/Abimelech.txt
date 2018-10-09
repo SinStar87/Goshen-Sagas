@@ -43,6 +43,7 @@
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1720.1.1 = { birth = yes }
+	1740.1.1 = { add_spouse = 24021 }
 	1781.1.1 = { death = yes }
 }
 5 = {
@@ -331,6 +332,7 @@
 	father = 36 # Manax
 	mother = 24001 # Naana
 	1959.1.1 = { birth = yes }
+	1979.1.1 = { add_spouse = 24020 }
 	2015.1.1 = { death = yes }
 }
 38 = {
@@ -360,12 +362,13 @@
 }
 371 = {
 	name = Carric
-	father = 37
 	dynasty = 3
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
+	father = 37 # Cobar
+	mother = 24020 # Fiey
 	1982.1.1 = { birth = yes }
 	1990.1.1 = { employer = 39 }
 	2015.1.1 = { death = yes }
@@ -374,10 +377,11 @@
 #Line of Black Axe Clan
 40 = {
 	name = Waruka
-	father = 4
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 4 # Beorthelfbrak
+	mother = 24021 # Kalla
 	1756.1.1 = { birth = yes }
 	1821.4.9 = { death = yes }
 }
@@ -394,116 +398,46 @@
 	name = Cynsteel
 	father = 41
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1823.1.1 = {
-		birth = yes
-	}
-	1870.1.1 = {
-		death = yes
-	}
+	1823.1.1 = { birth = yes }
+	1870.1.1 = { death = yes }
 }
 43 = {
 	name = Waruka
 	father = 42
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1848.1.1 = {
-		birth = yes
-	}
-	1928.1.1 = {
-		death = yes
-	}
+	1848.1.1 = { birth = yes }
+	1928.1.1 = { death = yes }
 }
 44 = {
 	name = Valwi
 	father = 43
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1878.1.1 = {
-		birth = yes
-	}
-	1943.1.1 = {
-		death = yes
-	}
+	1878.1.1 = { birth = yes }
+	1943.1.1 = { death = yes }
 }
 45 = {
 	name = Delferth
 	father = 44
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1901.1.1 = {
-		birth = yes
-	}
-	1970.1.1 = {
-		death = yes
-	}
+	1901.1.1 = { birth = yes }
+	1970.1.1 = { death = yes }
 }
 46 = {
 	name = Stanthang
 	father = 45
 	dynasty = 4
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1934.1.1 = {
-		birth = yes
-	}
-	1984.1.1 = {
-		death = yes
-	}
+	1934.1.1 = { birth = yes }
+	1984.1.1 = { death = yes }
 }
 47 = {
 	name = Cynsteel
@@ -511,24 +445,10 @@
 	dynasty = 4
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1959.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1959.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 48 = {
 	name = Stel
@@ -536,24 +456,10 @@
 	dynasty = 4
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1989.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1989.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 
 #Line of Black Stone Clan
@@ -561,162 +467,64 @@
 	name = Ferth
 	father = 5
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1821.4.9 = { death = yes }
 }
 51 = {
 	name = Drud
 	father = 50
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
 }
 52 = {
 	name = Nemir
 	father = 51
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1823.1.1 = {
-		birth = yes
-	}
-	1870.1.1 = {
-		death = yes
-	}
+	1823.1.1 = { birth = yes }
+	1870.1.1 = { death = yes }
 }
 53 = {
 	name = Jonda
 	father = 52
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1848.1.1 = {
-		birth = yes
-	}
-	1928.1.1 = {
-		death = yes
-	}
+	1848.1.1 = { birth = yes }
+	1928.1.1 = { death = yes }
 }
 54 = {
 	name = Ferth
 	father = 53
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1878.1.1 = {
-		birth = yes
-	}
-	1943.1.1 = {
-		death = yes
-	}
+	1878.1.1 = { birth = yes }
+	1943.1.1 = { death = yes }
 }
 55 = {
 	name = Jonto
 	father = 54
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1901.1.1 = {
-		birth = yes
-	}
-	1970.1.1 = {
-		death = yes
-	}
+	1901.1.1 = { birth = yes }
+	1970.1.1 = { death = yes }
 }
 56 = {
 	name = Ferth
 	father = 55
 	dynasty = 5
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1934.1.1 = {
-		birth = yes
-	}
-	1984.1.1 = {
-		death = yes
-	}
+	1934.1.1 = { birth = yes }
+	1984.1.1 = { death = yes }
 }
 57 = {
 	name = Manax
@@ -724,24 +532,10 @@
 	dynasty = 5
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1959.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1959.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 58 = {
 	name = Maanan
@@ -749,24 +543,10 @@
 	dynasty = 5
 	dna = clgfbldcaaw
 	properties = am00aa00000000
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1989.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	1989.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 
 #Line of Drugar Skull Clan
@@ -774,70 +554,28 @@
 	name = Foo
 	father = 6
 	dynasty = 6
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	1756.1.1 = { birth = yes }
+	1821.4.9 = { death = yes }
 }
 61 = {
 	name = Taana
 	father = 60
 	dynasty = 6
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
 }
 62 = {
 	name = Thann
 	father = 61
 	dynasty = 6
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1823.1.1 = {
-		birth = yes
-	}
-	1870.1.1 = {
-		death = yes
-	}
+	1823.1.1 = { birth = yes }
+	1870.1.1 = { death = yes }
 }
 63 = {
 	name = Roolo
