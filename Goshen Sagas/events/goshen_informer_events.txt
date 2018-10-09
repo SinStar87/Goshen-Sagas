@@ -33,7 +33,7 @@ character_event = {	#War were declared
 	is_triggered_only = yes
 
 	option = {
-		name = EVTOPTA3
+		name = EVTOPTA31
 	}
 }
 

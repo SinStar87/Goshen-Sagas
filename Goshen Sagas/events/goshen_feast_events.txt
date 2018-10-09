@@ -1316,7 +1316,7 @@ character_event = {	#End Feast
 	}
 
 	option = { #End Feast
-		name = EVTOPTCgoshen_feast_events.10
+		name = EVTOPTAgoshen_feast_events.10
 		trigger = {
 			NOR = {
 				has_character_flag = hated_feast
