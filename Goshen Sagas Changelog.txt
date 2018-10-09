@@ -10,6 +10,11 @@ Code cleanup and bugfixing
 Easter Egg
 Abimelech chars given mothers/wives and do not have their starting prestige, piety and cash now
 
+Post Alpha+3
+Loc Error Fixing
+Extended Endgame to 1000 years from 100 years
+Easter Egg
+
 New Team Members
 tsf4 - dev of Seven Kingdoms, Lux Invicta, Middle Earth, Faerun, and some of his own mods! Check
 all his stuff out here: https://github.com/tannerflick4
