@@ -1,0 +1,122 @@
+# this file is where you define what tech places have in game. If you want to extend your time
+# available to scroll through dates, then extend these dates, or add values for in between these
+# dates.
+
+#advanced areas
+technology = {
+	titles = {
+		d_levyt
+		d_gap_in_the_mountain
+		d_gawei_castle
+	}
+	2000 = {
+		military = 1.0
+		economy = 1.0
+		culture = 1.0
+	}
+	3000 = {
+		military = 8.0
+		economy = 8.0
+		culture = 8.0
+	}
+}
+
+#regular areas
+technology = {
+	titles = {
+		d_great_war_hall
+		d_w_abimelechs
+		d_c_abimelechs
+		d_abimelech_falls
+		d_n_abimelechs
+		d_basli_forest
+		d_s_basli_forest
+		d_grey_mountains
+		d_basli_plains
+		d_sun_river
+		d_gawei_village
+		d_cenno
+		d_solwood
+		d_n_hal_mountains
+		d_gawei_isles
+		d_gawei_channel_isles
+		d_c_grey_plains
+		d_n_grey_plains
+		d_grey_coast
+		d_e_grey_plains
+		d_hunute_forest
+		d_s_hunute_forest
+		d_n_hunute_forest
+		d_kalan_village
+		d_e_kalan_fields
+		d_w_kalan_fields
+		d_kalani_coast
+		d_norrain_river
+		d_collsi
+		d_dulmal
+		d_lommal
+		d_timut
+		d_qwari
+		d_levyt_river
+		d_zet
+		d_poghess
+		d_huargen
+		d_merro
+		d_levyt_w_bank
+		d_zuvaki_palace
+		d_etzus_mouth
+		d_etzu_river
+		d_etzu_lake
+		d_c_ades_plains
+		d_ko
+		d_ades_coast
+		d_zalv_forest
+		d_e_ades_plains
+		d_w_ades_plains
+		d_blav
+		d_majat_mountains
+		d_n_anin_coast
+		d_anin_ko_coast
+		d_n_anin_plains
+		d_ne_anin_plains
+		d_c_anin_plains
+		d_s_anin_plains
+		d_se_anin_plains
+		d_sw_anin_plains
+		d_jese_castle
+		d_w_jese_coast
+		d_hese_forest
+		d_twins
+		d_s_hese_coast
+		d_silt_castle
+		d_navo_coast
+		d_navo_river
+		d_e_navo_desert
+		d_w_navo_desert
+		d_qess_fort
+		d_rannu_plains
+		d_e_daly_mountains
+		d_n_rannu_coast
+		d_s_rannu_coast
+		d_home_of_the_vitat
+		d_n_vitat_canyon
+		d_c_vitat_canyon
+		d_pan_cliffs
+		d_c_yava_forest
+		d_door_to_yava
+		d_ne_yava_forest
+		d_e_yava_forest
+		d_nw_yava_forest
+		d_s_yava_forest
+	}
+	2000 = {
+		military = 0.0
+		economy = 0.0
+		culture = 0.0
+	}
+	3000 = {
+		military = 8.0
+		economy = 8.0
+		culture = 8.0
+	}
+}
