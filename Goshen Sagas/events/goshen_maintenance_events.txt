@@ -479,6 +479,7 @@ character_event = {	#Visited Medicus
 			trait = has_sickness
 			trait = has_plaga
 			trait = has_black_fog
+			trait = has_tuberculosis
 		}
 	}
 
@@ -727,6 +728,43 @@ character_event = {	#Visited Medicus
 					}
 				}
 				add_trait = has_plaga
+			}
+			1 = {
+				modifier = {
+					factor = 0.1
+					trait = minor_illness
+				}
+				modifier = {
+					factor = 3
+					trait = moderate_illness
+				}
+				modifier = {
+					factor = 5
+					OR = {
+						trait = severe_illness
+						trait = incapacitating_illness
+						trait = deadly_illness
+					}
+				}
+				modifier = {
+					factor = 5
+					any_courtier = {
+						trait = has_tuberculosis
+					}
+				}
+				modifier = {
+					factor = 5
+					any_spouse = {
+						trait = has_tuberculosis
+					}
+				}
+				modifier = {
+					factor = 5
+					any_lover = {
+						trait = has_tuberculosis
+					}
+				}
+				add_trait = has_tuberculosis
 			}
 		}
 		character_event = { id = goshen_medicus_events.1 }

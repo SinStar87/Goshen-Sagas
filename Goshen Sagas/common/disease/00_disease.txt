@@ -14,7 +14,7 @@ tuberculosis = { # Consumption
 	}
 	yearly_province_pulse = {
 		random_list = {		
-			92 = {
+			100 = {
 				modifier = {
 					factor = 1.1
 					location = {
@@ -51,9 +51,6 @@ tuberculosis = { # Consumption
 						hospital_level = 6
 					}
 				}
-			}
-			8 = {
-				increase_depopulation_effect = yes
 			}
 		}
 	}
@@ -133,8 +130,8 @@ tuberculosis = { # Consumption
 	color = { 84 171 176 }
 	
 	timeperiod = { # Minor Outbreak
-		start_date = 769.1.1
-		end_date = 1452.1.1	
+		start_date = 2000.1.1
+		end_date = 9999.1.1
 		
 		outbreak_chance = 0.011
 		
@@ -147,7 +144,7 @@ tuberculosis = { # Consumption
 			}
 		}
 
-		max_total_provinces = 5
+		max_total_provinces = 2
 		
 		spread_through_water = no
 		
@@ -158,12 +155,12 @@ tuberculosis = { # Consumption
 	}
 
 	timeperiod = { # Normal Outbreak
-		start_date = 769.1.1
-		end_date = 1452.1.1	
+		start_date = 2000.1.1
+		end_date = 9999.1.1	
 		
 		outbreak_chance = 0.008
 
-		max_total_provinces = 20
+		max_total_provinces = 10
 		
 		min_nb_province = 1	# ignored if 0
 		max_nb_province = 1	# ignored if 0
@@ -172,8 +169,8 @@ tuberculosis = { # Consumption
 	}
 	
 	timeperiod = { # 'More' Normal Outbreak
-		start_date = 769.1.1
-		end_date = 1452.1.1	
+		start_date = 2000.1.1
+		end_date = 9999.1.1
 		
 		outbreak_chance = 0.005
 		
@@ -184,7 +181,7 @@ tuberculosis = { # Consumption
 			}
 		}
 
-		max_total_provinces = 20
+		max_total_provinces = 10
 		
 		min_nb_province = 1	# ignored if 0
 		max_nb_province = 1	# ignored if 0
@@ -193,8 +190,8 @@ tuberculosis = { # Consumption
 	}
 	
 	timeperiod = { # Major Outbreak
-		start_date = 769.1.1
-		end_date = 1452.1.1	
+		start_date = 2000.1.1
+		end_date = 9999.1.1	
 		
 		outbreak_chance = 0.001
 		
@@ -209,7 +206,7 @@ tuberculosis = { # Consumption
 		
 		months = 36
 
-		max_total_provinces = 45
+		max_total_provinces = 22
 		
 		min_nb_province = 2	# ignored if 0
 		max_nb_province = 4	# ignored if 0
@@ -218,8 +215,8 @@ tuberculosis = { # Consumption
 	}
 	
 	timeperiod = { # 'More' Major Outbreak
-		start_date = 769.1.1
-		end_date = 1452.1.1	
+		start_date = 2000.1.1
+		end_date = 9999.1.1	
 		
 		outbreak_chance = 0.002
 		
@@ -232,7 +229,7 @@ tuberculosis = { # Consumption
 		
 		months = 36
 
-		max_total_provinces = 45
+		max_total_provinces = 22
 		
 		min_nb_province = 2	# ignored if 0
 		max_nb_province = 4	# ignored if 0

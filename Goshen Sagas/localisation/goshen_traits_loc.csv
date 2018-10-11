@@ -145,6 +145,9 @@ incapacitating_illness;Incapacitating Illness;;;;;;;;;;;;;x
 incapacitating_illness_desc;Bed ridden and rarely conscience.;;;;;;;;;;;;;x
 deadly_illness;Deadly Illness;;;;;;;;;;;;;x
 deadly_illness_desc;Death is waiting.;;;;;;;;;;;;;x
+has_tuberculosis;Has Great White Plague;;;;;;;;;;;
+tuberculosis;Great White Plague;;;;;;;;;;;
+tuberculosis_INFO;The Great White Plague is spreading among this province, with symptoms such as coughing up of blood and chest pains.;;;;;;;;;;;x
 
 #Injury
 minor_injury;Minor Injury;;;;;;;;;;;;;x

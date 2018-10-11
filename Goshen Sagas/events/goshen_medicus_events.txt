@@ -49,6 +49,12 @@ character_event = {	#Inform about Illness
 			trait = has_plaga
 		}
 	}
+	desc = {
+		text = EVTDESCIgoshen_medicus_events.1
+		trigger = {
+			trait = has_tuberculosis
+		}
+	}
 	picture = GFX_evt_castle_construction
 	is_triggered_only = yes
 
@@ -201,6 +207,14 @@ character_event = {	#Inform about Illness
 		trigger = {
 			FROM = {
 				trait = has_plaga
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCIgoshen_medicus_events.11
+		trigger = {
+			FROM = {
+				trait = has_tuberculosis
 			}
 		}
 	}

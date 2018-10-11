@@ -31,6 +31,7 @@ EVTDESCEgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstNam
 EVTDESCFgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Delusia.;;;;;;;;;;;;;x
 EVTDESCGgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has The Sickness.;;;;;;;;;;;;;x
 EVTDESCHgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has Plaga.;;;;;;;;;;;;;x
+EVTDESCHgoshen_medicus_events.11;Your Medicus informs you that [From.GetFirstName] has The Great White Plague.;;;;;;;;;;;;;x
 EVTOPTAgoshen_medicus_events.11;I see, well atleast I know.;;;;;;;;;;;;;x
 
 ###################
