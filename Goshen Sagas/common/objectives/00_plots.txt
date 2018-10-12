@@ -1208,8 +1208,8 @@ plot_gain_liege_title = {
 				character = FROM
 			}
 			has_holder = no
+			holder_scope = { is_playable = no }
 		}
-		is_playable = no
 	}
 	abort_effect = {
 		FROM = {
