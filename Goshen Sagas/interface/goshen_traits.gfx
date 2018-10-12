@@ -1183,20 +1183,4 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-
-	spriteType = {
-		name = "GFX_trait_has_tuberculosis"
-		texturefile = "gfx/traits/has_tuberculosis.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_has_typhoid_fever"
-		texturefile = "gfx/traits/has_typhoid_fever.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
 }

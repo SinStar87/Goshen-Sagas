@@ -75,12 +75,6 @@ character_event = {	#Now you're sick
 			}
 		}
 		modifier = {
-			factor = 0.3
-			any_courtier = {
-				trait = has_tuberculosis
-			}
-		}
-		modifier = {
 			factor = 6
 			health = 6
 		}
@@ -537,43 +531,6 @@ character_event = {#Informed of Kid's Illness
 						}
 						add_trait = has_plaga
 					}
-					1 = {
-						modifier = {
-							factor = 0.1
-							trait = minor_illness
-						}
-						modifier = {
-							factor = 3
-							trait = moderate_illness
-						}
-						modifier = {
-							factor = 5
-							OR = {
-								trait = severe_illness
-								trait = incapacitating_illness
-								trait = deadly_illness
-							}
-						}
-						modifier = {
-							factor = 5
-							any_courtier = {
-								trait = has_tuberculosis
-							}
-						}
-						modifier = {
-							factor = 5
-							any_spouse = {
-								trait = has_tuberculosis
-							}
-						}
-						modifier = {
-							factor = 5
-							any_lover = {
-								trait = has_tuberculosis
-							}
-						}
-						add_trait = has_tuberculosis
-					}
 				}
 			}
 			character_event = { id = goshen_medicus_events.1 }
@@ -638,10 +595,6 @@ character_event = {#Illness outcome
 			factor = 0.1
 			trait = has_plaga
 		}
-		modifier = {
-			factor = 0.1
-			trait = has_tuberculosis
-		}
 	}
 
 	immediate = {
@@ -678,10 +631,6 @@ character_event = {#Illness outcome
 				modifier = {
 					factor = 5
 					trait = has_plaga
-				}
-				modifier = {
-					factor = 5
-					trait = has_tuberculosis
 				}
 				modifier = {
 					factor = 3
@@ -837,7 +786,6 @@ character_event = {	#Illness regresses
 			remove_trait = has_sickness
 			remove_trait = has_plaga
 			remove_trait = has_black_fog
-			remove_trait = has_tuberculosis
 		}
 		IF = {
 			limit = {
