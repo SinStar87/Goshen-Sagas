@@ -25,3 +25,27 @@ tuberculosis = {
 		one_only = no
 	}
 }
+
+typhoid_fever = {
+	rip = no
+	contagiousness = 0.15
+	outbreak_chance = 0.01
+	effect = {
+		city_tax_modifier = -0.5
+		supply_limit = -4
+		max_attrition = 0.05
+	}
+	icon = 2
+	tooltip = TYPHOID_FEVER_INFO
+	months = 30
+	trait = has_typhoid_fever
+	always_get_message = no
+	color = { 77 140 107 }
+	
+	timeperiod = {
+		start_date = 2000.1.1
+		end_date = 9999.1.1	
+
+		one_only = no
+	}
+}

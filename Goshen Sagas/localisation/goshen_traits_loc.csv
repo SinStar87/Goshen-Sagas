@@ -148,6 +148,9 @@ deadly_illness_desc;Death is waiting.;;;;;;;;;;;;;x
 has_tuberculosis;Has Great White Plague;;;;;;;;;;;
 tuberculosis;Great White Plague;;;;;;;;;;;
 tuberculosis_INFO;The Great White Plague is spreading among this province, with symptoms such as coughing up of blood and chest pains.;;;;;;;;;;;x
+typhoid_fever;Spotted Fever;;;;;;;;;;;x
+typhoid_fever_INFO;Spotted Fever is spreading among this province, with symptoms such as red spots appearing across the body and high fevers and chills.;;;;;;;;;;;x
+has_typhoid_fever;Has Spotted Fever;;;;;;;;;;;x
 
 #Injury
 minor_injury;Minor Injury;;;;;;;;;;;;;x
