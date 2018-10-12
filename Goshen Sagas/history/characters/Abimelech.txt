@@ -133,6 +133,7 @@
 	dynasty = 13
 	culture = abimelech
 	religion = abimelech_rel
+	trait=twin
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1728.1.1 = { birth = yes }
