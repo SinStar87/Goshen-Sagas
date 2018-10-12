@@ -383,14 +383,16 @@
 	father = 4 # Beorthelfbrak
 	mother = 24021 # Kalla
 	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24022 }
 	1821.4.9 = { death = yes }
 }
 41 = {
 	name = Mandrid
-	father = 40
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 40 # Waruka
+	mother = 24022 # Merra
 	1787.1.1 = { birth = yes }
 	1855.1.1 = { death = yes }
 }
