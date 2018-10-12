@@ -180,11 +180,8 @@
 24023 = {
 	name = Trig
 	female = yes
-	dynasty = 13
 	culture = abimelech
 	religion = abimelech_rel
-	father = 1 # First War Chief
-	mother = 24002 # Merra
-	1728.1.1 = { birth = yes }
-	1793.1.1 = { death = yes }
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
 }

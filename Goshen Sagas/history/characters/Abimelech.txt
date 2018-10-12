@@ -133,7 +133,6 @@
 	dynasty = 13
 	culture = abimelech
 	religion = abimelech_rel
-	trait=twin
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1728.1.1 = { birth = yes }
@@ -395,14 +394,16 @@
 	father = 40 # Waruka
 	mother = 24022 # Merra
 	1787.1.1 = { birth = yes }
+	1807.1.1 = { add_spouse = 24023 }
 	1855.1.1 = { death = yes }
 }
 42 = {
 	name = Cynsteel
-	father = 41
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 41 # Mandrid
+	mother = 24023 # Trig
 	1823.1.1 = { birth = yes }
 	1870.1.1 = { death = yes }
 }
