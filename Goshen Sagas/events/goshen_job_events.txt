@@ -9,7 +9,7 @@ character_event = {	#Improve Relations
 	}
 
 	mean_time_to_happen = {
-		months = 6
+		months = 60
 	}
 
 	immediate = {
@@ -80,7 +80,7 @@ character_event = {	#Cause Dissent
 	}
 
 	mean_time_to_happen = {
-		months = 6
+		months = 60
 	}
 
 	immediate = {
@@ -147,7 +147,7 @@ character_event = {	#Promote Heir
 	}
 
 	mean_time_to_happen = {
-		months = 6
+		months = 60
 	}
 
 	immediate = {
