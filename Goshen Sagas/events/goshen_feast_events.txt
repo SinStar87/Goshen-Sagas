@@ -180,7 +180,7 @@ character_event = {	#Present Gift
 
 	option = { #Send Gift
 		name = EVTOPTAgoshen_feast_events.31
-		random_realm_character = {
+		random_character = {
 			limit = {
 				reverse_has_opinion_modifier = {
 					who = ROOT
@@ -267,7 +267,7 @@ character_event = {	#Meet Someone
 	}
 
 	immediate = {
-		random_realm_character = {
+		random_character = {
 			limit = {
 				NOT = {
 					character = ROOT
@@ -280,7 +280,7 @@ character_event = {	#Meet Someone
 			}
 			save_event_target_as = feast_male
 		}
-		random_realm_character = {
+		random_character = {
 			limit = {
 				NOT = {
 					character = ROOT
@@ -597,7 +597,7 @@ character_event = {	#BFFs?
 	}
 
 	immediate = {
-		random_realm_character = {
+		random_character = {
 			limit = {
 				NOT = {
 					character = ROOT
@@ -689,6 +689,7 @@ character_event = {	#Shadowy Figure Appears
 			has_character_flag = feast_started
 			has_any_opinion_modifier = opinion_join_feast
 		}
+		prisoner = no
 	}
 
 	mean_time_to_happen = {
@@ -732,7 +733,7 @@ character_event = {	#Shadowy Figure Appears
 					has_character_flag = feast_started
 				}
 			}
-			random_realm_character = {
+			random_character = {
 				limit = {
 					reverse_has_opinion_modifier = {
 						who = ROOT
@@ -783,7 +784,7 @@ character_event = {	#Shadowy Figure Appears - Outcome
 			limit = {
 				has_character_flag = feast_started
 			}
-			random_realm_character = {
+			random_character = {
 				limit = {
 					NOT = {
 						character = ROOT
@@ -801,7 +802,7 @@ character_event = {	#Shadowy Figure Appears - Outcome
 			limit = {
 				has_character_modifier = mod_fst_ms_warning
 			}
-			random_realm_character = {
+			random_character = {
 				limit = {
 					NOT = {
 						character = ROOT
@@ -998,7 +999,7 @@ character_event = {	#Brawl at the Feast
 	}
 
 	immediate = {
-		random_realm_character = {
+		random_character = {
 			limit = {
 				NOT = {
 					character = ROOT
@@ -1098,7 +1099,7 @@ character_event = {	#Brawl at the Feast
 				}
 			}
 		}
-		random_realm_character = {
+		random_character = {
 			limit = {
 				reverse_has_opinion_modifier = {
 					who = ROOT
