@@ -11,25 +11,25 @@ ca_defenses_4_desc;In addition the the reinforced gate, crenulations, and towers
 ca_defenses_5;Full Defenses;;;;;;;;;;;;;x
 ca_defenses_5_desc;In addition the the reinforced gate, crenulations, towers, and traps, a moat an draw bridge have been constructed.;;;;;;;;;;;;;x
 ca_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
-ca_barracks_1_desc;A tiny barracks has been built.;;;;;;;;;;;;;x
+ca_barracks_1_desc;A loose collection of buildings used to house troops in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
 ca_barracks_2;Small Barracks;;;;;;;;;;;;;x
-ca_barracks_2_desc;A small barracks has been built.;;;;;;;;;;;;;x
+ca_barracks_2_desc;The loose collection of buildings has been expanded to incorporate more troops.;;;;;;;;;;;;;x
 ca_barracks_3;Barracks;;;;;;;;;;;;;x
-ca_barracks_3_desc;A barracks has been built.;;;;;;;;;;;;;x
+ca_barracks_3_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the troops stay here longer, training even during times of peace.;;;;;;;;;;;;;x
 ca_barracks_4;Large Barracks;;;;;;;;;;;;;x
-ca_barracks_4_desc;A large barracks has been built.;;;;;;;;;;;;;x
+ca_barracks_4_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more troops to the site.;;;;;;;;;;;;;x
 ca_barracks_5;Full Barracks;;;;;;;;;;;;;x
-ca_barracks_5_desc;A full barracks has been built.;;;;;;;;;;;;;x
-ca_a_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
-ca_a_barracks_1_desc;A tiny barracks has been built, drawing many Abimelech Warriors.;;;;;;;;;;;;;x
-ca_a_barracks_2;Small Barracks;;;;;;;;;;;;;x
-ca_a_barracks_2_desc;A small barracks has been built, drawing many Abimelech Warriors.;;;;;;;;;;;;;x
-ca_a_barracks_3;Barracks;;;;;;;;;;;;;x
-ca_a_barracks_3_desc;A barracks has been built, drawing many Abimelech Warriors.;;;;;;;;;;;;;x
-ca_a_barracks_4;Large Barracks;;;;;;;;;;;;;x
-ca_a_barracks_4_desc;A large barracks has been built, drawing many Abimelech Warriors.;;;;;;;;;;;;;x
-ca_a_barracks_5;Full Barracks;;;;;;;;;;;;;x
-ca_a_barracks_5_desc;A full barracks has been built, drawing many Abimelech Warriors.;;;;;;;;;;;;;x
+ca_barracks_5_desc;The series of buildings housing troops has become a large fortress complete with thick walls and holding hundreds of troops.;;;;;;;;;;;;;x
+ca_a_barracks_1;Tiny Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_1_desc;A loose collection of buildings used to house Abimelech Warriors in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
+ca_a_barracks_2;Small Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_2_desc;The loose collection of buildings has been expanded to incorporate more Abimelech Warriors.;;;;;;;;;;;;;x
+ca_a_barracks_3;Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_3_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Abimelech Warriors stay here longer, training even during times of peace.;;;;;;;;;;;;;x
+ca_a_barracks_4;Large Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_4_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Abimelech Warriors to the site.;;;;;;;;;;;;;x
+ca_a_barracks_5;Full Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_5_desc;The series of buildings housing Abimelech Warriors has become a large fortress complete with thick walls and holding hundreds of Warriors.;;;;;;;;;;;;;x
 ca_g_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
 ca_g_barracks_1_desc;A tiny barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
 ca_g_barracks_2;Small Barracks;;;;;;;;;;;;;x
