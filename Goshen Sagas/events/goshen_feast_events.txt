@@ -253,6 +253,7 @@ character_event = {	#Meet Someone
 	picture = GFX_evt_castle_construction
 
 	trigger = {
+		age = 14
 		OR = {
 			has_character_flag = feast_started
 			has_any_opinion_modifier = opinion_join_feast
@@ -277,6 +278,7 @@ character_event = {	#Meet Someone
 					has_any_opinion_modifier = opinion_join_feast
 				}
 				is_female = no
+				age = 14
 			}
 			save_event_target_as = feast_male
 		}
@@ -290,6 +292,7 @@ character_event = {	#Meet Someone
 					has_any_opinion_modifier = opinion_join_feast
 				}
 				is_female = yes
+				age = 14
 			}
 			save_event_target_as = feast_female
 		}
