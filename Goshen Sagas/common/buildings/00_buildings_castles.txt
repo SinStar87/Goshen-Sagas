@@ -16,7 +16,7 @@ castle = {
 	}
 	ca_defenses_2 = {
 		desc = ca_defenses_2_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
 		upgrades_from = ca_defenses_1
 		gold_cost = 50
 		build_time = 182
@@ -27,7 +27,7 @@ castle = {
 	}
 	ca_defenses_3 = {
 		desc = ca_defenses_3_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ca_defenses_2
 		gold_cost = 50
 		build_time = 182
@@ -38,7 +38,7 @@ castle = {
 	}
 	ca_defenses_4 = {
 		desc = ca_defenses_4_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		upgrades_from = ca_defenses_3
 		gold_cost = 50
 		build_time = 182
@@ -49,8 +49,52 @@ castle = {
 	}
 	ca_defenses_5 = {
 		desc = ca_defenses_5_desc
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ca_defenses_4
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_6 = {
+		desc = ca_defenses_6_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_defenses_5
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_7 = {
+		desc = ca_defenses_7_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_defenses_6
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_8 = {
+		desc = ca_defenses_8_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_defenses_7
+		gold_cost = 50
+		build_time = 182
+		fort_level = 0.5
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_defenses_9 = {
+		desc = ca_defenses_9_desc
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_defenses_8
 		gold_cost = 50
 		build_time = 182
 		fort_level = 0.5
@@ -86,7 +130,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
 		upgrades_from = ca_barracks_1
 		gold_cost = 50
 		build_time = 182
@@ -105,7 +149,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ca_barracks_2
 		gold_cost = 50
 		build_time = 182
@@ -124,7 +168,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		upgrades_from = ca_barracks_3
 		gold_cost = 50
 		build_time = 182
@@ -143,8 +187,84 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ca_barracks_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 50
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_6 = {
+		desc = ca_barracks_6_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_barracks_5
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 50
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_7 = {
+		desc = ca_barracks_7_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_barracks_6
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 50
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_8 = {
+		desc = ca_barracks_8_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_barracks_7
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 50
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_barracks_9 = {
+		desc = ca_barracks_9_desc
+		potential = {
+			NOR = {
+				culture = abimelech
+				culture = gawei
+			}
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_barracks_8
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 150
@@ -176,7 +296,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
 		upgrades_from = ca_a_barracks_1
 		gold_cost = 50
 		build_time = 182
@@ -192,7 +312,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ca_a_barracks_2
 		gold_cost = 50
 		build_time = 182
@@ -208,7 +328,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		upgrades_from = ca_a_barracks_3
 		gold_cost = 50
 		build_time = 182
@@ -224,8 +344,72 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ca_a_barracks_4
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_6 = {
+		desc = ca_a_barracks_6_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 5 }
+		upgrades_from = ca_a_barracks_5
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_7 = {
+		desc = ca_a_barracks_7_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 6 }
+		upgrades_from = ca_a_barracks_6
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_8 = {
+		desc = ca_a_barracks_8_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 7 }
+		upgrades_from = ca_a_barracks_7
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 150
+		heavy_infantry = 75
+		garrison_size = 0.2
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_a_barracks_9 = {
+		desc = ca_a_barracks_9_desc
+		potential = {
+			culture = abimelech
+		}
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 8 }
+		upgrades_from = ca_a_barracks_8
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 150

@@ -1,35 +1,59 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 #Generic Castle Buildings
-ca_defenses_1;Reinforced Gate;;;;;;;;;;;;;x
+ca_defenses_1;Lightly Reinforced Gate;;;;;;;;;;;;;x
 ca_defenses_1_desc;The Main gate has been reinforced with timber.;;;;;;;;;;;;;x
-ca_defenses_2;Crenulations;;;;;;;;;;;;;x
-ca_defenses_2_desc;In addition the the reinforced gate, crenulations have been added to the walls.;;;;;;;;;;;;;x
-ca_defenses_3;Towers;;;;;;;;;;;;;x
-ca_defenses_3_desc;In addition the the reinforced gate and crenulations, 2 towers have been added to the gate.;;;;;;;;;;;;;x
-ca_defenses_4;Traps;;;;;;;;;;;;;x
-ca_defenses_4_desc;In addition the the reinforced gate, crenulations, and towers, the outer grounds have been laced with traps.;;;;;;;;;;;;;x
-ca_defenses_5;Full Defenses;;;;;;;;;;;;;x
-ca_defenses_5_desc;In addition the the reinforced gate, crenulations, towers, and traps, a moat an draw bridge have been constructed.;;;;;;;;;;;;;x
+ca_defenses_2;Reinforced Gate;;;;;;;;;;;;;x
+ca_defenses_2_desc;The Main gate has been reinforced with timber and some stone.;;;;;;;;;;;;;x
+ca_defenses_3;Archer Slits;;;;;;;;;;;;;x
+ca_defenses_3_desc;In addition the the reinforced gate, slits in the walls for archers have been added.;;;;;;;;;;;;;x
+ca_defenses_4;Crenulations;;;;;;;;;;;;;x
+ca_defenses_4_desc;Crenulations are built, expanding on the archer slits.;;;;;;;;;;;;;x
+ca_defenses_5;Small Towers;;;;;;;;;;;;;x
+ca_defenses_5_desc;In addition the the reinforced gate and crenulations, 2 small towers have been added to the gate.;;;;;;;;;;;;;x
+ca_defenses_6;Towers;;;;;;;;;;;;;x
+ca_defenses_6_desc;In addition the the reinforced gate and crenulations, the small towers have been expanded upon.;;;;;;;;;;;;;x
+ca_defenses_7;Small Traps;;;;;;;;;;;;;x
+ca_defenses_7_desc;In addition the the reinforced gate, crenulations, and towers, the outer grounds have been laced with small traps.;;;;;;;;;;;;;x
+ca_defenses_8;Siege Structures;;;;;;;;;;;;;x
+ca_defenses_8_desc;In addition the the reinforced gate, crenulations, towers, and traps, the outer grounds have been configured with large siege structures.;;;;;;;;;;;;;x
+ca_defenses_9;Moat & Drawbridge;;;;;;;;;;;;;x
+ca_defenses_9_desc;In addition the the reinforced gate, crenulations, towers, traps, and seige structures, a moat and draw bridge have been constructed.;;;;;;;;;;;;;x
 ca_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
 ca_barracks_1_desc;A loose collection of buildings used to house troops in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
-ca_barracks_2;Small Barracks;;;;;;;;;;;;;x
-ca_barracks_2_desc;The loose collection of buildings has been expanded to incorporate more troops.;;;;;;;;;;;;;x
-ca_barracks_3;Barracks;;;;;;;;;;;;;x
-ca_barracks_3_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the troops stay here longer, training even during times of peace.;;;;;;;;;;;;;x
-ca_barracks_4;Large Barracks;;;;;;;;;;;;;x
-ca_barracks_4_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more troops to the site.;;;;;;;;;;;;;x
-ca_barracks_5;Full Barracks;;;;;;;;;;;;;x
-ca_barracks_5_desc;The series of buildings housing troops has become a large fortress complete with thick walls and holding hundreds of troops.;;;;;;;;;;;;;x
+ca_barracks_2;Tiny Barracks;;;;;;;;;;;;;x
+ca_barracks_2_desc;A loose collection of buildings used to house troops in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
+ca_barracks_3;Small Barracks;;;;;;;;;;;;;x
+ca_barracks_3_desc;The loose collection of buildings has been expanded to incorporate more troops.;;;;;;;;;;;;;x
+ca_barracks_4;Small Barracks;;;;;;;;;;;;;x
+ca_barracks_4_desc;The loose collection of buildings has been expanded to incorporate more troops.;;;;;;;;;;;;;x
+ca_barracks_5;Barracks;;;;;;;;;;;;;x
+ca_barracks_5_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the troops stay here longer, training even during times of peace.;;;;;;;;;;;;;x
+ca_barracks_6;Barracks;;;;;;;;;;;;;x
+ca_barracks_6_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the troops stay here longer, training even during times of peace.;;;;;;;;;;;;;x
+ca_barracks_7;Large Barracks;;;;;;;;;;;;;x
+ca_barracks_7_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more troops to the site.;;;;;;;;;;;;;x
+ca_barracks_8;Large Barracks;;;;;;;;;;;;;x
+ca_barracks_8_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more troops to the site.;;;;;;;;;;;;;x
+ca_barracks_9;Full Barracks;;;;;;;;;;;;;x
+ca_barracks_9_desc;The series of buildings housing troops has become a large fortress complete with thick walls and holding hundreds of troops.;;;;;;;;;;;;;x
 ca_a_barracks_1;Tiny Warrior Barracks;;;;;;;;;;;;;x
 ca_a_barracks_1_desc;A loose collection of buildings used to house Abimelech Warriors in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
-ca_a_barracks_2;Small Warrior Barracks;;;;;;;;;;;;;x
-ca_a_barracks_2_desc;The loose collection of buildings has been expanded to incorporate more Abimelech Warriors.;;;;;;;;;;;;;x
-ca_a_barracks_3;Warrior Barracks;;;;;;;;;;;;;x
-ca_a_barracks_3_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Abimelech Warriors stay here longer, training even during times of peace.;;;;;;;;;;;;;x
-ca_a_barracks_4;Large Warrior Barracks;;;;;;;;;;;;;x
-ca_a_barracks_4_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Abimelech Warriors to the site.;;;;;;;;;;;;;x
-ca_a_barracks_5;Full Warrior Barracks;;;;;;;;;;;;;x
-ca_a_barracks_5_desc;The series of buildings housing Abimelech Warriors has become a large fortress complete with thick walls and holding hundreds of Warriors.;;;;;;;;;;;;;x
+ca_a_barracks_2;Tiny Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_2_desc;A loose collection of buildings used to house Abimelech Warriors in preparation for war, as well as for training purposes.;;;;;;;;;;;;;x
+ca_a_barracks_3;Small Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_3_desc;The loose collection of buildings has been expanded to incorporate more Abimelech Warriors.;;;;;;;;;;;;;x
+ca_a_barracks_4;Small Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_4_desc;The loose collection of buildings has been expanded to incorporate more Abimelech Warriors.;;;;;;;;;;;;;x
+ca_a_barracks_5;Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_5_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Abimelech Warriors stay here longer, training even during times of peace.;;;;;;;;;;;;;x
+ca_a_barracks_6;Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_6_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Abimelech Warriors stay here longer, training even during times of peace.;;;;;;;;;;;;;x
+ca_a_barracks_7;Large Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_7_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Abimelech Warriors to the site.;;;;;;;;;;;;;x
+ca_a_barracks_8;Large Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_8_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Abimelech Warriors to the site.;;;;;;;;;;;;;x
+ca_a_barracks_9;Full Warrior Barracks;;;;;;;;;;;;;x
+ca_a_barracks_9_desc;The series of buildings housing Abimelech Warriors has become a large fortress complete with thick walls and holding hundreds of Warriors.;;;;;;;;;;;;;x
 ca_g_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
 ca_g_barracks_1_desc;A tiny barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
 ca_g_barracks_2;Small Barracks;;;;;;;;;;;;;x
@@ -488,3 +512,4 @@ ca_special_gawei_village;Gawei Village;;;;;;;;;;;;;x
 ca_special_gawei_village_desc;Gawei Village, the ancestral home of the Supreme.;;;;;;;;;;;;;x
 ct_special_cenno_port;Cenno Port;;;;;;;;;;;;;x
 ct_special_cenno_port_desc;The port on Cenno island.;;;;;;;;;;;;;x
+tp_pikear_1;Pikemen & Archers;;;;;;;;;;;x

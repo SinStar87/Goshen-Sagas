@@ -55,6 +55,7 @@
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1722.1.1 = { birth = yes }
+	1742.1.1 = { add_spouse = 24030 }
 	1791.1.1 = { death = yes }
 }
 6 = {
@@ -405,63 +406,75 @@
 	father = 41 # Mandrid
 	mother = 24023 # Trig
 	1823.1.1 = { birth = yes }
+	1843.1.1 = { add_spouse = 24024 }
 	1870.1.1 = { death = yes }
 }
 43 = {
 	name = Waruka
-	father = 42
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 42 # Cynsteel
+	mother = 24024 # Nith
 	1848.1.1 = { birth = yes }
+	1868.1.1 = { add_spouse = 24025 }
 	1928.1.1 = { death = yes }
 }
 44 = {
 	name = Valwi
-	father = 43
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 43 # Waruka
+	mother = 24025 # Ta
 	1878.1.1 = { birth = yes }
+	1898.1.1 = { add_spouse = 24026 }
 	1943.1.1 = { death = yes }
 }
 45 = {
 	name = Delferth
-	father = 44
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 44 # Valwi
+	mother = 24026 # Kuyni
 	1901.1.1 = { birth = yes }
+	1921.1.1 = { add_spouse = 24027 }
 	1970.1.1 = { death = yes }
 }
 46 = {
 	name = Stanthang
-	father = 45
 	dynasty = 4
 	culture = abimelech
 	religion = abimelech_rel
+	father = 45 # Delferth
+	mother = 24027 # Fortah
 	1934.1.1 = { birth = yes }
+	1954.1.1 = { add_spouse = 24028 }
 	1984.1.1 = { death = yes }
 }
 47 = {
 	name = Cynsteel
-	father = 46
 	dynasty = 4
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
+	father = 46 # Stanthang
+	mother = 24028 # Fiey
 	1959.1.1 = { birth = yes }
+	1979.1.1 = { add_spouse = 24029 }
 	2015.1.1 = { death = yes }
 }
 48 = {
 	name = Stel
-	father = 47
 	dynasty = 4
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
+	father = 47 # Cynsteel
+	mother - 24029 # Kalla
 	1989.1.1 = { birth = yes }
 	2015.1.1 = { death = yes }
 }
@@ -469,10 +482,11 @@
 #Line of Black Stone Clan
 50 = {
 	name = Ferth
-	father = 5
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 5 # Wulfhrun
+	mother = 24030 # Merra
 	1756.1.1 = { birth = yes }
 	1821.4.9 = { death = yes }
 }

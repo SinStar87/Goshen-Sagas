@@ -1122,4 +1122,19 @@ temple = {
 		ai_creation_factor = 100
 		extra_tech_building_start = 0.3
 	}
+	
+	#Pikemen and Archers
+	tp_pikear_1 = {
+		trigger = { TECH_LIGHT_INFANTRY = 0 TECH_HEAVY_INFANTRY = 0 }
+		gold_cost = 175
+		build_time = 400
+		pikemen = 20
+		archers = 25
+		pikemen_offensive = 0.05
+		pikemen_defensive = 0.05
+		archers_offensive = 0.03
+		archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
 }
