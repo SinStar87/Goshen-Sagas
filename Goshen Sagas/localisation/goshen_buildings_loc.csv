@@ -56,22 +56,40 @@ ca_a_barracks_9;Full Warrior Barracks;;;;;;;;;;;;;x
 ca_a_barracks_9_desc;The series of buildings housing Abimelech Warriors has become a large fortress complete with thick walls and holding hundreds of Warriors.;;;;;;;;;;;;;x
 ca_g_barracks_1;Tiny Barracks;;;;;;;;;;;;;x
 ca_g_barracks_1_desc;A tiny barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
-ca_g_barracks_2;Small Barracks;;;;;;;;;;;;;x
-ca_g_barracks_2_desc;A small barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
-ca_g_barracks_3;Barracks;;;;;;;;;;;;;x
-ca_g_barracks_3_desc;A barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
-ca_g_barracks_4;Large Barracks;;;;;;;;;;;;;x
-ca_g_barracks_4_desc;A large barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
-ca_g_barracks_5;Full Barracks;;;;;;;;;;;;;x
-ca_g_barracks_5_desc;A full barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
-ca_bowyer_1;Tiny Bowyer and Practice range;;;;;;;;;;;;;x
-ca_bowyer_1_desc;A tiny bowyer and practice range has been built.;;;;;;;;;;;;;x
-ca_bowyer_2;Small Bowyer and Practice range;;;;;;;;;;;;;x
-ca_bowyer_2_desc;A small bowyer and practice range has been built.;;;;;;;;;;;;;x
-ca_bowyer_3;Bowyer and Practice range;;;;;;;;;;;;;x
-ca_bowyer_3_desc;A bowyer and practice range has been built.;;;;;;;;;;;;;x
-ca_bowyer_4;Large Bowyer and Practice range;;;;;;;;;;;;;x
-ca_bowyer_4_desc;A large bowyer and practice range has been built.;;;;;;;;;;;;;x
+ca_g_barracks_2;Tiny Barracks;;;;;;;;;;;;;x
+ca_g_barracks_2_desc;A tiny barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_3;Small Barracks;;;;;;;;;;;;;x
+ca_g_barracks_3_desc;A small barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_4;Small Barracks;;;;;;;;;;;;;x
+ca_g_barracks_4_desc;A small barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_5;Barracks;;;;;;;;;;;;;x
+ca_g_barracks_5_desc;A barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_6;Barracks;;;;;;;;;;;;;x
+ca_g_barracks_6_desc;A barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_7;Large Barracks;;;;;;;;;;;;;x
+ca_g_barracks_7_desc;A large barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_8;Large Barracks;;;;;;;;;;;;;x
+ca_g_barracks_8_desc;A large barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_9;Full Barracks;;;;;;;;;;;;;x
+ca_g_barracks_9_desc;A full barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_bowyer_1;Tiny Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_1_desc;A tiny enclosed area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_2;Tiny Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_2_desc;A tiny enclosed area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_3;Small Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_3_desc;A small enclosed area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_4;Small Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_4_desc;A small enclosed area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_5;Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_5_desc;An open area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_6;Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_6_desc;An open area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_7;Large Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_7_desc;A large open area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_8;Large Bowyer and Practice Range;;;;;;;;;;;;;x
+ca_bowyer_8_desc;A large open area where bows are made and archers practice.;;;;;;;;;;;;;x
+ca_bowyer_9;Archer Training Grounds;;;;;;;;;;;x
+ca_bowyer_9_desc;An extremely large open area where bows are made and hundreds of archers practice.;;;;;;;;;;;x
 ca_gt_bowyer_1;Tiny Bowyer and Practice range;;;;;;;;;;;;;x
 ca_gt_bowyer_1_desc;A tiny bowyer and practice range has been built.;;;;;;;;;;;;;x
 ca_gt_bowyer_2;Small Bowyer and Practice range;;;;;;;;;;;;;x
@@ -513,3 +531,20 @@ ca_special_gawei_village_desc;Gawei Village, the ancestral home of the Supreme.;
 ct_special_cenno_port;Cenno Port;;;;;;;;;;;;;x
 ct_special_cenno_port_desc;The port on Cenno island.;;;;;;;;;;;;;x
 tp_pikear_1;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_2;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_3;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_4;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_5;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_6;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_7;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_8;Pikemen & Archers;;;;;;;;;;;x
+tp_pikear_9;Pikemen & Archers;;;;;;;;;;;x
+tp_hahc_1;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_2;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_3;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_4;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_5;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_6;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_7;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_8;Horse Archers & Heavy Cavalry;;;;;;;;;;;x
+tp_hahc_9;Horse Archers & Heavy Cavalry;;;;;;;;;;;x

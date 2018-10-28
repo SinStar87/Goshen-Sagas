@@ -488,50 +488,60 @@
 	father = 5 # Wulfhrun
 	mother = 24030 # Merra
 	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24031 }
 	1821.4.9 = { death = yes }
 }
 51 = {
 	name = Drud
-	father = 50
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 50 # Ferth
+	mother = 24031 # Trig
 	1787.1.1 = { birth = yes }
+	1807.1.1 = { add_spouse = 24032 }
 	1855.1.1 = { death = yes }
 }
 52 = {
 	name = Nemir
-	father = 51
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 51 # Drud
+	mother = 24032 # Nith
 	1823.1.1 = { birth = yes }
+	1843.1.1 = { add_spouse = 24033 }
 	1870.1.1 = { death = yes }
 }
 53 = {
 	name = Jonda
-	father = 52
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 52 # Nemir
+	mother = 24033 # Ta
 	1848.1.1 = { birth = yes }
+	1868.1.1 = { add_spouse = 24034 }
 	1928.1.1 = { death = yes }
 }
 54 = {
 	name = Ferth
-	father = 53
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 53 # Jonda
+	mother = 24034 # Kuyni
 	1878.1.1 = { birth = yes }
+	1898.1.1 = { add_spouse = 24035 }
 	1943.1.1 = { death = yes }
 }
 55 = {
 	name = Jonto
-	father = 54
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 54 # Ferth
+	mother = 24035 # Fortah
 	1901.1.1 = { birth = yes }
 	1970.1.1 = { death = yes }
 }

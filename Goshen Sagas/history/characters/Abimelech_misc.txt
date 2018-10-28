@@ -241,3 +241,43 @@
 	1722.1.1 = { birth = yes }
 	1791.1.1 = { death = yes }
 }
+24031 = {
+	name = Trig
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1756.1.1 = { birth = yes }
+	1821.4.9 = { death = yes }
+}
+24032 = {
+	name = Nith
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
+}
+24033 = {
+	name = Ta
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1823.1.1 = { birth = yes }
+	1870.1.1 = { death = yes }
+}
+24034 = {
+	name = Kuyni
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1848.1.1 = { birth = yes }
+	1928.1.1 = { death = yes }
+}
+24035 = {
+	name = Fortah
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1878.1.1 = { birth = yes }
+	1943.1.1 = { death = yes }
+}
