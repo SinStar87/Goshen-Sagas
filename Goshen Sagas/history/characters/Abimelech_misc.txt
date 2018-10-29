@@ -281,3 +281,35 @@
 	1878.1.1 = { birth = yes }
 	1943.1.1 = { death = yes }
 }
+24036 = {
+	name = Fiey
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1901.1.1 = { birth = yes }
+	1970.1.1 = { death = yes }
+}
+24037 = {
+	name = Kalla
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1934.1.1 = { birth = yes }
+	1984.1.1 = { death = yes }
+}
+24038 = {
+	name = Merra
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1959.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
+}
+24039 = {
+	name = Trig
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1722.1.1 = { birth = yes }
+	1793.1.1 = { death = yes }
+}

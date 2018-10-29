@@ -67,6 +67,7 @@
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1722.1.1 = { birth = yes }
+	1742.1.1 = { add_spouse = 24039 }
 	1793.1.1 = { death = yes }
 }
 7 = {
@@ -543,36 +544,42 @@
 	father = 54 # Ferth
 	mother = 24035 # Fortah
 	1901.1.1 = { birth = yes }
+	1921.1.1 = { add_spouse = 24036 }
 	1970.1.1 = { death = yes }
 }
 56 = {
 	name = Ferth
-	father = 55
 	dynasty = 5
 	culture = abimelech
 	religion = abimelech_rel
+	father = 55 # Jonto
+	mother = 24036 # Fiey
 	1934.1.1 = { birth = yes }
+	1954.1.1 = { add_spouse = 24037 }
 	1984.1.1 = { death = yes }
 }
 57 = {
 	name = Manax
-	father = 56
 	dynasty = 5
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
+	father = 56 # Ferth
+	mother = 24037 # Kalla
 	1959.1.1 = { birth = yes }
+	1979.1.1 = { add_spouse = 24038 }
 	2015.1.1 = { death = yes }
 }
 58 = {
 	name = Maanan
-	father = 57
 	dynasty = 5
 	dna = clgfbldcaaw
 	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
+	father = 57 # Manax
+	mother = 24038 # Merra
 	1989.1.1 = { birth = yes }
 	2015.1.1 = { death = yes }
 }
@@ -580,10 +587,11 @@
 #Line of Drugar Skull Clan
 60 = {
 	name = Foo
-	father = 6
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 6 # Drud
+	mother = 24039 # Trig
 	1756.1.1 = { birth = yes }
 	1821.4.9 = { death = yes }
 }

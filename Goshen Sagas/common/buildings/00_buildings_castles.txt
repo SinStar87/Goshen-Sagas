@@ -729,7 +729,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
 		upgrades_from = ca_gt_bowyer_1
 		gold_cost = 50
 		build_time = 182
@@ -743,7 +743,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
 		upgrades_from = ca_gt_bowyer_2
 		gold_cost = 50
 		build_time = 182
@@ -757,7 +757,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
 		upgrades_from = ca_gt_bowyer_3
 		gold_cost = 50
 		build_time = 182
@@ -771,7 +771,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
 		upgrades_from = ca_gt_bowyer_4
 		gold_cost = 50
 		build_time = 182
