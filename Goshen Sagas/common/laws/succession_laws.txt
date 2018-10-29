@@ -10,75 +10,65 @@ succession_laws = {
 	
 		potential = {
 			holder_scope = {
-				OR = {
-					independent = yes
-					NOT = {
-						any_liege = {
-							holy_order = yes
-						}
-					}
-				}
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
-				OR = {
-					independent = yes
-					NOT = {
-						any_demesne_title = {
-							is_vice_royalty = yes
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
+				}
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
-			
-			rebel = no
-			
-			OR = {
-				holder_scope = { is_feudal = yes }
-				holder_scope = { is_tribal = yes }
-			}
-			is_primary_type_title = no
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
 			holder_scope = {
-				show_scope_change = no
-				OR = {
-					is_tribal = no
-					custom_tooltip = { 
-						text = TT_NOT_UNREFORMED_PAGAN
-						hidden_tooltip = {
-							NOR = { 
-								religion = norse_pagan
-								religion = slavic_pagan
-								religion = baltic_pagan
-								religion = finnish_pagan
-								religion = zun_pagan
-								religion = tengri_pagan
-								religion = west_african_pagan
-								religion = aztec
-								religion = pagan
-							}
-						}
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
 					}
 				}
-				in_revolt = no
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_dlc = "Conclave"
-				}
-				custom_tooltip = {
-					text = forced_elective_tt
-					hidden_tooltip = {
-						NAND = { 
-							has_law = succession_voting_power_1
-							has_law = succ_feudal_elective
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
@@ -171,124 +161,66 @@ succession_laws = {
 	
 		potential = {
 			holder_scope = {
-				OR = {
-					independent = yes
-					NOT = {
-						any_liege = {
-							holy_order = yes
-						}
-					}
-				}
-				OR = {
-					is_merchant_republic = no
-					primary_title = {
-						NOT = { title = PREVPREV }
-					}
-				}
-				
-                OR = {
-                    NOR = {
-						religion_group = muslim
-						religion_group = indian_group 
-					}
-                    is_patrician = yes
-                }
-				
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-					religion = hellenic_pagan
-					is_patrician = yes
-				}
-				
-				OR = {
-					is_republic = no
-					is_patrician = yes
-				}
-				OR = {
-					independent = yes
-					NOT = {
-						any_demesne_title = {
-							is_vice_royalty = yes
-						}
-					}
-				}
+				is_merchant_republic = no
+				is_patrician = no
 			}
 			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
-			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
+				}
 				AND = {
-					tier = baron
-					is_feudal = yes
-				}
-				holder_scope = { is_feudal = yes }
-				holder_scope = { is_patrician = yes }
-			}
-			
-			is_primary_type_title = no
-			
-			OR = {
-				NOT = { tier = baron }
-				holder_scope = { is_patrician = yes }
-			}
-			
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-		}
-		
-		allow = {
-			
-			conditional_tooltip = {
-				trigger = {
-					NOT = { has_dlc = "Conclave" }
-				}
-				OR = {
-					hidden_tooltip = {
-						has_crown_law_title = no
-					}
 					holder_scope = {
-						show_scope_change = no
-						is_patrician = yes 
 						OR = {
-							is_merchant_republic = no
-							PREV = {
-								is_primary_holder_title = no
-							}
+							independent = yes
 							NOT = {
-								in_revolt = yes
-								succ_law_title = {
-									title = PREVPREV
+								any_liege = {
+									holy_order = yes
 								}
 							}
 						}
-					}
-					crownlaw_title = {
 						OR = {
-							has_law = crown_authority_2
-							has_law = crown_authority_3
-							has_law = crown_authority_4
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
 			}
-			custom_tooltip = {
-				text = not_forced_tt
-				hidden_tooltip = {
-					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
-				}
+		}
+		
+		allow = {
+			holder_scope = {
+				is_merchant_republic = no
+				is_patrician = no
 			}
-			conditional_tooltip = {
-				trigger = {
-					has_dlc = "Conclave"
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
 				}
-				custom_tooltip = {
-					text = forced_elective_tt
-					hidden_tooltip = {
-						NAND = { 
-							has_law = succession_voting_power_1
-							has_law = succ_feudal_elective
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
@@ -310,7 +242,6 @@ succession_laws = {
 		dynasty_opinion = -5
 		potential = {
 			holder_scope = {
-				NOT = { religion_group = muslim }
 				is_merchant_republic = no
 				is_patrician = no
 			}
@@ -331,93 +262,45 @@ succession_laws = {
 							}
 						}
 						OR = {
-							NOT = { religion_group = pagan_group }
-							religion = bon
-							is_reformed_religion = yes
-							religion = hellenic_pagan
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
-					}
-					OR = {
-						is_landless_type_title = no
-						is_tribal_type_title = yes
-						temporary = yes
-					}
-					is_primary_type_title = no
-					OR = {
-						AND = {
-							tier = baron
-							is_feudal = yes
-						}
-						holder_scope = { is_feudal = yes }
 					}
 				}
 			}
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
 		allow = {
-			conditional_tooltip = {
-				trigger = {
-					has_dlc = "Conclave"
-				}
-				OR = {
-					holder_scope = { # Viceroyalties can always have primogeniture if not muslim
-						show_scope_change = no
-						any_demesne_title = {
-							is_vice_royalty = yes
-						}
+			holder_scope = {
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
 					}
-					AND = {
-						holder_scope = {
-							show_scope_change = no
-							primary_title = {
-								show_scope_change = no
-								OR = {
-									has_law = ze_administration_laws_1
-									has_law = ze_administration_laws_2
+				}
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
 								}
 							}
 						}
-					}
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					NOT = { has_dlc = "Conclave" }
-				}
-				OR = {
-					holder_scope = { # Viceroyalties can always have primogeniture if not muslim
-						show_scope_change = no
-						any_demesne_title = {
-							is_vice_royalty = yes
-						}
-					}
-					hidden_tooltip = {
-						has_crown_law_title = no
-					}
-					crownlaw_title = {
 						OR = {
-							has_law = crown_authority_3
-							has_law = crown_authority_4
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				text = not_forced_tt
-				hidden_tooltip = {
-					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
-				}
-			}
-			conditional_tooltip = {
-				trigger = {
-					has_dlc = "Conclave"
-				}
-				custom_tooltip = {
-					text = forced_elective_tt
-					hidden_tooltip = {
-						NAND = { 
-							has_law = succession_voting_power_1
-							has_law = succ_feudal_elective
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
@@ -439,55 +322,67 @@ succession_laws = {
 		vassal_opinion = 10
 		potential = {
 			holder_scope = {
-				OR = {
-					independent = yes
-					NOT = {
-						any_liege = {
-							holy_order = yes
-						}
-					}
-				}
-				OR = {
-					NOR = { 
-						religion_group = muslim
-						religion_group = indian_group
-					}
-					has_law = succession_voting_power_1
-					has_law = succ_feudal_elective # Keep it even if you revoke Full Council Authority
-				}
 				is_merchant_republic = no
 				is_patrician = no
-				
-				OR = {
-					NOT = { religion_group = pagan_group }
-					is_reformed_religion = yes
-					religion = hellenic_pagan
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
 				}
-				OR = {
-					independent = yes
-					NOT = {
-						any_demesne_title = {
-							is_vice_royalty = yes
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
 						}
 					}
 				}
 			}
-			OR = {
-				is_landless_type_title = no
-				is_tribal_type_title = yes
-				temporary = yes
-			}
-			is_primary_type_title = no
-			NOT = { tier = baron }
-			holder_scope = { is_feudal = yes }
-			NOT = { holder_scope = { government = confucian_bureaucracy } }
-			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
 		allow = {
-			custom_tooltip = {
-				text = not_forced_tt
-				hidden_tooltip = {
-					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+			holder_scope = {
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
+					}
+				}
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
+						}
+					}
 				}
 			}
 		}
@@ -966,71 +861,36 @@ gender_laws = {
 	cognatic_succession = {
 		potential = {
 			holder_scope = {
-				OR = {
-					NOT = { tier = baron }
-					is_theocracy = yes
-					is_republic = yes
-				}
-				OR = {
-					independent = yes
-					NOT = {
-						any_liege = {
-							holy_order = yes
-						}
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			OR = {
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
 					}
-					is_merchant_republic = yes
 				}
-				OR = {
-					AND = {
-						NOT = { religion_group = muslim }
-						NOT = { religion = aztec }
-						NOT = { religion = aztec_reformed }
-						has_horde_culture = no
-						#is_tribal = no
-						is_nomadic = no
-						is_merchant_republic = no
-						is_patrician = no
-					}
-					AND = {
-						has_dlc = "Zeus"
+				AND = {
+					holder_scope = {
 						OR = {
-							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_3 } } }
-							ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-							has_game_rule = {
-								name = gender
-								value = all
-							}
-						}
-						OR = {
-							is_patrician = no
-							liege = {
-								primary_title = {
-									OR = {
-										has_law = true_cognatic_succession
-										has_law = cognatic_succession
-									}
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
 								}
 							}
 						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
+						}
 					}
 				}
 			}
-			
-			is_landless_type_title = no
-			
-			OR = {
-				AND = {
-					tier = baron
-					is_theocracy = no
-					is_republic = no
-				}
-				holder_scope = {
-					is_theocracy = no
-					is_republic = no
-				}
-			}
-			
-			is_primary_type_title = no
 		}
 		
 		effect = {
@@ -1093,81 +953,67 @@ gender_laws = {
 		male_dynasty_opinion = -5
 		
 		potential = {
+			holder_scope = {
+				is_merchant_republic = no
+				is_patrician = no
+			}
 			OR = {
-				AND = {
-					has_dlc = "Zeus"
-					has_game_rule = {
-						name = gender
-						value = all
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
 					}
-					is_patrician = no
 				}
-				holder_scope = {
-					OR = {
-						AND = {
-							NOT = { religion_group = muslim }
-							NOT = { religion = aztec }
-							NOT = { religion = aztec_reformed }
-							has_horde_culture = no
-							#is_tribal = no
-							is_nomadic = no
-							is_merchant_republic = no
-							is_patrician = no
-						}
-						AND = {
-							has_dlc = "Zeus"
-							OR = {
-								ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-							}
-							OR = {
-								is_patrician = no
-								liege = {
-									primary_title = {
-										OR = {
-											has_law = true_cognatic_succession
-											has_law = cognatic_succession
-										}
-									}
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
 								}
 							}
 						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
+						}
 					}
 				}
 			}
-			
-			is_landless_type_title = no
-			
-			OR = {
-				AND = {
-					tier = baron
-					is_theocracy = no
-					is_republic = no
-				}
-				holder_scope = {
-					is_theocracy = no
-					is_republic = no
-				}
-			}
-			
-			is_primary_type_title = no
 		}
 		allow = {
+			holder_scope = {
+				is_merchant_republic = no
+				is_patrician = no
+			}
 			OR = {
-				holder_scope = {
-					OR = {
-						culture = basque
-						culture = zhangzhung
-						culture = sumpa
-						religion = cathar
-						religion = messalian
-						religion = mazdaki
+				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
+					any_demesne_title = {
+						is_vice_royalty = yes
 					}
 				}
-				OR = {
-					ROOT = { holder_scope = { primary_title = { has_law = status_of_women_4 } } }
-					has_game_rule = {
-						name = gender
-						value = all
+				AND = {
+					holder_scope = {
+						OR = {
+							independent = yes
+							NOT = {
+								any_liege = {
+									holy_order = yes
+								}
+							}
+						}
+						OR = {
+							government = feudal_government
+							government = feudal_government_gawei
+							government = feudal_government_levyt
+							government = feudal_government_kalan
+							government = feudal_government_hesen
+							government = muslim_government
+						}
 					}
 				}
 			}
