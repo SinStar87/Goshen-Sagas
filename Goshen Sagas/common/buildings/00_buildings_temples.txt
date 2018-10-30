@@ -1376,4 +1376,131 @@ temple = {
 		ai_creation_factor = 150
 		extra_tech_building_start = 1.0
 	}
+	
+	#Heavy Cav Light Cav
+	tp_hclc_1 = {
+		trigger = { TECH_CAVALRY = 0 }
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_2 = {
+		trigger = { TECH_CAVALRY = 1 }
+		upgrades_from = tp_hclc_1
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_3 = {
+		trigger = { TECH_CAVALRY = 2 }
+		upgrades_from = tp_hclc_2
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_4 = {
+		trigger = { TECH_CAVALRY = 3 }
+		upgrades_from = tp_hclc_3
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_5 = {
+		trigger = { TECH_CAVALRY = 4 }
+		upgrades_from = tp_hclc_4
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_6 = {
+		trigger = { TECH_CAVALRY = 5 }
+		upgrades_from = tp_hclc_5
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_7 = {
+		trigger = { TECH_CAVALRY = 6 }
+		upgrades_from = tp_hclc_6
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_8 = {
+		trigger = { TECH_CAVALRY = 7 }
+		upgrades_from = tp_hclc_7
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hclc_9 = {
+		trigger = { TECH_CAVALRY = 8 }
+		upgrades_from = tp_hclc_8
+		gold_cost = 250
+		build_time = 750
+		knights = 10
+		light_cavalry = 20
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		light_cavalry_offensive = 0.03
+		light_cavalry_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
 }
