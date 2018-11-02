@@ -8,6 +8,10 @@ polargfx = {
 	skin_tone = 0
 }
 
+zuvakgfx = {
+	skin_tone = 0
+}
+
 # Hard coded government graphical cultures
 tribalgfx = {}
 nomadgfx = {}

@@ -1293,7 +1293,7 @@ goshen_nh_culture_group = {
 	}
 
 	zuvak = {
-		graphical_cultures = { easternslavicgfx } # units
+		graphical_cultures = { zuvakgfx easternslavicgfx } # units
 
 		color = { 0.86 0.07 0.23 }
 
