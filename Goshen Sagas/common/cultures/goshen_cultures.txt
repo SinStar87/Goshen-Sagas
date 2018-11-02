@@ -1186,7 +1186,7 @@ goshen_nh_culture_group = {
 	}
 
 	poghess = {
-		graphical_cultures = { italiangfx muslimgfx } # units
+		graphical_cultures = { poghessgfx italiangfx muslimgfx } # units
 
 		color = { 0.86 0.07 0.23 }
 

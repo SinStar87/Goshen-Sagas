@@ -4,6 +4,10 @@ dyinglandsgfx = {
 	skin_tone = 0
 }
 
+poghessgfx = {
+	skin_tone = 0
+}
+
 polargfx = {
 	skin_tone = 0
 }
