@@ -716,7 +716,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_LIGHT_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		archers = 75
@@ -729,7 +729,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 1 }
+		trigger = { TECH_LIGHT_INFANTRY = 1 }
 		upgrades_from = ca_gt_bowyer_1
 		gold_cost = 50
 		build_time = 182
@@ -743,7 +743,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 2 }
+		trigger = { TECH_LIGHT_INFANTRY = 2 }
 		upgrades_from = ca_gt_bowyer_2
 		gold_cost = 50
 		build_time = 182
@@ -757,7 +757,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 3 }
+		trigger = { TECH_LIGHT_INFANTRY = 3 }
 		upgrades_from = ca_gt_bowyer_3
 		gold_cost = 50
 		build_time = 182
@@ -771,8 +771,64 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 4 }
+		trigger = { TECH_LIGHT_INFANTRY = 4 }
 		upgrades_from = ca_gt_bowyer_4
+		gold_cost = 50
+		build_time = 182
+		archers = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_6 = {
+		desc = ca_gt_bowyer_6_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 5 }
+		upgrades_from = ca_gt_bowyer_5
+		gold_cost = 50
+		build_time = 182
+		archers = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_7 = {
+		desc = ca_gt_bowyer_7_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 6 }
+		upgrades_from = ca_gt_bowyer_6
+		gold_cost = 50
+		build_time = 182
+		archers = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_8 = {
+		desc = ca_gt_bowyer_8_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 7 }
+		upgrades_from = ca_gt_bowyer_7
+		gold_cost = 50
+		build_time = 182
+		archers = 100
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_gt_bowyer_9 = {
+		desc = ca_gt_bowyer_9_desc
+		potential = {
+			culture = grey_tribes
+		}
+		trigger = { TECH_LIGHT_INFANTRY = 8 }
+		upgrades_from = ca_gt_bowyer_8
 		gold_cost = 50
 		build_time = 182
 		archers = 100
@@ -785,37 +841,48 @@ castle = {
 	ca_training_grounds_1 = {
 		desc = ca_training_grounds_1_desc
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
-		prerequisites = { ca_barracks_2 }
-		gold_cost = 200
+		gold_cost = 100
 		build_time = 730
-		land_morale = 0.1
-		levy_reinforce_rate = 0.1
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
 		ai_creation_factor = 89
-		extra_tech_building_start = 1.2
+		extra_tech_building_start = 1.0
 	}
 	ca_training_grounds_2 = {
-		desc = ca_training_grounds_1_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		desc = ca_training_grounds_2_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
 		upgrades_from = ca_training_grounds_1
-		gold_cost = 250
-		build_time = 1095
-		land_morale = 0.15
-		levy_reinforce_rate = 0.15
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
 		ai_creation_factor = 88
 		
-		extra_tech_building_start = 0.5
+		extra_tech_building_start = 1.0
 	}
 	ca_training_grounds_3 = {
-		desc = ca_training_grounds_1_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		desc = ca_training_grounds_3_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		upgrades_from = ca_training_grounds_2
-		gold_cost = 300
-		build_time = 2190
-		land_morale = 0.2
-		levy_reinforce_rate = 0.2
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
 		ai_creation_factor = 88
 		
-		extra_tech_building_start = 0.2
+		extra_tech_building_start = 1.0
+	}
+	ca_training_grounds_4 = {
+		desc = ca_training_grounds_4_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
+		upgrades_from = ca_training_grounds_3
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
 	}
 
 	# Stables

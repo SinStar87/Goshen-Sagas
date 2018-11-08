@@ -593,14 +593,16 @@
 	father = 6 # Drud
 	mother = 24039 # Trig
 	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24040 }
 	1821.4.9 = { death = yes }
 }
 61 = {
 	name = Taana
-	father = 60
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 60 # Foo
+	mother = 24040 # Nith
 	1787.1.1 = { birth = yes }
 	1855.1.1 = { death = yes }
 }
