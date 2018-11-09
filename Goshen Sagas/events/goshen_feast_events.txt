@@ -175,7 +175,7 @@ character_event = {	#Present Gift
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	option = { #Send Gift
@@ -264,7 +264,7 @@ character_event = {	#Meet Someone
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	immediate = {
@@ -502,7 +502,7 @@ character_event = {	#Tumble Bastard
 	}
 
 	mean_time_to_happen = {
-		months = 7
+		months = 9
 	}
 
 	immediate = {
@@ -596,7 +596,7 @@ character_event = {	#BFFs?
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	immediate = {
@@ -696,7 +696,7 @@ character_event = {	#Shadowy Figure Appears
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	immediate = {
@@ -954,7 +954,7 @@ character_event = {	#Kitchen Fire
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	option = { #Send out Informer
@@ -998,7 +998,7 @@ character_event = {	#Brawl at the Feast
 	}
 
 	mean_time_to_happen = {
-		days = 600
+		years = 5
 	}
 
 	immediate = {

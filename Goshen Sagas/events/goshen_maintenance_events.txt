@@ -3591,7 +3591,7 @@ character_event = {
 	hide_window = yes
 	
 	immediate = {
-		if = {
+		IF = {
 			limit = {
 				diplomatic_immunity = yes
 				leads_faction = yes
