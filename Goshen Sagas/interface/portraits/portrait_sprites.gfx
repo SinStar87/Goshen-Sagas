@@ -9,7 +9,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_dyinglandsgfx_child_male"
+		name = "PORTRAIT_dyinglandsgfx_child_male"
 		texturefile = "gfx\\characters\\nonhuman\\zuvak.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -17,7 +17,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_dyinglandsgfx_child_female"
+		name = "PORTRAIT_dyinglandsgfx_child_female"
 		texturefile = "gfx\\characters\\nonhuman\\zuvak.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -33,7 +33,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_polargfx_child_male"
+		name = "PORTRAIT_polargfx_child_male"
 		texturefile = "gfx\\characters\\nonhuman\\polar.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -41,7 +41,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_polargfx_child_female"
+		name = "PORTRAIT_polargfx_child_female"
 		texturefile = "gfx\\characters\\nonhuman\\polar.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -57,7 +57,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_zuvakgfx_child_male"
+		name = "PORTRAIT_zuvakgfx_child_male"
 		texturefile = "gfx\\characters\\nonhuman\\zuvak.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -65,7 +65,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_zuvakgfx_child_female"
+		name = "PORTRAIT_zuvakgfx_child_female"
 		texturefile = "gfx\\characters\\nonhuman\\zuvak.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -81,7 +81,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_poghessgfx_child_male"
+		name = "PORTRAIT_poghessgfx_child_male"
 		texturefile = "gfx\\characters\\nonhuman\\poghess.tga"
 		noOfFrames = 1
 		norefcount = yes
@@ -89,7 +89,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_poghessgfx_child_female"
+		name = "PORTRAIT_poghessgfx_child_female"
 		texturefile = "gfx\\characters\\nonhuman\\poghess.tga"
 		noOfFrames = 1
 		norefcount = yes
