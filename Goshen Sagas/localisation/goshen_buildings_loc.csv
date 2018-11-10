@@ -63,15 +63,15 @@ ca_g_barracks_3_desc;The loose collection of buildings has been expanded to inco
 ca_g_barracks_4;Small Barracks;;;;;;;;;;;;;x
 ca_g_barracks_4_desc;The loose collection of buildings has been expanded to incorporate more Gawei Spearmen.;;;;;;;;;;;;;x
 ca_g_barracks_5;Barracks;;;;;;;;;;;;;x
-ca_g_barracks_5_desc;A barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_5_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Gawei Spearmen stay here longer, training even during times of peace.;;;;;;;;;;;;;x
 ca_g_barracks_6;Barracks;;;;;;;;;;;;;x
-ca_g_barracks_6_desc;A barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_6_desc;The loose, and formerly haphazard buildings have been upgraded into a tight series of buildings, and the Gawei Spearmen stay here longer, training even during times of peace.;;;;;;;;;;;;;x
 ca_g_barracks_7;Large Barracks;;;;;;;;;;;;;x
-ca_g_barracks_7_desc;A large barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_7_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Gawei Spearmen to the site.;;;;;;;;;;;;;x
 ca_g_barracks_8;Large Barracks;;;;;;;;;;;;;x
-ca_g_barracks_8_desc;A large barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_8_desc;Further upgrades made to the small but well built structures have made this barracks into a small fortress, complete with its own defenses and walls, drawing even more Gawei Spearmen to the site.;;;;;;;;;;;;;x
 ca_g_barracks_9;Full Barracks;;;;;;;;;;;;;x
-ca_g_barracks_9_desc;A full barracks has been built, drawing many Gawei Spearmen.;;;;;;;;;;;;;x
+ca_g_barracks_9_desc;The series of buildings housing Gawei Spearmen has become a large fortress complete with thick walls and holding hundreds of Spearmen.;;;;;;;;;;;;;x
 ca_bowyer_1;Tiny Bowyer and Practice Range;;;;;;;;;;;;;x
 ca_bowyer_1_desc;A tiny enclosed area where bows are made and archers practice.;;;;;;;;;;;;;x
 ca_bowyer_2;Tiny Bowyer and Practice Range;;;;;;;;;;;;;x
@@ -115,7 +115,17 @@ ca_training_grounds_2_desc;A tiny space for troops to learn tactics and increase
 ca_training_grounds_3;Small Training Ground;;;;;;;;;;;;;x
 ca_training_grounds_3_desc;A small space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;;;x
 ca_training_grounds_4;Small Training Ground;;;;;;;;;;;x
-ca_training_grounds_4;A small space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_4;A open small space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_5;Training Ground;;;;;;;;;;;x
+ca_training_grounds_5;A open space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_6;Training Ground;;;;;;;;;;;x
+ca_training_grounds_6;A open space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_7;Large Training Ground;;;;;;;;;;;x
+ca_training_grounds_7;A large space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_8;Large Training Ground;;;;;;;;;;;x
+ca_training_grounds_8;A large space for troops to learn tactics and increase fighting strength.;;;;;;;;;;;x
+ca_training_grounds_9;Training Complex;;;;;;;;;;;x
+ca_training_grounds_9;A large collection of buildings where troops learn tactics and increase their fighting strength.;;;;;;;;;;;x
 ca_stables_1;Tiny Stable;;;;;;;;;;;;;x
 ca_stables_1_desc;A tiny stable has been built.;;;;;;;;;;;;;x
 ca_stables_2;Small Stable;;;;;;;;;;;;;x

@@ -884,6 +884,66 @@ castle = {
 		
 		extra_tech_building_start = 1.0
 	}
+	ca_training_grounds_5 = {
+		desc = ca_training_grounds_5_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
+		upgrades_from = ca_training_grounds_4
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_training_grounds_6 = {
+		desc = ca_training_grounds_6_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 5 }
+		upgrades_from = ca_training_grounds_5
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_training_grounds_7 = {
+		desc = ca_training_grounds_7_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_training_grounds_6
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_training_grounds_8 = {
+		desc = ca_training_grounds_8_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 7 }
+		upgrades_from = ca_training_grounds_7
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_training_grounds_9 = {
+		desc = ca_training_grounds_9_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 8 }
+		upgrades_from = ca_training_grounds_8
+		gold_cost = 100
+		build_time = 730
+		land_morale = 0.05
+		levy_reinforce_rate = 0.05
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
 
 	# Stables
 	ca_stables_1 = {
