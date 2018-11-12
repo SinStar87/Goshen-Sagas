@@ -1511,6 +1511,122 @@ temple = {
 		build_time = 750
 		knights = 10
 		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_2 = {
+		trigger = { TECH_CAVALRY = 1 }
+		upgrades_from = tp_hcha_1
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_3 = {
+		trigger = { TECH_CAVALRY = 2 }
+		upgrades_from = tp_hcha_2
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_4 = {
+		trigger = { TECH_CAVALRY = 3 }
+		upgrades_from = tp_hcha_3
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_5 = {
+		trigger = { TECH_CAVALRY = 4 }
+		upgrades_from = tp_hcha_4
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_6 = {
+		trigger = { TECH_CAVALRY = 5 }
+		upgrades_from = tp_hcha_5
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_7 = {
+		trigger = { TECH_CAVALRY = 6 }
+		upgrades_from = tp_hcha_6
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_8 = {
+		trigger = { TECH_CAVALRY = 7 }
+		upgrades_from = tp_hcha_7
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
+		ai_creation_factor = 150
+		extra_tech_building_start = 1.0
+	}
+	tp_hcha_9 = {
+		trigger = { TECH_CAVALRY = 8 }
+		upgrades_from = tp_hcha_8
+		gold_cost = 175
+		build_time = 750
+		knights = 10
+		horse_archers = 13
+		knights_offensive = 0.05
+		knights_defensive = 0.05
+		horse_archers_offensive = 0.03
+		horse_archers_defensive = 0.03
 		ai_creation_factor = 150
 		extra_tech_building_start = 1.0
 	}
