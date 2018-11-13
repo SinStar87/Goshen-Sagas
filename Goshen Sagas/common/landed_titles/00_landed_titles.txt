@@ -4377,6 +4377,8 @@ e_pan = {
 c_n_upper_dying_lands_coast = {
 	color = { 126 36 19 }
 	color2 = { 0 0 0 }
+
+	holy_site = abimelech_rel
 }
 c_nw_dying_lands = {
 	color = { 168 117 97 }
@@ -4389,6 +4391,8 @@ c_ne_dying_lands = {
 c_e_dying_lands = {
 	color = { 42 156 68 }
 	color2 = { 0 0 0 }
+
+	holy_site = abimelech_rel
 }
 c_s_upper_dying_lands_coast = {
 	color = { 126 42 49 }
@@ -4397,6 +4401,8 @@ c_s_upper_dying_lands_coast = {
 c_c_dying_lands = {
 	color = { 126 132 64 }
 	color2 = { 0 0 0 }
+
+	holy_site = abimelech_rel
 }
 c_n_w_dying_lands = {
 	color = { 126 186 44 }
@@ -4405,6 +4411,8 @@ c_n_w_dying_lands = {
 c_w_dying_lands = {
 	color = { 42 0 13 }
 	color2 = { 0 0 0 }
+
+	holy_site = abimelech_rel
 }
 c_n_lower_dying_lands_coast = {
 	color = { 126 9 79 }
@@ -4441,4 +4449,6 @@ c_sw_dying_lands = {
 c_s_dying_lands = {
 	color = { 0 9 50 }
 	color2 = { 0 0 0 }
+
+	holy_site = abimelech_rel
 }
