@@ -1459,7 +1459,7 @@ character_event = {	#Populate the Dying Lands
 		}
 	}
 }
-
+namespace = diploresponse
 ######################
 #	Hardcode Events
 ######################
