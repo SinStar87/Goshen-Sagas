@@ -41,7 +41,6 @@
 	1981.1.1 = {
 		add_trait = strategist
 		add_trait = champion
-		
 	}
 	2015.1.1 = {
 		death = yes

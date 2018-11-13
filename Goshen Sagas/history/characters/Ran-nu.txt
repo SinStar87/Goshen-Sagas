@@ -211,7 +211,7 @@
 
 	1955.1.1 = {
 		birth = yes
-		employer = 18020
+		#employer = 18020
 	}
 	1975.1.1 = {
 		employer = 18001
