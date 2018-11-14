@@ -1,4 +1,3 @@
-
 max_provinces = 524
 definitions = "definition.csv"
 provinces = "provinces.bmp"
