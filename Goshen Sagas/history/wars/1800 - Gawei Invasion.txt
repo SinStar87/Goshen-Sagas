@@ -1,0 +1,18 @@
+name = "Gawei Invasion of Levyt"
+casus_belli = {
+	casus_belli = cb_claim
+	actor = 6001
+	recipient = 12002
+	landed_title = c_levyt
+	date = 1800.1.1
+}
+
+1800.1.1 = {
+	add_defender = 12002
+	add_attacker = 6001
+}
+
+1804.1.1 = {
+	rem_defender = 12002
+	rem_attacker = 6001
+}
