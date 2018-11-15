@@ -34,8 +34,6 @@
 	name = Mel
 	father = 18001
 	dynasty = 1801
-	dna = dehcmyacaax
-	properties = ab00ga00000000
 
 	culture = rannu
 	religion = rannu_rel

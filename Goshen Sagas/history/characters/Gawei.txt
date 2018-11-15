@@ -258,8 +258,6 @@
 	name = Nidza
 	father = 6009
 	dynasty = 601
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = gawei
 	religion = gawei_rel
@@ -288,8 +286,6 @@
 	name = Stve
 	father = 6009
 	dynasty = 601
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = gawei
 	religion = gawei_rel
@@ -346,8 +342,6 @@
 	name = Satn
 	father = 6011
 	dynasty = 601
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = gawei
 	religion = gawei_rel

@@ -223,8 +223,6 @@
 27 = {
 	name = Rhun
 	dynasty = 2
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 26 # Vaceo
@@ -327,8 +325,6 @@
 37 = {
 	name = Cobar
 	dynasty = 3
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 36 # Manax
@@ -340,8 +336,6 @@
 38 = {
 	name = Thorkru
 	dynasty = 3
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 36 # Manax
@@ -353,8 +347,6 @@
 39 = {
 	name = Soule
 	dynasty = 3
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 38 # Thorkru
@@ -365,8 +357,6 @@
 371 = {
 	name = Carric
 	dynasty = 3
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 37 # Cobar
@@ -457,8 +447,6 @@
 47 = {
 	name = Cynsteel
 	dynasty = 4
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 46 # Stanthang
@@ -470,8 +458,6 @@
 48 = {
 	name = Stel
 	dynasty = 4
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 47 # Cynsteel
@@ -561,8 +547,6 @@
 57 = {
 	name = Manax
 	dynasty = 5
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 56 # Ferth
@@ -574,8 +558,6 @@
 58 = {
 	name = Maanan
 	dynasty = 5
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	father = 57 # Manax
@@ -655,8 +637,6 @@
 	name = Beorthelfbrak
 	father = 66
 	dynasty = 6
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 	culture = abimelech
 	religion = abimelech_rel
 	1959.1.1 = { birth = yes }
@@ -666,8 +646,6 @@
 	name = Baoore
 	father = 67
 	dynasty = 6
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -854,8 +832,6 @@
 	name = Stanthang
 	father = 76
 	dynasty = 7
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -879,8 +855,6 @@
 	name = Salan
 	father = 77
 	dynasty = 7
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1067,8 +1041,6 @@
 	name = Drak
 	father = 86
 	dynasty = 8
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1092,8 +1064,6 @@
 	name = Hulgen
 	father = 86
 	dynasty = 8
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1120,8 +1090,6 @@
 	name = Huulan
 	father = 87
 	dynasty = 8
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1308,8 +1276,6 @@
 	name = Glorthak
 	father = 96
 	dynasty = 9
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1333,8 +1299,6 @@
 	name = Bhull
 	father = 97
 	dynasty = 9
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1524,8 +1488,6 @@
 	name = Xero
 	father = 106
 	dynasty = 10
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1770,8 +1732,6 @@
 	name = Axglor
 	father = 116
 	dynasty = 11
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -1800,8 +1760,6 @@
 	name = Golar
 	father = 117
 	dynasty = 11
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -2023,8 +1981,6 @@
 	name = Nirrid
 	father = 126
 	dynasty = 12
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -2048,8 +2004,6 @@
 	name = Namor
 	father = 127
 	dynasty = 12
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -2236,8 +2190,6 @@
 	name = Reyathe
 	father = 136
 	dynasty = 13
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
@@ -2261,8 +2213,6 @@
 	name = Reeyan
 	father = 137
 	dynasty = 13
-	dna = clgfbldcaaw
-	properties = am00aa00000000
 
 	culture = abimelech
 	religion = abimelech_rel
