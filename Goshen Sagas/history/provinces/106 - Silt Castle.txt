@@ -14,5 +14,6 @@ b_silt_castle_temple = temple
 #Settings
 culture = navo
 religion = navo_rel
+terrain = arctic
 
 #History

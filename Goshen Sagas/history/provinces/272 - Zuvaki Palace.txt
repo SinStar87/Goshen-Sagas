@@ -14,5 +14,6 @@ b_zuvaki_palace_temple = temple
 #Settings
 culture = zuvak
 religion = zuvak_rel
+terrain = arctic
 
 #History

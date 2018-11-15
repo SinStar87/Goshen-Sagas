@@ -14,6 +14,7 @@ b_w_navo_desert_temple = temple
 #Settings
 culture = navo
 religion = navo_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

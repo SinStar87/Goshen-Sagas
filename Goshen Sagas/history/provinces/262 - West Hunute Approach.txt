@@ -14,6 +14,7 @@ b_w_hunute_approach_temple = temple
 #Settings
 culture = hunute
 religion = hunute_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

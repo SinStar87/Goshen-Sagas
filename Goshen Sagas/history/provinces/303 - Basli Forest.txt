@@ -14,5 +14,6 @@ b_basli_forest_temple = temple
 #Settings
 culture = basli
 religion = basli_rel
+terrain = arctic
 
 #History

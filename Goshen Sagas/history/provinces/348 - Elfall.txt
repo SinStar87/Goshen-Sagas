@@ -14,6 +14,7 @@ b_elfall_temple = temple
 #Settings
 culture = merro
 religion = merro_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

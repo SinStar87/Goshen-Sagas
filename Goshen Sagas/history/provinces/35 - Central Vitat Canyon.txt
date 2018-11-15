@@ -14,6 +14,7 @@ b_c_vitat_canyon = temple
 #Settings
 culture = vitat
 religion = vitat_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

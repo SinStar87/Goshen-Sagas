@@ -14,6 +14,7 @@ b_levyt_river_source_temple = temple
 #Settings
 culture = dulmal
 religion = dulmal_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

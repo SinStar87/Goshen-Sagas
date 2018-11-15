@@ -14,6 +14,7 @@ b_ne_yava_forest_temple = temple
 #Settings
 culture = yava
 religion = yava_rel
+terrain = arctic
 
 #History
 #1.1.1 = {

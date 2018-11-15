@@ -11,6 +11,7 @@ max_settlements = 0
 #Settings
 culture = dyinglands
 religion = dyinglands_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

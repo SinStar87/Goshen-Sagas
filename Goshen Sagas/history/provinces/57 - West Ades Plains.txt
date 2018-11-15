@@ -14,6 +14,7 @@ b_w_ades_plains_temple = temple
 #Settings
 culture = ades
 religion = ades_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

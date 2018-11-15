@@ -14,5 +14,6 @@ b_etzu_berth_temple = temple
 #Settings
 culture = zuvak
 religion = zuvak_rel
+terrain = arctic
 
 #History

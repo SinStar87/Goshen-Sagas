@@ -14,5 +14,6 @@ b_levyt_city_temple = temple
 #Settings
 culture = levyt
 religion = levyt_rel
+terrain = arctic
 
 #History

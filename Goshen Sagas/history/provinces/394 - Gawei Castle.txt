@@ -17,5 +17,6 @@ b_gawei_fairgrounds = castle
 #Settings
 culture = gawei
 religion = gawei_rel
+terrain = arctic
 
 #History

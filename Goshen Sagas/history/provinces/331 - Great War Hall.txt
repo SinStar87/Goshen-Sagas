@@ -15,5 +15,6 @@ b_entrance_to_laakis_womb = temple
 #Settings
 culture = abimelech
 religion = abimelech_rel
+terrain = arctic
 
 #History

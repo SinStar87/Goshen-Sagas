@@ -14,6 +14,7 @@ b_saar_temple = temple
 #Settings
 culture = levyt
 religion = levyt_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

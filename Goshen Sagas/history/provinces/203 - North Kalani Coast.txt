@@ -14,6 +14,7 @@ b_n_kalani_coast_temple = temple
 #Settings
 culture = kalan
 religion = kalan_rel
+terrain = arctic
 
 #History
 1900.1.1 = {

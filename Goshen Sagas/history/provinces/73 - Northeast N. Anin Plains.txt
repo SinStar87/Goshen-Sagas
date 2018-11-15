@@ -14,6 +14,7 @@ b_ne_n_anin_plains_temple = temple
 #Settings
 culture = anin
 religion = anin_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

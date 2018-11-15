@@ -14,6 +14,7 @@ b_w_e_grey_coast_temple = temple
 #Settings
 culture = grey_tribes
 religion = grey_tribes_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

@@ -14,6 +14,7 @@ b_w_kauni_forest_temple = temple
 #Settings
 culture = zet
 religion = zet_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

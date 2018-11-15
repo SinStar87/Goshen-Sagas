@@ -14,6 +14,7 @@ b_blav_approach_temple = temple
 #Settings
 culture = anin
 religion = anin_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

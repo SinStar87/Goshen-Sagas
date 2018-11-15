@@ -14,5 +14,6 @@ b_elfall_volcano_temple = temple
 #Settings
 culture = merro
 religion = merro_rel
+terrain = arctic
 
 #History

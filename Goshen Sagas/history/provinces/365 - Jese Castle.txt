@@ -14,5 +14,6 @@ b_jese_castle_temple = temple
 #Settings
 culture = hesen
 religion = hesen_rel
+terrain = arctic
 
 #History

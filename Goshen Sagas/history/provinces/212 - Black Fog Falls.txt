@@ -14,6 +14,7 @@ b_black_fog_falls_temple = temple
 #Settings
 culture = dulmal
 religion = dulmal_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

@@ -14,5 +14,6 @@ b_gap_in_the_mountain_temple = temple
 #Settings
 culture = anin
 religion = anin_rel
+terrain = arctic
 
 #History

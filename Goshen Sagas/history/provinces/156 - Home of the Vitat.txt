@@ -14,6 +14,7 @@ b_home_of_the_vitat_temple = temple
 #Settings
 culture = vitat
 religion = vitat_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

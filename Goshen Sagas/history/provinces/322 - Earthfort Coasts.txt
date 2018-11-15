@@ -14,6 +14,7 @@ b_earthfort_coasts_temple = temple
 #Settings
 culture = collsi
 religion = grey_tribes_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

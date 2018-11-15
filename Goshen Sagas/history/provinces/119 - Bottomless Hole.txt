@@ -14,5 +14,6 @@ b_bottomless_hole_temple = temple
 #Settings
 culture = yava
 religion = yava_rel
+terrain = arctic
 
 #History

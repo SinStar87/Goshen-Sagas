@@ -14,6 +14,7 @@ b_belar_temple = temple
 #Settings
 culture = timut
 religion = timut_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

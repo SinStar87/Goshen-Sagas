@@ -14,6 +14,7 @@ b_norrains_west_bend_temple = temple
 #Settings
 culture = kalan
 religion = kalan_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

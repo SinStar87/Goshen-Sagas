@@ -14,6 +14,7 @@ b_s_upper_levyt_river_temple = temple
 #Settings
 culture = levyt
 religion = levyt_rel
+terrain = arctic
 
 #History
 #867.1.1 = {

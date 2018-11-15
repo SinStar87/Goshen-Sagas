@@ -14,6 +14,7 @@ b_upper_mighty_etzu_river_temple = temple
 #Settings
 culture = zuvak
 religion = zuvak_rel
+terrain = arctic
 
 #History
 #867.1.1 = {
