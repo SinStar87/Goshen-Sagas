@@ -25,6 +25,10 @@ negative_money = {
 	land_morale = -0.25
 	icon = 24
 }
+recent_revolt = {
+	local_revolt_risk = -0.1
+	icon = 13
+}
 
 #############
 #Feast Modifiers

@@ -479,7 +479,6 @@ character_event = {	#Visited Medicus
 			trait = has_sickness
 			trait = has_plaga
 			trait = has_black_fog
-			trait = has_tuberculosis
 		}
 	}
 
@@ -2093,18 +2092,7 @@ diploresponse_event = {
 		ai = no
 	}
 
-	desc = {
-		text = EVTDESC236
-		trigger = {
-			religion_group = christian
-		}
-	}
-	desc = {
-		text = EVTDESC236_NC
-		trigger = {
-			NOT = { religion_group = christian }
-		}
-	}
+	desc = EVTDESC236
 
 	option = {
 		name = "OK"
@@ -2675,366 +2663,6 @@ diploresponse_event = {
 		name = "OK"
 	}
 }
-
-# On-action event: Royal Marriage Aid Duty
-character_event = {
-	id = 500
-	desc = EVTDESC500
-	picture = GFX_evt_marriage
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		new_character = {
-			NOR = {
-				has_character_modifier = jd_prince
-				has_character_modifier = jd_princess
-			}
-		}
-		NOR = { 
-			religion_group = muslim 
-			has_character_flag = recieved_royal_marriage_aid_duty
-		}
-		OR = {
-			AND = {
-				NOT = { religion = zoroastrian }
-				NOT = { religion = messalian }
-			}
-			NOT = { new_character = { is_close_relative = FROM } }
-		}
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
-		}
-	}
-	
-	immediate = {
-		set_character_flag = recieved_royal_marriage_aid_duty
-	}
-	
-	option = {
-		name = EVTOPTA500
-		scaled_wealth = {
-			value = 0.5
-			min = 10
-		}
-	}
-	option = {
-		name = EVTOPTB500
-		if = {
-			limit = {
-				NOT = { yearly_income = 50 }
-			}
-			if = {
-				limit = { tier = EMPEROR }
-				prestige = 150
-			}
-			if = {
-				limit = { tier = KING }
-				prestige = 50
-			}
-			if = {
-				limit = { tier = DUKE }
-				prestige = 25
-			}
-			if = {
-				limit = { tier = COUNT }
-				prestige = 13
-			}
-			if = {
-				limit = { tier = BARON }
-				prestige = 6
-			}
-			break = yes
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			prestige = 300
-		}
-		if = {
-			limit = { tier = KING }
-			prestige = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			prestige = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			prestige = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			prestige = 25
-		}
-	}
-}
-
-# On-action event: Zoroastrian Xwedodah marriage
-character_event = {
-	id = 501
-	desc = EVTDESC501
-	picture = GFX_evt_marriage_zoroastrian_group
-	
-	religion = zoroastrian
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		new_character = { is_close_relative = FROM }
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA500
-		scaled_wealth = {
-			value = 0.5
-			min = 10
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-	}
-	option = {
-		name = EVTOPTB500
-		
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-		
-		if = {
-			limit = {
-				NOT = { yearly_income = 50 }
-			}
-			if = {
-				limit = { tier = EMPEROR }
-				prestige = 150
-			}
-			if = {
-				limit = { tier = KING }
-				prestige = 50
-			}
-			if = {
-				limit = { tier = DUKE }
-				prestige = 25
-			}
-			if = {
-				limit = { tier = COUNT }
-				prestige = 13
-			}
-			if = {
-				limit = { tier = BARON }
-				prestige = 6
-			}
-			break = yes
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			prestige = 300
-		}
-		if = {
-			limit = { tier = KING }
-			prestige = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			prestige = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			prestige = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			prestige = 25
-		}
-	}
-}
-
-# On-action event: Messalian close kin marriage
-character_event = {
-	id = 502
-	desc = EVTDESC502
-	picture = GFX_evt_marriage
-	
-	religion = messalian
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		new_character = { is_close_relative = FROM }
-		OR = {
-			FROM = { character = ROOT }
-			AND = {
-				FROM = {
-					dynasty = ROOT
-					is_primary_heir = ROOT
-				}
-				new_character = {
-					NOT = { character = ROOT }
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = EVTOPTA500
-		scaled_wealth = {
-			value = 0.5
-			min = 10
-		}
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-	}
-	option = {
-		name = EVTOPTB500
-		
-		if = {
-			limit = { tier = EMPEROR }
-			piety = 300
-		}
-		if = {
-			limit = { tier = KING }
-			piety = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			piety = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			piety = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			piety = 25
-		}
-		
-		if = {
-			limit = {
-				NOT = { yearly_income = 50 }
-			}
-			if = {
-				limit = { tier = EMPEROR }
-				prestige = 150
-			}
-			if = {
-				limit = { tier = KING }
-				prestige = 50
-			}
-			if = {
-				limit = { tier = DUKE }
-				prestige = 25
-			}
-			if = {
-				limit = { tier = COUNT }
-				prestige = 13
-			}
-			if = {
-				limit = { tier = BARON }
-				prestige = 6
-			}
-			break = yes
-		}
-		
-		if = {
-			limit = { tier = EMPEROR }
-			prestige = 300
-		}
-		if = {
-			limit = { tier = KING }
-			prestige = 200
-		}
-		if = {
-			limit = { tier = DUKE }
-			prestige = 100
-		}
-		if = {
-			limit = { tier = COUNT }
-			prestige = 50
-		}
-		if = {
-			limit = { tier = BARON }
-			prestige = 25
-		}
-	}
-}
-
-
 # Approve or disapprove of de facto Law Change
 letter_event = {
 	id = 290
@@ -3646,11 +3274,39 @@ character_event = {
 
 character_event = {
 	id = 662
-	desc = "EVTDESC662"
+	desc = { 
+		text = EVTDESC662_B
+		trigger = {
+			is_female = yes
+		}
+	}
+	desc = { 
+		text = EVTDESC662
+		trigger = {
+			is_female = no
+		}
+	}
 	picture = GFX_evt_scandal
 	
 	is_triggered_only = yes 
 	
+	option = {
+		name = "EVTOPTB662"
+		trigger = {
+			NOR = {
+				is_rival = FROMFROM
+				num_of_rivals = 3
+			}
+		}
+		add_rival = FROMFROM
+		hidden_tooltip = {
+			opinion = {	
+				who = FROM
+				modifier = opinion_abducted_spouse
+				months = 1200
+			}
+		}
+	}
 	option = {
 		name = "EVTOPTA662"
 		opinion = {
@@ -3683,10 +3339,6 @@ narrative_event = {
 	only_rulers = yes
 	
 	immediate = {
-		if = {
-			limit = { ai = no }
-			set_character_flag = achievement_new_ways
-		}
 		any_courtier = {
 			limit = {
 				is_heresy_of = ROOT
@@ -3714,139 +3366,11 @@ narrative_event = {
 				religion = ROOT
 			}
 		}
-		if = {
-			limit = { religion = norse_pagan_reformed }
-			d_jomsvikings = {
-				religion = norse_pagan_reformed # This Holy Order now changes religion
-			}
-			set_global_flag = norse_reformation
-		}
-		if = {
-			limit = { religion = tengri_pagan_reformed }
-			set_global_flag = tengri_reformation
-		}
-		if = {
-			limit = { religion = baltic_pagan_reformed }
-			set_global_flag = baltic_reformation
-		}
-		if = {
-			limit = { religion = finnish_pagan_reformed }
-			set_global_flag = finnish_reformation
-		}
-		if = {
-			limit = { religion = aztec_reformed }
-			set_global_flag = aztec_reformation
-		}
-		if = {
-			limit = { religion = slavic_pagan_reformed }
-			set_global_flag = slavic_reformation
-		}
-		if = {
-			limit = { religion = west_african_pagan_reformed }
-			set_global_flag = west_african_reformation
-		}
-		if = {
-			limit = { religion = zun_pagan_reformed }
-			set_global_flag = zun_reformation
-		}
 	}
 
 	option = {
 		name = "EVTOPTA670" # The Reformer
 		trigger = { religion = ROOT }
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_PLAYER_REFORMED_RELIGION
-				portrait = [Root.GetID]
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTB670" # Rulers of the old Faith - Accept
-		trigger = {
-			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
-				portrait = [Root.GetID]
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 5
-				any_liege = { religion = ROOT }
-			}
-			modifier = {
-				factor = 2
-				same_realm = ROOT
-			}
-			modifier = {
-				factor = 5
-				trait = cynical
-			}
-			modifier = {
-				factor = 10
-				dynasty = ROOT
-			}
-			modifier = {
-				factor = 0.1
-				trait = zealous
-			}
-			modifier = {
-				factor = 0.5
-				trait = content
-			}
-		}
-		
-		religion = ROOT
-		
-		hidden_tooltip = {
-			any_courtier = {
-				limit = {
-					is_heresy_of = ROOT
-					employer = { character = PREV }
-				}
-				religion = ROOT
-			}
-			any_vassal = {
-				limit = {
-					is_playable = no
-					is_heresy_of = ROOT
-				}
-				religion = ROOT
-			}
-			capital_scope = {
-				if = {
-					limit = { is_heresy_of = ROOT }
-					religion = ROOT
-				}
-			}
-		}
-	}
-	option = {
-		name = "EVTOPTC670" # Rulers of the old Faith - Decline
-		trigger = {
-			is_heresy_of = ROOT # The old religion has become a heresy of the Reformed one
-		}
-		if = {
-			limit = { ai = no }
-			chronicle = {
-				entry = CHRONICLE_OTHER_REFORMED_PLAYERS_RELIGION
-				portrait = [Root.GetID]
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0
-				has_landed_title = d_jomsvikings
-			}
-		}
-		tooltip = { religion = THIS }
 	}
 	option = {
 		name = "EVTOPTD670" # Other playable rulers
@@ -3854,179 +3378,6 @@ narrative_event = {
 			NOT = { religion = ROOT }
 			NOT = { is_heresy_of = ROOT }
 		}
-	}
-}
-
-character_event = {
-	id = 671
-	
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		any_rival = { religion = ROOT }
-		
-	}
-	
-	immediate = {
-		any_rival = {
-			limit = { religion = ROOT }
-			character_event = { id = 100500 }
-		}
-	}
-}
-
-####################################################
-# Elective Gavelkind Succession:
-# Vassal Junior Heir Can Choose Independence
-####################################################
-
-character_event = {
-	id = 63103
-	desc = EVTDESC_63103
-	picture = GFX_evt_throne_room
-
-	capable_only = yes
-	prisoner = no
-	min_age = 16
-	
-	is_triggered_only = yes
-
-	trigger = {
-		has_dlc = "Charlemagne"
-		top_liege = {
-			in_revolt = no
-		}
-	}
-	
-	option = {
-		name = EVTOPTA_63103 # Remain a vassal
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 2
-				opinion = {
-					who = FROM
-					value = 25
-				}
-			}
-			modifier = {
-				factor = 2
-				opinion = {
-					who = FROM
-					value = 50
-				}
-			}
-			modifier = {
-				factor = 4
-				trait = content
-			}
-		}
-	}
-	option = {
-		name = EVTOPTB_63103 # Go independent
-		
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 2
-				NOT = {
-					opinion = {
-						who = FROM
-						value = -25
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				NOT = {
-					opinion = {
-						who = FROM
-						value = -50
-					}
-				}
-			}
-			modifier = {
-				factor = 2
-				trait = ambitious
-			}
-		}
-		
-		hidden_tooltip = {
-			FROM = { character_event = { id = 63104 } }
-		}
-		
-		if = {
-			limit = {
-				liege = {
-					independent = no
-				}
-			}
-			liege = {
-				liege = {
-					ROOT = {
-						set_defacto_liege = PREV
-						set_character_flag = set_to_higher_liege
-					}
-				}
-			}
-		}
-		
-		if = {
-			limit = {
-				liege = {
-					independent = yes
-				}
-				NOT = { has_character_flag = set_to_higher_liege }
-			}
-			set_defacto_liege = THIS
-		}
-		
-		clr_character_flag = set_to_higher_liege
-		
-		any_demesne_title = {
-			limit = {
-				OR = {
-					tier = king
-					tier = emperor
-					is_primary_holder_title_tier = yes
-				}
-			}
-			add_claim = FROM
-		}
-	}
-}
-
-# The liege is notified of the independence
-character_event = {
-	id = 63104
-	desc = EVTDESC_63104
-	picture = GFX_evt_emissary
-
-	is_triggered_only = yes
-	
-	notification = yes
-	
-	option = {
-		name = EVTOPTA_63104
-	}
-	
-}
-
-# Remove patron deity modifiers for hindu converts
-character_event = {
-	id = 63105
-	hide_window = yes
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = { religion = hindu }
-	}
-	
-	immediate = {
-		remove_patrons_effect = yes
 	}
 }
 
@@ -4280,195 +3631,6 @@ diploresponse_event = {
 	}
 }
 
-#Realm with designated regent or court physicians inherited by realm that already has a designated regent
-character_event = {
-	id = 532
-	hide_window = yes
-
-	is_triggered_only = yes
-
-	only_rulers = yes
-	
-	trigger = {
-		OR = {
-		  	AND = {
-				OR = {
-					any_courtier = {
-						has_minor_title = title_appointed_regent
-					}
-					any_vassal = {
-						has_minor_title = title_appointed_regent
-				 	}
-				}
-				current_heir = {
-					is_ruler = yes
-					OR = {
-						any_courtier = {
-							has_minor_title = title_appointed_regent
-						}
-						any_vassal = {
-						   has_minor_title = title_appointed_regent
-						}
-					}
-				}
-			}
-			AND = {
-				any_courtier_or_vassal = {
-					has_minor_title = title_court_physician
-					liege = { character = ROOT }
-				}
-				current_heir = {
-					is_ruler = yes
-					any_courtier_or_vassal = {
-						has_minor_title = title_court_physician
-						liege = { character = PREVPREV }
-					}
-				}
-			}
-		}
-	}
-	immediate = {
-		if = {
-			limit = {
-				OR = {
-					any_courtier = {
-						has_minor_title = title_appointed_regent
-					}
-					any_vassal = {
-						has_minor_title = title_appointed_regent
-					}
-				}
-				current_heir = {
-					is_ruler = yes
-					OR = {
-						any_courtier = {
-							has_minor_title = title_appointed_regent
-						}
-						any_vassal = {
-						   has_minor_title = title_appointed_regent
-						}
-					}
-				}
-			}
-			random_courtier_or_vassal = {
-				limit = {
-					has_minor_title = title_appointed_regent
-					liege = { character = ROOT }
-				}
-				remove_title = title_appointed_regent
-			}	
-		}
-		if = {
-			limit = {
-				any_courtier_or_vassal = {
-					has_minor_title = title_court_physician
-					liege = { character = ROOT }
-				}
-				current_heir = {
-					is_ruler = yes
-					any_courtier_or_vassal = {
-						has_minor_title = title_court_physician
-						liege = { character = PREVPREV }
-					}
-				}
-			}
-			random_courtier_or_vassal = {
-				limit = {
-					has_minor_title = title_court_physician
-					liege = { character = ROOT }
-				}
-				remove_title = title_court_physician
-			}	
-		}
-	}
-}
-
-character_event = {
-	id = 533
-	hide_window = yes
-	is_triggered_only = yes
-
-	only_rulers = yes
-	
-	trigger = {
-		FROM = {
-			higher_tier_than = DUKE
-			is_primary_holder_title = yes
-		}
-		FROMFROM = {
-			any_vassal = {
-				leads_faction = faction_powerful_vassal_takeover
-				NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_replaced_bad_ruler } }
-			}
-		}
-	}
-
-	immediate = {
-		FROMFROM = {
-			any_vassal = {
-				limit = {
-					in_faction = faction_powerful_vassal_takeover
-				}
-				opinion = {
-					who = ROOT
-					modifier = opinion_replaced_bad_ruler
-					years = 2
-				}
-			}
-		}
-	}
-}
-
-# Crusade/Jihad is invalidated 
-narrative_event = {
-
-	# ROOT is the target title
-	# new_character is the Enemy
-	# FROM is the Pope/Caliph
-	
-	id = 534
-	title = "EVTNAME534"
-	picture = "GFX_evt_battle"
-	border = "GFX_event_narrative_frame_religion"
-	
-	desc = {
-		picture = GFX_evt_battle
-		text = EVTDESC534_converted
-		trigger = { 
-			new_character = { religion = FROM }
-		}
-	}
-	desc = {
-		picture = GFX_evt_battle
-		text = EVTDESC534_coup
-		trigger = { 
-			new_character = { NOT = { religion = FROM } }
-		}
-	}
-	
-	major = yes
-	
-	only_rulers = yes
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPTA620"
-		trigger = {
-			religion_group = FROM
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB620"
-		trigger = {
-			NOT = {
-				religion_group = FROM
-			}
-		}
-	}
-}
-
 # ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_EVENT =
 diploresponse_event = {
 	id = 535
@@ -4573,35 +3735,6 @@ character_event = { # Fix adventurers turning Tribal land Feudal
 	}
 }
 
-#Preserve player religion if heir has DLC locked religion
-character_event = {
-	id = 680
-	hide_window = yes
-	is_triggered_only = yes
-	ai = no
-	trigger = {
-		is_nomadic = no
-		player_heir = {
-			OR = {
-				has_unsafe_secret_religion = yes
-				has_unsafe_religion = yes
-			}
-		}
-	}
-	immediate = {
-		player_heir = {
-			if = {
-				limit = { has_unsafe_secret_religion = yes }
-				clear_secret_religion = yes
-			}
-			if = {
-				limit = { has_unsafe_religion = yes }
-				religion = ROOT
-			}
-		}
-	}
-}
-
 # On-action event: Avoided title revokation, declared independence
 character_event = {
 	id = 681
@@ -4689,7 +3822,6 @@ character_event = {
 			character = FROM
 			AND = {
 				is_ruler = no
-				NOT = { trait = zealous }
 				religion = FROM # Will not change religion if already different from the vassal's
 			}
 		}
@@ -4716,94 +3848,10 @@ character_event = {
 		}
 	}
 	
-	option = { # No sympathy for the old religion
+	option = { #Convert
 		ai_chance = {
 			factor = 100
 		}
-		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
-		add_religion_char_flag_effect = yes
 		religion = FROMFROM
-		if = {
-			limit = {
-				religion_group = indian_group
-			}
-			character_event = { id = RoI.120 } # Assign Indian religion branch
-		}
-		if = {
-			limit = {
-				character = FROM
-			}
-			character_event = { id = MNM.3949 days = 3 random = 10 }
-		}
-	}
-	
-	option = { # Sympathy for the old religion
-		ai_chance = {
-			factor = 100
-			modifier = {
-				factor = 0
-				OR = {
-					trait = zealous
-					NOT = { age = 12 }
-				}
-			}
-			modifier = {
-				factor = 10
-				trait = cynical
-				age = 12
-			}
-		}
-		if = {
-			limit = {
-				religion_group = christian
-			}
-			add_trait = sympathy_christendom
-		}
-		if = {
-			limit = {
-				religion_group = muslim
-			}
-			add_trait = sympathy_islam
-		}
-		if = {
-			limit = {
-				religion_group = pagan_group
-			}
-			add_trait = sympathy_pagans
-		}
-		if = {
-			limit = {
-				religion_group = zoroastrian_group
-			}
-			add_trait = sympathy_zoroastrianism
-		}
-		if = {
-			limit = {
-				religion_group = jewish_group
-			}
-			add_trait = sympathy_judaism
-		}
-		if = {
-			limit = {
-				religion_group = indian_group
-			}
-			add_trait = sympathy_indian
-		}
-
-		clr_religion_char_flag_effect = yes #Must clear all old flags to avoid double traits
-		add_religion_char_flag_effect = yes
-		religion = FROMFROM
-		if = {
-			limit = {
-				religion_group = indian_group
-			}
-			character_event = { id = RoI.120 } # Assign Indian religion branch
-		}
-		if = {
-			limit = {
-				character = FROM
-			}
-			character_event = { id = MNM.3949 days = 3 random = 10 }
-		}
 	}
 }
