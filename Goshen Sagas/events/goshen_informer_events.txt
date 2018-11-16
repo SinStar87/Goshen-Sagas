@@ -70,6 +70,7 @@ character_event = {
 	}
 }
 
+namespace = SoA
 diploresponse_event = {
 	id = SoA.3100
 	desc = "EVTDESC_SOA_3100"
@@ -173,6 +174,7 @@ diploresponse_event = {
 	}
 }
 
+namespace = MNM
 diploresponse_event = { # 1.B: new holder of title gets exception flag, if the title was granted voluntarily (sent from GRANT_LANDED_TITLE_INTERACTION_ACCEPT_EVENT)
 	id = MNM.1217
 	is_triggered_only = yes
