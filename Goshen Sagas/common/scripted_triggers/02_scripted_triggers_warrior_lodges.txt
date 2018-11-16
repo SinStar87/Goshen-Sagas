@@ -1,0 +1,117 @@
+
+#####################################################
+##### Warrior Lodge work...
+#####################################################
+
+
+is_member_of_roots_society_trigger = {
+	custom_tooltip = {
+		text = is_member_of_roots_society_tt
+		hidden_trigger = {
+			is_member_of_any_society_trigger = yes
+			same_society_as = ROOT
+		}
+	}
+}
+
+is_member_of_any_society_trigger = {
+	custom_tooltip = {
+		text = is_member_of_any_society_tt
+		hidden_trigger = {
+			OR = {
+				society_member_of = mountain_sect
+			}
+		}
+	}
+}
+
+
+has_any_society_training_trait_trigger = {
+	OR = {
+		trait = mountain_sect_leader
+	}
+}
+
+has_current_society_leader_trait_trigger = {
+	custom_tooltip = {
+		text = has_warrior_training_with_current_society_tt
+		OR = {
+			AND = {
+				trait = mountain_sect_leader
+				society_member_of = mountain_sect
+			}
+		}
+	}
+}
+
+has_religion_matching_joined_society_trigger = {
+	custom_tooltip = {
+		text = has_religion_matching_joined_society_tt
+		OR = {
+			society_member_of = mountain_sect
+		}
+	}
+}
+
+has_religion_matching_available_society_trigger = {
+	OR = {
+		mountain_sect = { society_has_members = yes }
+	}
+}
+has_religion_matching_empty_society_trigger = {
+	OR = {
+		NOT = { mountain_sect = { society_has_members = yes } }
+	}
+}
+
+#Can be used on a character too -- will then default to look at the society a character is member of.
+this_society_is_a_society_trigger = {
+	OR = {
+	    is_society = mountain_sect
+	}
+}
+
+#keeping this one for reference
+#has_religion_matching_any_society_trigger = {
+	#OR = {
+	#}
+#}
+
+has_religion_matching_society_to_revive_trigger = {
+	OR = {
+		event_target:society_to_revive = {
+			is_society = mountain_sect
+		}
+	}
+}
+
+special_join_society_trigger = {
+	custom_tooltip = {
+		text = special_join_society_trigger_tt
+		OR = {
+			AND = {
+				FROM = { is_society = mountain_sect }
+				custom_tooltip = {
+					text = has_liege_vassal_or_neighbor_of_abimelech_religion_tt
+					hidden_trigger = {
+						OR = {
+							any_vassal = { religion = abimelech_rel }
+							any_liege = { religion = abimelech_rel }
+							any_neighbor_independent_ruler = { religion = abimelech_rel }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+is_available_fellow_society_member_trigger = {
+	same_society_as = ROOT
+    NOR = {
+		is_inaccessible_or_incapable_trigger = yes #in prison, incapable, etc...
+		character = ROOT
+		has_character_flag = do_not_disturb
+	}
+	in_command = no
+}

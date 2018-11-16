@@ -1,0 +1,318 @@
+mountain_sect = {
+	primary_attribute = martial
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	sound = warrior_lodge_ambient_01
+	society_ranks_gfx = warriors_ranks
+	society_influence = no
+	
+	non_interference = {
+		always = yes
+	}
+    
+	active = {
+		always = yes
+	}
+	indestructible = yes
+	
+	can_join_society = {
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = { 
+					society = mountain_sect
+					rank = 1
+				}
+			}
+		}
+		is_adult = yes
+		custom_tooltip = {
+			text = has_not_angered_society_tt
+			hidden_trigger = { NOT = { has_character_modifier = mountain_sect_failed_joining_cd } }
+		}
+		NOT = { has_character_modifier = mountain_sect_failed_joining_cd }
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+		trigger_if = {
+			limit = { prisoner = yes }
+			prisoner = no
+		}
+		OR = {
+			religion = abimelech_rel
+			AND = {
+				custom_tooltip = {
+					text = society_has_at_least_10_members_tt
+					FROM = { num_of_society_members >= 10 }
+				}
+				custom_tooltip = {
+					text = special_join_society_trigger_tt
+					special_join_society_trigger = yes
+				}
+			}
+		}
+		OR = {
+			trait = mastermind 
+			trait = clever_strategist 
+			trait = tactician 
+			trait = soldier 
+			trait = mogul 
+			trait = financier 
+			trait = entrepreneur
+			trait = clerk 
+			trait = sage 
+			trait = scholar 
+			trait = intellectual 
+			trait = thinker
+		}
+	}
+
+	show_society = {
+		OR = {
+			religion = abimelech_rel	
+			AND = {
+				#You have neighbors, etc, of the correct religion...
+					any_vassal = { religion = abimelech_rel }
+					any_liege = { religion = abimelech_rel }
+					any_neighbor_independent_ruler = { religion = yes }
+			}
+			NOT = { #Hide if: you don't have a religion that corresponds to this lodge, but there is another society available to you already
+				has_religion_matching_available_society_trigger = yes
+			}
+			#Always show if: You are already a member. Duh.
+			society_member_of = mountain_sect
+		}
+	}
+
+	potential = { #if you change religion or lose the traits that let you in, you are kicked out
+		religion = abimelech_rel
+		OR = {
+			trait = mastermind 
+			trait = clever_strategist 
+			trait = tactician 
+			trait = soldier 
+			trait = mogul 
+			trait = financier 
+			trait = entrepreneur
+			trait = clerk 
+			trait = sage 
+			trait = scholar 
+			trait = intellectual 
+			trait = thinker
+		}
+	}
+
+	society_rank = { #"Fledling"
+		level = 1
+		limit = 25
+		startup_limit = 5
+		modifier = {
+			monthly_character_prestige = 0.25
+		}
+		powers = {
+			society_duel #Passive Power: Unlocks Duel
+			society_shieldmaiden #Passive Power: Unlocks Shieldmaidens
+			society_survivor #Passive Power: Survivor
+			society_lifetime_of_war #Passive Power: A Lifetime of War			
+			society_norse_go_berserk #Power: Go Berserk
+		}
+	}
+	
+	society_rank = { #"Warrior"
+		level = 2
+		limit = 10
+		startup_limit = 3
+		modifier = {
+			monthly_character_prestige = 0.5
+			combat_rating = 5
+			martial = 1
+		}		
+		powers = {
+			society_reaver #Passive Power: Reaver
+			society_warrior_training #Power: Warrior Training
+			society_summon_commander #Power: Summon Commander
+		}
+	}
+	
+	society_rank = { #"Veteran"
+		level = 3
+		limit = 5
+		startup_limit = 2
+		modifier = {
+			monthly_character_prestige = 0.75
+			combat_rating = 10
+			martial = 2
+		}
+		powers = {
+			society_inspire_warriors #Power: Inspire Warriors
+			society_war_sacrifice #Power: War Sacrifice
+		}
+	}
+
+	society_rank = { #"Hero"
+		level = 4
+		limit = 2
+		startup_limit = 1
+		modifier = { 
+			monthly_character_prestige = 1
+			combat_rating = 15
+			martial = 3
+		}
+		powers = {
+			society_indomitable #Passive Power: Indomitable
+			society_call_to_glory #Power: Call to Glory
+			society_choose_military_aspect #Power: Choose Military Aspect
+		}
+	}
+
+	plots = {
+	
+	}
+
+	monthly_currency_gain = {
+		name = currency_name_mountain_sect
+    	
+		per_attribute = {
+    		name = martial
+    		value = 0.25
+    	}
+		
+    	has_trait = {
+			trait = mastermind
+			value = 1
+		}
+		has_trait = {
+			trait = clever_strategist
+			value = 1
+		}
+		has_trait = {
+			trait = tactician
+			value = 1
+		}
+		has_trait = {
+			trait = soldier
+			value = 1
+		}
+		has_trait = {
+			trait = mogul
+			value = 1
+		}
+		has_trait = {
+			trait = financier
+			value = 1
+		}
+		has_trait = {
+			trait = entrepreneur
+			value = 1
+		}
+		has_trait = {
+			trait = clerk
+			value = 1
+		}
+		has_trait = {
+			trait = sage
+			value = 1
+		}
+		has_trait = {
+			trait = scholar
+			value = 1
+		}
+		has_trait = {
+			trait = intellectual
+			value = 1
+		}
+		has_trait = {
+			trait = thinker
+			value = 1
+		}
+		has_trait = {
+			trait = shieldmaiden
+			value = 1
+		}
+		
+	}
+	
+	member_score_per_attribute = 3
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			trait = mastermind
+			factor = 1
+		}
+		modifier = {
+			trait = clever_strategist
+			factor = 1
+		}
+		modifier = {
+			trait = tactician
+			factor = 1
+		}
+		modifier = {
+			trait = soldier
+			factor = 1
+		}
+		modifier = {
+			trait = mogul
+			factor = 1
+		}
+		modifier = {
+			trait = financier
+			factor = 1
+		}
+		modifier = {
+			trait = entrepreneur
+			factor = 1
+		}
+		modifier = {
+			trait = clerk
+			factor = 1
+		}
+		modifier = {
+			trait = sage
+			factor = 1
+		}
+		modifier = {
+			trait = scholar
+			factor = 1
+		}
+		modifier = {
+			trait = intellectual
+			factor = 1
+		}
+		modifier = {
+			trait = thinker
+			factor = 1
+		}
+		modifier = {
+			trait = shieldmaiden
+			factor = 1.1
+		}
+	}	
+
+	startup_populate = {
+	    trigger = {
+			ai = yes
+	    	controls_religion = no
+		   	religion = abimelech_rel
+			is_adult = yes
+			is_in_society = no
+			OR = {
+				trait = mastermind 
+				trait = clever_strategist 
+				trait = tactician 
+				trait = soldier 
+				trait = mogul 
+				trait = financier 
+				trait = entrepreneur
+				trait = clerk 
+				trait = sage 
+				trait = scholar 
+				trait = intellectual 
+				trait = thinker
+			}
+		}
+	}
+}

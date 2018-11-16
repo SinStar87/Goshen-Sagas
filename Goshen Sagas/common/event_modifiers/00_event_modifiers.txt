@@ -50,3 +50,7 @@ opened_gates = {
 	siege_defence = -0.3
 	icon = 27
 }
+
+#####Society Modifiers#####
+#hidden
+mountain_sect_failed_joining_cd = { icon = 1 }
