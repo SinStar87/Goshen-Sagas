@@ -1,4 +1,57 @@
 #Hard Coded
+born_in_the_purple = {
+	customizer = no
+	random = no
+
+	vassal_opinion = 5
+	monthly_character_prestige = 0.5
+}
+
+pregnancy_finishing = {
+	in_hiding = yes # Will need a regent, but can still be guardian to children
+	is_health = yes
+	customizer = no
+}
+hard_pregnancy = {
+	#in_hiding = yes # Will need a regent
+	is_health = yes
+	# Highly event driven
+	opposites = { troubled_pregnancy
+	}
+	
+	combat_rating = -50
+	spouse_opinion = 15
+
+	customizer = no
+
+	
+	ai_rationality = -5
+}
+
+troubled_pregnancy = {
+	incapacitating = yes # Will need a regent
+	is_health = yes
+	# Highly event driven
+	opposites = { hard_pregnancy }
+	
+	combat_rating = -100
+	spouse_opinion = 15
+
+	customizer = no
+
+	ai_rationality = -15
+}
+
+augustus = {
+	customizer = no
+	
+	vassal_opinion = 10
+	monthly_character_prestige = 0.5
+	
+	male_compliment = COMPL_AUGUSTUS
+	female_compliment = COMPL_AUGUSTUS
+}
+
 crusader = {
 	opposites = {
 		crusader_king

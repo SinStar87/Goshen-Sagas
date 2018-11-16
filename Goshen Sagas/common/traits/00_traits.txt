@@ -708,13 +708,6 @@ legit_bastard = {
 
 	diplomacy = -1
 }
-born_in_the_purple = {
-	customizer = no
-	random = no
-
-	vassal_opinion = 5
-	monthly_character_prestige = 0.5
-}
 
 #Strength
 strong = {
