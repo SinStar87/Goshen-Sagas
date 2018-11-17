@@ -121,8 +121,10 @@ plot_gain_vassal_title = {
 				}
 			}
 		}
-		holder_scope = { # Only if there is no non-aggression-pact with the vassal
-			has_non_aggression_pact_with = FROM
+		FROM = { # Only if there is no non-aggression-pact with the vassal
+			NOT = {
+				has_non_aggression_pact_with = ROOT
+			}
 		}
 	}
 	chance = {

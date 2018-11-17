@@ -30,47 +30,6 @@ recent_revolt = {
 	icon = 13
 }
 
-promised_a_title = {
-	monthly_character_prestige = 0.10
-	icon = 7
-}
-
-promised_a_marriage = {
-	monthly_character_piety = 0.10
-	is_visible = {
-		ai = yes
-	}
-	icon = 8
-}
-
-war_taxes = {
-	icon = 4
-	global_tax_modifier = 0.1
-}
-
-in_seclusion = {
-	diplomacy = -5
-	icon = 36
-}
-
-faction_succ_seniority_ultimatum_timer = { icon = 1 }
-
-faction_succ_primogeniture_ultimatum_timer = { icon = 1 }
-
-faction_succ_feudal_elective_ultimatum_timer = { icon = 1 }
-
-faction_succ_gavelkind_ultimatum_timer = { icon = 1 }
-
-faction_lower_CA_ultimatum_timer = { icon = 1 }
-
-faction_lower_TO_ultimatum_timer = { icon = 1 }
-
-faction_independence_ultimatum_timer = { icon = 1 }
-
-faction_claimant_timer = { icon = 1 }
-
-war_chest_timer = { icon = 1 }
-
 #############
 #Feast Modifiers
 #############
@@ -91,3 +50,7 @@ opened_gates = {
 	siege_defence = -0.3
 	icon = 27
 }
+
+#####Society Modifiers#####
+#hidden
+mountain_sect_failed_joining_cd = { icon = 1 }

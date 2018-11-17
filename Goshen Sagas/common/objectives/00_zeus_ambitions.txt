@@ -15,7 +15,6 @@ obj_become_council_member = {
 	potential = {
 		independent = no
 		NOR = {
-			is_incapable_trigger = yes
 			culture_group = unoccupied_group
 			religion_group = unoccupied_rel_group
 		}
@@ -38,6 +37,9 @@ obj_become_council_member = {
 		}
 		NOR = {
 			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		NOR = {
 			culture_group = unoccupied_group
 			religion_group = unoccupied_rel_group
 		}
@@ -183,6 +185,7 @@ obj_become_council_member = {
 	abort = {
 		OR = {
 			liege = { spouse = { character = ROOT } }
+			is_inaccessible_trigger = yes
 			independent = yes
 			is_incapable_trigger = yes
 			NOR = { 
@@ -192,8 +195,6 @@ obj_become_council_member = {
 				can_hold_title = job_spymaster
 				can_hold_title = job_spiritual
 			}
-			culture_group = unoccupied_group
-			religion_group = unoccupied_rel_group
 		}
 	}
 	abort_effect = {
@@ -228,6 +229,10 @@ obj_land_for_son = {
 		has_dlc = "Zeus"
 		prisoner = no
 		is_adult = yes
+		NOR = { 
+			is_incapable_trigger = yes 
+			has_character_flag = land_for_son_successful
+		}
 		any_child = {
 			is_female = no
 			is_landed = no
@@ -242,10 +247,8 @@ obj_land_for_son = {
 			}
 		}
 		NOR = {
-			is_incapable_trigger = yes
 			culture_group = unoccupied_group
 			religion_group = unoccupied_rel_group
-			has_character_flag = land_for_son_successful
 		}
 	}
 	chance = {
@@ -391,8 +394,6 @@ obj_land_for_son = {
 			}
 			independent = yes
 			is_incapable_trigger = yes
-			culture_group = unoccupied_group
-			religion_group = unoccupied_rel_group
 		}
 	}
 	abort_effect = {
@@ -437,8 +438,11 @@ obj_build_a_war_chest = {
 				NOT = { wealth = 1000 }
 			}
 		}
-		NOR = {
+		NOR = { 
 			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
+		}
+		NOR = {
 			culture_group = unoccupied_group
 			religion_group = unoccupied_rel_group
 		}
@@ -623,11 +627,7 @@ obj_build_a_war_chest = {
 			}
 	}
 	abort = {
-		OR = { 
-			is_incapable_trigger = yes
-			culture_group = unoccupied_group
-			religion_group = unoccupied_rel_group
-		}
+		is_incapable_trigger = yes
 	}
 	abort_effect = {
 	}
@@ -671,6 +671,7 @@ obj_groom_an_heir = {
 		}
 		NOR = {
 			is_incapable_trigger = yes
+			is_inaccessible_trigger = yes
 			any_child = {
 				is_adult = yes 
 				NOR = {
@@ -842,11 +843,7 @@ obj_groom_an_heir = {
 		}
 	}
 	abort = {
-		OR = { 
-			is_incapable_trigger = yes
-			culture_group = unoccupied_group
-			religion_group = unoccupied_rel_group
-		}
+		is_incapable_trigger = yes
 	}
 	abort_effect = {
 	}
