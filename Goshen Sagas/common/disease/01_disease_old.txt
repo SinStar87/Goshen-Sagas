@@ -1,0 +1,23 @@
+tuberculosis = {
+	rip = no
+	contagiousness = 0.15
+	outbreak_chance = 0.01
+	effect = {
+		city_tax_modifier = -0.5
+		supply_limit = -4
+		max_attrition = 0.05
+	}
+	icon = 1
+	tooltip = TUBERCULOSIS_INFO
+	months = 30
+	trait = has_red_fever
+	always_get_message = no
+	color = { 84 171 176 }
+
+	timeperiod = {
+		start_date = 1.1.1
+		end_date = 3000.1.1		
+
+		one_only = no
+	}
+}
