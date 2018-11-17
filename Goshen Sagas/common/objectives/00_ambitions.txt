@@ -223,7 +223,7 @@ obj_become_marshal = {
 		}
 		modifier = {
 			factor = 5
-			trait = strategist
+			trait = clever_strategist
 		}
 		modifier = {
 			factor = 2
@@ -1310,7 +1310,7 @@ obj_become_exalted = {
 		}
 		modifier = {
 			factor = 5
-			trait = strategist
+			trait = clever_strategist
 		}
 		modifier = {
 			factor = 2
@@ -1504,7 +1504,7 @@ obj_get_married = {
 		}
 		modifier = {
 			factor = 5
-			trait = strategist
+			trait = clever_strategist
 		}
 		modifier = {
 			factor = 2
@@ -1820,7 +1820,6 @@ obj_wants_landed_title = {
 		is_female = no
 		NOT = { is_incapable_trigger = yes }
 		NOT = { trait = eunuch }
-		NOT = { has_minor_title = title_guru }
 		liege = {
 			OR = {
 				is_feudal = yes
@@ -2332,7 +2331,7 @@ obj_improve_martial = {
 		}
 		modifier = {
 			factor = 2
-			trait = strategist
+			trait = clever_strategist
 		}
 		modifier = {
 			factor = 5
