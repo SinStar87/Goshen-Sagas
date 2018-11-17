@@ -18,8 +18,24 @@ laws = {
 		}
 		potential = {
 			has_dlc = "Zeus"
+			NOR = {
+				has_game_rule = {
+					name = gender
+					value = historical
+				}
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -109,8 +125,24 @@ laws = {
 		}
 		potential = {
 			has_dlc = "Zeus"
+			NOR = {
+				has_game_rule = {
+					name = gender
+					value = historical
+				}
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -191,8 +223,24 @@ laws = {
 		}
 		potential = {
 			has_dlc = "Zeus"
+			NOR = {
+				has_game_rule = {
+					name = gender
+					value = historical
+				}
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -266,8 +314,24 @@ laws = {
 		}
 		potential = {
 			has_dlc = "Zeus"
+			NOR = {
+				has_game_rule = {
+					name = gender
+					value = historical
+				}
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -341,8 +405,24 @@ laws = {
 		}
 		potential = {
 			has_dlc = "Zeus"
+			NOR = {
+				has_game_rule = {
+					name = gender
+					value = historical
+				}
+				has_game_rule = {
+					name = gender
+					value = all
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		pass_effect = {
@@ -436,8 +516,11 @@ laws = {
 		potential = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
+		revoke_allowed = { always = no }
 		ai_will_do = { factor = 0 }
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = no
@@ -454,7 +537,9 @@ laws = {
 		potential = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
+		revoke_allowed = { always = no }
 		ai_will_do = { 
 			factor = 1
 			modifier = {
@@ -466,6 +551,7 @@ laws = {
 				has_law = revoke_title_law_2
 			}
 		}
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -480,17 +566,36 @@ laws = {
 		group = revoke_title_law
 		allow = {
 			NOT = { has_law = revoke_title_law_0 }
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = { government = chinese_imperial_government }
+				}
+				holder_scope = {
+					show_scope_change = no
+					NOT = {
+						government = chinese_imperial_government
+					}
+				}	
+			}
 		}
 		potential = {
 			has_dlc = "Zeus"
 			NOT = { holder_scope = { is_nomadic = yes } }
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
 		}
+		revoke_allowed = { always = no }
 		ai_will_do = {
 			factor = 1
 			modifier = {
 				factor = 0.01
 			}
+			modifier = {
+				factor = 10
+				holder_scope = { trait = zealous }
+			}
 		}
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			set_allow_title_revokation = yes
@@ -513,6 +618,7 @@ laws = {
 			NOT = { holder_scope = { is_nomadic = yes } }
 		}
 		ai_will_do = { factor = 0 }
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			custom_tooltip = {
@@ -556,6 +662,7 @@ laws = {
 				has_law = ze_administration_laws_2
 			}
 		}
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {
@@ -594,7 +701,12 @@ laws = {
 			has_law = grant_title_voting_power_0
 			has_law = banish_voting_power_0
 			has_law = execution_voting_power_0
-			has_law = revoke_title_law_2
+			conditional_tooltip = {
+				trigger = {
+					holder_scope = { NOT = { government = chinese_imperial_government } }
+				}
+				has_law = revoke_title_law_2
+			}
 			has_law = out_of_realm_inheritance_law_1
 		}
 		potential = {
@@ -604,6 +716,7 @@ laws = {
 		ai_will_do = {
 			factor = 10
 		}
+		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
 			if = {

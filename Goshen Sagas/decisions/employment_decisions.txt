@@ -169,7 +169,6 @@ decisions = {
 	}
 	employ_medicus = {	#Employ a Doctor
 		potential = {
-			is_ruler = yes
 			NOT = {
 				any_courtier = { trait = is_medicus }
 			}
