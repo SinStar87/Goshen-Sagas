@@ -1,9 +1,9 @@
 name = "Gawei Invasion of Levyt"
 casus_belli = {
-	casus_belli = cb_claim
+	casus_belli = claim
 	actor = 6001
 	recipient = 12002
-	landed_title = c_levyt
+	landed_title = c_levyt_city
 	date = 1800.1.1
 }
 
