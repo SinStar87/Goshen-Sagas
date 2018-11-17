@@ -33,7 +33,9 @@ title_appointed_regent = {
 	allowed_to_hold = {
 		is_adult = yes
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			is_incapable_trigger = yes
+		}
 		has_regent = no
 	}
 	
@@ -212,11 +214,12 @@ title_commander = {
 			}
 			has_character_flag = special_marshal
 		}
-		
 		prisoner = no
-		NOT = { trait = incapable }
-		NOT = { is_inaccessible_trigger = yes }
-		NOT = { has_character_flag = guru }
+		NOR = {
+			is_incapable_trigger = yes
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
 	}
 	
 	gain_effect = {
@@ -244,6 +247,11 @@ title_personalguard = {
 	opinion_effect = 5
 
 	allowed_to_hold = {
+		NOR = {
+			is_incapable_trigger = yes
+			culture_group = unoccupied_group
+			religion_group = unoccupied_rel_group
+		}
 		OR = {
 			is_ruler = no
 			has_landed_title = d_the_will
