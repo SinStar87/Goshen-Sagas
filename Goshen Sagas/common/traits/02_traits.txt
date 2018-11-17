@@ -1,9 +1,0 @@
-### Specific leader traits ###
-mountain_sect_leader = {
-	leader = yes
-	random = no
-	trait_effect_capture_commanders = 1 #Bonus to capturing commanders
-	command_modifier = {
-		heavy_infantry = 0.25
-	}
-}
