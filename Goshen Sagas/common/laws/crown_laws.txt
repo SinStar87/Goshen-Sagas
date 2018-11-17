@@ -25,7 +25,13 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}
 		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
 			factor = 0
 		}
 		effect = {
@@ -72,6 +78,9 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}			
 		ai_will_do = {
 			factor = 1
@@ -80,6 +89,10 @@ de_jure_laws = {
 				NOT = { has_law = crown_authority_0 }
 			}
 		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -137,6 +150,17 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
+				
+				custom_tooltip = { 
+					text = TT_NOT_UNREFORMED_PAGAN
+					hidden_tooltip = {
+						OR = {
+							NOT = { religion_group = pagan_group }
+							is_reformed_religion = yes
+							religion = bon
+						}
+					}
+				}
 			}
 			OR = {
 				has_law = crown_authority_1
@@ -150,6 +174,9 @@ de_jure_laws = {
 				is_nomadic = no
 			}
 		}
+		revoke_allowed = {
+			always = no
+		}			
 		ai_will_do = {
 			factor = 1
 			modifier = {
@@ -160,6 +187,10 @@ de_jure_laws = {
 				NOT = { has_law = crown_authority_1 }
 			}
 		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -217,6 +248,16 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
+				custom_tooltip = {
+					text = TT_NOT_UNREFORMED_PAGAN
+					hidden_tooltip = {
+						OR = {
+							NOT = { religion_group = pagan_group }
+							is_reformed_religion = yes
+							religion = bon
+						}
+					}
+				}
 			}
 			OR = {
 				has_law = crown_authority_2
@@ -229,6 +270,9 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -243,6 +287,10 @@ de_jure_laws = {
 				}
 			}
 		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -301,6 +349,16 @@ de_jure_laws = {
 		allow = {
 			holder_scope = { 
 				is_republic = no 
+				custom_tooltip = {
+					text = TT_NOT_UNREFORMED_PAGAN
+					hidden_tooltip = {
+						OR = {
+							NOT = { religion_group = pagan_group }
+							is_reformed_religion = yes
+							religion = bon
+						}
+					}
+				}
 			}
 			has_law = crown_authority_3
 		}
@@ -310,6 +368,9 @@ de_jure_laws = {
 				is_tribal = no
 				is_nomadic = no
 			}
+		}
+		revoke_allowed = {
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -324,6 +385,11 @@ de_jure_laws = {
 				}
 			}
 		}
+		
+		ai_will_revoke = {
+			factor = 0
+		}
+		
 		pass_effect = {
 			hidden_tooltip = {
 				if = { 
@@ -368,5 +434,90 @@ de_jure_laws = {
 		city_vassal_min_levy = 0.8
 		castle_vassal_min_levy = 0.8
 		temple_vassal_min_levy = 0.8
+	}
+	
+# INVESTITURE
+
+	# Papal Investiture
+	investiture_law_0 = {
+		show_as_title = yes
+		group = investiture_law
+		default = yes
+		potential = {
+			holder_scope = {
+				OR = {
+					religion = catholic
+					religion = fraticelli
+				}
+				is_tribal = no
+				is_nomadic = no
+			}
+		}
+		allow = {
+			year = 1000
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+				revoke_law = investiture_law_1
+			}
+			set_investiture = head
+		}
+	}
+	
+	# Free Investiture
+	investiture_law_1 = {
+		show_as_title = yes
+		rel_head_opinion = -30
+		free_invest_vassal_opinion = 10 # vassals with bishops will appreciate this law
+		temple_all_opinion = 10 # Bishops will tend to be more loyal to the Crown
+		group = investiture_law
+		potential = {
+			holder_scope = {
+				OR = {
+					religion = catholic
+					religion = fraticelli
+				}
+				is_tribal = no
+				is_nomadic = no
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.002 # Rare to do this
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					holder_scope = {
+						NOT = { trait = cynical }
+					}
+					NOT = { has_law = investiture_law_0 }
+				}
+			}
+		}
+		ai_will_revoke = {
+			factor = 0
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = investiture_law_0
+				revoke_law = investiture_law_1
+			}
+			set_investiture = any
+		}
 	}	
 }
