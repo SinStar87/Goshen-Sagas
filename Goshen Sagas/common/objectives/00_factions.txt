@@ -3765,7 +3765,7 @@ faction_claimant = {
 				religion = FROM
 				any_war = {
 					war_title = ROOT
-					defender = { character = THIS } 
+					defender = { character = PREV } 
 					attacker = {
 						OR = {
 							NOT = { culture_group = FROM }
@@ -4150,7 +4150,7 @@ faction_claimant = {
 				religion = ROOT
 				any_war = {
 					war_title = FROMFROM
-					defender = { character = THIS } 
+					defender = { character = PREV } 
 					attacker = {
 						OR = {
 							NOT = { culture_group = ROOT }
