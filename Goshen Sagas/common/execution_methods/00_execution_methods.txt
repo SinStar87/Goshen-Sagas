@@ -34,13 +34,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			OR = {
-				# Only available to the following:
-				trait = cruel
-				trait = wroth
- 				religion = aztec
-	 			religion = aztec_reformed
-			}
+			religion = navo_rel
 		}
 	}
 }
@@ -56,11 +50,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			OR = {
-				# Only available to the following:
- 				religion = aztec
-	 			religion = aztec_reformed
-			}
+			religion = merro_rel
 		}
 	}
 }
@@ -72,10 +62,6 @@ execution_method = {
 		modifier = {
 			factor = 2
 			is_female = yes
-		}
-		modifier = {
-			factor = 2
-			is_any_kinslayer_trigger = yes
 		}
 		modifier = {
 			factor = 4
@@ -137,31 +123,14 @@ execution_method = {
 				}
 			}
 		}
-		modifier = {
-		factor = 0.5
-			FROM = {
-				OR = {
-					trait = kind
-					trait = temperate
-					trait = charitable
-				}
-			}
-		}
 	}
 	trigger = {
 		FROM = {
+			is_feudal = yes
 			OR = {
-				trait = cruel
-				trait = wroth
-	 			culture_group = west_germanic
-			}
-			NOR = {
-				is_nomadic = yes
-				is_tribal = yes
-			}
-			NOR = {
-				religion = aztec
-	 			religion = aztec_reformed
+				culture = abimelech
+				culture = gawei
+				culture = levyt
 			}
 		}
 	}
@@ -171,27 +140,10 @@ execution_method = {
 	death = death_execution_bear
 	weight_multiplier = {
 		factor = 50
-		modifier = {
-			factor = 8
-			FROM = {
-				trait = hunter
-			}
-		}
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = cruel
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			capital_scope = {
-				NOR = {
-					region = world_india
-					region = world_africa
-				}
-			}
+			culture = yava
 		}
 	}
 }
@@ -200,24 +152,10 @@ execution_method = {
 	death = death_execution_lion
 	weight_multiplier = {
 		factor = 100
-		modifier = {
-			factor = 8
-			FROM = {
-				trait = hunter
-			}
-		}
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = cruel
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			capital_scope = {
-				region = world_africa
-			}
+			culture = rannu
 		}
 	}
 }
@@ -226,16 +164,10 @@ execution_method = {
 	death = death_execution_snake_pit
 	weight_multiplier = {
 		factor = 50
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = deceitful
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			NOT = { is_nomadic = yes }
+			is_tribal = yes
 		}
 	}
 }
@@ -247,13 +179,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			OR = {
-				trait = cruel
-				trait = wroth
- 				religion = aztec
-	 			religion = aztec_reformed
-			}
-			NOT = { is_nomadic = yes }
+			culture = merro
 		}
 	}
 }
@@ -265,15 +191,9 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				capital_scope = {
-					OR = {
-	 					region = world_europe			
-	 					region = world_india
-	 				}
-				}
-				trait = cruel
-				NOT = { is_nomadic = yes }
+			OR = {
+				culture = merro
+				culture = qwari
 			}
 		}
 	}
@@ -286,8 +206,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			trait = cruel
-			NOT = { is_nomadic = yes }
+			religion = navo_rel
 		}
 	}
 }
@@ -300,8 +219,10 @@ execution_method = {
 	trigger = {
 		FROM = {
 			OR = {
-				trait = gamer
-				trait = hunter
+				culture = merro
+				religion = anin_rel
+				religion = grey_tribes_rel
+				religion = rannu_rel
 			}
 		}
 	}
@@ -311,20 +232,10 @@ execution_method = {
 	death = death_execution_live_burial
 	weight_multiplier = {
 		factor = 200
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = gardener
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			OR = {
-				trait = gardener
-				trait = cruel
-				trait = wroth
-			}
+			religion = kalan_rel
 		}
 	}
 }
@@ -334,35 +245,13 @@ execution_method = {
 	weight_multiplier = {
 		factor = 200
 		modifier = {
-			factor = 2
-			FROM = {
-				trait = kind
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = temperate
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = charitable
-			}
-		}
-		modifier = {
 			factor = 4
 			is_lowborn = yes
 		}
 	}
 	trigger = {
 		FROM = {
-			NOT = { is_nomadic = yes }
-			NOR = {
-				religion = aztec
-	 			religion = aztec_reformed
-			}
+			is_alive = yes
 		}
 	}
 }
@@ -371,24 +260,10 @@ execution_method = {
 	death = death_execution_immurement
 	weight_multiplier = {
 		factor = 200
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = architect
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			OR = {
-				trait = wroth
-				trait = cruel
-				trait = architect
-			}
-			NOR = {
-				is_nomadic = yes
-				is_tribal = yes
-			}
+			religion = navo_rel
 		}
 	}
 }
@@ -397,24 +272,6 @@ execution_method = {
 	death = death_execution_beheading
 	weight_multiplier = {
 		factor = 300
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = kind
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = temperate
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = charitable
-			}
-		}
 	}
 	trigger = {
 		is_lowborn = no
@@ -430,19 +287,10 @@ execution_method = {
 		factor = 250
 	}
 	trigger = {
-		AND = {
-			FROM = {
-				OR = {
-					trait = hedonist
-					trait = drunkard
-				}
-				NOR = {
-					religion = aztec
-					religion = aztec_reformed
-				}
-			}
-			is_lowborn = no
+		FROM = {
+			religion = poghess_rel
 		}
+		is_lowborn = no
 	}
 }
 
@@ -450,24 +298,12 @@ execution_method = {
 	death = death_execution_flaying
 	weight_multiplier = {
 		factor = 200
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = hunter
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				OR = {
-					trait = hunter
-					trait = cruel
-				}
-				NOT = {
-					trait = kind
-				}
-				NOT = { is_nomadic = yes }
+			OR = {
+				culture = merro
+				is_tribal = yes
 			}
 		}
 	}
@@ -480,7 +316,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			trait = impaler
+			religion_group = goshen_rel_group
 		}
 	}
 }
@@ -489,24 +325,10 @@ execution_method = {
 	death = death_execution_tiger
 	weight_multiplier = {
 		factor = 50
-		modifier = {
-			factor = 8
-			FROM = {
-				trait = hunter
-			}
-		}
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = cruel
-			}
-		}
 	}
 	trigger = {
 		FROM = {
-			capital_scope = {
-				region = world_india
-			}
+			religion = yava_rel
 		}
 	}
 }
@@ -531,13 +353,9 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			capital_scope = {
-				OR = {
-					region = world_india
-					region = world_persia
-					region = world_africa_east
-					region = world_middle_east_arabia
-				}
+			OR = {
+				religion = ades_rel
+				religion = anin_rel
 			}
 		}
 	}
@@ -550,15 +368,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				OR = {
-					trait = cruel
-					trait = wroth
-				}
-				capital_scope = {
-					region = world_india
-				}
-			}
+			religion = poghess_rel
 		}
 	}
 }
@@ -567,30 +377,13 @@ execution_method = {
 	death = death_execution_stoning
 	weight_multiplier = {
 		factor = 100
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-		modifier = {
-			factor = 4
-			trait = homosexual
-		}
 	}
 	trigger = {
 		FROM = {
 			OR = {
-				religion = aztec
-				religion = aztec_reformed
-				religion_group = christian
-				religion_group = muslim
+				religion = grey_tribes_rel
+				religion = huargens_rel
+				religion = kalan_rel
 			}
 		}
 	}
@@ -603,13 +396,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			AND = {
-				OR = {
-					culture = persian
-					religion_group = muslim
-				}
-				NOT = { religion_group = christian }
-			}
+			religion = qwari_rel
 		}
 	}
 }
@@ -619,18 +406,6 @@ execution_method = {
 	weight_multiplier = {
 		factor = 200
 		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-		modifier = {
 			factor = 5
 			is_rival = FROM
 		}
@@ -638,33 +413,9 @@ execution_method = {
 	trigger = {
 		FROM = {
 			OR = {
-				religion = norse_pagan
-				religion = norse_pagan_reformed
+				religion = abimelech_rel
+				religion = anin_rel
 			}
-		}
-	}
-}
-
-execution_method = {
-	death = death_execution_scaphism
-	weight_multiplier = {
-		factor = 250
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				trait = wroth
-			}
-		}
-	}
-	trigger = {
-		FROM = {
-			culture = persian
 		}
 	}
 }
@@ -677,8 +428,11 @@ execution_method = {
 	trigger = {
 		FROM = {
 			OR = {
-				culture_group = celtic
-				culture = norse
+				culture = levyt
+				culture = merro
+				culture = qwari
+				culture = timut
+				culture = zuvak
 			}
 			NOR = {
 				is_nomadic = yes
@@ -695,7 +449,7 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			culture_group = iberian
+			culture = levyt
 		}
 	}
 }
@@ -736,9 +490,8 @@ execution_method = {
 	}
 	trigger = {
 		FROM = {
-			trait = cruel
 			capital_scope = {
-				region = world_europe
+				region = world_rogas
 			}
 			NOR = {
 				is_nomadic = yes
@@ -752,23 +505,11 @@ execution_method = {
 	death = death_execution_boar
 	weight_multiplier = {
 		factor = 50
-		modifier = {
-			factor = 8
-			FROM = {
-				trait = cruel
-			}
-		}
-		modifier = {
-			factor = 3
-			FROM = {
-				trait = hunter
-			}
-		}
 	}
 	trigger = {
 		FROM = {
 			capital_scope = {
-				region = world_europe
+				region = world_rogas
 			}
 		}
 	}
