@@ -1,0 +1,3 @@
+#####Society Modifiers#####
+#hidden
+mountain_sect_failed_joining_cd = { icon = 1 }
