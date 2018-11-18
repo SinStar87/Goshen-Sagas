@@ -1,0 +1,1111 @@
+namespace = slavery_events
+character_event = {
+	id = slavery_events.1
+	desc = EVTDESCslavery_events.1
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	immediate = {
+		ROOT = {
+			IF = {
+				limit = {
+					is_female = no
+					NOT = { trait = eunuch }
+					FROM = {
+						is_female = yes
+						is_pregnant = no
+						NOT = { age = 40 }
+					}
+				}
+				random = {
+					chance = 100
+					modifier = {
+						factor = 0
+						ROOT = {
+							NOT = { fertility = 0 }
+						}
+					}
+					modifier = {
+						factor = 0
+						FROM = {
+							NOT = { fertility = 0 }
+						}
+					}
+					modifier = {
+						factor = 0.05
+						ROOT = {
+							fertility = 0
+							NOT = { fertility = 0.10 }
+						}
+					}
+					modifier = {
+						factor = 0.05
+						FROM = {
+							fertility = 0
+							NOT = { fertility = 0.10 }
+						}
+					}
+					modifier = {
+						factor = 0.10
+						ROOT = {
+							fertility = 0.10
+							NOT = { fertility = 0.20 }
+						}
+					}
+					modifier = {
+						factor = 0.10
+						FROM = {
+							fertility = 0.10
+							NOT = { fertility = 0.20 }
+						}
+					}
+					modifier = {
+						factor = 0.20
+						ROOT = {
+							fertility = 0.20
+							NOT = { fertility = 0.30 }
+						}
+					}
+					modifier = {
+						factor = 0.20
+						FROM = {
+							fertility = 0.20
+							NOT = { fertility = 0.30 }
+						}
+					}
+					modifier = {
+						factor = 0.30
+						ROOT = {
+							fertility = 0.30
+							NOT = { fertility = 0.40 }
+						}
+					}
+					modifier = {
+						factor = 0.30
+						FROM = {
+							fertility = 0.30
+							NOT = { fertility = 0.40 }
+						}
+					}
+					modifier = {
+						factor = 0.40
+						ROOT = {
+							fertility = 0.40
+							NOT = { fertility = 0.50 }
+						}
+					}
+					modifier = {
+						factor = 0.40
+						FROM = {
+							fertility = 0.40
+							NOT = { fertility = 0.50 }
+						}
+					}
+					modifier = {
+						factor = 0.50
+						ROOT = {
+							fertility = 0.50
+							NOT = { fertility = 0.60 }
+						}
+					}
+					modifier = {
+						factor = 0.50
+						FROM = {
+							fertility = 0.50
+							NOT = { fertility = 0.60 }
+						}
+					}
+					modifier = {
+						factor = 0.60
+						ROOT = {
+							fertility = 0.60
+							NOT = { fertility = 0.70 }
+						}
+					}
+					modifier = {
+						factor = 0.60
+						FROM = {
+							fertility = 0.60
+							NOT = { fertility = 0.70 }
+						}
+					}
+					modifier = {
+						factor = 0.70
+						ROOT = {
+							fertility = 0.70
+							NOT = { fertility = 0.80 }
+						}
+					}
+					modifier = {
+						factor = 0.70
+						FROM = {
+							fertility = 0.70
+							NOT = { fertility = 0.80 }
+						}
+					}
+					modifier = {
+						factor = 0.80
+						ROOT = {
+							fertility = 0.80
+							NOT = { fertility = 0.90 }
+						}
+					}
+					modifier = {
+						factor = 0.80
+						FROM = {
+							fertility = 0.80
+							NOT = { fertility = 0.90 }
+						}
+					}
+					modifier = {
+						factor = 0.90
+						ROOT = {
+							fertility = 0.90
+							NOT = { fertility = 1 }
+						}
+					}
+					modifier = {
+						factor = 0.90
+						FROM = {
+							fertility = 0.90
+							NOT = { fertility = 1 }
+						}
+					}
+					impregnate = FROM
+				}
+			
+			}
+		}
+		FROM = {
+			IF = {
+				limit = {
+					is_female = no
+					NOT = { trait = eunuch }
+					ROOT = {
+						is_female = yes
+						is_pregnant = no
+						NOT = { age = 40 }
+					}
+				}
+				random = {
+					chance = 100
+					modifier = {
+						factor = 0
+						ROOT = {
+							NOT = { fertility = 0 }
+						}
+					}
+					modifier = {
+						factor = 0
+						FROM = {
+							NOT = { fertility = 0 }
+						}
+					}
+					modifier = {
+						factor = 0.05
+						ROOT = {
+							fertility = 0
+							NOT = { fertility = 0.10 }
+						}
+					}
+					modifier = {
+						factor = 0.05
+						FROM = {
+							fertility = 0
+							NOT = { fertility = 0.10 }
+						}
+					}
+					modifier = {
+						factor = 0.10
+						ROOT = {
+							fertility = 0.10
+							NOT = { fertility = 0.20 }
+						}
+					}
+					modifier = {
+						factor = 0.10
+						FROM = {
+							fertility = 0.10
+							NOT = { fertility = 0.20 }
+						}
+					}
+					modifier = {
+						factor = 0.20
+						ROOT = {
+							fertility = 0.20
+							NOT = { fertility = 0.30 }
+						}
+					}
+					modifier = {
+						factor = 0.20
+						FROM = {
+							fertility = 0.20
+							NOT = { fertility = 0.30 }
+						}
+					}
+					modifier = {
+						factor = 0.30
+						ROOT = {
+							fertility = 0.30
+							NOT = { fertility = 0.40 }
+						}
+					}
+					modifier = {
+						factor = 0.30
+						FROM = {
+							fertility = 0.30
+							NOT = { fertility = 0.40 }
+						}
+					}
+					modifier = {
+						factor = 0.40
+						ROOT = {
+							fertility = 0.40
+							NOT = { fertility = 0.50 }
+						}
+					}
+					modifier = {
+						factor = 0.40
+						FROM = {
+							fertility = 0.40
+							NOT = { fertility = 0.50 }
+						}
+					}
+					modifier = {
+						factor = 0.50
+						ROOT = {
+							fertility = 0.50
+							NOT = { fertility = 0.60 }
+						}
+					}
+					modifier = {
+						factor = 0.50
+						FROM = {
+							fertility = 0.50
+							NOT = { fertility = 0.60 }
+						}
+					}
+					modifier = {
+						factor = 0.60
+						ROOT = {
+							fertility = 0.60
+							NOT = { fertility = 0.70 }
+						}
+					}
+					modifier = {
+						factor = 0.60
+						FROM = {
+							fertility = 0.60
+							NOT = { fertility = 0.70 }
+						}
+					}
+					modifier = {
+						factor = 0.70
+						ROOT = {
+							fertility = 0.70
+							NOT = { fertility = 0.80 }
+						}
+					}
+					modifier = {
+						factor = 0.70
+						FROM = {
+							fertility = 0.70
+							NOT = { fertility = 0.80 }
+						}
+					}
+					modifier = {
+						factor = 0.80
+						ROOT = {
+							fertility = 0.80
+							NOT = { fertility = 0.90 }
+						}
+					}
+					modifier = {
+						factor = 0.80
+						FROM = {
+							fertility = 0.80
+							NOT = { fertility = 0.90 }
+						}
+					}
+					modifier = {
+						factor = 0.90
+						ROOT = {
+							fertility = 0.90
+							NOT = { fertility = 1 }
+						}
+					}
+					modifier = {
+						factor = 0.90
+						FROM = {
+							fertility = 0.90
+							NOT = { fertility = 1 }
+						}
+					}
+					impregnate = ROOT
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.1
+		FROM = {
+			character_event = {
+				id = slavery_events.11
+				days = 1
+			}
+		}
+		opinion = {
+			modifier = opinion_slave_raped
+			who = FROM
+		}
+	}
+}
+character_event = {
+	id = slavery_events.11
+	desc = {
+		text = EVTDESCAslavery_events.11
+		trigger = {
+			event_target:slave = {
+				is_female = no
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBslavery_events.11
+		trigger = {
+			event_target:slave = {
+				is_female = yes
+			}
+		}
+	}
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAslavery_events.11
+		hidden_tooltip = {
+			clr_character_flag = raping_slave
+		}
+	}
+}
+character_event = {
+	id = slavery_events.2
+	desc = EVTDESCslavery_events.2
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			NOT = {
+				opinion = {
+					who = ROOT
+					value = -20
+				} 
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				NOT = {
+					opinion = {
+						who = ROOT
+						value = 25
+					} 
+				}
+			}
+			save_event_target_as = runaway_slave
+		}
+		c_collsi_capital = {
+			holder_scope = {
+				save_event_target_as = runaway_target
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.2
+		character_event = {
+			id = slavery_events.211
+		}
+		hidden_tooltip = {
+		event_target:runaway_slave = {
+			random_list = {
+				1 = {
+					remove_trait = trait_slave
+					remove_opinion = {
+						modifier = opinion_master
+						who = ROOT
+					}
+					reverse_remove_opinion = {
+						modifier = opinion_slave
+						who = ROOT
+					}
+					reverse_opinion = {
+						modifier = opinion_runaway
+						who = ROOT
+					}
+					move_character = event_target:runaway_target
+				}
+				1 = {
+					imprison = ROOT
+				}
+			}
+			random_list = {
+				2 = {}
+				5 = {
+					add_trait = minor_injury
+				}
+				4 = {
+					add_trait = moderate_injury
+				}
+				3 = {
+					add_trait = severe_injury 
+				}
+				2 = {
+					add_trait = incapacitating_injury
+				}
+				1 = {
+					add_trait = deadly_injury
+				}
+			}
+		}
+		random_list = {
+			2 = {}
+			5 = {
+				add_trait = minor_injury
+			}
+			4 = {
+				add_trait = moderate_injury
+			}
+			3 = {
+				add_trait = severe_injury 
+			}
+			2 = {
+				add_trait = incapacitating_injury
+			}
+			1 = {
+				add_trait = deadly_injury
+			}
+		}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.211
+	desc = {
+		text = EVTDESCAslavery_events.211
+		trigger = {
+			event_target:slave_1 = {
+				prisoner = no
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBslavery_events.211
+		trigger = {
+			event_target:slave_1 = {
+				prisoner = yes
+			}
+		}
+	}
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAslavery_events.211
+		trigger = {
+			event_target:slave_1 = {
+				prisoner = no
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBslavery_events.211
+		trigger = {
+			event_target:slave_1 = {
+				prisoner = yes
+			}
+		}
+		event_target:slave_1 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			imprison = no
+		}
+	}
+
+	option = {
+		name = EVTOPTCslavery_events.211
+		trigger = {
+			event_target:slave_1 = {
+				prisoner = yes
+			}
+		}
+		event_target:slave_1 = {
+			death = {
+				death_reason = death_execution
+				killer = ROOT
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.21
+	desc = EVTDESCslavery_events.21
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			count = 2
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+			}
+			save_event_target_as = slave_1
+		}
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				NOT = {
+					event_target:slave_1 = {
+						character = PREV
+					}
+				}
+			}
+			save_event_target_as = slave_2
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.21
+		event_target:slave_1 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+		}
+		event_target:slave_2 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			add_rival = event_target:slave_1
+		}
+	}
+
+	option = {
+		name = EVTOPTBslavery_events.21
+		event_target:slave_1 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			add_rival = event_target:slave_2
+		}
+	}
+
+	option = {
+		name = EVTOPTCslavery_events.21
+		event_target:slave_2 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			add_rival = event_target:slave_1
+		}
+	}
+
+	option = {
+		name = EVTOPTDslavery_events.21
+		event_target:slave_2 = {
+			add_rival = event_target:slave_1
+		}
+	}
+}
+character_event = {
+	id = slavery_events.22
+	desc = EVTDESCslavery_events.22
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			count = 2
+			any_courtier = {
+				NOR = {
+					character = PREV
+					is_foe = PREV
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+			}
+			save_event_target_as = slave_1
+		}
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				NOR = {
+					event_target:slave_1 = {
+						character = PREV
+					}
+					is_foe = PREV
+				}
+			}
+			save_event_target_as = slave_2
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.22
+		event_target:slave_1 = {
+			add_friend = event_target:slave_2
+		}
+	}
+}
+character_event = {
+	id = slavery_events.23
+	desc = EVTDESCslavery_events.23
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			NOR = {
+				trait = minor_injury
+				trait = moderate_injury
+				trait = severe_injury
+				trait = incapacitating_injury
+				trait = deadly_injury
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				NOR = {
+					trait = minor_injury
+					trait = moderate_injury
+					trait = severe_injury
+					trait = incapacitating_injury
+					trait = deadly_injury
+				}
+			}
+			save_event_target_as = slave_1
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.23
+		random_list = {
+			2 = {}
+			5 = {
+				add_trait = minor_injury
+			}
+			4 = {
+				add_trait = moderate_injury
+			}
+			3 = {
+				add_trait = severe_injury
+			}
+			2 = {
+				add_trait = incapacitating_injury
+			}
+			1 = {
+				add_trait = deadly_injury
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.24
+	desc = EVTDESCslavery_events.24
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			age = 40
+			OR = {
+				trait = gorgeous
+				trait = fair
+				trait = lackluster
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				age = 40
+				OR = {
+					trait = gorgeous
+					trait = fair
+					trait = lackluster
+				}
+			}
+			save_event_target_as = slave_1
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.24
+		event_target:slave_1 = {
+			IF = {
+				limit = {
+					trait = lackluster
+				}
+				remove_trait = lackluster
+				add_trait = ugly
+			}
+			IF = {
+				limit = {
+					trait = fair
+				}
+				remove_trait = fair
+			}
+			IF = {
+				limit = {
+					trait = gorgeous
+				}
+				remove_trait = gorgeous
+				add_trait = fair
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.25
+	desc = EVTDESCslavery_events.25
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		any_courtier = {
+			trait = trait_slave
+			NOR = {
+				trait = emissary
+				trait = mastermind
+				trait = mogul
+				trait = conspirator
+				trait = sage
+			}
+		}
+	}
+
+	immediate = {
+		random_courtier = {
+			limit = {
+				trait = trait_slave
+				NOR = {
+					trait = emissary
+					trait = mastermind
+					trait = mogul
+					trait = conspirator
+					trait = sage
+				}
+			}
+			save_event_target_as = slave_1
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.25
+		event_target:slave_1 = {
+			IF = {
+				limit = {
+					trait = minister
+				}
+				remove_trait = minister
+				add_trait = emissary
+			}
+			IF = {
+				limit = {
+					trait = mediator
+				}
+				remove_trait = mediator
+				add_trait = minister
+			}
+			IF = {
+				limit = {
+					trait = agent
+				}
+				remove_trait = agent
+				add_trait = mediator
+			}
+			IF = {
+				limit = {
+					trait = clever_strategist
+				}
+				remove_trait = clever_strategist
+				add_trait = mastermind
+			}
+			IF = {
+				limit = {
+					trait = tactician
+				}
+				remove_trait = tactician
+				add_trait = clever_strategist
+			}
+			IF = {
+				limit = {
+					trait = soldier
+				}
+				remove_trait = soldier
+				add_trait = tactician
+			}
+			IF = {
+				limit = {
+					trait = financier
+				}
+				remove_trait = financier
+				add_trait = mogul
+			}
+			IF = {
+				limit = {
+					trait = entrepreneur
+				}
+				remove_trait = entrepreneur
+				add_trait = financier
+			}
+			IF = {
+				limit = {
+					trait = clerk
+				}
+				remove_trait = clerk
+				add_trait = entrepreneur
+			}
+			IF = {
+				limit = {
+					trait = schemer
+				}
+				remove_trait = schemer
+				add_trait = conspirator
+			}
+			IF = {
+				limit = {
+					trait = rogue
+				}
+				remove_trait = rogue
+				add_trait = schemer
+			}
+			IF = {
+				limit = {
+					trait = rascal
+				}
+				remove_trait = rascal
+				add_trait = rogue
+			}
+			IF = {
+				limit = {
+					trait = scholar
+				}
+				remove_trait = scholar
+				add_trait = sage
+			}
+			IF = {
+				limit = {
+					trait = intellectual
+				}
+				remove_trait = intellectual
+				add_trait = scholar
+			}
+			IF = {
+				limit = {
+					trait = thinker
+				}
+				remove_trait = thinker
+				add_trait = intellectual
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBslavery_events.25
+		event_target:slave_1 = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			IF = {
+				limit = {
+					trait = minister
+				}
+				remove_trait = minister
+				add_trait = emissary
+			}
+			IF = {
+				limit = {
+					trait = mediator
+				}
+				remove_trait = mediator
+				add_trait = minister
+			}
+			IF = {
+				limit = {
+					trait = agent
+				}
+				remove_trait = agent
+				add_trait = mediator
+			}
+			IF = {
+				limit = {
+					trait = clever_strategist
+				}
+				remove_trait = clever_strategist
+				add_trait = mastermind
+			}
+			IF = {
+				limit = {
+					trait = tactician
+				}
+				remove_trait = tactician
+				add_trait = clever_strategist
+			}
+			IF = {
+				limit = {
+					trait = soldier
+				}
+				remove_trait = soldier
+				add_trait = tactician
+			}
+			IF = {
+				limit = {
+					trait = financier
+				}
+				remove_trait = financier
+				add_trait = mogul
+			}
+			IF = {
+				limit = {
+					trait = entrepreneur
+				}
+				remove_trait = entrepreneur
+				add_trait = financier
+			}
+			IF = {
+				limit = {
+					trait = clerk
+				}
+				remove_trait = clerk
+				add_trait = entrepreneur
+			}
+			IF = {
+				limit = {
+					trait = schemer
+				}
+				remove_trait = schemer
+				add_trait = conspirator
+			}
+			IF = {
+				limit = {
+					trait = rogue
+				}
+				remove_trait = rogue
+				add_trait = schemer
+			}
+			IF = {
+				limit = {
+					trait = rascal
+				}
+				remove_trait = rascal
+				add_trait = rogue
+			}
+			IF = {
+				limit = {
+					trait = scholar
+				}
+				remove_trait = scholar
+				add_trait = sage
+			}
+			IF = {
+				limit = {
+					trait = intellectual
+				}
+				remove_trait = intellectual
+				add_trait = scholar
+			}
+			IF = {
+				limit = {
+					trait = thinker
+				}
+				remove_trait = thinker
+				add_trait = intellectual
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.3
+	desc = EVTDESCslavery_events.3
+	picture = GFX_evt_lovers
+	is_triggered_only = yes
+
+	trigger = {
+		trait = trait_slaver
+		any_independent_ruler = {
+			NOR = {
+				culture = ROOT
+				culture_group = unoccupied_group
+			}
+		}
+	}
+
+	immediate = {
+		random_independent_ruler = {
+			limit = {
+				NOR = {
+					culture = ROOT
+					culture_group = unoccupied_group
+				}
+			}
+			create_random_steward = {
+				culture = PREV
+				religion = PREV
+			}
+			new_character = {
+				save_event_target_as = slave_1
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.3
+		event_target:slave_1 = {
+			opinion = {
+				modifier = opinion_master
+				who = ROOT
+			}
+			reverse_opinion = {
+				modifier = opinion_slave
+				who = ROOT
+			}
+			add_trait = trait_slave
+			move_character = ROOT
+		}
+	}
+}

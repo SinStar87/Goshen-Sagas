@@ -1,0 +1,228 @@
+decisions = {
+	arm_slaves = {
+		potential = {
+			war = yes
+			crownlaw_title = {
+				OR = {
+					has_law = slavery_2
+					has_law = slavery_3
+				}
+			}
+		}
+		allow = {
+			is_primary_war_defender = yes
+			capital_scope = {
+				OR = {
+					has_province_modifier = slave_hold_1
+					has_province_modifier = slave_hold_2
+					has_province_modifier = slave_hold_3
+				}
+			}
+		}
+		effect = {
+			capital_scope = {
+				holder_scope = {
+					IF = {
+						limit = {
+							capital_scope = {
+								OR = {
+									has_province_modifier = slave_hold_1
+									has_province_modifier = slave_hold_2
+									has_province_modifier = slave_hold_3
+								}
+							}
+						}
+						spawn_unit = {
+							owner = THIS
+							province = PREV
+							leader = none
+							troops = {
+								light_infantry = { 500 500 }
+							}
+							attrition = 1.0
+							maintenance_multiplier = 0.1
+							merge = yes
+							disband_on_peace = yes
+						}
+					}
+					IF = {
+						limit = {
+							capital_scope = {
+								OR = {
+									has_province_modifier = slave_hold_2
+									has_province_modifier = slave_hold_3
+								}
+							}
+						}
+						spawn_unit = {
+							owner = THIS
+							province = PREV
+							leader = none
+							troops = {
+								light_infantry = { 500 500 }
+							}
+							attrition = 1.0
+							maintenance_multiplier = 0.1
+							merge = yes
+							disband_on_peace = yes
+						}
+					}
+					IF = {
+						limit = {
+							capital_scope = {
+								has_province_modifier = slave_hold_3
+							}
+						}
+						spawn_unit = {
+							owner = THIS
+							province = PREV
+							leader = none
+							troops = {
+								light_infantry = { 500 500 }
+							}
+							attrition = 1.0
+							maintenance_multiplier = 0.1
+							merge = yes
+							disband_on_peace = yes
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				factor = 10
+				any_war = {
+					war_score = -0.5
+				}
+			}
+		}
+	}
+}
+targetted_decisions = {
+	enslave_prisoner = {	#Enslave a Prisoner
+		only_rulers = yes
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {
+			war = no
+			crownlaw_title = {
+				OR = {
+					has_law = slavery_1
+					has_law = slavery_2
+					has_law = slavery_3
+				}
+			}
+			OR = {
+				ai = no
+				NOT = {
+					any_courtier = {
+						trait = trait_slave
+						count = 4
+					}
+				}
+			}
+		}
+		potential = {
+			NOT = {
+				trait = trait_slave
+			}
+		}
+		allow = {
+			is_alive = yes
+		}
+		effect = {
+			add_trait = trait_slave
+			opinion = {
+				modifier = opinion_master
+				who = FROM
+			}
+			FROM = {
+				opinion = {
+					modifier = opinion_slave
+					who = ROOT
+				}
+				IF = {
+					limit = {
+						NOT = {
+							trait = trait_slaver
+						}
+					}
+					add_trait = trait_slaver
+				}
+			}
+			abdicate = yes
+			imprison = no
+			move_character = FROM
+		}
+		ai_will_do = {
+			factor = 0.01
+		}
+	}
+	slave_phone_home = {
+		only_rulers = no
+		ai = yes
+		filter = all
+		ai_target_filter = all
+
+		from_potential = {
+			trait = trait_slave
+			prisoner = no
+			NOT = {
+				employer = {
+					has_opinion_modifier = {
+						modifier = opinion_slave
+						who = ROOT
+					}
+				}
+			}
+		}
+		potential = {
+			is_ruler = yes
+			has_opinion_modifier = {
+				modifier = opinion_slave
+				who = ROOT
+			}
+		}
+		allow = {
+		}
+		effect = {
+			move_character = FROM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rape_slave_dec = {
+		only_rulers = yes
+		filter = court
+		ai_target_filter = court
+
+		from_potential = {
+			prisoner = no
+			
+		}
+		potential = {
+			trait = trait_slave
+			has_opinion_modifier = {
+				modifier = opinion_master
+				who = FROM
+			}
+		}
+		effect = {
+			FROM = {
+				set_character_flag = raping_slave
+				save_event_target_as = master
+			}
+			save_event_target_as = slave
+			character_event = {
+				id = slavery_events.1
+			}
+		}
+		ai_will_do = {
+			factor = 0.08
+		}
+	}
+}

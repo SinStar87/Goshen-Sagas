@@ -1,0 +1,90 @@
+trait_slave = {
+	opposites = {
+		trait_slaver
+	}
+	customizer = no
+	cached = yes
+	cannot_marry = yes
+	cannot_inherit = yes
+	can_hold_titles = no
+
+	diplomacy = -1
+	combat_rating = -2
+
+	opposite_opinion = -10
+	goshen_rel_group_opinion = -20
+	goshen_nh_rel_group_opinion = -20
+	hunute_rel_opinion = -20
+}
+trait_slaver = {
+	potential = {
+		is_ruler = yes
+		OR = {
+			culture = abimelech
+			culture = anin
+		}
+	}
+	opposites = {
+		trait_slave
+	}
+	customizer = no
+
+	diplomacy = -2
+
+	abimelech_rel_opinion = 10
+	anin_rel_opinion = 10
+
+	opposite_opinion = -50
+	goshen_rel_group_opinion = -20
+	goshen_nh_rel_group_opinion = -20
+	hunute_rel_opinion = -20
+}
+trait_convert = {
+	potential = {
+		is_ruler = no
+		NOT = {
+			culture = hesen
+		}
+		any_liege = {
+			culture = hesen
+		}
+		religion = hesen_rel
+	}
+	opposites = {
+		trait_true_faither
+	}
+	customizer = no
+	cannot_marry = yes
+	cannot_inherit = yes
+	cached = yes
+	can_hold_titles = no
+
+	diplomacy = -2
+
+	rel_head_opinion = 10
+
+	opposite_opinion = -50
+	goshen_rel_group_opinion = -20
+	goshen_nh_rel_group_opinion = -20
+	hunute_rel_opinion = -20
+}
+trait_true_faither = {
+	potential = {
+		culture = hesen
+		religion = hesen_rel
+	}
+	opposites = {
+		trait_convert
+	}
+	customizer = no
+
+	diplomacy = -3
+
+	hesen_rel_opinion = 10
+	rel_head_opinion = 10
+	opposite_opinion = 10
+
+	goshen_rel_group_opinion = -20
+	goshen_nh_rel_group_opinion = -20
+	hunute_rel_opinion = -20
+}

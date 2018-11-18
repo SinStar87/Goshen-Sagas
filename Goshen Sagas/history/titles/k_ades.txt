@@ -1,5 +1,6 @@
 1000.1.1 = {
 	holder = 0
+	law = slavery_1
 }
 1990.1.1 = {
 	holder = 1008
