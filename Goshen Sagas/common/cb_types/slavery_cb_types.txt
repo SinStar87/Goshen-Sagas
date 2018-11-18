@@ -128,16 +128,18 @@ slave_raid = {
 				min = 100
 			}
 		}
-		IF = {
-			limit = {
-				NOT = {
-					trait = trait_slaver
+		ROOT = {
+			IF = {
+				limit = {
+					NOT = {
+						trait = trait_slaver
+					}
 				}
+				add_trait = trait_slaver
 			}
-			add_trait = trait_slaver
-		}
-		character_event = {
-			id = slavery_mt_events.41
+			character_event = {
+				id = slavery_mt_events.41
+			}
 		}
 	}
 
