@@ -1156,10 +1156,6 @@ on_decade_pulse = {
 # For characters older than AGE_CHILDHOOD_PULSE but not an adult as defined by ADULT_AGE_FEMALE and ADULT_AGE_MALE
 on_yearly_childhood_pulse = {
 	events = {
-		#Goshen Events
-		goshen_personality_events.0
-		goshen_cskill_events.0
-
 		HFP.20057 # Hollow Child nickname.
 		HF.302 # Child of Destiny gets extra stats
 	}
