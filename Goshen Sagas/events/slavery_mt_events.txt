@@ -176,7 +176,6 @@ character_event = {	#Slaves Taken in a War
 	is_triggered_only = yes
 
 	trigger = {
-		is_primary_war_attacker = yes
 		crownlaw_title = {
 			holder_scope = {
 				OR = {
