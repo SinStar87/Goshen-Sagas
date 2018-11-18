@@ -119,14 +119,6 @@ slave_raid = {
 	}
 
 	on_success = {
-		IF = {
-			limit = {
-				NOT = {
-					trait = trait_slaver
-				}
-			}
-			add_trait = trait_slaver
-		}
 		FROM = {
 			save_event_target_as = slave_target
 			prestige = -100
@@ -135,6 +127,14 @@ slave_raid = {
 				value = 1
 				min = 100
 			}
+		}
+		IF = {
+			limit = {
+				NOT = {
+					trait = trait_slaver
+				}
+			}
+			add_trait = trait_slaver
 		}
 		character_event = {
 			id = slavery_mt_events.41
