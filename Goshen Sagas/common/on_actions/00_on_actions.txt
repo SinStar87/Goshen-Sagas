@@ -1,22 +1,36 @@
 on_startup = {
 	events = {
+		goshen_maintenance_events.0
+		goshen_maintenance_events.3
+		goshen_maintenance_events.30
 	}
 }
 
 on_yearly_pulse = {
 	events = {
+		63106
+		goshen_maintenance_events.2
+		goshen_maintenance_events.3
+		goshen_maintenance_events.20
+		goshen_pet_events.11
 	}
 	random_events = {
+		400 = 0
+		20 = goshen_pet_events.20
+		1 = goshen_personality_events.31
+		10 = goshen_pet_events.10
 	}
 }
 
 on_bi_yearly_pulse = {
 	events = {
+		goshen_pet_events.1
 	}
 }
 
 on_birth = {
 	events = {
+		goshen_maintenance_events.2
 	}
 }
 
@@ -26,29 +40,56 @@ on_childhood_pulse = {
 		goshen_cskill_events.0
 	}
 	random_events = {
+		100 = 0
+		20 = goshen_personality_events.21
+		20 = goshen_personality_events.22
+		20 = goshen_personality_events.23
+		20 = goshen_personality_events.24
+		20 = goshen_personality_events.25
 	}
 }
 
 on_adolescence_pulse = {
 	events = {
+		goshen_personality_events.0
+		goshen_personality_events.1
+		goshen_cskill_events.0
 	}
 	random_events = {
+		100 = 0
+		20 = goshen_personality_events.21
+		20 = goshen_personality_events.22
+		20 = goshen_personality_events.23
+		20 = goshen_personality_events.24
+		20 = goshen_personality_events.25
 	}
 }
 
 on_adulthood = {
 	events = {
+		goshen_personality_events.0
+		goshen_personality_events.12
+		goshen_cskill_events.0
 	}
 }
 
 on_combat_pulse = {
+	events = {
+		goshen_cskill_events.0
+	}
 	random_events = {
 		100 = 0
+		25 = goshen_battle_events.2
+		25 = goshen_battle_events.11
+		10 = goshen_battle_events.0
+		5 = goshen_battle_events.1
 	}
 }
 
 on_new_holder = {
 	events = {
+		539
+		goshen_coa_events.0
 	}
 }
 
@@ -60,11 +101,17 @@ on_become_imprisoned_any_reason = {
 
 on_death = {
 	events = {
+		650
+		goshen_maintenance_events.20
+		goshen_maintenance_events.21
+		goshen_maintenance_events.1
+		goshen_pet_events.100
 	}
 }
 
 on_war_started = {
 	events = {
+		3
 	}
 }
 on_revoke_attempted_started_war = {

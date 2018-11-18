@@ -1,11 +1,6 @@
-﻿#character
+#character
 on_startup = {
 	events = {
-		#Goshen Events
-		goshen_maintenance_events.0
-		goshen_maintenance_events.3
-		goshen_maintenance_events.30
-
 		1337 # Emperor Ticket character spawning event
 		GR.13 #True cognatic for rule gender = all
 		MNM.10025 #Save game conversion of secret_traits to secret religions
@@ -41,13 +36,6 @@ on_startup = {
 #character
 on_yearly_pulse = {
 	events = {
-		#Goshen Events
-		63106
-		goshen_maintenance_events.2
-		goshen_maintenance_events.3
-		goshen_maintenance_events.20
-		goshen_pet_events.11
-
 		CM.5000 # Ragnar Lodbrok
 		CM.503 # Start of Viking Age
 		CM.1011 # Lombard Queen
@@ -95,11 +83,6 @@ on_yearly_pulse = {
 	}
 	
 	random_events = {
-		#Goshen Events
-		400 = 0
-		20 = goshen_pet_events.20
-		1 = goshen_personality_events.31
-		10 = goshen_pet_events.10
 		
 		# Feudal Life Events
 		100 = 4000
@@ -727,9 +710,6 @@ on_yearly_pulse = {
 #character
 on_bi_yearly_pulse = {
 	events = {
-		#Goshen Events
-		goshen_pet_events.1
-
 		TOG.3005 # Lose Berserker Trait when too old
 		SoA.5300 # Christian becoming a wicked priest
 		SoA.5301 # Muslim becoming a wicked caliph
@@ -1161,14 +1141,6 @@ on_yearly_childhood_pulse = {
 	}
 
 	random_events = {
-		#Goshen Events
-		100 = 0
-		20 = goshen_personality_events.21
-		20 = goshen_personality_events.22
-		20 = goshen_personality_events.23
-		20 = goshen_personality_events.24
-		20 = goshen_personality_events.25
-
 		# Childhood Personality Events
 		
 		#Age 6-16, aiming to get at least 4 traits before adult.
@@ -1335,19 +1307,8 @@ on_focus_pulse = {
 #FROM is the character who is the commander of the opposing side
 #FROMFROM is the character who is the LIEGE of the commander of the opposing side
 on_combat_pulse = {
-	events = {
-		#Goshen Events
-		goshen_cskill_events.0
-	}
-
 	random_events = {
-		#Goshen Events
 		2750 = 0
-		25 = goshen_battle_events.2
-		25 = goshen_battle_events.11
-		10 = goshen_battle_events.0
-		5 = goshen_battle_events.1
-
 		500 = HFP.11000 #tombola for battle events
 		#2000 = MIL.500 #Milla's debug event
 		
@@ -1667,9 +1628,6 @@ on_assassination_disc = {
 # character
 on_birth = {
 	events = {
-		#Goshen Events
-		goshen_maintenance_events.2
-
 		300 # A Bastard is born
 		312 # The child of a consort is born		
 		318 # A Bastard is born, but is not recognized as such by the mother's spouse (cuckoo!)
@@ -1707,11 +1665,6 @@ on_birth = {
 # character
 on_adulthood = {
 	events = {
-		#Goshen Events
-		goshen_personality_events.0
-		goshen_personality_events.12
-		goshen_cskill_events.0
-
 		HL.1040 # Wolf Child reaches maturity
 		ZE.13998 # Clear adolescence trait event chain flags on adulthood
 		
@@ -1753,25 +1706,13 @@ on_adulthood = {
 
 on_adolescence = { # Checked on 12th birthday.
 	events = {
-		#Goshen Events
-		goshen_personality_events.0
-		goshen_personality_events.1
-		goshen_cskill_events.0
-
 		ZE.12998 # Clear childhood event chain flags
 		MNM.3429 # Educator/guardian/parent with secret religion get a chance to convince child to convert secretly
 		HFP.20058 # Hollow child special event
 		HF.23020 # Child thinking about his Zodiac sign.
 	}
 	random_events = {
-		#Goshen Events
 		200 = 0
-		20 = goshen_personality_events.21
-		20 = goshen_personality_events.22
-		20 = goshen_personality_events.23
-		20 = goshen_personality_events.24
-		20 = goshen_personality_events.25
-
 		10 = HFP.30037 # Left-handed character corrected.
 	}
 }
@@ -1925,14 +1866,8 @@ on_prepared_invasion_expires = {
 
 on_death = {
 	events = {
-		#Goshen Events
-		650
-		goshen_maintenance_events.20
-		goshen_maintenance_events.21
-		goshen_maintenance_events.1
-		goshen_pet_events.100
-
 		#8250
+		650
 		24500
 		24502
 		70041
@@ -2856,10 +2791,6 @@ on_create_title = {
 # ROOT is the character, FROM is the title, FROMFROM is the old holder
 on_new_holder = {
 	events = {
-		#Goshen Events
-		539
-		goshen_coa_events.0
-
 		HL.4999 #Preserve Nomad Culture
 		HL.4996 #Clear Nomad Agitation when conquered by a non-nomad
 		HL.4812 #Clear nomadic pillage holding modifiers upon succession/conquest
@@ -2885,6 +2816,8 @@ on_new_holder = {
 		ZP.7
 
 		JD.60204 # Rebel General's Empire continues temple names, triggers for any title with the uses_temple_names_by_script title flag
+		
+		539 # Fix adventurers turning Tribal land Feudal
 
 		HF.49205 # Reconquista Beneficiary	
 		HFP.40033 # Romagna / Papacy check	
@@ -3056,9 +2989,6 @@ on_over_vassal_limit_succession = {
 # From = Attacker, Root = Defender
 on_war_started = {
 	events = {
-		#Goshen Sagas
-		3
-
 		CM.10012
 		JD.30020 # Western protectorate receives reinforcements from China
 		JD.30030 # Western protectorate receives reinforcements from China
