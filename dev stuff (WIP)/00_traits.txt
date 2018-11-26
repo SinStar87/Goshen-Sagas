@@ -1,0 +1,9 @@
+aggressive_leader = {
+	leader = yes
+	
+	command_modifier = {
+		pursue = 0.25
+		damage = 0.1
+		defence = -0.1
+	}
+}
