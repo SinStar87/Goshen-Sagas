@@ -1629,6 +1629,10 @@ unoccupied_group = {
 
 	dyinglands = {
 		graphical_cultures = { dyinglandsgfx } # units
+		
+		alternate_start = {
+			year < 500
+		}
 
 		used_for_random = no
 		allow_in_ruler_designer = no
@@ -1662,6 +1666,13 @@ polar_group = {
 
 	polar = {
 		graphical_cultures = { polargfx } # units
+		
+		alternate_start = {
+			OR = {
+				has_alternate_start_parameter = { key = special_culture value = animal_kingdoms }
+				has_alternate_start_parameter = { key = special_culture value = animal_world }
+			}
+		}
 
 		used_for_random = no
 		allow_in_ruler_designer = no

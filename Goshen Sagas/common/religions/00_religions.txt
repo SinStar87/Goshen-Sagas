@@ -703,6 +703,10 @@ unoccupied_rel_group = {
 
 	dyinglands_rel = {
 		graphical_culture = dyinglandsgfx
+		
+		alternate_start = {
+			year < 500
+		}
 
 		icon = 20
 		heresy_icon = 20

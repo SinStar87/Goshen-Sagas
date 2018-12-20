@@ -1,4 +1,26 @@
 adjacencies = {
+	49 = 3
+	3 = 14
+	14 = 178
+	178 = 344
+	344 = 345
+	345 = 348
+	348 = 351
+	351 = 352
+	352 = 356
+	356 = 359
+	359 = 372
+	372 = 375
+	375 = 395
+	395 = 384
+	393 = 373
+	373 = 397
+	397 = 396
+	396 = 362
+	362 = 374
+	374 = 358
+	5 = 7
+	7 = 12
 }
 
 culture_group_spread = {
@@ -42,6 +64,34 @@ culture_group_spread = {
 	modifier = {
 		factor = 0.8
 		num_culture_provinces > 110
+	}
+	modifier = {
+		factor = 14
+		OR = {
+			culture_group = horse_group
+			culture_group = cat_group
+			culture_group = bear_group
+			culture_group = hedgehog_group
+			culture_group = duck_group
+			culture_group = dog_group
+			culture_group = dragon_group
+			culture_group = elephant_group
+		}
+		has_alternate_start_parameter = { key = special_culture value = animal_kingdoms }
+	}
+	modifier = {
+		factor = 0.5
+		NOR = {
+			culture_group = horse_group
+			culture_group = cat_group
+			culture_group = bear_group
+			culture_group = hedgehog_group
+			culture_group = duck_group
+			culture_group = dog_group
+			culture_group = dragon_group
+			culture_group = elephant_group
+		}
+		has_alternate_start_parameter = { key = special_culture value = animal_kingdoms }
 	}
 }
 
