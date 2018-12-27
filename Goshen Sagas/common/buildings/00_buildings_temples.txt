@@ -991,6 +991,90 @@ temple = {
 		extra_tech_building_start = 1.0
 	}
 
+	#Farms
+	tp_farms_1 = {
+		desc = tp_farms_1_desc
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_2 = {
+		desc = tp_farms_2_desc
+		upgrades_from = tp_farms_1
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_3 = {
+		desc = tp_farms_3_desc
+		upgrades_from = tp_farms_2
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_4 = {
+		desc = tp_farms_4_desc
+		upgrades_from = tp_farms_3
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_5 = {
+		desc = tp_farms_5_desc
+		port = yes
+		upgrades_from = tp_farms_4
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_6 = {
+		desc = tp_farms_6_desc
+		port = yes
+		upgrades_from = tp_farms_5
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_7 = {
+		desc = tp_farms_7_desc
+		potential = {
+			culture = kalan
+		}
+		upgrades_from = tp_farms_6
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_8 = {
+		desc = tp_farms_8_desc
+		potential = {
+			culture = kalan
+		}
+		upgrades_from = tp_farms_7
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+	tp_farms_9 = {
+		desc = tp_farms_9_desc
+		potential = {
+			culture = kalan
+		}
+		upgrades_from = tp_farms_8
+		gold_cost = 50
+		build_time = 365
+		tax_income = 2
+		ai_creation_factor = 100
+	}
+
 	#Castle market, gives income
 	tp_market_1 = {
 		desc = tp_market_1_desc

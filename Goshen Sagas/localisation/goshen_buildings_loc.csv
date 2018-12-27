@@ -194,6 +194,24 @@ ca_recruit_post_4;Large Recruit Post;;;;;;;;;;;;;x
 ca_recruit_post_4_desc;A large Recruit Post to call up some levies.;;;;;;;;;;;;;x
 ca_recruit_post_5;Full Recruit Post;;;;;;;;;;;;;x
 ca_recruit_post_5_desc;A full Recruit Post to call up some levies.;;;;;;;;;;;;;x
+ca_farms_1;House Gardens;;;;;;;;;;;;;x
+ca_farms_1_desc;A small garden for adorns each house.;;;;;;;;;;;;;x
+ca_farms_2;Public Garden;;;;;;;;;;;;;x
+ca_farms_2_desc;A small garden attended by the locals.;;;;;;;;;;;;;x
+ca_farms_3;Large Public Garden;;;;;;;;;;;;;x
+ca_farms_3_desc;A Large public garden attended by the locals and produces a moderate profit.;;;;;;;;;;;;;x
+ca_farms_4;Small Private Farms;;;;;;;;;;;;;x
+ca_farms_4_desc;Small Private Farms run for a profit by local producers.;;;;;;;;;;;;;x
+ca_farms_5;Private Farms;;;;;;;;;;;;;x
+ca_farms_5_desc;A number of private farms run by local producers that provide a decent profit.;;;;;;;;;;;;;x
+ca_farms_6;Large Private Farms;;;;;;;;;;;;;x
+ca_farms_6_desc;Large plots of dedicated farmland that provide a large amount of supplies.;;;;;;;;;;;;;x
+ca_farms_7;Small Estates;;;;;;;;;;;;;x
+ca_farms_7_desc;Small estate farms that bring in a large surplus of supplies.;;;;;;;;;;;;;x
+ca_farms_8;Estates;;;;;;;;;;;;;x
+ca_farms_8_desc;Large estate farms that bring in a great surplus of supplies.;;;;;;;;;;;;;x
+ca_farms_9;Huge Estates;;;;;;;;;;;;;x
+ca_farms_9_desc;Huge rolling estates that bring in massive amounts of surplus supplies.;;;;;;;;;;;;;x
 ca_market_1;Tiny Market;;;;;;;;;;;;;x
 ca_market_1_desc;A tiny market has been built.;;;;;;;;;;;;;x
 ca_market_2;Small Market;;;;;;;;;;;;;x
@@ -342,6 +360,24 @@ ct_recruit_post_4;Large Recruit Post;;;;;;;;;;;;;x
 ct_recruit_post_4_desc;A large Recruit Post to call up some levies.;;;;;;;;;;;;;x
 ct_recruit_post_5;Full Recruit Post;;;;;;;;;;;;;x
 ct_recruit_post_5_desc;A full Recruit Post to call up some levies.;;;;;;;;;;;;;x
+ct_farms_1;House Gardens;;;;;;;;;;;;;x
+ct_farms_1_desc;A small garden for adorns each house.;;;;;;;;;;;;;x
+ct_farms_2;Public Garden;;;;;;;;;;;;;x
+ct_farms_2_desc;A small garden attended by the locals.;;;;;;;;;;;;;x
+ct_farms_3;Large Public Garden;;;;;;;;;;;;;x
+ct_farms_3_desc;A Large public garden attended by the locals and produces a moderate profit.;;;;;;;;;;;;;x
+ct_farms_4;Small Private Farms;;;;;;;;;;;;;x
+ct_farms_4_desc;Small Private Farms run for a profit by local producers.;;;;;;;;;;;;;x
+ct_farms_5;Private Farms;;;;;;;;;;;;;x
+ct_farms_5_desc;A number of private farms run by local producers that provide a decent profit.;;;;;;;;;;;;;x
+ct_farms_6;Large Private Farms;;;;;;;;;;;;;x
+ct_farms_6_desc;Large plots of dedicated farmland that provide a large amount of supplies.;;;;;;;;;;;;;x
+ct_farms_7;Small Estates;;;;;;;;;;;;;x
+ct_farms_7_desc;Small estate farms that bring in a large surplus of supplies.;;;;;;;;;;;;;x
+ct_farms_8;Estates;;;;;;;;;;;;;x
+ct_farms_8_desc;Large estate farms that bring in a great surplus of supplies.;;;;;;;;;;;;;x
+ct_farms_9;Huge Estates;;;;;;;;;;;;;x
+ct_farms_9_desc;Huge rolling estates that bring in massive amounts of surplus supplies.;;;;;;;;;;;;;x
 ct_market_1;Tiny Market;;;;;;;;;;;;;x
 ct_market_1_desc;A tiny market has been built.;;;;;;;;;;;;;x
 ct_market_2;Small Market;;;;;;;;;;;;;x
@@ -490,6 +526,24 @@ tp_recruit_post_4;Large Recruit Post;;;;;;;;;;;;;x
 tp_recruit_post_4_desc;A large Recruit Post to call up some levies.;;;;;;;;;;;;;x
 tp_recruit_post_5;Full Recruit Post;;;;;;;;;;;;;x
 tp_recruit_post_5_desc;A full Recruit Post to call up some levies.;;;;;;;;;;;;;x
+tp_farms_1;House Gardens;;;;;;;;;;;;;x
+tp_farms_1_desc;A small garden for adorns each house.;;;;;;;;;;;;;x
+tp_farms_2;Public Garden;;;;;;;;;;;;;x
+tp_farms_2_desc;A small garden attended by the locals.;;;;;;;;;;;;;x
+tp_farms_3;Large Public Garden;;;;;;;;;;;;;x
+tp_farms_3_desc;A Large public garden attended by the locals and produces a moderate profit.;;;;;;;;;;;;;x
+tp_farms_4;Small Private Farms;;;;;;;;;;;;;x
+tp_farms_4_desc;Small Private Farms run for a profit by local producers.;;;;;;;;;;;;;x
+tp_farms_5;Private Farms;;;;;;;;;;;;;x
+tp_farms_5_desc;A number of private farms run by local producers that provide a decent profit.;;;;;;;;;;;;;x
+tp_farms_6;Large Private Farms;;;;;;;;;;;;;x
+tp_farms_6_desc;Large plots of dedicated farmland that provide a large amount of supplies.;;;;;;;;;;;;;x
+tp_farms_7;Small Estates;;;;;;;;;;;;;x
+tp_farms_7_desc;Small estate farms that bring in a large surplus of supplies.;;;;;;;;;;;;;x
+tp_farms_8;Estates;;;;;;;;;;;;;x
+tp_farms_8_desc;Large estate farms that bring in a great surplus of supplies.;;;;;;;;;;;;;x
+tp_farms_9;Huge Estates;;;;;;;;;;;;;x
+tp_farms_9_desc;Huge rolling estates that bring in massive amounts of surplus supplies.;;;;;;;;;;;;;x
 tp_market_1;Tiny Market;;;;;;;;;;;;;x
 tp_market_1_desc;A tiny market has been built.;;;;;;;;;;;;;x
 tp_market_2;Small Market;;;;;;;;;;;;;x
