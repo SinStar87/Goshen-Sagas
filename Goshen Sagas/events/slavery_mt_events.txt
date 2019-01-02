@@ -121,6 +121,8 @@ character_event = {	#Slave Child Born - Informer
 
 	option = {
 		name = EVTOPTAslavery_mt_events.21
+		ai_chance = {
+			factor = 90
 		opinion = {
 			modifier = opinion_slave
 			who = FROM
@@ -132,6 +134,38 @@ character_event = {	#Slave Child Born - Informer
 	}
 	option = {
 		name = EVTOPTBslavery_mt_events.21
+		trigger = {
+			any_child = {
+				character = FROM
+			}
+		}
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				age = 30
+				NOT = {
+					num_of_children = 1
+				}
+				any_child = {
+					character = FROM
+				}
+			}
+		}
+		FROM = {
+			remove_trait = trait_slave
+		}
+	}
+	option = {
+		name = EVTOPTCslavery_mt_events.21
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0.1
+				any_child = {
+					character = FROM
+				}
+			}
 		FROM = {
 			death = {
 				death_reason = death_execution
@@ -270,42 +304,81 @@ character_event = {	#Slaves Taken in a War
 		}
 		event_target:slave_1 = {
 			add_trait = trait_slave
-			opinion = {
-				modifier = opinion_master
-				who = ROOT
+			hidden_tooltip = {
+				opinion = {
+					modifier = opinion_master
+					who = ROOT
+				}
+				reverse_opinion = {
+					modifier = opinion_slave
+					who = ROOT
+				}
+				imprison = no
+				any_spouse = {
+					remove_spouse = PREV
+				}
+				consort = {
+					remove_consort = PREV
+				}
+				any_lover = {
+					remove_lover = PREV
+				}
+				move_character = ROOT
 			}
-			reverse_opinion = {
-				modifier = opinion_slave
-				who = ROOT
-			}
-			imprison = no
-			move_character = ROOT
+				
+						
 		}
 		event_target:slave_2 = {
 			add_trait = trait_slave
-			opinion = {
-				modifier = opinion_master
-				who = ROOT
+			hidden_tooltip = {
+				opinion = {
+					modifier = opinion_master
+					who = ROOT
+				}
+				reverse_opinion = {
+					modifier = opinion_slave
+					who = ROOT
+				}
+				imprison = no
+				any_spouse = {
+					remove_spouse = PREV
+				}
+				consort = {
+					remove_consort = PREV
+				}
+				any_lover = {
+					remove_lover = PREV
+				}
+				move_character = ROOT
 			}
-			reverse_opinion = {
-				modifier = opinion_slave
-				who = ROOT
-			}
-			imprison = no
-			move_character = ROOT
+				
+						
 		}
 		event_target:slave_3 = {
 			add_trait = trait_slave
-			opinion = {
-				modifier = opinion_master
-				who = ROOT
+			hidden_tooltip = {
+				opinion = {
+					modifier = opinion_master
+					who = ROOT
+				}
+				reverse_opinion = {
+					modifier = opinion_slave
+					who = ROOT
+				}
+				imprison = no
+				any_spouse = {
+					remove_spouse = PREV
+				}
+				consort = {
+					remove_consort = PREV
+				}
+				any_lover = {
+					remove_lover = PREV
+				}
+				move_character = ROOT
 			}
-			reverse_opinion = {
-				modifier = opinion_slave
-				who = ROOT
-			}
-			imprison = no
-			move_character = ROOT
+				
+						
 		}
 	}
 	option = {

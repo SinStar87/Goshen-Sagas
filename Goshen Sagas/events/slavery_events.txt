@@ -2,11 +2,11 @@ namespace = slavery_events
 character_event = {
 	id = slavery_events.1
 	desc = EVTDESCslavery_events.1
-	picture = GFX_evt_lovers
+	picture = GFX_evt_uncomfortable
 	is_triggered_only = yes
 
 	immediate = {
-		ROOT = {
+		event_target:slave = {
 			IF = {
 				limit = {
 					is_female = no
@@ -176,7 +176,7 @@ character_event = {
 			
 			}
 		}
-		FROM = {
+		event_target:master = {
 			IF = {
 				limit = {
 					is_female = no
@@ -349,7 +349,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTAslavery_events.1
-		FROM = {
+		event_target:master = {
 			character_event = {
 				id = slavery_events.11
 				days = 1
@@ -357,7 +357,7 @@ character_event = {
 		}
 		opinion = {
 			modifier = opinion_slave_raped
-			who = FROM
+			who = event_target:master
 		}
 	}
 }
@@ -379,7 +379,7 @@ character_event = {
 			}
 		}
 	}
-	picture = GFX_evt_lovers
+	picture = GFX_evt_uncomfortable
 	is_triggered_only = yes
 
 	option = {
@@ -392,7 +392,7 @@ character_event = {
 character_event = {
 	id = slavery_events.2
 	desc = EVTDESCslavery_events.2
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -513,7 +513,7 @@ character_event = {
 			}
 		}
 	}
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	option = {
@@ -559,7 +559,7 @@ character_event = {
 character_event = {
 	id = slavery_events.21
 	desc = EVTDESCslavery_events.21
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -638,7 +638,7 @@ character_event = {
 character_event = {
 	id = slavery_events.22
 	desc = EVTDESCslavery_events.22
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -685,7 +685,7 @@ character_event = {
 character_event = {
 	id = slavery_events.23
 	desc = EVTDESCslavery_events.23
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -801,7 +801,7 @@ character_event = {
 character_event = {
 	id = slavery_events.25
 	desc = EVTDESCslavery_events.25
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -1062,7 +1062,7 @@ character_event = {
 character_event = {
 	id = slavery_events.3
 	desc = EVTDESCslavery_events.3
-	picture = GFX_evt_lovers
+	picture = GFX_evt_prisoner_hf
 	is_triggered_only = yes
 
 	trigger = {
@@ -1107,5 +1107,501 @@ character_event = {
 			add_trait = trait_slave
 			move_character = ROOT
 		}
+	}
+}
+character_event = {	#Master commands breeding - Female Slave
+	id = slavery_events.4
+	desc = EVTDESCslavery_events.4
+	picture = GFX_evt_uncomfortable
+	is_triggered_only = yes
+
+	option = {	#Submit
+		name = EVTOPTAslavery_events.4
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 1.2
+				has_opinion_modifier = {
+					modifier = opinion_threatened
+					who = event_target:master
+				}
+			}
+			modifier = {
+				factor = 1.6
+				has_opinion_modifier = {
+					modifier = opinion_lashed
+					who = event_target:master
+				}
+			}
+			modifier = {
+				factor = 1.8
+				has_opinion_modifier = {
+					modifier = opinion_tortured
+					who = event_target:master
+				}
+			}
+		}
+		event_target:stud = {
+			character_event = {
+				id = slavery_events.42
+			}
+		}
+	}
+
+	option = {	#Refuse
+		name = EVTOPTBslavery_events.4
+		ai_chance = {
+			factor =40
+			modifier = {
+				factor = 1.6
+				NOT = {
+					opinion = {
+						who = event_target:stud
+						value = 20
+					}
+				}
+			}
+			modifier = {
+				factor = 1.8
+				NOT = {
+					opinion = {
+						who = event_target:stud
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					opinion = {
+						who = event_target:stud
+						value = -20
+					}
+				}
+			}
+		}
+		event_target:master = {
+			character_event = {
+				id = slavery_events.41
+			}
+		}
+	}
+}
+character_event = {	#Female Slave Refused
+	id = slavery_events.41
+	desc = EVTDESCslavery_events.41
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {	#lash
+		name = EVTOPTAslavery_events.41
+		ai_chance = {
+			factor = 75
+		}
+		event_target:mare = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.4
+			}
+		}
+	}
+
+	option = {	#threaten
+		name = EVTOPTBslavery_events.41
+		ai_chance = {
+			factor = 15
+		}
+		event_target:mare = {
+			opinion = {
+				modifier = opinion_threatened
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.4
+			}
+		}
+	}
+
+	option = {	#torture
+		name = EVTOPTCslavery_events.41
+		ai_chance = {
+			factor = 5
+		}
+		event_target:mare = {
+			opinion = {
+				modifier = opinion_tortured
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.4
+			}
+		}
+	}
+
+	option = {	#call off
+		name = EVTOPTDslavery_events.41
+		ai_chance = {
+			factor = 5
+		}
+		clear_event_target = mare
+		clear_event_target = stud
+		clear_event_target = master
+	}
+}
+character_event = {	#Master commands breeding - Male Slave
+	id = slavery_events.42
+	desc = EVTDESCslavery_events.42
+	picture = GFX_evt_uncomfortable
+	is_triggered_only = yes
+
+	option = {	#Submit
+		name = EVTOPTAslavery_events.42
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 1.2
+				has_opinion_modifier = {
+					modifier = opinion_threatened
+					who = event_target:master
+				}
+			}
+			modifier = {
+				factor = 1.6
+				has_opinion_modifier = {
+					modifier = opinion_lashed
+					who = event_target:master
+				}
+			}
+			modifier = {
+				factor = 1.8
+				has_opinion_modifier = {
+					modifier = opinion_tortured
+					who = event_target:master
+				}
+			}
+		}
+		event_target:master = {
+			character_event = {
+				id = slavery_events.44
+			}
+		}
+	}
+
+	option = {	#Refuse
+		name = EVTOPTBslavery_events.42
+		ai_chance = {
+			factor =40
+			modifier = {
+				factor = 1.6
+				NOT = {
+					opinion = {
+						who = event_target:mare
+						value = 20
+					}
+				}
+			}
+			modifier = {
+				factor = 1.8
+				NOT = {
+					opinion = {
+						who = event_target:mare
+						value = 0
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				NOT = {
+					opinion = {
+						who = event_target:mare
+						value = -20
+					}
+				}
+			}
+		}
+		event_target:master = {
+			character_event = {
+				id = slavery_events.43
+			}
+		}
+	}
+}
+character_event = {	#Male Slave Refused
+	id = slavery_events.43
+	desc = EVTDESCslavery_events.43
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {	#lash
+		name = EVTOPTAslavery_events.43
+		ai_chance = {
+			factor = 75
+		}
+		event_target:stud = {
+			opinion = {
+				modifier = opinion_lashed
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.42
+			}
+		}
+	}
+
+	option = {	#threaten
+		name = EVTOPTBslavery_events.43
+		ai_chance = {
+			factor = 15
+		}
+		event_target:stud = {
+			opinion = {
+				modifier = opinion_threatened
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.4
+			}
+		}
+	}
+
+	option = {	#torture
+		name = EVTOPTCslavery_events.43
+		ai_chance = {
+			factor = 5
+		}
+		event_target:stud = {
+			opinion = {
+				modifier = opinion_tortured
+				who = ROOT
+			}
+			character_event = {
+				id = slavery_events.4
+			}
+		}
+	}
+
+	option = {	#torture
+		name = EVTOPTDslavery_events.43
+		ai_chance = {
+			factor = 5
+		}
+		clear_event_target = mare
+		clear_event_target = stud
+		clear_event_target = master
+	}
+}
+character_event = {	#Master commands breeding - Result
+	id = slavery_events.44
+	desc = EVTDESCslavery_events.44
+	picture = GFX_evt_uncomfortable
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:mare = {
+			impregnate = event_target:stud
+			opinion = {
+				modifier = opinion_slave_bred_with
+				who = event_target:stud
+			}
+			reverse_opinion = {
+				modifier = opinion_slave_bred_with
+				who = event_target:stud
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTAslavery_events.44
+	}
+}
+character_event = {
+	id = slavery_events.5
+	desc = EVTDESCslavery_events.5
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAslavery_events.5
+		event_target:master = {
+			character_event = {
+				id = slavery_events.51
+			}
+		}
+	}
+}
+character_event = {
+	id = slavery_events.51
+	desc = EVTDESCslavery_events.51
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {	#Whip
+		name = EVTOPTAslavery_events.51
+		set_character_flag = whip
+		event_target:slave = {
+			character_event = {
+				id = slavery_events.52
+			}
+		}
+	}
+
+	option = {	#Cutting
+		name = EVTOPTBslavery_events.51
+		set_character_flag = cutting
+		event_target:slave = {
+			character_event = {
+				id = slavery_events.52
+			}
+		}
+	}
+
+	option = {	#Something Creative
+		name = EVTOPTCslavery_events.51
+		hidden_tooltip = {
+			random_list = {
+				1 = {
+					set_character_flag = burning
+				}
+				1 = {
+					set_character_flag = dunking
+				}
+				1 = {
+					set_character_flag = rack
+				}
+			}
+		}
+		event_target:slave = {
+			character_event = {
+				id = slavery_events.52
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTDslavery_events.51
+		trigger = {
+			ai = no
+		}
+		clr_character_flag = torturing_slave
+	}
+}
+character_event = {
+	id = slavery_events.52
+	desc = {
+		text = EVTDESCAslavery_events.52
+		trigger = {
+			FROM = {
+				has_character_flag = whip
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCBslavery_events.52
+		trigger = {
+			FROM = {
+				has_character_flag = cutting
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCCslavery_events.52
+		trigger = {
+			FROM = {
+				has_character_flag = burning
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCDslavery_events.52
+		trigger = {
+			FROM = {
+				has_character_flag = dunking
+			}
+		}
+	}
+	desc = {
+		text = EVTDESCEslavery_events.52
+		trigger = {
+			FROM = {
+				has_character_flag = rack
+			}
+		}
+	}
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAslavery_events.52
+		event_target:master = {
+			character_event = {
+				id = slavery_events.53
+			}
+		}
+		IF = {
+			limit = {
+				FROM = {
+					NOT = {
+						has_character_flag = lash
+					}
+				}
+			}
+			opinion = {
+				modifier = opinion_brutally_tortured
+				who = event_target:master
+			}
+			break = yes
+		}
+		opinion = {
+			modifier = opinion_tortured
+			who = event_target:master
+		}
+	}
+}
+character_event = {
+	id = slavery_events.53
+	desc = {
+		text = EVTDESCAslavery_events.53
+		trigger = {
+			has_character_flag = whip
+		}
+	}
+	desc = {
+		text = EVTDESCBslavery_events.53
+		trigger = {
+			has_character_flag = cutting
+		}
+	}
+	desc = {
+		text = EVTDESCCslavery_events.52
+		trigger = {
+			has_character_flag = burning
+		}
+	}
+	desc = {
+		text = EVTDESCDslavery_events.53
+		trigger = {
+			has_character_flag = dunking
+		}
+	}
+	desc = {
+		text = EVTDESCEslavery_events.53
+		trigger = {
+			has_character_flag = rack
+		}
+	}
+	picture = GFX_evt_torture
+	is_triggered_only = yes
+
+	option = {	#Whip
+		name = EVTOPTAslavery_events.53
+		clr_character_flag = whip
+		clr_character_flag = cutting
+		clr_character_flag = burning
+		clr_character_flag = dunking
+		clr_character_flag = rack
+		clr_character_flag = torturing_slave
 	}
 }

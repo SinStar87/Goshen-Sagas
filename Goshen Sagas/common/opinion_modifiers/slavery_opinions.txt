@@ -19,11 +19,31 @@ opinion_freed_slave = {
 	opinion = 25
 	years = 150
 }
-opinion_lashed = {
+opinion_slave_bred_with = {
 	opinion = -5
-	years = 10
+	months = 6
+}
+opinion_slave_bred = {
+	opinion = -10
+	months = 6
 }
 opinion_slave_raped = {
 	opinion = -25
 	years = 15
+}
+opinion_threatened = {
+	opinion = -5
+	months = 6
+}
+opinion_lashed = {
+	opinion = -5
+	years = 10
+}
+opinion_tortured = {
+	opinion = -15
+	years = 10
+}
+opinion_brutally_tortured = {
+	opinion = -50
+	years = 150
 }

@@ -216,9 +216,9 @@ de_jure_laws = {
 		allow = {
 			hidden_tooltip = {
 				OR = {
+					has_law = slavery_0
 					has_law = slavery_1
 					has_law = slavery_2
-					has_law = slavery_3
 				}
 			}
 			holder_scope ={
