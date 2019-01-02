@@ -199,6 +199,7 @@ targetted_decisions = {
 			has_opinion_modifier = {
 				modifier = opinion_slave
 				who = ROOT
+			}
 		}
 		effect = {
 			move_character = FROM
@@ -216,6 +217,7 @@ targetted_decisions = {
 			prisoner = no
 			NOT = {
 				has_character_flag = raping_slave
+			}
 		}
 		potential = {
 			trait = trait_slave
@@ -233,6 +235,7 @@ targetted_decisions = {
 				modifier = opinion_master
 				who = FROM
 			}
+		}
 		effect = {
 			FROM = {
 				set_character_flag = raping_slave

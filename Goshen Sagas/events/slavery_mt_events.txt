@@ -123,6 +123,7 @@ character_event = {	#Slave Child Born - Informer
 		name = EVTOPTAslavery_mt_events.21
 		ai_chance = {
 			factor = 90
+		}
 		opinion = {
 			modifier = opinion_slave
 			who = FROM
@@ -166,6 +167,7 @@ character_event = {	#Slave Child Born - Informer
 					character = FROM
 				}
 			}
+		}
 		FROM = {
 			death = {
 				death_reason = death_execution
@@ -381,6 +383,7 @@ character_event = {	#Slaves Taken in a War
 						
 		}
 	}
+
 	option = {
 		name = EVTOPTBslavery_mt_events.41
 	}
