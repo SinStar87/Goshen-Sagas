@@ -147,7 +147,7 @@ legendary_battle_bard_female = { #Battle Bards
 }
 
 legendary_commander_male = { #Inspire Commanders
-	strategist_opinion = 5
+	# strategist_opinion = 5
 	combat_rating = 10
 	monthly_character_prestige = 0.1
 	bloodline_effect_inspire_commanders = 1
@@ -157,7 +157,7 @@ legendary_commander_male = { #Inspire Commanders
 	picture = GFX_bloodlines_symbol_horse
 }
 legendary_commander_female = { #Inspire Commanders
-	strategist_opinion = 5
+	# strategist_opinion = 5
 	combat_rating = 10
 	monthly_character_prestige = 0.1
 	bloodline_effect_inspire_commanders = 1
@@ -189,7 +189,7 @@ legendary_captor_female = { #Fearsome
 }
 
 legendary_raider_male = { #Reaver
-	greedy_opinion = 5
+	# greedy_opinion = 5
 	combat_rating = 10
 	monthly_character_prestige = 0.1
 	bloodline_effect_reaver = 1
@@ -199,7 +199,7 @@ legendary_raider_male = { #Reaver
 	picture = GFX_bloodlines_symbol_ruthless
 }
 legendary_raider_female = { #Reaver
-	greedy_opinion = 5
+	# greedy_opinion = 5
 	combat_rating = 10
 	monthly_character_prestige = 0.1
 	bloodline_effect_reaver = 1
