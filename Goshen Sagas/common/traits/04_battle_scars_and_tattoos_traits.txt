@@ -1,11 +1,4 @@
-scarred = {
-	opposites = {
-		scarred_mid
-		scarred_high
-	}
-	opposite_opinion = 10
-	monthly_character_prestige = 0.1
-}
+
 scarred_type_1 = {
 	hidden = yes
 	random = no

@@ -1022,7 +1022,7 @@ spawn_giant_duelist_effect = {
 			}
 			20 = {
 				change_martial = 4
-				give_nickname = nick_tnick_the_gianthe_lion
+				give_nickname = nick_the_giant
 			}
 		}
 		

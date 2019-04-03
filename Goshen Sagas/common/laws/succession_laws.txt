@@ -755,7 +755,7 @@ gender_laws = {
 		
 		effect = {
 			gender_succ = cognatic
-			set_allows_matrilineal_marriage = yes
+			law_set_allow_matrilineal_marriage = yes
 		}
 		default = yes
 		default_selection = {
@@ -844,7 +844,7 @@ gender_laws = {
 		}
 		effect = {
 			gender_succ = true_cognatic
-			set_allows_matrilineal_marriage = yes
+			law_set_allow_matrilineal_marriage = yes
 		}
 	}
 	
