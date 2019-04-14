@@ -208,7 +208,7 @@ character_event = {	#Injury Outcomes
 	}
 
 	mean_time_to_happen = {
-		months = 3
+		years = 2
 		modifier = {
 			factor = 0.1
 			OR = {

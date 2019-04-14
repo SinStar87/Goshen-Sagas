@@ -559,7 +559,7 @@ character_event = {#Illness outcome
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		years = 2
 		modifier = {
 			factor = 0.1
 			OR = {

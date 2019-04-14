@@ -266,7 +266,7 @@ character_event = {	#Training Outcome
 		}
 	}
 	option = {
-		name = EVTOPTBgoshen_personality_events.11
+		name = EVTOPTBgoshen_personality_events.12
 		trigger = {
 			has_character_flag = child_intrigue_training
 		}
@@ -403,7 +403,7 @@ character_event = {	#Training Outcome
 		}
 	}
 	option = {
-		name = EVTOPTCgoshen_personality_events.11
+		name = EVTOPTCgoshen_personality_events.12
 		trigger = {
 			has_character_flag = child_steward_training
 		}
@@ -476,7 +476,7 @@ character_event = {	#Training Outcome
 		}
 	}
 	option = {
-		name = EVTOPTDgoshen_personality_events.11
+		name = EVTOPTDgoshen_personality_events.12
 		trigger = {
 			has_character_flag = child_random_training
 		}
