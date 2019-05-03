@@ -1419,208 +1419,209 @@ character_event = {
 }
 
 
-# ## Tomb is found during wonder construction. Triggered as a random event from on_wonder_construction_start on_action
+## Tomb is found during wonder construction. Triggered as a random event from on_wonder_construction_start on_action
 
-# # To get a delay from the on_action triggered event
-# character_event = {
-	# id = LT.20100
-	# hide_window = yes
-    # is_triggered_only = yes
+# To get a delay from the on_action triggered event
+character_event = {
+	id = LT.20100
+	hide_window = yes
+    is_triggered_only = yes
 
-    # only_independent = yes
+    only_independent = yes
 
-    # immediate = { character_event = { id = LT.20101 days = 1000 random = 950 } }
-# }
+    immediate = { character_event = { id = LT.20101 days = 1000 random = 950 } }
+}
 
 
-# character_event = {
-	# id = LT.20101
-	# title = EVT_TITLE_LT_20101
-	# desc = EVTDESC_LT_20101.1
-	# desc = EVTDESC_LT_20101.2
-	# picture = GFX_evt_construction_site
-	# border = GFX_event_normal_frame_religion
+character_event = {
+	id = LT.20101
+	title = EVT_TITLE_LT_20101
+	desc = EVTDESC_LT_20101.1
+	desc = EVTDESC_LT_20101.2
+	picture = GFX_evt_construction_site
+	border = GFX_event_normal_frame_religion
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {
-		# is_alive = yes
-		# is_inaccessible_trigger = no
-		# #war = no
-		# NOT = { has_character_flag = not_interested_in_ruins }
-		# any_realm_wonder = {
-			# OR = { 
-				# is_building_wonder = yes
-				# is_building_wonder_upgrade = yes
-			# }
-		# }
-	# }
+	trigger = {
+		is_alive = yes
+		is_inaccessible_trigger = no
+		#war = no
+		NOT = { has_character_flag = not_interested_in_ruins }
+		any_realm_wonder = {
+			OR = { 
+				is_building_wonder = yes
+				is_building_wonder_upgrade = yes
+			}
+		}
+	}
 	
-	# immediate = {
-		# random_realm_wonder = {
-			# limit = { 
-				# is_building_wonder = yes
-			# }
-			# save_event_target_as = wonder_or_upgrade
-			# save_event_target_as = target_wonder
-		# }
-		# if = { 
-			# limit = { NOT = { event_target:target_wonder = { always = yes } } }
-			# random_realm_wonder_upgrade = {
-				# limit = {
-					# is_building_wonder_upgrade = yes
-				# }
-				# save_event_target_as = wonder_or_upgrade
-				# wonder = { save_event_target_as = target_wonder }
-			# }
-		# }
-		# event_target:target_wonder = {
-			# location = { save_event_target_as = target_province }
-		# }
-	# }
+	immediate = {
+		random_realm_wonder = {
+			limit = { 
+				is_building_wonder = yes
+			}
+			save_event_target_as = wonder_or_upgrade
+			save_event_target_as = target_wonder
+		}
+		if = { 
+			limit = { NOT = { event_target:target_wonder = { always = yes } } }
+			random_realm_wonder_upgrade = {
+				limit = {
+					is_building_wonder_upgrade = yes
+				}
+				save_event_target_as = wonder_or_upgrade
+				wonder = { save_event_target_as = target_wonder }
+			}
+		}
+		event_target:target_wonder = {
+			location = { save_event_target_as = target_province }
+		}
+	}
 
-	# option = { #Yes investigate
-		# name = EVTOPTA_LT_20101
-		# custom_tooltip = { text = EVTOPTA_LT_20101_TT }
-		# scaled_wealth = { value = -0.3 min = -10 max = -60}
-		# hidden_effect = {
-			# random_list = {
-				# 10 = { #Accident
-					# set_character_flag = tomb_found_accident	
-				# }
-				# 20 = { #Nothing found
-					# set_character_flag = tomb_found_nothing	
-				# }
-				# 30 = { #Found valuables
-					# set_character_flag = tomb_found_valuables_1
-				# }
-				# 20 = { #Found valuables
-					# set_character_flag = tomb_found_valuables_2
-				# }
-				# 10 = {#Found an important treasure
-					# set_character_flag = tomb_found_artifact
-				# }
-			# }
-			# character_event = { id = LT.20110 days = 7 random = 3 }
-		# }
-	# }
-	# option = { #Yes investigate, expert
-		# name = EVTOPTD_LT_20101
-		# trigger = {
+	option = { #Yes investigate
+		name = EVTOPTA_LT_20101
+		custom_tooltip = { text = EVTOPTA_LT_20101_TT }
+		scaled_wealth = { value = -0.3 min = -10 max = -60}
+		hidden_effect = {
+			random_list = {
+				10 = { #Accident
+					set_character_flag = tomb_found_accident	
+				}
+				20 = { #Nothing found
+					set_character_flag = tomb_found_nothing	
+				}
+				30 = { #Found valuables
+					set_character_flag = tomb_found_valuables_1
+				}
+				20 = { #Found valuables
+					set_character_flag = tomb_found_valuables_2
+				}
+				10 = {#Found an important treasure
+					set_character_flag = tomb_found_artifact
+				}
+			}
+			character_event = { id = LT.20110 days = 7 random = 3 }
+		}
+	}
+	option = { #Yes investigate, expert
+		name = EVTOPTD_LT_20101
+		trigger = {
+			learning = 15
 			# OR = {
 				# learning = 15
 				# trait = erudite
 				# trait = architect
 			# }
-		# }
-		# tooltip_info_custom = EVTOPTD_LT_20101_TT
+		}
+		tooltip_info_custom = EVTOPTD_LT_20101_TT
 
-		# scaled_wealth = { value = -0.4 min = -20 max = -80}
-		# hidden_effect = {
-			# random_list = {
-				# 20 = { #Nothing found
-					# set_character_flag = tomb_found_nothing	
-				# }
-				# 35 = { #Found valuables
-					# set_character_flag = tomb_found_valuables_1
-				# }
-				# 25 = { #Found valuables
-					# set_character_flag = tomb_found_valuables_2
-				# }
-				# 10 = {#Found an important treasure
-					# set_character_flag = tomb_found_artifact
-				# }
-			# }
-			# character_event = { id = LT.20110 days = 7 random = 3 }
-		# }
+		scaled_wealth = { value = -0.4 min = -20 max = -80}
+		hidden_effect = {
+			random_list = {
+				20 = { #Nothing found
+					set_character_flag = tomb_found_nothing	
+				}
+				35 = { #Found valuables
+					set_character_flag = tomb_found_valuables_1
+				}
+				25 = { #Found valuables
+					set_character_flag = tomb_found_valuables_2
+				}
+				10 = {#Found an important treasure
+					set_character_flag = tomb_found_artifact
+				}
+			}
+			character_event = { id = LT.20110 days = 7 random = 3 }
+		}
 
-	# }
-	# option = { #Not interested
-		# name = EVTOPTB_LT_20101
-	# }
-	# option = { #Don´t bother me with this kind of stuff
-		# name = EVTOPTC_LT_20101
-		# custom_tooltip = { text = EVTOPTC_LT_20101_TT }
-		# set_character_flag = not_interested_in_ruins
-	# }
-# }
+	}
+	option = { #Not interested
+		name = EVTOPTB_LT_20101
+	}
+	option = { #Don´t bother me with this kind of stuff
+		name = EVTOPTC_LT_20101
+		custom_tooltip = { text = EVTOPTC_LT_20101_TT }
+		set_character_flag = not_interested_in_ruins
+	}
+}
 
 
-# character_event = {
-	# id = LT.20110
-	# title = EVT_TITLE_LT_20101
-	# desc = {
-		# trigger = { has_character_flag = tomb_found_accident }
-		# text = EVTDESC_LT_20110_accident
-		# picture = GFX_evt_dead_body_hf
-	# }
-	# desc = {
-		# trigger = { has_character_flag = tomb_found_nothing }
-		# text = EVTDESC_LT_20110_found_nothing
-		# picture = GFX_evt_bad_news
-	# }
-	# desc = {
-		# trigger = { has_character_flag = tomb_found_valuables_1 }
-		# text = EVTDESC_LT_20110_found_valuables_1
-	# }
-	# desc = {
-		# trigger = { has_character_flag = tomb_found_valuables_2 }
-		# text = EVTDESC_LT_20110_found_valuables_2
-	# }
-	# desc = {
-		# trigger = { has_character_flag = tomb_found_artifact }
-		# text = EVTDESC_LT_20110_found_artifact
-		# picture = GFX_evt_treasure_chamber
-	# }
+character_event = {
+	id = LT.20110
+	title = EVT_TITLE_LT_20101
+	desc = {
+		trigger = { has_character_flag = tomb_found_accident }
+		text = EVTDESC_LT_20110_accident
+		picture = GFX_evt_dead_body_hf
+	}
+	desc = {
+		trigger = { has_character_flag = tomb_found_nothing }
+		text = EVTDESC_LT_20110_found_nothing
+		picture = GFX_evt_bad_news
+	}
+	desc = {
+		trigger = { has_character_flag = tomb_found_valuables_1 }
+		text = EVTDESC_LT_20110_found_valuables_1
+	}
+	desc = {
+		trigger = { has_character_flag = tomb_found_valuables_2 }
+		text = EVTDESC_LT_20110_found_valuables_2
+	}
+	desc = {
+		trigger = { has_character_flag = tomb_found_artifact }
+		text = EVTDESC_LT_20110_found_artifact
+		picture = GFX_evt_treasure_chamber
+	}
 
-	# picture = GFX_evt_pagan_artifacts
-	# border = GFX_event_normal_frame_religion
+	picture = GFX_evt_pagan_artifacts
+	border = GFX_event_normal_frame_religion
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {
-		# is_alive = yes
-		# is_inaccessible_trigger = no
-		# #war = no
-		# NOT = { has_character_flag = not_interested_in_ruins }
-		# event_target:target_wonder = {
-			# wonder_owner = {
-				# character = ROOT
-			# }
-		# }
-	# }
-	# fail_trigger_effect = {
-		# if = { #character lost the wonder
-			# limit = {
-				# NOT = {
-					# event_target:target_wonder = {
-						# wonder_owner = {
-							# character = ROOT
-						# }
-					# }
-				# }
-			# }
-			# clear_flags_with_prefix = tomb_found_
-			# event_target:target_wonder = { clr_wonder_flag = unhappy_builders }
-		# }
-	# }
+	trigger = {
+		is_alive = yes
+		is_inaccessible_trigger = no
+		#war = no
+		NOT = { has_character_flag = not_interested_in_ruins }
+		event_target:target_wonder = {
+			wonder_owner = {
+				character = ROOT
+			}
+		}
+	}
+	fail_trigger_effect = {
+		if = { #character lost the wonder
+			limit = {
+				NOT = {
+					event_target:target_wonder = {
+						wonder_owner = {
+							character = ROOT
+						}
+					}
+				}
+			}
+			clear_flags_with_prefix = tomb_found_
+			event_target:target_wonder = { clr_wonder_flag = unhappy_builders }
+		}
+	}
 	
-	# immediate = {
-		# if = {
-			# limit = { has_character_flag = tomb_found_artifact }
-			# random_list = {
-				# 20 = {
-					# trigger = {
-						# NOT = { has_artifact = armor_tier_2 }
-					# }
-					# add_artifact = armor_tier_2
-					# new_artifact = {
-						# set_description = tomb_armor_desc
-						# set_creation_date = 1.1.1
-			    		# save_event_target_as = found_artifact
-					# }	
+	immediate = {
+		if = {
+			limit = { has_character_flag = tomb_found_artifact }
+			random_list = {
+				20 = {
+					trigger = {
+						NOT = { has_artifact = armor_blackleather }
+					}
+					add_artifact = armor_blackleather
+					new_artifact = {
+						set_description = tomb_armor_desc
+						set_creation_date = 1.1.1
+			    		save_event_target_as = found_artifact
+					}	
 
-				# }
+				}
 				# 20 = {
 					# trigger = { 
 						# event_target:target_province = { religion_group = christian }
@@ -1642,57 +1643,57 @@ character_event = {
 			    		# save_event_target_as = found_artifact
 					# }
 				# }
-				# 20 = {
-					# trigger = {
-						# NOT = { has_artifact = sword_tier_2_new }
-					# }
-					# add_artifact = sword_tier_2_new
-					# new_artifact = {
-						# set_description = tomb_sword_desc
-						# set_creation_date = 1.1.1
-			    		# save_event_target_as = found_artifact
-					# }
-				# }
-				# 1 = {
-					# clr_character_flag = tomb_found_artifact
-					# set_character_flag = tomb_found_valuables_2
-				# }
-			# }
-		# }
-	# }
+				20 = {
+					trigger = {
+						NOT = { has_artifact = sword_gilded }
+					}
+					add_artifact = sword_gilded
+					new_artifact = {
+						set_description = tomb_sword_desc
+						set_creation_date = 1.1.1
+			    		save_event_target_as = found_artifact
+					}
+				}
+				1 = {
+					clr_character_flag = tomb_found_artifact
+					set_character_flag = tomb_found_valuables_2
+				}
+			}
+		}
+	}
 
-	# option = { #too bad
-		# name = EVTOPTA_LT_20110
-		# trigger = { 
-			# OR = {
-				# has_character_flag = tomb_found_accident
-				# has_character_flag = tomb_found_nothing
-			# }
-		# }
-		# if = {
-			# limit = { has_character_flag = tomb_found_accident }
-			# scaled_wealth = { value = -0.15 min = -20 max = -40}
-			# event_target:target_wonder = { set_wonder_flag = unhappy_builders }
-			# #custom_tooltip = { text = EVTOPTA_LT_20110_TT_unhappy }
-			# event_target:target_wonder = {
-				# show_scope_change = no 
-				# location = {
-					# add_province_modifier = {
-						# name = construction_accident
-						# duration = 365
- 					# }
- 				# }
-			# }
-		# }
-	# }
-	# option = { #compensate the families
-		# name = EVTOPTF_LT_20110
-		# trigger = { 
-			# OR = {
-				# has_character_flag = tomb_found_accident
-			# }
-		# }
-		# scaled_wealth = { value = -0.4 min = -40 max = -100}
+	option = { #too bad
+		name = EVTOPTA_LT_20110
+		trigger = { 
+			OR = {
+				has_character_flag = tomb_found_accident
+				has_character_flag = tomb_found_nothing
+			}
+		}
+		if = {
+			limit = { has_character_flag = tomb_found_accident }
+			scaled_wealth = { value = -0.15 min = -20 max = -40}
+			event_target:target_wonder = { set_wonder_flag = unhappy_builders }
+			#custom_tooltip = { text = EVTOPTA_LT_20110_TT_unhappy }
+			event_target:target_wonder = {
+				show_scope_change = no 
+				location = {
+					add_province_modifier = {
+						name = construction_accident
+						duration = 365
+ 					}
+ 				}
+			}
+		}
+	}
+	option = { #compensate the families
+		name = EVTOPTF_LT_20110
+		trigger = { 
+			OR = {
+				has_character_flag = tomb_found_accident
+			}
+		}
+		scaled_wealth = { value = -0.4 min = -40 max = -100}
 		# if = {
 			# limit = { trait = greedy }
 			# random = { chance = 75 remove_trait_greedy_effect = yes }
@@ -1701,21 +1702,21 @@ character_event = {
 			# limit = { NOT = { trait = charitable } }
 			# random = { chance = 30 add_trait_charitable_effect = yes }
 		# }
-	# }
-	# option = { #All to me
-		# name = EVTOPTB_LT_20110
-		# trigger = {
-			# OR = { 
-				# has_character_flag = tomb_found_valuables_1
-				# has_character_flag = tomb_found_valuables_2
-			# }
-		# }
-		# #custom_tooltip = { text = EVTOPTB_LT_20110_TT_unhappy }
-		# event_target:target_wonder = { set_wonder_flag = unhappy_builders }
-		# trigger_switch = {
-			# on_trigger = has_character_flag
-			# tomb_found_valuables_1 = {
-				# wealth = 100
+	}
+	option = { #All to me
+		name = EVTOPTB_LT_20110
+		trigger = {
+			OR = { 
+				has_character_flag = tomb_found_valuables_1
+				has_character_flag = tomb_found_valuables_2
+			}
+		}
+		#custom_tooltip = { text = EVTOPTB_LT_20110_TT_unhappy }
+		event_target:target_wonder = { set_wonder_flag = unhappy_builders }
+		trigger_switch = {
+			on_trigger = has_character_flag
+			tomb_found_valuables_1 = {
+				wealth = 100
 				# if = {
 					# limit = { trait = charitable }
 					# random = { chance = 50 remove_trait_charitable_effect = yes }
@@ -1724,9 +1725,9 @@ character_event = {
 					# limit = { NOT = { trait = greedy } }
 					# random = { chance = 20 add_trait_greedy_effect = yes }
 				# }
-			# }
-			# tomb_found_valuables_2 = {
-				# wealth = 200
+			}
+			tomb_found_valuables_2 = {
+				wealth = 200
 				# if = {
 					# limit = { trait = charitable }
 					# random = { chance = 75 remove_trait_charitable_effect = yes }
@@ -1735,22 +1736,22 @@ character_event = {
 					# limit = { NOT = { trait = greedy } }
 					# random = { chance = 30 add_trait_greedy_effect = yes }
 				# }
-			# }
-		# }
-	# }
-	# option = { #share the findings
-		# name = EVTOPTC_LT_20110
-		# trigger = {
-			# OR = { 
-				# has_character_flag = tomb_found_valuables_1
-				# has_character_flag = tomb_found_valuables_2
-			# }
-		# }
+			}
+		}
+	}
+	option = { #share the findings
+		name = EVTOPTC_LT_20110
+		trigger = {
+			OR = { 
+				has_character_flag = tomb_found_valuables_1
+				has_character_flag = tomb_found_valuables_2
+			}
+		}
 
-		# trigger_switch = {
-			# on_trigger = has_character_flag
-			# tomb_found_valuables_1 = {
-				# wealth = 50
+		trigger_switch = {
+			on_trigger = has_character_flag
+			tomb_found_valuables_1 = {
+				wealth = 50
 				# if = {
 					# limit = { trait = greedy }
 					# random = { chance = 50 remove_trait_greedy_effect = yes }
@@ -1759,9 +1760,9 @@ character_event = {
 					# limit = { NOT = { trait = charitable } }
 					# random = { chance = 20 add_trait_charitable_effect = yes }
 				# }
-			# }
-			# tomb_found_valuables_2 = {
-				# wealth = 100
+			}
+			tomb_found_valuables_2 = {
+				wealth = 100
 				# if = {
 					# limit = { trait = greedy }
 					# random = { chance = 75 remove_trait_greedy_effect = yes }
@@ -1770,16 +1771,16 @@ character_event = {
 					# limit = { NOT = { trait = charitable } }
 					# random = { chance = 30 add_trait_charitable_effect = yes }
 				# }
-			# }
-		# }
-	# }
-	# option = { #All to me
-		# name = EVTOPTD_LT_20110
-		# trigger = { has_character_flag = tomb_found_artifact }
-		# custom_tooltip = { text = EVTOPT_LT_20110_TT }
-		# #custom_tooltip = { text = EVTOPTB_LT_20110_TT_unhappy }
-		# wealth = 150
-		# event_target:target_wonder = { set_wonder_flag = unhappy_builders }
+			}
+		}
+	}
+	option = { #All to me
+		name = EVTOPTD_LT_20110
+		trigger = { has_character_flag = tomb_found_artifact }
+		custom_tooltip = { text = EVTOPT_LT_20110_TT }
+		#custom_tooltip = { text = EVTOPTB_LT_20110_TT_unhappy }
+		wealth = 150
+		event_target:target_wonder = { set_wonder_flag = unhappy_builders }
 		# if = {
 			# limit = { trait = charitable }
 			# random = { chance = 75 remove_trait_charitable_effect = yes }
@@ -1788,11 +1789,11 @@ character_event = {
 			# limit = { NOT = { trait = greedy } }
 			# random = { chance = 30 add_trait_greedy_effect = yes }
 		# }
-	# }
-	# option = { #share the findings
-		# name = EVTOPTE_LT_20110
-		# trigger = { has_character_flag = tomb_found_artifact }
-		# custom_tooltip = { text = EVTOPT_LT_20110_TT }
+	}
+	option = { #share the findings
+		name = EVTOPTE_LT_20110
+		trigger = { has_character_flag = tomb_found_artifact }
+		custom_tooltip = { text = EVTOPT_LT_20110_TT }
 		# if = {
 			# limit = { trait = greedy }
 			# random = { chance = 75 remove_trait_greedy_effect = yes }
@@ -1801,766 +1802,481 @@ character_event = {
 			# limit = { NOT = { trait = charitable } }
 			# random = { chance = 30 add_trait_charitable_effect = yes }
 		# }
-		# event_target:target_wonder = { clr_wonder_flag = unhappy_builders }
-	# }
+		event_target:target_wonder = { clr_wonder_flag = unhappy_builders }
+	}
 	
-	# after = {
-		# clear_flags_with_prefix = tomb_found_
-		# event_target:target_wonder = { clr_wonder_flag = unhappy_builders } # Remove this one if doing the new event chain
-	# }
-# }
+	after = {
+		clear_flags_with_prefix = tomb_found_
+		event_target:target_wonder = { clr_wonder_flag = unhappy_builders } # Remove this one if doing the new event chain
+	}
+}
 
+## Fired from Decision use_scary_upgrade to Try to Intimidate a character
 
+character_event = {
+    id = LT.20301
+    desc = {
+    	trigger = { event_target:target_character = { NOT = { is_evil_trigger = yes } } }
+    	text = EVTDESC_LT_20301
+    }
+    desc = {
+    	trigger = { event_target:target_character = { is_evil_trigger = yes } }
+    	text = EVTDESC_LT_20301_evil_reaction
+    }
+    picture = GFX_evt_torture
+    border = GFX_event_normal_frame_intrigue
 
-# ## Smith event chain alternative events for Armory upgrade. Event LT.20201 is triggered from a new option EVTOPTC_MNM_9115 in event MNM.9115 from the smith decision event chain, if the character has the "Armory" wonder upgrade. 
-
-# #What kind of weapon would you like? (Equivalent to MNM.9118)
-# character_event = {
-    # id = LT.20201
-    # desc = EVTDESC_LT_20201
-
-    # picture = GFX_evt_weaponsmith
-    # border = GFX_event_normal_frame_economy
-
-    # is_triggered_only = yes
+    is_triggered_only = yes
     
-    # trigger = {
-    	# OR = {
-    		# has_dlc = "Mystics"
-    		# has_dlc = "Jade Dragon"
-    	# }
-    # }
+    trigger = {
+    }
 
-    # #Sword
-    # option = { 
-        # trigger = { NOR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith }
-        # name = EVTOPTA_MNM_9118
-        # custom_tooltip = { text = EVTOPTA_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_sword } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { factor = 2 }
-    # }
+    immediate = {
+    }
 
-	# #Zweihander Sword
-    # option = { 
-        # trigger = { 
-        	# NOR = { religion_group = muslim has_dharmic_religion_trigger = yes }
-        	# OR = {
-				# likes_germanics = yes
-				# likes_latino_iberians = yes
-				# culture_group = celtic
-			# }
-        	# has_character_flag = weaponsmith
-        # }
-        # name = EVTOPTA_zweihanded_LT_20201
-        # custom_tooltip = { text = EVTOPTA_MNM_LT_20201_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = zweihanded_sword } }
-        # scaled_wealth = { value = -2 min = -100 max = -200 }
-        # ai_chance = { factor = 2 }
-    # }
+    option = { 
+        name = EVTOPTA_LT_20301
+        random_list = {
+			15 = {
+				modifier = { factor = 0.5 diplomacy < 2}
+				modifier = { factor = 0.9 diplomacy < 4}
+				modifier = { factor = 0.9 diplomacy < 6}
+				modifier = { factor = 0.9 diplomacy < 8}
+				modifier = { factor = 0.9 diplomacy < 10}
+				modifier = { factor = 1.1 diplomacy > 12}
+				modifier = { factor = 1.1 diplomacy > 14}
+				modifier = { factor = 1.1 diplomacy > 16}
+				modifier = { factor = 1.1 diplomacy > 18}
+				modifier = { factor = 3 event_target:target_character = { trait = craven } }
+				modifier = { factor = 0.4 event_target:target_character = { is_evil_trigger = yes }}
+				event_target:target_character = {
+					show_scope_change = no
+        			opinion = {
+						modifier = opinion_scared_into_submission
+						who = ROOT
+						months = 24
+					}
+ 		    	}
+			}
+			5 = {
+				modifier = { #Makes it even harder to scare someone 2 steps above you
+					factor = 3
+					OR = {
+						AND = {
+							event_target:target_character = { tier = EMPEROR }
+							lower_tier_than = KING
+						}
+						AND = {
+							event_target:target_character = { tier = KING }
+							tier = BARON
+						}
+					}
+				}
+				modifier = { #Makes it harder to scare someone above you
+					factor = 3
+					event_target:target_character = { higher_tier_than = ROOT }
+				}
+				modifier = { factor = 3 event_target:target_character = { trait = brave } }
 
-    # #Scimitar
-    # option = {
-        # trigger = { OR = { religion_group = muslim has_dharmic_religion_trigger = yes } has_character_flag = weaponsmith }
-        # name = EVTOPTB_MNM_9118
-        # custom_tooltip = { text = EVTOPTB_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_scimitar } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { factor = 2 }
-    # }
+				custom_tooltip = { text = EVTOPTA_LT_20301_TT }
+
+				if = {
+					limit = { event_target:target_character = { is_evil_trigger = yes } }
+					hidden_effect = {  character_event = { id = LT.20310 } }
+				}
+				else = {
+					event_target:target_character = {
+						show_scope_change = no
+   		    			opinion = {
+							modifier = opinion_threatened_me
+							who = ROOT
+							months = 24
+						}
+ 				   	}
+ 				   	prestige = -20
+ 		    	}  	
+			}
+		}
+    }
+
+    option = { #favor
+        name = EVTOPTB_LT_20301
+        trigger = {
+        	has_dlc = "Conclave"
+        }
+		random_list = {
+			15 = {
+				modifier = { factor = 0.5 diplomacy < 2}
+				modifier = { factor = 0.9 diplomacy < 4}
+				modifier = { factor = 0.9 diplomacy < 6}
+				modifier = { factor = 0.9 diplomacy < 8}
+				modifier = { factor = 0.9 diplomacy < 10}
+				modifier = { factor = 1.1 diplomacy > 12}
+				modifier = { factor = 1.1 diplomacy > 14}
+				modifier = { factor = 1.1 diplomacy > 16}
+				modifier = { factor = 1.1 diplomacy > 18}
+				modifier = { factor = 3 event_target:target_character = { trait = craven } }
+				modifier = { factor = 0.4 event_target:target_character = { is_evil_trigger = yes } }
+				add_favor = event_target:target_character
+			}
+			5 = {
+				modifier = { #Makes it even harder to threaten someone 2 steps above you
+					factor = 3
+					OR = {
+						AND = {
+							event_target:target_character = { tier = EMPEROR }
+							lower_tier_than = KING
+						}
+						AND = {
+							event_target:target_character = { tier = KING }
+							tier = BARON
+						}
+					}
+				}
+				modifier = { #Makes it harder to threaten someone above you
+					factor = 3
+					event_target:target_character = { higher_tier_than = ROOT }
+				}
+				modifier = { factor = 3 event_target:target_character = { trait = brave } }
+
+				custom_tooltip = { text = EVTOPTB_LT_20301_TT }
+
+				if = {
+					limit = { event_target:target_character = { is_evil_trigger = yes } }
+					hidden_effect = {  character_event = { id = LT.20310 } }
+				}
+				else = {
+					event_target:target_character = {
+						show_scope_change = no
+   		    			opinion = {
+							modifier = opinion_threatened_me
+							who = ROOT
+							months = 24
+						}
+ 				   	}
+ 				   	prestige = -20
+ 		    	}
+			}
+		}
+    }
+
+    option = { 
+        name = EVTOPTC_LT_20301
+        trigger = { event_target:target_character = { is_evil_trigger = yes } }
+        random_list = {
+			5 = {
+				modifier = { factor = 1.1 diplomacy > 12}
+				modifier = { factor = 1.1 diplomacy > 14}
+				modifier = { factor = 1.1 diplomacy > 16}
+				modifier = { factor = 1.1 diplomacy > 18}
+				event_target:target_character = {
+					show_scope_change = no
+					opinion = {
+						modifier = opinion_thoroughly_impressed
+						who = ROOT
+						months = 6
+					}
+				}
+			}
+			15 = {
+				modifier = { factor = 1.1 diplomacy > 12}
+				modifier = { factor = 1.1 diplomacy > 14}
+				modifier = { factor = 1.1 diplomacy > 16}
+				modifier = { factor = 1.1 diplomacy > 18}
+				event_target:target_character = {
+					show_scope_change = no
+					opinion = {
+						modifier = opinion_impressed
+						who = ROOT
+						months = 6
+					}
+				}
+			}
+			5 = {
+				modifier = { #Makes it even harder to scare someone 2 steps above you
+					factor = 3
+					OR = {
+						AND = {
+							event_target:target_character = { tier = EMPEROR }
+							lower_tier_than = KING
+						}
+						AND = {
+							event_target:target_character = { tier = KING }
+							tier = BARON
+						}
+					}
+				}
+				modifier = { #Makes it harder to scare someone above you
+					factor = 2
+					event_target:target_character = { higher_tier_than = ROOT }
+				}
+				event_target:target_character = { 
+					show_scope_change = no
+					opinion = {
+						modifier = opinion_unimpressed
+						who = ROOT
+						months = 6
+					}
+				}
+				prestige = -10
+			}
+		}
+        hidden_effect = {
+        	remove_character_modifier = used_scary_upgrade_cd
+        }
+    }
+
+    option = { 
+        name = EVTOPTD_LT_20301
+        trigger = { event_target:target_character = { NOT = { is_evil_trigger = yes } } }
+        random_list = {
+			15 = {
+				modifier = { factor = 0.5 diplomacy < 2}
+				modifier = { factor = 0.9 diplomacy < 4}
+				modifier = { factor = 0.9 diplomacy < 6}
+				#modifier = { factor = 0.9 diplomacy < 8}
+				#modifier = { factor = 0.9 diplomacy < 10}
+				modifier = { factor = 1.1 diplomacy > 12}
+				modifier = { factor = 1.1 diplomacy > 14}
+				modifier = { factor = 1.1 diplomacy > 16}
+				modifier = { factor = 1.1 diplomacy > 18}
+				event_target:target_character = {
+					show_scope_change = no
+					opinion = {
+						modifier = opinion_liked_a_good_joke
+						who = ROOT
+						months = 6
+					}
+				}
+			}
+			5 = {
+				modifier = { #Makes it even harder to scare someone 2 steps above you
+					factor = 3
+					OR = {
+						AND = {
+							event_target:target_character = { tier = EMPEROR }
+							lower_tier_than = KING
+						}
+						AND = {
+							event_target:target_character = { tier = KING }
+							tier = BARON
+						}
+					}
+				}
+				event_target:target_character = { 
+					show_scope_change = no
+					opinion = {
+						modifier = opinion_unimpressed
+						who = ROOT
+						months = 6
+					}
+				}
+			}
+		}
+        hidden_effect = {
+        	remove_character_modifier = used_scary_upgrade_cd
+        }
+    }
+}
+
+character_event = {
+	id = LT.20310
+    desc = EVTDESC_LT_20310
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_intrigue
+
+    is_triggered_only = yes
     
-    # #Lance
-    # option = {
-    	# trigger = { has_character_flag = weaponsmith }
-        # name = EVTOPTC_MNM_9118
-        # custom_tooltip = { text = EVTOPTC_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_lance } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { 
-        	# factor = 1 
-        	# modifier = { is_nomadic = yes factor = 2 }
-        # }
-    # }
-    
-    # #Axe
-    # option = {
-    	# trigger = { has_character_flag = weaponsmith }
-        # name = EVTOPTD_MNM_9118
-        # custom_tooltip = { text = EVTOPTD_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_axe } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { 
-        	# factor = 1
-        	# modifier = { is_tribal = yes factor = 3 }
-        # }
-    # }
+    trigger = { }
 
-    # #Mace
-    # option = {
-        # trigger = { is_nomadic = no has_character_flag = weaponsmith }
-        # name = EVTOPTE_MNM_9118
-        # custom_tooltip = { text = EVTOPTE_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_mace } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { 
-        	# factor = 1
-        	# modifier = { religion = norse_pagan factor = 5 }
-        	# modifier = { religion = norse_pagan_reformed factor = 5 }
-        # }
-    # }
+    immediate = { }
 
-    # #Bow
-    # option = {
-        # trigger = { is_nomadic = yes has_character_flag = weaponsmith }
-        # name = EVTOPTF_MNM_9118
-        # custom_tooltip = { text = EVTOPTF_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = weapon_bow } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-        # ai_chance = { factor = 5 }
-    # }
-
-    # #Armor
-    # option = {
-    	# trigger = { has_character_flag = armorsmith }
-        # name = EVTOPTG_MNM_9118
-        # custom_tooltip = { text = EVTOPTG_MNM_9118_TT }
-        # hidden_effect = { event_target:smith = { set_character_flag = armor_set } }
-        # scaled_wealth = { value = -1.5 min = -75 max = -150 }
-    # }
-
-    # after = {
-        # hidden_effect = {
-        	# event_target:smith = { character_event = { id = LT.20209 days = 50 random = 10  } } #ping event
-        	# clr_character_flag = weaponsmith
-       		# clr_character_flag = armorsmith
-       	# }
-    # }
-# }
-
-# # Ping Event to be able to reuse MNM.9123 localisation
-
-# character_event = {
-	# id = LT.20209
-    # hide_window = yes
-
-    # is_triggered_only = yes
-    
-    # trigger = {
-    	# OR = {
-    		# has_dlc = "Mystics"
-    		# has_dlc = "Jade Dragon"
-    	# }
-    # }
-
-    # immediate = {
-    	# if = {
-    		# limit = { NOT = { event_target:smith_employer = { is_alive = yes } } }
-    		# liege = { save_event_target_as = smith_employer }
-    	# }
-    	# event_target:smith_employer = { character_event = { id = LT.20210 } }
-    # }
-# }
-
-
-
-# # Good weapon produced in the Armory (equivalent to MNM.9123)
-# character_event = {
-    # id = LT.20210
-    # desc = EVTDESC_MNM_9123
-    # picture = GFX_evt_weaponsmith
-    # border = GFX_event_normal_frame_economy
-
-    # is_triggered_only = yes
-    
-    # trigger = {
-    	# OR = {
-    		# has_dlc = "Mystics"
-    		# has_dlc = "Jade Dragon"
-    	# }
-    # }
-
-    # option = { 
-        # name = EVTOPTA_MNM_9123
-
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_sword } }
-            # hidden_effect = {
-            	# add_artifact = sword_tier_2_new
-            # }
-            # set_character_flag = sword_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-		# if = {
-            # limit = { FROM = { has_character_flag = zweihanded_sword } }
-            # hidden_effect = {
-            	# add_artifact = zweihander_sword
-            # }
-            # set_character_flag = zweihanded_sword
-            # #set_character_flag = sword_tier_2
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_scimitar } }
-           	# hidden_effect = {
-            	# add_artifact = scimitar_tier_2_new
-            # }
-            # set_character_flag = scimitar_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_lance } }
-            # hidden_effect = {
-            	# add_artifact = lance_tier_2_new
-            # }
-			# set_character_flag = lance_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_axe } }
-            # hidden_effect = {
-            	# add_artifact = axe_tier_2_new
-            # }
-            # set_character_flag = axe_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_mace } }
-            # hidden_effect = {
-            	# add_artifact = mace_tier_2_new
-            # }
-            # set_character_flag = mace_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = weapon_bow } }
-          	# hidden_effect = {
-            	# add_artifact = bow_tier_2_new
-            # }
-            # set_character_flag = bow_tier_2   
-            # new_artifact = {
-            	# set_name = artifact_name
-            	# set_description = artifact_description_smith_tier_2
-            # }
-        # }
-        # if = {
-            # limit = { FROM = { has_character_flag = armor_set } }
-            # add_artifact = armor_tier_2
-            # #new_artifact = {
-            # #	set_name = artifact_name
-            # #	set_description = artifact_description_smith_tier_2
-            # #}
-        # }
-    # }
-    # after = {
-    	# clr_character_flag = amazing_weapons
-    	# clr_character_flag = expensive_weapons
-		# clr_character_flag = good_weapons
-		# clr_character_flag = cheap_weapons
-		# clr_character_flag = weaponsmith
-        # clr_character_flag = armorsmith
-        # clr_character_flag = sword_tier_2
-        # clr_character_flag = sword_tier_3
-        # clr_character_flag = scimitar_tier_2
-        # clr_character_flag = lance_tier_2
-        # clr_character_flag = axe_tier_2
-        # clr_character_flag = mace_tier_2
-        # clr_character_flag = bow_tier_2
-        # clr_character_flag = weapon_sword
-		# clr_character_flag = zweihanded_sword
-		# clr_character_flag = weapon_scimitar
-		# clr_character_flag = weapon_lance
-		# clr_character_flag = weapon_axe
-		# clr_character_flag = weapon_mace
-        # clr_character_flag = weapon_bow
-        # clr_character_flag = armor_set
-    # }
-# }
-
-
-
-# ## Fired from Decision use_scary_upgrade to Try to Intimidate a character
-
-# character_event = {
-    # id = LT.20301
-    # desc = {
-    	# trigger = { event_target:target_character = { NOT = { is_evil_trigger = yes } } }
-    	# text = EVTDESC_LT_20301
-    # }
-    # desc = {
-    	# trigger = { event_target:target_character = { is_evil_trigger = yes } }
-    	# text = EVTDESC_LT_20301_evil_reaction
-    # }
-    # picture = GFX_evt_torture
-    # border = GFX_event_normal_frame_intrigue
-
-    # is_triggered_only = yes
-    
-    # trigger = {
-    # }
-
-    # immediate = {
-    # }
-
-    # option = { 
-        # name = EVTOPTA_LT_20301
-        # random_list = {
-			# 15 = {
-				# modifier = { factor = 0.5 diplomacy < 2}
-				# modifier = { factor = 0.9 diplomacy < 4}
-				# modifier = { factor = 0.9 diplomacy < 6}
-				# modifier = { factor = 0.9 diplomacy < 8}
-				# modifier = { factor = 0.9 diplomacy < 10}
-				# modifier = { factor = 1.1 diplomacy > 12}
-				# modifier = { factor = 1.1 diplomacy > 14}
-				# modifier = { factor = 1.1 diplomacy > 16}
-				# modifier = { factor = 1.1 diplomacy > 18}
-				# modifier = { factor = 3 event_target:target_character = { trait = craven } }
-				# modifier = { factor = 0.4 event_target:target_character = { is_evil_trigger = yes }}
-				# event_target:target_character = {
-					# show_scope_change = no
-        			# opinion = {
-						# modifier = opinion_scared_into_submission
-						# who = ROOT
-						# months = 24
-					# }
- 		    	# }
-			# }
-			# 5 = {
-				# modifier = { #Makes it even harder to scare someone 2 steps above you
-					# factor = 3
-					# OR = {
-						# AND = {
-							# event_target:target_character = { tier = EMPEROR }
-							# lower_tier_than = KING
-						# }
-						# AND = {
-							# event_target:target_character = { tier = KING }
-							# tier = BARON
-						# }
-					# }
-				# }
-				# modifier = { #Makes it harder to scare someone above you
-					# factor = 3
-					# event_target:target_character = { higher_tier_than = ROOT }
-				# }
-				# modifier = { factor = 3 event_target:target_character = { trait = brave } }
-
-				# custom_tooltip = { text = EVTOPTA_LT_20301_TT }
-
-				# if = {
-					# limit = { event_target:target_character = { is_evil_trigger = yes } }
-					# hidden_effect = {  character_event = { id = LT.20310 } }
-				# }
-				# else = {
-					# event_target:target_character = {
-						# show_scope_change = no
-   		    			# opinion = {
-							# modifier = opinion_threatened_me
-							# who = ROOT
-							# months = 24
-						# }
- 				   	# }
- 				   	# prestige = -20
- 		    	# }  	
-			# }
-		# }
-    # }
-
-    # option = { #favor
-        # name = EVTOPTB_LT_20301
-        # trigger = {
-        	# has_dlc = "Conclave"
-        # }
-		# random_list = {
-			# 15 = {
-				# modifier = { factor = 0.5 diplomacy < 2}
-				# modifier = { factor = 0.9 diplomacy < 4}
-				# modifier = { factor = 0.9 diplomacy < 6}
-				# modifier = { factor = 0.9 diplomacy < 8}
-				# modifier = { factor = 0.9 diplomacy < 10}
-				# modifier = { factor = 1.1 diplomacy > 12}
-				# modifier = { factor = 1.1 diplomacy > 14}
-				# modifier = { factor = 1.1 diplomacy > 16}
-				# modifier = { factor = 1.1 diplomacy > 18}
-				# modifier = { factor = 3 event_target:target_character = { trait = craven } }
-				# modifier = { factor = 0.4 event_target:target_character = { is_evil_trigger = yes } }
-				# add_favor = event_target:target_character
-			# }
-			# 5 = {
-				# modifier = { #Makes it even harder to threaten someone 2 steps above you
-					# factor = 3
-					# OR = {
-						# AND = {
-							# event_target:target_character = { tier = EMPEROR }
-							# lower_tier_than = KING
-						# }
-						# AND = {
-							# event_target:target_character = { tier = KING }
-							# tier = BARON
-						# }
-					# }
-				# }
-				# modifier = { #Makes it harder to threaten someone above you
-					# factor = 3
-					# event_target:target_character = { higher_tier_than = ROOT }
-				# }
-				# modifier = { factor = 3 event_target:target_character = { trait = brave } }
-
-				# custom_tooltip = { text = EVTOPTB_LT_20301_TT }
-
-				# if = {
-					# limit = { event_target:target_character = { is_evil_trigger = yes } }
-					# hidden_effect = {  character_event = { id = LT.20310 } }
-				# }
-				# else = {
-					# event_target:target_character = {
-						# show_scope_change = no
-   		    			# opinion = {
-							# modifier = opinion_threatened_me
-							# who = ROOT
-							# months = 24
-						# }
- 				   	# }
- 				   	# prestige = -20
- 		    	# }
-			# }
-		# }
-    # }
-
-    # option = { 
-        # name = EVTOPTC_LT_20301
-        # trigger = { event_target:target_character = { is_evil_trigger = yes } }
-        # random_list = {
-			# 5 = {
-				# modifier = { factor = 1.1 diplomacy > 12}
-				# modifier = { factor = 1.1 diplomacy > 14}
-				# modifier = { factor = 1.1 diplomacy > 16}
-				# modifier = { factor = 1.1 diplomacy > 18}
-				# event_target:target_character = {
-					# show_scope_change = no
-					# opinion = {
-						# modifier = opinion_thoroughly_impressed
-						# who = ROOT
-						# months = 6
-					# }
-				# }
-			# }
-			# 15 = {
-				# modifier = { factor = 1.1 diplomacy > 12}
-				# modifier = { factor = 1.1 diplomacy > 14}
-				# modifier = { factor = 1.1 diplomacy > 16}
-				# modifier = { factor = 1.1 diplomacy > 18}
-				# event_target:target_character = {
-					# show_scope_change = no
-					# opinion = {
-						# modifier = opinion_impressed
-						# who = ROOT
-						# months = 6
-					# }
-				# }
-			# }
-			# 5 = {
-				# modifier = { #Makes it even harder to scare someone 2 steps above you
-					# factor = 3
-					# OR = {
-						# AND = {
-							# event_target:target_character = { tier = EMPEROR }
-							# lower_tier_than = KING
-						# }
-						# AND = {
-							# event_target:target_character = { tier = KING }
-							# tier = BARON
-						# }
-					# }
-				# }
-				# modifier = { #Makes it harder to scare someone above you
-					# factor = 2
-					# event_target:target_character = { higher_tier_than = ROOT }
-				# }
-				# event_target:target_character = { 
-					# show_scope_change = no
-					# opinion = {
-						# modifier = opinion_unimpressed
-						# who = ROOT
-						# months = 6
-					# }
-				# }
-				# prestige = -10
-			# }
-		# }
-        # hidden_effect = {
-        	# remove_character_modifier = used_scary_upgrade_cd
-        # }
-    # }
-
-    # option = { 
-        # name = EVTOPTD_LT_20301
-        # trigger = { event_target:target_character = { NOT = { is_evil_trigger = yes } } }
-        # random_list = {
-			# 15 = {
-				# modifier = { factor = 0.5 diplomacy < 2}
-				# modifier = { factor = 0.9 diplomacy < 4}
-				# modifier = { factor = 0.9 diplomacy < 6}
-				# #modifier = { factor = 0.9 diplomacy < 8}
-				# #modifier = { factor = 0.9 diplomacy < 10}
-				# modifier = { factor = 1.1 diplomacy > 12}
-				# modifier = { factor = 1.1 diplomacy > 14}
-				# modifier = { factor = 1.1 diplomacy > 16}
-				# modifier = { factor = 1.1 diplomacy > 18}
-				# event_target:target_character = {
-					# show_scope_change = no
-					# opinion = {
-						# modifier = opinion_liked_a_good_joke
-						# who = ROOT
-						# months = 6
-					# }
-				# }
-			# }
-			# 5 = {
-				# modifier = { #Makes it even harder to scare someone 2 steps above you
-					# factor = 3
-					# OR = {
-						# AND = {
-							# event_target:target_character = { tier = EMPEROR }
-							# lower_tier_than = KING
-						# }
-						# AND = {
-							# event_target:target_character = { tier = KING }
-							# tier = BARON
-						# }
-					# }
-				# }
-				# event_target:target_character = { 
-					# show_scope_change = no
-					# opinion = {
-						# modifier = opinion_unimpressed
-						# who = ROOT
-						# months = 6
-					# }
-				# }
-			# }
-		# }
-        # hidden_effect = {
-        	# remove_character_modifier = used_scary_upgrade_cd
-        # }
-    # }
-# }
-
-# character_event = {
-	# id = LT.20310
-    # desc = EVTDESC_LT_20310
-	# picture = GFX_evt_bad_news
-	# border = GFX_event_normal_frame_intrigue
-
-    # is_triggered_only = yes
-    
-    # trigger = { }
-
-    # immediate = { }
-
-    # option = { 
-        # name = EVTOPTA_LT_20310
+    option = { 
+        name = EVTOPTA_LT_20310
  
-        # event_target:target_character = { 
-			# show_scope_change = no
-			# opinion = {
-				# modifier = opinion_unimpressed
-				# who = ROOT
-				# months = 6
-			# }
-		# }
-		# prestige = -10
-		# random = {
-        	# chance = 50
-        	# add_trait_stressed_effect = yes
-        # }
+        event_target:target_character = { 
+			show_scope_change = no
+			opinion = {
+				modifier = opinion_unimpressed
+				who = ROOT
+				months = 6
+			}
+		}
+		prestige = -10
+		random = {
+        	chance = 50
+        	add_trait_stressed_effect = yes
+        }
 
-    # }
-# }
-
-
-# ## Targeted Decision use_secluded_upgrade to use secluded wonder upgrade event chain
-# ## It is implemented as playable from both sides. Up to LT.2043X, odd-numbered events happen to the target, even-numbered events to the decision-making character
+    }
+}
 
 
-# character_event = { #invitation
-	# id = LT.20405
-	# desc = EVTDESC_LT_20405
-
-	# picture = GFX_evt_noble_in_castle
-	# border = GFX_event_normal_frame_intrigue
-
-	# is_triggered_only = yes
-
-	# trigger = {
-		# event_target:target_wonder = {
-			# wonder_owner = {
-				# character = FROM
-			# }
-		# }
-	# }
-
-	# immediate = {}
-
-	# option = {  # accept
-		# name = EVTOPTA_LT_20405
-		# hidden_effect = { FROMFROM = { character_event = { id = LT.20410 } } }
-		# ai_chance = {
-			# factor = 2
-			# modifier = { 
-				# factor = 4
-				# opinion = { who = FROMFROM value = 25 }
-			# }
-		# }
-	# }
-
-	# option = { # refuse
-		# name = EVTOPTB_LT_20405
-		# hidden_effect = { FROMFROM = { character_event = { id = LT.20412 } } }
-		# ai_chance = {
-			# trigger = { NOT = { diplomacy = 15 } }
-			# modifier = { 
-				# factor = 10
-				# NOT = { opinion = { who = FROMFROM value = -25 } }
-			# }
-		# }
-	# }
-
-	# option = {# politely refuse
-		# name = EVTOPTC_LT_20405
-		# trigger = { diplomacy = 15 }
-		# tooltip_info = diplomacy
-
-		# set_character_flag = polite_refuse
-		# hidden_effect = { FROMFROM = { character_event = { id = LT.20412 } } }
-		# ai_chance = {
-			# modifier = { 
-				# factor = 10
-				# NOT = { opinion = { who = FROMFROM value = -25 } }
-			# }
-		# }
-	# }
-# }
+## Targeted Decision use_secluded_upgrade to use secluded wonder upgrade event chain
+## It is implemented as playable from both sides. Up to LT.2043X, odd-numbered events happen to the target, even-numbered events to the decision-making character
 
 
-# character_event = { #What happens at the meeting
-	# id = LT.20410
-	# desc = EVTDESC_LT_20410
+character_event = { #invitation
+	id = LT.20405
+	desc = EVTDESC_LT_20405
 
-	# picture = GFX_evt_castle_garden
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_noble_in_castle
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {}
+	trigger = {
+		event_target:target_wonder = {
+			wonder_owner = {
+				character = FROM
+			}
+		}
+	}
 
-	# immediate = {}
-	# portrait = event_target:target_character
+	immediate = {}
 
+	option = {  # accept
+		name = EVTOPTA_LT_20405
+		hidden_effect = { FROMFROM = { character_event = { id = LT.20410 } } }
+		ai_chance = {
+			factor = 2
+			modifier = { 
+				factor = 4
+				opinion = { who = FROMFROM value = 25 }
+			}
+		}
+	}
 
-	# option = {  # Friendly Chat
-		# name = EVTOPTA_LT_20410
-		# hidden_effect = { FROM = { character_event = { id = LT.20421 days = 1 } } }
-		# tooltip = {
-			# random_list = { 
-				# 20 = { # Nothing
-					# modifier = {
-						# factor = 10 
-						# FROM = { NOT = { diplomacy = 8 } }
-					# }
-					# modifier = {
-						# factor = 0
-						# FROM = { diplomacy = 15 }
-					# }
-				# }
-				# 60 = { 		
-					# opinion = {
-						# modifier = opinion_impressed
-						# who = FROM
-						# months = 24
-					# }
- 				# }	
-				# 20 = { 
-					# opinion = {
-						# modifier = opinion_thoroughly_impressed
-						# who = FROM
-						# months = 24
-					# }
-					# modifier = {
-						# factor = 0 
-						# FROM = { NOT = { diplomacy = 8 } }
-					# }
-					# modifier = {
-						# factor = 5
-						# FROM = { diplomacy = 15 }
-					# }
-				# }
-			# }
-		# }
-	# }
+	option = { # refuse
+		name = EVTOPTB_LT_20405
+		hidden_effect = { FROMFROM = { character_event = { id = LT.20412 } } }
+		ai_chance = {
+			trigger = { NOT = { diplomacy = 15 } }
+			modifier = { 
+				factor = 10
+				NOT = { opinion = { who = FROMFROM value = -25 } }
+			}
+		}
+	}
 
-	# option = {  # Try to seduce
-		# name = EVTOPTB_LT_20410
-		# trigger = {
-			# NOT = { is_lover = FROM }
-		# }
-		# FROM = { character_event = { id = LT.20431 days = 1 } }
-		# custom_tooltip = { text = EVTOPTB_LT_20410_TT }
-		# FROM = { clr_character_flag = dummy } #For portrait to appear in option
-	# }
+	option = {# politely refuse
+		name = EVTOPTC_LT_20405
+		trigger = { diplomacy = 15 }
+		tooltip_info = diplomacy
+
+		set_character_flag = polite_refuse
+		hidden_effect = { FROMFROM = { character_event = { id = LT.20412 } } }
+		ai_chance = {
+			modifier = { 
+				factor = 10
+				NOT = { opinion = { who = FROMFROM value = -25 } }
+			}
+		}
+	}
+}
 
 
-	# option = {  # Continuing Romance
-		# name = EVTOPTD_LT_20410
-		# trigger = {
-			# is_lover = FROM
-		# }
-		# FROM = { character_event = { id = LT.20433 days = 1 } }
-		# if = {
-			# limit = { trait = stressed }
-			# random = {
-				# chance = 30
-				# remove_trait = stressed
-			# }
-		# }
-		# random = { 
-			# chance = 30
-			# opinion = { modifier = opinion_budding_romance who = FROM }
-		# }
-		# tooltip = {
-			# random = { 
-				# chance = 30
-				# reverse_opinion = { modifier = opinion_budding_romance who = FROM }
-			# }
-		# }
-		# #custom_tooltip = { text = EVTOPTD_LT_20410_TT }
-		# FROM = { clr_character_flag = dummy } #For portrait to appear in option
-	# }
+character_event = { #What happens at the meeting
+	id = LT.20410
+	desc = EVTDESC_LT_20410
+
+	picture = GFX_evt_castle_garden
+	border = GFX_event_normal_frame_intrigue
+
+	is_triggered_only = yes
+
+	trigger = {}
+
+	immediate = {}
+	portrait = event_target:target_character
 
 
-	# option = {  # Attempt Murder
-		# name = EVTOPTC_LT_20410
-		# hidden_effect = { FROM = { character_event = { id = LT.20441 days = 1 } } }
-		# FROM = { clr_character_flag = dummy } #For portrait to appear in option
-		# trigger = { 
+	option = {  # Friendly Chat
+		name = EVTOPTA_LT_20410
+		hidden_effect = { FROM = { character_event = { id = LT.20421 days = 1 } } }
+		tooltip = {
+			random_list = { 
+				20 = { # Nothing
+					modifier = {
+						factor = 10 
+						FROM = { NOT = { diplomacy = 8 } }
+					}
+					modifier = {
+						factor = 0
+						FROM = { diplomacy = 15 }
+					}
+				}
+				60 = { 		
+					opinion = {
+						modifier = opinion_impressed
+						who = FROM
+						months = 24
+					}
+ 				}	
+				20 = { 
+					opinion = {
+						modifier = opinion_thoroughly_impressed
+						who = FROM
+						months = 24
+					}
+					modifier = {
+						factor = 0 
+						FROM = { NOT = { diplomacy = 8 } }
+					}
+					modifier = {
+						factor = 5
+						FROM = { diplomacy = 15 }
+					}
+				}
+			}
+		}
+	}
+
+	option = {  # Try to seduce
+		name = EVTOPTB_LT_20410
+		trigger = {
+			NOT = { is_lover = FROM }
+		}
+		FROM = { character_event = { id = LT.20431 days = 1 } }
+		custom_tooltip = { text = EVTOPTB_LT_20410_TT }
+		FROM = { clr_character_flag = dummy } #For portrait to appear in option
+	}
+
+
+	option = {  # Continuing Romance
+		name = EVTOPTD_LT_20410
+		trigger = {
+			is_lover = FROM
+		}
+		FROM = { character_event = { id = LT.20433 days = 1 } }
+		if = {
+			limit = { trait = stressed }
+			random = {
+				chance = 30
+				remove_trait = stressed
+			}
+		}
+		random = { 
+			chance = 30
+			opinion = { modifier = opinion_budding_romance who = FROM }
+		}
+		tooltip = {
+			random = { 
+				chance = 30
+				reverse_opinion = { modifier = opinion_budding_romance who = FROM }
+			}
+		}
+		#custom_tooltip = { text = EVTOPTD_LT_20410_TT }
+		FROM = { clr_character_flag = dummy } #For portrait to appear in option
+	}
+
+
+	option = {  # Attempt Murder
+		name = EVTOPTC_LT_20410
+		hidden_effect = { FROM = { character_event = { id = LT.20441 days = 1 } } }
+		FROM = { clr_character_flag = dummy } #For portrait to appear in option
+		trigger = { 
+			intrigue = 15
 			# OR = {
 				# intrigue = 15
 				# trait = deceitful
@@ -2572,165 +2288,165 @@ character_event = {
 				# trait = intricate_webweaver
 				# trait = elusive_shadow
 			# }
-		# }
-		# tooltip_info_custom = EVTOPTC_LT_20410_TT
-		# custom_tooltip = { text = EVTOPTC_LT_20410_TT_murder }
-	# }
-# }
+		}
+		tooltip_info_custom = EVTOPTC_LT_20410_TT
+		custom_tooltip = { text = EVTOPTC_LT_20410_TT_murder }
+	}
+}
 
-# character_event = { #The target refused my invitation
-	# id = LT.20412
-	# desc = EVTDESC_LT_20412
+character_event = { #The target refused my invitation
+	id = LT.20412
+	desc = EVTDESC_LT_20412
 
-	# picture = GFX_evt_castle_garden
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_castle_garden
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {}
+	trigger = {}
 
-	# immediate = {}
+	immediate = {}
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20412
-		# if = {
-			# limit = { FROM = { NOT = { has_character_flag = polite_refuse } } }
-			# opinion = {
-				# modifier = opinion_refused_invitation_to_meet
-				# who = FROM
-			# }
-		# }
-	# }
+	option = {  # ok
+		name = EVTOPTA_LT_20412
+		if = {
+			limit = { FROM = { NOT = { has_character_flag = polite_refuse } } }
+			opinion = {
+				modifier = opinion_refused_invitation_to_meet
+				who = FROM
+			}
+		}
+	}
 
-	# after = {
-		# FROM = { clr_character_flag = polite_refuse }
-	# }
-# }
+	after = {
+		FROM = { clr_character_flag = polite_refuse }
+	}
+}
 
-# # We had a nice conversation
-# character_event = { 
-	# id = LT.20421
-	# desc = EVTDESC_LT_20421
+# We had a nice conversation
+character_event = { 
+	id = LT.20421
+	desc = EVTDESC_LT_20421
 
-	# picture = GFX_evt_castle_garden
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_castle_garden
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {}
+	trigger = {}
 
-	# immediate = {
-		# random_list = { 
-			# 20 = { # Nothing
-				# modifier = {
-					# factor = 10 
-					# FROM = { NOT = { diplomacy = 8 } }
-				# }
-				# modifier = {
-					# factor = 0
-					# FROM = { diplomacy = 15 }
-				# }
-			# }
-			# 60 = { set_character_flag = impressed }
-			# 20 = { 
-				# set_character_flag = thoroughly_impressed
-				# modifier = {
-					# factor = 0 
-					# FROM = { NOT = { diplomacy = 8 } }
-				# }
-				# modifier = {
-					# factor = 5
-					# FROM = { diplomacy = 15 }
-				# }
-			# }
-		# }
-	# }
+	immediate = {
+		random_list = { 
+			20 = { # Nothing
+				modifier = {
+					factor = 10 
+					FROM = { NOT = { diplomacy = 8 } }
+				}
+				modifier = {
+					factor = 0
+					FROM = { diplomacy = 15 }
+				}
+			}
+			60 = { set_character_flag = impressed }
+			20 = { 
+				set_character_flag = thoroughly_impressed
+				modifier = {
+					factor = 0 
+					FROM = { NOT = { diplomacy = 8 } }
+				}
+				modifier = {
+					factor = 5
+					FROM = { diplomacy = 15 }
+				}
+			}
+		}
+	}
 
-	# option = { 
-		# name = EVTOPTA_LT_20421
-		# trigger = { has_character_flag = thoroughly_impressed }
-		# opinion = {
-			# modifier = opinion_thoroughly_impressed
-			# who = FROM
-			# months = 24
-		# }
-	# }
+	option = { 
+		name = EVTOPTA_LT_20421
+		trigger = { has_character_flag = thoroughly_impressed }
+		opinion = {
+			modifier = opinion_thoroughly_impressed
+			who = FROM
+			months = 24
+		}
+	}
 
-	# option = { 
-		# name = EVTOPTB_LT_20421
-		# trigger = { has_character_flag = impressed }
-		# opinion = {
-			# modifier = opinion_impressed
-			# who = FROM
-			# months = 12
-		# }
-		# hidden_effect = { FROM = { character_event = { id = LT.20422 } } }
-	# }
+	option = { 
+		name = EVTOPTB_LT_20421
+		trigger = { has_character_flag = impressed }
+		opinion = {
+			modifier = opinion_impressed
+			who = FROM
+			months = 12
+		}
+		hidden_effect = { FROM = { character_event = { id = LT.20422 } } }
+	}
 
-	# option = { 
-		# name = EVTOPTC_LT_20421
-		# trigger = { 
-			# NOR = {
-				# has_character_flag = thoroughly_impressed
-				# has_character_flag = impressed
-			# }
-		# }
-		# hidden_effect = { FROM = { character_event = { id = LT.20422 } } }
-	# }
+	option = { 
+		name = EVTOPTC_LT_20421
+		trigger = { 
+			NOR = {
+				has_character_flag = thoroughly_impressed
+				has_character_flag = impressed
+			}
+		}
+		hidden_effect = { FROM = { character_event = { id = LT.20422 } } }
+	}
 
-	# after = {
-		# clr_character_flag = impressed
-		# clr_character_flag = thoroughly_impressed
-	# }
-# }
+	after = {
+		clr_character_flag = impressed
+		clr_character_flag = thoroughly_impressed
+	}
+}
 
-# #Notification for the initiator that the target was impressed
-# character_event = {
-	# id = LT.20422
-	# desc = EVTDESC_LT_20422
-	# picture = GFX_evt_courtiers_talking
+#Notification for the initiator that the target was impressed
+character_event = {
+	id = LT.20422
+	desc = EVTDESC_LT_20422
+	picture = GFX_evt_courtiers_talking
 	
-	# notification = yes
+	notification = yes
 	
-	# is_triggered_only = yes
-	# hide_from = yes
+	is_triggered_only = yes
+	hide_from = yes
 	
-	# option = {
-		# name = OK
-	# }
-# }
+	option = {
+		name = OK
+	}
+}
 
-# character_event = { #Seduction reaction
-	# id = LT.20431
-	# desc = EVTDESC_LT_20431
+character_event = { #Seduction reaction
+	id = LT.20431
+	desc = EVTDESC_LT_20431
 
-	# picture = GFX_evt_castle_garden
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_castle_garden
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
 
-	# option = { # Kiss back
-		# name = EVTOPTA_LT_20431
-		# FROM = { character_event = { id = LT.20432 days = 1 } }
-		# tooltip = {
-			# add_lover = FROM
-			# opinion = {
-				# modifier = opinion_seduced_attracted
-				# who = FROM
-			# }
-		# }
-		# ai_chance = {
-			# trigger = { 
-				# FROM = { event_target:target_character = { attacted_to_prev_trigger = yes } }
-			# }
-			# modifier = { 
-				# factor = 10
-				# OR = { 
-					# opinion = { who = FROM value = 45 }
-					# has_opinion_modifier = { who = FROM modifier = opinion_budding_romance }
-				# }
-			# }
+	option = { # Kiss back
+		name = EVTOPTA_LT_20431
+		FROM = { character_event = { id = LT.20432 days = 1 } }
+		tooltip = {
+			add_lover = FROM
+			opinion = {
+				modifier = opinion_seduced_attracted
+				who = FROM
+			}
+		}
+		ai_chance = {
+			trigger = { 
+				FROM = { event_target:target_character = { attacted_to_prev_trigger = yes } }
+			}
+			modifier = { 
+				factor = 10
+				OR = { 
+					opinion = { who = FROM value = 45 }
+					has_opinion_modifier = { who = FROM modifier = opinion_budding_romance }
+				}
+			}
 			# modifier = { 
 				# factor = 5
 				# FROM = { 
@@ -2754,16 +2470,17 @@ character_event = {
 					# trait = chaste
 				# }
 			# }
-		# }
-	# }
-	# option = { #refuse
-		# name = EVTOPTB_LT_20431
-		# FROM = { character_event = { id = LT.20434 days = 1} }
-		# FROM = { clr_character_flag = dummy } #For portrait to appear in option
-	# }
-	# option = { #Try to Murder
-		# name = EVTOPTC_LT_20431
-		# trigger = { 
+		}
+	}
+	option = { #refuse
+		name = EVTOPTB_LT_20431
+		FROM = { character_event = { id = LT.20434 days = 1} }
+		FROM = { clr_character_flag = dummy } #For portrait to appear in option
+	}
+	option = { #Try to Murder
+		name = EVTOPTC_LT_20431
+		trigger = { 
+			intrigue = 10
 			# OR = {
 				# intrigue = 10
 				# trait = deceitful
@@ -2775,294 +2492,294 @@ character_event = {
 				# trait = intricate_webweaver
 				# trait = elusive_shadow
 			# }
-		# }
-		# tooltip_info_custom = EVTOPTC_LT_20410_TT
-		# custom_tooltip = { text = EVTOPTC_LT_20410_TT_murder }
-		# set_character_flag = murderer_target
-		# FROM = { character_event = { id = LT.20441 days = 5} }
-		# FROM = { clr_character_flag = dummy } #For portrait to appear in option
-	# }
-# }
+		}
+		tooltip_info_custom = EVTOPTC_LT_20410_TT
+		custom_tooltip = { text = EVTOPTC_LT_20410_TT_murder }
+		set_character_flag = murderer_target
+		FROM = { character_event = { id = LT.20441 days = 5} }
+		FROM = { clr_character_flag = dummy } #For portrait to appear in option
+	}
+}
 
-# character_event = { #We are lovers now
-	# id = LT.20432
-	# desc = EVTDESC_LT_20432
+character_event = { #We are lovers now
+	id = LT.20432
+	desc = EVTDESC_LT_20432
 
-	# picture = GFX_evt_lovers
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20432
-		# add_lover = FROM
-		# reverse_opinion = {
-			# modifier = opinion_seduced_attracted
-			# who = FROM
-		# }
-	# }
-# }
+	option = {  # ok
+		name = EVTOPTA_LT_20432
+		add_lover = FROM
+		reverse_opinion = {
+			modifier = opinion_seduced_attracted
+			who = FROM
+		}
+	}
+}
 
-# character_event = { #Lovers make love
-	# id = LT.20433
-	# desc = EVTDESC_LT_20433
+character_event = { #Lovers make love
+	id = LT.20433
+	desc = EVTDESC_LT_20433
 
-	# picture = GFX_evt_lovers
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_lovers
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20432
-		# random = { 
-			# chance = 30
-			# opinion = { modifier = opinion_budding_romance who = FROM }
-		# }
+	option = {  # ok
+		name = EVTOPTA_LT_20432
+		random = { 
+			chance = 30
+			opinion = { modifier = opinion_budding_romance who = FROM }
+		}
 
-	# }
-# }
-
-
-# character_event = { #I was refused!
-	# id = LT.20434
-	# desc = EVTDESC_LT_20434
-
-	# picture = GFX_evt_bad_news
-	# border = GFX_event_normal_frame_intrigue
-
-	# is_triggered_only = yes
-
-	# option = {  # ok
-		# name = EVTOPTA_LT_20434
-		# reverse_opinion = {
-			# modifier = opinion_dislike
-			# who = FROM
-			# years = 1
-		# }
-		# prestige = -10
-		# opinion = {
-			# modifier = opinion_advance_rejected
-			# who = FROM
-		# }
-	# }
-# }
+	}
+}
 
 
-# character_event = { #Murder attempt Reaction. This event can happen to either character
-	# id = LT.20441
-	# desc = {
-		# text = EVTDESC_LT_20441
-		# trigger = { FROM = { NOT = { has_character_flag = murderer_target } } }
-	# }
-	# desc = {
-		# text = EVTDESC_LT_20441_murderer_target
-		# trigger = { FROM = { has_character_flag = murderer_target } }
-	# }
+character_event = { #I was refused!
+	id = LT.20434
+	desc = EVTDESC_LT_20434
 
-	# picture = GFX_evt_assassination
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
+
+	option = {  # ok
+		name = EVTOPTA_LT_20434
+		reverse_opinion = {
+			modifier = opinion_dislike
+			who = FROM
+			years = 1
+		}
+		prestige = -10
+		opinion = {
+			modifier = opinion_advance_rejected
+			who = FROM
+		}
+	}
+}
+
+
+character_event = { #Murder attempt Reaction. This event can happen to either character
+	id = LT.20441
+	desc = {
+		text = EVTDESC_LT_20441
+		trigger = { FROM = { NOT = { has_character_flag = murderer_target } } }
+	}
+	desc = {
+		text = EVTDESC_LT_20441_murderer_target
+		trigger = { FROM = { has_character_flag = murderer_target } }
+	}
+
+	picture = GFX_evt_assassination
+	border = GFX_event_normal_frame_intrigue
+
+	is_triggered_only = yes
 
 	
-	# option = { #Run away
-		# name = EVTOPTA_LT_20441
-		# random_list = {
-			# 25 = {
-				# custom_tooltip = { text = EVTOPTA_LT_20441_TT_escape }
+	option = { #Run away
+		name = EVTOPTA_LT_20441
+		random_list = {
+			25 = {
+				custom_tooltip = { text = EVTOPTA_LT_20441_TT_escape }
 				# modifier = { factor = 3 trait = quick }
 				# modifier = { factor = 2 trait = genius }
 				# modifier = { factor = 5 trait = duelist }
 				# modifier = { factor = 2 trait = shrewd }
-				# character_event = { id = LT.20450 days = 3 }
-				# FROM = { character_event = { id = LT.20460 } }
-			# }
-			# 50 = {
-				# custom_tooltip = { text = EVTOPTA_LT_20441_TT_wounded }
-				# add_trait = wounded
-				# set_character_flag = wounded_in_attempt
-				# character_event = { id = LT.20450 days = 3 }
-				# FROM = { character_event = { id = LT.20460 } }
-			# }
-			# 25 = {  #Dead
-				# custom_tooltip = { text = EVTOPTA_LT_20441_TT_dead }
-				# character_event = { id = LT.20455 days = 3 }
-				# FROM = { character_event = { id = LT.20465 } }
-			# }
-		# }
+				character_event = { id = LT.20450 days = 3 }
+				FROM = { character_event = { id = LT.20460 } }
+			}
+			50 = {
+				custom_tooltip = { text = EVTOPTA_LT_20441_TT_wounded }
+				add_trait = moderate_injury
+				set_character_flag = wounded_in_attempt
+				character_event = { id = LT.20450 days = 3 }
+				FROM = { character_event = { id = LT.20460 } }
+			}
+			25 = {  #Dead
+				custom_tooltip = { text = EVTOPTA_LT_20441_TT_dead }
+				character_event = { id = LT.20455 days = 3 }
+				FROM = { character_event = { id = LT.20465 } }
+			}
+		}
 
-		# ai_chance = {
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 50 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 40 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 30 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 20 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 10 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 55 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 45 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 35 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 25 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 15 } }
-			# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 05 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -05 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -10 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -20 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -30 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -40 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -50 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -15 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -25 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -35 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -45 } }
-			# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -55 } }
-		# }
-	# }
-	# option = { #Fight
-		# name = EVTOPTB_LT_20441
-		# set_character_flag = murder_fight
-		# FROM = { set_character_flag = murder_fight }
-		# random_list = {
-			# 50 = {
-				# custom_tooltip = { text = EVTOPTB_LT_20441_TT_win }
-				# character_event = { id = LT.20465  }
-				# FROM = { character_event = { id = LT.20455 } }
-			# }
-			# 50 = {  #Dead
-				# custom_tooltip = { text = EVTOPTB_LT_20441_TT_lose }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 50 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 40 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 30 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 20 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 10 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 55 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 45 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 35 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 25 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 15 } }
-				# modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 05 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -05 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -10 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -20 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -30 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -40 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -50 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -15 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -25 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -35 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -45 } }
-				# modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -55 } }
-				# character_event = { id = LT.20455  }
-				# FROM = { character_event = { id = LT.20465 } }
-			# }
-		# }
-	# }
-	# after = {
-		# opinion = {
-			# modifier = opinion_murder_attempt
-			# who = FROM
-		# }
-		# clr_character_flag = murderer_target
-	# }
-# }
+		ai_chance = {
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 50 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 40 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 30 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 20 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 10 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 55 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 45 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 35 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 25 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 15 } }
+			modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 05 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -05 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -10 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -20 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -30 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -40 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -50 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -15 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -25 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -35 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -45 } }
+			modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -55 } }
+		}
+	}
+	option = { #Fight
+		name = EVTOPTB_LT_20441
+		set_character_flag = murder_fight
+		FROM = { set_character_flag = murder_fight }
+		random_list = {
+			50 = {
+				custom_tooltip = { text = EVTOPTB_LT_20441_TT_win }
+				character_event = { id = LT.20465  }
+				FROM = { character_event = { id = LT.20455 } }
+			}
+			50 = {  #Dead
+				custom_tooltip = { text = EVTOPTB_LT_20441_TT_lose }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 50 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 40 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 30 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 20 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 10 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 55 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 45 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 35 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 25 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 15 } }
+				modifier = { factor = 0.75 combat_rating_diff = { character = FROM  value = 05 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -05 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -10 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -20 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -30 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -40 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -50 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -15 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -25 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -35 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -45 } }
+				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -55 } }
+				character_event = { id = LT.20455  }
+				FROM = { character_event = { id = LT.20465 } }
+			}
+		}
+	}
+	after = {
+		opinion = {
+			modifier = opinion_murder_attempt
+			who = FROM
+		}
+		clr_character_flag = murderer_target
+	}
+}
 
-# # I escaped alive from the murder attempt!
-# character_event = { 
-	# id = LT.20450
-	# desc = {
-		# trigger = { NOT = { has_character_flag = wounded_in_attempt } }
-		# text = EVTDESC_LT_20450
-		# picture = GFX_evt_bad_news
-	# }
-	# desc = {
-		# trigger = { has_character_flag = wounded_in_attempt }
-		# text = EVTDESC_LT_20450_wounded
-		# picture = GFX_evt_court_physician
-	# }
+# I escaped alive from the murder attempt!
+character_event = { 
+	id = LT.20450
+	desc = {
+		trigger = { NOT = { has_character_flag = wounded_in_attempt } }
+		text = EVTDESC_LT_20450
+		picture = GFX_evt_bad_news
+	}
+	desc = {
+		trigger = { has_character_flag = wounded_in_attempt }
+		text = EVTDESC_LT_20450_wounded
+		picture = GFX_evt_court_physician
+	}
 
-	# picture = GFX_evt_bad_news
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20450
+	option = {  # ok
+		name = EVTOPTA_LT_20450
 		# random = { 
 			# chance = 50 
 			# add_trait_stressed_effect = yes
 		# }
-	# }
-# }
+	}
+}
 
-# # I am dying
-# character_event = { 
-	# id = LT.20455
-	# desc = EVTDESC_LT_20455
+# I am dying
+character_event = { 
+	id = LT.20455
+	desc = EVTDESC_LT_20455
 
-	# picture = GFX_evt_danse_macabre
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_danse_macabre
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20455
-		# death = { death_reason = death_murder }
-	# }
-# }
+	option = {  # ok
+		name = EVTOPTA_LT_20455
+		death = { death_reason = death_murder }
+	}
+}
 
-# # I failed the murder attempt
-# character_event = { 
-	# id = LT.20460
-	# desc = {
-		# trigger = { FROM = { NOT = { has_character_flag = wounded_in_attempt } } }
-		# text = EVTDESC_LT_20460
-	# }
-	# desc = {
-		# trigger = { FROM = { has_character_flag = wounded_in_attempt } } 
-		# text = EVTDESC_LT_20460_wounded
-	# }
+# I failed the murder attempt
+character_event = { 
+	id = LT.20460
+	desc = {
+		trigger = { FROM = { NOT = { has_character_flag = wounded_in_attempt } } }
+		text = EVTDESC_LT_20460
+	}
+	desc = {
+		trigger = { FROM = { has_character_flag = wounded_in_attempt } } 
+		text = EVTDESC_LT_20460_wounded
+	}
 
-	# picture = GFX_evt_bad_news
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_bad_news
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20450
+	option = {  # ok
+		name = EVTOPTA_LT_20450
 		# random = { 
 			# chance = 50 
 			# add_trait_stressed_effect = yes
 		# }
-	# }
-	# after = { FROM = { clr_character_flag = wounded_in_attempt } }
-# }
+	}
+	after = { FROM = { clr_character_flag = wounded_in_attempt } }
+}
 
-# # I killed the other
-# character_event = { 
-	# id = LT.20465
-	# desc = {
-		# trigger = { has_character_flag = murder_fight }
-		# text = EVTDESC_LT_20465_fight
-	# }
-	# desc = {
-		# trigger = {
-			# NOT = { has_character_flag = murder_fight }
-		# }
-		# text = EVTDESC_LT_20465
-	# }
+# I killed the other
+character_event = { 
+	id = LT.20465
+	desc = {
+		trigger = { has_character_flag = murder_fight }
+		text = EVTDESC_LT_20465_fight
+	}
+	desc = {
+		trigger = {
+			NOT = { has_character_flag = murder_fight }
+		}
+		text = EVTDESC_LT_20465
+	}
 
-	# picture = GFX_evt_danse_macabre
-	# border = GFX_event_normal_frame_intrigue
+	picture = GFX_evt_danse_macabre
+	border = GFX_event_normal_frame_intrigue
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# option = {  # ok
-		# name = EVTOPTA_LT_20465
-	# }
-	# after = { clr_character_flag = murder_fight } 
-# }
+	option = {  # ok
+		name = EVTOPTA_LT_20465
+	}
+	after = { clr_character_flag = murder_fight } 
+}
 
 
 
-# ## Event for burying the character´s predecessor if having wonder upgrade with burial flag
+## Event for burying the character´s predecessor if having wonder upgrade with burial flag
 
 
 # # Setting up event, fires on the dead ruler (on_death)
