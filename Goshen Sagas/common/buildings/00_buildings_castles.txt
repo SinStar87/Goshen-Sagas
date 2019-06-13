@@ -112,7 +112,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 0 }
+		trigger = { TECH_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 50
@@ -130,7 +130,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 1 }
+		trigger = { TECH_INFANTRY = 1 }
 		upgrades_from = ca_barracks_1
 		gold_cost = 50
 		build_time = 182
@@ -149,7 +149,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 2 }
+		trigger = { TECH_INFANTRY = 2 }
 		upgrades_from = ca_barracks_2
 		gold_cost = 50
 		build_time = 182
@@ -168,7 +168,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 3 }
+		trigger = { TECH_INFANTRY = 3 }
 		upgrades_from = ca_barracks_3
 		gold_cost = 50
 		build_time = 182
@@ -187,7 +187,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 4 }
+		trigger = { TECH_INFANTRY = 4 }
 		upgrades_from = ca_barracks_4
 		gold_cost = 50
 		build_time = 182
@@ -206,7 +206,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 5 }
+		trigger = { TECH_INFANTRY = 5 }
 		upgrades_from = ca_barracks_5
 		gold_cost = 50
 		build_time = 182
@@ -225,7 +225,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 6 }
+		trigger = { TECH_INFANTRY = 6 }
 		upgrades_from = ca_barracks_6
 		gold_cost = 50
 		build_time = 182
@@ -244,7 +244,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 7 }
+		trigger = { TECH_INFANTRY = 7 }
 		upgrades_from = ca_barracks_7
 		gold_cost = 50
 		build_time = 182
@@ -263,7 +263,7 @@ castle = {
 				culture = gawei
 			}
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 8 }
+		trigger = { TECH_INFANTRY = 8 }
 		upgrades_from = ca_barracks_8
 		gold_cost = 50
 		build_time = 182
@@ -281,7 +281,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 0 }
+		trigger = { TECH_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 50
@@ -296,7 +296,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 1 }
+		trigger = { TECH_INFANTRY = 1 }
 		upgrades_from = ca_a_barracks_1
 		gold_cost = 50
 		build_time = 182
@@ -312,7 +312,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 2 }
+		trigger = { TECH_INFANTRY = 2 }
 		upgrades_from = ca_a_barracks_2
 		gold_cost = 50
 		build_time = 182
@@ -328,7 +328,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 3 }
+		trigger = { TECH_INFANTRY = 3 }
 		upgrades_from = ca_a_barracks_3
 		gold_cost = 50
 		build_time = 182
@@ -344,7 +344,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 4 }
+		trigger = { TECH_INFANTRY = 4 }
 		upgrades_from = ca_a_barracks_4
 		gold_cost = 50
 		build_time = 182
@@ -360,7 +360,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 5 }
+		trigger = { TECH_INFANTRY = 5 }
 		upgrades_from = ca_a_barracks_5
 		gold_cost = 50
 		build_time = 182
@@ -376,7 +376,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 6 }
+		trigger = { TECH_INFANTRY = 6 }
 		upgrades_from = ca_a_barracks_6
 		gold_cost = 50
 		build_time = 182
@@ -392,7 +392,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 7 }
+		trigger = { TECH_INFANTRY = 7 }
 		upgrades_from = ca_a_barracks_7
 		gold_cost = 50
 		build_time = 182
@@ -408,7 +408,7 @@ castle = {
 		potential = {
 			culture = abimelech
 		}
-		trigger = { TECH_HEAVY_INFANTRY = 8 }
+		trigger = { TECH_INFANTRY = 8 }
 		upgrades_from = ca_a_barracks_8
 		gold_cost = 50
 		build_time = 182
@@ -426,7 +426,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		trigger = { TECH_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 50
@@ -441,7 +441,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 1 }
+		trigger = { TECH_INFANTRY = 1 }
 		upgrades_from = ca_g_barracks_1
 		gold_cost = 50
 		build_time = 182
@@ -457,7 +457,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 2 }
+		trigger = { TECH_INFANTRY = 2 }
 		upgrades_from = ca_g_barracks_2
 		gold_cost = 50
 		build_time = 182
@@ -473,7 +473,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 3 }
+		trigger = { TECH_INFANTRY = 3 }
 		upgrades_from = ca_g_barracks_3
 		gold_cost = 50
 		build_time = 182
@@ -489,7 +489,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 4 }
+		trigger = { TECH_INFANTRY = 4 }
 		upgrades_from = ca_g_barracks_4
 		gold_cost = 50
 		build_time = 182
@@ -505,7 +505,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 5 }
+		trigger = { TECH_INFANTRY = 5 }
 		upgrades_from = ca_g_barracks_5
 		gold_cost = 50
 		build_time = 182
@@ -521,7 +521,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 6 }
+		trigger = { TECH_INFANTRY = 6 }
 		upgrades_from = ca_g_barracks_6
 		gold_cost = 50
 		build_time = 182
@@ -537,7 +537,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 7 }
+		trigger = { TECH_INFANTRY = 7 }
 		upgrades_from = ca_g_barracks_7
 		gold_cost = 50
 		build_time = 182
@@ -553,7 +553,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 8 }
+		trigger = { TECH_INFANTRY = 8 }
 		upgrades_from = ca_g_barracks_8
 		gold_cost = 50
 		build_time = 182
@@ -573,7 +573,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		trigger = { TECH_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		archers = 50
@@ -588,7 +588,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 1 }
+		trigger = { TECH_INFANTRY = 1 }
 		upgrades_from = ca_bowyer_1
 		gold_cost = 50
 		build_time = 182
@@ -604,7 +604,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 2 }
+		trigger = { TECH_INFANTRY = 2 }
 		upgrades_from = ca_bowyer_2
 		gold_cost = 50
 		build_time = 182
@@ -620,7 +620,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 3 }
+		trigger = { TECH_INFANTRY = 3 }
 		upgrades_from = ca_bowyer_3
 		gold_cost = 50
 		build_time = 182
@@ -636,7 +636,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 4 }
+		trigger = { TECH_INFANTRY = 4 }
 		upgrades_from = ca_bowyer_4
 		gold_cost = 50
 		build_time = 182
@@ -652,7 +652,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 5 }
+		trigger = { TECH_INFANTRY = 5 }
 		upgrades_from = ca_bowyer_5
 		gold_cost = 50
 		build_time = 182
@@ -668,7 +668,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 6 }
+		trigger = { TECH_INFANTRY = 6 }
 		upgrades_from = ca_bowyer_6
 		gold_cost = 50
 		build_time = 182
@@ -684,7 +684,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 7 }
+		trigger = { TECH_INFANTRY = 7 }
 		upgrades_from = ca_bowyer_7
 		gold_cost = 50
 		build_time = 182
@@ -700,7 +700,7 @@ castle = {
 				culture = grey_tribes
 			}
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 8 }
+		trigger = { TECH_INFANTRY = 8 }
 		upgrades_from = ca_bowyer_8
 		gold_cost = 50
 		build_time = 182
@@ -716,7 +716,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 0 }
+		trigger = { TECH_INFANTRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		archers = 75
@@ -729,7 +729,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 1 }
+		trigger = { TECH_INFANTRY = 1 }
 		upgrades_from = ca_gt_bowyer_1
 		gold_cost = 50
 		build_time = 182
@@ -743,7 +743,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 2 }
+		trigger = { TECH_INFANTRY = 2 }
 		upgrades_from = ca_gt_bowyer_2
 		gold_cost = 50
 		build_time = 182
@@ -757,7 +757,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 3 }
+		trigger = { TECH_INFANTRY = 3 }
 		upgrades_from = ca_gt_bowyer_3
 		gold_cost = 50
 		build_time = 182
@@ -771,7 +771,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 4 }
+		trigger = { TECH_INFANTRY = 4 }
 		upgrades_from = ca_gt_bowyer_4
 		gold_cost = 50
 		build_time = 182
@@ -785,7 +785,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 5 }
+		trigger = { TECH_INFANTRY = 5 }
 		upgrades_from = ca_gt_bowyer_5
 		gold_cost = 50
 		build_time = 182
@@ -799,7 +799,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 6 }
+		trigger = { TECH_INFANTRY = 6 }
 		upgrades_from = ca_gt_bowyer_6
 		gold_cost = 50
 		build_time = 182
@@ -813,7 +813,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 7 }
+		trigger = { TECH_INFANTRY = 7 }
 		upgrades_from = ca_gt_bowyer_7
 		gold_cost = 50
 		build_time = 182
@@ -827,7 +827,7 @@ castle = {
 		potential = {
 			culture = grey_tribes
 		}
-		trigger = { TECH_LIGHT_INFANTRY = 8 }
+		trigger = { TECH_INFANTRY = 8 }
 		upgrades_from = ca_gt_bowyer_8
 		gold_cost = 50
 		build_time = 182
