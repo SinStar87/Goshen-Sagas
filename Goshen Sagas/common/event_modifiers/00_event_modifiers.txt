@@ -239,4 +239,21 @@ forging_legend_martial_law_2 = {
 	icon = 29
 	global_revolt_risk = 0.05
 	vassal_opinion = -10
+}naive_host = {
+	icon = 7
+	monthly_character_prestige = 0.05
+	kind_opinion = 10
+	charitable_opinion = 10
+}
+generous_host = {
+	icon = 7
+	monthly_character_prestige = 0.15
+}
+calculating_host = {
+	icon = 5
+	defensive_plot_power_modifier = 0.15
+}
+ruthless_host = {
+	icon = 5
+	plot_power_modifier = 0.15
 }

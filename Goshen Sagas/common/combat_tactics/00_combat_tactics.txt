@@ -24,7 +24,30 @@ generic_skirmish_tactic = {
 
 	mean_time_to_happen = {
 		days = 3
+
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 2 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 4 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 6 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 8 } } }
+		}
 	}
+
+
 
 }
 
@@ -193,6 +216,26 @@ disorganised_harass_tactic = {
 					value = 0.9
 				}
 			}
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 2 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 4 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 6 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 8 } } }
 		}
 	}
 
@@ -539,7 +582,27 @@ disorganised_swarm_tactic = {
 				who = horse_archers
 				value = 0.9
 			}
-		}	
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 2 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 4 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 6 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 8 } } }
+		}
 	}
 
 	light_cavalry_offensive = -1.5
@@ -810,6 +873,26 @@ prepare_tactic = {
 				martial = 16
 			}
 		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 2 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 4 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 6 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_SKIRMISH = 8 } } }
+		}
 	}
 	
 	change_phase_to = melee
@@ -950,6 +1033,26 @@ wait_tactic = {
 			leader = {
 				martial = 16
 			}
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_MELEE = 2 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_MELEE = 4 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_MELEE = 6 } } }
+		}
+		modifier = {
+			factor = 0.80
+			flank_has_leader = yes
+			leader = { liege = { capital_scope = { TECH_MELEE = 8 } } }
 		}
 	}
 }
@@ -1809,6 +1912,16 @@ clever_ambush_tactic = {
 				trait = genius
 				trait = shrewd
 			}
+			NOR = {
+				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
+				AND = { 
+					OR = { 
+						is_ruler = no 
+						is_playable = no
+					}
+					liege = { any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } } }
+				}
+			}
 		}
 		location = {
 			OR = {
@@ -1931,7 +2044,19 @@ retreat_and_ambush_tactic = {
 		phase = melee
 		horse_archers = 0.2
 		flank_has_leader = yes
-		leader = { culture_group = altaic }
+		leader = { 
+			culture_group = altaic 
+			NOR = {
+				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
+				AND = { 
+					OR = { 
+						is_ruler = no 
+						is_playable = no
+					}
+					liege = { any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } } }
+				}
+			}
+		}
 		location = { 
 			NOT = { terrain = forest }
 			NOT = { terrain = woods }
@@ -2104,7 +2229,12 @@ pike_column_advance_tactic = {
 		phase = melee
 		pikemen = 0.01
 		flank_has_leader = yes
-		leader = { culture = italian }
+		leader = { 
+			OR = { 
+				culture = italian 
+				culture = roman
+			} 
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2300,6 +2430,16 @@ mountain_ambush_tactic = {
 		leader = {
 			martial = 9
 			culture_group = tibetan_group
+			NOR = {
+				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
+				AND = { 
+					OR = { 
+						is_ruler = no 
+						is_playable = no
+					}
+					liege = { any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } } }
+				}
+			}
 		}
 		location = {
 			OR = {
@@ -2359,7 +2499,19 @@ desert_ambush_tactic = {
 		}
 		light_infantry = 0.1
 		flank_has_leader = yes
-		leader = { culture_group = arabic }
+		leader = { 
+			culture_group = arabic
+			NOR = {
+				any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } }
+				AND = { 
+					OR = { 
+						is_ruler = no 
+						is_playable = no
+					}
+					liege = { any_current_enemy = { has_opinion_modifier = { who = PREV modifier = opinion_honorable_combat } } }
+				}
+			}
+		}
 		location = { terrain = desert }
 	}
 

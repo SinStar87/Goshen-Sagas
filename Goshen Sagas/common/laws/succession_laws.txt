@@ -10,24 +10,23 @@ succession_laws = {
 	
 		potential = {
 			holder_scope = {
-				is_merchant_republic = no
-				is_patrician = no
-			}
-			OR = {
-				holder_scope = { # Viceroyalties can always have primogeniture if not muslim
-					any_demesne_title = {
-						is_vice_royalty = yes
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
 					}
 				}
-					holder_scope = {
-						OR = {
-							independent = yes
-							NOT = {
-								any_liege = {
-									holy_order = yes
-								}
-							}
+				is_merchant_republic = no
+				is_patrician = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
 						}
+					}
 						OR = {
 							government = feudal_government
 							government = feudal_government_gawei

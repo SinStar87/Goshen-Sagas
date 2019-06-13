@@ -373,6 +373,7 @@ this_has_lame_nickname_trigger = {
 		has_nickname = nick_the_fair
 		has_nickname = nick_the_hideous
 		has_nickname = nick_the_frog
+		has_nickname = nick_the_tenacious
 		has_nickname = nick_the_repulsive
 		has_nickname = nick_the_mad
 		has_nickname = nick_the_fat
@@ -566,6 +567,9 @@ this_has_average_nickname_trigger = {
 		has_nickname = nick_the_guide
 		has_nickname = nick_the_elder
 		has_nickname = nick_the_knight_of_turnips
+		has_nickname = nick_the_festive
+		has_nickname = nick_the_burden
+		has_nickname = nick_the_snake
 	}
 }
 this_has_cool_nickname_trigger = {

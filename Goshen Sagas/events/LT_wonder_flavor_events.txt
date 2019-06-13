@@ -2079,6 +2079,7 @@ character_event = {
     }
 }
 
+# They only laughed at me!
 character_event = {
 	id = LT.20310
     desc = EVTDESC_LT_20310
@@ -2128,7 +2129,7 @@ character_event = { #invitation
 	trigger = {
 		event_target:target_wonder = {
 			wonder_owner = {
-				character = FROM
+				character = FROMFROM
 			}
 		}
 	}
@@ -2237,8 +2238,21 @@ character_event = { #What happens at the meeting
 		trigger = {
 			NOT = { is_lover = FROM }
 		}
+
+		if = {
+			limit = {
+				OR = {
+					NOT = { is_close_relative = FROM }
+					FROM = { any_spouse = { character = ROOT } }
+				}
+			}
+			custom_tooltip = { text = EVTOPTB_LT_20410_TT }
+		}
+		else = {
+			custom_tooltip = { text = EVTOPTB_LT_20410_TT_unlikely }
+		}
+
 		FROM = { character_event = { id = LT.20431 days = 1 } }
-		custom_tooltip = { text = EVTOPTB_LT_20410_TT }
 		FROM = { clr_character_flag = dummy } #For portrait to appear in option
 	}
 
@@ -2248,14 +2262,15 @@ character_event = { #What happens at the meeting
 		trigger = {
 			is_lover = FROM
 		}
+		custom_tooltip = { text = EVTOPTD_LT_20410_TT }
 		FROM = { character_event = { id = LT.20433 days = 1 } }
-		if = {
-			limit = { trait = stressed }
-			random = {
-				chance = 30
-				remove_trait = stressed
-			}
-		}
+		# if = {
+			# limit = { trait = stressed }
+			# random = {
+				# chance = 30
+				# remove_trait = stressed
+			# }
+		# }
 		random = { 
 			chance = 30
 			opinion = { modifier = opinion_budding_romance who = FROM }
@@ -2266,7 +2281,6 @@ character_event = { #What happens at the meeting
 				reverse_opinion = { modifier = opinion_budding_romance who = FROM }
 			}
 		}
-		#custom_tooltip = { text = EVTOPTD_LT_20410_TT }
 		FROM = { clr_character_flag = dummy } #For portrait to appear in option
 	}
 
@@ -2426,8 +2440,11 @@ character_event = { #Seduction reaction
 	is_triggered_only = yes
 
 
-	option = { # Kiss back
+	option = { # I want you too!
 		name = EVTOPTA_LT_20431
+		custom_tooltip = {
+			text = EVTOPTC_LT_20431_TT
+		}
 		FROM = { character_event = { id = LT.20432 days = 1 } }
 		tooltip = {
 			add_lover = FROM
@@ -2471,7 +2488,45 @@ character_event = { #Seduction reaction
 				# }
 			# }
 		}
+		trigger = {
+			OR = {
+				NOT = { is_close_relative = FROM }
+				any_spouse = { character = FROM }
+				ai = no
+			}
+		}
 	}
+	option = { # I'm not looking for anything "serious"
+		name = EVTOPTA_LT_20431_no_love
+		set_character_flag = not_serious_romance
+		custom_tooltip = {
+			text = EVTOPTC_LT_20431_TT_not_serious_romance
+		}
+		FROM = { character_event = { id = LT.20432 days = 1 } }
+		tooltip = {
+			reverse_opinion = {
+				modifier = opinion_seduced_attracted
+				who = FROM
+			}
+		}
+		ai_chance = {
+			trigger = { 
+				FROM = { event_target:target_character = { attacted_to_prev_trigger = yes } }
+			}
+			modifier = { 
+				factor = 1.5
+				has_lover = yes
+			}
+		}
+		trigger = {
+			OR = {
+				NOT = { is_close_relative = FROM }
+				any_spouse = { character = FROM }
+				ai = no
+			}
+		}
+	}
+
 	option = { #refuse
 		name = EVTOPTB_LT_20431
 		FROM = { character_event = { id = LT.20434 days = 1} }
@@ -2503,20 +2558,56 @@ character_event = { #Seduction reaction
 
 character_event = { #We are lovers now
 	id = LT.20432
-	desc = EVTDESC_LT_20432
-
 	picture = GFX_evt_lovers
 	border = GFX_event_normal_frame_intrigue
 
 	is_triggered_only = yes
 
-	option = {  # ok
-		name = EVTOPTA_LT_20432
-		add_lover = FROM
-		reverse_opinion = {
-			modifier = opinion_seduced_attracted
-			who = FROM
+	desc = {
+		text = EVTDESC_LT_20432_A
+		trigger = {
+			FROM = { has_character_flag = not_serious_romance }
 		}
+	}
+	desc = {
+		text = EVTDESC_LT_20432_B
+		trigger = {
+			FROM = { NOT = { has_character_flag = not_serious_romance } }
+		}
+	}
+
+	option = {  	
+		name = {
+			text = EVTOPTA_LT_20432_A # I just want them more
+			trigger = {
+				FROM = { has_character_flag = not_serious_romance }
+			}
+		}
+		name = {
+			text = EVTOPTA_LT_20432_B # life is good
+			trigger = {
+				FROM = { NOT = { has_character_flag = not_serious_romance } }
+			}
+		}
+
+
+		if = {
+			limit = {
+				FROM = { has_character_flag = not_serious_romance }
+			}
+			reverse_opinion = {
+				modifier = opinion_seduced_attracted
+				who = FROM
+			}	
+		}
+		else = {
+			add_lover = FROM
+			reverse_opinion = {
+				modifier = opinion_seduced_attracted
+				who = FROM
+			}
+		}
+		FROM = { clr_character_flag = not_serious_romance }
 	}
 }
 
@@ -2551,12 +2642,12 @@ character_event = { #I was refused!
 
 	option = {  # ok
 		name = EVTOPTA_LT_20434
+		prestige = -10
 		reverse_opinion = {
 			modifier = opinion_dislike
 			who = FROM
 			years = 1
 		}
-		prestige = -10
 		opinion = {
 			modifier = opinion_advance_rejected
 			who = FROM
@@ -2581,6 +2672,9 @@ character_event = { #Murder attempt Reaction. This event can happen to either ch
 
 	is_triggered_only = yes
 
+	immediate = {
+		FROM = { save_event_target_as = murderer }
+	}
 	
 	option = { #Run away
 		name = EVTOPTA_LT_20441
@@ -2604,7 +2698,9 @@ character_event = { #Murder attempt Reaction. This event can happen to either ch
 			25 = {  #Dead
 				custom_tooltip = { text = EVTOPTA_LT_20441_TT_dead }
 				character_event = { id = LT.20455 days = 3 }
-				FROM = { character_event = { id = LT.20465 } }
+				FROM = {
+					character_event = { id = LT.20465 }
+				}
 			}
 		}
 
@@ -2668,7 +2764,9 @@ character_event = { #Murder attempt Reaction. This event can happen to either ch
 				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -45 } }
 				modifier = { factor = 1.5 combat_rating_diff = { character = FROM  value < -55 } }
 				character_event = { id = LT.20455  }
-				FROM = { character_event = { id = LT.20465 } }
+				FROM = {
+					character_event = { id = LT.20465 }
+				}
 			}
 		}
 	}
@@ -2779,56 +2877,56 @@ character_event = {
 
 
 
-## Event for burying the character´s predecessor if having wonder upgrade with burial flag
+# Event for burying the character´s predecessor if having wonder upgrade with burial flag
 
 
-# # Setting up event, fires on the dead ruler (on_death)
-# character_event = {
-	# id = LT.20501
-	# hide_window = yes
-    # is_triggered_only = yes
+# Setting up event, fires on the dead ruler (on_death)
+character_event = {
+	id = LT.20501
+	hide_window = yes
+    is_triggered_only = yes
 
-    # only_independent = yes
+    only_independent = yes
 
-    # trigger = {
-    	# realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
-    # }
+    trigger = {
+    	realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
+    }
 
-    # immediate = { 
-    	# save_event_target_as = target_dead_ruler
+    immediate = { 
+    	save_event_target_as = target_dead_ruler
 
-    	# any_realm_character = {
-    		# limit = { opinion = { who = ROOT value = 20 } }
-    		# set_character_flag = liked_dead_ruler_@ROOT
-    	# }
-    	# any_realm_character = {
-    		# limit = { opinion = { who = ROOT value < -50 } } 
-    		# set_character_flag = hated_dead_ruler_@ROOT
-    	# }
-
-
-
-    	# current_heir = {
-    		# character_event = { id = LT.20510 days = 1 }
-    	# }
-    # }
-# }
+    	any_realm_character = {
+    		limit = { opinion = { who = ROOT value = 20 } }
+    		set_character_flag = liked_dead_ruler_@ROOT
+    	}
+    	any_realm_character = {
+    		limit = { opinion = { who = ROOT value < -50 } } 
+    		set_character_flag = hated_dead_ruler_@ROOT
+    	}
 
 
 
-# character_event = {
-	# id = LT.20510
-	# title = EVT_TITLE_LT_20510
+    	current_heir = {
+    		character_event = { id = LT.20510 days = 1 }
+    	}
+    }
+}
+
+
+
+character_event = {
+	id = LT.20510
+	title = EVT_TITLE_LT_20510
 	# desc = {
 		# trigger = { religion_group = pagan_group }
 		# text = EVTDESC_LT_20510_pagan
 		# picture = GFX_evt_bad_news
 	# }
-	# desc = {
+	desc = {
 		# trigger = { religion_group = christian }
-		# text = EVTDESC_LT_20510_christian
-		# picture = GFX_evt_bad_news
-	# }
+		text = EVTDESC_LT_20510_christian
+		picture = GFX_evt_bad_news
+	}
 	# desc = {
 		# trigger = { religion_group = muslim }
 		# text = EVTDESC_LT_20510_muslim
@@ -2845,102 +2943,102 @@ character_event = {
 		# picture = GFX_evt_bad_news
 	# }
 
-	# picture = GFX_evt_treasure_chamber
-	# border = GFX_event_normal_frame_religion
+	picture = GFX_evt_treasure_chamber
+	border = GFX_event_normal_frame_religion
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {
-		# is_alive = yes
-		# is_inaccessible_trigger = no
-		# realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
-	# }
+	trigger = {
+		is_alive = yes
+		is_inaccessible_trigger = no
+		realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
+	}
 	
-	# immediate = {
-		# random_realm_wonder = {
-			# limit = {
-				# is_active = yes
-				# has_wonder_flag = burial_ground
-			# }
-			# save_event_target_as = target_wonder
-		# }
-		# if = {
-			# limit = { NOT = { event_target:target_wonder = { always = yes } } }
-			# random_realm_wonder_upgrade = {
-				# limit = {
-					# is_active = yes
-					# has_wonder_upgrade_flag = burial_ground
-				# }
-				# save_event_target_as = target_upgrade
-				# wonder = { save_event_target_as = target_wonder }
-			# }
-		# }
-	# }
+	immediate = {
+		random_realm_wonder = {
+			limit = {
+				is_active = yes
+				has_wonder_flag = burial_ground
+			}
+			save_event_target_as = target_wonder
+		}
+		if = {
+			limit = { NOT = { event_target:target_wonder = { always = yes } } }
+			random_realm_wonder_upgrade = {
+				limit = {
+					is_active = yes
+					has_wonder_upgrade_flag = burial_ground
+				}
+				save_event_target_as = target_upgrade
+				wonder = { save_event_target_as = target_wonder }
+			}
+		}
+	}
 
-	# option = { #The most expensive
-		# name = EVTOPTA_LT_20510
-		# custom_tooltip = { text = EVTOPTA_LT_20510_TT }
-		# scaled_wealth = { value = -0.5 min = -100 max = -400}
-		# set_character_flag = big_burial
-		# character_event = { id = LT.20520  days = 10 }
-	# }
-	# option = { #A Reasonable amount 
-		# name = EVTOPTB_LT_20510
-		# custom_tooltip = { text = EVTOPTB_LT_20510_TT }
-		# scaled_wealth = { value = -0.3 min = -50 max = -200}
-		# set_character_flag = normal_burial
-		# character_event = { id = LT.20520  days = 5}
-	# }
-	# option = { #The cheapest
-		# name = EVTOPTC_LT_20510
-		# scaled_wealth = { value = -0.1 min = -10 max = -100}
-		# prestige = -20
-		# piety = 10
-	# }
-	# option = { #S/He does not deserve proper burial
-		# name = EVTOPTD_LT_20510
-		# custom_tooltip = { text = EVTOPTD_LT_20510_TT }
-		# prestige = -50
-		# piety = -50
-		# hidden_effect = {
-			# any_realm_character = {
-				# limit = { has_character_flag = liked_dead_ruler_@FROM }
-				# opinion = {
-					# modifier = opinion_did_not_honor_the_dead
-					# who = ROOT
-				# }
-			# }
-			# any_realm_character = {
-				# limit = { has_character_flag = hated_dead_ruler_@FROM }
-				# opinion = {
-					# modifier = opinion_did_not_honor_hated_ruler
-					# who = ROOT
-				# }
-			# }
-		# }
-	# }
-	# after = {
-		# if = {
-			# limit = {
-				# NOR = {
-					# has_flag = big_burial
-					# has_flag = normal_burial
-				# }
-			# }
-			# clear_flags_with_prefix = liked_dead_ruler_
-		# }
-	# }
-# }
+	option = { #The most expensive
+		name = EVTOPTA_LT_20510
+		custom_tooltip = { text = EVTOPTA_LT_20510_TT }
+		scaled_wealth = { value = -0.5 min = -100 max = -400}
+		set_character_flag = big_burial
+		character_event = { id = LT.20520  days = 10 }
+	}
+	option = { #A Reasonable amount 
+		name = EVTOPTB_LT_20510
+		custom_tooltip = { text = EVTOPTB_LT_20510_TT }
+		scaled_wealth = { value = -0.3 min = -50 max = -200}
+		set_character_flag = normal_burial
+		character_event = { id = LT.20520  days = 5}
+	}
+	option = { #The cheapest
+		name = EVTOPTC_LT_20510
+		scaled_wealth = { value = -0.1 min = -10 max = -100}
+		prestige = -20
+		piety = 10
+	}
+	option = { #S/He does not deserve proper burial
+		name = EVTOPTD_LT_20510
+		custom_tooltip = { text = EVTOPTD_LT_20510_TT }
+		prestige = -50
+		piety = -50
+		hidden_effect = {
+			any_realm_character = {
+				limit = { has_character_flag = liked_dead_ruler_@FROM }
+				opinion = {
+					modifier = opinion_did_not_honor_the_dead
+					who = ROOT
+				}
+			}
+			any_realm_character = {
+				limit = { has_character_flag = hated_dead_ruler_@FROM }
+				opinion = {
+					modifier = opinion_did_not_honor_hated_ruler
+					who = ROOT
+				}
+			}
+		}
+	}
+	after = {
+		if = {
+			limit = {
+				NOR = {
+					has_flag = big_burial
+					has_flag = normal_burial
+				}
+			}
+			clear_flags_with_prefix = liked_dead_ruler_
+		}
+	}
+}
 
-# character_event = {
-	# id = LT.20520
-	# title = EVT_TITLE_LT_20510
+character_event = {
+	id = LT.20520
+	title = EVT_TITLE_LT_20510
 	# desc = {
 		# trigger = { religion_group = pagan_group }
 		# text = EVTDESC_LT_20520_pagan
 		# picture = GFX_evt_feast_hf
 	# }
-	# desc = {
+	desc = {
 		# trigger = {
 			# OR = {
 				# religion_group = christian
@@ -2948,39 +3046,39 @@ character_event = {
 				# religion_group = muslim
 			# }
 		# }
-		# text = EVTDESC_LT_20520_monoteist
-		# picture = GFX_evt_died_funeral
-	# }
+		text = EVTDESC_LT_20520_monoteist
+		picture = GFX_evt_died_funeral
+	}
 	# desc = { #Indian traditions with respect to funeral vary much, between cremation and burial, so it is better not to be specific...
 		# trigger = { religion_group = indian_group }
 		# text = EVTDESC_LT_20520_indian
 		# picture = GFX_evt_india_temple
 	# }
 
-	# picture = GFX_evt_treasure_chamber
-	# border = GFX_event_normal_frame_religion
+	picture = GFX_evt_treasure_chamber
+	border = GFX_event_normal_frame_religion
 
-	# is_triggered_only = yes
+	is_triggered_only = yes
 
-	# trigger = {
-		# is_alive = yes
-		# is_inaccessible_trigger = no
-		# realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
-		# event_target:target_wonder = {
-			# wonder_owner = {
-				# character = ROOT
-			# }
-		# }
+	trigger = {
+		is_alive = yes
+		is_inaccessible_trigger = no
+		realm_wonder_or_upgrade_has_flag_burial_ground_trigger = yes
+		event_target:target_wonder = {
+			wonder_owner = {
+				character = ROOT
+			}
+		}
 
-		# OR = {
-			# has_character_flag = big_burial
-			# has_character_flag = normal_burial
-		# }
-	# }
+		OR = {
+			has_character_flag = big_burial
+			has_character_flag = normal_burial
+		}
+	}
 
-	# immediate = {}
+	immediate = {}
 
-	# option = {
+	option = {
 		# name = {
 			# text = EVTOPTA_LT_20520_polyteist
 			# trigger = {
@@ -2990,15 +3088,15 @@ character_event = {
 				# }
 			# }
 		# }
-		# name = {
-			# text = EVTOPTA_LT_20520_monoteist
+		name = {
+			text = EVTOPTA_LT_20520_monoteist
 			# trigger = {
 				# OR = {
 					# religion_group = christian
 					# religion_group = jewish_group
 				# }
 			# }
-		# }
+		}
 		# name = {
 			# text = EVTOPTA_LT_20520_muslim
 			# trigger = {
@@ -3007,504 +3105,932 @@ character_event = {
 				# }
 			# }
 		# }
-		# custom_tooltip = { text = EVTOPTA_LT_20520_TT }
-		# if = {
-			# limit = { has_character_flag = big_burial }
-			# prestige = 150
-			# piety = 50
-			# hidden_effect = {
-				# any_realm_character = {
-					# limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					# opinion = {
-						# modifier = opinion_did_honor_the_dead
-						# who = ROOT
-					# }
-				# }
-				# any_realm_character = {
-					# limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
-					# opinion = {
-						# modifier = opinion_did_honor_hated_ruler
-						# who = ROOT
-					# }
-				# }
-			# }
-		# }
-		# else_if = {
-			# prestige = 50
-			# piety = 100
-			# hidden_effect = {
-				# any_realm_character = {
-					# limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
-					# opinion = {
-						# modifier = opinion_did_honor_the_dead
-						# who = ROOT
-						# years = 1
-					# }
-				# }
-			# }
-		# }
-	# }
+		custom_tooltip = { text = EVTOPTA_LT_20520_TT }
+		if = {
+			limit = { has_character_flag = big_burial }
+			prestige = 150
+			piety = 50
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+					}
+				}
+				any_realm_character = {
+					limit = { has_character_flag = hated_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_hated_ruler
+						who = ROOT
+					}
+				}
+			}
+		}
+		else_if = {
+			prestige = 50
+			piety = 100
+			hidden_effect = {
+				any_realm_character = {
+					limit = { has_character_flag = liked_dead_ruler_@FROMFROM }
+					opinion = {
+						modifier = opinion_did_honor_the_dead
+						who = ROOT
+						years = 1
+					}
+				}
+			}
+		}
+	}
 
-	# after = {
-		# clear_flags_with_prefix = liked_dead_ruler_
-		# clr_character_flag = big_burial
-		# clr_character_flag = normal_burial
-	# }
-# }
+	after = {
+		clear_flags_with_prefix = liked_dead_ruler_
+		clr_character_flag = big_burial
+		clr_character_flag = normal_burial
+	}
+}
 
+##Events related to stores_relic flag. It fires from decision store_relic_in_wonder
 
-# ##Events related to stores_relic flag. It fires from decision store_relic_in_wonder
+character_event = {
+	id = LT.20601
+	desc = {
+		text = EVTDESC_LT_20601_one_artifact
+		trigger = { NOT = { event_target:target_artifact_2 = { is_artifact_active = yes } } } 
+		picture = GFX_evt_relic_box
+	}
+	desc = {
+		text = EVTDESC_LT_20601_two_artifacts
+		trigger = {
+			event_target:target_artifact_2 = { is_artifact_active = yes }
+			NOT = { event_target:target_artifact_3 = { is_artifact_active = yes } }
+		}	
+	}
+	desc = {
+		text = EVTDESC_LT_20601_more_artifacts
+		trigger = {
+			event_target:target_artifact_3 = { is_artifact_active = yes }
+		}	
+	}
 
-# character_event = {
-	# id = LT.20601
-	# desc = {
-		# text = EVTDESC_LT_20601_one_artifact
-		# trigger = { NOT = { event_target:target_artifact_2 = { is_artifact_active = yes } } } 
-		# picture = GFX_evt_relic_box
-	# }
-	# desc = {
-		# text = EVTDESC_LT_20601_two_artifacts
-		# trigger = {
-			# event_target:target_artifact_2 = { is_artifact_active = yes }
-			# NOT = { event_target:target_artifact_3 = { is_artifact_active = yes } }
-		# }	
-	# }
-	# desc = {
-		# text = EVTDESC_LT_20601_more_artifacts
-		# trigger = {
-			# event_target:target_artifact_3 = { is_artifact_active = yes }
-		# }	
-	# }
+	picture = GFX_evt_treasure_chamber
+	border = GFX_event_normal_frame_religion
 
-	# picture = GFX_evt_treasure_chamber
-	# border = GFX_event_normal_frame_religion
+	is_triggered_only = yes
 
-	# is_triggered_only = yes
+    only_independent = yes
 
-    # only_independent = yes
+    trigger = {
+    	any_realm_wonder_upgrade = {
+    		has_wonder_upgrade_flag = stores_relic
+    		is_active = no
+    	}
+    	#event_target:target_artifact_1 = { is_active = yes }
+    }
 
-    # trigger = {
-    	# any_realm_wonder_upgrade = {
-    		# has_wonder_upgrade_flag = stores_relic
-    		# is_active = no
-    	# }
-    	# #event_target:target_artifact_1 = { is_active = yes }
-    # }
+	immediate = {}
 
-	# immediate = {}
+	option = {
+		name = EVTOPTA_LT_20601
+		trigger = { event_target:target_artifact_1 = { is_artifact_active = yes } }
 
-	# option = {
-		# name = EVTOPTA_LT_20601
-		# trigger = { event_target:target_artifact_1 = { is_artifact_active = yes } }
+		event_target:target_artifact_1 = {
+			show_scope_change = no
+			custom_tooltip = { text = EVTOPTA_LT_20601_TT }
+			if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
+			else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
+			else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
+			else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
+			else = { 							  ROOT = { piety = 100 } }
+		}
+		hidden_effect = {
+			if = { 
+				limit = { event_target:target_artifact_1 = { owner = { character = ROOT } } }
+				event_target:target_artifact_1 = { unsafe_destroy_artifact = yes }
+				event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
+			}
+			else = { character_event = { id = LT.20610 } }   #cheated?
+		}
+	}
 
-		# event_target:target_artifact_1 = {
-			# show_scope_change = no
-			# custom_tooltip = { text = EVTOPTA_LT_20601_TT }
-			# if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
-			# else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
-			# else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
-			# else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
-			# else = { 							  ROOT = { piety = 100 } }
-		# }
-		# hidden_effect = {
-			# if = { 
-				# limit = { event_target:target_artifact_1 = { owner = { character = ROOT } } }
-				# event_target:target_artifact_1 = { unsafe_destroy_artifact = yes }
-				# event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
-			# }
-			# else = { character_event = { id = LT.20610 } }   #cheated?
-		# }
-	# }
+	option = {
+		name = EVTOPTB_LT_20601
+		trigger = { event_target:target_artifact_2 = { is_artifact_active = yes } }
 
-	# option = {
-		# name = EVTOPTB_LT_20601
-		# trigger = { event_target:target_artifact_2 = { is_artifact_active = yes } }
+		event_target:target_artifact_2 = {
+			show_scope_change = no
+			custom_tooltip = { text = EVTOPTA_LT_20601_TT }
+			if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
+			else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
+			else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
+			else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
+			else = { 							  ROOT = { piety = 100 } }
+		}
+		hidden_effect = {
+			if = { 
+				limit = { event_target:target_artifact_2 = { owner = { character = ROOT } } }
+				event_target:target_artifact_2 = { unsafe_destroy_artifact = yes }
+				event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
+			}
+			else = { character_event = { id = LT.20610 } }   #cheated?
+		}
+	}
 
-		# event_target:target_artifact_2 = {
-			# show_scope_change = no
-			# custom_tooltip = { text = EVTOPTA_LT_20601_TT }
-			# if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
-			# else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
-			# else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
-			# else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
-			# else = { 							  ROOT = { piety = 100 } }
-		# }
-		# hidden_effect = {
-			# if = { 
-				# limit = { event_target:target_artifact_2 = { owner = { character = ROOT } } }
-				# event_target:target_artifact_2 = { unsafe_destroy_artifact = yes }
-				# event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
-			# }
-			# else = { character_event = { id = LT.20610 } }   #cheated?
-		# }
-	# }
+	option = {
+		name = EVTOPTC_LT_20601
+		trigger = { event_target:target_artifact_3 = { is_artifact_active = yes } } 
 
-	# option = {
-		# name = EVTOPTC_LT_20601
-		# trigger = { event_target:target_artifact_3 = { is_artifact_active = yes } } 
+		event_target:target_artifact_3 = {
+			show_scope_change = no
+			custom_tooltip = { text = EVTOPTA_LT_20601_TT }
+			if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
+			else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
+			else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
+			else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
+			else = { 							  ROOT = { piety = 100 } }
+		}
+		hidden_effect = {
+			if = { 
+				limit = { event_target:target_artifact_3 = { owner = { character = ROOT } } }
+				event_target:target_artifact_3 = { unsafe_destroy_artifact = yes }
+				event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
+			}
+			else = { character_event = { id = LT.20610 } }   #cheated?
+		}
+	}
 
-		# event_target:target_artifact_3 = {
-			# show_scope_change = no
-			# custom_tooltip = { text = EVTOPTA_LT_20601_TT }
-			# if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
-			# else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
-			# else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
-			# else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
-			# else = { 							  ROOT = { piety = 100 } }
-		# }
-		# hidden_effect = {
-			# if = { 
-				# limit = { event_target:target_artifact_3 = { owner = { character = ROOT } } }
-				# event_target:target_artifact_3 = { unsafe_destroy_artifact = yes }
-				# event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
-			# }
-			# else = { character_event = { id = LT.20610 } }   #cheated?
-		# }
-	# }
+#	option = {
+#		name = EVTOPTD_LT_20601
+#		trigger = { event_target:target_artifact_4 = { is_artifact_active = yes } } 
+#
+#		event_target:target_artifact_4 = {
+#			show_scope_change = no
+#			custom_tooltip = { text = EVTOPTA_LT_20601_TT }
+#			if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
+#			else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
+#			else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
+#			else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
+#			else = { 							  ROOT = { piety = 100 } }
+#		}
+#		hidden_effect = {
+#			if = { 
+#				limit = { event_target:target_artifact_4 = { owner = { character = ROOT } } }
+#				event_target:target_artifact_4 = { unsafe_destroy_artifact = yes }
+#				event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
+#			}
+#			else = { character_event = { id = LT.20610 } }   #cheated?
+#		}
+#	}	
 
-# #	option = {
-# #		name = EVTOPTD_LT_20601
-# #		trigger = { event_target:target_artifact_4 = { is_artifact_active = yes } } 
-# #
-# #		event_target:target_artifact_4 = {
-# #			show_scope_change = no
-# #			custom_tooltip = { text = EVTOPTA_LT_20601_TT }
-# #			if = { 		limit = { quality == 5 }  ROOT = { piety = 500 prestige = 500 } }
-# #			else_if = { limit = { quality == 4 }  ROOT = { piety = 400 prestige = 300 } }
-# #			else_if = { limit = { quality == 3 }  ROOT = { piety = 300 prestige = 100 } }
-# #			else_if = { limit = { quality == 2 }  ROOT = { piety = 200 } }
-# #			else = { 							  ROOT = { piety = 100 } }
-# #		}
-# #		hidden_effect = {
-# #			if = { 
-# #				limit = { event_target:target_artifact_4 = { owner = { character = ROOT } } }
-# #				event_target:target_artifact_4 = { unsafe_destroy_artifact = yes }
-# #				event_target:target_upgrade = { set_wonder_upgrade_flag = is_storing_relic }
-# #			}
-# #			else = { character_event = { id = LT.20610 } }   #cheated?
-# #		}
-# #	}	
+	option = { # Not a good idea after all
+		name = EVTOPTE_LT_20601
+	}
 
-	# option = { # Not a good idea after all
-		# name = EVTOPTE_LT_20601
-	# }
-
-	# after = {}
-# }
-
-
-# # I am dead
-# character_event = { 
-	# id = LT.20610
-	# desc = EVTDESC_LT_20610
-
-	# picture = GFX_evt_danse_macabre
-	# border = GFX_event_normal_frame_intrigue
-
-	# is_triggered_only = yes
-
-	# option = {  # ok
-		# name = EVTOPTA_LT_20610
-		# death = { death_reason = death_murder_unknown_lightning }
-	# }
-# }
+	after = {
+		clr_character_flag = taking_relic_decision
+	}
+}
 
 
-# ## upgrade_strategic_exclaves effect.
+# I am dead
+character_event = { 
+	id = LT.20610
+	desc = EVTDESC_LT_20610
 
-# # Fired from on_action when the upgrades finishes construction
-# province_event = {
-	# id = LT.20700
-	# title = EVT_TITLE_LT_20700
-	# desc = EVTDESC_LT_20700
-	# trigger = {
-		# FROM = { has_wonder_upgrade = upgrade_strategic_exclaves }
-	# }
+	picture = GFX_evt_danse_macabre
+	border = GFX_event_normal_frame_intrigue
 
-	# picture = GFX_evt_castle_construction
-	# border = GFX_event_normal_frame_war
+	is_triggered_only = yes
 
-	# is_triggered_only = yes
+	option = {  # ok
+		name = EVTOPTA_LT_20610
+		death = { death_reason = death_murder_unknown_lightning }
+	}
+}
 
-	# immediate = {
-		# FROM = { save_event_target_as = target_upgrade }
-		# FROMFROM = { save_event_target_as = target_wonder }
-		# FROMFROMFROM = {
-			# save_event_target_as = target_province
-			# any_province_holding = {
-				# trigger_switch = {
-					# on_trigger = holding_type
+
+## upgrade_strategic_exclaves effect.
+
+# Fired from on_action when the upgrades finishes construction
+province_event = {
+	id = LT.20700
+	title = EVT_TITLE_LT_20700
+	desc = EVTDESC_LT_20700
+	trigger = {
+		FROM = { has_wonder_upgrade = upgrade_strategic_exclaves }
+	}
+
+	picture = GFX_evt_castle_construction
+	border = GFX_event_normal_frame_war
+
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = { save_event_target_as = target_upgrade }
+		FROMFROM = { save_event_target_as = target_wonder }
+		FROMFROMFROM = {
+			save_event_target_as = target_province
+			any_province_holding = {
+				trigger_switch = {
+					on_trigger = holding_type
 					# city = { add_building = ct_wall_5 }
 					# temple = { add_building = tp_wall_5 }
 					# castle = { add_building = ca_wall_5 }
 					# tribal = { add_building = tb_hillfort_4 }
 					# nomad = { add_building = no_camp_fortifications_8 }
+				}
+			}
+		}
+	}
+	option = {  # ok
+		name = EVTOPTA_LT_20700
+		custom_tooltip = { text = EVTOPTA_LT_20700_TT }
+	}
+}
+
+## Looting Events
+
+#Fired from on_action on_wonder_loot_start
+
+#To set the name the wonder will acquire when looting has finished
+#Is done here to save the actual stage of the wonder at the time of looting starting
+character_event = {
+	id = LT.20799
+	hide_window = yes
+	trigger = {
+		FROM = {  NOT = { has_wonder_flag = was_ruined  } }
+	}
+
+
+    is_triggered_only = yes
+
+    only_independent = yes
+
+    immediate = {
+    	FROM = { save_event_target_as = target_wonder }
+        FROMFROM = { save_event_target_as = target_province }
+        FROM = { 
+            original_wonder_owner = { 
+                save_event_target_as = wonder_owner_original 
+            } 
+        }
+        event_target:target_wonder = {
+            # Name...
+            if = {
+                limit = { NOT = { has_wonder_flag = was_ruined } }
+
+                set_flag = was_ruined
+
+                if = {
+                    limit = {
+                        wonder_stage = 3  #it was a high stage building
+                    }
+                    set_flag = wonder_stage_3
+                }
+                if = {
+                    limit = { NOT = { wonder_stage = 3 } }
+                    set_flag = wonder_stage_less_than_3
+                }
+            }
+        }
+    }
+}
+
+
+# To get a delay from the on_action triggered event
+character_event = {
+	id = LT.20800
+	hide_window = yes
+	trigger = {
+		NOT = { has_character_flag = looted_wonder_artifact }
+		FROM = { has_wonder_flag = gives_artifact }
+	}
+
+
+    is_triggered_only = yes
+
+    only_independent = yes
+
+    immediate = {
+    	FROM = { save_event_target_as = target_wonder }
+    	character_event = { id = LT.20805 days = 20 random = 5 }
+    }
+}
+
+# This event will spawn an artifact of the correct type and give it to the character. It is possible to add more artifacts by creating wonder flags and then adding the artifact here.
+character_event = {
+	id = LT.20805
+	desc = EVTDESC_LT_20805
+	picture = GFX_evt_end_of_days
+	border = GFX_event_normal_frame_war
+
+    is_triggered_only = yes
+
+    only_independent = yes
+
+
+	trigger = {
+		NOT = { has_character_flag = looted_wonder_artifact }
+		event_target:target_wonder = { 
+			has_wonder_flag = gives_artifact
+			NOT = { has_wonder_flag = artifact_was_looted }
+			wonder_owner = {
+				character = ROOT
+			}
+		}
+		any_courtier = {
+    		is_inaccessible_or_incapable_trigger = no
+	    }
+	}
+
+    immediate = { 
+    	set_character_flag = looted_wonder_artifact
+    	event_target:target_wonder = {
+    		set_wonder_flag = artifact_was_looted
+    	}
+	    any_courtier = {
+	    	limit = { is_inaccessible_or_incapable_trigger = no }
+	    	score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+	            interesting_courtier_selection_score = yes
+	        }
+
+	    	save_event_target_as = target_courtier
+	    	event_target:target_wonder = {
+		    	trigger_switch = {
+		    		on_trigger = has_wonder_flag
+		    		gives_artifact_bells = {
+		    			PREV = {
+		    				add_artifact = wonder_artifact_bells
+		    				new_artifact = {
+								set_name = looted_wonder_artifact_bells_rename
+								set_description = looted_wonder_artifact_bells_desc
+								set_creation_date = 1.1.1
+	    						save_event_target_as = looted_artifact
+				    		}
+						}
+						if = {
+							limit = { has_wonder_upgrade = upgrade_bells }
+							destroy_wonder_upgrade = upgrade_bells
+						}
+						if = {
+							limit = { has_wonder_upgrade = upgrade_bells_golden }
+							destroy_wonder_upgrade = upgrade_bells_golden
+						}
+		    		}
+		    		gives_artifact_book = {
+		    			PREV = {
+		    				add_random_book_effect = yes
+		    				new_artifact = {
+								set_creation_date = 1.1.1
+	    						save_event_target_as = looted_artifact
+	    					}
+						}
+		    		}
+		    	}
+		    }
+	    }
+    }
+
+    option = {# I want it!
+		name = EVTOPTA_LT_20805
+		event_target:target_courtier = {
+			show_scope_change = no 
+			reverse_opinion = {
+				modifier = opinion_grateful
+				who = ROOT
+			}
+			event_target:looted_artifact = {
+				show_scope_change = no 
+				transfer_artifact = { from = PREV to = FROM }
+			}
+		}
+	}
+
+	option = {# give it away
+		name = EVTOPTB_LT_20805
+		event_target:target_courtier = {
+			opinion = {
+				modifier = opinion_grateful
+				who = ROOT
+			}
+		}
+	}
+}
+
+#clean-up event, if a wonder finishes restoration
+character_event = {
+	id = LT.20808
+	hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+ 		FROM = { clr_wonder_flag = artifact_was_looted }
+	}
+}
+
+
+
+
+
+#Notification for the initiator that looting started and it provoked cultural unrest
+character_event = {
+	id = LT.20810
+	desc = {
+		trigger = { FROM = { has_wonder_flag = cost_low }}
+		text = EVTDESC_LT_20810_cheap
+	}
+	desc = {
+		trigger = { NOT = { FROM = { has_wonder_flag = cost_low } } }
+		text = EVTDESC_LT_20810		
+	}
+
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	hide_from = yes
+
+	immediate = {
+	}
+	
+	option = {# private looting
+		name = EVTOPTA_LT_20810
+		FROM = {
+			clr_wonder_flag = being_looted_public
+			set_wonder_flag = being_looted_private
+		}
+		FROMFROM = { 
+			add_province_modifier = { modifier = cultural_unrest years = 2 }
+		}
+	}
+
+	option = {# everybody joins
+		name = EVTOPTB_LT_20810
+		FROM = {
+			clr_wonder_flag = being_looted_private
+			set_wonder_flag = being_looted_public
+		}
+	}
+}
+
+
+#Notification for the owner that looting stage finished, fired from on_action on_wonder_stage_loot_finish
+
+character_event = {
+	id = LT.20820
+	title = EVT_TITLE_LT_20820
+	desc = {
+		trigger = { FROM = { is_at_lootable_stage = no }}
+		text = EVTDESC_LT_20820_the_end
+	}
+	desc = {
+		trigger = { FROM = { is_at_lootable_stage = yes } }
+		text = EVTDESC_LT_20820		
+	}
+
+	picture = GFX_evt_courtiers_talking
+	
+	notification = yes
+	
+	is_triggered_only = yes
+	hide_from = yes
+
+	immediate = {
+		FROM = { 
+			set_variable = { which = global_loot value = 400 }
+			trigger_switch = {
+				on_trigger = has_wonder_flag
+				cost_low = 		{ set_variable = { which = global_loot value = 300 } }
+				cost_medium = 	{ set_variable = { which = global_loot value = 500 } }
+				cost_high = 	{ set_variable = { which = global_loot value = 800 } }
+			}
+		}
+		if = {
+			limit = { FROM = { has_wonder_flag = being_looted_public } }
+			multiply_variable = { which = global_loot value = 0.5 }
+		}
+		wealth = global_loot
+	}
+	
+	option = {
+		name = OK
+	}
+
+	after = {
+		FROM = {
+			clear_flags_with_prefix = being_looted_
+		}
+	}
+}
+
+
+# # Hagia Sophia conversion event
+
+# character_event = {
+	# id = LT.20900
+	# title = wonder_cathedral_hagia_sophia
+	# picture = GFX_evt_hagia_sofia
+	# desc = {
+		# trigger = { event_target:target_chaplain = { always = yes } }
+		# text = EVTDESC_LT_20900_chaplain
+	# }
+	# desc = {
+		# trigger = { NOT =  { event_target:target_chaplain = { always = yes } } }
+		# text = EVTDESC_LT_20900
+	# }
+
+	# trigger = {
+		# OR = {
+			# AND = {
+				# any_realm_wonder = {
+					# NOT = { has_wonder_flag = Hagia_Sophia_catholic_cult }
+					# OR = {
+						# has_wonder_flag = Hagia_Sophia_orthodox_cult
+						# has_wonder_flag = Hagia_Sophia_muslim_cult
+					# }
 				# }
+				# religion = catholic
+			# }
+			# AND = {
+				# any_realm_wonder = {
+					# NOT = { has_wonder_flag = Hagia_Sophia_orthodox_cult }
+					# OR = {
+						# has_wonder_flag = Hagia_Sophia_catholic_cult
+						# has_wonder_flag = Hagia_Sophia_muslim_cult
+					# }
+				# }
+				# religion = orthodox
+			# }
+			# AND = {
+				# any_realm_wonder = {
+					# NOT = { has_wonder_flag = Hagia_Sophia_muslim_cult }
+					# OR = {
+						# has_wonder_flag = Hagia_Sophia_orthodox_cult
+						# has_wonder_flag = Hagia_Sophia_catholic_cult
+					# }
+				# }
+				# religion_group = muslim
 			# }
 		# }
-	# }
-	# option = {  # ok
-		# name = EVTOPTA_LT_20700
-		# custom_tooltip = { text = EVTOPTA_LT_20700_TT }
-	# }
-# }
-
-# ## Looting Events
-
-# #Fired from on_action on_wonder_loot_start
-
-# #To set the name the wonder will acquire when looting has finished
-# #Is done here to save the actual stage of the wonder at the time of looting starting
-# character_event = {
-	# id = LT.20799
-	# hide_window = yes
-	# trigger = {
-		# FROM = {  NOT = { has_wonder_flag = was_ruined  } }
-	# }
-
+   	# }
+	# border = GFX_event_normal_frame_religion
 
     # is_triggered_only = yes
 
     # only_independent = yes
 
     # immediate = {
-    	# FROM = { save_event_target_as = target_wonder }
-        # FROMFROM = { save_event_target_as = target_province }
-        # FROM = { 
-            # original_wonder_owner = { 
-                # save_event_target_as = wonder_owner_original 
-            # } 
-        # }
-        # event_target:target_wonder = {
-            # # Name...
-            # if = {
-                # limit = { NOT = { has_wonder_flag = was_ruined } }
-
-                # set_flag = was_ruined
-
-                # if = {
-                    # limit = {
-                        # wonder_stage = 3  #it was a high stage building
-                    # }
-                    # set_flag = wonder_stage_3
-                # }
-                # if = {
-                    # limit = { NOT = { wonder_stage = 3 } }
-                    # set_flag = wonder_stage_less_than_3
-                # }
-            # }
-        # }
-    # }
-# }
-
-
-# # To get a delay from the on_action triggered event
-# character_event = {
-	# id = LT.20800
-	# hide_window = yes
-	# trigger = {
-		# NOT = { has_character_flag = looted_wonder_artifact }
-		# FROM = { has_wonder_flag = gives_artifact }
-	# }
-
-
-    # is_triggered_only = yes
-
-    # only_independent = yes
-
-    # immediate = {
-    	# FROM = { save_event_target_as = target_wonder }
-    	# character_event = { id = LT.20805 days = 20 random = 5 }
-    # }
-# }
-
-# # This event will spawn an artifact of the correct type and give it to the character. It is possible to add more artifacts by creating wonder flags and then adding the artifact here.
-# character_event = {
-	# id = LT.20805
-	# desc = EVTDESC_LT_20805
-	# trigger = {
-		# NOT = { has_character_flag = looted_wonder_artifact }
-		# event_target:target_wonder = { 
-			# has_wonder_flag = gives_artifact
-			# NOT = { has_wonder_flag = artifact_was_looted }
-			# wonder_owner = {
-				# character = ROOT
-			# }
-		# }
-	# }
-	# picture = GFX_evt_end_of_days
-	# border = GFX_event_normal_frame_war
-
-    # is_triggered_only = yes
-
-    # only_independent = yes
-
-    # immediate = { 
-    	# set_character_flag = looted_wonder_artifact
-    	# event_target:target_wonder = {
-    		# set_wonder_flag = artifact_was_looted
+    	# random_realm_wonder = {
+    		# limit = {
+    			# has_wonder = wonder_cathedral_hagia_sophia
+    		# }
+    		# save_event_target_as = target_wonder
     	# }
-	    # random_courtier = {
-	    	# save_event_target_as = target_courtier
-	    	# event_target:target_wonder = {
-		    	# trigger_switch = {
-		    		# on_trigger = has_wonder_flag
-		    		# gives_artifact_bells = {
-		    			# PREV = {
-		    				# add_artifact = wonder_artifact_bells
-		    				# new_artifact = {
-								# set_name = looted_wonder_artifact_bells_rename
-								# set_description = looted_wonder_artifact_bells_desc
-								# set_creation_date = 1.1.1
-	    						# save_event_target_as = looted_artifact
-				    		# }
-						# }
-		    		# }
-		    		# gives_artifact_book = {
-		    			# PREV = {
-		    				# add_random_book_effect = yes
-		    				# new_artifact = {
-								# set_creation_date = 1.1.1
-	    						# save_event_target_as = looted_artifact
-	    					# }
-						# }
-		    		# }
-		    	# }
-		    # }
-	    # }
+    	# job_spiritual = {
+    		# save_event_target_as = target_chaplain
+    	# }
+    	# if = {
+    		# limit = {
+    			# OR = {
+    				# event_target:target_wonder = {
+    					# has_wonder_flag = Hagia_Sophia_catholic_cult
+    					# location = { religion = catholic }
+    				# }
+    				# event_target:target_wonder = {
+    					# has_wonder_flag = Hagia_Sophia_orthodox_cult
+    					# location = { religion = orthodox }
+    				# }
+    				# event_target:target_wonder = {
+    					# has_wonder_flag = Hagia_Sophia_muslim_cult
+    					# location = { religion_group = muslim }
+    				# }
+    			# }
+    		# }
+    		# event_target:target_wonder = { location = { set_province_flag = people_had_hagia_sophia } }
+    	# }
     # }
 
-    # option = {# I want it!
-		# name = EVTOPTA_LT_20805
-		# event_target:target_courtier = {
-			# show_scope_change = no 
-			# reverse_opinion = {
-				# modifier = opinion_grateful
-				# who = ROOT
-			# }
-			# event_target:looted_artifact = {
-				# show_scope_change = no 
-				# transfer_artifact = { from = PREV to = FROM }
-			# }
-		# }
-	# }
-
-	# option = {# give it away
-		# name = EVTOPTB_LT_20805
-		# event_target:target_courtier = {
-			# opinion = {
-				# modifier = opinion_grateful
-				# who = ROOT
-			# }
-		# }
-	# }
-# }
-
-# #clean-up event, if a wonder finishes restoration
-# character_event = {
-	# id = LT.20808
-	# hide_window = yes
-    # is_triggered_only = yes
-
-    # immediate = {
- 		# FROM = { clr_wonder_flag = artifact_was_looted }
-	# }
-# }
-
-
-
-
-
-# #Notification for the initiator that looting started and it provoked cultural unrest
-# character_event = {
-	# id = LT.20810
-	# desc = {
-		# trigger = { FROM = { has_wonder_flag = cost_low }}
-		# text = EVTDESC_LT_20810_cheap
-	# }
-	# desc = {
-		# trigger = { NOT = { FROM = { has_wonder_flag = cost_low } } }
-		# text = EVTDESC_LT_20810		
-	# }
-
-	# picture = GFX_evt_courtiers_talking
-	
-	# is_triggered_only = yes
-	# hide_from = yes
-
-	# immediate = {
-	# }
-	
-	# option = {# private looting
-		# name = EVTOPTA_LT_20810
-		# FROM = {
-			# clr_wonder_flag = being_looted_public
-			# set_wonder_flag = being_looted_private
-		# }
-		# FROMFROM = { 
-			# add_province_modifier = { modifier = cultural_unrest years = 2 }
-		# }
-	# }
-
-	# option = {# everybody joins
-		# name = EVTOPTB_LT_20810
-		# FROM = {
-			# clr_wonder_flag = being_looted_private
-			# set_wonder_flag = being_looted_public
-		# }
-	# }
-# }
-
-
-# #Notification for the owner that looting stage finished, fired from on_action on_wonder_stage_loot_finish
-
-# character_event = {
-	# id = LT.20820
-	# title = EVT_TITLE_LT_20820
-	# desc = {
-		# trigger = { FROM = { is_at_lootable_stage = no }}
-		# text = EVTDESC_LT_20820_the_end
-	# }
-	# desc = {
-		# trigger = { FROM = { is_at_lootable_stage = yes } }
-		# text = EVTDESC_LT_20820		
-	# }
-
-	# picture = GFX_evt_courtiers_talking
-	
-	# notification = yes
-	
-	# is_triggered_only = yes
-	# hide_from = yes
-
-	# immediate = {
-		# FROM = { 
-			# set_variable = { which = global_loot value = 400 }
-			# trigger_switch = {
-				# on_trigger = has_wonder_flag
-				# cost_low = 		{ set_variable = { which = global_loot value = 300 } }
-				# cost_medium = 	{ set_variable = { which = global_loot value = 500 } }
-				# cost_high = 	{ set_variable = { which = global_loot value = 800 } }
-			# }
-		# }
+    # option = { #Convert
+		# name = EVTOPTA_LT_20900
+		# event_target:target_wonder = { clear_flags_with_prefix = Hagia_Sophia_ }
 		# if = {
-			# limit = { FROM = { has_wonder_flag = being_looted_public } }
-			# multiply_variable = { which = global_loot value = 0.5 }
+			# limit = { religion = catholic }
+			# event_target:target_wonder = {
+				# set_wonder_flag = Hagia_Sophia_catholic_cult
+				# set_wonder_model = wonder_hagia_sophia
+			# }
+			
 		# }
-		# wealth = global_loot
+		# else_if = {
+			# limit = { religion = orthodox }
+			# event_target:target_wonder = {
+				# set_wonder_flag = Hagia_Sophia_orthodox_cult
+				# set_wonder_model = wonder_hagia_sophia
+			# }
+		# }
+		# else_if = {
+			# limit = { religion_group = muslim }
+			# event_target:target_wonder = {
+				# set_wonder_flag = Hagia_Sophia_muslim_cult
+				# set_wonder_model = wonder_hagia_sophia_minarets
+			# }
+		# }
+		# piety = 200
+		# reverse_opinion = {
+			# modifier = opinion_religious_tract
+			# who = event_target:target_chaplain
+			# years = 5
+		# }
+		# event_target:target_wonder = {
+			# show_scope_change = no
+			# location = {
+				# show_scope_change = no
+				# if = {
+					# limit = { has_province_flag = people_had_hagia_sophia }
+				# }
+				# add_province_modifier = { modifier = religious_tension years = 5 }
+			# }
+		# }
 	# }
-	
-	# option = {
-		# name = OK
-	# }
-
-	# after = {
-		# FROM = {
-			# clear_flags_with_prefix = being_looted_
+    # option = { #Not Convert
+		# name = EVTOPTB_LT_20900
+		# piety = -50
+		# reverse_opinion = {
+			# modifier = opinion_angry
+			# who = event_target:target_chaplain
+			# years = 5
+		# }
+		# event_target:target_wonder = {
+			# show_scope_change = no
+			# location = {
+				# show_scope_change = no
+				# if = {
+					# limit = { has_province_flag = people_had_hagia_sophia }
+				# }
+				# add_province_modifier = { modifier = religious_tolerance years = 10 }
+			# }
+			
 		# }
 	# }
 # }
 
+# After a Siege, things might get out of control and a sack occur. Similar to HL.4813, but weaker. Triggered as random event from on_action on_siege_won_leader
+character_event = { 
+	id = LT.21000
+	desc = EVTDESC_LT_21000.1
+	desc = EVTDESC_LT_21000.2
+	picture = GFX_evt_siege
+	border = GFX_event_normal_frame_war
+	portrait = event_target:top_liege_target
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_nomadic = yes }  #Nomads get their own event ( HL.4813 )
+		FROM = {
+			OR = {
+				holding_type = city
+				holding_type = temple
+				holding_type = castle
+				holding_type = tribal
+			}
+			num_of_buildings = 4
+			location = {
+				NOT = {
+					has_province_modifier = recently_burnt_the_land_not_owner
+				}
+			}
+		}
+		NOT = { has_character_flag = disciplinary_commander }
+	}
+	weight_multiplier = {
+		modifier = {
+			factor = 0
+			has_character_modifier = strong_leader_modifier
+		}
+		modifier = {
+			factor = 2
+			has_character_modifier = weak_leader_modifier
+		}
+		modifier = {
+			factor = 2
+			FROM = { is_capital = yes }
+		}
+		modifier = {
+			factor = 3
+			has_character_modifier = plundering_leader_modifier
+		}
+	}
+	
+	immediate = {
+		holder_scope = {
+			save_event_target_as = holder_target
+			top_liege = {
+				save_event_target_as = top_liege_target
+			}
+		}
+		FROM = {
+			location = {
+				add_province_modifier = {
+					name = recently_burnt_the_land_not_owner
+					years = 10
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_LT_21000
+		
+		show_portrait = event_target:holder_target
+		show_portrait = event_target:top_liege_target
+		
+		ai_chance = {
+			factor = 40
+		}
+		trigger_switch = {
+			on_trigger = prestige
+			1000 = { prestige = -200 }
+			500 = { prestige = -100 }
+			100 = { prestige = -50 }
+			0 = { prestige = -20 }
+		}
+				
+		FROM = {
+			destroy_random_building = THIS
+			location = {
+				show_scope_change = no
+				if = {
+					limit = { has_wonder = yes }
+					random = {
+						chance = 30
+						wonder = { set_wonder_damaged = yes }
+					}
+				}
+			}
+			holder_scope = {
+				show_scope_change = no
+				opinion = {
+					modifier = opinion_furious
+					who = ROOT
+					years = 3
+				}
+				top_liege = {
+				show_scope_change = no
+					opinion = {
+						modifier = opinion_furious
+						who = ROOT
+						years = 3
+					}
+					hidden_effect = {
+						any_realm_character = {
+							show_scope_change = no
+							limit = {
+								NOR = {
+									trait = cruel
+								}
+							}
+							opinion = {
+								modifier = opinion_dishonorable
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					custom_tooltip = { text = EVTOPTA_LT_21000_DISHONORABLE_TT }
+				}
+			}
+		}
+		add_character_modifier = { name = plundering_leader_modifier years = 2 }
+	}
+
+	option = {
+		name = EVTOPTB_LT_21000
+		
+		show_portrait = event_target:holder_target
+		show_portrait = event_target:top_liege_target
+		
+		ai_chance = {
+			factor = 10
+			modifier = { factor = 5 trait = cruel }
+			modifier = { factor = 5 trait = wroth }
+		}
+		
+		if = {
+			limit = { NOT = { FROM = { holding_type = tribal } } }
+			wealth = 10
+		}
+		if = {
+			limit = { FROM = { holding_type = tribal } }
+			wealth = 5
+		}
+		trigger_switch = {
+			on_trigger = prestige
+			1000 = { prestige = -400 }
+			500 = { prestige = -200 }
+			100 = { prestige = -80 }
+			0 = { prestige = -40 }
+		}
+		random = { chance = 50 add_trait_wroth_effect = yes }
+		random = { chance = 50 add_trait_cruel_effect = yes }
+
+		FROM = {
+			destroy_random_building = THIS
+			location = {
+				show_scope_change = no
+				if = {
+					limit = { has_wonder = yes }
+					wealth = 30
+					random = {
+						chance = 30
+						wonder = { set_wonder_damaged = yes }
+					}
+				}
+			}
+
+			holder_scope = {
+				show_scope_change = no
+				opinion = {
+					modifier = opinion_furious
+					who = ROOT
+					years = 3
+				}
+				top_liege = {
+				show_scope_change = no
+					opinion = {
+						modifier = opinion_furious
+						who = ROOT
+						years = 3
+					}
+					hidden_effect = {
+						any_realm_character = {
+							show_scope_change = no
+							limit = {
+								NOR = {
+									trait = cruel
+								}
+							}
+							opinion = {
+								modifier = opinion_dishonorable
+								who = ROOT
+								years = 10
+							}
+						}
+					}
+					custom_tooltip = { text = EVTOPTA_LT_21000_DISHONORABLE_TT }
+				}
+			}
+		}
+		hidden_effect = {
+			remove_character_modifier = plundering_leader_modifier
+		}
+		add_character_modifier = { name = plundering_leader_modifier years = 2 }
+	}
+	
+	option = {
+		name = EVTOPTC_LT_21000
+		ai_chance = {
+			factor = 50
+		}
+		random_list = {
+			50 = {
+				modifier = { factor = 0.5 martial < 2}
+				modifier = { factor = 0.7 martial < 4}
+				modifier = { factor = 0.8 martial < 6}
+				modifier = { factor = 0.9 martial < 8}
+				modifier = { factor = 0.9 martial < 10}
+				modifier = { factor = 1.2 martial > 12}
+				modifier = { factor = 1.2 martial > 14}
+				modifier = { factor = 1.3 martial > 16}
+				modifier = { factor = 1.4 martial > 18}
+				custom_tooltip = { text = EVTOPTC_LT_21000_CONTROL_TT }
+				any_controlled_unit = { troops = -0.05 }
+				prestige = 50
+				hidden_effect = {
+					remove_character_modifier = plundering_leader_modifier
+				}
+				add_character_modifier = { name = strong_leader_modifier years = 10 }
+			}
+			50 = {
+				custom_tooltip = { text = EVTOPTC_LT_21000_NO_CONTROL_TT }
+				FROM = {
+					destroy_random_building = THIS
+					location = { 
+						show_scope_change = no
+						if = {
+							limit = { has_wonder = yes }
+							wonder = { set_wonder_damaged = yes }
+						}
+					}
+				}
+				hidden_effect = {
+					remove_character_modifier = plundering_leader_modifier
+				}
+				add_character_modifier = { name = weak_leader_modifier years = 10 }
+			}
+		}
+	}
+}
 
 
 
