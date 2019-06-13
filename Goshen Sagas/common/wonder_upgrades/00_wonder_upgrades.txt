@@ -1287,14 +1287,9 @@ upgrade_vihara = {
 upgrade_school_buddhist = {
 	picture = GFX_upgrade_icon_crates
 	
-	potential = { religion = buddhist }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = buddhist } }
-			religion = buddhist
-		}
-	}
-	active = { religion = buddhist }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		culture_conversion_faster
@@ -1308,7 +1303,6 @@ upgrade_school_buddhist = {
 		local_revolt_risk = -0.02
 	}
 	owner_modifier = {
-		scholar_opinion = 5
 		custom_modifier_text = culture_convertion_custom_modifier_tt
 	}
 }
@@ -1316,15 +1310,9 @@ upgrade_school_buddhist = {
 upgrade_relic_stupa = {
 	picture = GFX_upgrade_icon_crates
 	
-	potential = { religion = buddhist }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = buddhist } }
-			religion = buddhist
-		}
-	}
+	potential = { }
+	allow = { }
 	active = { 
-		religion = buddhist
 		hidden_tooltip = {
 			FROMFROM = { is_active = yes }
 		}
@@ -1363,14 +1351,9 @@ upgrade_relic_stupa = {
 upgrade_commerative_stupa = {
 	picture = GFX_upgrade_icon_crates
 	
-	potential = { religion = buddhist }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = buddhist } }
-			religion = buddhist
-		}
-	}
-	active = { religion = buddhist }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		is_singular
@@ -1382,7 +1365,6 @@ upgrade_commerative_stupa = {
 		
 	}
 	owner_modifier = {
-		indian_group_opinion = 2
 	}
 
 }
@@ -1390,14 +1372,9 @@ upgrade_commerative_stupa = {
 upgrade_symbolic_stupa = {
 	picture = GFX_upgrade_icon_crates
 	
-	potential = { religion = buddhist }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = buddhist } }
-			religion = buddhist
-		}
-	}
-	active = { religion = buddhist }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		is_singular
@@ -1409,22 +1386,17 @@ upgrade_symbolic_stupa = {
 		
 	}
 	owner_modifier = {
-		buddhist_opinion = 3
 	}
 }
 
 upgrade_votive_stupa = {
 	picture = GFX_upgrade_icon_crates
 	
-	potential = { religion = buddhist }
+	potential = { }
 	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = buddhist } }
-			religion = buddhist
-		}
 		num_of_wonder_upgrades = 6
 	}
-	active = { religion = buddhist }
+	active = { }
 
 	flags = {
 		is_singular
@@ -1447,14 +1419,9 @@ upgrade_votive_stupa = {
 upgrade_high_gopura = { 
 	picture = GFX_upgrade_icon_crates
 
-	potential = { religion = hindu }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = hindu } }
-			religion = hindu
-		}
-	}
-	active = { religion = hindu }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		towering
@@ -1474,14 +1441,9 @@ upgrade_high_gopura = {
 upgrade_shikhara = { 
 	picture = GFX_upgrade_icon_crates
 
-	potential = { religion = hindu }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = hindu } }
-			religion = hindu
-		}
-	}
-	active = { religion = hindu }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		towering
@@ -1503,14 +1465,9 @@ upgrade_shikhara = {
 upgrade_mandapa = { 
 	picture = GFX_upgrade_icon_crates
 
-	potential = { religion = hindu }
-	allow = {
-		trigger_if = {
-			limit = { NOT = { religion = hindu } }
-			religion = hindu
-		}
-	}
-	active = { religion = hindu }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		is_singular

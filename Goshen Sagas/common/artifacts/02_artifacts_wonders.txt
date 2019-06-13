@@ -118,32 +118,6 @@ terrible_armor = {
 	slot = torso
 }
 
-
-zweihander_sword = {
-	combat_rating = 15
-	vassal_opinion = 5
-	tribal_opinion = 10
-	command_modifier = {
-		morale_offence = 0.2
-		heavy_infantry = 0.15
-		actual_light_infantry = 0.2
-	}
-	quality = 2
-	active = {
-		is_adult = yes
-		OR = {
-			combat_rating = 20
-			trait = strong
-			trait = giant
-			trait = robust
-		}
-	}
-	flags = { combat_weapon sword created }
-	stacking = no
-	picture = "GFX_zweihander_sword"
-	slot = weapon
-}
-
 #The default name and desccription refer to Cathedral, but this can be overwrritten at spawn
 wonder_artifact_bells = {
 	quality = 3
