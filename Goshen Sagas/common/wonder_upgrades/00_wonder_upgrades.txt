@@ -2356,23 +2356,13 @@ upgrade_fountains = {
 	gold_cost_ticking = 1
 	owner_modifier = {
 		monthly_character_prestige = 0.05
-		poet_opinion = 5
 	}
 }
 
 upgrade_fountain_of_youth = {
 	picture = GFX_upgrade_icon_roses_yellow
-	potential = {
-		NOT = {
-			has_game_rule = {
-				name = supernatural_events
-				value = off
-			}
-		}
-	}
-	allow = {
-		trait = mystic
-	}
+	potential = { }
+	allow = { }
 	active = { }
 
 	flags = {
@@ -2401,7 +2391,6 @@ upgrade_hanging_gardens = {
 	gold_cost_ticking = 1
 	owner_modifier = {
 		monthly_character_prestige = 0.1
-		gardener_opinion = 5
 	}
 }
 
@@ -2465,8 +2454,8 @@ upgrade_herb_garden = {
 	picture = GFX_upgrade_icon_roses_pink
 
 	potential = { }
-	allow = { society_member_of = hermetics }
-	active = { society_member_of = hermetics }
+	allow = { }
+	active = { }
 
 	flags = {
 		produces_herbs
@@ -2651,9 +2640,7 @@ upgrade_moat_water = { # Water Moat
 
 upgrade_moat_bones = { # Moat of Bones
 	picture = GFX_upgrade_icon_skulls
-	potential = { 
-		trait = cruel
-	}
+	potential = { }
 	allow = {
 		FROMFROM = { has_wonder_upgrade = upgrade_moat_pit }
 		any_kill_list_character = { # At least 50 kills
@@ -2662,7 +2649,6 @@ upgrade_moat_bones = { # Moat of Bones
 	}
 	active = {
 		FROMFROM = { has_wonder_upgrade = upgrade_moat_pit }
-		trait = cruel
 	}
 
 	flags = {
@@ -3196,10 +3182,6 @@ upgrade_trap_door = { # Trap Door
 	}
 	ai_will_do = {
 		factor = 0.5
-		modifier = {
-			factor = 2
-			has_evil_trait_trigger = yes
-		}
 	}
 }
 
@@ -3225,19 +3207,13 @@ upgrade_royal_bedchamber = { # royal bed chamber
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 2
-			trait = lustful
-		}
 	}
 }
 
 upgrade_skull_throne = { # a throne made of skulls
 	# ... A throne made of skulls and other bones
 	picture = GFX_upgrade_icon_skulls
-	potential = {	
-		trait = cruel
-	}
+	potential = { }
 	allow = { 
 		any_kill_list_character = { # At least 100 kills
 			count = 100
@@ -3255,14 +3231,9 @@ upgrade_skull_throne = { # a throne made of skulls
 	gold_cost_flat = 450
 	gold_cost_ticking = 1
 	owner_modifier = {
-		cruel_opinion = 20
 	}
 	ai_will_do = {
 		factor = 0.5
-		modifier = {
-			factor = 2
-			has_evil_trait_trigger = yes
-		}
 	}
 }
 
@@ -3290,10 +3261,7 @@ upgrade_golden_throne = { # a throne made of gold
 upgrade_automata_throne = { # Automata Throne
 	picture = GFX_upgrade_icon_stones
 	potential = {
-		OR = {
-			government = roman_imperial_government
-			TECH_CONSTRUCTION = 5
-		}	
+		TECH_CONSTRUCTION = 5	
 	}
 	allow = { 
 		
@@ -3339,11 +3307,9 @@ upgrade_royal_custodian = {
 upgrade_runestones = {
 	picture = GFX_upgrade_icon_stones
 
-	potential = {
-		religion_openly_norse_or_reformed_trigger = yes
-	}
-	allow = { religion_openly_norse_or_reformed_trigger = yes }
-	active = { religion_openly_norse_or_reformed_trigger = yes }
+	potential = { }
+	allow = { }
+	active = { }
 
 	flags = {
 		is_plural
