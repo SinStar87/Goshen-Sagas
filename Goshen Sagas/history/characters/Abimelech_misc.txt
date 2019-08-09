@@ -321,3 +321,11 @@
 	1756.1.1 = { birth = yes }
 	1821.4.9 = { death = yes }
 }
+24041 = {
+	name = Ta
+	female = yes
+	culture = abimelech
+	religion = abimelech_rel
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
+}

@@ -1158,7 +1158,7 @@ castle = {
 		potential = {
 			culture = ades
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		light_infantry = 25
@@ -1173,7 +1173,7 @@ castle = {
 		potential = {
 			culture = ades
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 1 }
 		upgrades_from = ca_ad_stables_1
 		gold_cost = 50
 		build_time = 182
@@ -1189,7 +1189,7 @@ castle = {
 		potential = {
 			culture = ades
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 2 }
 		upgrades_from = ca_ad_stables_2
 		gold_cost = 50
 		build_time = 182
@@ -1205,7 +1205,7 @@ castle = {
 		potential = {
 			culture = ades
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 3 }
 		upgrades_from = ca_ad_stables_3
 		gold_cost = 50
 		build_time = 182
@@ -1221,7 +1221,7 @@ castle = {
 		potential = {
 			culture = ades
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 4 }
 		upgrades_from = ca_ad_stables_4
 		gold_cost = 50
 		build_time = 182
@@ -1232,7 +1232,70 @@ castle = {
 
 		extra_tech_building_start = 1.0
 	}
+	ca_ad_stables_6 = {
+		desc = ca_ad_stables_6_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_CAVALRY = 5 }
+		upgrades_from = ca_ad_stables_5
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
 
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_7 = {
+		desc = ca_ad_stables_7_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_CAVALRY = 6 }
+		upgrades_from = ca_ad_stables_6
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_8 = {
+		desc = ca_ad_stables_8_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_CAVALRY = 7 }
+		upgrades_from = ca_ad_stables_7
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
+	ca_ad_stables_9 = {
+		desc = ca_ad_stables_9_desc
+		potential = {
+			culture = ades
+		}
+		trigger = { TECH_CAVALRY = 8 }
+		upgrades_from = ca_ad_stables_8
+		gold_cost = 50
+		build_time = 182
+		light_infantry = 25
+		war_elephants = 5
+		war_elephants_offensive = 0.15
+		ai_creation_factor = 80
+
+		extra_tech_building_start = 1.0
+	}
 
 	#Gawei Stables
 	ca_g_stables_1 = {
@@ -1240,7 +1303,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 0 }
 		gold_cost = 50
 		build_time = 182
 		light_cavalry = 10
@@ -1254,7 +1317,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 1 }
 		upgrades_from = ca_g_stables_1
 		gold_cost = 50
 		build_time = 182
@@ -1269,7 +1332,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 2 }
 		upgrades_from = ca_g_stables_2
 		gold_cost = 50
 		build_time = 182
@@ -1284,7 +1347,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 3 }
 		upgrades_from = ca_g_stables_3
 		gold_cost = 50
 		build_time = 182
@@ -1299,7 +1362,7 @@ castle = {
 		potential = {
 			culture = gawei
 		}
-		trigger = { TECH_FORTIFICATIONS_CONSTRUCTION = 0 }
+		trigger = { TECH_CAVALRY = 4 }
 		upgrades_from = ca_g_stables_4
 		gold_cost = 50
 		build_time = 182

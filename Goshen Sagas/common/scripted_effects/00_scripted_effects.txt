@@ -216,3 +216,41 @@ destroy_guard_effect = {
 		}
 	}
 }
+
+leave_court_effect = {
+	reverse_opinion = {
+		modifier = opinion_leave
+		who = ROOT
+	}
+
+	banish = yes
+
+	reverse_remove_opinion = {
+		modifier = opinion_leave
+		who = ROOT
+	}
+}
+
+courtiers_leaving_effect = {
+	hidden_effect = { #To get a banishment reason
+		reverse_opinion = {
+			modifier = opinion_leave
+			who = ROOT
+		}
+
+		banish = yes
+
+		reverse_remove_opinion = {
+			modifier = opinion_leave
+			who = ROOT
+		}
+	}
+	opinion = {
+		modifier = opinion_left_court
+		who = root
+	}
+}
+
+leave_court_and_die_effect = {
+	death = { death_reason = death_missing }
+}

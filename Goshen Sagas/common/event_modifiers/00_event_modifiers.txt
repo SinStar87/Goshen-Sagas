@@ -257,3 +257,23 @@ ruthless_host = {
 	icon = 5
 	plot_power_modifier = 0.15
 }
+stop_burning_land = {
+	icon = 57	
+}
+pillage_cooldown = {
+	icon = 57	
+}
+burnt_the_land = {
+	levy_size = -0.25
+	local_tax_modifier = -0.5
+	icon = 19	
+}
+recently_burnt_the_land = {
+	garrison_size = 3
+	icon = 57	
+}
+recently_burnt_the_land_not_owner = {
+	levy_size = -0.025
+	local_tax_modifier = -0.05
+	icon = 19
+}

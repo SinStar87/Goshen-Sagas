@@ -221,14 +221,14 @@ ask_for_excommunication_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -997,15 +997,15 @@ ask_for_excommunication_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = 30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
-		FROMFROM = {  
-			primary_title = {  
-				has_law = investiture_law_1
-			} 
-		} 
-	}
+	# additive_modifier = { 
+		# value = 30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
+		# FROMFROM = {  
+			# primary_title = {  
+				# has_law = investiture_law_1
+			# } 
+		# } 
+	# }
 	additive_modifier = { 
 		value = -1000
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE_TARGET
@@ -1924,14 +1924,14 @@ ask_for_invasion_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -2700,15 +2700,15 @@ ask_for_invasion_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = 30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
-		FROMFROM = {  
-			primary_title = {  
-				has_law = investiture_law_1
-			} 
-		} 
-	}
+	# additive_modifier = { 
+		# value = 30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
+		# FROMFROM = {  
+			# primary_title = {  
+				# has_law = investiture_law_1
+			# } 
+		# } 
+	# }
 	additive_modifier = { 
 		value = -1000
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE_TARGET
@@ -3548,14 +3548,14 @@ ask_for_divorce_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -4313,15 +4313,15 @@ ask_for_divorce_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = 30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
-		FROMFROM = {  
-			primary_title = {  
-				has_law = investiture_law_1
-			} 
-		} 
-	}
+	# additive_modifier = { 
+		# value = 30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
+		# FROMFROM = {  
+			# primary_title = {  
+				# has_law = investiture_law_1
+			# } 
+		# } 
+	# }
 	additive_modifier = { 
 		value = -1000
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE_TARGET
@@ -5091,14 +5091,14 @@ ask_to_lift_excommunication_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -5864,16 +5864,16 @@ ask_to_lift_excommunication_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
-		FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
-		FROMFROM = {  
-			primary_title = {  
-				has_law = investiture_law_1
-			} 
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
+		# FROMFROM = { NOT = { character = ROOT } } # Don't check against yourself, silly AI.
+		# FROMFROM = {  
+			# primary_title = {  
+				# has_law = investiture_law_1
+			# } 
+		# } 
+	# }
 	additive_modifier = { 
 		value = 10
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE_TARGET
@@ -6730,14 +6730,14 @@ ask_for_money_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -7599,14 +7599,14 @@ ask_for_crusade_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -8540,14 +8540,14 @@ ask_for_claim_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
@@ -9316,15 +9316,15 @@ ask_for_claim_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = 30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
-		FROMFROM = {  
-			primary_title = {  
-				has_law = investiture_law_1
-			} 
-		} 
-	}
+	# additive_modifier = { 
+		# value = 30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE_TARGET
+		# FROMFROM = {  
+			# primary_title = {  
+				# has_law = investiture_law_1
+			# } 
+		# } 
+	# }
 	additive_modifier = { 
 		value = -1000
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE_TARGET
@@ -10112,14 +10112,14 @@ nominate_bishop_chance = {
 			}
 		} 
 	}
-	additive_modifier = { 
-		value = -30
-		localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
-		NOT = { character = FROM } #Not on yourself, dirty Pope.
-		primary_title = {  
-			has_law = investiture_law_1
-		} 
-	}
+	# additive_modifier = { 
+		# value = -30
+		# localisation_key = POPE_AIREASON_MODIFIER_FREE_INVESTITURE
+		# NOT = { character = FROM } #Not on yourself, dirty Pope.
+		# primary_title = {  
+			# has_law = investiture_law_1
+		# } 
+	# }
 	additive_modifier = { 
 		value = 15
 		localisation_key = POPE_AIREASON_MODIFIER_PLEDGED_TO_CRUSADE
