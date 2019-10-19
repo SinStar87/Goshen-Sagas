@@ -344,7 +344,7 @@ character_event = {	#Startup Characters
 						trait = mastermind
 						trait = mogul
 						trait = conspirator
-						trait = scholarsage
+						trait = scholar
 					}
 				}
 				change_diplomacy = 5
