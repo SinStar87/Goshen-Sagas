@@ -195,7 +195,14 @@ is_incapable_trigger = {
 		trait = deadly_injury
 	}
 }
-
+is_inaccessible_trigger = { #Remember to write this "is_inaccessible_trigger = no" when scripting, or the tooltip will be messed up (it reads "Is NOT in Hiding, in Seclusion, or out traveling")
+	custom_tooltip = {
+		text = is_inaccessible_tooltip
+		hidden_tooltip = {
+			is_incapable_trigger = yes
+		}
+	}
+}
 ###############
 #Title Triggers
 ###############
