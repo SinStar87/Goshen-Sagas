@@ -50,7 +50,10 @@ character_event = { # Generate 'Fake Family' for characters without any
 			is_nomadic = yes
 			is_tribal = yes
 		}
-		NOT = {
+		NOR = {
+			culture = polar
+			culture = dyinglands
+			religion = dyinglands_rel
 			has_nickname = nick_the_chaste
 		}
 		OR = {
@@ -1111,92 +1114,7 @@ character_event = { # Generate 'Fake Family' for characters without any
 		}
 		
 		any_child = { # Fix for children not getting any traits
-			limit = {
-				age = 16
-				NOR = {
-					has_education_diplomacy_trigger = yes
-					has_education_martial_trigger = yes
-					has_education_learning_trigger = yes
-					has_education_stewardship_trigger = yes
-				}
-			}
-			add_random_education_trait = yes
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
-		}
-		
-		any_child = {
-			limit = {
-				age = 10
-				NOT = { age = 16 }
-				NOT = { personality_traits = 2 }
-			}
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
-		}
-		
-		any_child = {
-			limit = {
-				age = 6
-				NOT = { age = 10 }
-				NOT = { personality_traits = 1 }
-			}
-			random_independent_ruler = {
-				limit = {
-					PREV = {
-						can_copy_personality_trait_from = PREV
-					}
-				}
-				PREV = {
-					copy_random_personality_trait = PREV
-				}
-			}
+			proper_character_effect = yes
 		}
 		recalc_succession = yes
 	}
