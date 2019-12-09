@@ -163,15 +163,23 @@ ca_ad_stables_8_desc;A collection of buildings which house Illune Riders.;;;;;;;
 ca_ad_stables_9;Stable Complex;;;;;;;;;;;;;x
 ca_ad_stables_9_desc;A large collection of buildings which house Illune Riders.;;;;;;;;;;;;;x
 ca_g_stables_1;Tiny Stable;;;;;;;;;;;;;x
-ca_g_stables_1_desc;A tiny stable has been built, drawing in several Doharn Knights.;;;;;;;;;;;;;x
-ca_g_stables_2;Small Stable;;;;;;;;;;;;;x
-ca_g_stables_2_desc;A small stable has been built, drawing in several Doharn Knights.;;;;;;;;;;;;;x
-ca_g_stables_3;Stable;;;;;;;;;;;;;x
-ca_g_stables_3_desc;A stable has been built, drawing in several Doharn Knights.;;;;;;;;;;;;;x
-ca_g_stables_4;Large Stable;;;;;;;;;;;;;x
-ca_g_stables_4_desc;A large stables has been built, drawing in several Doharn Knights.;;;;;;;;;;;;;x
-ca_g_stables_5;Full Stable;;;;;;;;;;;;;x
-ca_g_stables_5_desc;A full stables has been built, drawing in several Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_1_desc;A small building housing a few Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_2;Tiny Stable;;;;;;;;;;;;;x
+ca_g_stables_2_desc;A small building housing a few Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_3;Small Stable;;;;;;;;;;;;;x
+ca_g_stables_3_desc;A building housing Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_4;Small Stable;;;;;;;;;;;;;x
+ca_g_stables_4_desc;A building housing Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_5;Stable;;;;;;;;;;;;;x
+ca_g_stables_5_desc;A few buildings which house Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_6;Stable;;;;;;;;;;;;;x
+ca_g_stables_6_desc;A few buildings which house Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_7;Large Stable;;;;;;;;;;;;;x
+ca_g_stables_7_desc;A collection of buildings which house Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_8;Large Stable;;;;;;;;;;;;;x
+ca_g_stables_8_desc;A collection of buildings which house Doharn Knights.;;;;;;;;;;;;;x
+ca_g_stables_9;Stable Complex;;;;;;;;;;;;;x
+ca_g_stables_9_desc;A large collection of buildings which house Doharn Knights.;;;;;;;;;;;;;x
 ca_k_stables_1;Tiny Stable;;;;;;;;;;;;;x
 ca_k_stables_1_desc;A tiny stable has been built, drawing in some Kauni Cavalry.;;;;;;;;;;;;;x
 ca_k_stables_2;Small Stable;;;;;;;;;;;;;x
