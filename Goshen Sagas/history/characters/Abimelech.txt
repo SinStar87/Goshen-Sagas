@@ -78,6 +78,7 @@
 	father = 1 # First War Chief
 	mother = 24002 # Merra
 	1723.1.1 = { birth = yes }
+	1743.1.1 = { add_spouse = 24048 }
 	1790.1.1 = { death = yes }
 }
 8 = {
@@ -597,123 +598,96 @@
 	father = 61 # Taana
 	mother = 24041 # Ta
 	1823.1.1 = { birth = yes }
+	1843.1.1 = { add_spouse = 24042 }
 	1870.1.1 = { death = yes }
 }
 63 = {
 	name = Roolo
-	father = 62
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 62 # Thann
+	mother = 24042	# Kuyni
 	1848.1.1 = { birth = yes }
+	1868.1.1 = { add_spouse = 24043 }
 	1928.1.1 = { death = yes }
 }
 64 = {
 	name = Relf
-	father = 63
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 63 # Roolo
+	mother = 24043	# Fortah
 	1878.1.1 = { birth = yes }
+	1898.1.1 = { add_spouse = 24044 }
 	1943.1.1 = { death = yes }
 }
 65 = {
 	name = Braaka
-	father = 64
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 64 # Relf
+	mother = 24044 # Fiey
 	1901.1.1 = { birth = yes }
+	1921.1.1 = { add_spouse = 24045 }
 	1970.1.1 = { death = yes }
 }
 66 = {
 	name = Beor
-	father = 65
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 65 # Braaka
+	mother = 24045 # Kalla
 	1934.1.1 = { birth = yes }
+	1954.1.1 = { add_spouse = 24046 }
 	1984.1.1 = { death = yes }
 }
 67 = {
 	name = Beorthelfbrak
-	father = 66
 	dynasty = 6
 	culture = abimelech
 	religion = abimelech_rel
+	father = 66	# Beor
+	mother = 24046	# Merra
 	1959.1.1 = { birth = yes }
+	1979.1.1 = { add_spouse = 24047 }
 	2015.1.1 = { death = yes }
 }
 68 = {
 	name = Baoore
-	father = 67
 	dynasty = 6
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1989.1.1 = {
-		birth = yes
-	}
-	2015.1.1 = {
-		death = yes
-	}
+	father = 67	# Beorthelfbrak
+	mother = 24047	# Trig
+	1989.1.1 = { birth = yes }
+	2015.1.1 = { death = yes }
 }
 
 #Line of Eker Sons Clan
 70 = {
 	name = Beorthelfbrak
-	father = 7
 	dynasty = 7
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1756.1.1 = {
-		birth = yes
-	}
-	1821.4.9 = {
-		death = yes
-	}
+	father = 7 # Eadu
+	mother = 24048 # Nith
+	1756.1.1 = { birth = yes }
+	1776.1.1 = { add_spouse = 24049 }
+	1821.4.9 = { death = yes }
 }
 71 = {
 	name = Wulfrun
-	father = 70
 	dynasty = 7
-
 	culture = abimelech
 	religion = abimelech_rel
-
-	diplomacy = 5
-	martial = 5
-	stewardship = 5
-	intrigue = 5
-	learning = 5
-	health = 5.0
-	fertility = 0.5
-
-	1787.1.1 = {
-		birth = yes
-	}
-	1855.1.1 = {
-		death = yes
-	}
+	father = 70 # Beorthelfbrak
+	mother = 24049	# Ta
+	1787.1.1 = { birth = yes }
+	1855.1.1 = { death = yes }
 }
 72 = {
 	name = Wulfhrun
