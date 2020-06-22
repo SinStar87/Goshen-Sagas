@@ -1,0 +1,110 @@
+namespace = goshen_story_events
+narrative_event = {	#Days of Strife Intros
+	id = goshen_story_events.0
+	title = EVTTTLgoshen_story_events.0
+	desc = {
+		text = EVTDESCgoshen_story_events.0gawei
+		trigger = {
+			culture = gawei
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.0rannu
+		trigger = {
+			culture = rannu
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.0levyt
+		trigger = {
+			culture = levyt
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.0abimelech
+		trigger = {
+			culture = abimelech
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.0hesen
+		trigger = {
+			culture = hesen
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.0
+		trigger = {
+			NOR = {
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
+			}
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_story_events.0
+		trigger = {
+				culture = gawei
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_story_events.0
+		trigger = {
+				culture = rannu
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_story_events.0
+		trigger = {
+				culture = levyt
+		}
+	}
+
+	option = {
+		name = EVTOPTDgoshen_story_events.0
+		trigger = {
+				culture = abimelech
+		}
+	}
+
+	option = {
+		name = EVTOPTEgoshen_story_events.0
+		trigger = {
+				culture = hesen
+		}
+	}
+
+	option = {
+		name = EVTOPTFgoshen_story_events.0
+		trigger = {
+			NOR = {
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTGgoshen_story_events.0
+		trigger = {
+			NOR = {
+				culture = gawei
+				culture = rannu
+				culture = levyt
+				culture = abimelech
+				culture = hesen
+			}
+		}
+	}
+}
