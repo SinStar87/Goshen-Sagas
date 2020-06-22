@@ -230,6 +230,10 @@ zuvakgfx = {
 	skin_tone = 0
 }
 
+hobbitsgfx = {
+	skin_tone = 0
+}
+
 # Hard coded government graphical cultures
 tribalgfx = {}
 nomadgfx = {}
