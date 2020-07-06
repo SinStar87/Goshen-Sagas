@@ -409,6 +409,18 @@ EVTOPTDgoshen_story_events.0;The Axe and the Mountain!;;;;;;;;;;;;;x
 EVTOPTEgoshen_story_events.0;Purge the disbelievers!;;;;;;;;;;;;;x
 EVTOPTFgoshen_story_events.0;Oh, interesting!;;;;;;;;;;;;;x
 EVTOPTGgoshen_story_events.0;Ok;;;;;;;;;;;;;x
+EVTTTLgoshen_story_events.1;Death looms on the Mountain;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.1;Your head begins to swoon and you retch into the pail by your bed. Soon everything fades to darkness, your ragged breath and heartbeat filling your ears. Your last thoughts are dwellings on your son and nephew;;;;;;;;;;;;;x
+EVTOPTAgoshen_story_events.1;Death takes me.;;;;;;;;;;;;;x
+EVTTTLgoshen_story_events.11;Death of Cobar;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.11A;Cobar grows cold in his bed, his last breathes draw just a few hours ago. You, Rhun of the Bloodstone, stand before the Bonethrone of the Great Hall.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.11B;Rumors arrive in your hall, Great Chief of the Abimelech and your uncle, Cobar, has died. Likely to a sinister poison at his brother, Rhun,'s hands. Rhun has ruled by might his whole life and made many enimies among the mountain, if you chose you could march on the Great Hall, casting the Mountains into chaos.;;;;;;;;;;;;;x
+EVTDESCgoshen_story_events.11levyt;Your spy has arrived with new information, the former Great Chief has died, likely at his brother's hands. This has split the mountains and the former Chief's nephew, Soule, has risen up. The might of the Mountains turns inwards.;;;;;;;;;;;;;x
+EVTOPTAgoshen_story_events.11;The Mountains bow to me!;;;;;;;;;;;;;x
+EVTOPTBgoshen_story_events.11;Rhun is Great Chief by rite of Might.;;;;;;;;;;;;;x
+EVTOPTCgoshen_story_events.11;My Uncle's murder must be avenged!;;;;;;;;;;;;;x
+EVTOPTDgoshen_story_events.11;We must bide our time, the East grows chatoic.;;;;;;;;;;;;;x
+EVTOPTEgoshen_story_events.11;The Mountains' growing shadow must fade, by force.;;;;;;;;;;;;;x
 
 #Misc Informers
 EVTDESC31;[From.GetTitledFirstName] has seen fit to strike into your Realm, intent on forcing your people from their homes.;;;;;;;;;;;;;x

@@ -73,6 +73,18 @@ narrative_event = {	#Days of Strife Intros
 		trigger = {
 				culture = abimelech
 		}
+		IF = {
+			limit = {
+				has_landed_title = k_abimelech
+			}
+			k_abimelech = {
+				holder_scope = {
+					narrative_event = {
+						id = goshen_story_events.1
+					}
+				}
+			}
+		}
 	}
 
 	option = {
@@ -104,6 +116,136 @@ narrative_event = {	#Days of Strife Intros
 				culture = levyt
 				culture = abimelech
 				culture = hesen
+			}
+		}
+	}
+}
+narrative_event = {	#Days of Strife - War of the Abimelech
+	id = goshen_story_events.1
+	title = EVTTTLgoshen_story_events.1
+	desc = EVTDESCgoshen_story_events.1gawei
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = k_abimelech
+	}
+
+	option = {
+		name = EVTOPTGgoshen_story_events.1
+		c_28 = {
+			save_event_target_as = acw_heir
+		}
+		event_target:acw_heir = {
+			grant_title_no_opinion = k_abimelech
+			grant_title_no_opinion = d_great_war_hall
+			grant_title_no_opinion = c_war_halls_approach
+			grant_title_no_opinion = c_great_war_hall
+		}
+		death = {
+			death_reason = death_murder_unknown_poison
+			killer = event_target:acw_heir
+		}
+		c_28 = {
+			narrative_event = {
+				id = goshen_story_events.11
+			}
+		}
+	}
+}
+narrative_event = {	#Days of Strife - War of the Abimelech
+	id = goshen_story_events.11
+	title = EVTTTLgoshen_story_events.11
+	desc = {
+		text = EVTDESCgoshen_story_events.11A
+		trigger = {
+			character = 28
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.11B
+		trigger = {
+			character = 39
+		}
+	}
+	desc = {
+		text = EVTDESCgoshen_story_events.11levyt
+		trigger = {
+			has_landed_title = k_levyt
+		}
+	}
+	picture = GFX_evt_castle_construction
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAgoshen_story_events.11
+		trigger = {
+			character = 28
+		}
+		c_39 = {
+			narrative_event = {
+				id = goshen_story_events.11
+			}
+		}
+		k_levyt = {
+			holder_scope = {
+				narrative_event = {
+					id = goshen_story_events.11
+					days = 1
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTBgoshen_story_events.11
+		trigger = {
+			character = 39
+		}
+	}
+
+	option = {
+		name = EVTOPTCgoshen_story_events.11
+		trigger = {
+			character = 39
+		}
+		ai_chance = {
+			factor = 100
+		}
+		add_claim = k_abimelech
+		set_defacto_liege = THIS
+		k_abimelech = {
+			holder_scope = {
+				reverse_war = {
+					target = FROM
+					casus_belli = claim
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTDgoshen_story_events.11
+		trigger = {
+			has_landed_title = k_levyt
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = EVTOPTEgoshen_story_events.11
+		trigger = {
+			has_landed_title = k_levyt
+		}
+		add_claim = k_abimelech
+		k_abimelech = {
+			holder_scope = {
+				reverse_war = {
+					target = FROM
+					casus_belli = claim
+				}
 			}
 		}
 	}
