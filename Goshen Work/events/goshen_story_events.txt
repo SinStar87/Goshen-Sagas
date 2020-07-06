@@ -151,19 +151,6 @@ narrative_event = {	#Days of Strife - War of the Abimelech
 				id = goshen_story_events.11
 			}
 		}
-		c_39 = {
-			narrative_event = {
-				id = goshen_story_events.11
-			}
-		}
-		k_levyt = {
-			holder_scope = {
-				narrative_event = {
-					id = goshen_story_events.11
-					days = 1
-				}
-			}
-		}
 	}
 }
 narrative_event = {	#Days of Strife - War of the Abimelech
@@ -194,6 +181,19 @@ narrative_event = {	#Days of Strife - War of the Abimelech
 		name = EVTOPTAgoshen_story_events.11
 		trigger = {
 			character = 28
+		}
+		c_39 = {
+			narrative_event = {
+				id = goshen_story_events.11
+			}
+		}
+		k_levyt = {
+			holder_scope = {
+				narrative_event = {
+					id = goshen_story_events.11
+					days = 1
+				}
+			}
 		}
 	}
 
@@ -228,6 +228,9 @@ narrative_event = {	#Days of Strife - War of the Abimelech
 		name = EVTOPTDgoshen_story_events.11
 		trigger = {
 			has_landed_title = k_levyt
+		}
+		ai_chance = {
+			factor = 100
 		}
 	}
 
